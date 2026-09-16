@@ -1,10 +1,11 @@
 import io
 import json
+import os
 import tarfile
 
 import pytest
 
-from mbpost2mztabm import MassBankApiError, MassBankPublicClient, Project
+from mbpost2mztabm import MassBankApiError, MassBankError, MassBankPublicClient, Project
 
 
 def _make_tar(*entries):
@@ -197,6 +198,310 @@ def test_list_file_names_accepts_project(client, httpx_mock):
     )
     project = Project(location="MPST000160.1")
     assert client.list_file_names(project) == ["a.txt"]
+
+
+def test_list_project_files(client, httpx_mock):
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000160.1/files?limit=3&offset=0",
+        json={
+            "list": [
+                {
+                    "id": "f1",
+                    "name": "a.csv",
+                    "size": 10,
+                    "type": "result",
+                    "status": "server",
+                    "checksum": "x",
+                    "profiles": [],
+                },
+                {
+                    "id": "f2",
+                    "name": "b.d.zip",
+                    "size": 20,
+                    "type": "raw",
+                    "status": "server",
+                    "checksum": "y",
+                    "profiles": [{"id": "S0000000319", "summary": "6_TSOGA038"}],
+                },
+            ],
+            "meta": {"total": 2, "from": 1, "to": 2, "size": 30},
+        },
+    )
+    page = client.list_project_files("MPST000160.1", limit=3)
+    assert page.total == 2
+    assert page.size == 30
+    assert page.list[0].is_raw is False
+    assert page.list[1].is_raw is True
+    assert page.list[1].profiles[0].id == "S0000000319"
+    assert page.list[1].profiles[0].category == "sample"
+    assert page.list[1].profiles[0].prefix == "S"
+
+
+def test_list_project_files_resolves_bare_id(client, httpx_mock):
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000160",
+        json={"mbpostId": "MPST000160", "location": "MPST000160.1"},
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000160.1/files?limit=100&offset=0",
+        json={"list": [], "meta": {"total": 0, "from": 0, "to": 0, "size": 0}},
+    )
+    assert client.list_project_files("MPST000160").list == []
+
+
+def test_iter_project_files_follows_pagination(client, httpx_mock):
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000160.1/files?limit=2&offset=0",
+        json={"list": [{"id": "1"}, {"id": "2"}], "meta": {"total": 3, "from": 1, "to": 2, "size": 0}},
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000160.1/files?limit=2&offset=2",
+        json={"list": [{"id": "3"}], "meta": {"total": 3, "from": 3, "to": 3, "size": 0}},
+    )
+    ids = [f.id for f in client.iter_project_files("MPST000160.1", limit=2)]
+    assert ids == ["1", "2", "3"]
+
+
+def test_get_project_file_parses_presets(client, httpx_mock):
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000160.1/files/f2",
+        json={
+            "id": "f2",
+            "name": "b.d.zip",
+            "size": 20,
+            "type": "raw",
+            "is_on_server": 1,
+            "checksum": "y",
+            "presets": [
+                {
+                    "id": "S0000000319",
+                    "category": "sample",
+                    "presets": [
+                        {
+                            "key": "presetName",
+                            "value": "6_TSOGA038",
+                            "ontologyValue": "",
+                            "groupId": "g",
+                            "orderKey": 0,
+                            "label": "Preset name",
+                        },
+                        {
+                            "key": "species",
+                            "value": "Homo sapiens",
+                            "ontologyValue": "NCBITaxon:9606",
+                            "groupId": "g2",
+                            "orderKey": 4,
+                            "label": "Species",
+                        },
+                    ],
+                }
+            ],
+        },
+    )
+    file = client.get_project_file("MPST000160.1", "f2")
+    assert len(file.presets) == 1
+    preset = file.presets[0]
+    assert preset.category == "sample"
+    assert preset.name == "6_TSOGA038"
+    assert preset.as_dict()["species"] == "Homo sapiens"
+    assert preset.items[1].ontology_value == "NCBITaxon:9606"
+
+
+def test_get_experimental_presets(client, httpx_mock):
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000160.1/files?limit=100&offset=0",
+        json={
+            "list": [
+                {
+                    "id": "f2",
+                    "name": "b.d.zip",
+                    "type": "raw",
+                    "profiles": [{"id": "S1", "summary": "s"}],
+                }
+            ],
+            "meta": {"total": 1, "from": 1, "to": 1, "size": 20},
+        },
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000160.1/files/f2",
+        json={
+            "id": "f2",
+            "name": "b.d.zip",
+            "type": "raw",
+            "presets": [
+                {
+                    "id": "S1",
+                    "category": "sample",
+                    "presets": [{"key": "presetName", "value": "exp1"}],
+                }
+            ],
+        },
+    )
+    presets = client.get_experimental_presets("MPST000160.1", "b.d.zip")
+    assert [p.name for p in presets] == ["exp1"]
+
+
+def test_get_experimental_presets_mpst000218(client, httpx_mock):
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000218",
+        json={"mbpostId": "MPST000218", "location": "MPST000218.0", "revision": 0},
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000218.0/files?limit=100&offset=0",
+        json={
+            "list": [
+                {
+                    "id": "f_0000075193",
+                    "name": "cation_69.d.zip",
+                    "size": 123,
+                    "type": "raw",
+                    "status": "server",
+                    "checksum": "abc",
+                    "profiles": [
+                        {"id": "W0000001749", "summary": "Masterhands"},
+                        {"id": "A0000001762", "summary": "CE-TOF/MS cation"},
+                        {"id": "P0000001760", "summary": "CE-TOF/MS preparation"},
+                        {"id": "S0000001757", "summary": "El_day2"},
+                    ],
+                }
+            ],
+            "meta": {"total": 1, "from": 1, "to": 1, "size": 123},
+        },
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000218.0/files/f_0000075193",
+        json={
+            "id": "f_0000075193",
+            "name": "cation_69.d.zip",
+            "type": "raw",
+            "presets": [
+                {
+                    "id": "W0000001749",
+                    "category": "softwareSetting",
+                    "presets": [
+                        {"key": "presetName", "value": "Masterhands"},
+                        {"key": "software", "value": "Keio masterhands"},
+                    ],
+                },
+                {
+                    "id": "A0000001762",
+                    "category": "analyticalCondition",
+                    "presets": [
+                        {"key": "presetName", "value": "CE-TOF/MS cation"},
+                        {"key": "methodType", "value": "CE-MS"},
+                        {"key": "polarity", "value": "Positive"},
+                    ],
+                },
+                {
+                    "id": "P0000001760",
+                    "category": "preparation",
+                    "presets": [
+                        {"key": "presetName", "value": "CE-TOF/MS preparation"},
+                        {"key": "compoundsMeasured", "value": "Metabolome"},
+                    ],
+                },
+                {
+                    "id": "S0000001757",
+                    "category": "sample",
+                    "presets": [
+                        {"key": "presetName", "value": "El_day2"},
+                        {"key": "species", "value": "Eubacterium limosum"},
+                        {"key": "sampleCategory", "value": "Medium"},
+                    ],
+                },
+            ],
+        },
+    )
+    presets = client.get_experimental_presets("MPST000218", "cation_69.d.zip")
+    by_category = {p.category: p for p in presets}
+    assert set(by_category) == {
+        "sample",
+        "preparation",
+        "analyticalCondition",
+        "softwareSetting",
+    }
+    assert by_category["sample"].name == "El_day2"
+    assert by_category["sample"].as_dict()["species"] == "Eubacterium limosum"
+    assert by_category["analyticalCondition"].as_dict()["methodType"] == "CE-MS"
+    assert by_category["softwareSetting"].name == "Masterhands"
+
+
+def test_get_file_detail(client, httpx_mock):
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000218.0/files?limit=100&offset=0",
+        json={
+            "list": [
+                {
+                    "id": "f_0000075193",
+                    "name": "cation_69.d.zip",
+                    "size": 4242,
+                    "type": "raw",
+                    "status": "server",
+                    "checksum": "deadbeef",
+                    "profiles": [{"id": "S0000001757", "summary": "El_day2"}],
+                }
+            ],
+            "meta": {"total": 1, "from": 1, "to": 1, "size": 4242},
+        },
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000218.0/files/f_0000075193",
+        json={
+            "id": "f_0000075193",
+            "name": "cation_69.d.zip",
+            "size": 4242,
+            "type": "raw",
+            "is_on_server": 1,
+            "checksum": "deadbeef",
+            "presets": [
+                {
+                    "id": "S0000001757",
+                    "category": "sample",
+                    "presets": [
+                        {"key": "presetName", "value": "El_day2"},
+                        {"key": "species", "value": "Eubacterium limosum"},
+                    ],
+                }
+            ],
+        },
+    )
+    detail = client.get_file_detail("MPST000218.0", "cation_69.d.zip")
+    assert detail.name == "cation_69.d.zip"
+    assert detail.type == "raw"
+    assert detail.size == 4242
+    assert detail.checksum == "deadbeef"
+    assert detail.presets[0].category == "sample"
+    assert detail.presets[0].as_dict()["species"] == "Eubacterium limosum"
+
+
+@pytest.mark.integration
+@pytest.mark.skipif(
+    not os.environ.get("MBPOST_RUN_INTEGRATION"),
+    reason="set MBPOST_RUN_INTEGRATION=1 to hit the live MB-POST API",
+)
+def test_get_experimental_presets_mpst000218_live():
+    with MassBankPublicClient(timeout=60) as client:
+        presets = client.get_experimental_presets("MPST000218", "cation_69.d.zip")
+    by_category = {p.category: p for p in presets}
+    assert set(by_category) == {
+        "sample",
+        "preparation",
+        "analyticalCondition",
+        "softwareSetting",
+    }
+    assert by_category["sample"].name == "El_day2"
+    assert by_category["sample"].as_dict()["species"] == "Eubacterium limosum"
+    assert by_category["analyticalCondition"].as_dict()["methodType"] == "CE-MS"
+    assert by_category["softwareSetting"].name == "Masterhands"
+
+
+def test_get_experimental_presets_missing_file(client, httpx_mock):
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000160.1/files?limit=100&offset=0",
+        json={"list": [], "meta": {"total": 0, "from": 0, "to": 0, "size": 0}},
+    )
+    with pytest.raises(MassBankError):
+        client.get_experimental_presets("MPST000160.1", "nope.d.zip")
 
 
 def test_send_contact(client, httpx_mock):

@@ -24,3 +24,6 @@ packages = ["mbpost2mztabm"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = [
+    "integration: tests that hit the live MB-POST API (opt in with MBPOST_RUN_INTEGRATION=1)",
+]

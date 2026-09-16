@@ -76,9 +76,94 @@ import itertools
 first = list(itertools.islice(client.iter_file_names(project), 5))
 ```
 
+Alternatively, the **file-list endpoint is public** when addressed by the
+project *location* (`mbpostId.revision`); see below.
+
+### Get the experimental preset dataset for a file
+
+Each raw file in an announced project is linked to its experimental procedure
+presets: **Sample (S)**, **Preparation (P)**, **Analytical condition (A)** and
+**Software setting (W)**. Both the file list and per-file detail are public when
+the route is addressed by the project **location** (e.g. `MPST000160.1`), not
+the bare `mbpostId` (which returns `404`).
+
+```python
+from mbpost2mztabm import MassBankPublicClient
+
+with MassBankPublicClient() as client:
+    # 1. List files (paginated). Each raw file carries compact preset refs.
+    page = client.list_project_files("MPST000160.1")
+    for f in page.list:
+        summaries = [(p.category, p.summary) for p in f.profiles]
+        print(f.name, f.type, summaries)
+
+    # 2. Get the full experimental preset dataset for one file by name.
+    presets = client.get_experimental_presets(
+        "MPST000160.1", "260206_Tomita_69_neg_202602091225_tags.xml"
+    )
+    for preset in presets:
+        print(preset.id, preset.category, preset.name)
+        print(preset.as_dict())  # key -> value
+
+    # Or fetch a file's detail directly when you already have its id:
+    detail = client.get_project_file("MPST000160.1", "f_0000065325")
+    print(detail.presets)
+```
+
+`list_project_files` / `iter_project_files` accept a `Project`, a location
+string, or a bare `mbpostId` (resolved automatically via `get_project`).
+Only `raw` files carry presets; other file types return an empty list.
+
+Result shape:
+
+```python
+ExperimentalPreset(
+    id="S0000000319",
+    category="sample",
+    items=[
+        PresetItem(key="presetName", value="6_TSOGA038", ontology_value="", ...),
+        PresetItem(key="species", value="Mus musculus (Mouse)",
+                   ontology_value="NCBITaxon:10090", ...),
+        ...
+    ],
+)
+```
+
+### Get the file detail (Profile metadata set) by file name
+
+`get_file_detail` resolves a file by name and returns the full record behind
+MB-POST's "Detail" view: file metadata (`name`, `type`, `size`, `checksum`)
+plus the **Profile** metadata set in `presets` (the full experimental preset
+datasets). It is the same endpoint as above, but returns the metadata rather
+than only the presets.
+
+```python
+from mbpost2mztabm import MassBankPublicClient
+
+with MassBankPublicClient() as client:
+    detail = client.get_file_detail("MPST000218", "cation_69.d.zip")
+
+    print(detail.id, detail.name, detail.type, detail.size, detail.checksum)
+    # Profile metadata set, grouped by preset category (S/P/A/W):
+    for preset in detail.presets:
+        print(preset.category, preset.id, preset.name)
+        for item in preset.items:
+            print("  ", item.key, item.value, item.ontology_value)
+```
+
+Accepting a file **id** instead, call `get_project_file(project, file_id)`
+directly to skip the name lookup. Both helpers raise `MassBankError` when the
+name is not found.
+
 Development uses [uv](https://docs.astral.sh/uv/):
 
 ```bash
 uv sync --extra dev
 uv run pytest
+```
+
+Live tests against the real API are opt-in (they are skipped by default):
+
+```bash
+MBPOST_RUN_INTEGRATION=1 uv run pytest -m integration
 ```

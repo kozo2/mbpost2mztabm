@@ -11,6 +11,11 @@ Method                           Endpoint
 :meth:`search_cv_terms`          ``GET /api/cv-term/{category}?q=...``
 :meth:`list_projects`            ``GET /api/projects``
 :meth:`get_project`                ``GET /api/projects/{mbpostId}``
+:meth:`list_project_files`       ``GET /api/projects/{location}/files``
+:meth:`iter_project_files`       ``GET /api/projects/{location}/files``
+:meth:`get_project_file`         ``GET /api/projects/{location}/files/{fileId}``
+:meth:`get_file_detail`          ``GET /api/projects/{location}/files/{fileId}``
+:meth:`get_experimental_presets` ``GET /api/projects/{location}/files/{fileId}``
 :meth:`download`                 ``GET /api/download/{location}``
 :meth:`iter_file_names`          ``GET /api/download/{location}`` (tar listing)
 :meth:`list_file_names`          ``GET /api/download/{location}`` (tar listing)
@@ -28,11 +33,14 @@ from urllib.parse import quote
 
 import httpx
 
-from .exceptions import MassBankApiError
+from .exceptions import MassBankApiError, MassBankError
 from .models import (
     CVTerm,
+    ExperimentalPreset,
+    FilePage,
     GlobalInfo,
     Project,
+    ProjectFile,
     ProjectPage,
     Statistics,
 )
@@ -265,11 +273,126 @@ class MassBankPublicClient:
                     handle.write(chunk)
             return target
 
-    @staticmethod
-    def _resolve_location(project: Project | str) -> str:
+    def _resolve_location(self, project: Project | str) -> str:
+        """Return the ``mbpostId.revision`` location for a project reference.
+
+        Accepts a :class:`~mbpost2mztabm.models.Project`, a location string
+        (``MPST000160.1``) or a bare MB-POST id (``MPST000160``). A bare id is
+        resolved through :meth:`get_project`, which always carries a
+        ``location``. File routes are keyed on the location, not the id.
+        """
         if isinstance(project, Project):
-            return project.location
-        return str(project)
+            if project.location:
+                return project.location
+            return self.get_project(project.mbpost_id).location
+        value = str(project)
+        if "." in value:
+            return value
+        return self.get_project(value).location
+
+    def list_project_files(
+        self,
+        project: Project | str,
+        *,
+        limit: int = 100,
+        offset: int = 0,
+    ) -> FilePage:
+        """List the files of a public project.
+
+        Endpoint: ``GET /api/projects/{location}/files``. The route is keyed on
+        the project **location** (``mbpostId.revision``); the bare
+        ``/api/projects/{mbpostId}/files`` form returns ``404`` even for
+        announced projects, so a :class:`~mbpost2mztabm.models.Project` or a
+        location string should be passed.
+
+        :param project: Project, location (``MPST000160.1``) or bare id.
+        :param limit: Page size.
+        :param offset: Zero-based record offset.
+        """
+        location = self._resolve_location(project)
+        path = f"/api/projects/{self._quote(location)}/files"
+        params = {"limit": limit, "offset": offset}
+        return FilePage.from_dict(self._get(path, params=params).json())
+
+    def iter_project_files(
+        self,
+        project: Project | str,
+        *,
+        limit: int = 100,
+        offset: int = 0,
+    ) -> Iterator[ProjectFile]:
+        """Yield every file of a public project, following pagination."""
+        current = offset
+        while True:
+            page = self.list_project_files(project, limit=limit, offset=current)
+            yield from page.list
+            if not page.list:
+                return
+            current += len(page.list)
+            if page.to and page.total and current >= page.total:
+                return
+
+    def get_project_file(self, project: Project | str, file_id: str) -> ProjectFile:
+        """Fetch a single file entry including its full experimental presets.
+
+        Endpoint: ``GET /api/projects/{location}/files/{fileId}``.
+        """
+        location = self._resolve_location(project)
+        path = f"/api/projects/{self._quote(location)}/files/{self._quote(file_id)}"
+        return ProjectFile.from_dict(self._get(path).json())
+
+    def find_project_file(self, project: Project | str, name: str) -> ProjectFile | None:
+        """Return the file whose ``name`` matches exactly, or ``None``.
+
+        This walks the paginated file list; the returned entry carries compact
+        preset references in :attr:`ProjectFile.profiles`.
+        """
+        for file in self.iter_project_files(project):
+            if file.name == name:
+                return file
+        return None
+
+    def get_file_detail(
+        self,
+        project: Project | str,
+        file_name: str,
+    ) -> ProjectFile:
+        """Return the full detail record of a named project file.
+
+        Resolves the file by name in the public file list, then fetches its
+        single-file entry. The result carries the file metadata shown in the
+        MB-POST "Detail" view (``name``, ``type``, ``size``, ``checksum``) plus
+        the **Profile** metadata set under :attr:`ProjectFile.presets` (the full
+        experimental preset datasets, only present on ``raw`` files).
+
+        :param project: Project, location (``MPST000160.1``) or bare id.
+        :param file_name: Exact file name, e.g. ``cation_69.d.zip``.
+        :raises MassBankError: if no file with that name exists.
+        """
+        location = self._resolve_location(project)
+        file = self.find_project_file(location, file_name)
+        if file is None:
+            raise MassBankError(f"no file named {file_name!r} in {project!r}")
+        return self.get_project_file(location, file.id)
+
+    def get_experimental_presets(
+        self,
+        project: Project | str,
+        file_name: str,
+    ) -> list[ExperimentalPreset]:
+        """Return the experimental preset dataset (Profile) for a named file.
+
+        Equivalent to :meth:`get_file_detail` then reading
+        :attr:`ProjectFile.presets`. Each preset carries ``category`` and
+        key/value/ontology items. Only ``raw`` files have presets; other file
+        types return an empty list.
+
+        :param project: Project, location (``MPST000160.1``) or bare id.
+        :param file_name: Exact file name, e.g.
+            ``TSOGA038_p_20241106_Sample_17.d.zip``.
+        :raises MassBankError: if no file with that name exists.
+        """
+        return self.get_file_detail(project, file_name).presets
 
     def iter_file_names(
         self,
@@ -279,12 +402,12 @@ class MassBankPublicClient:
     ) -> Iterator[str]:
         """Yield the file names of a project's downloadable archive.
 
-        The public API exposes no file-list endpoint (the
-        ``/api/projects/{id}/files`` route requires authentication), so names
-        are read from the tar archive returned by ``/api/download/{location}``.
-        The archive is stream-parsed, but ``tar`` has no random access: walking
-        every name reads the whole (often multi-hundred-MB) archive. Stop
-        iterating early to avoid downloading the remainder.
+        Unlike :meth:`iter_project_files` (which queries the lightweight public
+        file-list endpoint), this reads names from the tar archive returned by
+        ``/api/download/{location}``. The archive is stream-parsed, but ``tar``
+        has no random access: walking every name reads the whole (often
+        multi-hundred-MB) archive. Stop iterating early to avoid downloading
+        the remainder.
 
         :param project: A :class:`~mbpost2mztabm.models.Project` (its
             ``location`` is used) or a location string such as ``MPST000160.1``.

@@ -74,7 +74,10 @@ Method/path pairs were recovered from every `xhr.*` call site in the bundle.
 | GET | `/api/cv-term/{category}?q={query}` | Controlled-vocabulary autocomplete |
 | GET | `/api/projects?q={q}&limit={n}&offset={n}` | Public (announced) project list |
 | GET | `/api/projects/{mbpostId}` | Public project detail |
+| GET | `/api/projects/{location}/files?limit={n}&offset={n}` | Public file list; `location` is `mbpostId.revision` (e.g. `MPST000160.1`). Raw files carry `profiles` (preset refs) |
+| GET | `/api/projects/{location}/files/{fileId}` | Public file detail; full experimental `presets` dataset |
 | GET | `/api/download/{location}` | Archive of all files (e.g. `MPST000160.1`) |
+| GET | `/data/{location}/{filename}` | Direct download of one file |
 | POST | `/api/contact` | Contact form, `201` on success |
 
 ### 2.2 Preview / share-link endpoints
@@ -167,6 +170,8 @@ GET /api/input-items                             200  16,441 B (project/sample/p
 GET /api/projects                                200  23,700 B
 GET /api/projects?q=test&limit=2&offset=0        200  {"list":[...],"meta":{"total":...,"from":1,"to":...}}
 GET /api/projects/MPST000160                     200  full project record
+GET /api/projects/MPST000160.1/files?limit=3     200  {"list":[{... "profiles":[{id,summary}]}],"meta":{total,from,to,size}}
+GET /api/projects/MPST000160.1/files/f_0000065328 200  {"id","name",...,"presets":[...]}  full preset dataset
 GET /api/download/MPST000160.1                   200  application/octet-stream, ~294 MB
 GET /api/cv-term/species?q=homo                  200  {"list":[{"id":"NCBITaxon:9605","text":"Homo"}, ...]}
 GET /api/cv-term/foo?q=x                         200  {"list":[]}   (unknown category = empty, not error)
@@ -181,7 +186,8 @@ GET /api/mirage                                  401  {"message":"Unautorized"}
 GET /api/replicates/1                            401  {"message":"Unautorized"}
 GET /api/previews                                400  {"message":"Bad Request"}   (no token header)
 GET /api/preview-files                           400  {"message":"Bad Request"}
-GET /api/projects/MPST000160/files               404  (route hidden without auth)
+GET /api/projects/MPST000160/files               404  (bare mbpostId; use location MPST000160.1 instead)
+GET /api/projects/MPST000160/files/1             404  (bare mbpostId, same reason)
 GET /api/projects/self?limit=1                   401
 GET /api/projects/MPST000160/revisions           405  HTML "Method not allowed"
 GET /api/login  (bad token)                      500
@@ -227,6 +233,43 @@ OPTIONS /api/projects                            401
 ```
 
 IDs are ontology terms (e.g. NCBITaxon) where applicable.
+
+`GET /api/projects/{location}/files` (file list) — each entry is a file record.
+Only `raw` files carry presets, and here they are compact references under
+`profiles`:
+
+```json
+{
+  "list": [
+    { "id": "f_0000075193", "name": "cation_69.d.zip", "size": 123,
+      "type": "raw", "status": "server", "checksum": "aa53...",
+      "profiles": [ {"id":"W0000001749","summary":"Masterhands"},
+                    {"id":"A0000001762","summary":"CE-TOF/MS cation"},
+                    {"id":"P0000001760","summary":"CE-TOF/MS preparation"},
+                    {"id":"S0000001757","summary":"El_day2"} ] }
+  ],
+  "meta": { "total": 1, "from": 1, "to": 1, "size": 123 }
+}
+```
+
+`GET /api/projects/{location}/files/{fileId}` (file detail) — the same file
+record plus the full **Profile** metadata set under `presets` (note the
+different key from the list). This is what the SPA's file "Detail" dialog
+renders (File name / File type / File size / MD5 checksum / Profile):
+
+```json
+{
+  "id": "f_0000075193", "name": "cation_69.d.zip", "size": 123,
+  "type": "raw", "is_on_server": 1, "checksum": "aa53...",
+  "presets": [
+    { "id": "S0000001757", "category": "sample",
+      "presets": [
+        {"key":"presetName","value":"El_day2","ontologyValue":"","groupId":"...","orderKey":0,"label":"Preset name"},
+        {"key":"species","value":"Eubacterium limosum","ontologyValue":"","groupId":"...","orderKey":4,"label":"Species"}
+      ] }
+  ]
+}
+```
 
 ---
 
@@ -284,9 +327,19 @@ curl -s -H "X-MB-Post-Preview-Token: $TOK" \
   not the message.
 - **Inconsistent auth failure codes:** `/api/login` with an invalid token returns
   `500`, not `401`. `OPTIONS` returns `401` (no CORS preflight support).
-- **Hidden routes:** authenticated file routes return `404` when called
-  anonymously (e.g. `/api/projects/{id}/files`), while `/api/files/{id}` returns
-  `401`. Do not assume 404 means the route is wrong.
+- **File routes are public when keyed on the location.** The file list and file
+  detail are readable anonymously at
+  `/api/projects/{location}/files` and `/api/projects/{location}/files/{fileId}`,
+  where `location` is `mbpostId.revision` (e.g. `MPST000160.1`). The same routes
+  with only the bare `mbpostId` (e.g. `/api/projects/MPST000160/files`) return
+  `404`, so do not assume 404 means the route is wrong. The standalone
+  `/api/files/{id}` and `/api/files/{idList}` routes do require auth (`401`).
+- **Preset payload key differs by route:** the file-list response exposes
+  compact references under `profiles` (`[{id, summary}]`), while the single-file
+  response exposes the full dataset under `presets`
+  (`[{id, category, presets:[{key,value,ontologyValue,label,...}]}]`). Presets
+  are only attached to `raw` files. Preset id prefixes map to categories:
+  `S`=sample, `P`=preparation, `A`=analyticalCondition, `W`=softwareSetting.
 - **Unknown CV category is not an error:** `/api/cv-term/<anything>?q=x` returns
   `200 {"list":[]}`.
 - **Wrong HTTP method** yields an HTML `405` page from the web server, not JSON.

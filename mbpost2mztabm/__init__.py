@@ -7,10 +7,16 @@ documented in ``mbpost_api.md`` section 2.1.
 
 from .exceptions import MassBankApiError, MassBankError
 from .models import (
+    PRESET_CATEGORY_BY_PREFIX,
     CVTerm,
+    ExperimentalPreset,
+    FilePage,
     FileStatistics,
     GlobalInfo,
+    PresetItem,
+    PresetRef,
     Project,
+    ProjectFile,
     ProjectPage,
     ProjectStatistics,
     Statistics,
@@ -19,13 +25,19 @@ from .public import DEFAULT_BASE_URL, MassBankPublicClient
 
 __all__ = [
     "DEFAULT_BASE_URL",
+    "PRESET_CATEGORY_BY_PREFIX",
     "CVTerm",
+    "ExperimentalPreset",
+    "FilePage",
     "FileStatistics",
     "GlobalInfo",
     "MassBankApiError",
     "MassBankError",
     "MassBankPublicClient",
+    "PresetItem",
+    "PresetRef",
     "Project",
+    "ProjectFile",
     "ProjectPage",
     "ProjectStatistics",
     "Statistics",
