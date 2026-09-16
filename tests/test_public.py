@@ -1,8 +1,25 @@
+import io
 import json
+import tarfile
 
 import pytest
 
-from mbpost2mztabm import MassBankApiError, MassBankPublicClient
+from mbpost2mztabm import MassBankApiError, MassBankPublicClient, Project
+
+
+def _make_tar(*entries):
+    buf = io.BytesIO()
+    with tarfile.open(fileobj=buf, mode="w") as archive:
+        for name, payload in entries:
+            info = tarfile.TarInfo(name)
+            if payload is None:
+                info.type = tarfile.DIRTYPE
+                info.size = 0
+                archive.addfile(info)
+            else:
+                info.size = len(payload)
+                archive.addfile(info, io.BytesIO(payload))
+    return buf.getvalue()
 
 
 @pytest.fixture
@@ -144,6 +161,42 @@ def test_download_to_file(client, httpx_mock, tmp_path):
     result = client.download("MPST000160.1", target)
     assert result == target
     assert target.read_bytes() == b"data"
+
+
+def test_list_file_names(client, httpx_mock):
+    payload = _make_tar(
+        ("MB-POST_files_MPST000037.0/", None),
+        ("MB-POST_files_MPST000037.0/TSOGA038_Sample_17.d.zip", b"zip"),
+        ("MB-POST_files_MPST000037.0/results.xlsx", b"xlsx"),
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/download/MPST000037.0",
+        content=payload,
+    )
+    names = client.list_file_names("MPST000037.0")
+    assert names == ["TSOGA038_Sample_17.d.zip", "results.xlsx"]
+
+
+def test_list_file_names_keeps_root(client, httpx_mock):
+    payload = _make_tar(
+        ("root/", None),
+        ("root/a.txt", b"a"),
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/download/MPST000037.0",
+        content=payload,
+    )
+    assert client.list_file_names("MPST000037.0", trim_root=False) == ["root", "root/a.txt"]
+
+
+def test_list_file_names_accepts_project(client, httpx_mock):
+    payload = _make_tar(("root/", None), ("root/a.txt", b"a"))
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/download/MPST000160.1",
+        content=payload,
+    )
+    project = Project(location="MPST000160.1")
+    assert client.list_file_names(project) == ["a.txt"]
 
 
 def test_send_contact(client, httpx_mock):

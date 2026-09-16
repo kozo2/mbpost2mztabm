@@ -43,6 +43,39 @@ parameters. For example, ids for projects matching a query:
 ids = client.list_project_ids(q="lipidomics")
 ```
 
+### Retrieve the file name list of a project
+
+There is **no public file-list endpoint**: `/api/projects/{id}/files` requires
+authentication, and a public project record only carries `fileCount`. The
+public file names therefore come from the project archive served by
+`GET /api/download/{location}`, which is a **POSIX tar** (despite the `.zip`
+name in the API examples). Use `iter_file_names` (streaming, lazy) or
+`list_file_names` (eager):
+
+```python
+from mbpost2mztabm import MassBankPublicClient
+
+with MassBankPublicClient() as client:
+    project = client.get_project("MPST000037")
+    # >>> ['TSOGA038_p_20241106_Sample_16.d.zip',
+    #      'TSOGA038_p_20241106_Sample_18.d.zip', ...]
+    names = client.list_file_names(project)
+```
+
+Both accept either a `Project` (its `location` is used) or a location string
+such as `"MPST000037.0"`, and strip the archive's top-level directory prefix
+(`MB-POST_files_MPST000037.0/`) by default; pass `trim_root=False` to keep it.
+
+> **Warning:** the tar format has no random access, so listing every name reads
+> the entire archive (typically hundreds of MB). `iter_file_names` yields names
+> as it goes, so stop early when you only need the first few:
+
+```python
+import itertools
+
+first = list(itertools.islice(client.iter_file_names(project), 5))
+```
+
 Development uses [uv](https://docs.astral.sh/uv/):
 
 ```bash

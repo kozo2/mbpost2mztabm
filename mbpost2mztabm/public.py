@@ -10,16 +10,20 @@ Method                           Endpoint
 :meth:`get_input_items`          ``GET /api/input-items``
 :meth:`search_cv_terms`          ``GET /api/cv-term/{category}?q=...``
 :meth:`list_projects`            ``GET /api/projects``
-:meth:`get_project`              ``GET /api/projects/{mbpostId}``
+:meth:`get_project`                ``GET /api/projects/{mbpostId}``
 :meth:`download`                 ``GET /api/download/{location}``
+:meth:`iter_file_names`          ``GET /api/download/{location}`` (tar listing)
+:meth:`list_file_names`          ``GET /api/download/{location}`` (tar listing)
 :meth:`send_contact`             ``POST /api/contact``
 ===============================  =====================================
 """
 
 from __future__ import annotations
 
+import io
+import tarfile
 from pathlib import Path
-from typing import Any, Iterator, Mapping
+from typing import Any, Iterable, Iterator, Mapping
 from urllib.parse import quote
 
 import httpx
@@ -35,6 +39,32 @@ from .models import (
 
 DEFAULT_BASE_URL = "https://repository.massbank.jp"
 """Origin serving the MB-POST API and SPA."""
+
+
+class _HttpByteStream(io.RawIOBase):
+    """Adapt an iterator of byte chunks into a read-only file-like object.
+
+    Lets :mod:`tarfile` stream-parse an HTTP response without buffering the
+    whole archive in memory.
+    """
+
+    def __init__(self, chunks: Iterable[bytes]) -> None:
+        self._chunks = iter(chunks)
+        self._buffer = b""
+
+    def readable(self) -> bool:
+        return True
+
+    def readinto(self, target: bytearray) -> int:
+        while not self._buffer:
+            try:
+                self._buffer = bytes(next(self._chunks))
+            except StopIteration:
+                return 0
+        size = min(len(target), len(self._buffer))
+        target[:size] = self._buffer[:size]
+        self._buffer = self._buffer[size:]
+        return size
 
 
 class MassBankPublicClient:
@@ -234,6 +264,64 @@ class MassBankPublicClient:
                 for chunk in response.iter_bytes():
                     handle.write(chunk)
             return target
+
+    @staticmethod
+    def _resolve_location(project: Project | str) -> str:
+        if isinstance(project, Project):
+            return project.location
+        return str(project)
+
+    def iter_file_names(
+        self,
+        project: Project | str,
+        *,
+        trim_root: bool = True,
+    ) -> Iterator[str]:
+        """Yield the file names of a project's downloadable archive.
+
+        The public API exposes no file-list endpoint (the
+        ``/api/projects/{id}/files`` route requires authentication), so names
+        are read from the tar archive returned by ``/api/download/{location}``.
+        The archive is stream-parsed, but ``tar`` has no random access: walking
+        every name reads the whole (often multi-hundred-MB) archive. Stop
+        iterating early to avoid downloading the remainder.
+
+        :param project: A :class:`~mbpost2mztabm.models.Project` (its
+            ``location`` is used) or a location string such as ``MPST000160.1``.
+        :param trim_root: Strip the archive's top-level directory prefix
+            (e.g. ``MB-POST_files_MPST000160.1/``) from each name.
+        """
+        location = self._resolve_location(project)
+        path = f"/api/download/{self._quote(location)}"
+        with self._client.stream("GET", path) as response:
+            self._raise_for_status(response)
+            stream = _HttpByteStream(response.iter_bytes())
+            root: str | None = None
+            with tarfile.open(fileobj=stream, mode="r|") as archive:
+                for member in archive:
+                    name = member.name
+                    if root is None and member.isdir():
+                        root = name.rstrip("/") + "/"
+                    if trim_root and root:
+                        if name.rstrip("/") + "/" == root:
+                            continue
+                        if name.startswith(root):
+                            name = name[len(root) :]
+                    if name:
+                        yield name
+
+    def list_file_names(
+        self,
+        project: Project | str,
+        *,
+        trim_root: bool = True,
+    ) -> list[str]:
+        """Return the file names of a project's downloadable archive.
+
+        Convenience wrapper around :meth:`iter_file_names` that reads the
+        entire archive; see that method for the caveats.
+        """
+        return list(self.iter_file_names(project, trim_root=trim_root))
 
     def send_contact(self, data: Mapping[str, Any] | None = None) -> None:
         """Submit the public contact form (``POST /api/contact``).

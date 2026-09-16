@@ -292,6 +292,13 @@ curl -s -H "X-MB-Post-Preview-Token: $TOK" \
 - **Wrong HTTP method** yields an HTML `405` page from the web server, not JSON.
 - **`/api/download/{location}` is public** for announced projects and streams the
   whole archive in one response (no range/pagination semantics worth relying on).
+- **Download archive is a POSIX tar**, not a zip, despite `.zip`-style locations
+  in the examples. It contains a single top-level directory
+  `MB-POST_files_{location}/` holding the project's files (sample `.d` folders
+  are themselves zipped as `*.d.zip`, alongside result Excel files). There is no
+  public file-list endpoint (`/api/projects/{id}/files` needs auth), so file
+  names must be read from this tar; tar has no random access, so enumerating all
+  names requires downloading the whole archive.
 - **Uploads** use a resumable protocol at `/api/upload` (the bundle wraps a
   Presto client); `POST /api/mirage` is a separate multipart import-preview.
 - **SPA routes** (for reference when mapping URLs): `/`, `/entry/:id`,
