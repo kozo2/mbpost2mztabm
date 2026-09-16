@@ -1,6 +1,37 @@
 # mbpost2mztabm
 Convert MB-POST "result" file to mzTab-M
 
+## Installation
+
+The package is not published on PyPI; install it with
+[uv](https://docs.astral.sh/uv/) from the Git repository.
+
+Add it as a dependency of an existing project:
+
+```bash
+uv add git+https://github.com/kozo2/mbpost2mztabm.git
+```
+
+Install it into the currently active virtual environment:
+
+```bash
+uv pip install git+https://github.com/kozo2/mbpost2mztabm.git
+```
+
+Install a specific revision/tag:
+
+```bash
+uv add "git+https://github.com/kozo2/mbpost2mztabm.git@main"
+```
+
+For development, clone the repo and sync the dev environment:
+
+```bash
+git clone https://github.com/kozo2/mbpost2mztabm.git
+cd mbpost2mztabm
+uv sync --extra dev
+```
+
 ## MB-POST public API client
 
 `mbpost2mztabm` includes a client for the public (no-auth) endpoints of the
