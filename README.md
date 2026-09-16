@@ -222,6 +222,47 @@ Accepting a file **id** instead, call `get_project_file(project, file_id)`
 directly to skip the name lookup. Both helpers raise `MassBankError` when the
 name is not found.
 
+### Get the "Detail" metadata for every raw file in a project
+
+`get_raw_file_metadata` returns, for all rows on the entry page whose File name
+column is of type `raw`, exactly the metadata shown after clicking **Detail**
+(File name / File type / File size / MD5 checksum / Profile). Example for
+<https://repository.massbank.jp/entry/MPST000218>:
+
+```python
+from mbpost2mztabm import MassBankPublicClient
+
+with MassBankPublicClient() as client:
+    metadata = client.get_raw_file_metadata("MPST000218")
+    for entry in metadata:
+        print(entry["file_name"], entry["file_type"], entry["file_size"])
+        print("  MD5:", entry["md5_checksum"])
+        for profile in entry["profile"]:
+            print("  ", profile["category"], profile["name"], profile["fields"])
+```
+
+Each item is a dict:
+
+```python
+{
+    "file_name": "cation_Blank_4.d.zip",
+    "file_type": "raw",
+    "file_size": "156.9 MB",        # human readable, as displayed
+    "file_size_bytes": 164519681,
+    "md5_checksum": "9a8e6891...",
+    "profile": [
+        {"id": "W0000001749", "category": "softwareSetting",
+         "name": "Masterhands", "fields": {"presetName": "Masterhands", ...}},
+        ...
+    ],
+}
+```
+
+`list_raw_file_details` returns the same data as `ProjectFile` objects, and
+`iter_raw_file_details` yields them lazily. These make `1 + n_raw` requests
+(one file-list call, then one detail call per raw file), so use the iterator to
+stop early on large projects.
+
 Development uses [uv](https://docs.astral.sh/uv/):
 
 ```bash

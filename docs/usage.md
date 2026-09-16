@@ -262,6 +262,34 @@ by_category["sample"].as_dict()["species"]       # 'Eubacterium limosum'
 Both raise `MassBankError` if no file with that name exists. Only `raw` files
 have presets; other types return an empty list.
 
+#### `iter_raw_file_details(project, *, limit=100) -> Iterator[ProjectFile]`
+
+Lazily yields the detail record (metadata + `presets`) of every `raw` file in a
+project. Fetches the file list once, then one detail request per raw file, so it
+makes `1 + n_raw` requests.
+
+#### `list_raw_file_details(project, *, limit=100) -> list[ProjectFile]`
+
+Eager version of `iter_raw_file_details`.
+
+#### `get_raw_file_metadata(project, *, limit=100) -> list[dict]`
+
+Returns the **"Detail" dialog metadata** for every `raw` file in a project,
+directly comparable to the rows whose File name column has type `raw` on the
+entry page, e.g. <https://repository.massbank.jp/entry/MPST000218>. Each dict is
+produced by `ProjectFile.detail_metadata()`.
+
+```python
+metadata = client.get_raw_file_metadata("MPST000218")
+entry = metadata[0]
+entry["file_name"]        # 'cation_Blank_4.d.zip'
+entry["file_type"]        # 'raw'
+entry["file_size"]        # '156.9 MB'  (human readable, as displayed)
+entry["file_size_bytes"]  # 164519681
+entry["md5_checksum"]     # '9a8e6891...'
+entry["profile"]          # [{'id':..., 'category':..., 'name':..., 'fields': {...}}, ...]
+```
+
 ### Downloads and archives
 
 #### `download(location, destination=None) -> bytes | Path`
@@ -329,7 +357,10 @@ key is exposed as `from_`).
 `id`, `name`, `size`, `type`, `status`, `is_on_server`, `checksum`,
 `profiles: list[PresetRef]` (from the list endpoint), `presets:
 list[ExperimentalPreset]` (from the detail endpoint).
-Property: `is_raw` (`type == "raw"`).
+Properties: `is_raw` (`type == "raw"`).
+Method: `detail_metadata()` returns the dict shown in the "Detail" dialog
+(`file_name`, `file_type`, `file_size`, `file_size_bytes`, `md5_checksum`,
+`profile`).
 
 ### `FilePage`
 
@@ -359,6 +390,11 @@ One preset field: `key`, `value`, `ontology_value`, `group_id`, `order_key`,
 ### `GlobalInfo`, `CVTerm`
 
 `GlobalInfo`: `title`, `text`, `is_active`. `CVTerm`: `id`, `text`.
+
+### `human_readable_size(size) -> str`
+
+Formats a byte count the way the MB-POST UI does (e.g.
+`human_readable_size(164519681) == "156.9 MB"`).
 
 ### `PRESET_CATEGORY_BY_PREFIX`
 

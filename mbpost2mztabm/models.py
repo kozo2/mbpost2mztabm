@@ -13,6 +13,27 @@ def _as_int(value: Any, default: int = 0) -> int:
         return default
 
 
+def human_readable_size(size: int) -> str:
+    """Format a byte count the way the MB-POST UI does.
+
+    Mirrors the SPA's ``humanReadableFileSize``: divide by 1024 and pick the
+    first unit (``kB``, ``MB``, ``GB``, ...) that keeps the value under 1024,
+    then round to one decimal.
+
+    >>> human_readable_size(164519681)
+    '156.9 MB'
+    """
+    value = abs(float(size))
+    units = ["kB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"]
+    index = -1
+    while True:
+        value /= 1024
+        index += 1
+        if value < 1024 or index >= len(units) - 1:
+            break
+    return f"{value:.1f} {units[index]}"
+
+
 @dataclass(frozen=True)
 class GlobalInfo:
     """Contents of ``GET /_data/global_info.json`` (static maintenance notice)."""
@@ -272,6 +293,32 @@ class ProjectFile:
     @property
     def is_raw(self) -> bool:
         return self.type == "raw"
+
+    def detail_metadata(self) -> dict[str, Any]:
+        """Return the values shown in the MB-POST file "Detail" dialog.
+
+        Keys mirror the dialog rows: ``file_name``, ``file_type``,
+        ``file_size`` (human readable, as displayed), ``md5_checksum`` and
+        ``profile`` (the experimental preset metadata set). ``file_size_bytes``
+        is included for convenience. Useful for ``raw`` files, which carry the
+        profile; for other types :attr:`presets` is empty.
+        """
+        return {
+            "file_name": self.name,
+            "file_type": self.type,
+            "file_size": human_readable_size(self.size),
+            "file_size_bytes": self.size,
+            "md5_checksum": self.checksum,
+            "profile": [
+                {
+                    "id": preset.id,
+                    "category": preset.category,
+                    "name": preset.name,
+                    "fields": preset.as_dict(),
+                }
+                for preset in self.presets
+            ],
+        }
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "ProjectFile":

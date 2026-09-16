@@ -5,7 +5,13 @@ import tarfile
 
 import pytest
 
-from mbpost2mztabm import MassBankApiError, MassBankError, MassBankPublicClient, Project
+from mbpost2mztabm import (
+    MassBankApiError,
+    MassBankError,
+    MassBankPublicClient,
+    Project,
+    human_readable_size,
+)
 
 
 def _make_tar(*entries):
@@ -472,6 +478,80 @@ def test_get_file_detail(client, httpx_mock):
     assert detail.checksum == "deadbeef"
     assert detail.presets[0].category == "sample"
     assert detail.presets[0].as_dict()["species"] == "Eubacterium limosum"
+
+
+def test_human_readable_size():
+    assert human_readable_size(164519681) == "156.9 MB"
+    assert human_readable_size(1024 * 1024) == "1.0 MB"
+    assert human_readable_size(512) == "0.5 kB"
+
+
+def test_get_raw_file_metadata(client, httpx_mock):
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000218",
+        json={"mbpostId": "MPST000218", "location": "MPST000218.0", "revision": 0},
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000218.0/files?limit=100&offset=0",
+        json={
+            "list": [
+                {
+                    "id": "f_raw",
+                    "name": "cation_69.d.zip",
+                    "size": 167330210,
+                    "type": "raw",
+                    "checksum": "b406369c",
+                    "profiles": [{"id": "S1", "summary": "El_day2"}],
+                },
+                {
+                    "id": "f_result",
+                    "name": "results.xlsx",
+                    "size": 1000,
+                    "type": "result",
+                    "checksum": "ffff",
+                    "profiles": [],
+                },
+            ],
+            "meta": {"total": 2, "from": 1, "to": 2, "size": 167331210},
+        },
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000218.0/files/f_raw",
+        json={
+            "id": "f_raw",
+            "name": "cation_69.d.zip",
+            "size": 167330210,
+            "type": "raw",
+            "is_on_server": 1,
+            "checksum": "b406369c",
+            "presets": [
+                {
+                    "id": "S1",
+                    "category": "sample",
+                    "presets": [
+                        {"key": "presetName", "value": "El_day2"},
+                        {"key": "species", "value": "Eubacterium limosum"},
+                    ],
+                }
+            ],
+        },
+    )
+    metadata = client.get_raw_file_metadata("MPST000218")
+    assert len(metadata) == 1
+    entry = metadata[0]
+    assert entry["file_name"] == "cation_69.d.zip"
+    assert entry["file_type"] == "raw"
+    assert entry["file_size"] == "159.6 MB"
+    assert entry["file_size_bytes"] == 167330210
+    assert entry["md5_checksum"] == "b406369c"
+    assert entry["profile"] == [
+        {
+            "id": "S1",
+            "category": "sample",
+            "name": "El_day2",
+            "fields": {"presetName": "El_day2", "species": "Eubacterium limosum"},
+        }
+    ]
 
 
 @pytest.mark.integration

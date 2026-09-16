@@ -16,6 +16,9 @@ Method                           Endpoint
 :meth:`get_project_file`         ``GET /api/projects/{location}/files/{fileId}``
 :meth:`get_file_detail`          ``GET /api/projects/{location}/files/{fileId}``
 :meth:`get_experimental_presets` ``GET /api/projects/{location}/files/{fileId}``
+:meth:`iter_raw_file_details`    ``GET /api/projects/{location}/files/{fileId}``
+:meth:`list_raw_file_details`    ``GET /api/projects/{location}/files/{fileId}``
+:meth:`get_raw_file_metadata`    ``GET /api/projects/{location}/files/{fileId}``
 :meth:`download`                 ``GET /api/download/{location}``
 :meth:`iter_file_names`          ``GET /api/download/{location}`` (tar listing)
 :meth:`list_file_names`          ``GET /api/download/{location}`` (tar listing)
@@ -393,6 +396,63 @@ class MassBankPublicClient:
         :raises MassBankError: if no file with that name exists.
         """
         return self.get_file_detail(project, file_name).presets
+
+    def iter_raw_file_details(
+        self,
+        project: Project | str,
+        *,
+        limit: int = 100,
+    ) -> Iterator[ProjectFile]:
+        """Yield the detail record of every ``raw`` file in a project.
+
+        This mirrors the rows of the entry page whose "File name" column has
+        type ``raw``. It fetches the file list once, then one single-file
+        detail request per raw file (for the full Profile/preset metadata), so
+        it makes ``1 + n_raw`` requests. Use laziness to stop early.
+        """
+        location = self._resolve_location(project)
+        for file in self.iter_project_files(location, limit=limit):
+            if file.is_raw:
+                yield self.get_project_file(location, file.id)
+
+    def list_raw_file_details(
+        self,
+        project: Project | str,
+        *,
+        limit: int = 100,
+    ) -> list[ProjectFile]:
+        """Return the detail records of all ``raw`` files in a project.
+
+        Eager version of :meth:`iter_raw_file_details`; see that method for the
+        request cost.
+        """
+        return list(self.iter_raw_file_details(project, limit=limit))
+
+    def get_raw_file_metadata(
+        self,
+        project: Project | str,
+        *,
+        limit: int = 100,
+    ) -> list[dict[str, Any]]:
+        """Return the "Detail" metadata values for every ``raw`` file.
+
+        Convenience wrapper around :meth:`list_raw_file_details`: each item is
+        the dict from :meth:`ProjectFile.detail_metadata` (``file_name``,
+        ``file_type``, ``file_size``, ``md5_checksum``, ``profile``), i.e. the
+        values displayed after clicking "Detail" on a ``raw`` row of the entry
+        page, e.g. https://repository.massbank.jp/entry/MPST000218.
+
+        ::
+
+            >>> meta = client.get_raw_file_metadata("MPST000218")
+            >>> meta[0]["file_name"]
+            'cation_Blank_4.d.zip'
+            >>> meta[0]["file_type"]
+            'raw'
+            >>> {p["category"] for p in meta[0]["profile"]}
+            {'sample', 'preparation', 'analyticalCondition', 'softwareSetting'}
+        """
+        return [file.detail_metadata() for file in self.iter_raw_file_details(project, limit=limit)]
 
     def iter_file_names(
         self,

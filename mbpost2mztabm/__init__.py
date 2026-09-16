@@ -20,6 +20,7 @@ from .models import (
     ProjectPage,
     ProjectStatistics,
     Statistics,
+    human_readable_size,
 )
 from .public import DEFAULT_BASE_URL, MassBankPublicClient
 
@@ -41,6 +42,7 @@ __all__ = [
     "ProjectPage",
     "ProjectStatistics",
     "Statistics",
+    "human_readable_size",
 ]
 
 __version__ = "0.1.0"
