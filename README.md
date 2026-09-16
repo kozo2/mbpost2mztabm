@@ -7,6 +7,8 @@ Convert MB-POST "result" file to mzTab-M
 MB-POST repository (`https://repository.massbank.jp`), as documented in
 [`mbpost_api.md`](mbpost_api.md) section 2.1.
 
+Full API reference: [`docs/usage.md`](docs/usage.md).
+
 ```python
 from mbpost2mztabm import MassBankPublicClient
 
