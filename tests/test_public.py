@@ -115,6 +115,18 @@ def test_iter_project_list_follows_pagination(client, httpx_mock):
     assert ids == ["A", "B", "C"]
 
 
+def test_list_project_ids(client, httpx_mock):
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects?limit=2&offset=0",
+        json={"list": [{"mbpostId": "A"}, {"mbpostId": "B"}], "meta": {"total": 3, "from": 1, "to": 2}},
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects?limit=2&offset=2",
+        json={"list": [{"mbpostId": "C"}], "meta": {"total": 3, "from": 3, "to": 3}},
+    )
+    assert client.list_project_ids(limit=2) == ["A", "B", "C"]
+
+
 def test_download_to_bytes(client, httpx_mock):
     httpx_mock.add_response(
         url="https://repository.massbank.jp/api/download/MPST000160.1",

@@ -180,6 +180,39 @@ class MassBankPublicClient:
             if page.to and page.total and current >= page.total:
                 return
 
+    def iter_project_ids(
+        self,
+        *,
+        q: str | None = None,
+        limit: int = 100,
+        offset: int = 0,
+    ) -> Iterator[str]:
+        """Yield the MB-POST id of every public project.
+
+        This walks the paginated ``/api/projects`` endpoint, so it makes
+        ``ceil(total / limit)`` requests.
+
+        :param q: Optional free-text search query.
+        :param limit: Page size.
+        :param offset: Starting offset.
+        """
+        for project in self.iter_project_list(q=q, limit=limit, offset=offset):
+            yield project.mbpost_id
+
+    def list_project_ids(
+        self,
+        *,
+        q: str | None = None,
+        limit: int = 100,
+        offset: int = 0,
+    ) -> list[str]:
+        """Return the MB-POST ids of all public projects.
+
+        Convenience wrapper around :meth:`iter_project_ids`. Use the iterator
+        instead for large result sets.
+        """
+        return list(self.iter_project_ids(q=q, limit=limit, offset=offset))
+
     def download(self, location: str, destination: str | Path | None = None) -> bytes | Path:
         """Download an announced project's archive (``/api/download/{location}``).
 

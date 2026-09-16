@@ -18,6 +18,31 @@ with MassBankPublicClient() as client:
     client.download(project.location, "MPST000160.1.zip")
 ```
 
+### Retrieve all project ids
+
+`GET /api/projects` is paginated, so fetching every id means walking the
+pages. Use `iter_project_ids` (lazy, good for large result sets) or
+`list_project_ids` (eager):
+
+```python
+from mbpost2mztabm import MassBankPublicClient
+
+with MassBankPublicClient() as client:
+    # >>> ['MPST000001', 'MPST000002', ...]
+    ids = client.list_project_ids()
+
+    # Lazy variant, e.g. to process one project at a time:
+    for mbpost_id in client.iter_project_ids(limit=100):
+        print(mbpost_id)
+```
+
+Both accept optional `q` (text search), `limit` (page size) and `offset`
+parameters. For example, ids for projects matching a query:
+
+```python
+ids = client.list_project_ids(q="lipidomics")
+```
+
 Development uses [uv](https://docs.astral.sh/uv/):
 
 ```bash
