@@ -32,6 +32,40 @@ cd mbpost2mztabm
 uv sync --extra dev
 ```
 
+### Interactive Python (REPL)
+
+`uv run` executes a command inside the project environment, so use it to start
+an interpreter that can import the package.
+
+In a project that depends on it (after `uv add`) or in the cloned repo (after
+`uv sync`):
+
+```bash
+uv run python
+```
+
+Ad hoc, without adding it to a project (uv builds a temporary environment):
+
+```bash
+uv run --with git+https://github.com/kozo2/mbpost2mztabm.git python
+```
+
+With IPython instead of the standard REPL:
+
+```bash
+uv run --with ipython --with git+https://github.com/kozo2/mbpost2mztabm.git ipython
+```
+
+Then, at the `>>>` prompt:
+
+```python
+>>> from mbpost2mztabm import MassBankPublicClient
+>>> with MassBankPublicClient() as client:
+...     stats = client.get_statistics()
+...     print(stats.project.total, stats.file.count)
+...
+```
+
 ## MB-POST public API client
 
 `mbpost2mztabm` includes a client for the public (no-auth) endpoints of the
