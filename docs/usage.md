@@ -1,6 +1,6 @@
 # Usage
 
-Reference for the `mbpost2mztabm` public API client. It covers the no-auth
+Reference for the `pymbpost` public API client. It covers the no-auth
 endpoints of the MB-POST repository (`https://repository.massbank.jp`); see
 [`../mbpost_api.md`](../mbpost_api.md) for the reverse-engineered HTTP details.
 
@@ -37,7 +37,7 @@ uv add httpx
 ## Quick start
 
 ```python
-from mbpost2mztabm import MassBankPublicClient
+from pymbpost import MassBankPublicClient
 
 with MassBankPublicClient() as client:
     stats = client.get_statistics()
@@ -328,7 +328,7 @@ public projects writes ~18,500 rows and 51 columns in about 6.5 minutes:
 
 ```bash
 uv run python - <<'PY'
-from mbpost2mztabm import MassBankPublicClient
+from pymbpost import MassBankPublicClient
 
 with MassBankPublicClient(timeout=60) as client:
     path = client.export_profile_metadata_csv("mbpost_profiles.csv")
@@ -337,7 +337,7 @@ PY
 ```
 
 (With the package installed ad hoc, prefix with
-`uv run --with git+https://github.com/kozo2/mbpost2mztabm.git python` instead.)
+`uv run --with git+https://github.com/kozo2/pymbpost.git python` instead.)
 
 ### Downloads and archives
 
@@ -464,7 +464,7 @@ The preset category ids in export order: `sample`, `preparation`,
 | `MassBankApiError` | An HTTP error response. Has `.status_code`, `.message`, `.url`. |
 
 ```python
-from mbpost2mztabm import MassBankApiError, MassBankError
+from pymbpost import MassBankApiError, MassBankError
 
 try:
     client.get_project("NOPE")

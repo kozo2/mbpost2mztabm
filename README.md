@@ -1,5 +1,5 @@
-# mbpost2mztabm
-Convert MB-POST "result" file to mzTab-M
+# pymbpost
+Fetch metadata from MB-POST
 
 ## Installation
 
@@ -9,26 +9,26 @@ The package is not published on PyPI; install it with
 Add it as a dependency of an existing project:
 
 ```bash
-uv add git+https://github.com/kozo2/mbpost2mztabm.git
+uv add git+https://github.com/kozo2/pymbpost.git
 ```
 
 Install it into the currently active virtual environment:
 
 ```bash
-uv pip install git+https://github.com/kozo2/mbpost2mztabm.git
+uv pip install git+https://github.com/kozo2/pymbpost.git
 ```
 
 Install a specific revision/tag:
 
 ```bash
-uv add "git+https://github.com/kozo2/mbpost2mztabm.git@main"
+uv add "git+https://github.com/kozo2/pymbpost.git@main"
 ```
 
 For development, clone the repo and sync the dev environment:
 
 ```bash
-git clone https://github.com/kozo2/mbpost2mztabm.git
-cd mbpost2mztabm
+git clone https://github.com/kozo2/pymbpost.git
+cd pymbpost
 uv sync --extra dev
 ```
 
@@ -47,19 +47,19 @@ uv run python
 Ad hoc, without adding it to a project (uv builds a temporary environment):
 
 ```bash
-uv run --with git+https://github.com/kozo2/mbpost2mztabm.git python
+uv run --with git+https://github.com/kozo2/pymbpost.git python
 ```
 
 With IPython instead of the standard REPL:
 
 ```bash
-uv run --with ipython --with git+https://github.com/kozo2/mbpost2mztabm.git ipython
+uv run --with ipython --with git+https://github.com/kozo2/pymbpost.git ipython
 ```
 
 Then, at the `>>>` prompt:
 
 ```python
->>> from mbpost2mztabm import MassBankPublicClient
+>>> from pymbpost import MassBankPublicClient
 >>> with MassBankPublicClient() as client:
 ...     stats = client.get_statistics()
 ...     print(stats.project.total, stats.file.count)
@@ -68,14 +68,14 @@ Then, at the `>>>` prompt:
 
 ## MB-POST public API client
 
-`mbpost2mztabm` includes a client for the public (no-auth) endpoints of the
+`pymbpost` includes a client for the public (no-auth) endpoints of the
 MB-POST repository (`https://repository.massbank.jp`), as documented in
 [`mbpost_api.md`](mbpost_api.md) section 2.1.
 
 Full API reference: [`docs/usage.md`](docs/usage.md).
 
 ```python
-from mbpost2mztabm import MassBankPublicClient
+from pymbpost import MassBankPublicClient
 
 with MassBankPublicClient() as client:
     stats = client.get_statistics()
@@ -92,7 +92,7 @@ pages. Use `iter_project_ids` (lazy, good for large result sets) or
 `list_project_ids` (eager):
 
 ```python
-from mbpost2mztabm import MassBankPublicClient
+from pymbpost import MassBankPublicClient
 
 with MassBankPublicClient() as client:
     # >>> ['MPST000001', 'MPST000002', ...]
@@ -120,7 +120,7 @@ name in the API examples). Use `iter_file_names` (streaming, lazy) or
 `list_file_names` (eager):
 
 ```python
-from mbpost2mztabm import MassBankPublicClient
+from pymbpost import MassBankPublicClient
 
 with MassBankPublicClient() as client:
     project = client.get_project("MPST000037")
@@ -155,7 +155,7 @@ the route is addressed by the project **location** (e.g. `MPST000160.1`), not
 the bare `mbpostId` (which returns `404`).
 
 ```python
-from mbpost2mztabm import MassBankPublicClient
+from pymbpost import MassBankPublicClient
 
 with MassBankPublicClient() as client:
     # 1. List files (paginated). Each raw file carries compact preset refs.
@@ -205,7 +205,7 @@ datasets). It is the same endpoint as above, but returns the metadata rather
 than only the presets.
 
 ```python
-from mbpost2mztabm import MassBankPublicClient
+from pymbpost import MassBankPublicClient
 
 with MassBankPublicClient() as client:
     detail = client.get_file_detail("MPST000218", "cation_69.d.zip")
@@ -230,7 +230,7 @@ column is of type `raw`, exactly the metadata shown after clicking **Detail**
 <https://repository.massbank.jp/entry/MPST000218>:
 
 ```python
-from mbpost2mztabm import MassBankPublicClient
+from pymbpost import MassBankPublicClient
 
 with MassBankPublicClient() as client:
     metadata = client.get_raw_file_metadata("MPST000218")
@@ -269,7 +269,7 @@ stop early on large projects.
 across projects into one CSV file. It streams rows to disk (constant memory).
 
 ```python
-from mbpost2mztabm import MassBankPublicClient
+from pymbpost import MassBankPublicClient
 
 with MassBankPublicClient() as client:
     # Every public project (slow: one file-list request per project and one
@@ -307,8 +307,8 @@ Run it with `uv` (see [Installation](#installation)); no project checkout is
 needed if the package is installed:
 
 ```bash
-uv run --with git+https://github.com/kozo2/mbpost2mztabm.git python - <<'PY'
-from mbpost2mztabm import MassBankPublicClient
+uv run --with git+https://github.com/kozo2/pymbpost.git python - <<'PY'
+from pymbpost import MassBankPublicClient
 
 with MassBankPublicClient(timeout=60) as client:
     path = client.export_profile_metadata_csv("mbpost_profiles.csv")
@@ -320,7 +320,7 @@ Or, inside this repository / any project that depends on it:
 
 ```bash
 uv run python - <<'PY'
-from mbpost2mztabm import MassBankPublicClient
+from pymbpost import MassBankPublicClient
 
 with MassBankPublicClient(timeout=60) as client:
     path = client.export_profile_metadata_csv("mbpost_profiles.csv")

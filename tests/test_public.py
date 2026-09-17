@@ -6,7 +6,7 @@ import tarfile
 
 import pytest
 
-from mbpost2mztabm import (
+from pymbpost import (
     MassBankApiError,
     MassBankError,
     MassBankPublicClient,

@@ -291,7 +291,7 @@ class MassBankPublicClient:
     def _resolve_location(self, project: Project | str) -> str:
         """Return the ``mbpostId.revision`` location for a project reference.
 
-        Accepts a :class:`~mbpost2mztabm.models.Project`, a location string
+        Accepts a :class:`~pymbpost.models.Project`, a location string
         (``MPST000160.1``) or a bare MB-POST id (``MPST000160``). A bare id is
         resolved through :meth:`get_project`, which always carries a
         ``location``. File routes are keyed on the location, not the id.
@@ -317,7 +317,7 @@ class MassBankPublicClient:
         Endpoint: ``GET /api/projects/{location}/files``. The route is keyed on
         the project **location** (``mbpostId.revision``); the bare
         ``/api/projects/{mbpostId}/files`` form returns ``404`` even for
-        announced projects, so a :class:`~mbpost2mztabm.models.Project` or a
+        announced projects, so a :class:`~pymbpost.models.Project` or a
         location string should be passed.
 
         :param project: Project, location (``MPST000160.1``) or bare id.
@@ -609,7 +609,7 @@ class MassBankPublicClient:
         multi-hundred-MB) archive. Stop iterating early to avoid downloading
         the remainder.
 
-        :param project: A :class:`~mbpost2mztabm.models.Project` (its
+        :param project: A :class:`~pymbpost.models.Project` (its
             ``location`` is used) or a location string such as ``MPST000160.1``.
         :param trim_root: Strip the archive's top-level directory prefix
             (e.g. ``MB-POST_files_MPST000160.1/``) from each name.
