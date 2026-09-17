@@ -3,25 +3,25 @@ Fetch metadata from MB-POST
 
 ## Installation
 
-The package is not published on PyPI; install it with
-[uv](https://docs.astral.sh/uv/) from the Git repository.
+The package is published on [PyPI](https://pypi.org/project/pymbpost/); install
+it with [uv](https://docs.astral.sh/uv/).
 
 Add it as a dependency of an existing project:
 
 ```bash
-uv add git+https://github.com/kozo2/pymbpost.git
+uv add pymbpost
 ```
 
 Install it into the currently active virtual environment:
 
 ```bash
-uv pip install git+https://github.com/kozo2/pymbpost.git
+uv pip install pymbpost
 ```
 
-Install a specific revision/tag:
+Install a specific version:
 
 ```bash
-uv add "git+https://github.com/kozo2/pymbpost.git@main"
+uv add pymbpost==0.1.0
 ```
 
 For development, clone the repo and sync the dev environment:
@@ -44,7 +44,7 @@ uv run python
 or ad hoc, without adding it to a project (uv builds a temporary environment):
 
 ```bash
-uv run --with git+https://github.com/kozo2/pymbpost.git python
+uv run --with pymbpost python
 ```
 
 Then, at the `>>>` prompt, export the Profile metadata of every `raw` file in
