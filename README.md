@@ -263,6 +263,95 @@ Each item is a dict:
 (one file-list call, then one detail call per raw file), so use the iterator to
 stop early on large projects.
 
+### Export Profile metadata of all raw files to CSV
+
+`export_profile_metadata_csv` writes the Profile metadata of every `raw` file
+across projects into one CSV file. It streams rows to disk (constant memory).
+
+```python
+from mbpost2mztabm import MassBankPublicClient
+
+with MassBankPublicClient() as client:
+    # Every public project (slow: one file-list request per project and one
+    # detail request per raw file):
+    client.export_profile_metadata_csv("mbpost_profiles.csv")
+
+    # Or restrict the scan:
+    client.export_profile_metadata_csv("one_project.csv", projects=["MPST000218"])
+```
+
+The header is derived from the authoritative field definitions in
+`/api/input-items`: file metadata columns followed, per preset category, by
+`<category>.id` and one `<category>.<field>` column:
+
+```
+mbpost_id,location,file_name,file_type,file_size,file_size_bytes,md5_checksum,
+sample.id,sample.presetName,sample.species,...,analyticalCondition.ionization,
+analyticalCondition.polarity,...,softwareSetting.software,...
+```
+
+Use `iter_profile_metadata_rows` if you want the rows as dicts without writing
+a file.
+
+> **Note:** a full export can issue tens of thousands of HTTP requests (one per
+> raw file). Narrow it with `projects=` and/or run it once and cache the result.
+
+#### Create `mbpost_profiles.csv` (full export)
+
+The complete Profile-metadata file for every `raw` file in every public project
+is produced by calling the export with no `projects` filter. A full run over all
+110 public projects makes ~18,500 detail requests (one per raw file) and takes a
+few minutes.
+
+Run it with `uv` (see [Installation](#installation)); no project checkout is
+needed if the package is installed:
+
+```bash
+uv run --with git+https://github.com/kozo2/mbpost2mztabm.git python - <<'PY'
+from mbpost2mztabm import MassBankPublicClient
+
+with MassBankPublicClient(timeout=60) as client:
+    path = client.export_profile_metadata_csv("mbpost_profiles.csv")
+    print("wrote", path.resolve())
+PY
+```
+
+Or, inside this repository / any project that depends on it:
+
+```bash
+uv run python - <<'PY'
+from mbpost2mztabm import MassBankPublicClient
+
+with MassBankPublicClient(timeout=60) as client:
+    path = client.export_profile_metadata_csv("mbpost_profiles.csv")
+    print("wrote", path.resolve())
+PY
+```
+
+A full run writes all 110 public projects to `mbpost_profiles.csv` (28 MB):
+
+- **Rows:** 18,518 — one per `raw` file
+- **Columns:** 51 — `mbpost_id`, `location`, `file_name`, `file_type`,
+  `file_size`, `file_size_bytes`, `md5_checksum`, then per preset category
+  `<category>.id` and `<category>.<field>` (Sample, Preparation, Analytical
+  condition, Software setting)
+- **Runtime:** ~6.5 minutes on a normal connection
+
+To inspect the result:
+
+```bash
+head -1 mbpost_profiles.csv                 # header
+wc -l mbpost_profiles.csv                   # row count (header + data)
+```
+
+To speed up iteration, export only some projects and append later, or use
+`iter_profile_metadata_rows` and handle rows yourself:
+
+```python
+with MassBankPublicClient() as client:
+    client.export_profile_metadata_csv("mpst218.csv", projects=["MPST000218"])
+```
+
 Development uses [uv](https://docs.astral.sh/uv/):
 
 ```bash

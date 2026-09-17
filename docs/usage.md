@@ -290,6 +290,55 @@ entry["md5_checksum"]     # '9a8e6891...'
 entry["profile"]          # [{'id':..., 'category':..., 'name':..., 'fields': {...}}, ...]
 ```
 
+#### `iter_profile_metadata_rows(projects=None, *, file_limit=100, project_limit=200) -> Iterator[dict]`
+
+Yields one flattened mapping per `raw` file across projects: file metadata plus
+the Profile metadata set spread into `<category>.<field>` keys. `projects`
+defaults to all public projects; pass a list of `Project`/id/location values to
+scope it. Does not call `/api/input-items`.
+
+```python
+for row in client.iter_profile_metadata_rows(["MPST000218"]):
+    print(row["file_name"], row["analyticalCondition.ionization"])
+```
+
+#### `export_profile_metadata_csv(destination, *, projects=None, file_limit=100, project_limit=200) -> Path`
+
+Exports the same rows to a single CSV file, streamed to disk (constant memory).
+The header is built from the field definitions in `/api/input-items`, so the
+schema is stable regardless of which presets each file carries.
+
+```python
+client.export_profile_metadata_csv("mbpost_profiles.csv")               # all projects
+client.export_profile_metadata_csv("mpst218.csv", projects=["MPST000218"])
+```
+
+Columns: `mbpost_id`, `location`, `file_name`, `file_type`, `file_size`,
+`file_size_bytes`, `md5_checksum`, then `<category>.id` and
+`<category>.<field>` for each of the four preset categories. Extra fields not in
+`/api/input-items` are ignored.
+
+> A full export makes one file-list request per project plus one detail request
+> per raw file (potentially tens of thousands of requests). Scope it with
+> `projects=` for practical runs.
+
+**Creating `mbpost_profiles.csv`.** Calling the export with no `projects` filter
+produces the complete file for all public projects. A full run over the 110
+public projects writes ~18,500 rows and 51 columns in about 6.5 minutes:
+
+```bash
+uv run python - <<'PY'
+from mbpost2mztabm import MassBankPublicClient
+
+with MassBankPublicClient(timeout=60) as client:
+    path = client.export_profile_metadata_csv("mbpost_profiles.csv")
+    print("wrote", path.resolve())
+PY
+```
+
+(With the package installed ad hoc, prefix with
+`uv run --with git+https://github.com/kozo2/mbpost2mztabm.git python` instead.)
+
 ### Downloads and archives
 
 #### `download(location, destination=None) -> bytes | Path`
@@ -402,6 +451,11 @@ Maps a preset id's leading letter to its category:
 `S` → `sample`, `P` → `preparation`, `A` → `analyticalCondition`,
 `W` → `softwareSetting`.
 
+### `PRESET_CATEGORIES`
+
+The preset category ids in export order: `sample`, `preparation`,
+`analyticalCondition`, `softwareSetting`.
+
 ## Exceptions
 
 | Exception | Raised when |
@@ -437,7 +491,7 @@ not the message.
 | `GET /api/projects` | `list_projects`, `iter_project_list`, `list_project_ids`, `iter_project_ids` |
 | `GET /api/projects/{mbpostId}` | `get_project` |
 | `GET /api/projects/{location}/files` | `list_project_files`, `iter_project_files`, `find_project_file` |
-| `GET /api/projects/{location}/files/{fileId}` | `get_project_file`, `get_file_detail`, `get_experimental_presets` |
+| `GET /api/projects/{location}/files/{fileId}` | `get_project_file`, `get_file_detail`, `get_experimental_presets`, `iter_raw_file_details`, `list_raw_file_details`, `get_raw_file_metadata`, `iter_profile_metadata_rows`, `export_profile_metadata_csv` |
 | `GET /api/download/{location}` | `download`, `iter_file_names`, `list_file_names` |
 | `POST /api/contact` | `send_contact` |
 

@@ -19,6 +19,8 @@ Method                           Endpoint
 :meth:`iter_raw_file_details`    ``GET /api/projects/{location}/files/{fileId}``
 :meth:`list_raw_file_details`    ``GET /api/projects/{location}/files/{fileId}``
 :meth:`get_raw_file_metadata`    ``GET /api/projects/{location}/files/{fileId}``
+:meth:`iter_profile_metadata_rows` ``GET /api/projects/{location}/files/{fileId}``
+:meth:`export_profile_metadata_csv` ``GET /api/projects/{location}/files/{fileId}``
 :meth:`download`                 ``GET /api/download/{location}``
 :meth:`iter_file_names`          ``GET /api/download/{location}`` (tar listing)
 :meth:`list_file_names`          ``GET /api/download/{location}`` (tar listing)
@@ -28,6 +30,7 @@ Method                           Endpoint
 
 from __future__ import annotations
 
+import csv
 import io
 import tarfile
 from pathlib import Path
@@ -46,7 +49,16 @@ from .models import (
     ProjectFile,
     ProjectPage,
     Statistics,
+    human_readable_size,
 )
+
+PRESET_CATEGORIES: tuple[str, ...] = (
+    "sample",
+    "preparation",
+    "analyticalCondition",
+    "softwareSetting",
+)
+"""Preset categories, in the order used for exported columns."""
 
 DEFAULT_BASE_URL = "https://repository.massbank.jp"
 """Origin serving the MB-POST API and SPA."""
@@ -453,6 +465,134 @@ class MassBankPublicClient:
             {'sample', 'preparation', 'analyticalCondition', 'softwareSetting'}
         """
         return [file.detail_metadata() for file in self.iter_raw_file_details(project, limit=limit)]
+
+    def _profile_csv_fieldnames(self) -> list[str]:
+        """Build the CSV header from the authoritative input-items vocabulary.
+
+        Columns are the file metadata followed, per preset category, by
+        ``<category>.id`` and one ``<category>.<field>`` per field defined by
+        ``/api/input-items``. The schema is stable regardless of which presets
+        a given file happens to carry.
+        """
+        items = self.get_input_items()
+        columns = [
+            "mbpost_id",
+            "location",
+            "file_name",
+            "file_type",
+            "file_size",
+            "file_size_bytes",
+            "md5_checksum",
+        ]
+        for category in PRESET_CATEGORIES:
+            columns.append(f"{category}.id")
+            for field in items.get(category) or []:
+                name = field.get("name") if isinstance(field, dict) else None
+                if name:
+                    columns.append(f"{category}.{name}")
+        return columns
+
+    def iter_profile_metadata_rows(
+        self,
+        projects: Iterable[Project | str] | None = None,
+        *,
+        file_limit: int = 100,
+        project_limit: int = 200,
+    ) -> Iterator[dict[str, str]]:
+        """Yield one flattened CSV row per ``raw`` file across projects.
+
+        Each row contains the file metadata plus the **Profile** metadata set
+        flattened to ``<category>.<field>`` columns (see
+        :meth:`_profile_csv_fieldnames`). Only ``raw`` files are included.
+
+        :param projects: Projects (or ids/locations) to scan. Defaults to all
+            public projects via :meth:`iter_project_list`.
+        :param file_limit: Page size for each project's file list.
+        :param project_limit: Page size when enumerating all public projects.
+
+        This performs one file-list request per project plus one detail request
+        per raw file, so exporting every project can make tens of thousands of
+        requests.
+        """
+        source: Iterable[Project | str]
+        if projects is None:
+            source = self.iter_project_list(limit=project_limit)
+        else:
+            source = projects
+
+        for project in source:
+            if isinstance(project, Project):
+                location = self._resolve_location(project)
+                mbpost_id = project.mbpost_id or location.split(".")[0]
+            else:
+                reference = str(project)
+                if "." in reference:
+                    location = reference
+                    mbpost_id = reference.split(".")[0]
+                else:
+                    resolved = self.get_project(reference)
+                    location = resolved.location
+                    mbpost_id = resolved.mbpost_id or reference
+
+            for file in self.iter_project_files(location, limit=file_limit):
+                if not file.is_raw:
+                    continue
+                detail = self.get_project_file(location, file.id)
+                row: dict[str, str] = {
+                    "mbpost_id": mbpost_id,
+                    "location": location,
+                    "file_name": detail.name,
+                    "file_type": detail.type,
+                    "file_size": human_readable_size(detail.size),
+                    "file_size_bytes": str(detail.size),
+                    "md5_checksum": detail.checksum,
+                }
+                for preset in detail.presets:
+                    category = preset.category
+                    row[f"{category}.id"] = preset.id
+                    for key, value in preset.as_dict().items():
+                        row[f"{category}.{key}"] = value
+                yield row
+
+    def export_profile_metadata_csv(
+        self,
+        destination: str | Path,
+        *,
+        projects: Iterable[Project | str] | None = None,
+        file_limit: int = 100,
+        project_limit: int = 200,
+    ) -> Path:
+        """Export the Profile metadata of all ``raw`` files to a CSV file.
+
+        Writes one row per raw file across the given projects (default: every
+        public project), including the file metadata and the full Profile
+        metadata set flattened to ``<category>.<field>`` columns. Values are
+        streamed to disk, so the export uses constant memory.
+
+        :param destination: Output CSV path.
+        :param projects: Projects (or ids/locations) to scan. Defaults to all
+            public projects.
+        :param file_limit: Page size for each project's file list.
+        :param project_limit: Page size when enumerating all public projects.
+        :returns: The :class:`~pathlib.Path` written.
+
+        ::
+
+            client.export_profile_metadata_csv("mbpost_profiles.csv")
+            client.export_profile_metadata_csv(
+                "one_project.csv", projects=["MPST000218"]
+            )
+        """
+        target = Path(destination)
+        fieldnames = self._profile_csv_fieldnames()
+        with target.open("w", newline="", encoding="utf-8") as handle:
+            writer = csv.DictWriter(handle, fieldnames=fieldnames, extrasaction="ignore")
+            writer.writeheader()
+            for row in self.iter_profile_metadata_rows(
+                projects, file_limit=file_limit, project_limit=project_limit
+            ):
+                writer.writerow(row)
+        return target
 
     def iter_file_names(
         self,

@@ -22,10 +22,11 @@ from .models import (
     Statistics,
     human_readable_size,
 )
-from .public import DEFAULT_BASE_URL, MassBankPublicClient
+from .public import DEFAULT_BASE_URL, PRESET_CATEGORIES, MassBankPublicClient
 
 __all__ = [
     "DEFAULT_BASE_URL",
+    "PRESET_CATEGORIES",
     "PRESET_CATEGORY_BY_PREFIX",
     "CVTerm",
     "ExperimentalPreset",

@@ -1,3 +1,4 @@
+import csv
 import io
 import json
 import os
@@ -552,6 +553,116 @@ def test_get_raw_file_metadata(client, httpx_mock):
             "fields": {"presetName": "El_day2", "species": "Eubacterium limosum"},
         }
     ]
+
+
+def _mock_input_items(httpx_mock):
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/input-items",
+        json={
+            "project": [],
+            "sample": [{"name": "presetName"}, {"name": "species"}],
+            "preparation": [{"name": "presetName"}],
+            "analyticalCondition": [
+                {"name": "presetName"},
+                {"name": "ionization"},
+                {"name": "polarity"},
+            ],
+            "softwareSetting": [{"name": "presetName"}, {"name": "software"}],
+        },
+    )
+
+
+def _mock_mpst000218(httpx_mock):
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000218",
+        json={"mbpostId": "MPST000218", "location": "MPST000218.0", "revision": 0},
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000218.0/files?limit=100&offset=0",
+        json={
+            "list": [
+                {
+                    "id": "f_raw",
+                    "name": "cation_69.d.zip",
+                    "size": 167330210,
+                    "type": "raw",
+                    "checksum": "b406369c",
+                    "profiles": [{"id": "S1", "summary": "El_day2"}],
+                },
+                {
+                    "id": "f_result",
+                    "name": "results.xlsx",
+                    "size": 1000,
+                    "type": "result",
+                    "checksum": "ffff",
+                    "profiles": [],
+                },
+            ],
+            "meta": {"total": 2, "from": 1, "to": 2, "size": 167331210},
+        },
+    )
+    httpx_mock.add_response(
+        url="https://repository.massbank.jp/api/projects/MPST000218.0/files/f_raw",
+        json={
+            "id": "f_raw",
+            "name": "cation_69.d.zip",
+            "size": 167330210,
+            "type": "raw",
+            "is_on_server": 1,
+            "checksum": "b406369c",
+            "presets": [
+                {
+                    "id": "A1",
+                    "category": "analyticalCondition",
+                    "presets": [
+                        {"key": "presetName", "value": "CE-TOF/MS cation"},
+                        {"key": "ionization", "value": "ESI"},
+                        {"key": "polarity", "value": "Positive"},
+                    ],
+                },
+                {
+                    "id": "S1",
+                    "category": "sample",
+                    "presets": [
+                        {"key": "presetName", "value": "El_day2"},
+                        {"key": "species", "value": "Eubacterium limosum"},
+                    ],
+                },
+            ],
+        },
+    )
+
+
+def test_export_profile_metadata_csv(client, httpx_mock, tmp_path):
+    _mock_input_items(httpx_mock)
+    _mock_mpst000218(httpx_mock)
+    out = client.export_profile_metadata_csv(tmp_path / "profiles.csv", projects=["MPST000218"])
+
+    assert out == tmp_path / "profiles.csv"
+    with out.open(newline="", encoding="utf-8") as handle:
+        rows = list(csv.DictReader(handle))
+
+    assert len(rows) == 1
+    row = rows[0]
+    assert row["mbpost_id"] == "MPST000218"
+    assert row["location"] == "MPST000218.0"
+    assert row["file_name"] == "cation_69.d.zip"
+    assert row["file_type"] == "raw"
+    assert row["file_size"] == "159.6 MB"
+    assert row["md5_checksum"] == "b406369c"
+    assert row["analyticalCondition.id"] == "A1"
+    assert row["analyticalCondition.ionization"] == "ESI"
+    assert row["analyticalCondition.polarity"] == "Positive"
+    assert row["sample.presetName"] == "El_day2"
+    assert row["sample.species"] == "Eubacterium limosum"
+    assert row["preparation.presetName"] == ""
+
+
+def test_iter_profile_metadata_rows(client, httpx_mock):
+    _mock_mpst000218(httpx_mock)
+    rows = list(client.iter_profile_metadata_rows(["MPST000218"]))
+    assert len(rows) == 1
+    assert rows[0]["analyticalCondition.ionization"] == "ESI"
 
 
 @pytest.mark.integration
