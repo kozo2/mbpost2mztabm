@@ -7,9 +7,9 @@ import tarfile
 import pytest
 
 from pymbpost import (
-    MassBankApiError,
-    MassBankError,
-    MassBankPublicClient,
+    MbPostApiError,
+    MbPostError,
+    MbPostPublicClient,
     Project,
     human_readable_size,
 )
@@ -32,7 +32,7 @@ def _make_tar(*entries):
 
 @pytest.fixture
 def client():
-    with MassBankPublicClient() as client:
+    with MbPostPublicClient() as client:
         yield client
 
 
@@ -671,7 +671,7 @@ def test_iter_profile_metadata_rows(client, httpx_mock):
     reason="set MBPOST_RUN_INTEGRATION=1 to hit the live MB-POST API",
 )
 def test_get_experimental_presets_mpst000218_live():
-    with MassBankPublicClient(timeout=60) as client:
+    with MbPostPublicClient(timeout=60) as client:
         presets = client.get_experimental_presets("MPST000218", "cation_69.d.zip")
     by_category = {p.category: p for p in presets}
     assert set(by_category) == {
@@ -691,7 +691,7 @@ def test_get_experimental_presets_missing_file(client, httpx_mock):
         url="https://repository.massbank.jp/api/projects/MPST000160.1/files?limit=100&offset=0",
         json={"list": [], "meta": {"total": 0, "from": 0, "to": 0, "size": 0}},
     )
-    with pytest.raises(MassBankError):
+    with pytest.raises(MbPostError):
         client.get_experimental_presets("MPST000160.1", "nope.d.zip")
 
 
@@ -713,7 +713,7 @@ def test_error_raises_with_message(client, httpx_mock):
         status_code=401,
         json={"message": "Unautorized"},
     )
-    with pytest.raises(MassBankApiError) as excinfo:
+    with pytest.raises(MbPostApiError) as excinfo:
         client.get_statistics()
     assert excinfo.value.status_code == 401
     assert excinfo.value.message == "Unautorized"
@@ -726,7 +726,7 @@ def test_error_with_non_json_body(client, httpx_mock):
         text="<html>Method not allowed</html>",
         headers={"content-type": "text/html"},
     )
-    with pytest.raises(MassBankApiError) as excinfo:
+    with pytest.raises(MbPostApiError) as excinfo:
         client.get_statistics()
     assert excinfo.value.status_code == 405
     assert excinfo.value.message is None

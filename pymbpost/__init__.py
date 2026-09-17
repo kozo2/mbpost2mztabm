@@ -1,11 +1,11 @@
 """Access the public (no-auth) endpoints of the MB-POST API.
 
-MB-POST is the MassBank project submission/curation system served from
+MB-POST is a project submission/curation system served from
 ``https://repository.massbank.jp``. This package covers the public tier
 documented in ``mbpost_api.md`` section 2.1.
 """
 
-from .exceptions import MassBankApiError, MassBankError
+from .exceptions import MbPostApiError, MbPostError
 from .models import (
     PRESET_CATEGORY_BY_PREFIX,
     CVTerm,
@@ -22,7 +22,7 @@ from .models import (
     Statistics,
     human_readable_size,
 )
-from .public import DEFAULT_BASE_URL, PRESET_CATEGORIES, MassBankPublicClient
+from .public import DEFAULT_BASE_URL, PRESET_CATEGORIES, MbPostPublicClient
 
 __all__ = [
     "DEFAULT_BASE_URL",
@@ -33,9 +33,9 @@ __all__ = [
     "FilePage",
     "FileStatistics",
     "GlobalInfo",
-    "MassBankApiError",
-    "MassBankError",
-    "MassBankPublicClient",
+    "MbPostApiError",
+    "MbPostError",
+    "MbPostPublicClient",
     "PresetItem",
     "PresetRef",
     "Project",

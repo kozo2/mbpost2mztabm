@@ -39,7 +39,7 @@ from urllib.parse import quote
 
 import httpx
 
-from .exceptions import MassBankApiError, MassBankError
+from .exceptions import MbPostApiError, MbPostError
 from .models import (
     CVTerm,
     ExperimentalPreset,
@@ -90,12 +90,12 @@ class _HttpByteStream(io.RawIOBase):
         return size
 
 
-class MassBankPublicClient:
+class MbPostPublicClient:
     """Client for the MB-POST public API tier.
 
     The client can be used as a context manager::
 
-        with MassBankPublicClient() as client:
+        with MbPostPublicClient() as client:
             stats = client.get_statistics()
 
     :param base_url: API origin. Defaults to :data:`DEFAULT_BASE_URL`.
@@ -125,7 +125,7 @@ class MassBankPublicClient:
         """Close the underlying HTTP connection pool."""
         self._client.close()
 
-    def __enter__(self) -> "MassBankPublicClient":
+    def __enter__(self) -> "MbPostPublicClient":
         return self
 
     def __exit__(self, *exc_info: object) -> None:
@@ -147,7 +147,7 @@ class MassBankPublicClient:
             raw = body.get("message")
             if raw is not None:
                 message = str(raw)
-        raise MassBankApiError(response.status_code, message, url=str(response.url))
+        raise MbPostApiError(response.status_code, message, url=str(response.url))
 
     def _get(self, path: str, params: Mapping[str, Any] | None = None) -> httpx.Response:
         response = self._client.get(path, params=params)
@@ -382,12 +382,12 @@ class MassBankPublicClient:
 
         :param project: Project, location (``MPST000160.1``) or bare id.
         :param file_name: Exact file name, e.g. ``cation_69.d.zip``.
-        :raises MassBankError: if no file with that name exists.
+        :raises MbPostError: if no file with that name exists.
         """
         location = self._resolve_location(project)
         file = self.find_project_file(location, file_name)
         if file is None:
-            raise MassBankError(f"no file named {file_name!r} in {project!r}")
+            raise MbPostError(f"no file named {file_name!r} in {project!r}")
         return self.get_project_file(location, file.id)
 
     def get_experimental_presets(
@@ -405,7 +405,7 @@ class MassBankPublicClient:
         :param project: Project, location (``MPST000160.1``) or bare id.
         :param file_name: Exact file name, e.g.
             ``TSOGA038_p_20241106_Sample_17.d.zip``.
-        :raises MassBankError: if no file with that name exists.
+        :raises MbPostError: if no file with that name exists.
         """
         return self.get_file_detail(project, file_name).presets
 

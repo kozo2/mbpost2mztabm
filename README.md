@@ -59,8 +59,8 @@ uv run --with ipython --with git+https://github.com/kozo2/pymbpost.git ipython
 Then, at the `>>>` prompt:
 
 ```python
->>> from pymbpost import MassBankPublicClient
->>> with MassBankPublicClient() as client:
+>>> from pymbpost import MbPostPublicClient
+>>> with MbPostPublicClient() as client:
 ...     stats = client.get_statistics()
 ...     print(stats.project.total, stats.file.count)
 ...
@@ -75,9 +75,9 @@ MB-POST repository (`https://repository.massbank.jp`), as documented in
 Full API reference: [`docs/usage.md`](docs/usage.md).
 
 ```python
-from pymbpost import MassBankPublicClient
+from pymbpost import MbPostPublicClient
 
-with MassBankPublicClient() as client:
+with MbPostPublicClient() as client:
     stats = client.get_statistics()
     page = client.list_projects(q="lipidomics", limit=20)
     project = client.get_project("MPST000160")
@@ -92,9 +92,9 @@ pages. Use `iter_project_ids` (lazy, good for large result sets) or
 `list_project_ids` (eager):
 
 ```python
-from pymbpost import MassBankPublicClient
+from pymbpost import MbPostPublicClient
 
-with MassBankPublicClient() as client:
+with MbPostPublicClient() as client:
     # >>> ['MPST000001', 'MPST000002', ...]
     ids = client.list_project_ids()
 
@@ -120,9 +120,9 @@ name in the API examples). Use `iter_file_names` (streaming, lazy) or
 `list_file_names` (eager):
 
 ```python
-from pymbpost import MassBankPublicClient
+from pymbpost import MbPostPublicClient
 
-with MassBankPublicClient() as client:
+with MbPostPublicClient() as client:
     project = client.get_project("MPST000037")
     # >>> ['TSOGA038_p_20241106_Sample_16.d.zip',
     #      'TSOGA038_p_20241106_Sample_18.d.zip', ...]
@@ -155,9 +155,9 @@ the route is addressed by the project **location** (e.g. `MPST000160.1`), not
 the bare `mbpostId` (which returns `404`).
 
 ```python
-from pymbpost import MassBankPublicClient
+from pymbpost import MbPostPublicClient
 
-with MassBankPublicClient() as client:
+with MbPostPublicClient() as client:
     # 1. List files (paginated). Each raw file carries compact preset refs.
     page = client.list_project_files("MPST000160.1")
     for f in page.list:
@@ -205,9 +205,9 @@ datasets). It is the same endpoint as above, but returns the metadata rather
 than only the presets.
 
 ```python
-from pymbpost import MassBankPublicClient
+from pymbpost import MbPostPublicClient
 
-with MassBankPublicClient() as client:
+with MbPostPublicClient() as client:
     detail = client.get_file_detail("MPST000218", "cation_69.d.zip")
 
     print(detail.id, detail.name, detail.type, detail.size, detail.checksum)
@@ -219,7 +219,7 @@ with MassBankPublicClient() as client:
 ```
 
 Accepting a file **id** instead, call `get_project_file(project, file_id)`
-directly to skip the name lookup. Both helpers raise `MassBankError` when the
+directly to skip the name lookup. Both helpers raise `MbPostError` when the
 name is not found.
 
 ### Get the "Detail" metadata for every raw file in a project
@@ -230,9 +230,9 @@ column is of type `raw`, exactly the metadata shown after clicking **Detail**
 <https://repository.massbank.jp/entry/MPST000218>:
 
 ```python
-from pymbpost import MassBankPublicClient
+from pymbpost import MbPostPublicClient
 
-with MassBankPublicClient() as client:
+with MbPostPublicClient() as client:
     metadata = client.get_raw_file_metadata("MPST000218")
     for entry in metadata:
         print(entry["file_name"], entry["file_type"], entry["file_size"])
@@ -269,9 +269,9 @@ stop early on large projects.
 across projects into one CSV file. It streams rows to disk (constant memory).
 
 ```python
-from pymbpost import MassBankPublicClient
+from pymbpost import MbPostPublicClient
 
-with MassBankPublicClient() as client:
+with MbPostPublicClient() as client:
     # Every public project (slow: one file-list request per project and one
     # detail request per raw file):
     client.export_profile_metadata_csv("mbpost_profiles.csv")
@@ -308,9 +308,9 @@ needed if the package is installed:
 
 ```bash
 uv run --with git+https://github.com/kozo2/pymbpost.git python - <<'PY'
-from pymbpost import MassBankPublicClient
+from pymbpost import MbPostPublicClient
 
-with MassBankPublicClient(timeout=60) as client:
+with MbPostPublicClient(timeout=60) as client:
     path = client.export_profile_metadata_csv("mbpost_profiles.csv")
     print("wrote", path.resolve())
 PY
@@ -320,9 +320,9 @@ Or, inside this repository / any project that depends on it:
 
 ```bash
 uv run python - <<'PY'
-from pymbpost import MassBankPublicClient
+from pymbpost import MbPostPublicClient
 
-with MassBankPublicClient(timeout=60) as client:
+with MbPostPublicClient(timeout=60) as client:
     path = client.export_profile_metadata_csv("mbpost_profiles.csv")
     print("wrote", path.resolve())
 PY
@@ -348,7 +348,7 @@ To speed up iteration, export only some projects and append later, or use
 `iter_profile_metadata_rows` and handle rows yourself:
 
 ```python
-with MassBankPublicClient() as client:
+with MbPostPublicClient() as client:
     client.export_profile_metadata_csv("mpst218.csv", projects=["MPST000218"])
 ```
 

@@ -106,7 +106,7 @@ class Project:
     Fields mirror ``GET /api/projects`` entries and
     ``GET /api/projects/{mbpostId}``. Dates are kept as the ``YYYY/MM/DD``
     strings returned by the API. ``location`` is the value accepted by
-    :meth:`MassBankPublicClient.download`.
+    :meth:`MbPostPublicClient.download`.
     """
 
     mbpost_id: str = ""

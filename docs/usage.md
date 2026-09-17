@@ -37,9 +37,9 @@ uv add httpx
 ## Quick start
 
 ```python
-from pymbpost import MassBankPublicClient
+from pymbpost import MbPostPublicClient
 
-with MassBankPublicClient() as client:
+with MbPostPublicClient() as client:
     stats = client.get_statistics()
     print(stats.project.total, stats.file.count)
 
@@ -57,7 +57,7 @@ credentials are required for any method documented here.
 ## Client lifecycle
 
 ```python
-MassBankPublicClient(
+MbPostPublicClient(
     base_url: str = "https://repository.massbank.jp",
     *,
     timeout: float = 30.0,
@@ -77,7 +77,7 @@ The client holds a connection pool, so reuse one instance and close it when
 done. Use it as a context manager (recommended) or call `close()` manually:
 
 ```python
-client = MassBankPublicClient()
+client = MbPostPublicClient()
 try:
     client.get_statistics()
 finally:
@@ -259,7 +259,7 @@ by_category["sample"].name                       # 'El_day2'
 by_category["sample"].as_dict()["species"]       # 'Eubacterium limosum'
 ```
 
-Both raise `MassBankError` if no file with that name exists. Only `raw` files
+Both raise `MbPostError` if no file with that name exists. Only `raw` files
 have presets; other types return an empty list.
 
 #### `iter_raw_file_details(project, *, limit=100) -> Iterator[ProjectFile]`
@@ -328,9 +328,9 @@ public projects writes ~18,500 rows and 51 columns in about 6.5 minutes:
 
 ```bash
 uv run python - <<'PY'
-from pymbpost import MassBankPublicClient
+from pymbpost import MbPostPublicClient
 
-with MassBankPublicClient(timeout=60) as client:
+with MbPostPublicClient(timeout=60) as client:
     path = client.export_profile_metadata_csv("mbpost_profiles.csv")
     print("wrote", path.resolve())
 PY
@@ -460,20 +460,20 @@ The preset category ids in export order: `sample`, `preparation`,
 
 | Exception | Raised when |
 |---|---|
-| `MassBankError` | Base class; also raised by name lookups (`file_name` not found) |
-| `MassBankApiError` | An HTTP error response. Has `.status_code`, `.message`, `.url`. |
+| `MbPostError` | Base class; also raised by name lookups (`file_name` not found) |
+| `MbPostApiError` | An HTTP error response. Has `.status_code`, `.message`, `.url`. |
 
 ```python
-from pymbpost import MassBankApiError, MassBankError
+from pymbpost import MbPostApiError, MbPostError
 
 try:
     client.get_project("NOPE")
-except MassBankApiError as err:
+except MbPostApiError as err:
     print(err.status_code, err.message)   # e.g. 404 'Not Found'
 
 try:
     client.get_experimental_presets("MPST000218", "missing.d.zip")
-except MassBankError as err:
+except MbPostError as err:
     print(err)
 ```
 

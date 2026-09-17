@@ -3,11 +3,11 @@
 from __future__ import annotations
 
 
-class MassBankError(Exception):
+class MbPostError(Exception):
     """Base class for all MB-POST client errors."""
 
 
-class MassBankApiError(MassBankError):
+class MbPostApiError(MbPostError):
     """An HTTP request to MB-POST returned an error status.
 
     The API normally returns a JSON body of the form ``{"message": "..."}``
