@@ -1,0 +1,60 @@
+MTD	sample[1]	Ba/F3_1
+MTD	sample[1]-description	Ba/F3, replicate 1
+MTD	sample[1]-custom[1]	[,,cell_line, Ba/F3]
+MTD	sample[1]-custom[2]	[,,replicate, 1]
+MTD	sample[10]	Tm63bnull_5
+MTD	sample[10]-description	Tm63bnull, replicate 5
+MTD	sample[10]-custom[1]	[,,cell_line, Tm63bnull]
+MTD	sample[10]-custom[2]	[,,replicate, 5]
+MTD	sample[11]	Tm63bnull-mTMEM63B_1
+MTD	sample[11]-description	Tm63bnull-mTMEM63B, replicate 1
+MTD	sample[11]-custom[1]	[,,cell_line, Tm63bnull-mTMEM63B]
+MTD	sample[11]-custom[2]	[,,replicate, 1]
+MTD	sample[12]	Tm63bnull-mTMEM63B_2
+MTD	sample[12]-description	Tm63bnull-mTMEM63B, replicate 2
+MTD	sample[12]-custom[1]	[,,cell_line, Tm63bnull-mTMEM63B]
+MTD	sample[12]-custom[2]	[,,replicate, 2]
+MTD	sample[13]	Tm63bnull-mTMEM63B_3
+MTD	sample[13]-description	Tm63bnull-mTMEM63B, replicate 3
+MTD	sample[13]-custom[1]	[,,cell_line, Tm63bnull-mTMEM63B]
+MTD	sample[13]-custom[2]	[,,replicate, 3]
+MTD	sample[14]	Tm63bnull-mTMEM63B_4
+MTD	sample[14]-description	Tm63bnull-mTMEM63B, replicate 4
+MTD	sample[14]-custom[1]	[,,cell_line, Tm63bnull-mTMEM63B]
+MTD	sample[14]-custom[2]	[,,replicate, 4]
+MTD	sample[15]	Tm63bnull-mTMEM63B_5
+MTD	sample[15]-description	Tm63bnull-mTMEM63B, replicate 5
+MTD	sample[15]-custom[1]	[,,cell_line, Tm63bnull-mTMEM63B]
+MTD	sample[15]-custom[2]	[,,replicate, 5]
+MTD	sample[2]	Ba/F3_2
+MTD	sample[2]-description	Ba/F3, replicate 2
+MTD	sample[2]-custom[1]	[,,cell_line, Ba/F3]
+MTD	sample[2]-custom[2]	[,,replicate, 2]
+MTD	sample[3]	Ba/F3_3
+MTD	sample[3]-description	Ba/F3, replicate 3
+MTD	sample[3]-custom[1]	[,,cell_line, Ba/F3]
+MTD	sample[3]-custom[2]	[,,replicate, 3]
+MTD	sample[4]	Ba/F3_4
+MTD	sample[4]-description	Ba/F3, replicate 4
+MTD	sample[4]-custom[1]	[,,cell_line, Ba/F3]
+MTD	sample[4]-custom[2]	[,,replicate, 4]
+MTD	sample[5]	Ba/F3_5
+MTD	sample[5]-description	Ba/F3, replicate 5
+MTD	sample[5]-custom[1]	[,,cell_line, Ba/F3]
+MTD	sample[5]-custom[2]	[,,replicate, 5]
+MTD	sample[6]	Tm63bnull_1
+MTD	sample[6]-description	Tm63bnull, replicate 1
+MTD	sample[6]-custom[1]	[,,cell_line, Tm63bnull]
+MTD	sample[6]-custom[2]	[,,replicate, 1]
+MTD	sample[7]	Tm63bnull_2
+MTD	sample[7]-description	Tm63bnull, replicate 2
+MTD	sample[7]-custom[1]	[,,cell_line, Tm63bnull]
+MTD	sample[7]-custom[2]	[,,replicate, 2]
+MTD	sample[8]	Tm63bnull_3
+MTD	sample[8]-description	Tm63bnull, replicate 3
+MTD	sample[8]-custom[1]	[,,cell_line, Tm63bnull]
+MTD	sample[8]-custom[2]	[,,replicate, 3]
+MTD	sample[9]	Tm63bnull_4
+MTD	sample[9]-description	Tm63bnull, replicate 4
+MTD	sample[9]-custom[1]	[,,cell_line, Tm63bnull]
+MTD	sample[9]-custom[2]	[,,replicate, 4]
