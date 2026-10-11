@@ -10,7 +10,9 @@ The first converted data set is `MPST000001`: quantitative lipidomics
 
 | Path | Content |
 | --- | --- |
-| `mbpost_results/MPST000001.xlsx` | Source workbook (sheet `Table 1`) |
+| `mbpost_results/` | All `result`-tagged files of every public MB-POST project (150 files, 113 projects), see [Downloading MB-POST result files](#downloading-mb-post-result-files) |
+| `mbpost_results/manifest.json`, `manifest.csv` | Project, original name, size and checksum of each downloaded file |
+| `download_mbpost_results.py` | Downloader for the `result`-tagged files |
 | `mbpost_mtd.R` | Step 1: metadata (MTD) section |
 | `mbpost_sml.R` | Step 2: small molecule summary (SML) as Parquet |
 | `mbpost_mztab.R` | Step 3: adds the SML to the mzTab-M file |
@@ -19,6 +21,13 @@ The first converted data set is `MPST000001`: quantitative lipidomics
 | `extract_mbpost_samples.R`, `sample_metadata/` | Separate sample table extraction, see [Other files](#other-files) |
 
 ## Requirements
+
+Python 3.9+ for the downloader (stdlib only, no packages needed). Create the
+environment with [uv](https://docs.astral.sh/uv/):
+
+```sh
+/home/knishida/.local/bin/uv venv .venv
+```
 
 R >= 4.6 with RmzTabM (tested with 0.99.2), readxl and nanoparquet (0.5.2):
 
@@ -49,6 +58,33 @@ Step 1 overwrites the mzTab-M file with the MTD alone; run step 3 again
 afterwards. Step 3 keeps only the MTD of its input, so it can be re-run.
 The outputs are deterministic: a clean run reproduces the committed files
 byte for byte.
+
+## Downloading MB-POST result files
+
+`download_mbpost_results.py` downloads every `result`-tagged file of every
+public project at <https://repository.massbank.jp/> into `mbpost_results/`.
+It lists projects via the public API (`/api/projects`), keeps each project's
+files whose `type` is `result` (`/api/projects/<location>/files`), downloads
+them (`/data/<location>/<name>`), and verifies each against the `size` and
+`checksum` (MD5) reported by the API. Files that already verify are skipped,
+so re-runs only fetch what is new or changed.
+
+```sh
+.venv/bin/python download_mbpost_results.py --dry-run   # list only (150 files, ~212 MB)
+.venv/bin/python download_mbpost_results.py             # download all
+.venv/bin/python download_mbpost_results.py --projects MPST000001,MPST000003
+```
+
+Useful options: `--out` (output directory, default `mbpost_results`),
+`--workers` (parallel downloads, default 4), `--overwrite` (re-download
+everything), `--manifest` (manifest path, default `<out>/manifest.json`,
+plus a `.csv` copy). See `--help` for all options.
+
+Local names keep the source traceable: a project with one result file is
+stored as `<MBPOSTID><original extension>` (e.g. `MPST000001.xlsx`); a
+project with several is stored as `<MBPOSTID>__<original file name>` (e.g.
+`MPST000222__cecum_results.xlsx`). `manifest.json`/`manifest.csv` map each
+local file back to its project, original name, size and checksum.
 
 ## What is extracted
 
