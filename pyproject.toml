@@ -1,0 +1,6 @@
+[project]
+name = "mbpost-downloader"
+version = "0.1.0"
+description = "Downloader for MB-POST result-tagged files (stdlib only, no dependencies)"
+requires-python = ">=3.9"
+dependencies = []
