@@ -4,7 +4,83 @@ Convert lipidomics results deposited in MB-POST as Excel workbooks to
 [mzTab-M 2.1](https://github.com/HUPO-PSI/mzTab) with
 [RmzTabM](https://github.com/RforMassSpectrometry/RmzTabM).
 The first converted data set is `MPST000001`: quantitative lipidomics
-(DEA-SFC/MS/MS, MRM) of three Ba/F3 cell lines with five replicates each.
+(DEA-SFC/MS/MS, MRM) of three Ba/F3 cell lines with five replicates each. The
+quantification tables of all `result`-tagged files of the public MB-POST projects
+have since been converted as well (see [Work done so far](#work-done-so-far)).
+
+## Work done so far
+
+```
+MB-POST repository                              (https://repository.massbank.jp/)
+  |  download_mbpost_results.py
+  v
+mbpost_results/                 150 result files of 113 projects, 212 MB
+  |  extract_mbpost_tables.py
+  v
+mbpost_extracted/               <file>.toml (samples) + <file>.parquet (tables), per file
+  |  mbpost_to_mztabm.R         (RmzTabM)
+  v
+mztabm_extracted/               one .mztab per quantification table
+```
+
+1. **Download.** All 150 `result`-tagged files of the 113 public projects were
+   downloaded and checked against the size and MD5 sum of the API
+   ([details](#downloading-mb-post-result-files)).
+2. **One data set by hand: `MPST000001`.** `mbpost_mtd.R`, `mbpost_sml.R` and
+   `mbpost_mztab.R` convert this workbook (15 samples, 244 lipid species) into
+   `mztabm_results/MPST000001.mztab`, with a study design of three cell lines, both scan
+   polarities, SRM quantitation and the unit from the workbook. Species and cell type
+   are assumptions ([Assumptions](#assumptions)). This was the model for the rest.
+3. **Extraction of all result files.** `extract_mbpost_tables.py` writes one TOML file
+   (samples) and one Parquet file (tables, metabolites as rows) per file, never
+   consolidated: 150 TOML and 143 Parquet files, 215 tables with 130,717 metabolite rows
+   and 15,212 samples, 49 of the tables transposed, 22 worksheets skipped and 7 files
+   without a table. The files have no common layout, so it detects it from the content
+   of each sheet, with a few per-sheet overrides
+   ([details](#extracting-sample-metadata-and-quantification-tables)).
+4. **Conversion to mzTab-M.** `mbpost_to_mztabm.R` writes one mzTab-M file (MTD + SML) per
+   table with RmzTabM, 215 files with none failed, read back and compared with the
+   Parquet file as it goes ([details](#converting-the-extracted-tables-to-mztab-m)).
+   What the tables do not state is not guessed: one study variable `undefined`, RmzTabM's
+   default label-free LC-MS quantification method, `scan_polarity` only where the table
+   shows it (62 of 215), no SMF section.
+
+**How it was checked.**
+
+- Values: 5,375 randomly chosen values (25 per table) were compared with the raw cells of
+  the sheets: no differences. `MPST000001` from the extractor equals the SML of the
+  hand-made pipeline.
+- mzTab-M files: an independent Python script read all 215 files as text and compared
+  them with the TOML and Parquet files (samples, assays, runs, polarity, unit, list
+  lengths, 130,717 SML rows, 8.2 million abundance cells exactly, mean and variation).
+  It found no differences, and found each of the deliberate errors put into copies.
+- Tests: `test_extract_mbpost_tables.py` (21 tests) and `test_mbpost_to_mztabm.R`
+  (32 checks) use synthetic sheets and tables, and were run against deliberately broken
+  versions of the code. Two runs of either step give identical files.
+
+**Defects found by reading the output.** The layout detection is heuristic, and
+looking at the tables beside their source sheets found errors that these checks did not,
+which were then fixed and the outputs regenerated: numeric MRM "Precursor ion" values
+written as adducts and a missed `Precursor-ion (Q1)` header; five wrongly read tables in
+`MPST000197` (two lipid sheets transposed, empty names in the lipid-class sheet, stray
+columns counted as samples in GC-MS and IC-MS); 10 of 85 rows lost in `MPST000037`;
+samples named `FDR-1` to `FDR-3` in `MPST000141` dropped as statistics columns by a
+too-loose pattern. Each was fixed in the code, most with a test or a per-sheet
+override. The tables were not all read in full, so more of these may be left.
+
+**Not done.**
+
+- No mzTab-M 2.1 validator was run (there is none yet), so a file may fail a stricter
+  validator than RmzTabM, e.g. on the 153 files without `scan_polarity`.
+- The study design is not derived (one study variable `undefined`); the quantification
+  method, instrument, title, contacts, publication and MB-POST URI are not in the MTD.
+- No SMF or SME sections; metabolite names are not normalised and have no database
+  identifiers.
+- Some sample names are bare numbers (`MPST000197` GC-MS and IC-MS, `MPST000039`,
+  `MPST000040`) or composed oddly (`Blank_Blank`), because the sheets name them so.
+- `mbpost_extracted/` (45 MB) and `mztabm_extracted/` (100 MB) are generated and not
+  committed. `.venv/bin/python extract_mbpost_tables.py`
+  followed by `Rscript mbpost_to_mztabm.R` rebuilds both in under a minute.
 
 ## Files
 
@@ -215,10 +291,10 @@ are followed by statistics or annotation columns without a recognisable header.
   class totals (`PC total`, ...) that the pipeline leaves out. The output is
   identical between runs and each Parquet file is read by `nanoparquet` in well under
   a second (`MPST000136`, the widest, in 0.02 s).
-- The layout detection is heuristic. The shape, orientation and sample names of every
-  table were reviewed in the report and each layout family was compared with its
-  source sheets, but check `mbpost_extraction_report.tsv` (and the sheet) for the
-  tables you convert.
+- The layout detection is heuristic. Each layout family was compared with its source
+  sheets and the report was read, which found and fixed several errors (see [Work done
+  so far](#work-done-so-far)), but not every table was read in full: check
+  `mbpost_extraction_report.tsv` (and the sheet) for the tables you convert.
 - `chemical_name` is not changed. MS-DIAL names such as `Cer 30:1;2O|Cer 15:1;2`
   contain `|`, which `RmzTabM::smlCreate()` takes as a list separator and rejects
   (76 of 1,128 names in `MPST000012__Height_DDA_neg`), so replace or split it before
