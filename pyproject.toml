@@ -1,6 +1,10 @@
 [project]
 name = "mbpost-downloader"
 version = "0.1.0"
-description = "Downloader for MB-POST result-tagged files (stdlib only, no dependencies)"
+description = "Downloader (stdlib only) and table extractor for MB-POST result-tagged files"
 requires-python = ">=3.9"
 dependencies = []
+
+[project.optional-dependencies]
+# extract_mbpost_tables.py (pyarrow needs Python 3.11+)
+extract = ["openpyxl", "pyarrow", "tomli-w"]
