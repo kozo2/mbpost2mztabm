@@ -1,0 +1,22 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000174__Results_PFPP_human.xlsx"
+mbpost_id = "MPST000174"
+n_tables = 1
+
+[[table]]
+id = "MPST000174__Results_PFPP_human"
+mbpost_id = "MPST000174"
+source_file = "MPST000174__Results_PFPP_human.xlsx"
+sheet = "Sheet1"
+features_in = "columns"
+n_features = 99
+n_samples = 7
+sample = [
+    { assay = 1, name = "Feces1-1", row = 3, attributes = { "Pre/Post*" = "Pre" } },
+    { assay = 2, name = "Feces1-2", row = 4, attributes = { "Pre/Post*" = "Post" } },
+    { assay = 3, name = "Feces2-1", row = 5, attributes = { "Pre/Post*" = "Pre" } },
+    { assay = 4, name = "Feces3-1", row = 6, attributes = { "Pre/Post*" = "Pre" } },
+    { assay = 5, name = "Feces4-1", row = 7, attributes = { "Pre/Post*" = "Pre" } },
+    { assay = 6, name = "Feces5-1", row = 8, attributes = { "Pre/Post*" = "Pre" } },
+    { assay = 7, name = "Feces5-2", row = 9, attributes = { "Pre/Post*" = "Post" } },
+]

@@ -1,0 +1,10 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000014.xlsx"
+mbpost_id = "MPST000014"
+n_tables = 0
+skipped = [
+    { sheet = "Serum", reason = "no abundance columns (only annotation columns)" },
+    { sheet = "VLDL", reason = "no abundance columns (only annotation columns)" },
+    { sheet = "LDL", reason = "no abundance columns (only annotation columns)" },
+    { sheet = "Erythrocytes", reason = "no abundance columns (only annotation columns)" },
+]

@@ -1,0 +1,47 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000103.csv"
+mbpost_id = "MPST000103"
+n_tables = 1
+
+[[table]]
+id = "MPST000103"
+mbpost_id = "MPST000103"
+source_file = "MPST000103.csv"
+features_in = "rows"
+n_features = 72
+n_samples = 33
+sample = [
+    { assay = 1, name = "NBRC0555_9h_1", column = "B" },
+    { assay = 2, name = "NBRC0555_9h_2", column = "C" },
+    { assay = 3, name = "NBRC0555_9h_3", column = "D" },
+    { assay = 4, name = "NBRC2043_9h_4", column = "E" },
+    { assay = 5, name = "NBRC2043_9h_5", column = "F" },
+    { assay = 6, name = "NBRC2043_9h_6", column = "G" },
+    { assay = 7, name = "BY4947_9h_1", column = "H" },
+    { assay = 8, name = "BY4947_9h_2", column = "I" },
+    { assay = 9, name = "BY4947_9h_3", column = "J" },
+    { assay = 10, name = "EC1118_9h_1", column = "K" },
+    { assay = 11, name = "EC1118_9h_2", column = "L" },
+    { assay = 12, name = "EC1118_9h_3", column = "M" },
+    { assay = 13, name = "Kyokai6_9h_1", column = "N" },
+    { assay = 14, name = "Kyokai6_9h_2", column = "O" },
+    { assay = 15, name = "Kyokai6_9h_3", column = "P" },
+    { assay = 16, name = "Kyokai7_9h_1", column = "Q" },
+    { assay = 17, name = "Kyokai7_9h_2", column = "R" },
+    { assay = 18, name = "Kyokai7_9h_3", column = "S" },
+    { assay = 19, name = "Kyokai9_9h_1", column = "T" },
+    { assay = 20, name = "Kyokai9_9h_2", column = "U" },
+    { assay = 21, name = "Kyokai9_9h_3", column = "V" },
+    { assay = 22, name = "OC-2_9h_1", column = "W" },
+    { assay = 23, name = "OC-2_9h_2", column = "X" },
+    { assay = 24, name = "OC-2_9h_3", column = "Y" },
+    { assay = 25, name = "QA23_9h_1", column = "Z" },
+    { assay = 26, name = "QA23_9h_2", column = "AA" },
+    { assay = 27, name = "QA23_9h_3", column = "AB" },
+    { assay = 28, name = "RedStar_9h_1", column = "AC" },
+    { assay = 29, name = "RedStar_9h_2", column = "AD" },
+    { assay = 30, name = "RedStar_9h_3", column = "AE" },
+    { assay = 31, name = "WLP530_9h_1", column = "AF" },
+    { assay = 32, name = "WLP530_9h_2", column = "AG" },
+    { assay = 33, name = "WLP530_9h_3", column = "AH" },
+]

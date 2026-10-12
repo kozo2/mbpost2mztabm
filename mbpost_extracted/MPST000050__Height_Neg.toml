@@ -1,0 +1,262 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000050__Height_Neg.csv"
+mbpost_id = "MPST000050"
+n_tables = 1
+
+[[table]]
+id = "MPST000050__Height_Neg"
+mbpost_id = "MPST000050"
+source_file = "MPST000050__Height_Neg.csv"
+features_in = "rows"
+n_features = 1668
+n_samples = 25
+
+[[table.sample]]
+assay = 1
+name = "250130_Tomita_1_neg"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "-"
+"File type" = "Sample"
+"Injection order" = "1"
+
+[[table.sample]]
+assay = 2
+name = "250130_Tomita_10_neg"
+column = "AK"
+
+[table.sample.attributes]
+Class = "DLPE5"
+"File type" = "Sample"
+"Injection order" = "2"
+
+[[table.sample]]
+assay = 3
+name = "250130_Tomita_11_neg"
+column = "AL"
+
+[table.sample.attributes]
+Class = "DLPE5"
+"File type" = "Sample"
+"Injection order" = "3"
+
+[[table.sample]]
+assay = 4
+name = "250130_Tomita_12_neg"
+column = "AM"
+
+[table.sample.attributes]
+Class = "DLPE5"
+"File type" = "Sample"
+"Injection order" = "4"
+
+[[table.sample]]
+assay = 5
+name = "250130_Tomita_13_neg"
+column = "AN"
+
+[table.sample.attributes]
+Class = "DLPE50"
+"File type" = "Sample"
+"Injection order" = "5"
+
+[[table.sample]]
+assay = 6
+name = "250130_Tomita_14_neg"
+column = "AO"
+
+[table.sample.attributes]
+Class = "DLPE50"
+"File type" = "Sample"
+"Injection order" = "6"
+
+[[table.sample]]
+assay = 7
+name = "250130_Tomita_15_neg"
+column = "AP"
+
+[table.sample.attributes]
+Class = "DLPE50"
+"File type" = "Sample"
+"Injection order" = "7"
+
+[[table.sample]]
+assay = 8
+name = "250130_Tomita_16_neg"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "etn50"
+"File type" = "Sample"
+"Injection order" = "8"
+
+[[table.sample]]
+assay = 9
+name = "250130_Tomita_17_neg"
+column = "AR"
+
+[table.sample.attributes]
+Class = "etn50"
+"File type" = "Sample"
+"Injection order" = "9"
+
+[[table.sample]]
+assay = 10
+name = "250130_Tomita_18_neg"
+column = "AS"
+
+[table.sample.attributes]
+Class = "etn50"
+"File type" = "Sample"
+"Injection order" = "10"
+
+[[table.sample]]
+assay = 11
+name = "250130_Tomita_19_neg"
+column = "AT"
+
+[table.sample.attributes]
+Class = "petn50"
+"File type" = "Sample"
+"Injection order" = "11"
+
+[[table.sample]]
+assay = 12
+name = "250130_Tomita_2_neg"
+column = "AU"
+
+[table.sample.attributes]
+Class = "-"
+"File type" = "Sample"
+"Injection order" = "12"
+
+[[table.sample]]
+assay = 13
+name = "250130_Tomita_20_neg"
+column = "AV"
+
+[table.sample.attributes]
+Class = "petn50"
+"File type" = "Sample"
+"Injection order" = "13"
+
+[[table.sample]]
+assay = 14
+name = "250130_Tomita_21_neg"
+column = "AW"
+
+[table.sample.attributes]
+Class = "petn50"
+"File type" = "Sample"
+"Injection order" = "14"
+
+[[table.sample]]
+assay = 15
+name = "250130_Tomita_22_neg"
+column = "AX"
+
+[table.sample.attributes]
+Class = "CDPetn50"
+"File type" = "Sample"
+"Injection order" = "15"
+
+[[table.sample]]
+assay = 16
+name = "250130_Tomita_23_neg"
+column = "AY"
+
+[table.sample.attributes]
+Class = "CDPetn50"
+"File type" = "Sample"
+"Injection order" = "16"
+
+[[table.sample]]
+assay = 17
+name = "250130_Tomita_24_neg"
+column = "AZ"
+
+[table.sample.attributes]
+Class = "CDPetn50"
+"File type" = "Sample"
+"Injection order" = "17"
+
+[[table.sample]]
+assay = 18
+name = "250130_Tomita_25_neg"
+column = "BA"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "18"
+
+[[table.sample]]
+assay = 19
+name = "250130_Tomita_3_neg"
+column = "BB"
+
+[table.sample.attributes]
+Class = "-"
+"File type" = "Sample"
+"Injection order" = "19"
+
+[[table.sample]]
+assay = 20
+name = "250130_Tomita_4_neg"
+column = "BC"
+
+[table.sample.attributes]
+Class = "DLPE0.05"
+"File type" = "Sample"
+"Injection order" = "20"
+
+[[table.sample]]
+assay = 21
+name = "250130_Tomita_5_neg"
+column = "BD"
+
+[table.sample.attributes]
+Class = "DLPE0.05"
+"File type" = "Sample"
+"Injection order" = "21"
+
+[[table.sample]]
+assay = 22
+name = "250130_Tomita_6_neg"
+column = "BE"
+
+[table.sample.attributes]
+Class = "DLPE0.05"
+"File type" = "Sample"
+"Injection order" = "22"
+
+[[table.sample]]
+assay = 23
+name = "250130_Tomita_7_neg"
+column = "BF"
+
+[table.sample.attributes]
+Class = "DLPE0.5"
+"File type" = "Sample"
+"Injection order" = "23"
+
+[[table.sample]]
+assay = 24
+name = "250130_Tomita_8_neg"
+column = "BG"
+
+[table.sample.attributes]
+Class = "DLPE0.5"
+"File type" = "Sample"
+"Injection order" = "24"
+
+[[table.sample]]
+assay = 25
+name = "250130_Tomita_9_neg"
+column = "BH"
+
+[table.sample.attributes]
+Class = "DLPE0.5"
+"File type" = "Sample"
+"Injection order" = "25"

@@ -1,0 +1,48 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000012__Height_DIA_pos.txt"
+mbpost_id = "MPST000012"
+n_tables = 1
+
+[[table]]
+id = "MPST000012__Height_DIA_pos"
+mbpost_id = "MPST000012"
+source_file = "MPST000012__Height_DIA_pos.txt"
+features_in = "rows"
+n_features = 1150
+n_samples = 4
+
+[[table.sample]]
+assay = 1
+name = "DIAblank_20ms_pos"
+column = "AG"
+
+[table.sample.attributes]
+"File type" = "Blank"
+"Injection order" = "1"
+
+[[table.sample]]
+assay = 2
+name = "y_DIA_35_20_20ms_pos_1"
+column = "AH"
+
+[table.sample.attributes]
+"File type" = "Sample"
+"Injection order" = "2"
+
+[[table.sample]]
+assay = 3
+name = "y_DIA_35_20_20ms_pos_2"
+column = "AI"
+
+[table.sample.attributes]
+"File type" = "Sample"
+"Injection order" = "3"
+
+[[table.sample]]
+assay = 4
+name = "y_DIA_35_20_20ms_pos_3"
+column = "AJ"
+
+[table.sample.attributes]
+"File type" = "Sample"
+"Injection order" = "4"

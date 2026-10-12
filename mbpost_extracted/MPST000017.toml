@@ -1,0 +1,21 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000017.xlsx"
+mbpost_id = "MPST000017"
+n_tables = 1
+
+[[table]]
+id = "MPST000017"
+mbpost_id = "MPST000017"
+source_file = "MPST000017.xlsx"
+sheet = "Sheet2"
+features_in = "rows"
+n_features = 67
+n_samples = 6
+sample = [
+    { assay = 1, name = "siLuc-1", column = "I" },
+    { assay = 2, name = "siLuc-2", column = "J" },
+    { assay = 3, name = "siLuc-3", column = "K" },
+    { assay = 4, name = "siNnmt-1", column = "L" },
+    { assay = 5, name = "siNnmt-2", column = "M" },
+    { assay = 6, name = "siNnmt-3", column = "N" },
+]

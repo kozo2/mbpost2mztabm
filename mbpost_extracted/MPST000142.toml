@@ -1,0 +1,662 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000142.csv"
+mbpost_id = "MPST000142"
+n_tables = 1
+
+[[table]]
+id = "MPST000142"
+mbpost_id = "MPST000142"
+source_file = "MPST000142.csv"
+features_in = "rows"
+n_features = 3
+n_samples = 65
+
+[[table.sample]]
+assay = 1
+name = "251031_Tomita_a_C1_neg"
+column = "V"
+
+[table.sample.attributes]
+header_1 = "BthetaChol"
+header_2 = "Sample"
+header_3 = "2"
+
+[[table.sample]]
+assay = 2
+name = "251031_Tomita_a_C2_neg"
+column = "W"
+
+[table.sample.attributes]
+header_1 = "BthetaChol"
+header_2 = "Sample"
+header_3 = "3"
+
+[[table.sample]]
+assay = 3
+name = "251031_Tomita_a_C3_neg"
+column = "X"
+
+[table.sample.attributes]
+header_1 = "BthetaChol"
+header_2 = "Sample"
+header_3 = "4"
+
+[[table.sample]]
+assay = 4
+name = "251031_Tomita_a_S1_neg"
+column = "Y"
+
+[table.sample.attributes]
+header_1 = "BthetaSito"
+header_2 = "Sample"
+header_3 = "5"
+
+[[table.sample]]
+assay = 5
+name = "251031_Tomita_a_S2_neg"
+column = "Z"
+
+[table.sample.attributes]
+header_1 = "BthetaSito"
+header_2 = "Sample"
+header_3 = "6"
+
+[[table.sample]]
+assay = 6
+name = "251031_Tomita_a_S3_neg"
+column = "AA"
+
+[table.sample.attributes]
+header_1 = "BthetaSito"
+header_2 = "Sample"
+header_3 = "7"
+
+[[table.sample]]
+assay = 7
+name = "251031_Tomita_A16_C1_neg"
+column = "AB"
+
+[table.sample.attributes]
+header_1 = "AfineChol"
+header_2 = "Sample"
+header_3 = "8"
+
+[[table.sample]]
+assay = 8
+name = "251031_Tomita_A16_C2_neg"
+column = "AC"
+
+[table.sample.attributes]
+header_1 = "AfineChol"
+header_2 = "Sample"
+header_3 = "9"
+
+[[table.sample]]
+assay = 9
+name = "251031_Tomita_A16_C3_neg"
+column = "AD"
+
+[table.sample.attributes]
+header_1 = "AfineChol"
+header_2 = "Sample"
+header_3 = "10"
+
+[[table.sample]]
+assay = 10
+name = "251031_Tomita_A16_S1_neg"
+column = "AE"
+
+[table.sample.attributes]
+header_1 = "AfineSito"
+header_2 = "Sample"
+header_3 = "11"
+
+[[table.sample]]
+assay = 11
+name = "251031_Tomita_A16_S2_neg"
+column = "AF"
+
+[table.sample.attributes]
+header_1 = "AfineSito"
+header_2 = "Sample"
+header_3 = "12"
+
+[[table.sample]]
+assay = 12
+name = "251031_Tomita_A16_S3_neg"
+column = "AG"
+
+[table.sample.attributes]
+header_1 = "AfineSito"
+header_2 = "Sample"
+header_3 = "13"
+
+[[table.sample]]
+assay = 13
+name = "251031_Tomita_A27_C1_neg"
+column = "AH"
+
+[table.sample.attributes]
+header_1 = "PgoldChol"
+header_2 = "Sample"
+header_3 = "14"
+
+[[table.sample]]
+assay = 14
+name = "251031_Tomita_A27_C2_neg"
+column = "AI"
+
+[table.sample.attributes]
+header_1 = "PgoldChol"
+header_2 = "Sample"
+header_3 = "15"
+
+[[table.sample]]
+assay = 15
+name = "251031_Tomita_A27_C3_neg"
+column = "AJ"
+
+[table.sample.attributes]
+header_1 = "PgoldChol"
+header_2 = "Sample"
+header_3 = "16"
+
+[[table.sample]]
+assay = 16
+name = "251031_Tomita_A27_S1_neg"
+column = "AK"
+
+[table.sample.attributes]
+header_1 = "PgoldSito"
+header_2 = "Sample"
+header_3 = "17"
+
+[[table.sample]]
+assay = 17
+name = "251031_Tomita_A27_S2_neg"
+column = "AL"
+
+[table.sample.attributes]
+header_1 = "PgoldSito"
+header_2 = "Sample"
+header_3 = "18"
+
+[[table.sample]]
+assay = 18
+name = "251031_Tomita_A27_S3_neg"
+column = "AM"
+
+[table.sample.attributes]
+header_1 = "PgoldSito"
+header_2 = "Sample"
+header_3 = "19"
+
+[[table.sample]]
+assay = 19
+name = "251031_Tomita_A29_C1_neg"
+column = "AN"
+
+[table.sample.attributes]
+header_1 = "PginChol"
+header_2 = "Sample"
+header_3 = "20"
+
+[[table.sample]]
+assay = 20
+name = "251031_Tomita_A29_C2_neg"
+column = "AO"
+
+[table.sample.attributes]
+header_1 = "PginChol"
+header_2 = "Sample"
+header_3 = "21"
+
+[[table.sample]]
+assay = 21
+name = "251031_Tomita_A29_C3_neg"
+column = "AP"
+
+[table.sample.attributes]
+header_1 = "PginChol"
+header_2 = "Sample"
+header_3 = "22"
+
+[[table.sample]]
+assay = 22
+name = "251031_Tomita_A29_S1_neg"
+column = "AQ"
+
+[table.sample.attributes]
+header_1 = "PginSito"
+header_2 = "Sample"
+header_3 = "23"
+
+[[table.sample]]
+assay = 23
+name = "251031_Tomita_A29_S2_neg"
+column = "AR"
+
+[table.sample.attributes]
+header_1 = "PginSito"
+header_2 = "Sample"
+header_3 = "24"
+
+[[table.sample]]
+assay = 24
+name = "251031_Tomita_A29_S3_neg"
+column = "AS"
+
+[table.sample.attributes]
+header_1 = "PginSito"
+header_2 = "Sample"
+header_3 = "25"
+
+[[table.sample]]
+assay = 25
+name = "251031_Tomita_A30_C1_neg"
+column = "AT"
+
+[table.sample.attributes]
+header_1 = "PdentChol"
+header_2 = "Sample"
+header_3 = "26"
+
+[[table.sample]]
+assay = 26
+name = "251031_Tomita_A30_C2_neg"
+column = "AU"
+
+[table.sample.attributes]
+header_1 = "PdentChol"
+header_2 = "Sample"
+header_3 = "27"
+
+[[table.sample]]
+assay = 27
+name = "251031_Tomita_A30_C3_neg"
+column = "AV"
+
+[table.sample.attributes]
+header_1 = "PdentChol"
+header_2 = "Sample"
+header_3 = "28"
+
+[[table.sample]]
+assay = 28
+name = "251031_Tomita_A30_S1_neg"
+column = "AW"
+
+[table.sample.attributes]
+header_1 = "PdentSito"
+header_2 = "Sample"
+header_3 = "29"
+
+[[table.sample]]
+assay = 29
+name = "251031_Tomita_A30_S2_neg"
+column = "AX"
+
+[table.sample.attributes]
+header_1 = "PdentSito"
+header_2 = "Sample"
+header_3 = "30"
+
+[[table.sample]]
+assay = 30
+name = "251031_Tomita_A30_S3_neg"
+column = "AY"
+
+[table.sample.attributes]
+header_1 = "PdentSito"
+header_2 = "Sample"
+header_3 = "31"
+
+[[table.sample]]
+assay = 31
+name = "251031_Tomita_A37_C1_neg"
+column = "AZ"
+
+[table.sample.attributes]
+header_1 = "BinteChol"
+header_2 = "Sample"
+header_3 = "32"
+
+[[table.sample]]
+assay = 32
+name = "251031_Tomita_A37_C2_neg"
+column = "BA"
+
+[table.sample.attributes]
+header_1 = "BinteChol"
+header_2 = "Sample"
+header_3 = "33"
+
+[[table.sample]]
+assay = 33
+name = "251031_Tomita_A37_C3_neg"
+column = "BB"
+
+[table.sample.attributes]
+header_1 = "BinteChol"
+header_2 = "Sample"
+header_3 = "34"
+
+[[table.sample]]
+assay = 34
+name = "251031_Tomita_A37_S1_neg"
+column = "BC"
+
+[table.sample.attributes]
+header_1 = "BinteSito"
+header_2 = "Sample"
+header_3 = "35"
+
+[[table.sample]]
+assay = 35
+name = "251031_Tomita_A37_S2_neg"
+column = "BD"
+
+[table.sample.attributes]
+header_1 = "BinteSito"
+header_2 = "Sample"
+header_3 = "36"
+
+[[table.sample]]
+assay = 36
+name = "251031_Tomita_A37_S3_neg"
+column = "BE"
+
+[table.sample.attributes]
+header_1 = "BinteSito"
+header_2 = "Sample"
+header_3 = "37"
+
+[[table.sample]]
+assay = 37
+name = "251031_Tomita_af_C1_neg"
+column = "BF"
+
+[table.sample.attributes]
+header_1 = "PjohnChol"
+header_2 = "Sample"
+header_3 = "38"
+
+[[table.sample]]
+assay = 38
+name = "251031_Tomita_af_C2_neg"
+column = "BG"
+
+[table.sample.attributes]
+header_1 = "PjohnChol"
+header_2 = "Sample"
+header_3 = "39"
+
+[[table.sample]]
+assay = 39
+name = "251031_Tomita_af_C3_neg"
+column = "BH"
+
+[table.sample.attributes]
+header_1 = "PjohnChol"
+header_2 = "Sample"
+header_3 = "40"
+
+[[table.sample]]
+assay = 40
+name = "251031_Tomita_af_S1_neg"
+column = "BI"
+
+[table.sample.attributes]
+header_1 = "PjohnSito"
+header_2 = "Sample"
+header_3 = "41"
+
+[[table.sample]]
+assay = 41
+name = "251031_Tomita_af_S2_neg"
+column = "BJ"
+
+[table.sample.attributes]
+header_1 = "PjohnSito"
+header_2 = "Sample"
+header_3 = "42"
+
+[[table.sample]]
+assay = 42
+name = "251031_Tomita_af_S3_neg"
+column = "BK"
+
+[table.sample.attributes]
+header_1 = "PjohnSito"
+header_2 = "Sample"
+header_3 = "43"
+
+[[table.sample]]
+assay = 43
+name = "251031_Tomita_c_C1_neg"
+column = "BM"
+
+[table.sample.attributes]
+header_1 = "BcacChol"
+header_2 = "Sample"
+header_3 = "45"
+
+[[table.sample]]
+assay = 44
+name = "251031_Tomita_c_C2_neg"
+column = "BN"
+
+[table.sample.attributes]
+header_1 = "BcacChol"
+header_2 = "Sample"
+header_3 = "46"
+
+[[table.sample]]
+assay = 45
+name = "251031_Tomita_c_C3_neg"
+column = "BO"
+
+[table.sample.attributes]
+header_1 = "BcacChol"
+header_2 = "Sample"
+header_3 = "47"
+
+[[table.sample]]
+assay = 46
+name = "251031_Tomita_c_S1_neg"
+column = "BP"
+
+[table.sample.attributes]
+header_1 = "BcacSito"
+header_2 = "Sample"
+header_3 = "48"
+
+[[table.sample]]
+assay = 47
+name = "251031_Tomita_c_S2_neg"
+column = "BQ"
+
+[table.sample.attributes]
+header_1 = "BcacSito"
+header_2 = "Sample"
+header_3 = "49"
+
+[[table.sample]]
+assay = 48
+name = "251031_Tomita_c_S3_neg"
+column = "BR"
+
+[table.sample.attributes]
+header_1 = "BcacSito"
+header_2 = "Sample"
+header_3 = "50"
+
+[[table.sample]]
+assay = 49
+name = "251031_Tomita_k_C1_neg"
+column = "BS"
+
+[table.sample.attributes]
+header_1 = "BfraChol"
+header_2 = "Sample"
+header_3 = "51"
+
+[[table.sample]]
+assay = 50
+name = "251031_Tomita_k_C2_neg"
+column = "BT"
+
+[table.sample.attributes]
+header_1 = "BfraChol"
+header_2 = "Sample"
+header_3 = "52"
+
+[[table.sample]]
+assay = 51
+name = "251031_Tomita_k_C3_neg"
+column = "BU"
+
+[table.sample.attributes]
+header_1 = "BfraChol"
+header_2 = "Sample"
+header_3 = "53"
+
+[[table.sample]]
+assay = 52
+name = "251031_Tomita_k_S1_neg"
+column = "BV"
+
+[table.sample.attributes]
+header_1 = "BfraSito"
+header_2 = "Sample"
+header_3 = "54"
+
+[[table.sample]]
+assay = 53
+name = "251031_Tomita_k_S2_neg"
+column = "BW"
+
+[table.sample.attributes]
+header_1 = "BfraSito"
+header_2 = "Sample"
+header_3 = "55"
+
+[[table.sample]]
+assay = 54
+name = "251031_Tomita_k_S3_neg"
+column = "BX"
+
+[table.sample.attributes]
+header_1 = "BfraSito"
+header_2 = "Sample"
+header_3 = "56"
+
+[[table.sample]]
+assay = 55
+name = "251031_Tomita_p_C1_neg"
+column = "BY"
+
+[table.sample.attributes]
+header_1 = "BuniChol"
+header_2 = "Sample"
+header_3 = "57"
+
+[[table.sample]]
+assay = 56
+name = "251031_Tomita_p_C2_neg"
+column = "BZ"
+
+[table.sample.attributes]
+header_1 = "BuniChol"
+header_2 = "Sample"
+header_3 = "58"
+
+[[table.sample]]
+assay = 57
+name = "251031_Tomita_p_C3_neg"
+column = "CA"
+
+[table.sample.attributes]
+header_1 = "BuniChol"
+header_2 = "Sample"
+header_3 = "59"
+
+[[table.sample]]
+assay = 58
+name = "251031_Tomita_p_S1_neg"
+column = "CB"
+
+[table.sample.attributes]
+header_1 = "BuniSito"
+header_2 = "Sample"
+header_3 = "60"
+
+[[table.sample]]
+assay = 59
+name = "251031_Tomita_p_S2_neg"
+column = "CC"
+
+[table.sample.attributes]
+header_1 = "BuniSito"
+header_2 = "Sample"
+header_3 = "61"
+
+[[table.sample]]
+assay = 60
+name = "251031_Tomita_p_S3_neg"
+column = "CD"
+
+[table.sample.attributes]
+header_1 = "BuniSito"
+header_2 = "Sample"
+header_3 = "62"
+
+[[table.sample]]
+assay = 61
+name = "251031_Tomita_Blank_neg"
+column = "CE"
+
+[table.sample.attributes]
+header_1 = "Blank"
+header_2 = "Blank"
+header_3 = "44"
+
+[[table.sample]]
+assay = 62
+name = "251031_Tomita_QC1_neg"
+column = "CF"
+
+[table.sample.attributes]
+header_1 = "QC1"
+header_2 = "QC"
+header_3 = "63"
+
+[[table.sample]]
+assay = 63
+name = "251031_Tomita_QC2_neg"
+column = "CG"
+
+[table.sample.attributes]
+header_1 = "QC2"
+header_2 = "QC"
+header_3 = "64"
+
+[[table.sample]]
+assay = 64
+name = "251031_Tomita_QC3_neg"
+column = "CH"
+
+[table.sample.attributes]
+header_1 = "QC3"
+header_2 = "QC"
+header_3 = "65"
+
+[[table.sample]]
+assay = 65
+name = "251031_Tomita_QC4_neg"
+column = "CI"
+
+[table.sample.attributes]
+header_1 = "QC4"
+header_2 = "QC"
+header_3 = "66"

@@ -1,0 +1,39 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000144.csv"
+mbpost_id = "MPST000144"
+n_tables = 1
+
+[[table]]
+id = "MPST000144"
+mbpost_id = "MPST000144"
+source_file = "MPST000144.csv"
+features_in = "rows"
+n_features = 213
+n_samples = 3
+
+[[table.sample]]
+assay = 1
+name = "251217_Tomita_Bt_neg"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "Bt"
+"Injection order" = "1"
+
+[[table.sample]]
+assay = 2
+name = "251217_Tomita_Bt_SIS_neg"
+column = "AK"
+
+[table.sample.attributes]
+Class = "Bt_SIS"
+"Injection order" = "2"
+
+[[table.sample]]
+assay = 3
+name = "251217_Tomita_SIS_neg"
+column = "AL"
+
+[table.sample.attributes]
+Class = "SIS"
+"Injection order" = "3"

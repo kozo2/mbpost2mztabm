@@ -1,0 +1,161 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000180__PC_PI_SM_human.xlsx"
+mbpost_id = "MPST000180"
+n_tables = 1
+
+[[table]]
+id = "MPST000180__PC_PI_SM_human"
+mbpost_id = "MPST000180"
+source_file = "MPST000180__PC_PI_SM_human.xlsx"
+sheet = "Sheet1"
+features_in = "rows"
+n_features = 65
+n_samples = 18
+description = "Peak area of phosphatidylcholine, phosphatidylinositol and sphingomyelin detected from human faecal metabolome using LC/MS/MS MRM library for phospholipid profiling"
+
+[[table.sample]]
+assay = 1
+name = "1-pre"
+column = "B"
+
+[table.sample.attributes]
+header_1 = "Technical replicate 1"
+"Tissue weight (mg)*" = "23.9"
+
+[[table.sample]]
+assay = 2
+name = "2-pre"
+column = "C"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "19.5"
+
+[[table.sample]]
+assay = 3
+name = "3-pre"
+column = "D"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "24"
+
+[[table.sample]]
+assay = 4
+name = "4-pre"
+column = "E"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "20"
+
+[[table.sample]]
+assay = 5
+name = "1-post"
+column = "F"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "20"
+
+[[table.sample]]
+assay = 6
+name = "5-post"
+column = "G"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "26"
+
+[[table.sample]]
+assay = 7
+name = "1-pre_2"
+column = "I"
+
+[table.sample.attributes]
+header_1 = "Technical replicate 2"
+"Tissue weight (mg)*" = "23.9"
+
+[[table.sample]]
+assay = 8
+name = "2-pre_2"
+column = "J"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "19.5"
+
+[[table.sample]]
+assay = 9
+name = "3-pre_2"
+column = "K"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "24"
+
+[[table.sample]]
+assay = 10
+name = "4-pre_2"
+column = "L"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "20"
+
+[[table.sample]]
+assay = 11
+name = "1-post_2"
+column = "M"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "20"
+
+[[table.sample]]
+assay = 12
+name = "5-post_2"
+column = "N"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "26"
+
+[[table.sample]]
+assay = 13
+name = "1-pre_3"
+column = "P"
+
+[table.sample.attributes]
+header_1 = "Technical replicate 3"
+"Tissue weight (mg)*" = "23.9"
+
+[[table.sample]]
+assay = 14
+name = "2-pre_3"
+column = "Q"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "19.5"
+
+[[table.sample]]
+assay = 15
+name = "3-pre_3"
+column = "R"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "24"
+
+[[table.sample]]
+assay = 16
+name = "4-pre_3"
+column = "S"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "20"
+
+[[table.sample]]
+assay = 17
+name = "1-post_3"
+column = "T"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "20"
+
+[[table.sample]]
+assay = 18
+name = "5-post_3"
+column = "U"
+
+[table.sample.attributes]
+"Tissue weight (mg)*" = "26"

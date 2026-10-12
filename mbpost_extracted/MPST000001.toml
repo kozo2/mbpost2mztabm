@@ -1,0 +1,150 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000001.xlsx"
+mbpost_id = "MPST000001"
+n_tables = 1
+
+[[table]]
+id = "MPST000001"
+mbpost_id = "MPST000001"
+source_file = "MPST000001.xlsx"
+sheet = "Table 1"
+features_in = "rows"
+n_features = 254
+n_samples = 15
+unit = "nmol/mg-protein"
+description = "Supplementary Table 1. Analytical conditions for DEA-SFC/MS/MS (MRM) and quantitative lipidomic data"
+
+[[table.sample]]
+assay = 1
+name = "Ba/F3_1"
+column = "L"
+
+[table.sample.attributes]
+header_1 = "Ba/F3"
+header_2 = "1"
+
+[[table.sample]]
+assay = 2
+name = "Ba/F3_2"
+column = "M"
+
+[table.sample.attributes]
+header_1 = "Ba/F3"
+header_2 = "2"
+
+[[table.sample]]
+assay = 3
+name = "Ba/F3_3"
+column = "N"
+
+[table.sample.attributes]
+header_1 = "Ba/F3"
+header_2 = "3"
+
+[[table.sample]]
+assay = 4
+name = "Ba/F3_4"
+column = "O"
+
+[table.sample.attributes]
+header_1 = "Ba/F3"
+header_2 = "4"
+
+[[table.sample]]
+assay = 5
+name = "Ba/F3_5"
+column = "P"
+
+[table.sample.attributes]
+header_1 = "Ba/F3"
+header_2 = "5"
+
+[[table.sample]]
+assay = 6
+name = "Tm63bnull_1"
+column = "Q"
+
+[table.sample.attributes]
+header_1 = "Tm63bnull"
+header_2 = "1"
+
+[[table.sample]]
+assay = 7
+name = "Tm63bnull_2"
+column = "R"
+
+[table.sample.attributes]
+header_1 = "Tm63bnull"
+header_2 = "2"
+
+[[table.sample]]
+assay = 8
+name = "Tm63bnull_3"
+column = "S"
+
+[table.sample.attributes]
+header_1 = "Tm63bnull"
+header_2 = "3"
+
+[[table.sample]]
+assay = 9
+name = "Tm63bnull_4"
+column = "T"
+
+[table.sample.attributes]
+header_1 = "Tm63bnull"
+header_2 = "4"
+
+[[table.sample]]
+assay = 10
+name = "Tm63bnull_5"
+column = "U"
+
+[table.sample.attributes]
+header_1 = "Tm63bnull"
+header_2 = "5"
+
+[[table.sample]]
+assay = 11
+name = "Tm63bnull-mTMEM63B_1"
+column = "V"
+
+[table.sample.attributes]
+header_1 = "Tm63bnull-mTMEM63B"
+header_2 = "1"
+
+[[table.sample]]
+assay = 12
+name = "Tm63bnull-mTMEM63B_2"
+column = "W"
+
+[table.sample.attributes]
+header_1 = "Tm63bnull-mTMEM63B"
+header_2 = "2"
+
+[[table.sample]]
+assay = 13
+name = "Tm63bnull-mTMEM63B_3"
+column = "X"
+
+[table.sample.attributes]
+header_1 = "Tm63bnull-mTMEM63B"
+header_2 = "3"
+
+[[table.sample]]
+assay = 14
+name = "Tm63bnull-mTMEM63B_4"
+column = "Y"
+
+[table.sample.attributes]
+header_1 = "Tm63bnull-mTMEM63B"
+header_2 = "4"
+
+[[table.sample]]
+assay = 15
+name = "Tm63bnull-mTMEM63B_5"
+column = "Z"
+
+[table.sample.attributes]
+header_1 = "Tm63bnull-mTMEM63B"
+header_2 = "5"

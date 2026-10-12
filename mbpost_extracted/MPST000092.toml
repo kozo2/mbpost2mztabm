@@ -1,0 +1,7 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000092.xlsx"
+mbpost_id = "MPST000092"
+n_tables = 0
+skipped = [
+    { sheet = "Sheet1", reason = "no abundance columns (only annotation columns)" },
+]

@@ -1,0 +1,24 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000173__Results_SCFAs_human_10-fold dilution.xlsx"
+mbpost_id = "MPST000173"
+n_tables = 1
+
+[[table]]
+id = "MPST000173__Results_SCFAs_human_10-fold dilution"
+mbpost_id = "MPST000173"
+source_file = "MPST000173__Results_SCFAs_human_10-fold dilution.xlsx"
+sheet = "Sheet1"
+features_in = "columns"
+n_features = 1
+n_samples = 9
+sample = [
+    { assay = 1, name = "Feces1-1", row = 3, attributes = { "Pre/Post*" = "Pre" } },
+    { assay = 2, name = "Feces1-2", row = 4, attributes = { "Pre/Post*" = "Post" } },
+    { assay = 3, name = "Feces2-1", row = 5, attributes = { "Pre/Post*" = "Pre" } },
+    { assay = 4, name = "Feces3-1", row = 6, attributes = { "Pre/Post*" = "Pre" } },
+    { assay = 5, name = "Feces3-2", row = 7, attributes = { "Pre/Post*" = "Post" } },
+    { assay = 6, name = "Feces4-1", row = 8, attributes = { "Pre/Post*" = "Pre" } },
+    { assay = 7, name = "Feces4-2", row = 9, attributes = { "Pre/Post*" = "Post" } },
+    { assay = 8, name = "Feces5-1", row = 10, attributes = { "Pre/Post*" = "Pre" } },
+    { assay = 9, name = "Feces5-2", row = 11, attributes = { "Pre/Post*" = "Post" } },
+]

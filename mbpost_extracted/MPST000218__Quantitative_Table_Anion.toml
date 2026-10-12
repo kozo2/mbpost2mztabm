@@ -1,0 +1,48 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000218__Quantitative_Table_Anion.xlsx"
+mbpost_id = "MPST000218"
+n_tables = 1
+
+[[table]]
+id = "MPST000218__Quantitative_Table_Anion"
+mbpost_id = "MPST000218"
+source_file = "MPST000218__Quantitative_Table_Anion.xlsx"
+sheet = "Sheet1"
+features_in = "rows"
+n_features = 238
+n_samples = 32
+unit = "µM"
+sample = [
+    { assay = 1, name = "33", column = "E", attributes = { Group = "Control_day1" } },
+    { assay = 2, name = "34", column = "F", attributes = { Group = "Control_day1" } },
+    { assay = 3, name = "35", column = "G", attributes = { Group = "Control_day1" } },
+    { assay = 4, name = "36", column = "H", attributes = { Group = "Pf_day1" } },
+    { assay = 5, name = "37", column = "I", attributes = { Group = "Pf_day1" } },
+    { assay = 6, name = "38", column = "J", attributes = { Group = "Pf_day1" } },
+    { assay = 7, name = "39", column = "K", attributes = { Group = "Pf+Suc_day1" } },
+    { assay = 8, name = "40", column = "L", attributes = { Group = "Pf+Suc_day1" } },
+    { assay = 9, name = "41", column = "M", attributes = { Group = "Pf+Suc_day1" } },
+    { assay = 10, name = "42", column = "N", attributes = { Group = "Pf+El_day1" } },
+    { assay = 11, name = "43", column = "O", attributes = { Group = "Pf+El_day1" } },
+    { assay = 12, name = "44", column = "P", attributes = { Group = "Pf+El_day1" } },
+    { assay = 13, name = "48", column = "Q", attributes = { Group = "El_day1" } },
+    { assay = 14, name = "49", column = "R", attributes = { Group = "El_day1" } },
+    { assay = 15, name = "50", column = "S", attributes = { Group = "El_day1" } },
+    { assay = 16, name = "54", column = "T", attributes = { Group = "Control_day2" } },
+    { assay = 17, name = "55", column = "U", attributes = { Group = "Control_day2" } },
+    { assay = 18, name = "56", column = "V", attributes = { Group = "Control_day2" } },
+    { assay = 19, name = "57", column = "W", attributes = { Group = "Pf_day2" } },
+    { assay = 20, name = "58", column = "X", attributes = { Group = "Pf_day2" } },
+    { assay = 21, name = "59", column = "Y", attributes = { Group = "Pf_day2" } },
+    { assay = 22, name = "60", column = "Z", attributes = { Group = "Pf+Suc_day2" } },
+    { assay = 23, name = "61", column = "AA", attributes = { Group = "Pf+Suc_day2" } },
+    { assay = 24, name = "62", column = "AB", attributes = { Group = "Pf+Suc_day2" } },
+    { assay = 25, name = "63", column = "AC", attributes = { Group = "Pf+El_day2" } },
+    { assay = 26, name = "64", column = "AD", attributes = { Group = "Pf+El_day2" } },
+    { assay = 27, name = "65", column = "AE", attributes = { Group = "Pf+El_day2" } },
+    { assay = 28, name = "69", column = "AF", attributes = { Group = "El_day2" } },
+    { assay = 29, name = "70", column = "AG", attributes = { Group = "El_day2" } },
+    { assay = 30, name = "71", column = "AH", attributes = { Group = "El_day2" } },
+    { assay = 31, name = "Blank3", column = "AI", attributes = { Group = "Blank" } },
+    { assay = 32, name = "Blank4", column = "AJ", attributes = { Group = "Blank" } },
+]

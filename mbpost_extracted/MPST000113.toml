@@ -1,0 +1,25 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000113.xlsx"
+mbpost_id = "MPST000113"
+n_tables = 1
+
+[[table]]
+id = "MPST000113"
+mbpost_id = "MPST000113"
+source_file = "MPST000113.xlsx"
+sheet = "Sheet1"
+features_in = "rows"
+n_features = 24
+n_samples = 10
+sample = [
+    { assay = 1, name = "0 h", column = "E" },
+    { assay = 2, name = "24 h", column = "F" },
+    { assay = 3, name = "48 h", column = "G" },
+    { assay = 4, name = "72 h", column = "H" },
+    { assay = 5, name = "96 h", column = "I" },
+    { assay = 6, name = "120 h", column = "J" },
+    { assay = 7, name = "144 h", column = "K" },
+    { assay = 8, name = "168 h", column = "L" },
+    { assay = 9, name = "192 h", column = "M" },
+    { assay = 10, name = "216 h", column = "N" },
+]

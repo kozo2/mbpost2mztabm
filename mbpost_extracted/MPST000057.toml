@@ -1,0 +1,166 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000057.xlsx"
+mbpost_id = "MPST000057"
+n_tables = 2
+
+[[table]]
+id = "MPST000057#Cell"
+mbpost_id = "MPST000057"
+source_file = "MPST000057.xlsx"
+sheet = "Cell"
+features_in = "rows"
+n_features = 397
+n_samples = 6
+
+[[table.sample]]
+assay = 1
+name = "HNC1-d"
+column = "F"
+
+[table.sample.attributes]
+header_1 = "Cell"
+Origin = "HT29+bsr-CD63-Nanoluc"
+
+[[table.sample]]
+assay = 2
+name = "HNC2-d"
+column = "G"
+
+[table.sample.attributes]
+header_1 = "Cell"
+Origin = "HT29+bsr-CD63-Nanoluc"
+
+[[table.sample]]
+assay = 3
+name = "HNC3-d"
+column = "H"
+
+[table.sample.attributes]
+header_1 = "Cell"
+Origin = "HT29+bsr-CD63-Nanoluc"
+
+[[table.sample]]
+assay = 4
+name = "ADC1-d"
+column = "I"
+
+[table.sample.attributes]
+header_1 = "Cell_Blank"
+Origin = "Procedure blank"
+
+[[table.sample]]
+assay = 5
+name = "ADC2-d"
+column = "J"
+
+[table.sample.attributes]
+header_1 = "Cell_Blank"
+Origin = "Procedure blank"
+
+[[table.sample]]
+assay = 6
+name = "ADC3-d"
+column = "K"
+
+[table.sample.attributes]
+header_1 = "Cell_Blank"
+Origin = "Procedure blank"
+
+[[table]]
+id = "MPST000057#EVs"
+mbpost_id = "MPST000057"
+source_file = "MPST000057.xlsx"
+sheet = "EVs"
+features_in = "rows"
+n_features = 397
+n_samples = 10
+
+[[table.sample]]
+assay = 1
+name = "HUC1-d"
+column = "F"
+
+[table.sample.attributes]
+Origin = "HT29+bsr-CD63-Nanoluc"
+header_2 = "UC"
+
+[[table.sample]]
+assay = 2
+name = "HUC2-d"
+column = "G"
+
+[table.sample.attributes]
+Origin = "HT29+bsr-CD63-Nanoluc"
+header_2 = "UC"
+
+[[table.sample]]
+assay = 3
+name = "HUC3-d"
+column = "H"
+
+[table.sample.attributes]
+Origin = "HT29+bsr-CD63-Nanoluc"
+header_2 = "UC"
+
+[[table.sample]]
+assay = 4
+name = "HAG4-d"
+column = "I"
+
+[table.sample.attributes]
+Origin = "HT29+bsr-CD63-Nanoluc"
+header_2 = "SEC"
+
+[[table.sample]]
+assay = 5
+name = "HAG5-d"
+column = "J"
+
+[table.sample.attributes]
+Origin = "HT29+bsr-CD63-Nanoluc"
+header_2 = "SEC"
+
+[[table.sample]]
+assay = 6
+name = "HAG6-d"
+column = "K"
+
+[table.sample.attributes]
+Origin = "HT29+bsr-CD63-Nanoluc"
+header_2 = "SEC"
+
+[[table.sample]]
+assay = 7
+name = "MU1-d"
+column = "L"
+
+[table.sample.attributes]
+Origin = "Non-cultured medium"
+header_2 = "UC"
+
+[[table.sample]]
+assay = 8
+name = "MU3-d"
+column = "M"
+
+[table.sample.attributes]
+Origin = "Non-cultured medium"
+header_2 = "UC"
+
+[[table.sample]]
+assay = 9
+name = "MA4-d"
+column = "N"
+
+[table.sample.attributes]
+Origin = "Non-cultured medium"
+header_2 = "SEC"
+
+[[table.sample]]
+assay = 10
+name = "MA5-d"
+column = "O"
+
+[table.sample.attributes]
+Origin = "Non-cultured medium"
+header_2 = "SEC"

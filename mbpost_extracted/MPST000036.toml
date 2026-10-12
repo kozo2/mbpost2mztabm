@@ -1,0 +1,2714 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000036.xlsx"
+mbpost_id = "MPST000036"
+n_tables = 1
+
+[[table]]
+id = "MPST000036#lipidome"
+mbpost_id = "MPST000036"
+source_file = "MPST000036.xlsx"
+sheet = "lipidome"
+features_in = "rows"
+n_features = 734
+n_samples = 136
+metadata_sheet = "metadata"
+
+[[table.sample]]
+assay = 1
+name = "201118_TT2_Iclass_IMS_Ishikawa_190125_1_Neg"
+column = "AH"
+
+[table.sample.attributes]
+Class = "L2001NT"
+"File type" = "Sample"
+"Injection order" = "1"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_190125_1_Pos"
+Type = "Sample"
+SampleID = "L2001NT_1"
+"Class ID" = "L2001NT"
+ID = "L2001"
+Class_2 = "NT"
+PatientID = "Chubu CB30-97"
+treated = "no"
+
+[[table.sample]]
+assay = 2
+name = "201118_TT2_Iclass_IMS_Ishikawa_190129_1_Neg"
+column = "AI"
+
+[table.sample.attributes]
+Class = "L2002BA"
+"File type" = "Sample"
+"Injection order" = "2"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_190129_1_Pos"
+Type = "Sample"
+SampleID = "L2002BA_2"
+"Class ID" = "L2002BA"
+ID = "L2002"
+Class_2 = "BA"
+PatientID = "U328#1"
+IDH1_Label = "Mut"
+Ph_Label = "ph"
+rnaseq = "S12084"
+treated = "no"
+
+[[table.sample]]
+assay = 3
+name = "201118_TT2_Iclass_IMS_Ishikawa_190130_1_Neg"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "L2003NT"
+"File type" = "Sample"
+"Injection order" = "3"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_190130_1_Pos"
+Type = "Sample"
+SampleID = "L2003NT_3"
+"Class ID" = "L2003NT"
+ID = "L2003"
+Class_2 = "NT"
+PatientID = "Chubu CB30-98"
+treated = "no"
+
+[[table.sample]]
+assay = 4
+name = "201118_TT2_Iclass_IMS_Ishikawa_190130_4_Neg"
+column = "AK"
+
+[table.sample.attributes]
+Class = "L2004NM"
+"File type" = "Sample"
+"Injection order" = "4"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_190130_4_Pos"
+Type = "Sample"
+SampleID = "L2004NM_4"
+"Class ID" = "L2004NM"
+ID = "L2004"
+Class_2 = "NM"
+PatientID = "Chubu CB30-98"
+treated = "no"
+
+[[table.sample]]
+assay = 5
+name = "201118_TT2_Iclass_IMS_Ishikawa_190130_6_Neg"
+column = "AL"
+
+[table.sample.attributes]
+Class = "L2005NN"
+"File type" = "Sample"
+"Injection order" = "5"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_190130_6_Pos"
+Type = "Sample"
+SampleID = "L2005NN_5"
+"Class ID" = "L2005NN"
+ID = "L2005"
+Class_2 = "NN"
+PatientID = "Chubu CB30-98"
+treated = "no"
+
+[[table.sample]]
+assay = 6
+name = "201118_TT2_Iclass_IMS_Ishikawa_190131_2_Neg"
+column = "AM"
+
+[table.sample.attributes]
+Class = "L2006NT"
+"File type" = "Sample"
+"Injection order" = "6"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_190131_2_Pos"
+Type = "Sample"
+SampleID = "L2006NT_6"
+"Class ID" = "L2006NT"
+ID = "L2006"
+Class_2 = "NT"
+PatientID = "Chubu CB30-99"
+treated = "no"
+
+[[table.sample]]
+assay = 7
+name = "201118_TT2_Iclass_IMS_Ishikawa_190131_4_Neg"
+column = "AN"
+
+[table.sample.attributes]
+Class = "L2007NB"
+"File type" = "Sample"
+"Injection order" = "7"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_190131_4_Pos"
+Type = "Sample"
+SampleID = "L2007NB_7"
+"Class ID" = "L2007NB"
+ID = "L2007"
+Class_2 = "NB"
+PatientID = "Chubu CB30-99"
+treated = "no"
+
+[[table.sample]]
+assay = 8
+name = "201118_TT2_Iclass_IMS_Ishikawa_190131_8_Neg"
+column = "AO"
+
+[table.sample.attributes]
+Class = "L2008NN"
+"File type" = "Sample"
+"Injection order" = "8"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_190131_8_Pos"
+Type = "Sample"
+SampleID = "L2008NN_8"
+"Class ID" = "L2008NN"
+ID = "L2008"
+Class_2 = "NN"
+PatientID = "Chubu CB30-99"
+treated = "no"
+
+[[table.sample]]
+assay = 9
+name = "201118_TT2_Iclass_IMS_Ishikawa_190208_1_Neg"
+column = "AP"
+
+[table.sample.attributes]
+Class = "L2009HSPCs"
+"File type" = "Sample"
+"Injection order" = "9"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_190208_1_Pos"
+Type = "Sample"
+SampleID = "L2009HSPCs_9"
+"Class ID" = "L2009HSPCs"
+ID = "L2009"
+Class_2 = "HSPCs"
+PatientID = "Chubu CB30-104"
+treated = "no"
+
+[[table.sample]]
+assay = 10
+name = "201118_TT2_Iclass_IMS_Ishikawa_190704_1_Neg"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "L2010HSPCs"
+"File type" = "Sample"
+"Injection order" = "10"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_190704_1_Pos"
+Type = "Sample"
+SampleID = "L2010HSPCs_10"
+"Class ID" = "L2010HSPCs"
+ID = "L2010"
+Class_2 = "HSPCs"
+PatientID = "Chubu CB1-33"
+treated = "no"
+
+[[table.sample]]
+assay = 11
+name = "201118_TT2_Iclass_IMS_Ishikawa_200129_1_Neg"
+column = "AR"
+
+[table.sample.attributes]
+Class = "L2011BA"
+"File type" = "Sample"
+"Injection order" = "11"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200129_1_Pos"
+Type = "Sample"
+SampleID = "L2011BA_11"
+"Class ID" = "L2011BA"
+ID = "L2011"
+Class_2 = "BA"
+PatientID = "U391#1"
+Ph_Label = "ph"
+rnaseq = "S13225"
+treated = "no"
+
+[[table.sample]]
+assay = 12
+name = "201118_TT2_Iclass_IMS_Ishikawa_200129_2_Neg"
+column = "AS"
+
+[table.sample.attributes]
+Class = "L2012AML"
+"File type" = "Sample"
+"Injection order" = "12"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200129_2_Pos"
+Type = "Sample"
+SampleID = "L2012AML_12"
+"Class ID" = "L2012AML"
+ID = "L2012"
+Class_2 = "AML"
+PatientID = "U286"
+rnaseq = "S10920"
+treated = "no"
+
+[[table.sample]]
+assay = 13
+name = "201118_TT2_Iclass_IMS_Ishikawa_200130_1_Neg"
+column = "AT"
+
+[table.sample.attributes]
+Class = "L2013AML"
+"File type" = "Sample"
+"Injection order" = "13"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200130_1_Pos"
+Type = "Sample"
+SampleID = "L2013AML_13"
+"Class ID" = "L2013AML"
+ID = "L2013"
+Class_2 = "AML"
+PatientID = "U308#1"
+FLT3_Label = "FLT3 ITD+"
+IDH1_Label = "Mut"
+IDH2_Label = "Mut"
+rnaseq = "S15987"
+treated = "no"
+
+[[table.sample]]
+assay = 14
+name = "201118_TT2_Iclass_IMS_Ishikawa_200203_1_Neg"
+column = "AU"
+
+[table.sample.attributes]
+Class = "L2014AML"
+"File type" = "Sample"
+"Injection order" = "14"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200203_1_Pos"
+Type = "Sample"
+SampleID = "L2014AML_14"
+"Class ID" = "L2014AML"
+ID = "L2014"
+Class_2 = "AML"
+PatientID = "U77"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 15
+name = "201118_TT2_Iclass_IMS_Ishikawa_200203_2_Neg"
+column = "AV"
+
+[table.sample.attributes]
+Class = "L2015AML"
+"File type" = "Sample"
+"Injection order" = "15"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200203_2_Pos"
+Type = "Sample"
+SampleID = "L2015AML_15"
+"Class ID" = "L2015AML"
+ID = "L2015"
+Class_2 = "AML"
+PatientID = "U123"
+TP53_Label = "R282W"
+FLT3_Label = "Mut"
+NRAS_Label = "Mut"
+rnaseq = "S16119"
+treated = "no"
+
+[[table.sample]]
+assay = 16
+name = "201118_TT2_Iclass_IMS_Ishikawa_200205_1_Neg"
+column = "AW"
+
+[table.sample.attributes]
+Class = "L2016AML"
+"File type" = "Sample"
+"Injection order" = "16"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200205_1_Pos"
+Type = "Sample"
+SampleID = "L2016AML_16"
+"Class ID" = "L2016AML"
+ID = "L2016"
+Class_2 = "AML"
+PatientID = "U219"
+TP53_Label = "R282W"
+rnaseq = "S14739"
+treated = "no"
+
+[[table.sample]]
+assay = 17
+name = "201118_TT2_Iclass_IMS_Ishikawa_200205_2_Neg"
+column = "AX"
+
+[table.sample.attributes]
+Class = "L2017AML"
+"File type" = "Sample"
+"Injection order" = "17"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200205_2_Pos"
+Type = "Sample"
+SampleID = "L2017AML_17"
+"Class ID" = "L2017AML"
+ID = "L2017"
+Class_2 = "AML"
+PatientID = "HY"
+TP53_Label = "NoDNAinfo"
+rnaseq = "S16745"
+treated = "no"
+
+[[table.sample]]
+assay = 18
+name = "201118_TT2_Iclass_IMS_Ishikawa_200210_2_Neg"
+column = "AY"
+
+[table.sample.attributes]
+Class = "L2018AML"
+"File type" = "Sample"
+"Injection order" = "18"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200210_2_Pos"
+Type = "Sample"
+SampleID = "L2018AML_18"
+"Class ID" = "L2018AML"
+ID = "L2018"
+Class_2 = "AML"
+PatientID = "U88"
+rnaseq = "S16746"
+treated = "no"
+
+[[table.sample]]
+assay = 19
+name = "201118_TT2_Iclass_IMS_Ishikawa_200213_1_Neg"
+column = "AZ"
+
+[table.sample.attributes]
+Class = "L2019AML"
+"File type" = "Sample"
+"Injection order" = "19"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200213_1_Pos"
+Type = "Sample"
+SampleID = "L2019AML_19"
+"Class ID" = "L2019AML"
+ID = "L2019"
+Class_2 = "AML"
+PatientID = "U84"
+FLT3_Label = "FLT3 TKD"
+IDH2_Label = "Mut"
+MLL_Label = "MLL"
+rnaseq = "S16750"
+treated = "no"
+
+[[table.sample]]
+assay = 20
+name = "201118_TT2_Iclass_IMS_Ishikawa_200213_2_Neg"
+column = "BA"
+
+[table.sample.attributes]
+Class = "L2020AML"
+"File type" = "Sample"
+"Injection order" = "20"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200213_2_Pos"
+Type = "Sample"
+SampleID = "L2020AML_20"
+"Class ID" = "L2020AML"
+ID = "L2020"
+Class_2 = "AML"
+PatientID = "U316"
+TP53_Label = "Y22nullC"
+rnaseq = "S14296"
+treated = "no"
+
+[[table.sample]]
+assay = 21
+name = "201118_TT2_Iclass_IMS_Ishikawa_200710_1_Neg"
+column = "BB"
+
+[table.sample.attributes]
+Class = "L2021AML"
+"File type" = "Sample"
+"Injection order" = "21"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200710_1_Pos"
+Type = "Sample"
+SampleID = "L2021AML_21"
+"Class ID" = "L2021AML"
+ID = "L2021"
+Class_2 = "AML"
+PatientID = "U142"
+TP53_Label = "P25nullL"
+NRAS_Label = "Mut"
+rnaseq = "S16414"
+treated = "no"
+
+[[table.sample]]
+assay = 22
+name = "201118_TT2_Iclass_IMS_Ishikawa_200710_2_Neg"
+column = "BC"
+
+[table.sample.attributes]
+Class = "L2022AML"
+"File type" = "Sample"
+"Injection order" = "22"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200710_2_Pos"
+Type = "Sample"
+SampleID = "L2022AML_22"
+"Class ID" = "L2022AML"
+ID = "L2022"
+Class_2 = "AML"
+PatientID = "U37"
+FLT3_Label = "FLT3 ITD+"
+rnaseq = "S16426"
+treated = "no"
+
+[[table.sample]]
+assay = 23
+name = "201118_TT2_Iclass_IMS_Ishikawa_200713_1_Neg"
+column = "BD"
+
+[table.sample.attributes]
+Class = "L2023AML"
+"File type" = "Sample"
+"Injection order" = "23"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200713_1_Pos"
+Type = "Sample"
+SampleID = "L2023AML_23"
+"Class ID" = "L2023AML"
+ID = "L2023"
+Class_2 = "AML"
+PatientID = "U202"
+NRAS_Label = "Mut"
+rnaseq = "S15983"
+treated = "no"
+
+[[table.sample]]
+assay = 24
+name = "201118_TT2_Iclass_IMS_Ishikawa_200713_2_Neg"
+column = "BE"
+
+[table.sample.attributes]
+Class = "L2024AML"
+"File type" = "Sample"
+"Injection order" = "24"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200713_2_Pos"
+Type = "Sample"
+SampleID = "L2024AML_24"
+"Class ID" = "L2024AML"
+ID = "L2024"
+Class_2 = "AML"
+PatientID = "U96"
+TP53_Label = "Y2null5C, H193R"
+KRAS_Label = "Mut"
+rnaseq = "S16237"
+treated = "no"
+
+[[table.sample]]
+assay = 25
+name = "201118_TT2_Iclass_IMS_Ishikawa_200714_2_Neg"
+column = "BF"
+
+[table.sample.attributes]
+Class = "L2025AML"
+"File type" = "Sample"
+"Injection order" = "25"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200714_2_Pos"
+Type = "Sample"
+SampleID = "L2025AML_25"
+"Class ID" = "L2025AML"
+ID = "L2025"
+Class_2 = "AML"
+PatientID = "U46"
+IDH2_Label = "Mut"
+KRAS_Label = "Mut"
+TET2_Label = "Mut"
+rnaseq = "S16117"
+treated = "no"
+
+[[table.sample]]
+assay = 26
+name = "201118_TT2_Iclass_IMS_Ishikawa_200715_1_Neg"
+column = "BG"
+
+[table.sample.attributes]
+Class = "L2026AML"
+"File type" = "Sample"
+"Injection order" = "26"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200715_1_Pos"
+Type = "Sample"
+SampleID = "L2026AML_26"
+"Class ID" = "L2026AML"
+ID = "L2026"
+Class_2 = "AML"
+PatientID = "TT2"
+KRAS_Label = "Mut"
+GATA2_Label = "Mut"
+T33OrInv_Label = "t(1;3)"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 27
+name = "201118_TT2_Iclass_IMS_Ishikawa_200715_2_Neg"
+column = "BH"
+
+[table.sample.attributes]
+Class = "L2027AML"
+"File type" = "Sample"
+"Injection order" = "27"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200715_2_Pos"
+Type = "Sample"
+SampleID = "L2027AML_27"
+"Class ID" = "L2027AML"
+ID = "L2027"
+Class_2 = "AML"
+PatientID = "U90"
+TP53_Label = "S215R"
+GATA2_Label = "Mut"
+rnaseq = "S16425"
+treated = "no"
+
+[[table.sample]]
+assay = 28
+name = "201118_TT2_Iclass_IMS_Ishikawa_200717_1_Neg"
+column = "BI"
+
+[table.sample.attributes]
+Class = "L2028AML"
+"File type" = "Sample"
+"Injection order" = "28"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200717_1_Pos"
+Type = "Sample"
+SampleID = "L2028AML_28"
+"Class ID" = "L2028AML"
+ID = "L2028"
+Class_2 = "AML"
+PatientID = "KH"
+FLT3_Label = "FLT3 TKD"
+rnaseq = "S16116"
+treated = "no"
+
+[[table.sample]]
+assay = 29
+name = "201118_TT2_Iclass_IMS_Ishikawa_200717_2_Neg"
+column = "BJ"
+
+[table.sample.attributes]
+Class = "L2029AML"
+"File type" = "Sample"
+"Injection order" = "29"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200717_2_Pos"
+Type = "Sample"
+SampleID = "L2029AML_29"
+"Class ID" = "L2029AML"
+ID = "L2029"
+Class_2 = "AML"
+PatientID = "U55#2"
+GATA2_Label = "Mut"
+MLL_Label = "MLL"
+rnaseq = "S16424"
+treated = "no"
+
+[[table.sample]]
+assay = 30
+name = "201118_TT2_Iclass_IMS_Ishikawa_200720_1_Neg"
+column = "BK"
+
+[table.sample.attributes]
+Class = "L2030AML"
+"File type" = "Sample"
+"Injection order" = "30"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200720_1_Pos"
+Type = "Sample"
+SampleID = "L2030AML_30"
+"Class ID" = "L2030AML"
+ID = "L2030"
+Class_2 = "AML"
+PatientID = "U62"
+FLT3_Label = "FLT3 TKD"
+MLL_Label = "MLL"
+rnaseq = "S16749"
+treated = "no"
+
+[[table.sample]]
+assay = 31
+name = "201118_TT2_Iclass_IMS_Ishikawa_200720_2_Neg"
+column = "BL"
+
+[table.sample.attributes]
+Class = "L2031AML"
+"File type" = "Sample"
+"Injection order" = "31"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200720_2_Pos"
+Type = "Sample"
+SampleID = "L2031AML_31"
+"Class ID" = "L2031AML"
+ID = "L2031"
+Class_2 = "AML"
+PatientID = "U124"
+T33OrInv_Label = "t(3;3)"
+rnaseq = "S16413"
+treated = "no"
+
+[[table.sample]]
+assay = 32
+name = "201118_TT2_Iclass_IMS_Ishikawa_200721_1_Neg"
+column = "BM"
+
+[table.sample.attributes]
+Class = "L2032AML"
+"File type" = "Sample"
+"Injection order" = "32"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200721_1_Pos"
+Type = "Sample"
+SampleID = "L2032AML_32"
+"Class ID" = "L2032AML"
+ID = "L2032"
+Class_2 = "AML"
+PatientID = "U104"
+FLT3_Label = "FLT3 TKD"
+rnaseq = "S16238"
+treated = "no"
+
+[[table.sample]]
+assay = 33
+name = "201118_TT2_Iclass_IMS_Ishikawa_200721_2_Neg"
+column = "BN"
+
+[table.sample.attributes]
+Class = "L2033AML"
+"File type" = "Sample"
+"Injection order" = "33"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200721_2_Pos"
+Type = "Sample"
+SampleID = "L2033AML_33"
+"Class ID" = "L2033AML"
+ID = "L2033"
+Class_2 = "AML"
+PatientID = "U93"
+TP53_Label = "NoDNAinfo"
+rnaseq = "S16236"
+treated = "no"
+
+[[table.sample]]
+assay = 34
+name = "201118_TT2_Iclass_IMS_Ishikawa_200722_1_Neg"
+column = "BO"
+
+[table.sample.attributes]
+Class = "L2034AML"
+"File type" = "Sample"
+"Injection order" = "34"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200722_1_Pos"
+Type = "Sample"
+SampleID = "L2034AML_34"
+"Class ID" = "L2034AML"
+ID = "L2034"
+Class_2 = "AML"
+PatientID = "U437#1"
+TP53_Label = "NoDNAinfo"
+rnaseq = "S16751"
+treated = "no"
+
+[[table.sample]]
+assay = 35
+name = "201118_TT2_Iclass_IMS_Ishikawa_200803_1_Neg"
+column = "BP"
+
+[table.sample.attributes]
+Class = "L2035AML"
+"File type" = "Sample"
+"Injection order" = "35"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200803_1_Pos"
+Type = "Sample"
+SampleID = "L2035AML_35"
+"Class ID" = "L2035AML"
+ID = "L2035"
+Class_2 = "AML"
+PatientID = "U338"
+TET2_Label = "Mut"
+rnaseq = "S15174"
+treated = "no"
+
+[[table.sample]]
+assay = 36
+name = "201118_TT2_Iclass_IMS_Ishikawa_200804_1_Neg"
+column = "BQ"
+
+[table.sample.attributes]
+Class = "L2036AML"
+"File type" = "Sample"
+"Injection order" = "36"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200804_1_Pos"
+Type = "Sample"
+SampleID = "L2036AML_36"
+"Class ID" = "L2036AML"
+ID = "L2036"
+Class_2 = "AML"
+PatientID = "U278#2"
+TP53_Label = "Pro152Leu"
+Ph_Label = "ph"
+rnaseq = "S16106"
+treated = "no"
+
+[[table.sample]]
+assay = 37
+name = "201118_TT2_Iclass_IMS_Ishikawa_200807_1_Neg"
+column = "BR"
+
+[table.sample.attributes]
+Class = "L2037AML"
+"File type" = "Sample"
+"Injection order" = "37"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200807_1_Pos"
+Type = "Sample"
+SampleID = "L2037AML_37"
+"Class ID" = "L2037AML"
+ID = "L2037"
+Class_2 = "AML"
+PatientID = "U23"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 38
+name = "201118_TT2_Iclass_IMS_Ishikawa_200807_2_Neg"
+column = "BS"
+
+[table.sample.attributes]
+Class = "L2038AML"
+"File type" = "Sample"
+"Injection order" = "38"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200807_2_Pos"
+Type = "Sample"
+SampleID = "L2038AML_38"
+"Class ID" = "L2038AML"
+ID = "L2038"
+Class_2 = "AML"
+PatientID = "U132"
+TP53_Label = "NoDNAinfo"
+rnaseq = "S16240"
+treated = "no"
+
+[[table.sample]]
+assay = 39
+name = "201118_TT2_Iclass_IMS_Ishikawa_200814_1_Neg"
+column = "BT"
+
+[table.sample.attributes]
+Class = "L2039AML"
+"File type" = "Sample"
+"Injection order" = "39"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200814_1_Pos"
+Type = "Sample"
+SampleID = "L2039AML_39"
+"Class ID" = "L2039AML"
+ID = "L2039"
+Class_2 = "AML"
+PatientID = "U329"
+FLT3_Label = "FLT3 ITD+"
+T33OrInv_Label = "t(3;3)"
+rnaseq = "S14292"
+treated = "no"
+
+[[table.sample]]
+assay = 40
+name = "201118_TT2_Iclass_IMS_Ishikawa_200821_1_Neg"
+column = "BU"
+
+[table.sample.attributes]
+Class = "L2040AML"
+"File type" = "Sample"
+"Injection order" = "40"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200821_1_Pos"
+Type = "Sample"
+SampleID = "L2040AML_40"
+"Class ID" = "L2040AML"
+ID = "L2040"
+Class_2 = "AML"
+PatientID = "U472"
+TP53_Label = "NoDNAinfo"
+Ph_Label = "ph"
+rnaseq = "200821-2"
+treated = "no"
+
+[[table.sample]]
+assay = 41
+name = "201118_TT2_Iclass_IMS_Ishikawa_200821_2_Neg"
+column = "BV"
+
+[table.sample.attributes]
+Class = "L2041AML"
+"File type" = "Sample"
+"Injection order" = "41"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200821_2_Pos"
+Type = "Sample"
+SampleID = "L2041AML_41"
+"Class ID" = "L2041AML"
+ID = "L2041"
+Class_2 = "AML"
+PatientID = "U466"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 42
+name = "201118_TT2_Iclass_IMS_Ishikawa_200828_1_Neg"
+column = "BW"
+
+[table.sample.attributes]
+Class = "L2042AML"
+"File type" = "Sample"
+"Injection order" = "42"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200828_1_Pos"
+Type = "Sample"
+SampleID = "L2042AML_42"
+"Class ID" = "L2042AML"
+ID = "L2042"
+Class_2 = "AML"
+PatientID = "U409#1"
+FLT3_Label = "FLT3 ITD+"
+rnaseq = "S15192"
+treated = "no"
+
+[[table.sample]]
+assay = 43
+name = "201118_TT2_Iclass_IMS_Ishikawa_200901_1_Neg"
+column = "BX"
+
+[table.sample.attributes]
+Class = "L2043AML"
+"File type" = "Sample"
+"Injection order" = "43"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200901_1_Pos"
+Type = "Sample"
+SampleID = "L2043AML_43"
+"Class ID" = "L2043AML"
+ID = "L2043"
+Class_2 = "AML"
+PatientID = "U195"
+T33OrInv_Label = "t(3;3), Inv3q21"
+rnaseq = "S16242"
+treated = "no"
+
+[[table.sample]]
+assay = 44
+name = "201118_TT2_Iclass_IMS_Ishikawa_200903_1_Neg"
+column = "BY"
+
+[table.sample.attributes]
+Class = "L2044AML"
+"File type" = "Sample"
+"Injection order" = "44"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200903_1_Pos"
+Type = "Sample"
+SampleID = "L2044AML_44"
+"Class ID" = "L2044AML"
+ID = "L2044"
+Class_2 = "AML"
+PatientID = "U228"
+TP53_Label = "Arg158Leu"
+IDH2_Label = "Mut"
+rnaseq = "S17149"
+treated = "no"
+
+[[table.sample]]
+assay = 45
+name = "201118_TT2_Iclass_IMS_Ishikawa_200908_1_Neg"
+column = "BZ"
+
+[table.sample.attributes]
+Class = "L2045AML"
+"File type" = "Sample"
+"Injection order" = "45"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200908_1_Pos"
+Type = "Sample"
+SampleID = "L2045AML_45"
+"Class ID" = "L2045AML"
+ID = "L2045"
+Class_2 = "AML"
+PatientID = "U201"
+FLT3_Label = "FLT3 TKD"
+IDH2_Label = "Mut"
+rnaseq = "S10589"
+treated = "no"
+
+[[table.sample]]
+assay = 46
+name = "201118_TT2_Iclass_IMS_Ishikawa_200916_1_Neg"
+column = "CA"
+
+[table.sample.attributes]
+Class = "L2046BA"
+"File type" = "Sample"
+"Injection order" = "46"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200916_1_Pos"
+Type = "Sample"
+SampleID = "L2046BA_46"
+"Class ID" = "L2046BA"
+ID = "L2046"
+Class_2 = "BA"
+PatientID = "U424#3"
+TET2_Label = "Mut"
+Ph_Label = "ph"
+rnaseq = "S16420"
+treated = "no"
+
+[[table.sample]]
+assay = 47
+name = "201118_TT2_Iclass_IMS_Ishikawa_200916_2_Neg"
+column = "CB"
+
+[table.sample.attributes]
+Class = "L2047AML"
+"File type" = "Sample"
+"Injection order" = "47"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200916_2_Pos"
+Type = "Sample"
+SampleID = "L2047AML_47"
+"Class ID" = "L2047AML"
+ID = "L2047"
+Class_2 = "AML"
+PatientID = "U299"
+TP53_Label = "NoDNAinfo"
+rnaseq = "S11350"
+treated = "no"
+
+[[table.sample]]
+assay = 48
+name = "201118_TT2_Iclass_IMS_Ishikawa_200925_1_Neg"
+column = "CC"
+
+[table.sample.attributes]
+Class = "L2048BA"
+"File type" = "Sample"
+"Injection order" = "48"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200925_1_Pos"
+Type = "Sample"
+SampleID = "L2048BA_48"
+"Class ID" = "L2048BA"
+ID = "L2048"
+Class_2 = "BA"
+PatientID = "U419#2"
+IDH2_Label = "Mut"
+NRAS_Label = "Mut"
+Ph_Label = "ph"
+rnaseq = "S14744"
+treated = "no"
+
+[[table.sample]]
+assay = 49
+name = "201118_TT2_Iclass_IMS_Ishikawa_200928_1_Neg"
+column = "CD"
+
+[table.sample.attributes]
+Class = "L2049AML"
+"File type" = "Sample"
+"Injection order" = "49"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200928_1_Pos"
+Type = "Sample"
+SampleID = "L2049AML_49"
+"Class ID" = "L2049AML"
+ID = "L2049"
+Class_2 = "AML"
+PatientID = "U301#1"
+TET2_Label = "Mut"
+Ph_Label = "ph"
+rnaseq = "S12094"
+treated = "no"
+
+[[table.sample]]
+assay = 50
+name = "201118_TT2_Iclass_IMS_Ishikawa_200929_1_Neg"
+column = "CE"
+
+[table.sample.attributes]
+Class = "L2050AML"
+"File type" = "Sample"
+"Injection order" = "50"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200929_1_Pos"
+Type = "Sample"
+SampleID = "L2050AML_50"
+"Class ID" = "L2050AML"
+ID = "L2050"
+Class_2 = "AML"
+PatientID = "U413#2"
+TP53_Label = "E286V, Ile255del"
+rnaseq = "S14742"
+treated = "no"
+
+[[table.sample]]
+assay = 51
+name = "201118_TT2_Iclass_IMS_Ishikawa_200929_2_Neg"
+column = "CF"
+
+[table.sample.attributes]
+Class = "L2051BA"
+"File type" = "Sample"
+"Injection order" = "51"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_200929_2_Pos"
+Type = "Sample"
+SampleID = "L2051BA_51"
+"Class ID" = "L2051BA"
+ID = "L2051"
+Class_2 = "BA"
+PatientID = "U330"
+NRAS_Label = "Mut"
+rnaseq = "S14306"
+treated = "no"
+
+[[table.sample]]
+assay = 52
+name = "201118_TT2_Iclass_IMS_Ishikawa_201002_1_Neg"
+column = "CG"
+
+[table.sample.attributes]
+Class = "L2052BA"
+"File type" = "Sample"
+"Injection order" = "52"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_201002_1_Pos"
+Type = "Sample"
+SampleID = "L2052BA_52"
+"Class ID" = "L2052BA"
+ID = "L2052"
+Class_2 = "BA"
+PatientID = "U419#3"
+KRAS_Label = "Mut"
+TET2_Label = "Mut"
+Ph_Label = "ph"
+rnaseq = "S16428"
+treated = "no"
+
+[[table.sample]]
+assay = 53
+name = "201118_TT2_Iclass_IMS_Ishikawa_201002_2_Neg"
+column = "CH"
+
+[table.sample.attributes]
+Class = "L2053BA"
+"File type" = "Sample"
+"Injection order" = "53"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_201002_2_Pos"
+Type = "Sample"
+SampleID = "L2053BA_53"
+"Class ID" = "L2053BA"
+ID = "L2053"
+Class_2 = "BA"
+PatientID = "U471"
+KRAS_Label = "Mut"
+TET2_Label = "Mut"
+rnaseq = "210902-1"
+treated = "no"
+
+[[table.sample]]
+assay = 54
+name = "201118_TT2_Iclass_IMS_Ishikawa_201008_1_Neg"
+column = "CI"
+
+[table.sample.attributes]
+Class = "L2054BA"
+"File type" = "Sample"
+"Injection order" = "54"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_201008_1_Pos"
+Type = "Sample"
+SampleID = "L2054BA_54"
+"Class ID" = "L2054BA"
+ID = "L2054"
+Class_2 = "BA"
+PatientID = "U211#1"
+TP53_Label = "Met237Ile"
+rnaseq = "201008-3"
+treated = "no"
+
+[[table.sample]]
+assay = 55
+name = "201118_TT2_Iclass_IMS_Ishikawa_Blank_Neg"
+column = "CJ"
+
+[table.sample.attributes]
+Class = "L20BK"
+"File type" = "Blank"
+"Injection order" = "55"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_Blank_Pos"
+Type = "Blank"
+SampleID = "L20BK_55"
+"Class ID" = "L20BK"
+ID = "L20BK"
+Class_2 = "BK"
+treated = "no"
+
+[[table.sample]]
+assay = 56
+name = "201118_TT2_Iclass_IMS_Ishikawa_QC_01_Neg"
+column = "CK"
+
+[table.sample.attributes]
+Class = "L20QC"
+"File type" = "QC"
+"Injection order" = "56"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_QC_01_Pos"
+Type = "QC"
+SampleID = "L20QC_56"
+"Class ID" = "L20QC"
+ID = "L20QC"
+Class_2 = "QC"
+treated = "no"
+
+[[table.sample]]
+assay = 57
+name = "201118_TT2_Iclass_IMS_Ishikawa_QC_02_Neg"
+column = "CL"
+
+[table.sample.attributes]
+Class = "L20QC"
+"File type" = "QC"
+"Injection order" = "57"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_QC_02_Pos"
+Type = "QC"
+SampleID = "L20QC_57"
+"Class ID" = "L20QC"
+ID = "L20QC"
+Class_2 = "QC"
+treated = "no"
+
+[[table.sample]]
+assay = 58
+name = "201118_TT2_Iclass_IMS_Ishikawa_QC_03_Neg"
+column = "CM"
+
+[table.sample.attributes]
+Class = "L20QC"
+"File type" = "QC"
+"Injection order" = "58"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_QC_03_Pos"
+Type = "QC"
+SampleID = "L20QC_58"
+"Class ID" = "L20QC"
+ID = "L20QC"
+Class_2 = "QC"
+treated = "no"
+
+[[table.sample]]
+assay = 59
+name = "201118_TT2_Iclass_IMS_Ishikawa_QC_04_Neg"
+column = "CN"
+
+[table.sample.attributes]
+Class = "L20QC"
+"File type" = "QC"
+"Injection order" = "59"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_QC_04_Pos"
+Type = "QC"
+SampleID = "L20QC_59"
+"Class ID" = "L20QC"
+ID = "L20QC"
+Class_2 = "QC"
+treated = "no"
+
+[[table.sample]]
+assay = 60
+name = "201118_TT2_Iclass_IMS_Ishikawa_QC_05_Neg"
+column = "CO"
+
+[table.sample.attributes]
+Class = "L20QC"
+"File type" = "QC"
+"Injection order" = "60"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_QC_05_Pos"
+Type = "QC"
+SampleID = "L20QC_60"
+"Class ID" = "L20QC"
+ID = "L20QC"
+Class_2 = "QC"
+treated = "no"
+
+[[table.sample]]
+assay = 61
+name = "201118_TT2_Iclass_IMS_Ishikawa_QC_06_Neg"
+column = "CP"
+
+[table.sample.attributes]
+Class = "L20QC"
+"File type" = "QC"
+"Injection order" = "61"
+"File name_pos" = "201118_TT2_Iclass_IMS_Ishikawa_QC_06_Pos"
+Type = "QC"
+SampleID = "L20QC_61"
+"Class ID" = "L20QC"
+ID = "L20QC"
+Class_2 = "QC"
+treated = "no"
+
+[[table.sample]]
+assay = 62
+name = "210706_TT1_01_IMS_Ishikawa_SampleNo22_Neg"
+column = "CQ"
+
+[table.sample.attributes]
+Class = "L2122AML"
+"File type" = "Sample"
+"Injection order" = "62"
+"File name_pos" = "210706_TT1_01_IMS_Ishikawa_SampleNo22_Pos"
+Type = "Sample"
+SampleID = "L2122AML_62"
+"Class ID" = "L2122AML"
+ID = "L2122"
+Class_2 = "AML"
+PatientID = "U300"
+FLT3_Label = "ITD"
+rnaseq = "S10955"
+treated = "no"
+
+[[table.sample]]
+assay = 63
+name = "210706_TT1_02_IMS_Ishikawa_SampleNo27_Neg"
+column = "CR"
+
+[table.sample.attributes]
+Class = "L2127TA"
+"File type" = "Sample"
+"Injection order" = "63"
+"File name_pos" = "210706_TT1_02_IMS_Ishikawa_SampleNo27_Pos"
+Type = "Sample"
+SampleID = "L2127TA_63"
+"Class ID" = "L2127TA"
+ID = "L2127"
+Class_2 = "TA"
+PatientID = "U283#1"
+TP53_Label = "Pro72Arg"
+FLT3_Label = "(FLT3 mut)"
+IDH2_Label = "IDH2 mut"
+KRAS_Label = "Mut"
+GATA2_Label = "Mut"
+TET2_Label = "Mut"
+rnaseq = "S11348"
+treated = "no"
+
+[[table.sample]]
+assay = 64
+name = "210706_TT1_03_IMS_Ishikawa_SampleNo10_Neg"
+column = "CS"
+
+[table.sample.attributes]
+Class = "L2110NM"
+"File type" = "Sample"
+"Injection order" = "64"
+"File name_pos" = "210706_TT1_03_IMS_Ishikawa_SampleNo10_Pos"
+Type = "Sample"
+SampleID = "L2110NM_64"
+"Class ID" = "L2110NM"
+ID = "L2110"
+Class_2 = "NM"
+treated = "no"
+
+[[table.sample]]
+assay = 65
+name = "210706_TT1_04_IMS_Ishikawa_SampleNo20_Neg"
+column = "CT"
+
+[table.sample.attributes]
+Class = "L2120TA"
+"File type" = "Sample"
+"Injection order" = "65"
+"File name_pos" = "210706_TT1_04_IMS_Ishikawa_SampleNo20_Pos"
+Type = "Sample"
+SampleID = "L2120TA_65"
+"Class ID" = "L2120TA"
+ID = "L2120"
+Class_2 = "TA"
+PatientID = "U351"
+NRAS_Label = "mut"
+rnaseq = "170524-1"
+treated = "no"
+
+[[table.sample]]
+assay = 66
+name = "210706_TT1_05_IMS_Ishikawa_SampleNo09_Neg"
+column = "CU"
+
+[table.sample.attributes]
+Class = "L2109NT"
+"File type" = "Sample"
+"Injection order" = "66"
+"File name_pos" = "210706_TT1_05_IMS_Ishikawa_SampleNo09_Pos"
+Type = "Sample"
+SampleID = "L2109NT_66"
+"Class ID" = "L2109NT"
+ID = "L2109"
+Class_2 = "NT"
+treated = "no"
+
+[[table.sample]]
+assay = 67
+name = "210706_TT1_06_IMS_Ishikawa_SampleNo25_Neg"
+column = "CV"
+
+[table.sample.attributes]
+Class = "L2125AML"
+"File type" = "Sample"
+"Injection order" = "67"
+"File name_pos" = "210706_TT1_06_IMS_Ishikawa_SampleNo25_Pos"
+Type = "Sample"
+SampleID = "L2125AML_67"
+"Class ID" = "L2125AML"
+ID = "L2125"
+Class_2 = "AML"
+PatientID = "U337"
+TP53_Label = "H179Y"
+FLT3_Label = "WT"
+rnaseq = "S14299"
+treated = "no"
+
+[[table.sample]]
+assay = 68
+name = "210706_TT1_07_IMS_Ishikawa_SampleNo17_Neg"
+column = "CW"
+
+[table.sample.attributes]
+Class = "L2117AML"
+"File type" = "Sample"
+"Injection order" = "68"
+"File name_pos" = "210706_TT1_07_IMS_Ishikawa_SampleNo17_Pos"
+Type = "Sample"
+SampleID = "L2117AML_68"
+"Class ID" = "L2117AML"
+ID = "L2117"
+Class_2 = "AML"
+PatientID = "U198"
+TP53_Label = "Y22nullN"
+FLT3_Label = "WT"
+rnaseq = "S15972"
+treated = "no"
+
+[[table.sample]]
+assay = 69
+name = "210706_TT1_08_IMS_Ishikawa_SampleNo26_Neg"
+column = "CX"
+
+[table.sample.attributes]
+Class = "L2126BA"
+"File type" = "Sample"
+"Injection order" = "69"
+"File name_pos" = "210706_TT1_08_IMS_Ishikawa_SampleNo26_Pos"
+Type = "Sample"
+SampleID = "L2126BA_69"
+"Class ID" = "L2126BA"
+ID = "L2126"
+Class_2 = "BA"
+PatientID = "U375"
+TP53_Label = "Pro72Arg"
+IDH2_Label = "IDH2 mut"
+KRAS_Label = "Mut"
+GATA2_Label = "Mut"
+rnaseq = "S16105"
+treated = "no"
+
+[[table.sample]]
+assay = 70
+name = "210706_TT1_09_IMS_Ishikawa_SampleNo03_Neg"
+column = "CY"
+
+[table.sample.attributes]
+Class = "L2103HSPCs"
+"File type" = "Sample"
+"Injection order" = "70"
+"File name_pos" = "210706_TT1_09_IMS_Ishikawa_SampleNo03_Pos"
+Type = "Sample"
+SampleID = "L2103HSPCs_70"
+"Class ID" = "L2103HSPCs"
+ID = "L2103"
+Class_2 = "HSPCs"
+treated = "no"
+
+[[table.sample]]
+assay = 71
+name = "210706_TT1_10_IMS_Ishikawa_SampleNo13_Neg"
+column = "CZ"
+
+[table.sample.attributes]
+Class = "L2113AML"
+"File type" = "Sample"
+"Injection order" = "71"
+"File name_pos" = "210706_TT1_10_IMS_Ishikawa_SampleNo13_Pos"
+Type = "Sample"
+SampleID = "L2113AML_71"
+"Class ID" = "L2113AML"
+ID = "L2113"
+Class_2 = "AML"
+PatientID = "TT"
+TP53_Label = "Ser9nullfs,Pro72Arg"
+FLT3_Label = "(FLT3 mut)"
+IDH2_Label = "IDH2 mut"
+KRAS_Label = "Mut"
+GATA2_Label = "Mut"
+TET2_Label = "Mut"
+rnaseq = "S17155"
+treated = "no"
+
+[[table.sample]]
+assay = 72
+name = "210706_TT1_11_IMS_Ishikawa_SampleNo04_Neg"
+column = "DA"
+
+[table.sample.attributes]
+Class = "L2104NB"
+"File type" = "Sample"
+"Injection order" = "72"
+"File name_pos" = "210706_TT1_11_IMS_Ishikawa_SampleNo04_Pos"
+Type = "Sample"
+SampleID = "L2104NB_72"
+"Class ID" = "L2104NB"
+ID = "L2104"
+Class_2 = "NB"
+treated = "no"
+
+[[table.sample]]
+assay = 73
+name = "210706_TT1_12_IMS_Ishikawa_SampleNo11_Neg"
+column = "DB"
+
+[table.sample.attributes]
+Class = "L2111NM"
+"File type" = "Sample"
+"Injection order" = "73"
+"File name_pos" = "210706_TT1_12_IMS_Ishikawa_SampleNo11_Pos"
+Type = "Sample"
+SampleID = "L2111NM_73"
+"Class ID" = "L2111NM"
+ID = "L2111"
+Class_2 = "NM"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 74
+name = "210706_TT1_13_IMS_Ishikawa_SampleNo28_Neg"
+column = "DC"
+
+[table.sample.attributes]
+Class = "L2128BA"
+"File type" = "Sample"
+"Injection order" = "74"
+"File name_pos" = "210706_TT1_13_IMS_Ishikawa_SampleNo28_Pos"
+Type = "Sample"
+SampleID = "L2128BA_74"
+"Class ID" = "L2128BA"
+ID = "L2128"
+Class_2 = "BA"
+PatientID = "U493"
+TET2_Label = "mut"
+rnaseq = "210531-2"
+treated = "no"
+
+[[table.sample]]
+assay = 75
+name = "210706_TT1_14_IMS_Ishikawa_SampleNo18_Neg"
+column = "DD"
+
+[table.sample.attributes]
+Class = "L2118AML"
+"File type" = "Sample"
+"Injection order" = "75"
+"File name_pos" = "210706_TT1_14_IMS_Ishikawa_SampleNo18_Pos"
+Type = "Sample"
+SampleID = "L2118AML_75"
+"Class ID" = "L2118AML"
+ID = "L2118"
+Class_2 = "AML"
+PatientID = "U350"
+FLT3_Label = "ITD"
+TET2_Label = "Mut"
+rnaseq = "S10579"
+treated = "no"
+
+[[table.sample]]
+assay = 76
+name = "210706_TT1_15_IMS_Ishikawa_SampleNo16_Neg"
+column = "DE"
+
+[table.sample.attributes]
+Class = "L2116AML"
+"File type" = "Sample"
+"Injection order" = "76"
+"File name_pos" = "210706_TT1_15_IMS_Ishikawa_SampleNo16_Pos"
+Type = "Sample"
+SampleID = "L2116AML_76"
+"Class ID" = "L2116AML"
+ID = "L2116"
+Class_2 = "AML"
+PatientID = "U345"
+rnaseq = "S14295"
+treated = "no"
+
+[[table.sample]]
+assay = 77
+name = "210706_TT1_16_IMS_Ishikawa_SampleNo06_Neg"
+column = "DF"
+
+[table.sample.attributes]
+Class = "L2106NB"
+"File type" = "Sample"
+"Injection order" = "77"
+"File name_pos" = "210706_TT1_16_IMS_Ishikawa_SampleNo06_Pos"
+Type = "Sample"
+SampleID = "L2106NB_77"
+"Class ID" = "L2106NB"
+ID = "L2106"
+Class_2 = "NB"
+treated = "no"
+
+[[table.sample]]
+assay = 78
+name = "210706_TT1_17_IMS_Ishikawa_SampleNo07_Neg"
+column = "DG"
+
+[table.sample.attributes]
+Class = "L2107NT"
+"File type" = "Sample"
+"Injection order" = "78"
+"File name_pos" = "210706_TT1_17_IMS_Ishikawa_SampleNo07_Pos"
+Type = "Sample"
+SampleID = "L2107NT_78"
+"Class ID" = "L2107NT"
+ID = "L2107"
+Class_2 = "NT"
+treated = "no"
+
+[[table.sample]]
+assay = 79
+name = "210706_TT1_18_IMS_Ishikawa_SampleNo19_Neg"
+column = "DH"
+
+[table.sample.attributes]
+Class = "L2119AML"
+"File type" = "Sample"
+"Injection order" = "79"
+"File name_pos" = "210706_TT1_18_IMS_Ishikawa_SampleNo19_Pos"
+Type = "Sample"
+SampleID = "L2119AML_79"
+"Class ID" = "L2119AML"
+ID = "L2119"
+Class_2 = "AML"
+PatientID = "U58#1"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 80
+name = "210706_TT1_19_IMS_Ishikawa_SampleNo12_Neg"
+column = "DI"
+
+[table.sample.attributes]
+Class = "L2112NM"
+"File type" = "Sample"
+"Injection order" = "80"
+"File name_pos" = "210706_TT1_19_IMS_Ishikawa_SampleNo12_Pos"
+Type = "Sample"
+SampleID = "L2112NM_80"
+"Class ID" = "L2112NM"
+ID = "L2112"
+Class_2 = "NM"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 81
+name = "210706_TT1_20_IMS_Ishikawa_SampleNo01_Neg"
+column = "DJ"
+
+[table.sample.attributes]
+Class = "L2101HSPCs"
+"File type" = "Sample"
+"Injection order" = "81"
+"File name_pos" = "210706_TT1_20_IMS_Ishikawa_SampleNo01_Pos"
+Type = "Sample"
+SampleID = "L2101HSPCs_81"
+"Class ID" = "L2101HSPCs"
+ID = "L2101"
+Class_2 = "HSPCs"
+treated = "no"
+
+[[table.sample]]
+assay = 82
+name = "210706_TT1_21_IMS_Ishikawa_SampleNo29_Neg"
+column = "DK"
+
+[table.sample.attributes]
+Class = "L2129AML"
+"File type" = "Sample"
+"Injection order" = "82"
+"File name_pos" = "210706_TT1_21_IMS_Ishikawa_SampleNo29_Pos"
+Type = "Sample"
+SampleID = "L2129AML_82"
+"Class ID" = "L2129AML"
+ID = "L2129"
+Class_2 = "AML"
+TP53_Label = "Pro72Arg"
+FLT3_Label = "(FLT3 mut)"
+KRAS_Label = "Mut"
+GATA2_Label = "Mut"
+TET2_Label = "Mut"
+rnaseq = "S16423"
+treated = "no"
+
+[[table.sample]]
+assay = 83
+name = "210706_TT1_22_IMS_Ishikawa_SampleNo23_Neg"
+column = "DL"
+
+[table.sample.attributes]
+Class = "L2123AML"
+"File type" = "Sample"
+"Injection order" = "83"
+"File name_pos" = "210706_TT1_22_IMS_Ishikawa_SampleNo23_Pos"
+Type = "Sample"
+SampleID = "L2123AML_83"
+"Class ID" = "L2123AML"
+ID = "L2123"
+Class_2 = "AML"
+PatientID = "SH2"
+TP53_Label = "Ser392Leu"
+FLT3_Label = "ITD, (FLT3 mut)"
+IDH1_Label = "IDH1 mut"
+rnaseq = "S04421"
+treated = "no"
+
+[[table.sample]]
+assay = 84
+name = "210706_TT1_23_IMS_Ishikawa_SampleNo02_Neg"
+column = "DM"
+
+[table.sample.attributes]
+Class = "L2102HSPCs"
+"File type" = "Sample"
+"Injection order" = "84"
+"File name_pos" = "210706_TT1_23_IMS_Ishikawa_SampleNo02_Pos"
+Type = "Sample"
+SampleID = "L2102HSPCs_84"
+"Class ID" = "L2102HSPCs"
+ID = "L2102"
+Class_2 = "HSPCs"
+treated = "no"
+
+[[table.sample]]
+assay = 85
+name = "210706_TT1_24_IMS_Ishikawa_SampleNo05_Neg"
+column = "DN"
+
+[table.sample.attributes]
+Class = "L2105NB"
+"File type" = "Sample"
+"Injection order" = "85"
+"File name_pos" = "210706_TT1_24_IMS_Ishikawa_SampleNo05_Pos"
+Type = "Sample"
+SampleID = "L2105NB_85"
+"Class ID" = "L2105NB"
+ID = "L2105"
+Class_2 = "NB"
+treated = "no"
+
+[[table.sample]]
+assay = 86
+name = "210706_TT1_25_IMS_Ishikawa_SampleNo15_Neg"
+column = "DO"
+
+[table.sample.attributes]
+Class = "L2115AML"
+"File type" = "Sample"
+"Injection order" = "86"
+"File name_pos" = "210706_TT1_25_IMS_Ishikawa_SampleNo15_Pos"
+Type = "Sample"
+SampleID = "L2115AML_86"
+"Class ID" = "L2115AML"
+ID = "L2115"
+Class_2 = "AML"
+PatientID = "U425#1"
+GATA2_Label = "Mut"
+rnaseq = "S15996"
+treated = "no"
+
+[[table.sample]]
+assay = 87
+name = "210706_TT1_26_IMS_Ishikawa_SampleNo14_Neg"
+column = "DP"
+
+[table.sample.attributes]
+Class = "L2114AML"
+"File type" = "Sample"
+"Injection order" = "87"
+"File name_pos" = "210706_TT1_26_IMS_Ishikawa_SampleNo14_Pos"
+Type = "Sample"
+SampleID = "L2114AML_87"
+"Class ID" = "L2114AML"
+ID = "L2114"
+Class_2 = "AML"
+PatientID = "AK"
+FLT3_Label = "ITD"
+TET2_Label = "Mut"
+rnaseq = "S05685"
+treated = "no"
+
+[[table.sample]]
+assay = 88
+name = "210706_TT1_27_IMS_Ishikawa_SampleNo21_Neg"
+column = "DQ"
+
+[table.sample.attributes]
+Class = "L2121AML"
+"File type" = "Sample"
+"Injection order" = "88"
+"File name_pos" = "210706_TT1_27_IMS_Ishikawa_SampleNo21_Pos"
+Type = "Sample"
+SampleID = "L2121AML_88"
+"Class ID" = "L2121AML"
+ID = "L2121"
+Class_2 = "AML"
+PatientID = "U174"
+FLT3_Label = "WT"
+rnaseq = "S15984"
+treated = "no"
+
+[[table.sample]]
+assay = 89
+name = "210706_TT1_28_IMS_Ishikawa_SampleNo08_Neg"
+column = "DR"
+
+[table.sample.attributes]
+Class = "L2108NT"
+"File type" = "Sample"
+"Injection order" = "89"
+"File name_pos" = "210706_TT1_28_IMS_Ishikawa_SampleNo08_Pos"
+Type = "Sample"
+SampleID = "L2108NT_89"
+"Class ID" = "L2108NT"
+ID = "L2108"
+Class_2 = "NT"
+treated = "no"
+
+[[table.sample]]
+assay = 90
+name = "210706_TT1_29_IMS_Ishikawa_SampleNo24_Neg"
+column = "DS"
+
+[table.sample.attributes]
+Class = "L2124AML"
+"File type" = "Sample"
+"Injection order" = "90"
+"File name_pos" = "210706_TT1_29_IMS_Ishikawa_SampleNo24_Pos"
+Type = "Sample"
+SampleID = "L2124AML_90"
+"Class ID" = "L2124AML"
+ID = "L2124"
+Class_2 = "AML"
+PatientID = "U381#1"
+TP53_Label = "V73fs"
+FLT3_Label = "WT"
+NRAS_Label = "Mut"
+rnaseq = "S14368"
+treated = "no"
+
+[[table.sample]]
+assay = 91
+name = "210706_TT1_IMS_Ishikawa_Blank_Neg"
+column = "DT"
+
+[table.sample.attributes]
+Class = "L21BK"
+"File type" = "Blank"
+"Injection order" = "91"
+"File name_pos" = "210706_TT1_IMS_Ishikawa_Blank_Pos"
+Type = "Blank"
+SampleID = "L21BK_91"
+"Class ID" = "L21BK"
+ID = "L21BK"
+Class_2 = "BK"
+treated = "no"
+
+[[table.sample]]
+assay = 92
+name = "210706_TT1_IMS_Ishikawa_QC_01_Neg"
+column = "DU"
+
+[table.sample.attributes]
+Class = "L21QC"
+"File type" = "QC"
+"Injection order" = "92"
+"File name_pos" = "210706_TT1_IMS_Ishikawa_QC_01_Pos"
+Type = "QC"
+SampleID = "L21QC_92"
+"Class ID" = "L21QC"
+ID = "L21QC"
+Class_2 = "QC"
+treated = "no"
+
+[[table.sample]]
+assay = 93
+name = "210706_TT1_IMS_Ishikawa_QC_02_Neg"
+column = "DV"
+
+[table.sample.attributes]
+Class = "L21QC"
+"File type" = "QC"
+"Injection order" = "93"
+"File name_pos" = "210706_TT1_IMS_Ishikawa_QC_02_Pos"
+Type = "QC"
+SampleID = "L21QC_93"
+"Class ID" = "L21QC"
+ID = "L21QC"
+Class_2 = "QC"
+treated = "no"
+
+[[table.sample]]
+assay = 94
+name = "210706_TT1_IMS_Ishikawa_QC_03_Neg"
+column = "DW"
+
+[table.sample.attributes]
+Class = "L21QC"
+"File type" = "QC"
+"Injection order" = "94"
+"File name_pos" = "210706_TT1_IMS_Ishikawa_QC_03_Pos"
+Type = "QC"
+SampleID = "L21QC_94"
+"Class ID" = "L21QC"
+ID = "L21QC"
+Class_2 = "QC"
+treated = "no"
+
+[[table.sample]]
+assay = 95
+name = "210706_TT1_IMS_Ishikawa_QC_04_Neg"
+column = "DX"
+
+[table.sample.attributes]
+Class = "L21QC"
+"File type" = "QC"
+"Injection order" = "95"
+"File name_pos" = "210706_TT1_IMS_Ishikawa_QC_04_Pos"
+Type = "QC"
+SampleID = "L21QC_95"
+"Class ID" = "L21QC"
+ID = "L21QC"
+Class_2 = "QC"
+treated = "no"
+
+[[table.sample]]
+assay = 96
+name = "221118_TT1_IMS_Ishikawa_Blank_Neg"
+column = "DY"
+
+[table.sample.attributes]
+Class = "L22BK"
+"File type" = "Blank"
+"Injection order" = "96"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Blank_Pos"
+Type = "Blank"
+SampleID = "L22BK_96"
+"Class ID" = "L22BK"
+ID = "L22BK"
+Class_2 = "BK"
+treated = "no"
+
+[[table.sample]]
+assay = 97
+name = "221118_TT1_IMS_Ishikawa_QC_1_Neg"
+column = "DZ"
+
+[table.sample.attributes]
+Class = "L22QC"
+"File type" = "QC"
+"Injection order" = "97"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_QC_1_Pos"
+Type = "QC"
+SampleID = "L22QC_97"
+"Class ID" = "L22QC"
+ID = "L22QC"
+Class_2 = "QC"
+treated = "no"
+
+[[table.sample]]
+assay = 98
+name = "221118_TT1_IMS_Ishikawa_QC_2_Neg"
+column = "EA"
+
+[table.sample.attributes]
+Class = "L22QC"
+"File type" = "QC"
+"Injection order" = "98"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_QC_2_Pos"
+Type = "QC"
+SampleID = "L22QC_98"
+"Class ID" = "L22QC"
+ID = "L22QC"
+Class_2 = "QC"
+treated = "no"
+
+[[table.sample]]
+assay = 99
+name = "221118_TT1_IMS_Ishikawa_Sample01_210112_1_Neg"
+column = "EB"
+
+[table.sample.attributes]
+Class = "L2201AML"
+"File type" = "Sample"
+"Injection order" = "99"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample01_210112_1_Pos"
+Type = "Sample"
+SampleID = "L2201AML_99"
+"Class ID" = "L2201AML"
+ID = "L2201"
+Class_2 = "AML"
+PatientID = "U339#3"
+FLT3_Label = "Mut"
+GATA2_Label = "Mut"
+TET2_Label = "Mut"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 100
+name = "221118_TT1_IMS_Ishikawa_Sample02_210614_1_Neg"
+column = "EC"
+
+[table.sample.attributes]
+Class = "L2202AML"
+"File type" = "Sample"
+"Injection order" = "100"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample02_210614_1_Pos"
+Type = "Sample"
+SampleID = "L2202AML_100"
+"Class ID" = "L2202AML"
+ID = "L2202"
+Class_2 = "AML"
+PatientID = "TH"
+TP53_Label = "Pro72Arg"
+FLT3_Label = "ITD+, Mut"
+GATA2_Label = "Mut"
+TET2_Label = "Mut"
+rnaseq = "S04663"
+treated = "no"
+
+[[table.sample]]
+assay = 101
+name = "221118_TT1_IMS_Ishikawa_Sample03_210705_1_Neg"
+column = "ED"
+
+[table.sample.attributes]
+Class = "L2203BA"
+"File type" = "Sample"
+"Injection order" = "101"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample03_210705_1_Pos"
+Type = "Sample"
+SampleID = "L2203BA_101"
+"Class ID" = "L2203BA"
+ID = "L2203"
+Class_2 = "BA"
+PatientID = "U359"
+TP53_Label = "Pro72Arg"
+FLT3_Label = "Mut"
+TET2_Label = "Mut"
+Ph_Label = "Ph+"
+rnaseq = "S15193"
+treated = "no"
+
+[[table.sample]]
+assay = 102
+name = "221118_TT1_IMS_Ishikawa_Sample04_210727_1_Neg"
+column = "EE"
+
+[table.sample.attributes]
+Class = "L2204AML"
+"File type" = "Sample"
+"Injection order" = "102"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample04_210727_1_Pos"
+Type = "Sample"
+SampleID = "L2204AML_102"
+"Class ID" = "L2204AML"
+ID = "L2204"
+Class_2 = "AML"
+PatientID = "U479"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 103
+name = "221118_TT1_IMS_Ishikawa_Sample05_210831_1_Neg"
+column = "EF"
+
+[table.sample.attributes]
+Class = "L2205TA"
+"File type" = "Sample"
+"Injection order" = "103"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample05_210831_1_Pos"
+Type = "Sample"
+SampleID = "L2205TA_103"
+"Class ID" = "L2205TA"
+ID = "L2205"
+Class_2 = "TA"
+PatientID = "U293"
+rnaseq = "S10949"
+treated = "no"
+
+[[table.sample]]
+assay = 104
+name = "221118_TT1_IMS_Ishikawa_Sample06_211207_1_Neg"
+column = "EG"
+
+[table.sample.attributes]
+Class = "L2206AML"
+"File type" = "Sample"
+"Injection order" = "104"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample06_211207_1_Pos"
+Type = "Sample"
+SampleID = "L2206AML_104"
+"Class ID" = "L2206AML"
+ID = "L2206"
+Class_2 = "AML"
+PatientID = "U494#1"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 105
+name = "221118_TT1_IMS_Ishikawa_Sample07_211210_1_Neg"
+column = "EH"
+
+[table.sample.attributes]
+Class = "L2207AML"
+"File type" = "Sample"
+"Injection order" = "105"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample07_211210_1_Pos"
+Type = "Sample"
+SampleID = "L2207AML_105"
+"Class ID" = "L2207AML"
+ID = "L2207"
+Class_2 = "AML"
+PatientID = "U486#3"
+TP53_Label = "NoDNAinfo"
+FLT3_Label = "ITD+"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 106
+name = "221118_TT1_IMS_Ishikawa_Sample08_211217_1_Neg"
+column = "EI"
+
+[table.sample.attributes]
+Class = "L2208BA"
+"File type" = "Sample"
+"Injection order" = "106"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample08_211217_1_Pos"
+Type = "Sample"
+SampleID = "L2208BA_106"
+"Class ID" = "L2208BA"
+ID = "L2208"
+Class_2 = "BA"
+PatientID = "U471#3"
+TP53_Label = "His168Pro"
+KRAS_Label = "Mut"
+TET2_Label = "Mut"
+Ph_Label = "Phnull"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 107
+name = "221118_TT1_IMS_Ishikawa_Sample09_220124_1_Neg"
+column = "EJ"
+
+[table.sample.attributes]
+Class = "L2209TA"
+"File type" = "Sample"
+"Injection order" = "107"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample09_220124_1_Pos"
+Type = "Sample"
+SampleID = "L2209TA_107"
+"Class ID" = "L2209TA"
+ID = "L2209"
+Class_2 = "TA"
+PatientID = "U473#2"
+TET2_Label = "Mut"
+Ph_Label = "Phnull"
+rnaseq = "220124-1"
+treated = "no"
+
+[[table.sample]]
+assay = 108
+name = "221118_TT1_IMS_Ishikawa_Sample10_220127_1_Neg"
+column = "EK"
+
+[table.sample.attributes]
+Class = "L2210AML"
+"File type" = "Sample"
+"Injection order" = "108"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample10_220127_1_Pos"
+Type = "Sample"
+SampleID = "L2210AML_108"
+"Class ID" = "L2210AML"
+ID = "L2210"
+Class_2 = "AML"
+PatientID = "U527"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 109
+name = "221118_TT1_IMS_Ishikawa_Sample11_220131_1_Neg"
+column = "EL"
+
+[table.sample.attributes]
+Class = "L2211AML"
+"File type" = "Sample"
+"Injection order" = "109"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample11_220131_1_Pos"
+Type = "Sample"
+SampleID = "L2211AML_109"
+"Class ID" = "L2211AML"
+ID = "L2211"
+Class_2 = "AML"
+PatientID = "U512"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 110
+name = "221118_TT1_IMS_Ishikawa_Sample12_220215_1_Neg"
+column = "EM"
+
+[table.sample.attributes]
+Class = "L2212AML"
+"File type" = "Sample"
+"Injection order" = "110"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample12_220215_1_Pos"
+Type = "Sample"
+SampleID = "L2212AML_110"
+"Class ID" = "L2212AML"
+ID = "L2212"
+Class_2 = "AML"
+PatientID = "U420#1"
+IDH2_Label = "IDH2 mut"
+TET2_Label = "Mut"
+rnaseq = "S14743"
+treated = "no"
+
+[[table.sample]]
+assay = 111
+name = "221118_TT1_IMS_Ishikawa_Sample13_220218_1_Neg"
+column = "EN"
+
+[table.sample.attributes]
+Class = "L2213AML"
+"File type" = "Sample"
+"Injection order" = "111"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample13_220218_1_Pos"
+Type = "Sample"
+SampleID = "L2213AML_111"
+"Class ID" = "L2213AML"
+ID = "L2213"
+Class_2 = "AML"
+PatientID = "U309#1"
+TP53_Label = "Val73fs"
+FLT3_Label = "Mut"
+GATA2_Label = "Mut"
+TET2_Label = "Mut"
+rnaseq = "S16416"
+treated = "no"
+
+[[table.sample]]
+assay = 112
+name = "221118_TT1_IMS_Ishikawa_Sample14_220330_1_Neg"
+column = "EO"
+
+[table.sample.attributes]
+Class = "L2214AML"
+"File type" = "Sample"
+"Injection order" = "112"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample14_220330_1_Pos"
+Type = "Sample"
+SampleID = "L2214AML_112"
+"Class ID" = "L2214AML"
+ID = "L2214"
+Class_2 = "AML"
+PatientID = "U536"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 113
+name = "221118_TT1_IMS_Ishikawa_Sample15_220414_1_Neg"
+column = "EP"
+
+[table.sample.attributes]
+Class = "L2215AML"
+"File type" = "Sample"
+"Injection order" = "113"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample15_220414_1_Pos"
+Type = "Sample"
+SampleID = "L2215AML_113"
+"Class ID" = "L2215AML"
+ID = "L2215"
+Class_2 = "AML"
+PatientID = "U497#2"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 114
+name = "221118_TT1_IMS_Ishikawa_Sample16_220421_1_Neg"
+column = "EQ"
+
+[table.sample.attributes]
+Class = "L2216AML"
+"File type" = "Sample"
+"Injection order" = "114"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample16_220421_1_Pos"
+Type = "Sample"
+SampleID = "L2216AML_114"
+"Class ID" = "L2216AML"
+ID = "L2216"
+Class_2 = "AML"
+PatientID = "U540"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 115
+name = "221118_TT1_IMS_Ishikawa_Sample17_220516_1_Neg"
+column = "ER"
+
+[table.sample.attributes]
+Class = "L2217AML"
+"File type" = "Sample"
+"Injection order" = "115"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample17_220516_1_Pos"
+Type = "Sample"
+SampleID = "L2217AML_115"
+"Class ID" = "L2217AML"
+ID = "L2217"
+Class_2 = "AML"
+PatientID = "U464#2"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "yes"
+
+[[table.sample]]
+assay = 116
+name = "221118_TT1_IMS_Ishikawa_Sample18_220516_2_Neg"
+column = "ES"
+
+[table.sample.attributes]
+Class = "L2218AML"
+"File type" = "Sample"
+"Injection order" = "116"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample18_220516_2_Pos"
+Type = "Sample"
+SampleID = "L2218AML_116"
+"Class ID" = "L2218AML"
+ID = "L2218"
+Class_2 = "AML"
+PatientID = "U464#2"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "yes"
+
+[[table.sample]]
+assay = 117
+name = "221118_TT1_IMS_Ishikawa_Sample19_220518_1_Neg"
+column = "ET"
+
+[table.sample.attributes]
+Class = "L2219AML"
+"File type" = "Sample"
+"Injection order" = "117"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample19_220518_1_Pos"
+Type = "Sample"
+SampleID = "L2219AML_117"
+"Class ID" = "L2219AML"
+ID = "L2219"
+Class_2 = "AML"
+PatientID = "U527"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 118
+name = "221118_TT1_IMS_Ishikawa_Sample20_220527_1_Neg"
+column = "EU"
+
+[table.sample.attributes]
+Class = "L2220AML"
+"File type" = "Sample"
+"Injection order" = "118"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample20_220527_1_Pos"
+Type = "Sample"
+SampleID = "L2220AML_118"
+"Class ID" = "L2220AML"
+ID = "L2220"
+Class_2 = "AML"
+PatientID = "U236"
+FLT3_Label = "WT"
+rnaseq = "S16243"
+treated = "no"
+
+[[table.sample]]
+assay = 119
+name = "221118_TT1_IMS_Ishikawa_Sample21_220606_1_Neg"
+column = "EV"
+
+[table.sample.attributes]
+Class = "L2221AML"
+"File type" = "Sample"
+"Injection order" = "119"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample21_220606_1_Pos"
+Type = "Sample"
+SampleID = "L2221AML_119"
+"Class ID" = "L2221AML"
+ID = "L2221"
+Class_2 = "AML"
+PatientID = "U252"
+FLT3_Label = "WT"
+rnaseq = "S16126"
+treated = "no"
+
+[[table.sample]]
+assay = 120
+name = "221118_TT1_IMS_Ishikawa_Sample22_220606_2_Neg"
+column = "EW"
+
+[table.sample.attributes]
+Class = "L2222BA"
+"File type" = "Sample"
+"Injection order" = "120"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample22_220606_2_Pos"
+Type = "Sample"
+SampleID = "L2222BA_120"
+"Class ID" = "L2222BA"
+ID = "L2222"
+Class_2 = "BA"
+PatientID = "U501#1"
+Ph_Label = "Phnull"
+rnaseq = "220112-1"
+treated = "no"
+
+[[table.sample]]
+assay = 121
+name = "221118_TT1_IMS_Ishikawa_Sample23_220623_1_Neg"
+column = "EX"
+
+[table.sample.attributes]
+Class = "L2223AML"
+"File type" = "Sample"
+"Injection order" = "121"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample23_220623_1_Pos"
+Type = "Sample"
+SampleID = "L2223AML_121"
+"Class ID" = "L2223AML"
+ID = "L2223"
+Class_2 = "AML"
+PatientID = "U532"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 122
+name = "221118_TT1_IMS_Ishikawa_Sample24_220629_1_Neg"
+column = "EY"
+
+[table.sample.attributes]
+Class = "L2224AML"
+"File type" = "Sample"
+"Injection order" = "122"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample24_220629_1_Pos"
+Type = "Sample"
+SampleID = "L2224AML_122"
+"Class ID" = "L2224AML"
+ID = "L2224"
+Class_2 = "AML"
+PatientID = "U281#2"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 123
+name = "221118_TT1_IMS_Ishikawa_Sample25_220706_1_Neg"
+column = "EZ"
+
+[table.sample.attributes]
+Class = "L2225AML"
+"File type" = "Sample"
+"Injection order" = "123"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample25_220706_1_Pos"
+Type = "Sample"
+SampleID = "L2225AML_123"
+"Class ID" = "L2225AML"
+ID = "L2225"
+Class_2 = "AML"
+PatientID = "U390#2"
+FLT3_Label = "ITD+"
+TET2_Label = "Mut"
+rnaseq = "S15601"
+treated = "no"
+
+[[table.sample]]
+assay = 124
+name = "221118_TT1_IMS_Ishikawa_Sample26_220708_1_Neg"
+column = "FA"
+
+[table.sample.attributes]
+Class = "L2226BA"
+"File type" = "Sample"
+"Injection order" = "124"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample26_220708_1_Pos"
+Type = "Sample"
+SampleID = "L2226BA_124"
+"Class ID" = "L2226BA"
+ID = "L2226"
+Class_2 = "BA"
+PatientID = "U507#1"
+TP53_Label = "NoDNAinfo"
+rnaseq = "220329-1"
+treated = "no"
+
+[[table.sample]]
+assay = 125
+name = "221118_TT1_IMS_Ishikawa_Sample27_220711_1_Neg"
+column = "FB"
+
+[table.sample.attributes]
+Class = "L2227AML"
+"File type" = "Sample"
+"Injection order" = "125"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample27_220711_1_Pos"
+Type = "Sample"
+SampleID = "L2227AML_125"
+"Class ID" = "L2227AML"
+ID = "L2227"
+Class_2 = "AML"
+PatientID = "MS"
+TP53_Label = "Pro72Arg"
+FLT3_Label = "Mut"
+KRAS_Label = "Mut"
+GATA2_Label = "Mut"
+TET2_Label = "Mut"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 126
+name = "221118_TT1_IMS_Ishikawa_Sample28_220712_1_Neg"
+column = "FC"
+
+[table.sample.attributes]
+Class = "L2228BA"
+"File type" = "Sample"
+"Injection order" = "126"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample28_220712_1_Pos"
+Type = "Sample"
+SampleID = "L2228BA_126"
+"Class ID" = "L2228BA"
+ID = "L2228"
+Class_2 = "BA"
+PatientID = "U521"
+TP53_Label = "NoDNAinfo"
+rnaseq = "220207-1"
+treated = "no"
+
+[[table.sample]]
+assay = 127
+name = "221118_TT1_IMS_Ishikawa_Sample29_220713_1_Neg"
+column = "FD"
+
+[table.sample.attributes]
+Class = "L2229CT4"
+"File type" = "Sample"
+"Injection order" = "127"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample29_220713_1_Pos"
+Type = "Sample"
+SampleID = "L2229CT4_127"
+"Class ID" = "L2229CT4"
+ID = "L2229"
+Class_2 = "AML"
+PatientID = "U390#2"
+FLT3_Label = "ITD+"
+TET2_Label = "Mut"
+rnaseq = "CXCR4CD25CART"
+treated = "yes"
+
+[[table.sample]]
+assay = 128
+name = "221118_TT1_IMS_Ishikawa_Sample30_220713_2_Neg"
+column = "FE"
+
+[table.sample.attributes]
+Class = "L2230CT4"
+"File type" = "Sample"
+"Injection order" = "128"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample30_220713_2_Pos"
+Type = "Sample"
+SampleID = "L2230CT4_128"
+"Class ID" = "L2230CT4"
+ID = "L2230"
+Class_2 = "AML"
+PatientID = "U390#2"
+FLT3_Label = "ITD+"
+TET2_Label = "Mut"
+rnaseq = "CXCR4CD25CART"
+treated = "yes"
+
+[[table.sample]]
+assay = 129
+name = "221118_TT1_IMS_Ishikawa_Sample31_220713_3_Neg"
+column = "FF"
+
+[table.sample.attributes]
+Class = "L2231CT25"
+"File type" = "Sample"
+"Injection order" = "129"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample31_220713_3_Pos"
+Type = "Sample"
+SampleID = "L2231CT25_129"
+"Class ID" = "L2231CT25"
+ID = "L2231"
+Class_2 = "AML"
+PatientID = "U390#2"
+FLT3_Label = "ITD+"
+TET2_Label = "Mut"
+rnaseq = "CD25CART"
+treated = "yes"
+
+[[table.sample]]
+assay = 130
+name = "221118_TT1_IMS_Ishikawa_Sample32_220713_4_Neg"
+column = "FG"
+
+[table.sample.attributes]
+Class = "L2232CT25"
+"File type" = "Sample"
+"Injection order" = "130"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample32_220713_4_Pos"
+Type = "Sample"
+SampleID = "L2232CT25_130"
+"Class ID" = "L2232CT25"
+ID = "L2232"
+Class_2 = "AML"
+PatientID = "U390#2"
+FLT3_Label = "ITD+"
+TET2_Label = "Mut"
+rnaseq = "CD25CART"
+treated = "yes"
+
+[[table.sample]]
+assay = 131
+name = "221118_TT1_IMS_Ishikawa_Sample33_220713_5_Neg"
+column = "FH"
+
+[table.sample.attributes]
+Class = "L2233CT25"
+"File type" = "Sample"
+"Injection order" = "131"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample33_220713_5_Pos"
+Type = "Sample"
+SampleID = "L2233CT25_131"
+"Class ID" = "L2233CT25"
+ID = "L2233"
+Class_2 = "AML"
+PatientID = "U390#2"
+FLT3_Label = "ITD+"
+TET2_Label = "Mut"
+rnaseq = "CD25CART"
+treated = "yes"
+
+[[table.sample]]
+assay = 132
+name = "221118_TT1_IMS_Ishikawa_Sample34_220713_6_Neg"
+column = "FI"
+
+[table.sample.attributes]
+Class = "L2234CT4"
+"File type" = "Sample"
+"Injection order" = "132"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample34_220713_6_Pos"
+Type = "Sample"
+SampleID = "L2234CT4_132"
+"Class ID" = "L2234CT4"
+ID = "L2234"
+Class_2 = "AML"
+PatientID = "U390#2"
+FLT3_Label = "ITD+"
+TET2_Label = "Mut"
+rnaseq = "CXCR4CD25CART"
+treated = "yes"
+
+[[table.sample]]
+assay = 133
+name = "221118_TT1_IMS_Ishikawa_Sample35_220713_7_Neg"
+column = "FJ"
+
+[table.sample.attributes]
+Class = "L2235CT4"
+"File type" = "Sample"
+"Injection order" = "133"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample35_220713_7_Pos"
+Type = "Sample"
+SampleID = "L2235CT4_133"
+"Class ID" = "L2235CT4"
+ID = "L2235"
+Class_2 = "AML"
+PatientID = "U390#2"
+FLT3_Label = "ITD+"
+TET2_Label = "Mut"
+rnaseq = "CXCR4CD25CART"
+treated = "yes"
+
+[[table.sample]]
+assay = 134
+name = "221118_TT1_IMS_Ishikawa_Sample36_220713_8_Neg"
+column = "FK"
+
+[table.sample.attributes]
+Class = "L2236CT4"
+"File type" = "Sample"
+"Injection order" = "134"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample36_220713_8_Pos"
+Type = "Sample"
+SampleID = "L2236CT4_134"
+"Class ID" = "L2236CT4"
+ID = "L2236"
+Class_2 = "AML"
+PatientID = "U390#2"
+FLT3_Label = "ITD+"
+TET2_Label = "Mut"
+rnaseq = "CXCR4CD25CART"
+treated = "yes"
+
+[[table.sample]]
+assay = 135
+name = "221118_TT1_IMS_Ishikawa_Sample37_220722_1_Neg"
+column = "FL"
+
+[table.sample.attributes]
+Class = "L2237AML"
+"File type" = "Sample"
+"Injection order" = "135"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample37_220722_1_Pos"
+Type = "Sample"
+SampleID = "L2237AML_135"
+"Class ID" = "L2237AML"
+ID = "L2237"
+Class_2 = "AML"
+PatientID = "U520"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"
+
+[[table.sample]]
+assay = 136
+name = "221118_TT1_IMS_Ishikawa_Sample38_220831_1_Neg"
+column = "FM"
+
+[table.sample.attributes]
+Class = "L2238AML"
+"File type" = "Sample"
+"Injection order" = "136"
+"File name_pos" = "221118_TT1_IMS_Ishikawa_Sample38_220831_1_Pos"
+Type = "Sample"
+SampleID = "L2238AML_136"
+"Class ID" = "L2238AML"
+ID = "L2238"
+Class_2 = "AML"
+PatientID = "U540"
+TP53_Label = "NoDNAinfo"
+rnaseq = "NO DATA"
+treated = "no"

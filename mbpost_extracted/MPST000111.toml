@@ -1,0 +1,444 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000111.xlsx"
+mbpost_id = "MPST000111"
+n_tables = 2
+
+[[table]]
+id = "MPST000111#Peak area"
+mbpost_id = "MPST000111"
+source_file = "MPST000111.xlsx"
+sheet = "ICMSMS_PFPP-LCMSMS_result"
+features_in = "rows"
+n_features = 255
+n_samples = 20
+block = "Peak area"
+
+[[table.sample]]
+assay = 1
+name = "YM_NL_1"
+column = "L"
+
+[table.sample.attributes]
+header_1 = "YM"
+header_2 = "NL"
+header_3 = "1"
+header_4 = "0.8866013999999999"
+
+[[table.sample]]
+assay = 2
+name = "YM_NL_2"
+column = "M"
+
+[table.sample.attributes]
+header_1 = "YM"
+header_2 = "NL"
+header_3 = "2"
+header_4 = "1.1307417"
+
+[[table.sample]]
+assay = 3
+name = "YM_NL_3"
+column = "N"
+
+[table.sample.attributes]
+header_1 = "YM"
+header_2 = "NL"
+header_3 = "3"
+header_4 = "1.1147325"
+
+[[table.sample]]
+assay = 4
+name = "YM_NL_4"
+column = "O"
+
+[table.sample.attributes]
+header_1 = "YM"
+header_2 = "NL"
+header_3 = "4"
+header_4 = "0.9706497"
+
+[[table.sample]]
+assay = 5
+name = "YM_NL_5"
+column = "P"
+
+[table.sample.attributes]
+header_1 = "YM"
+header_2 = "NL"
+header_3 = "5"
+header_4 = "1.0466933999999999"
+
+[[table.sample]]
+assay = 6
+name = "YM_720h_1"
+column = "Q"
+
+[table.sample.attributes]
+header_1 = "YM"
+header_2 = "720h"
+header_3 = "1"
+header_4 = "1.0867163999999998"
+
+[[table.sample]]
+assay = 7
+name = "YM_720h_2"
+column = "R"
+
+[table.sample.attributes]
+header_1 = "YM"
+header_2 = "720h"
+header_3 = "2"
+header_4 = "1.2788268"
+
+[[table.sample]]
+assay = 8
+name = "YM_720h_3"
+column = "S"
+
+[table.sample.attributes]
+header_1 = "YM"
+header_2 = "720h"
+header_3 = "3"
+header_4 = "1.054698"
+
+[[table.sample]]
+assay = 9
+name = "YM_720h_4"
+column = "T"
+
+[table.sample.attributes]
+header_1 = "YM"
+header_2 = "720h"
+header_3 = "4"
+header_4 = "1.0186773"
+
+[[table.sample]]
+assay = 10
+name = "YM_720h_5"
+column = "U"
+
+[table.sample.attributes]
+header_1 = "YM"
+header_2 = "720h"
+header_3 = "5"
+header_4 = "1.374882"
+
+[[table.sample]]
+assay = 11
+name = "VOM_NL_1"
+column = "V"
+
+[table.sample.attributes]
+header_1 = "VOM"
+header_2 = "NL"
+header_3 = "1"
+header_4 = "1.254813"
+
+[[table.sample]]
+assay = 12
+name = "VOM_NL_2"
+column = "W"
+
+[table.sample.attributes]
+header_1 = "VOM"
+header_2 = "NL"
+header_3 = "2"
+header_4 = "1.1787693"
+
+[[table.sample]]
+assay = 13
+name = "VOM_NL_3"
+column = "X"
+
+[table.sample.attributes]
+header_1 = "VOM"
+header_2 = "NL"
+header_3 = "3"
+header_4 = "1.1467508999999998"
+
+[[table.sample]]
+assay = 14
+name = "VOM_NL_4"
+column = "Y"
+
+[table.sample.attributes]
+header_1 = "VOM"
+header_2 = "NL"
+header_3 = "4"
+header_4 = "1.2388038"
+
+[[table.sample]]
+assay = 15
+name = "VOM_NL_5"
+column = "Z"
+
+[table.sample.attributes]
+header_1 = "VOM"
+header_2 = "NL"
+header_3 = "5"
+header_4 = "1.1187348"
+
+[[table.sample]]
+assay = 16
+name = "VOM_720h_1"
+column = "AA"
+
+[table.sample.attributes]
+header_1 = "VOM"
+header_2 = "720h"
+header_3 = "1"
+header_4 = "1.0506957"
+
+[[table.sample]]
+assay = 17
+name = "VOM_720h_2"
+column = "AB"
+
+[table.sample.attributes]
+header_1 = "VOM"
+header_2 = "720h"
+header_3 = "2"
+header_4 = "0.9986657999999999"
+
+[[table.sample]]
+assay = 18
+name = "VOM_720h_3"
+column = "AC"
+
+[table.sample.attributes]
+header_1 = "VOM"
+header_2 = "720h"
+header_3 = "3"
+header_4 = "1.1267394"
+
+[[table.sample]]
+assay = 19
+name = "VOM_720h_4"
+column = "AD"
+
+[table.sample.attributes]
+header_1 = "VOM"
+header_2 = "720h"
+header_3 = "4"
+header_4 = "1.1307417"
+
+[[table.sample]]
+assay = 20
+name = "VOM_720h_5"
+column = "AE"
+
+[table.sample.attributes]
+header_1 = "VOM"
+header_2 = "720h"
+header_3 = "5"
+header_4 = "1.054698"
+
+[[table]]
+id = "MPST000111#Relative peak area (Analyte/IS/protein amount, mg)"
+mbpost_id = "MPST000111"
+source_file = "MPST000111.xlsx"
+sheet = "ICMSMS_PFPP-LCMSMS_result"
+features_in = "rows"
+n_features = 247
+n_samples = 20
+block = "Relative peak area (Analyte/IS/protein amount, mg)"
+
+[[table.sample]]
+assay = 1
+name = "YM_NL_1"
+column = "AJ"
+
+[table.sample.attributes]
+IS = "YM"
+"Adduct ion" = "NL"
+5 = "1"
+
+[[table.sample]]
+assay = 2
+name = "YM_NL_2"
+column = "AK"
+
+[table.sample.attributes]
+IS = "YM"
+"Adduct ion" = "NL"
+5 = "2"
+
+[[table.sample]]
+assay = 3
+name = "YM_NL_3"
+column = "AL"
+
+[table.sample.attributes]
+IS = "YM"
+"Adduct ion" = "NL"
+5 = "3"
+
+[[table.sample]]
+assay = 4
+name = "YM_NL_4"
+column = "AM"
+
+[table.sample.attributes]
+IS = "YM"
+"Adduct ion" = "NL"
+5 = "4"
+
+[[table.sample]]
+assay = 5
+name = "YM_NL_5"
+column = "AN"
+
+[table.sample.attributes]
+IS = "YM"
+"Adduct ion" = "NL"
+5 = "5"
+
+[[table.sample]]
+assay = 6
+name = "YM_720h_1"
+column = "AO"
+
+[table.sample.attributes]
+IS = "YM"
+"Adduct ion" = "720h"
+5 = "1"
+
+[[table.sample]]
+assay = 7
+name = "YM_720h_2"
+column = "AP"
+
+[table.sample.attributes]
+IS = "YM"
+"Adduct ion" = "720h"
+5 = "2"
+
+[[table.sample]]
+assay = 8
+name = "YM_720h_3"
+column = "AQ"
+
+[table.sample.attributes]
+IS = "YM"
+"Adduct ion" = "720h"
+5 = "3"
+
+[[table.sample]]
+assay = 9
+name = "YM_720h_4"
+column = "AR"
+
+[table.sample.attributes]
+IS = "YM"
+"Adduct ion" = "720h"
+5 = "4"
+
+[[table.sample]]
+assay = 10
+name = "YM_720h_5"
+column = "AS"
+
+[table.sample.attributes]
+IS = "YM"
+"Adduct ion" = "720h"
+5 = "5"
+
+[[table.sample]]
+assay = 11
+name = "VOM_NL_1"
+column = "AT"
+
+[table.sample.attributes]
+IS = "VOM"
+"Adduct ion" = "NL"
+5 = "1"
+
+[[table.sample]]
+assay = 12
+name = "VOM_NL_2"
+column = "AU"
+
+[table.sample.attributes]
+IS = "VOM"
+"Adduct ion" = "NL"
+5 = "2"
+
+[[table.sample]]
+assay = 13
+name = "VOM_NL_3"
+column = "AV"
+
+[table.sample.attributes]
+IS = "VOM"
+"Adduct ion" = "NL"
+5 = "3"
+
+[[table.sample]]
+assay = 14
+name = "VOM_NL_4"
+column = "AW"
+
+[table.sample.attributes]
+IS = "VOM"
+"Adduct ion" = "NL"
+5 = "4"
+
+[[table.sample]]
+assay = 15
+name = "VOM_NL_5"
+column = "AX"
+
+[table.sample.attributes]
+IS = "VOM"
+"Adduct ion" = "NL"
+5 = "5"
+
+[[table.sample]]
+assay = 16
+name = "VOM_720h_1"
+column = "AY"
+
+[table.sample.attributes]
+IS = "VOM"
+"Adduct ion" = "720h"
+5 = "1"
+
+[[table.sample]]
+assay = 17
+name = "VOM_720h_2"
+column = "AZ"
+
+[table.sample.attributes]
+IS = "VOM"
+"Adduct ion" = "720h"
+5 = "2"
+
+[[table.sample]]
+assay = 18
+name = "VOM_720h_3"
+column = "BA"
+
+[table.sample.attributes]
+IS = "VOM"
+"Adduct ion" = "720h"
+5 = "3"
+
+[[table.sample]]
+assay = 19
+name = "VOM_720h_4"
+column = "BB"
+
+[table.sample.attributes]
+IS = "VOM"
+"Adduct ion" = "720h"
+5 = "4"
+
+[[table.sample]]
+assay = 20
+name = "VOM_720h_5"
+column = "BC"
+
+[table.sample.attributes]
+IS = "VOM"
+"Adduct ion" = "720h"
+5 = "5"

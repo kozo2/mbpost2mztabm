@@ -1,0 +1,20 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000191.xlsx"
+mbpost_id = "MPST000191"
+n_tables = 0
+
+[[skipped]]
+sheet = "Data S1"
+reason = "metabolic flux estimates per reaction, not a sample quantification table"
+
+[[skipped]]
+sheet = "Data S2"
+reason = "metabolic flux estimates per reaction, not a sample quantification table"
+
+[[skipped]]
+sheet = "Data S3"
+reason = "metabolic flux estimates per reaction, not a sample quantification table"
+
+[[skipped]]
+sheet = "Data S4"
+reason = "metabolic flux estimates per reaction, not a sample quantification table"

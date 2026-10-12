@@ -1,0 +1,162 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000123.csv"
+mbpost_id = "MPST000123"
+n_tables = 1
+
+[[table]]
+id = "MPST000123"
+mbpost_id = "MPST000123"
+source_file = "MPST000123.csv"
+features_in = "rows"
+n_features = 175
+n_samples = 15
+
+[[table.sample]]
+assay = 1
+name = "20240819_blank_1_POS_1"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "balck1"
+"File type" = "Blank"
+"Injection order" = "1"
+
+[[table.sample]]
+assay = 2
+name = "20240819_blank_2_POS_1"
+column = "AK"
+
+[table.sample.attributes]
+Class = "black2"
+"File type" = "Blank"
+"Injection order" = "2"
+
+[[table.sample]]
+assay = 3
+name = "20240819_KO_2_POS_1"
+column = "AL"
+
+[table.sample.attributes]
+Class = "KO2"
+"File type" = "Sample"
+"Injection order" = "3"
+
+[[table.sample]]
+assay = 4
+name = "20240819_KO_3_POS_1"
+column = "AM"
+
+[table.sample.attributes]
+Class = "KO3"
+"File type" = "Sample"
+"Injection order" = "4"
+
+[[table.sample]]
+assay = 5
+name = "20240819_KO_3_POS_2"
+column = "AN"
+
+[table.sample.attributes]
+Class = "KO3"
+"File type" = "Sample"
+"Injection order" = "5"
+
+[[table.sample]]
+assay = 6
+name = "20240819_KO_3_POS_3"
+column = "AO"
+
+[table.sample.attributes]
+Class = "KO3"
+"File type" = "Sample"
+"Injection order" = "6"
+
+[[table.sample]]
+assay = 7
+name = "20240819_QC_QRAI_POS_1_0.5uL"
+column = "AP"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "7"
+
+[[table.sample]]
+assay = 8
+name = "20240819_QC_QRAI_POS_2_0.5uL"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "8"
+
+[[table.sample]]
+assay = 9
+name = "20240819_QC_QRAI_POS_3_0.5uL"
+column = "AR"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "9"
+
+[[table.sample]]
+assay = 10
+name = "20240819_QC_QRAI_POS_4_0.5uL"
+column = "AS"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "10"
+
+[[table.sample]]
+assay = 11
+name = "20240819_QC_QRAI_POS_5_0.5uL"
+column = "AT"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "11"
+
+[[table.sample]]
+assay = 12
+name = "20240819_WT_2_POS_1"
+column = "AU"
+
+[table.sample.attributes]
+Class = "WT2"
+"File type" = "Sample"
+"Injection order" = "12"
+
+[[table.sample]]
+assay = 13
+name = "20240819_WT_3_POS_1"
+column = "AV"
+
+[table.sample.attributes]
+Class = "WT3"
+"File type" = "Sample"
+"Injection order" = "13"
+
+[[table.sample]]
+assay = 14
+name = "20240819_WT_3_POS_2"
+column = "AW"
+
+[table.sample.attributes]
+Class = "WT3"
+"File type" = "Sample"
+"Injection order" = "14"
+
+[[table.sample]]
+assay = 15
+name = "20240819_WT_3_POS_3"
+column = "AX"
+
+[table.sample.attributes]
+Class = "WT3"
+"File type" = "Sample"
+"Injection order" = "15"

@@ -1,0 +1,60 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000197__Supplementary Table_Metabolomics.xlsx"
+mbpost_id = "MPST000197"
+n_tables = 2
+
+[[table]]
+id = "MPST000197__Supplementary Table_Metabolomics#GC-MS"
+mbpost_id = "MPST000197"
+source_file = "MPST000197__Supplementary Table_Metabolomics.xlsx"
+sheet = "GC-MS"
+features_in = "rows"
+n_features = 77
+n_samples = 17
+sample = [
+    { assay = 1, name = "1", column = "F", attributes = { header_1 = "Control" } },
+    { assay = 2, name = "2", column = "G", attributes = { header_1 = "Control" } },
+    { assay = 3, name = "3", column = "H", attributes = { header_1 = "Control" } },
+    { assay = 4, name = "4", column = "I", attributes = { header_1 = "Control" } },
+    { assay = 5, name = "5", column = "J", attributes = { header_1 = "Control" } },
+    { assay = 6, name = "6", column = "K", attributes = { header_1 = "Control" } },
+    { assay = 7, name = "7", column = "L", attributes = { header_1 = "Control" } },
+    { assay = 8, name = "8", column = "N", attributes = { header_1 = "HFpEF" } },
+    { assay = 9, name = "9", column = "O", attributes = { header_1 = "HFpEF" } },
+    { assay = 10, name = "10", column = "P", attributes = { header_1 = "HFpEF" } },
+    { assay = 11, name = "11", column = "Q", attributes = { header_1 = "HFpEF" } },
+    { assay = 12, name = "12", column = "R", attributes = { header_1 = "HFpEF" } },
+    { assay = 13, name = "13", column = "S", attributes = { header_1 = "HFpEF" } },
+    { assay = 14, name = "14", column = "T", attributes = { header_1 = "HFpEF" } },
+    { assay = 15, name = "QC1", column = "V", attributes = { header_1 = "QC" } },
+    { assay = 16, name = "QC2", column = "W", attributes = { header_1 = "QC" } },
+    { assay = 17, name = "QC3", column = "X", attributes = { header_1 = "QC" } },
+]
+
+[[table]]
+id = "MPST000197__Supplementary Table_Metabolomics#IC-MS"
+mbpost_id = "MPST000197"
+source_file = "MPST000197__Supplementary Table_Metabolomics.xlsx"
+sheet = "IC-MS"
+features_in = "rows"
+n_features = 30
+n_samples = 17
+sample = [
+    { assay = 1, name = "1", column = "F", attributes = { header_1 = "Control" } },
+    { assay = 2, name = "2", column = "G", attributes = { header_1 = "Control" } },
+    { assay = 3, name = "3", column = "H", attributes = { header_1 = "Control" } },
+    { assay = 4, name = "4", column = "I", attributes = { header_1 = "Control" } },
+    { assay = 5, name = "5", column = "J", attributes = { header_1 = "Control" } },
+    { assay = 6, name = "6", column = "K", attributes = { header_1 = "Control" } },
+    { assay = 7, name = "7", column = "L", attributes = { header_1 = "Control" } },
+    { assay = 8, name = "8", column = "N", attributes = { header_1 = "HFpEF" } },
+    { assay = 9, name = "9", column = "O", attributes = { header_1 = "HFpEF" } },
+    { assay = 10, name = "10", column = "P", attributes = { header_1 = "HFpEF" } },
+    { assay = 11, name = "11", column = "Q", attributes = { header_1 = "HFpEF" } },
+    { assay = 12, name = "12", column = "R", attributes = { header_1 = "HFpEF" } },
+    { assay = 13, name = "13", column = "S", attributes = { header_1 = "HFpEF" } },
+    { assay = 14, name = "14", column = "T", attributes = { header_1 = "HFpEF" } },
+    { assay = 15, name = "QC1", column = "V", attributes = { header_1 = "QC" } },
+    { assay = 16, name = "QC2", column = "W", attributes = { header_1 = "QC" } },
+    { assay = 17, name = "QC3", column = "X", attributes = { header_1 = "QC" } },
+]

@@ -78,9 +78,9 @@ override. The tables were not all read in full, so more of these may be left.
   identifiers.
 - Some sample names are bare numbers (`MPST000197` GC-MS and IC-MS, `MPST000039`,
   `MPST000040`) or composed oddly (`Blank_Blank`), because the sheets name them so.
-- `mbpost_extracted/` (45 MB) and `mztabm_extracted/` (100 MB) are generated and not
-  committed. `.venv/bin/python extract_mbpost_tables.py`
-  followed by `Rscript mbpost_to_mztabm.R` rebuilds both in under a minute.
+- `mbpost_extracted/` (45 MB) and `mztabm_extracted/` (100 MB) are generated, and
+  committed for convenience. `.venv/bin/python extract_mbpost_tables.py` followed by
+  `Rscript mbpost_to_mztabm.R` rebuilds both in under a minute and reproduces them.
 
 ## Files
 
@@ -307,7 +307,7 @@ are followed by statistics or annotation columns without a recognisable header.
 - `unit` is only set where the sheet states one (32 tables); peak area and relative
   area tables have none.
 - The largest Parquet file is 6.5 MB and the whole directory 45 MB. It is derived data
-  that takes 25 s to regenerate, so you may not want to commit it.
+  that takes 25 s to regenerate, and is committed for convenience.
 
 ## Converting the extracted tables to mzTab-M
 

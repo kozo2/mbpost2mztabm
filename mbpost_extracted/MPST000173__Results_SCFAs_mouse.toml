@@ -1,0 +1,31 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000173__Results_SCFAs_mouse.xlsx"
+mbpost_id = "MPST000173"
+n_tables = 1
+
+[[table]]
+id = "MPST000173__Results_SCFAs_mouse"
+mbpost_id = "MPST000173"
+source_file = "MPST000173__Results_SCFAs_mouse.xlsx"
+sheet = "Sheet2"
+features_in = "columns"
+n_features = 23
+n_samples = 16
+sample = [
+    { assay = 1, name = "G1", row = 3 },
+    { assay = 2, name = "G2", row = 4 },
+    { assay = 3, name = "G3", row = 5 },
+    { assay = 4, name = "G4", row = 6 },
+    { assay = 5, name = "G5", row = 7 },
+    { assay = 6, name = "G6", row = 8 },
+    { assay = 7, name = "G7", row = 9 },
+    { assay = 8, name = "G8", row = 10 },
+    { assay = 9, name = "E1", row = 11 },
+    { assay = 10, name = "E2", row = 12 },
+    { assay = 11, name = "E3", row = 13 },
+    { assay = 12, name = "E4", row = 14 },
+    { assay = 13, name = "E5", row = 15 },
+    { assay = 14, name = "E6", row = 16 },
+    { assay = 15, name = "E7", row = 17 },
+    { assay = 16, name = "E8", row = 18 },
+]

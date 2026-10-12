@@ -1,0 +1,226 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000039.xlsx"
+mbpost_id = "MPST000039"
+n_tables = 2
+
+[[table]]
+id = "MPST000039#results_anion"
+mbpost_id = "MPST000039"
+source_file = "MPST000039.xlsx"
+sheet = "results_anion"
+features_in = "rows"
+n_features = 237
+n_samples = 10
+unit = "fmol/cell"
+description = "[fmol / cell]"
+
+[[table.sample]]
+assay = 1
+name = "1"
+column = "D"
+
+[table.sample.attributes]
+"Glucose concentration" = "25 mM"
+"Time of differentiation" = "0 h"
+"Cell Number (x10^6)" = "1.5"
+
+[[table.sample]]
+assay = 2
+name = "2"
+column = "E"
+
+[table.sample.attributes]
+"Glucose concentration" = "25 mM"
+"Time of differentiation" = "48 h"
+"Cell Number (x10^6)" = "3"
+
+[[table.sample]]
+assay = 3
+name = "3"
+column = "F"
+
+[table.sample.attributes]
+"Glucose concentration" = "25 mM"
+"Time of differentiation" = "96 h"
+"Cell Number (x10^6)" = "6.2"
+
+[[table.sample]]
+assay = 4
+name = "4"
+column = "G"
+
+[table.sample.attributes]
+"Glucose concentration" = "25 mM"
+"Time of differentiation" = "144 h"
+"Cell Number (x10^6)" = "6.6"
+
+[[table.sample]]
+assay = 5
+name = "5"
+column = "H"
+
+[table.sample.attributes]
+"Glucose concentration" = "25 mM"
+"Time of differentiation" = "192 h"
+"Cell Number (x10^6)" = "6.8"
+
+[[table.sample]]
+assay = 6
+name = "6"
+column = "I"
+
+[table.sample.attributes]
+"Glucose concentration" = "1 mM"
+"Time of differentiation" = "0 h"
+"Cell Number (x10^6)" = "1.5"
+
+[[table.sample]]
+assay = 7
+name = "7"
+column = "J"
+
+[table.sample.attributes]
+"Glucose concentration" = "1 mM"
+"Time of differentiation" = "48 h"
+"Cell Number (x10^6)" = "2.3"
+
+[[table.sample]]
+assay = 8
+name = "8"
+column = "K"
+
+[table.sample.attributes]
+"Glucose concentration" = "1 mM"
+"Time of differentiation" = "96 h"
+"Cell Number (x10^6)" = "3.8"
+
+[[table.sample]]
+assay = 9
+name = "9"
+column = "L"
+
+[table.sample.attributes]
+"Glucose concentration" = "1 mM"
+"Time of differentiation" = "144 h"
+"Cell Number (x10^6)" = "3.8"
+
+[[table.sample]]
+assay = 10
+name = "10"
+column = "M"
+
+[table.sample.attributes]
+"Glucose concentration" = "1 mM"
+"Time of differentiation" = "192 h"
+"Cell Number (x10^6)" = "3.5"
+
+[[table]]
+id = "MPST000039#results_cation"
+mbpost_id = "MPST000039"
+source_file = "MPST000039.xlsx"
+sheet = "results_cation"
+features_in = "rows"
+n_features = 273
+n_samples = 10
+unit = "fmol/cell"
+description = "[fmol / cell]"
+
+[[table.sample]]
+assay = 1
+name = "1"
+column = "D"
+
+[table.sample.attributes]
+"Glucose concentration" = "25 mM"
+"Time of differentiation" = "0 h"
+"Cell Number (x10^6)" = "1.5"
+
+[[table.sample]]
+assay = 2
+name = "2"
+column = "E"
+
+[table.sample.attributes]
+"Glucose concentration" = "25 mM"
+"Time of differentiation" = "48 h"
+"Cell Number (x10^6)" = "3"
+
+[[table.sample]]
+assay = 3
+name = "3"
+column = "F"
+
+[table.sample.attributes]
+"Glucose concentration" = "25 mM"
+"Time of differentiation" = "96 h"
+"Cell Number (x10^6)" = "6.2"
+
+[[table.sample]]
+assay = 4
+name = "4"
+column = "G"
+
+[table.sample.attributes]
+"Glucose concentration" = "25 mM"
+"Time of differentiation" = "144 h"
+"Cell Number (x10^6)" = "6.6"
+
+[[table.sample]]
+assay = 5
+name = "5"
+column = "H"
+
+[table.sample.attributes]
+"Glucose concentration" = "25 mM"
+"Time of differentiation" = "192 h"
+"Cell Number (x10^6)" = "6.8"
+
+[[table.sample]]
+assay = 6
+name = "6"
+column = "I"
+
+[table.sample.attributes]
+"Glucose concentration" = "1 mM"
+"Time of differentiation" = "0 h"
+"Cell Number (x10^6)" = "1.5"
+
+[[table.sample]]
+assay = 7
+name = "7"
+column = "J"
+
+[table.sample.attributes]
+"Glucose concentration" = "1 mM"
+"Time of differentiation" = "48 h"
+"Cell Number (x10^6)" = "2.3"
+
+[[table.sample]]
+assay = 8
+name = "8"
+column = "K"
+
+[table.sample.attributes]
+"Glucose concentration" = "1 mM"
+"Time of differentiation" = "96 h"
+"Cell Number (x10^6)" = "3.8"
+
+[[table.sample]]
+assay = 9
+name = "9"
+column = "L"
+
+[table.sample.attributes]
+"Glucose concentration" = "1 mM"
+"Time of differentiation" = "144 h"
+"Cell Number (x10^6)" = "3.8"
+
+[[table.sample]]
+assay = 10
+name = "10"
+column = "M"
+
+[table.sample.attributes]
+"Glucose concentration" = "1 mM"
+"Time of differentiation" = "192 h"
+"Cell Number (x10^6)" = "3.5"

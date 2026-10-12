@@ -1,0 +1,238 @@
+file	sheet	table_id	status	features_in	n_features	n_samples	unit	orientation_basis	first_samples	reason
+MPST000001.xlsx	Table 1	MPST000001	extracted	rows	254	15	nmol/mg-protein	spread ratio 0.12	Ba/F3_1; Ba/F3_2; Ba/F3_3; Ba/F3_4	
+MPST000003.xlsx	Normalized_Results	MPST000003	extracted	rows	46	90		spread ratio 0.15	2021-3-1; 2021-3-2; 2021-3-3; 2021-1-1	
+MPST000004.xlsx	Table 1		skipped							no numeric cells
+MPST000005.csv		MPST000005	extracted	rows	58	60		spread ratio 0.49	MG1655-GFP-empty_7h_1; MG1655-GFP-empty_7h_2; MG1655-GFP-empty_7h_3; MG1655-GFP_7h_1	
+MPST000006.txt		MPST000006	extracted	rows	1780	52		MS-DIAL alignment result	0555_1_pos; 0555_2_pos; 0555_3_pos; 2043_1_pos	
+MPST000007.txt		MPST000007	extracted	rows	1934	52		MS-DIAL alignment result	0555_1_neg; 0555_2_neg; 0555_3_neg; 2043_1_neg	
+MPST000008.csv		MPST000008	extracted	rows	58	60		spread ratio 0.49	MG1655-GFP-empty_7h_1; MG1655-GFP-empty_7h_2; MG1655-GFP-empty_7h_3; MG1655-GFP_7h_1	
+MPST000009.txt		MPST000009	extracted	rows	113	4		spread ratio 0.08	BY4947; QA23; RedStar; Kyokai 7	
+MPST000010.xlsx	Sheet1	MPST000010	extracted	rows	388	40		MS-DIAL alignment result	1_Young_Medulla; 2_Young_Cerebellum; 3_Young_Midbrain; 4_Young_Hippocampus	
+MPST000011.txt		MPST000011	extracted	rows	441	12		spread ratio 0.25	30°C_0.5h_1; 30°C_0.5h_2; 30°C_0.5h_3; 10°C_0.5h_1	
+MPST000012__Height_DDA_neg.txt		MPST000012__Height_DDA_neg	extracted	rows	1128	4		MS-DIAL alignment result	blank_neg; y_DDA_neg_1; y_DDA_neg_2; y_DDA_neg_3	
+MPST000012__Height_DDA_pos.txt		MPST000012__Height_DDA_pos	extracted	rows	1189	4		MS-DIAL alignment result	blank_pos; y_DDA_pos_1; y_DDA_pos_2; y_DDA_pos_3	
+MPST000012__Height_DIA_neg.txt		MPST000012__Height_DIA_neg	extracted	rows	915	4		MS-DIAL alignment result	DIAblank_20ms_neg; y_DIA_35_20_20ms_neg_1; y_DIA_35_20_20ms_neg_2; y_DIA_35_20_20ms_neg_3	
+MPST000012__Height_DIA_pos.txt		MPST000012__Height_DIA_pos	extracted	rows	1150	4		MS-DIAL alignment result	DIAblank_20ms_pos; y_DIA_35_20_20ms_pos_1; y_DIA_35_20_20ms_pos_2; y_DIA_35_20_20ms_pos_3	
+MPST000014.xlsx	Serum		skipped							no abundance columns (only annotation columns)
+MPST000014.xlsx	VLDL		skipped							no abundance columns (only annotation columns)
+MPST000014.xlsx	LDL		skipped							no abundance columns (only annotation columns)
+MPST000014.xlsx	Erythrocytes		skipped							no abundance columns (only annotation columns)
+MPST000015.xlsx	Nontargeted metabolomic data	MPST000015#Nontargeted metabolomic data	extracted	rows	1675	10		spread ratio 1.10	ProcedureBLK_01 (F1); ProcedureBLK_02 (F2); ProcedureBLK_03 (F3); ProcedureBLK_04 (F4)	
+MPST000015.xlsx	Identification and annotation		skipped							compound identification table with in silico descriptors, not sample abundances
+MPST000017.xlsx	Sheet2	MPST000017	extracted	rows	67	6		spread ratio 0.74	siLuc-1; siLuc-2; siLuc-3; siNnmt-1	
+MPST000018.xlsx	Sheet1	MPST000018	extracted	rows	128	15	μM	spread ratio 0.43	PCIH31; PCIH32; PCIH33; PCN31	
+MPST000019.xlsx	Sheet1	MPST000019	extracted	rows	80	15	μM	spread ratio 0.36	PCIH31; PCIH32; PCIH33; PCN31	
+MPST000022.xlsx	Sheet1	MPST000022	extracted	rows	110	15		spread ratio 0.12	DMSO-treated cells_1; DMSO-treated cells_2; DMSO-treated cells_3; FA 8:0-treated cells_1	
+MPST000025.xlsx	Sheet1	MPST000025	extracted	rows	56	15		spread ratio 0.07	DMSO-treated cells_1; DMSO-treated cells_2; DMSO-treated cells_3; FA 8:0-treated cells_1	
+MPST000026.xlsx	Quantification Results	MPST000026	extracted	rows	623	18	μM	spread ratio 0.38	NC41L; NC42L; NC43L; IHC41L	
+MPST000029.xlsx	Carnitine	MPST000029	extracted	rows	7	15		spread ratio 0.37	DMSO-treated cells_1; DMSO-treated cells_2; DMSO-treated cells_3; FA 8:0-treated cells_1	
+MPST000030.xlsx	CoA	MPST000030	extracted	rows	10	15		spread ratio 0.31	DMSO-treated cells_1; DMSO-treated cells_2; DMSO-treated cells_3; FA 8:0-treated cells_1	
+MPST000034.xlsx	Cell	MPST000034#Cell	extracted	rows	94	6		spread ratio 0.39	HNC1-u; HNC2-u; HNC3-u; ADC1-u	
+MPST000034.xlsx	EVs	MPST000034#EVs	extracted	rows	63	10		spread ratio 0.29	HAG4-u; HAG5-u; HAG6-u; HUC1-u	
+MPST000035.xlsx	Cell	MPST000035#Cell	extracted	rows	87	6		spread ratio 0.22	HNC1-u; HNC2-u; HNC3-u; ADC1-u	
+MPST000035.xlsx	EVs	MPST000035#EVs	extracted	rows	59	10		spread ratio 0.11	HAG4-u; HAG5-u; HAG6-u; HUC1-u	
+MPST000036.xlsx	lipidome	MPST000036#lipidome	extracted	rows	734	136		MS-DIAL alignment result	201118_TT2_Iclass_IMS_Ishikawa_190125_1_Neg; 201118_TT2_Iclass_IMS_Ishikawa_190129_1_Neg; 201118_TT2_Iclass_IMS_Ishikawa_190130_1_Neg; 201118_TT2_Iclass_IMS_Ishikawa_190130_4_Neg	
+MPST000037.xlsx	results	MPST000037	extracted	rows	85	4		spread ratio 0.28	16; 17; 18; 19	
+MPST000038.xlsx	results_anion	MPST000038#results_anion	extracted	rows	239	15	fmol/cell	spread ratio 0.26	1_A; 1_B; 1_C; 2_A	
+MPST000038.xlsx	results_cation	MPST000038#results_cation	extracted	rows	272	15	fmol/cell	spread ratio 0.18	1_A; 1_B; 1_C; 2_A	
+MPST000039.xlsx	results_anion	MPST000039#results_anion	extracted	rows	237	10	fmol/cell	spread ratio 0.35	1; 2; 3; 4	
+MPST000039.xlsx	results_cation	MPST000039#results_cation	extracted	rows	273	10	fmol/cell	spread ratio 0.21	1; 2; 3; 4	
+MPST000040.xlsx	results_anion	MPST000040#results_anion	extracted	rows	121	10	fmol/cell	spread ratio 0.28	1; 2; 3; 4	
+MPST000040.xlsx	results_cation	MPST000040#results_cation	extracted	rows	128	10	fmol/cell	spread ratio 0.15	1; 2; 3; 4	
+MPST000041.xlsx	results	MPST000041	extracted	rows	180	18	fmol/cell	spread ratio 0.21	1A; 1B; 1C; 2A	
+MPST000042.xlsx	results	MPST000042	extracted	rows	233	4	fmol/cell	spread ratio 0.19	3T3-L1_D4_0h; 3T3-L1_D4_1h; 3T3-L1_D4_2h; 3T3-L1_D4_4h	
+MPST000044__Height_Neg.txt		MPST000044__Height_Neg	extracted	rows	1415	106		MS-DIAL alignment result	240828_Tomita_1_neg_re; 240828_Tomita_10_neg; 240828_Tomita_100_neg; 240828_Tomita_101_neg	
+MPST000044__Height_Pos.txt		MPST000044__Height_Pos	extracted	rows	12327	106		MS-DIAL alignment result	240828_Tomita_1_pos; 240828_Tomita_10_pos; 240828_Tomita_100_pos; 240828_Tomita_101_pos	
+MPST000046__Height_Neg.csv		MPST000046__Height_Neg	extracted	rows	5118	76		MS-DIAL alignment result	241010_Tomita_1_neg; 241010_Tomita_10_neg; 241010_Tomita_11_neg; 241010_Tomita_12_neg	
+MPST000046__Height_Pos.csv		MPST000046__Height_Pos	extracted	rows	2949	67		MS-DIAL alignment result	241010_Tomita_1_pos; 241010_Tomita_10_pos; 241010_Tomita_11_pos; 241010_Tomita_12_pos	
+MPST000047__Height_Neg.csv		MPST000047__Height_Neg	extracted	rows	2972	77		MS-DIAL alignment result	240820_Tomita_1_neg; 240820_Tomita_10_neg; 240820_Tomita_11_neg; 240820_Tomita_12_neg	
+MPST000047__Height_Pos.csv		MPST000047__Height_Pos	extracted	rows	3081	68		MS-DIAL alignment result	240822_Tomita_1_pos; 240822_Tomita_10_pos; 240822_Tomita_11_pos; 240822_Tomita_12_pos	
+MPST000048__Height_Neg.csv		MPST000048__Height_Neg	extracted	rows	992	7		MS-DIAL alignment result	241202_Tomita_18_neg; 241202_Tomita_19_neg; 241202_Tomita_20_neg; 241202_Tomita_36_neg	
+MPST000048__Height_Pos.csv		MPST000048__Height_Pos	extracted	rows	1173	7		MS-DIAL alignment result	241202_Tomita_18_pos; 241202_Tomita_19_pos; 241202_Tomita_20_pos; 241202_Tomita_36_pos	
+MPST000049__Height_Neg.txt		MPST000049__Height_Neg	extracted	rows	1877	59		MS-DIAL alignment result	241113_Tomita_1_neg; 241113_Tomita_10_neg; 241113_Tomita_11_neg; 241113_Tomita_12_neg	
+MPST000049__Height_Pos.txt		MPST000049__Height_Pos	extracted	rows	2426	59		MS-DIAL alignment result	241113_Tomita_1_pos; 241113_Tomita_10_pos; 241113_Tomita_11_pos; 241113_Tomita_12_pos	
+MPST000050__Height_Neg.csv		MPST000050__Height_Neg	extracted	rows	1668	25		MS-DIAL alignment result	250130_Tomita_1_neg; 250130_Tomita_10_neg; 250130_Tomita_11_neg; 250130_Tomita_12_neg	
+MPST000050__Height_Pos.csv		MPST000050__Height_Pos	extracted	rows	3567	25		MS-DIAL alignment result	250130_Tomita_1_pos; 250130_Tomita_10_pos; 250130_Tomita_11_pos; 250130_Tomita_12_pos	
+MPST000051__Height_Neg.csv		MPST000051__Height_Neg	extracted	rows	1210	32		MS-DIAL alignment result	241015_Tomita_1_neg; 241015_Tomita_10_neg; 241015_Tomita_11_neg; 241015_Tomita_12_neg	
+MPST000051__Height_Pos.csv		MPST000051__Height_Pos	extracted	rows	1759	32		MS-DIAL alignment result	241015_Tomita_1_pos; 241015_Tomita_10_pos; 241015_Tomita_11_pos; 241015_Tomita_12_pos	
+MPST000052.xlsx	C2C12_Mitoiso	MPST000052#C2C12_Mitoiso	extracted	rows	269	30		MS-DIAL alignment result	HA IP day0_neg_064; HA IP day0-1_neg_065; HA IP day0-2_neg_066; HA IP day1_neg_067	
+MPST000052.xlsx	C2C12_siRNA_OA	MPST000052#C2C12_siRNA_OA	extracted	rows	243	33		MS-DIAL alignment result	C2C12_siCtrl_D0_1_neg_022.lcd; C2C12_siCtrl_D0_2_neg_023.lcd; C2C12_siCtrl_D0_3_neg_024.lcd; C2C12_siMyoD_D0_1_neg_028.lcd	
+MPST000052.xlsx	C2C12_siRNA(2)	MPST000052#C2C12_siRNA(2)	extracted	rows	214	18		MS-DIAL alignment result	C2C12_siCtrl_D0_1_neg_033.lcd; C2C12_siCtrl_D0_2_neg_034.lcd; C2C12_siCtrl_D0_3_neg_035.lcd; C2C12_siTaz_#1_D0_1_neg_039.lcd	
+MPST000052.xlsx	C2C12_siRNA_lipidsupp	MPST000052#C2C12_siRNA_lipidsupp	extracted	rows	202	24		MS-DIAL alignment result	C2C12_siCtrl_D0_1_neg_005.lcd; C2C12_siCtrl_D0_2_neg_001.lcd; C2C12_siCtrl_D0_3_neg_002.lcd; C2C12_siCtrl_BSA_D3_1_neg_003.lcd	
+MPST000052.xlsx	Primary	MPST000052#Primary	extracted	rows	230	12		MS-DIAL alignment result	day0-1_neg_025; day0-2_neg_026; day0-3_neg_027; day1-1_neg_028	
+MPST000052.xlsx	C2C12_OA_lipidsupp	MPST000052#C2C12_OA_lipidsupp	extracted	rows	206	15		MS-DIAL alignment result	C2C12_D0_1_neg_057.lcd; C2C12_D0_2_neg_058.lcd; C2C12_D0_3_neg_059.lcd; C2C12_DMSO_BSA_D3_1_neg_060.lcd	
+MPST000057.xlsx	Cell	MPST000057#Cell	extracted	rows	397	6		spread ratio 0.24	HNC1-d; HNC2-d; HNC3-d; ADC1-d	
+MPST000057.xlsx	EVs	MPST000057#EVs	extracted	rows	397	10		spread ratio 0.26	HUC1-d; HUC2-d; HUC3-d; HAG4-d	
+MPST000058.xlsx	 Cell	MPST000058# Cell	extracted	rows	269	6		spread ratio 0.31	HNC1-d; HNC2-d; HNC3-d; ADC1-d	
+MPST000058.xlsx	EVs	MPST000058#EVs	extracted	rows	269	10		spread ratio 0.35	HUC1-d; HUC2-d; HUC3-d; HAG4-d	
+MPST000059.xlsx	Explant	MPST000059#Explant	extracted	rows	129	12	nmol/L	spread ratio 0.18	VE1; VE2; VE3; VE4	
+MPST000059.xlsx	Supernatant	MPST000059#Supernatant	extracted	rows	66	12	nmol/L	spread ratio 0.42	VS1; VS2; VS3; VS4	
+MPST000060.xlsx	Explant	MPST000060#Explant	extracted	rows	57	12	nmol/L	spread ratio 0.12	VE1; VE2; VE3; VE4	
+MPST000060.xlsx	Supernatant	MPST000060#Supernatant	extracted	rows	32	12	nmol/L	spread ratio 0.29	VS1; VS2; VS3; VS4	
+MPST000062.xlsx	Explants	MPST000062#Explants	extracted	rows	551	15	μM	spread ratio 0.23	VE1; VE2; VE3; VE4	
+MPST000062.xlsx	Supernatant	MPST000062#Supernatant	extracted	rows	551	18	μM	spread ratio 0.31	VS1; VS2; VS3; VS4	
+MPST000063.xlsx	Height	MPST000063	extracted	rows	132	12		MS-DIAL alignment result	200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_QC_Pos_01; 200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_QC_Pos_02; 200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_WT01_Pos; 200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_WT02_Pos	
+MPST000066.xlsx	Cell	MPST000066#Cell	extracted	rows	94	9		spread ratio 0.24	HC11-u; HC12-u; HC13-u; HC14-u	
+MPST000066.xlsx	EVs	MPST000066#EVs	extracted	rows	58	9		spread ratio 0.12	HE11-u; HE12-u; HE13-u; HE14-u	
+MPST000067.xlsx	Cell	MPST000067#Cell	extracted	rows	102	9		spread ratio 0.26	HC11-u; HC12-u; HC13-u; HC14-u	
+MPST000067.xlsx	EVs	MPST000067#EVs	extracted	rows	59	9		spread ratio 0.37	HE11-u; HE12-u; HE13-u; HE14-u	
+MPST000068.xlsx	Cell	MPST000068#Cell	extracted	rows	416	9		spread ratio 0.25	HC11-d; HC12-d; HC13-d; HC14-d	
+MPST000068.xlsx	EVs	MPST000068#EVs	extracted	rows	416	9		spread ratio 0.20	HE11-d; HE12-d; HE13-d; HE14-d	
+MPST000069.xlsx	Cell	MPST000069#Cell	extracted	rows	356	9		spread ratio 0.31	HC11-d; HC12-d; HC13-d; HC14-d	
+MPST000069.xlsx	EVs	MPST000069#EVs	extracted	rows	356	9		spread ratio 0.21	HE11-d; HE12-d; HE13-d; HE14-d	
+MPST000075.xlsx	amol-cell	MPST000075	extracted	rows	105	8	amol/cell	spread ratio 0.08	sample1; sample2; sample3; sample4	
+MPST000083.xlsx	Results	MPST000083#Peak area	extracted	rows	128	32		spread ratio 0.20	WT_0 min_1; WT_0 min_2; WT_0 min_3; WT_0 min_4	
+MPST000083.xlsx	Results	MPST000083#Quantitative values for each lipid molecule (pmol/mg-protein)	extracted	rows	115	32	pmol/mg-protein	spread ratio 0.20	WT_0 min_1; WT_0 min_2; WT_0 min_3; WT_0 min_4	
+MPST000085.xlsx	Sheet1	MPST000085	extracted	rows	246	9	µmol per g genomic DNA	spread ratio 0.28	ara_S1; ara_S2; ara_S3; ara_S4	
+MPST000086.xlsx	S7 Metabolome data	MPST000086	extracted	rows	200	9	µmol per g genomic DNA	spread ratio 0.29	ara_S1; ara_S2; ara_S3; ara_S4	
+MPST000089__Height_1_2025_03_11_13_16_00_pos_ver5_5.txt		MPST000089__Height_1_2025_03_11_13_16_00_pos_ver5_5	extracted	rows	12387	49		MS-DIAL alignment result	650_mito_DHA(-)_01_pos_026; 650_mito_DHA(-)_02_pos_027; 650_mito_DHA(-)_03_pos_028; 650_mito_DHA(+)_01_pos_050	
+MPST000089__Height_1_2025_03_11_13_30_50_neg_ver5_5.txt		MPST000089__Height_1_2025_03_11_13_30_50_neg_ver5_5	extracted	rows	11040	49		MS-DIAL alignment result	650_mito_DHA(-)_01_neg_079; 650_mito_DHA(-)_02_neg_080; 650_mito_DHA(-)_03_neg_081; 650_mito_DHA(+)_01_neg_103	
+MPST000092.xlsx	Sheet1		skipped							no abundance columns (only annotation columns)
+MPST000097.csv		MPST000097	extracted	rows	70	18		spread ratio 0.26	MeOH_10 g/L_Log_1; MeOH_10 g/L_Log_2; MeOH_10 g/L_Log_3; MeOH_10 g/L_Sta_1	
+MPST000098.csv		MPST000098	extracted	rows	15	18		spread ratio 0.52	MeOH_10 g/L_Log_1; MeOH_10 g/L_Log_2; MeOH_10 g/L_Log_3; MeOH_10 g/L_Sta_1	
+MPST000099.csv		MPST000099	extracted	rows	15	18		spread ratio 0.67	MeOH_10 g/L_Log_1; MeOH_10 g/L_Log_2; MeOH_10 g/L_Log_3; MeOH_10 g/L_Sta_1	
+MPST000100.csv		MPST000100	extracted	rows	70	18		spread ratio 0.29	MeOH_10 g/L_Log_1; MeOH_10 g/L_Log_2; MeOH_10 g/L_Log_3; MeOH_10 g/L_Sta_1	
+MPST000101.csv		MPST000101	extracted	rows	15	18		spread ratio 0.56	MeOH_20 g/L_Log_1; MeOH_20 g/L_Log_2; MeOH_20 g/L_Log_3; MeOH_20 g/L_Sta_1	
+MPST000102.csv		MPST000102	extracted	rows	69	18		spread ratio 0.24	MeOH_20 g/L_Log_1; MeOH_20 g/L_Log_2; MeOH_20 g/L_Log_3; MeOH_20 g/L_Sta_1	
+MPST000103.csv		MPST000103	extracted	rows	72	33		spread ratio 0.24	NBRC0555_9h_1; NBRC0555_9h_2; NBRC0555_9h_3; NBRC2043_9h_4	
+MPST000104.csv		MPST000104	extracted	rows	70	33		spread ratio 0.20	NBRC0555_9h_1; NBRC0555_9h_2; NBRC0555_9h_3; NBRC2043_9h_4	
+MPST000106.xlsx	相対定量結果のまとめ	MPST000106	extracted	rows	196	16		spread ratio 0.24	1; 2; 3; 4	
+MPST000108.csv		MPST000108	extracted	columns	69	135		spread ratio 2.35	Saccharomyces cerevisiae BY4947?_Log__1; Saccharomyces cerevisiae BY4947?_Log__2; Saccharomyces cerevisiae BY4947?_Log__3; Candida intermedia NBRC10601_Log__1	
+MPST000109.xlsx	Sheet1		skipped							no abundance columns (only annotation columns)
+MPST000110.xlsx	Quantitative values	MPST000110	extracted	rows	120	48	pmol/mg-DCW	spread ratio 0.25	BW25113_4h_1; BW25113_4h_2; BW25113_4h_3; BW25113_4h_4	
+MPST000111.xlsx	ICMSMS_PFPP-LCMSMS_result	MPST000111#Peak area	extracted	rows	255	20		spread ratio 0.13	YM_NL_1; YM_NL_2; YM_NL_3; YM_NL_4	
+MPST000111.xlsx	ICMSMS_PFPP-LCMSMS_result	MPST000111#Relative peak area (Analyte/IS/protein amount, mg)	extracted	rows	247	20		spread ratio 0.13	YM_NL_1; YM_NL_2; YM_NL_3; YM_NL_4	
+MPST000112.xlsx	SFCMSMS_result	MPST000112#Peak area	extracted	rows	501	20		spread ratio 0.17	YM_NL_1; YM_NL_2; YM_NL_3; YM_NL_4	
+MPST000112.xlsx	SFCMSMS_result	MPST000112#Quantity of each lipid molecule (pmol/mg-protein)	extracted	rows	484	20	pmol/mg-protein	spread ratio 0.17	YM_NL_1; YM_NL_2; YM_NL_3; YM_NL_4	
+MPST000113.xlsx	Sheet1	MPST000113	extracted	rows	24	10		spread ratio 0.63	0 h; 24 h; 48 h; 72 h	
+MPST000115.xlsx	L2	MPST000115#L2	extracted	rows	143	16		MS-DIAL alignment result	BL__20241225_34; L2-12__20241219_14; L2-13__20241220_19; L2-14__20241220_20	
+MPST000115.xlsx	L2_	MPST000115#L2_	extracted	rows	143	16		MS-DIAL alignment result	BL__20241225_34; L2-12__20241219_14; L2-13__20241220_19; L2-14__20241220_20	
+MPST000115.xlsx	L3	MPST000115#L3	extracted	rows	105	21		MS-DIAL alignment result	BL__20241225_34; L3-1__20241221_1; L3-1__20241221_11; L3-1__20241221_6	
+MPST000115.xlsx	L3_	MPST000115#L3_	extracted	rows	105	21		MS-DIAL alignment result	BL__20241225_34; L3-1__20241221_1; L3-1__20241221_11; L3-1__20241221_6	
+MPST000115.xlsx	L4	MPST000115#L4	extracted	rows	116	21		MS-DIAL alignment result	BL__20241225_34; L4-1__20241223_18; L4-1__20241223_23; L4-1__20241224_29	
+MPST000115.xlsx	L4_	MPST000115#L4_	extracted	rows	116	21		MS-DIAL alignment result	BL__20241225_34; L4-1__20241223_18; L4-1__20241223_23; L4-1__20241224_29	
+MPST000116.xlsx	Quantitative_Table_Cation	MPST000116	extracted	rows	133	52	nmol/g	spread ratio 0.19	TW_4W-1; TW_4W-2; TW_4W-3; TW_4W-4	
+MPST000117.xlsx	Sheet1	MPST000117	extracted	rows	106	52	nmol/g	spread ratio 0.24	TW_4W-1; TW_4W-2; TW_4W-3; TW_4W-4	
+MPST000118.xlsx	Quantitative_Table_Cation	MPST000118	extracted	rows	1	52	nmol/g	default	TW_4W-1; TW_4W-2; TW_4W-3; TW_4W-4	
+MPST000119.xlsx	C18LCQE_result	MPST000119	extracted	rows	19	80		spread ratio 0.40	WT_0h_1; WT_0h_2; WT_0h_3; WT_0h_4	
+MPST000121.xlsx	SFCTQMS_result	MPST000121	extracted	rows	1306	80		spread ratio 0.29	WT_0h_1; WT_0h_2; WT_0h_3; WT_0h_4	
+MPST000123.csv		MPST000123	extracted	rows	175	15		MS-DIAL alignment result	20240819_blank_1_POS_1; 20240819_blank_2_POS_1; 20240819_KO_2_POS_1; 20240819_KO_3_POS_1	
+MPST000125.csv		MPST000125	extracted	columns	43	352		spread ratio 2.92, sample column title	Sample_001; Sample_002; Sample_003; Sample_004	
+MPST000126.csv		MPST000126	extracted	columns	168	352		spread ratio 7.15, sample column title	Sample_001; Sample_002; Sample_003; Sample_004	
+MPST000127.csv		MPST000127	extracted	columns	151	157		spread ratio 3.20, sample column title	Sample_001; Sample_002; Sample_003; Sample_004	
+MPST000128.csv		MPST000128	extracted	columns	196	157		spread ratio 6.57, sample column title	Sample_001; Sample_002; Sample_003; Sample_004	
+MPST000129.xlsx	Compounds	MPST000129	extracted	rows	6547	4		spread ratio 0.72	Group Area: F62, Sample; Group Area: F63, Sample; Group Area: F64, Sample; Group Area: F66, Sample	
+MPST000130.xlsx	Relative peak area	MPST000130#Sample (peak area, cell number)	extracted	rows	9	17		spread ratio 0.30	ProcedureBLK_01; ProcedureBLK_02; Spleen_1; Spleen_2	
+MPST000130.xlsx	Relative peak area	MPST000130#Relative peak area (analyte/IS/sample amount)	extracted	rows	7	15		spread ratio 0.30	Spleen_1; Spleen_2; Spleen_3; Thymus_1	
+MPST000131.csv		MPST000131	extracted	columns	150	256		spread ratio 3.24, sample column title	Sample_001; Sample_002; Sample_003; Sample_004	
+MPST000132.csv		MPST000132	extracted	columns	188	256		spread ratio 6.62, sample column title	Sample_001; Sample_002; Sample_003; Sample_004	
+MPST000133.csv		MPST000133	extracted	columns	132	445		spread ratio 3.98, sample column title	Sample_001; Sample_002; Sample_003; Sample_004	
+MPST000134.csv		MPST000134	extracted	columns	332	448		spread ratio 6.36, sample column title	Sample_001; Sample_002; Sample_003; Sample_004	
+MPST000135.csv		MPST000135	extracted	columns	160	2584		spread ratio 3.46, sample column title	Sample_0001; Sample_0002; Sample_0003; Sample_0004	
+MPST000136.csv		MPST000136	extracted	columns	312	2584		spread ratio 6.32, sample column title	Sample_0001; Sample_0002; Sample_0003; Sample_0004	
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	Height	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Height	extracted	rows	191	144		MS-DIAL alignment result	BC0-1__11202024_31; BC0-2__11202024_23; BC0-3__11202024_27; BC2-1__11242024_192	
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	Manual annotation	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Manual annotation	extracted	rows	191	147		MS-DIAL alignment result	BC0-1; BC0-2; BC0-3; BC2-1	
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	Normalized	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Normalized	extracted	rows	191	144		MS-DIAL alignment result	BC0-1__11202024_31; BC0-2__11202024_23; BC0-3__11202024_27; BC2-1__11242024_192	
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	Blank filter and rsd	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Blank filter and rsd	extracted	rows	191	147		MS-DIAL alignment result	BC0-1; BC0-2; BC0-3; BC2-1	
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	Blank filter and RSD Edited	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Blank filter and RSD Edited	extracted	rows	191	147		MS-DIAL alignment result	BC0-1; BC0-2; BC0-3; BC2-1	
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	Double check	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Double check	extracted	rows	86	99		MS-DIAL alignment result	BC0-1; BC0-2; BC0-3; BC2-1	
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	Sheet1	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Sheet1	extracted	rows	6	9		spread ratio 0.68	BC0-1; BC0-2; BC0-3; FCL-1	
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	Matrix PCA Non volatile	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Matrix PCA Non volatile	extracted	columns	123	99		spread ratio 2.12	BC0-1; BC0-2; BC0-3; BC2-1	
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	Sheet3		skipped							no sample header above the abundance columns
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	Manual annotation	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#Manual annotation	extracted	rows	155	94		MS-DIAL alignment result	KC0-1; KC0-2; KC0-3; KC4-1	
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	Height	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#Height	extracted	rows	154	91		MS-DIAL alignment result	Blank1__722024_7; Blank2__732024_47; Blank3__742024_92; Blank4__752024_132	
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	Normalized	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#Normalized	extracted	rows	154	91		MS-DIAL alignment result	Blank1__722024_7; Blank2__732024_47; Blank3__742024_92; Blank4__752024_132	
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	blank filter and rsd	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#blank filter and rsd	extracted	rows	154	94		MS-DIAL alignment result	KC0-1; KC0-2; KC0-3; KC4-1	
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	good rsd	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#good rsd	extracted	rows	154	94		MS-DIAL alignment result	KC0-1; KC0-2; KC0-3; KC4-1	
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	double check	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#double check	extracted	rows	106	60		MS-DIAL alignment result	KC0-1; KC0-2; KC0-3; KC4-1	
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	matrix PCA All	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#matrix PCA All	extracted	columns	106	60		spread ratio 2.25	KC0-1; KC0-2; KC0-3; KC4-1	
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	matrix OPLS roasted	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#matrix OPLS roasted	extracted	columns	119	12		spread ratio 5.91	KCRN-1; KCRN-2; KCRN-3; KDRN-1	
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	matrix OPLS paste	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#matrix OPLS paste	extracted	columns	119	12		spread ratio 6.82	KCP-1; KCP-2; KCP-3; KDP-1	
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	Targeted quantification	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#Targeted quantification	extracted	rows	6	6		spread ratio 0.11	MCP-1; MCP-2; MCP-3; MDP-1	
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	Sheet4		skipped							no sample header above the abundance columns
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	height	MPST000141__Data analysis_QC2_lowess_20240825 - Copy#height	extracted	rows	397	41		MS-DIAL alignment result	BLANK 2__20240823_32; Blank__20240820_1; KC5-1__20240821_6; KC5-2__20240823_36	
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	Manual annotation	MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Manual annotation	extracted	rows	397	41		MS-DIAL alignment result	KC5-1; KC5-2; KC5-3; KCP-1	
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	normalized	MPST000141__Data analysis_QC2_lowess_20240825 - Copy#normalized	extracted	rows	397	41		MS-DIAL alignment result	BLANK 2__20240823_32; Blank__20240820_1; KC5-1__20240821_6; KC5-2__20240823_36	
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	Blank Filter and RSD	MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Blank Filter and RSD	extracted	rows	397	43		MS-DIAL alignment result	KC5-1; KC5-2; KC5-3; KCP-1	
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	good rsd and blank	MPST000141__Data analysis_QC2_lowess_20240825 - Copy#good rsd and blank	extracted	rows	397	43		MS-DIAL alignment result	KC5-1; KC5-2; KC5-3; KCP-1	
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	Check double	MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Check double	extracted	rows	281	43		MS-DIAL alignment result	KC5-1; KC5-2; KC5-3; KCP-1	
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	Matrix PCA Volatile Only	MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Matrix PCA Volatile Only	extracted	columns	95	36		spread ratio 2.12	KC5-1; KC5-2; KC5-3; KCR-1	
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	Matrix PCA Non and Volatile Dry	MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Matrix PCA Non and Volatile Dry	extracted	columns	178	20		spread ratio 3.27	KC5-1; KC5-2; KC5-3; KD5-1	
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	Matrix PCA Non and Vol Roasted	MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Matrix PCA Non and Vol Roasted	extracted	columns	178	20		spread ratio 3.56	KCR-1; KCR-2; KCR-3; KDR-1	
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	Matrix PCA Non and Vol Liquor	MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Matrix PCA Non and Vol Liquor	extracted	columns	178	20		spread ratio 3.66	KCL-1; KCL-2; KCL-3; KDL-1	
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	Info paper		skipped							no abundance columns (only annotation columns)
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	sheet		skipped							no sample header above the abundance columns
+MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	Height	MPST000141__QC2_Data Analysis_20241125 - Copy#Height	extracted	rows	454	58		MS-DIAL alignment result	BC5-1__20241122_41; BC5-2__20241120_25; BC5-3__20241122_43; BCL-1__20241120_24	
+MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	Manual annotation	MPST000141__QC2_Data Analysis_20241125 - Copy#Manual annotation	extracted	rows	454	60		MS-DIAL alignment result	BC5-1; BC5-2; BC5-3; BCR-1	
+MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	Normalized	MPST000141__QC2_Data Analysis_20241125 - Copy#Normalized	extracted	rows	454	58		MS-DIAL alignment result	BC5-1__20241122_41; BC5-2__20241120_25; BC5-3__20241122_43; BCL-1__20241120_24	
+MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	Blank filter and RSD	MPST000141__QC2_Data Analysis_20241125 - Copy#Blank filter and RSD	extracted	rows	454	60		MS-DIAL alignment result	BC5-1; BC5-2; BC5-3; BCR-1	
+MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	Blank filter and RSD edited	MPST000141__QC2_Data Analysis_20241125 - Copy#Blank filter and RSD edited	extracted	rows	454	60		MS-DIAL alignment result	BC5-1; BC5-2; BC5-3; BCR-1	
+MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	Good rsd and blank	MPST000141__QC2_Data Analysis_20241125 - Copy#Good rsd and blank	extracted	rows	317	60		MS-DIAL alignment result	BC5-1; BC5-2; BC5-3; BCR-1	
+MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	Check double	MPST000141__QC2_Data Analysis_20241125 - Copy#Check double	extracted	rows	294	54		MS-DIAL alignment result	BC5-1; BC5-2; BC5-3; BCR-1	
+MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	Matrix PCA without unknown	MPST000141__QC2_Data Analysis_20241125 - Copy#Matrix PCA without unknown	extracted	columns	93	54		spread ratio 2.19	BC5-1; BC5-2; BC5-3; BCR-1	
+MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	 Matrix PCA with unknown	MPST000141__QC2_Data Analysis_20241125 - Copy# Matrix PCA with unknown	extracted	columns	294	54		spread ratio 2.07	BC5-1; BC5-2; BC5-3; BCR-1	
+MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	Sheet4		skipped							no sample header above the abundance columns
+MPST000142.csv		MPST000142	extracted	rows	3	65		MS-DIAL alignment result	251031_Tomita_a_C1_neg; 251031_Tomita_a_C2_neg; 251031_Tomita_a_C3_neg; 251031_Tomita_a_S1_neg	
+MPST000143.csv		MPST000143	extracted	rows	273	46		MS-DIAL alignment result	251217_Nakano_c_1_neg; 251217_Nakano_c_2_neg; 251217_Nakano_c_3_neg; 251217_Nakano_cS1_neg	
+MPST000144.csv		MPST000144	extracted	rows	213	3		MS-DIAL alignment result	251217_Tomita_Bt_neg; 251217_Tomita_Bt_SIS_neg; 251217_Tomita_SIS_neg	
+MPST000145.csv		MPST000145	extracted	rows	6	26		MS-DIAL alignment result	251217_Tomita_blank_neg; 251217_Tomita_Btheta_brassicasterol_1_neg; 251217_Tomita_Btheta_brassicasterol_2_neg; 251217_Tomita_Btheta_brassicasterol_3_neg	
+MPST000148.xlsx	Sheet1		skipped							empty sheet
+MPST000150__①ASA.xlsx	result	MPST000150__①ASA#result#Area	extracted	columns	8	24		compound blocks	HCT116 MT_20% O₂_control_1; HCT116 MT_20% O₂_control_2; HCT116 MT_20% O₂_control_3; HCT116 MT_20% O₂_ASA 2mM_1	
+MPST000150__①ASA.xlsx	result	MPST000150__①ASA#result#Concentration (pmol)	extracted	columns	8	24	pmol	compound blocks	HCT116 MT_20% O₂_control_1; HCT116 MT_20% O₂_control_2; HCT116 MT_20% O₂_control_3; HCT116 MT_20% O₂_ASA 2mM_1	
+MPST000150__①ASA.xlsx	calibration curve		skipped							calibration curves of standards, not samples
+MPST000150__②ASA+inhibitor(L-MS).xlsx	result	MPST000150__②ASA+inhibitor(L-MS)#result#Area	extracted	columns	9	12		compound blocks	HCT116 MT_DMSO_1; HCT116 MT_DMSO_2; HCT116 MT_DMSO_3; HCT116 MT_ASA 2mM_1	
+MPST000150__②ASA+inhibitor(L-MS).xlsx	result	MPST000150__②ASA+inhibitor(L-MS)#result#Concentration (pmol)	extracted	columns	9	12	pmol	compound blocks	HCT116 MT_DMSO_1; HCT116 MT_DMSO_2; HCT116 MT_DMSO_3; HCT116 MT_ASA 2mM_1	
+MPST000150__②ASA+inhibitor(L-MS).xlsx	calibration curve		skipped							calibration curves of standards, not samples
+MPST000150__③ASA+inhibitor(V9302).xlsx	Result	MPST000150__③ASA+inhibitor(V9302)#Result#Area	extracted	columns	9	12		compound blocks	HCT116 MT_DMSO_1; HCT116 MT_DMSO_2; HCT116 MT_DMSO_3; HCT116 MT_ASA 2mM_1	
+MPST000150__③ASA+inhibitor(V9302).xlsx	Result	MPST000150__③ASA+inhibitor(V9302)#Result#Concentration (pmol)	extracted	columns	9	12	pmol	compound blocks	HCT116 MT_DMSO_1; HCT116 MT_DMSO_2; HCT116 MT_DMSO_3; HCT116 MT_ASA 2mM_1	
+MPST000150__③ASA+inhibitor(V9302).xlsx	calibration curve		skipped							calibration curves of standards, not samples
+MPST000154.csv		MPST000154	extracted	columns	375	434		spread ratio 6.65, sample column title	Sample_153; Sample_154; Sample_155; Sample_156	
+MPST000155.csv		MPST000155	extracted	columns	132	431		spread ratio 3.93, sample column title	Sample_153; Sample_154; Sample_155; Sample_156	
+MPST000160.csv		MPST000160	extracted	rows	993	75		MS-DIAL alignment result	260206_Tomita_1_neg; 260206_Tomita_10_neg; 260206_Tomita_11_neg; 260206_Tomita_12_neg	
+MPST000167__Results_Chiral_AA_human.xlsx	Sheet1	MPST000167__Results_Chiral_AA_human	extracted	columns	44	7		spread ratio 2.28, sample column title	Feces1-1; Feces1-2; Feces2-1; Feces3-1	
+MPST000167__Results_Chiral_AA_mouse_100-fold dilution.xlsx	Sheet1	MPST000167__Results_Chiral_AA_mouse_100-fold dilution	extracted	columns	44	16		spread ratio 3.26, sample column title	GF1; GF2; GF3; GF4	
+MPST000167__Results_Chiral_AA_mouse_no dilution.xlsx	Sheet1	MPST000167__Results_Chiral_AA_mouse_no dilution	extracted	columns	44	16		spread ratio 2.62, sample column title	GF1; GF2; GF3; GF4	
+MPST000172__Results_Bile acid_human.xlsx	Sheet1	MPST000172__Results_Bile acid_human	extracted	columns	38	6		spread ratio 1.90, sample column title	Feces1-1; Feces1-2; Feces2-1; Feces3-1	
+MPST000172__Results_Bile acid_mouse_200-fold dilution.xlsx	Sheet1	MPST000172__Results_Bile acid_mouse_200-fold dilution	extracted	columns	1	8		sample column title	ExGF1; ExGF2; ExGF3; ExGF4	
+MPST000172__Results_Bile acid_mouse_no dilution.xlsx	Sheet1	MPST000172__Results_Bile acid_mouse_no dilution	extracted	columns	38	16		spread ratio 3.34, sample column title	GF1; GF2; GF3; GF4	
+MPST000173__Results_SCFAs_human_10-fold dilution.xlsx	Sheet1	MPST000173__Results_SCFAs_human_10-fold dilution	extracted	columns	1	9		sample column title	Feces1-1; Feces1-2; Feces2-1; Feces3-1	
+MPST000173__Results_SCFAs_human_no dilution.xlsx	Sheet1	MPST000173__Results_SCFAs_human_no dilution	extracted	columns	23	9		spread ratio 2.41, sample column title	Feces1-1; Feces1-2; Feces2-1; Feces3-1	
+MPST000173__Results_SCFAs_mouse.xlsx	Sheet2	MPST000173__Results_SCFAs_mouse	extracted	columns	23	16		spread ratio 2.72, sample column title	G1; G2; G3; G4	
+MPST000174__Results_PFPP_human.xlsx	Sheet1	MPST000174__Results_PFPP_human	extracted	columns	99	7		spread ratio 2.80, sample column title	Feces1-1; Feces1-2; Feces2-1; Feces3-1	
+MPST000174__Results_PFPP_mouse.xlsx	Sheet1	MPST000174__Results_PFPP_mouse	extracted	columns	99	16		spread ratio 2.61, sample column title	GF1; GF2; GF3; GF4	
+MPST000174__Results_ion-pair_human.xlsx	Sheet1	MPST000174__Results_ion-pair_human	extracted	columns	57	7		spread ratio 2.74, sample column title	Feces1-1; Feces1-2; Feces2-1; Feces3-1	
+MPST000174__Results_ion-pair_mouse.xlsx	Sheet1	MPST000174__Results_ion-pair_mouse	extracted	columns	57	16		spread ratio 2.58, sample column title	GF1; GF2; GF3; GF4	
+MPST000177__Results_GCMS_human.xlsx	Sheet1	MPST000177__Results_GCMS_human	extracted	columns	140	6		spread ratio 3.11, sample column title	Feces1-1; Feces1-2; Feces2-1; Feces3-1	
+MPST000177__Results_GCMS_mouse.xlsx	Sheet1	MPST000177__Results_GCMS_mouse	extracted	columns	103	16		spread ratio 3.71, sample column title	GF1; GF2; GF3; GF4	
+MPST000180__PC_PI_SM_human.xlsx	Sheet1	MPST000180__PC_PI_SM_human	extracted	rows	65	18		spread ratio 0.56	1-pre; 2-pre; 3-pre; 4-pre	
+MPST000180__PG_PE_PS_human.xlsx	Sheet1	MPST000180__PG_PE_PS_human	extracted	rows	82	18		spread ratio 0.49	1-pre; 2-pre; 3-pre; 4-pre	
+MPST000180__Phospholipids_mouse.xlsx	Sheet1	MPST000180__Phospholipids_mouse	extracted	rows	201	16		spread ratio 0.34	GF1; GF2; GF3; GF4	
+MPST000181__Lipid mediators_human.xlsx	Sheet1	MPST000181__Lipid mediators_human	extracted	rows	112	14		spread ratio 0.43	1-Pre; 2-pre; 3-pre; 4-pre	
+MPST000181__Lipid mediators_mouse.xlsx	Sheet1	MPST000181__Lipid mediators_mouse	extracted	rows	83	16		spread ratio 0.29	GF1; GF2; GF3; GF4	
+MPST000187__Height_0_20201221533_neg.txt		MPST000187__Height_0_20201221533_neg	extracted	rows	1419	22		MS-DIAL alignment result	BL1; MAL_1; MAL_2; MAL_3	
+MPST000187__Height_0_20201221723_pos.txt		MPST000187__Height_0_20201221723_pos	extracted	rows	3202	22		MS-DIAL alignment result	BL1; MAL_1; MAL_2; MAL_3	
+MPST000189__Height_0_20245232027_pos.txt		MPST000189__Height_0_20245232027_pos	extracted	rows	4062	37		MS-DIAL alignment result	1_Sce_4_n1_pos1u; 10_Sce_12_n1_pos1u; 11_Sce_12_n2_pos1u; 12_Sce_12_n3_pos1u	
+MPST000189__Height_0_20245232029_neg.txt		MPST000189__Height_0_20245232029_neg	extracted	rows	2050	37		MS-DIAL alignment result	1_Sce_4_n1_neg1u; 10_Sce_12_n1_neg1u; 11_Sce_12_n2_neg1u; 12_Sce_12_n3_neg1u	
+MPST000191.xlsx	Data S1		skipped							metabolic flux estimates per reaction, not a sample quantification table
+MPST000191.xlsx	Data S2		skipped							metabolic flux estimates per reaction, not a sample quantification table
+MPST000191.xlsx	Data S3		skipped							metabolic flux estimates per reaction, not a sample quantification table
+MPST000191.xlsx	Data S4		skipped							metabolic flux estimates per reaction, not a sample quantification table
+MPST000192.xlsx	Fig.3	MPST000192#Fig.3	extracted	columns	14	18		data file names as row labels	15STDmix_100uM_02.mzML_1; 15STDmix_100uM_03.mzML_1; 15STDmix_100uM_04.mzML_1; 15STDmix_100uM_05.mzML_1	
+MPST000192.xlsx	Fig.4	MPST000192#Fig.4	extracted	columns	14	60		data file names as row labels	00_15mix100uM_Acetic_acid0mM_neg_1.mzML; 00_15mix100uM_Acetic_acid0mM_neg_2.mzML; 00_15mix100uM_Acetic_acid0mM_neg_3.mzML; 01_15mix100uM_Acetic_acid1mM_neg_1.mzML	
+MPST000192.xlsx	Fig.5	MPST000192#Fig.5	extracted	columns	14	90		data file names as row labels	a_12mix100uM_Ethanol_BSA0012_posneg_03.mzML; a_12mix100uM_Ethanol_BSA0012_posneg_04.mzML; a_12mix100uM_Ethanol_BSA0012_posneg_05.mzML; a_12mix100uM_Ethanol_BSA0037_posneg_03.mzML	
+MPST000192.xlsx	Fig.6	MPST000192#Fig.6	extracted	columns	14	68		data file names as row labels	k_12mix010uM_Ethanol_allMix3_posneg_03.mzML; k_12mix010uM_Ethanol_allMix3_posneg_04.mzML; k_12mix010uM_Ethanol_allMix3_posneg_05.mzML; k_12mix050uM_Ethanol_allMix3_posneg_01.mzML	
+MPST000192.xlsx	Fig.7	MPST000192#Fig.7	extracted	columns	23	51		data file names as row labels	21_ArNOG10_Low_00min_01.mzML; 21_ArNOG10_Low_00min_02.mzML; 21_ArNOG10_Low_00min_03.mzML; 21_ArNOG10_Low_05min_01.mzML	
+MPST000197__Supplementary Table_Lipidomics.xlsx	Molecules_Negative-ion mode	MPST000197__Supplementary Table_Lipidomics#Molecules_Negative-ion mode	extracted	rows	387	18		spread ratio 0.30	Control_1; Control_2; Control_3; Control_4	
+MPST000197__Supplementary Table_Lipidomics.xlsx	Molecules_Positive ion mode	MPST000197__Supplementary Table_Lipidomics#Molecules_Positive ion mode	extracted	rows	209	18		spread ratio 0.49	Control_1; Control_2; Control_3; Control_4	
+MPST000197__Supplementary Table_Lipidomics.xlsx	Lipid class level	MPST000197__Supplementary Table_Lipidomics#Lipid class level	extracted	rows	42	18		spread ratio 0.46	1; 2; 3; 4	
+MPST000197__Supplementary Table_Lipidomics.xlsx	CoA-Car比	MPST000197__Supplementary Table_Lipidomics#CoA-Car比	extracted	rows	67	15		spread ratio 0.23	1; 2; 3; 4	
+MPST000197__Supplementary Table_Metabolomics.xlsx	GC-MS	MPST000197__Supplementary Table_Metabolomics#GC-MS	extracted	rows	77	17		spread ratio 0.09	1; 2; 3; 4	
+MPST000197__Supplementary Table_Metabolomics.xlsx	IC-MS	MPST000197__Supplementary Table_Metabolomics#IC-MS	extracted	rows	30	17		spread ratio 0.15	1; 2; 3; 4	
+MPST000213__Final_Spectra_Matrix.xlsx	Sheet1	MPST000213__Final_Spectra_Matrix	extracted	rows	3567	123		spread ratio 0.42	DIP_RubroshoreaLeprosula_WestBorneo1001; DIP_RubroshoreaLeprosula_WestBorneo1002; DIP_RubroshoreaLeprosula_WestBorneo1003; DIP_RubroshoreaLeprosula_WestBorneo1004	
+MPST000213__Tentative compound annotations of selected features detected in R leprosula DART-TOF-MS spectra.xlsx	Sheet1		skipped							no abundance columns (only annotation columns)
+MPST000218__Quantitative_Table_Anion.xlsx	Sheet1	MPST000218__Quantitative_Table_Anion	extracted	rows	238	32	µM	spread ratio 0.09	33; 34; 35; 36	
+MPST000218__Quantitative_Table_Cation.xlsx	Sheet1	MPST000218__Quantitative_Table_Cation	extracted	rows	274	32	µM	spread ratio 0.17	33; 34; 35; 36	
+MPST000222__FMT_plus_bacteria_results.xlsx	FMT+isolated bacteria	MPST000222__FMT_plus_bacteria_results	extracted	rows	514	14		spread ratio 0.38	FMT_only_1; FMT_only_2; FMT_only_3; FMT+Cd_1	
+MPST000222__Infant1_results.xlsx	Infant 1	MPST000222__Infant1_results	extracted	rows	515	22		spread ratio 0.41	1_8M_1; 1_8M_2; 1_8M_3; 1_8M_4	
+MPST000222__Infant2-4_results.xlsx	Infant 2-4	MPST000222__Infant2-4_results	extracted	rows	514	39		spread ratio 0.39	2_2M_1; 2_2M_2; 2_2M_3; 2_3M_1	
+MPST000222__cecum_results.xlsx	cecal contents	MPST000222__cecum_results	extracted	rows	514	8		spread ratio 0.33	Ce_GF1; Ce_GF2; Ce_GF3; Ce_62A_1	

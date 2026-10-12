@@ -1,0 +1,35 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000026.xlsx"
+mbpost_id = "MPST000026"
+n_tables = 1
+
+[[table]]
+id = "MPST000026"
+mbpost_id = "MPST000026"
+source_file = "MPST000026.xlsx"
+sheet = "Quantification Results"
+features_in = "rows"
+n_features = 623
+n_samples = 18
+unit = "μM"
+description = "Concentration in suspension (μM)"
+sample = [
+    { assay = 1, name = "NC41L", column = "I" },
+    { assay = 2, name = "NC42L", column = "J" },
+    { assay = 3, name = "NC43L", column = "K" },
+    { assay = 4, name = "IHC41L", column = "L" },
+    { assay = 5, name = "IHC42L", column = "M" },
+    { assay = 6, name = "IHC43L", column = "N" },
+    { assay = 7, name = "Blank1L", column = "O" },
+    { assay = 8, name = "Blank2L", column = "P" },
+    { assay = 9, name = "Blank3L", column = "Q" },
+    { assay = 10, name = "NE41L", column = "R" },
+    { assay = 11, name = "NE42L", column = "S" },
+    { assay = 12, name = "NE43L", column = "T" },
+    { assay = 13, name = "IHE41L", column = "U" },
+    { assay = 14, name = "IHE42L", column = "V" },
+    { assay = 15, name = "IHE43L", column = "W" },
+    { assay = 16, name = "M41L", column = "X" },
+    { assay = 17, name = "M42L", column = "Y" },
+    { assay = 18, name = "M43L", column = "Z" },
+]

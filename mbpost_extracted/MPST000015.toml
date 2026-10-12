@@ -1,0 +1,30 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000015.xlsx"
+mbpost_id = "MPST000015"
+n_tables = 1
+
+[[table]]
+id = "MPST000015#Nontargeted metabolomic data"
+mbpost_id = "MPST000015"
+source_file = "MPST000015.xlsx"
+sheet = "Nontargeted metabolomic data"
+features_in = "rows"
+n_features = 1675
+n_samples = 10
+description = "Nontargeted metabolomic data of NIST SRM 1950 human plasma acquired by unified-HILIC/AEX/HRMS/MS."
+sample = [
+    { assay = 1, name = "ProcedureBLK_01 (F1)", column = "F" },
+    { assay = 2, name = "ProcedureBLK_02 (F2)", column = "G" },
+    { assay = 3, name = "ProcedureBLK_03 (F3)", column = "H" },
+    { assay = 4, name = "ProcedureBLK_04 (F4)", column = "I" },
+    { assay = 5, name = "ProcedureBLK_05 (F5)", column = "J" },
+    { assay = 6, name = "SRM1950_01 (F6)", column = "K" },
+    { assay = 7, name = "SRM1950_02 (F7)", column = "L" },
+    { assay = 8, name = "SRM1950_03 (F8)", column = "M" },
+    { assay = 9, name = "SRM1950_04 (F9)", column = "N" },
+    { assay = 10, name = "SRM1950_05 (F10)", column = "O" },
+]
+
+[[skipped]]
+sheet = "Identification and annotation"
+reason = "compound identification table with in silico descriptors, not sample abundances"

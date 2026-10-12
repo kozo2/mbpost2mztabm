@@ -1,0 +1,149 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000022.xlsx"
+mbpost_id = "MPST000022"
+n_tables = 1
+
+[[table]]
+id = "MPST000022"
+mbpost_id = "MPST000022"
+source_file = "MPST000022.xlsx"
+sheet = "Sheet1"
+features_in = "rows"
+n_features = 110
+n_samples = 15
+description = "Metabolic profile data of 183 hydrophilic metabolites in each FA-treated AML12 cell conditions"
+
+[[table.sample]]
+assay = 1
+name = "DMSO-treated cells_1"
+column = "K"
+
+[table.sample.attributes]
+header_1 = "DMSO-treated cells"
+header_2 = "1"
+
+[[table.sample]]
+assay = 2
+name = "DMSO-treated cells_2"
+column = "L"
+
+[table.sample.attributes]
+header_1 = "DMSO-treated cells"
+header_2 = "2"
+
+[[table.sample]]
+assay = 3
+name = "DMSO-treated cells_3"
+column = "M"
+
+[table.sample.attributes]
+header_1 = "DMSO-treated cells"
+header_2 = "3"
+
+[[table.sample]]
+assay = 4
+name = "FA 8:0-treated cells_1"
+column = "N"
+
+[table.sample.attributes]
+header_1 = "FA 8:0-treated cells"
+header_2 = "1"
+
+[[table.sample]]
+assay = 5
+name = "FA 8:0-treated cells_2"
+column = "O"
+
+[table.sample.attributes]
+header_1 = "FA 8:0-treated cells"
+header_2 = "2"
+
+[[table.sample]]
+assay = 6
+name = "FA 8:0-treated cells_3"
+column = "P"
+
+[table.sample.attributes]
+header_1 = "FA 8:0-treated cells"
+header_2 = "3"
+
+[[table.sample]]
+assay = 7
+name = "FA 10:0-treated cells_1"
+column = "Q"
+
+[table.sample.attributes]
+header_1 = "FA 10:0-treated cells"
+header_2 = "1"
+
+[[table.sample]]
+assay = 8
+name = "FA 10:0-treated cells_2"
+column = "R"
+
+[table.sample.attributes]
+header_1 = "FA 10:0-treated cells"
+header_2 = "2"
+
+[[table.sample]]
+assay = 9
+name = "FA 10:0-treated cells_3"
+column = "S"
+
+[table.sample.attributes]
+header_1 = "FA 10:0-treated cells"
+header_2 = "3"
+
+[[table.sample]]
+assay = 10
+name = "FA 12:0-treated cells_1"
+column = "T"
+
+[table.sample.attributes]
+header_1 = "FA 12:0-treated cells"
+header_2 = "1"
+
+[[table.sample]]
+assay = 11
+name = "FA 12:0-treated cells_2"
+column = "U"
+
+[table.sample.attributes]
+header_1 = "FA 12:0-treated cells"
+header_2 = "2"
+
+[[table.sample]]
+assay = 12
+name = "FA 12:0-treated cells_3"
+column = "V"
+
+[table.sample.attributes]
+header_1 = "FA 12:0-treated cells"
+header_2 = "3"
+
+[[table.sample]]
+assay = 13
+name = "FA 18:1-treated cells_1"
+column = "W"
+
+[table.sample.attributes]
+header_1 = "FA 18:1-treated cells"
+header_2 = "1"
+
+[[table.sample]]
+assay = 14
+name = "FA 18:1-treated cells_2"
+column = "X"
+
+[table.sample.attributes]
+header_1 = "FA 18:1-treated cells"
+header_2 = "2"
+
+[[table.sample]]
+assay = 15
+name = "FA 18:1-treated cells_3"
+column = "Y"
+
+[table.sample.attributes]
+header_1 = "FA 18:1-treated cells"
+header_2 = "3"

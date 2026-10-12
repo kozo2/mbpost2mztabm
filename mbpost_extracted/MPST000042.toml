@@ -1,0 +1,50 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000042.xlsx"
+mbpost_id = "MPST000042"
+n_tables = 1
+
+[[table]]
+id = "MPST000042"
+mbpost_id = "MPST000042"
+source_file = "MPST000042.xlsx"
+sheet = "results"
+features_in = "rows"
+n_features = 233
+n_samples = 4
+unit = "fmol/cell"
+
+[[table.sample]]
+assay = 1
+name = "3T3-L1_D4_0h"
+column = "D"
+
+[table.sample.attributes]
+"number of cells" = "4.71×106"
+sample = "6"
+
+[[table.sample]]
+assay = 2
+name = "3T3-L1_D4_1h"
+column = "E"
+
+[table.sample.attributes]
+"number of cells" = "4.70×106"
+sample = "7"
+
+[[table.sample]]
+assay = 3
+name = "3T3-L1_D4_2h"
+column = "F"
+
+[table.sample.attributes]
+"number of cells" = "4.73×106"
+sample = "8"
+
+[[table.sample]]
+assay = 4
+name = "3T3-L1_D4_4h"
+column = "G"
+
+[table.sample.attributes]
+"number of cells" = "4.71×106"
+sample = "9"

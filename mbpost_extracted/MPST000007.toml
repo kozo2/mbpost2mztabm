@@ -1,0 +1,66 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000007.txt"
+mbpost_id = "MPST000007"
+n_tables = 1
+
+[[table]]
+id = "MPST000007"
+mbpost_id = "MPST000007"
+source_file = "MPST000007.txt"
+features_in = "rows"
+n_features = 1934
+n_samples = 52
+sample = [
+    { assay = 1, name = "0555_1_neg", column = "AG" },
+    { assay = 2, name = "0555_2_neg", column = "AH" },
+    { assay = 3, name = "0555_3_neg", column = "AI" },
+    { assay = 4, name = "2043_1_neg", column = "AJ" },
+    { assay = 5, name = "2043_2_neg", column = "AK" },
+    { assay = 6, name = "2043_3_neg", column = "AL" },
+    { assay = 7, name = "by1_neg", column = "AM" },
+    { assay = 8, name = "by2_neg", column = "AN" },
+    { assay = 9, name = "by3_neg", column = "AO" },
+    { assay = 10, name = "EC1_neg", column = "AP" },
+    { assay = 11, name = "EC2_neg", column = "AQ" },
+    { assay = 12, name = "EC3_neg", column = "AR" },
+    { assay = 13, name = "k6_1_neg", column = "AS" },
+    { assay = 14, name = "k6_2_neg", column = "AT" },
+    { assay = 15, name = "k6_3_neg", column = "AU" },
+    { assay = 16, name = "k7_1_neg", column = "AV" },
+    { assay = 17, name = "k7_2_neg", column = "AW" },
+    { assay = 18, name = "k7_3_neg", column = "AX" },
+    { assay = 19, name = "k9_1_neg", column = "AY" },
+    { assay = 20, name = "k9_2_neg", column = "AZ" },
+    { assay = 21, name = "k9_3_neg", column = "BA" },
+    { assay = 22, name = "OC1_neg", column = "BB" },
+    { assay = 23, name = "OC2_neg", column = "BC" },
+    { assay = 24, name = "OC3_neg", column = "BD" },
+    { assay = 25, name = "QA1_neg", column = "BE" },
+    { assay = 26, name = "QA2_neg", column = "BF" },
+    { assay = 27, name = "QA3_neg", column = "BG" },
+    { assay = 28, name = "Red1_neg", column = "BH" },
+    { assay = 29, name = "Red2_neg", column = "BI" },
+    { assay = 30, name = "Red3_neg", column = "BJ" },
+    { assay = 31, name = "blank_1", column = "BK" },
+    { assay = 32, name = "by_1", column = "BL" },
+    { assay = 33, name = "QA_1", column = "BM" },
+    { assay = 34, name = "EC_1", column = "BN" },
+    { assay = 35, name = "oc_1", column = "BO" },
+    { assay = 36, name = "red_1", column = "BP" },
+    { assay = 37, name = "2043_1", column = "BQ" },
+    { assay = 38, name = "555_1", column = "BR" },
+    { assay = 39, name = "k6_1", column = "BS" },
+    { assay = 40, name = "k7_1", column = "BT" },
+    { assay = 41, name = "k9_1", column = "BU" },
+    { assay = 42, name = "blank_2", column = "BV" },
+    { assay = 43, name = "by_2", column = "BW" },
+    { assay = 44, name = "QA_2", column = "BX" },
+    { assay = 45, name = "EC_2", column = "BY" },
+    { assay = 46, name = "oc_2", column = "BZ" },
+    { assay = 47, name = "red_2", column = "CA" },
+    { assay = 48, name = "2043_2", column = "CB" },
+    { assay = 49, name = "555_2", column = "CC" },
+    { assay = 50, name = "k6_2", column = "CD" },
+    { assay = 51, name = "k7_2", column = "CE" },
+    { assay = 52, name = "k9_2", column = "CF" },
+]

@@ -1,0 +1,407 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000197__Supplementary Table_Lipidomics.xlsx"
+mbpost_id = "MPST000197"
+n_tables = 4
+
+[[table]]
+id = "MPST000197__Supplementary Table_Lipidomics#Molecules_Negative-ion mode"
+mbpost_id = "MPST000197"
+source_file = "MPST000197__Supplementary Table_Lipidomics.xlsx"
+sheet = "Molecules_Negative-ion mode"
+features_in = "rows"
+n_features = 387
+n_samples = 18
+
+[[table.sample]]
+assay = 1
+name = "Control_1"
+column = "I"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "1"
+
+[[table.sample]]
+assay = 2
+name = "Control_2"
+column = "J"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "2"
+
+[[table.sample]]
+assay = 3
+name = "Control_3"
+column = "K"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "3"
+
+[[table.sample]]
+assay = 4
+name = "Control_4"
+column = "L"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "4"
+
+[[table.sample]]
+assay = 5
+name = "Control_5"
+column = "M"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "5"
+
+[[table.sample]]
+assay = 6
+name = "Control_6"
+column = "N"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "6"
+
+[[table.sample]]
+assay = 7
+name = "Control_7"
+column = "O"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "7"
+
+[[table.sample]]
+assay = 8
+name = "HFpEF_8"
+column = "Q"
+
+[table.sample.attributes]
+header_2 = "HFpEF"
+header_3 = "8"
+
+[[table.sample]]
+assay = 9
+name = "HFpEF_9"
+column = "R"
+
+[table.sample.attributes]
+header_2 = "HFpEF"
+header_3 = "9"
+
+[[table.sample]]
+assay = 10
+name = "HFpEF_10"
+column = "S"
+
+[table.sample.attributes]
+header_2 = "HFpEF"
+header_3 = "10"
+
+[[table.sample]]
+assay = 11
+name = "HFpEF_11"
+column = "T"
+
+[table.sample.attributes]
+header_2 = "HFpEF"
+header_3 = "11"
+
+[[table.sample]]
+assay = 12
+name = "HFpEF_12"
+column = "U"
+
+[table.sample.attributes]
+"0.8" = "-1"
+header_2 = "HFpEF"
+header_3 = "12"
+
+[[table.sample]]
+assay = 13
+name = "HFpEF_13"
+column = "V"
+
+[table.sample.attributes]
+"0.8" = "#REF!"
+header_2 = "HFpEF"
+header_3 = "13"
+
+[[table.sample]]
+assay = 14
+name = "HFpEF_14"
+column = "W"
+
+[table.sample.attributes]
+"0.8" = "-1"
+header_2 = "HFpEF"
+header_3 = "14"
+
+[[table.sample]]
+assay = 15
+name = "Blank_Blank"
+column = "Y"
+
+[table.sample.attributes]
+header_2 = "Blank"
+header_3 = "Blank"
+
+[[table.sample]]
+assay = 16
+name = "QC_1"
+column = "Z"
+
+[table.sample.attributes]
+header_2 = "QC"
+header_3 = "1"
+
+[[table.sample]]
+assay = 17
+name = "QC_2"
+column = "AA"
+
+[table.sample.attributes]
+header_2 = "QC"
+header_3 = "2"
+
+[[table.sample]]
+assay = 18
+name = "QC_3"
+column = "AB"
+
+[table.sample.attributes]
+header_2 = "QC"
+header_3 = "3"
+
+[[table]]
+id = "MPST000197__Supplementary Table_Lipidomics#Molecules_Positive ion mode"
+mbpost_id = "MPST000197"
+source_file = "MPST000197__Supplementary Table_Lipidomics.xlsx"
+sheet = "Molecules_Positive ion mode"
+features_in = "rows"
+n_features = 209
+n_samples = 18
+
+[[table.sample]]
+assay = 1
+name = "Control_1"
+column = "I"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "1"
+
+[[table.sample]]
+assay = 2
+name = "Control_2"
+column = "J"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "2"
+
+[[table.sample]]
+assay = 3
+name = "Control_3"
+column = "K"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "3"
+
+[[table.sample]]
+assay = 4
+name = "Control_4"
+column = "L"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "4"
+
+[[table.sample]]
+assay = 5
+name = "Control_5"
+column = "M"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "5"
+
+[[table.sample]]
+assay = 6
+name = "Control_6"
+column = "N"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "6"
+
+[[table.sample]]
+assay = 7
+name = "Control_7"
+column = "O"
+
+[table.sample.attributes]
+header_2 = "Control"
+header_3 = "7"
+
+[[table.sample]]
+assay = 8
+name = "HFpEF_8"
+column = "Q"
+
+[table.sample.attributes]
+header_2 = "HFpEF"
+header_3 = "8"
+
+[[table.sample]]
+assay = 9
+name = "HFpEF_9"
+column = "R"
+
+[table.sample.attributes]
+header_2 = "HFpEF"
+header_3 = "9"
+
+[[table.sample]]
+assay = 10
+name = "HFpEF_10"
+column = "S"
+
+[table.sample.attributes]
+header_2 = "HFpEF"
+header_3 = "10"
+
+[[table.sample]]
+assay = 11
+name = "HFpEF_11"
+column = "T"
+
+[table.sample.attributes]
+header_2 = "HFpEF"
+header_3 = "11"
+
+[[table.sample]]
+assay = 12
+name = "HFpEF_12"
+column = "U"
+
+[table.sample.attributes]
+"0.8" = "-1"
+header_2 = "HFpEF"
+header_3 = "12"
+
+[[table.sample]]
+assay = 13
+name = "HFpEF_13"
+column = "V"
+
+[table.sample.attributes]
+"0.8" = "#REF!"
+header_2 = "HFpEF"
+header_3 = "13"
+
+[[table.sample]]
+assay = 14
+name = "HFpEF_14"
+column = "W"
+
+[table.sample.attributes]
+"0.8" = "-1"
+header_2 = "HFpEF"
+header_3 = "14"
+
+[[table.sample]]
+assay = 15
+name = "Blank_Blank"
+column = "Y"
+
+[table.sample.attributes]
+header_2 = "Blank"
+header_3 = "Blank"
+
+[[table.sample]]
+assay = 16
+name = "QC_4"
+column = "Z"
+
+[table.sample.attributes]
+header_2 = "QC"
+header_3 = "4"
+
+[[table.sample]]
+assay = 17
+name = "QC_5"
+column = "AA"
+
+[table.sample.attributes]
+header_2 = "QC"
+header_3 = "5"
+
+[[table.sample]]
+assay = 18
+name = "QC_6"
+column = "AB"
+
+[table.sample.attributes]
+header_2 = "QC"
+header_3 = "6"
+
+[[table]]
+id = "MPST000197__Supplementary Table_Lipidomics#Lipid class level"
+mbpost_id = "MPST000197"
+source_file = "MPST000197__Supplementary Table_Lipidomics.xlsx"
+sheet = "Lipid class level"
+features_in = "rows"
+n_features = 42
+n_samples = 18
+sample = [
+    { assay = 1, name = "1", column = "D", attributes = { "25%以下のもののみを集計。" = "Control" } },
+    { assay = 2, name = "2", column = "E", attributes = { "25%以下のもののみを集計。" = "Control" } },
+    { assay = 3, name = "3", column = "F", attributes = { "25%以下のもののみを集計。" = "Control" } },
+    { assay = 4, name = "4", column = "G", attributes = { "25%以下のもののみを集計。" = "Control" } },
+    { assay = 5, name = "5", column = "H", attributes = { "25%以下のもののみを集計。" = "Control" } },
+    { assay = 6, name = "6", column = "I", attributes = { "25%以下のもののみを集計。" = "Control" } },
+    { assay = 7, name = "7", column = "J", attributes = { "25%以下のもののみを集計。" = "Control" } },
+    { assay = 8, name = "8", column = "L", attributes = { "25%以下のもののみを集計。" = "HFpEF" } },
+    { assay = 9, name = "9", column = "M", attributes = { "25%以下のもののみを集計。" = "HFpEF" } },
+    { assay = 10, name = "10", column = "N", attributes = { "25%以下のもののみを集計。" = "HFpEF" } },
+    { assay = 11, name = "11", column = "O", attributes = { "25%以下のもののみを集計。" = "HFpEF" } },
+    { assay = 12, name = "12", column = "P", attributes = { "25%以下のもののみを集計。" = "HFpEF" } },
+    { assay = 13, name = "13", column = "Q", attributes = { "25%以下のもののみを集計。" = "HFpEF" } },
+    { assay = 14, name = "14", column = "R", attributes = { "25%以下のもののみを集計。" = "HFpEF" } },
+    { assay = 15, name = "Blank", column = "T", attributes = { "25%以下のもののみを集計。" = "Blank" } },
+    { assay = 16, name = "Neg1/Pos4", column = "U", attributes = { "25%以下のもののみを集計。" = "QC" } },
+    { assay = 17, name = "Neg2/Pos5", column = "V", attributes = { "25%以下のもののみを集計。" = "QC" } },
+    { assay = 18, name = "Neg3/Pos6", column = "W", attributes = { "25%以下のもののみを集計。" = "QC" } },
+]
+
+[[table]]
+id = "MPST000197__Supplementary Table_Lipidomics#CoA-Car比"
+mbpost_id = "MPST000197"
+source_file = "MPST000197__Supplementary Table_Lipidomics.xlsx"
+sheet = "CoA-Car比"
+features_in = "rows"
+n_features = 67
+n_samples = 15
+sample = [
+    { assay = 1, name = "1", column = "C", attributes = { header_1 = "Control" } },
+    { assay = 2, name = "2", column = "D", attributes = { header_1 = "Control" } },
+    { assay = 3, name = "3", column = "E", attributes = { header_1 = "Control" } },
+    { assay = 4, name = "4", column = "F", attributes = { header_1 = "Control" } },
+    { assay = 5, name = "5", column = "G", attributes = { header_1 = "Control" } },
+    { assay = 6, name = "6", column = "H", attributes = { header_1 = "Control" } },
+    { assay = 7, name = "7", column = "I", attributes = { header_1 = "Control" } },
+    { assay = 8, name = "8", column = "K", attributes = { header_1 = "HFpEF" } },
+    { assay = 9, name = "9", column = "L", attributes = { header_1 = "HFpEF" } },
+    { assay = 10, name = "10", column = "M", attributes = { header_1 = "HFpEF" } },
+    { assay = 11, name = "11", column = "N", attributes = { header_1 = "HFpEF" } },
+    { assay = 12, name = "12", column = "O", attributes = { header_1 = "HFpEF" } },
+    { assay = 13, name = "13", column = "P", attributes = { header_1 = "HFpEF" } },
+    { assay = 14, name = "14", column = "Q", attributes = { header_1 = "HFpEF" } },
+    { assay = 15, name = "blank", column = "S", attributes = { header_1 = "blank" } },
+]

@@ -1,0 +1,762 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000160.csv"
+mbpost_id = "MPST000160"
+n_tables = 1
+
+[[table]]
+id = "MPST000160"
+mbpost_id = "MPST000160"
+source_file = "MPST000160.csv"
+features_in = "rows"
+n_features = 993
+n_samples = 75
+
+[[table.sample]]
+assay = 1
+name = "260206_Tomita_1_neg"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "Bt_sterol_minus_1"
+"File type" = "Sample"
+"Injection order" = "1"
+
+[[table.sample]]
+assay = 2
+name = "260206_Tomita_10_neg"
+column = "AK"
+
+[table.sample.attributes]
+Class = "Bt_camp_1"
+"File type" = "Sample"
+"Injection order" = "2"
+
+[[table.sample]]
+assay = 3
+name = "260206_Tomita_11_neg"
+column = "AL"
+
+[table.sample.attributes]
+Class = "Bt_camp_2"
+"File type" = "Sample"
+"Injection order" = "3"
+
+[[table.sample]]
+assay = 4
+name = "260206_Tomita_12_neg"
+column = "AM"
+
+[table.sample.attributes]
+Class = "Bt_camp_3"
+"File type" = "Sample"
+"Injection order" = "4"
+
+[[table.sample]]
+assay = 5
+name = "260206_Tomita_13_neg"
+column = "AN"
+
+[table.sample.attributes]
+Class = "Bt_stig_1"
+"File type" = "Sample"
+"Injection order" = "5"
+
+[[table.sample]]
+assay = 6
+name = "260206_Tomita_14_neg"
+column = "AO"
+
+[table.sample.attributes]
+Class = "Bt_stig_2"
+"File type" = "Sample"
+"Injection order" = "6"
+
+[[table.sample]]
+assay = 7
+name = "260206_Tomita_15_neg"
+column = "AP"
+
+[table.sample.attributes]
+Class = "Bt_stig_3"
+"File type" = "Sample"
+"Injection order" = "7"
+
+[[table.sample]]
+assay = 8
+name = "260206_Tomita_16_neg"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "Bt_bras_1"
+"File type" = "Sample"
+"Injection order" = "8"
+
+[[table.sample]]
+assay = 9
+name = "260206_Tomita_17_neg"
+column = "AR"
+
+[table.sample.attributes]
+Class = "Bt_bras_2"
+"File type" = "Sample"
+"Injection order" = "9"
+
+[[table.sample]]
+assay = 10
+name = "260206_Tomita_18_neg"
+column = "AS"
+
+[table.sample.attributes]
+Class = "Bt_bras_3"
+"File type" = "Sample"
+"Injection order" = "10"
+
+[[table.sample]]
+assay = 11
+name = "260206_Tomita_19_neg"
+column = "AT"
+
+[table.sample.attributes]
+Class = "Bt_cop_1"
+"File type" = "Sample"
+"Injection order" = "11"
+
+[[table.sample]]
+assay = 12
+name = "260206_Tomita_2_neg"
+column = "AU"
+
+[table.sample.attributes]
+Class = "Bt_sterol_minus_2"
+"File type" = "Sample"
+"Injection order" = "12"
+
+[[table.sample]]
+assay = 13
+name = "260206_Tomita_20_neg"
+column = "AV"
+
+[table.sample.attributes]
+Class = "Bt_cop_2"
+"File type" = "Sample"
+"Injection order" = "13"
+
+[[table.sample]]
+assay = 14
+name = "260206_Tomita_21_neg"
+column = "AW"
+
+[table.sample.attributes]
+Class = "Bt_cop_3"
+"File type" = "Sample"
+"Injection order" = "14"
+
+[[table.sample]]
+assay = 15
+name = "260206_Tomita_22_neg"
+column = "AX"
+
+[table.sample.attributes]
+Class = "m_sterol_minus_1"
+"File type" = "Sample"
+"Injection order" = "15"
+
+[[table.sample]]
+assay = 16
+name = "260206_Tomita_23_neg"
+column = "AY"
+
+[table.sample.attributes]
+Class = "m_sterol_minus_2"
+"File type" = "Sample"
+"Injection order" = "16"
+
+[[table.sample]]
+assay = 17
+name = "260206_Tomita_24_neg"
+column = "AZ"
+
+[table.sample.attributes]
+Class = "m_sterol_minus_3"
+"File type" = "Sample"
+"Injection order" = "17"
+
+[[table.sample]]
+assay = 18
+name = "260206_Tomita_25_neg"
+column = "BA"
+
+[table.sample.attributes]
+Class = "m_chol_1"
+"File type" = "Sample"
+"Injection order" = "18"
+
+[[table.sample]]
+assay = 19
+name = "260206_Tomita_26_neg"
+column = "BB"
+
+[table.sample.attributes]
+Class = "m_chol_2"
+"File type" = "Sample"
+"Injection order" = "19"
+
+[[table.sample]]
+assay = 20
+name = "260206_Tomita_27_neg"
+column = "BC"
+
+[table.sample.attributes]
+Class = "m_chol_3"
+"File type" = "Sample"
+"Injection order" = "20"
+
+[[table.sample]]
+assay = 21
+name = "260206_Tomita_28_neg"
+column = "BD"
+
+[table.sample.attributes]
+Class = "m_sito_1"
+"File type" = "Sample"
+"Injection order" = "21"
+
+[[table.sample]]
+assay = 22
+name = "260206_Tomita_29_neg"
+column = "BE"
+
+[table.sample.attributes]
+Class = "m_sito_2"
+"File type" = "Sample"
+"Injection order" = "22"
+
+[[table.sample]]
+assay = 23
+name = "260206_Tomita_3_neg"
+column = "BF"
+
+[table.sample.attributes]
+Class = "Bt_sterol_minus_3"
+"File type" = "Sample"
+"Injection order" = "23"
+
+[[table.sample]]
+assay = 24
+name = "260206_Tomita_30_neg"
+column = "BG"
+
+[table.sample.attributes]
+Class = "m_sito_3"
+"File type" = "Sample"
+"Injection order" = "24"
+
+[[table.sample]]
+assay = 25
+name = "260206_Tomita_31_neg"
+column = "BH"
+
+[table.sample.attributes]
+Class = "m_camp_1"
+"File type" = "Sample"
+"Injection order" = "25"
+
+[[table.sample]]
+assay = 26
+name = "260206_Tomita_32_neg"
+column = "BI"
+
+[table.sample.attributes]
+Class = "m_camp_2"
+"File type" = "Sample"
+"Injection order" = "26"
+
+[[table.sample]]
+assay = 27
+name = "260206_Tomita_33_neg"
+column = "BJ"
+
+[table.sample.attributes]
+Class = "m_camp_3"
+"File type" = "Sample"
+"Injection order" = "27"
+
+[[table.sample]]
+assay = 28
+name = "260206_Tomita_34_neg"
+column = "BK"
+
+[table.sample.attributes]
+Class = "m_stig_1"
+"File type" = "Sample"
+"Injection order" = "28"
+
+[[table.sample]]
+assay = 29
+name = "260206_Tomita_35_neg"
+column = "BL"
+
+[table.sample.attributes]
+Class = "m_stig_2"
+"File type" = "Sample"
+"Injection order" = "29"
+
+[[table.sample]]
+assay = 30
+name = "260206_Tomita_36_neg"
+column = "BM"
+
+[table.sample.attributes]
+Class = "m_stig_3"
+"File type" = "Sample"
+"Injection order" = "30"
+
+[[table.sample]]
+assay = 31
+name = "260206_Tomita_37_neg"
+column = "BN"
+
+[table.sample.attributes]
+Class = "m_bras_1"
+"File type" = "Sample"
+"Injection order" = "31"
+
+[[table.sample]]
+assay = 32
+name = "260206_Tomita_38_neg"
+column = "BO"
+
+[table.sample.attributes]
+Class = "m_bras_2"
+"File type" = "Sample"
+"Injection order" = "32"
+
+[[table.sample]]
+assay = 33
+name = "260206_Tomita_39_neg"
+column = "BP"
+
+[table.sample.attributes]
+Class = "m_bras_3"
+"File type" = "Sample"
+"Injection order" = "33"
+
+[[table.sample]]
+assay = 34
+name = "260206_Tomita_4_neg"
+column = "BQ"
+
+[table.sample.attributes]
+Class = "Bt_chol_1"
+"File type" = "Sample"
+"Injection order" = "34"
+
+[[table.sample]]
+assay = 35
+name = "260206_Tomita_40_neg"
+column = "BR"
+
+[table.sample.attributes]
+Class = "m_cop_1"
+"File type" = "Sample"
+"Injection order" = "35"
+
+[[table.sample]]
+assay = 36
+name = "260206_Tomita_41_neg"
+column = "BS"
+
+[table.sample.attributes]
+Class = "m_cop_2"
+"File type" = "Sample"
+"Injection order" = "36"
+
+[[table.sample]]
+assay = 37
+name = "260206_Tomita_42_neg"
+column = "BT"
+
+[table.sample.attributes]
+Class = "m_cop_3"
+"File type" = "Sample"
+"Injection order" = "37"
+
+[[table.sample]]
+assay = 38
+name = "260206_Tomita_43_neg"
+column = "BU"
+
+[table.sample.attributes]
+Class = "h_sterol_minus_1"
+"File type" = "Sample"
+"Injection order" = "38"
+
+[[table.sample]]
+assay = 39
+name = "260206_Tomita_44_neg"
+column = "BV"
+
+[table.sample.attributes]
+Class = "h_sterol_minus_2"
+"File type" = "Sample"
+"Injection order" = "39"
+
+[[table.sample]]
+assay = 40
+name = "260206_Tomita_45_neg"
+column = "BW"
+
+[table.sample.attributes]
+Class = "h_sterol_minus_3"
+"File type" = "Sample"
+"Injection order" = "40"
+
+[[table.sample]]
+assay = 41
+name = "260206_Tomita_46_neg"
+column = "BX"
+
+[table.sample.attributes]
+Class = "h_chol_1"
+"File type" = "Sample"
+"Injection order" = "41"
+
+[[table.sample]]
+assay = 42
+name = "260206_Tomita_47_neg"
+column = "BY"
+
+[table.sample.attributes]
+Class = "h_chol_2"
+"File type" = "Sample"
+"Injection order" = "42"
+
+[[table.sample]]
+assay = 43
+name = "260206_Tomita_48_neg"
+column = "BZ"
+
+[table.sample.attributes]
+Class = "h_chol_3"
+"File type" = "Sample"
+"Injection order" = "43"
+
+[[table.sample]]
+assay = 44
+name = "260206_Tomita_49_neg"
+column = "CA"
+
+[table.sample.attributes]
+Class = "h_sito_1"
+"File type" = "Sample"
+"Injection order" = "44"
+
+[[table.sample]]
+assay = 45
+name = "260206_Tomita_5_neg"
+column = "CB"
+
+[table.sample.attributes]
+Class = "Bt_chol_2"
+"File type" = "Sample"
+"Injection order" = "45"
+
+[[table.sample]]
+assay = 46
+name = "260206_Tomita_50_neg"
+column = "CC"
+
+[table.sample.attributes]
+Class = "h_sito_2"
+"File type" = "Sample"
+"Injection order" = "46"
+
+[[table.sample]]
+assay = 47
+name = "260206_Tomita_51_neg"
+column = "CD"
+
+[table.sample.attributes]
+Class = "h_sito_3"
+"File type" = "Sample"
+"Injection order" = "47"
+
+[[table.sample]]
+assay = 48
+name = "260206_Tomita_52_neg"
+column = "CE"
+
+[table.sample.attributes]
+Class = "h_camp_1"
+"File type" = "Sample"
+"Injection order" = "48"
+
+[[table.sample]]
+assay = 49
+name = "260206_Tomita_53_neg"
+column = "CF"
+
+[table.sample.attributes]
+Class = "h_camp_2"
+"File type" = "Sample"
+"Injection order" = "49"
+
+[[table.sample]]
+assay = 50
+name = "260206_Tomita_54_neg"
+column = "CG"
+
+[table.sample.attributes]
+Class = "h_camp_3"
+"File type" = "Sample"
+"Injection order" = "50"
+
+[[table.sample]]
+assay = 51
+name = "260206_Tomita_55_neg"
+column = "CH"
+
+[table.sample.attributes]
+Class = "h_stig_1"
+"File type" = "Sample"
+"Injection order" = "51"
+
+[[table.sample]]
+assay = 52
+name = "260206_Tomita_56_neg"
+column = "CI"
+
+[table.sample.attributes]
+Class = "h_stig_2"
+"File type" = "Sample"
+"Injection order" = "52"
+
+[[table.sample]]
+assay = 53
+name = "260206_Tomita_57_neg"
+column = "CJ"
+
+[table.sample.attributes]
+Class = "h_stig_3"
+"File type" = "Sample"
+"Injection order" = "53"
+
+[[table.sample]]
+assay = 54
+name = "260206_Tomita_58_neg"
+column = "CK"
+
+[table.sample.attributes]
+Class = "h_bras_1"
+"File type" = "Sample"
+"Injection order" = "54"
+
+[[table.sample]]
+assay = 55
+name = "260206_Tomita_59_neg"
+column = "CL"
+
+[table.sample.attributes]
+Class = "h_bras_2"
+"File type" = "Sample"
+"Injection order" = "55"
+
+[[table.sample]]
+assay = 56
+name = "260206_Tomita_6_neg"
+column = "CM"
+
+[table.sample.attributes]
+Class = "Bt_chol_3"
+"File type" = "Sample"
+"Injection order" = "56"
+
+[[table.sample]]
+assay = 57
+name = "260206_Tomita_60_neg"
+column = "CN"
+
+[table.sample.attributes]
+Class = "h_bras_3"
+"File type" = "Sample"
+"Injection order" = "57"
+
+[[table.sample]]
+assay = 58
+name = "260206_Tomita_61_neg"
+column = "CO"
+
+[table.sample.attributes]
+Class = "h_cop_1"
+"File type" = "Sample"
+"Injection order" = "58"
+
+[[table.sample]]
+assay = 59
+name = "260206_Tomita_62_neg"
+column = "CP"
+
+[table.sample.attributes]
+Class = "h_cop_2"
+"File type" = "Sample"
+"Injection order" = "59"
+
+[[table.sample]]
+assay = 60
+name = "260206_Tomita_63_neg"
+column = "CQ"
+
+[table.sample.attributes]
+Class = "h_cop_3"
+"File type" = "Sample"
+"Injection order" = "60"
+
+[[table.sample]]
+assay = 61
+name = "260206_Tomita_64_neg"
+column = "CR"
+
+[table.sample.attributes]
+Class = "protein_minus_chol"
+"File type" = "Sample"
+"Injection order" = "61"
+
+[[table.sample]]
+assay = 62
+name = "260206_Tomita_65_neg"
+column = "CS"
+
+[table.sample.attributes]
+Class = "protein_minus_sito"
+"File type" = "Sample"
+"Injection order" = "62"
+
+[[table.sample]]
+assay = 63
+name = "260206_Tomita_66_neg"
+column = "CT"
+
+[table.sample.attributes]
+Class = "protein_minus_camp"
+"File type" = "Sample"
+"Injection order" = "63"
+
+[[table.sample]]
+assay = 64
+name = "260206_Tomita_67_neg"
+column = "CU"
+
+[table.sample.attributes]
+Class = "protein_minus_stig"
+"File type" = "Sample"
+"Injection order" = "64"
+
+[[table.sample]]
+assay = 65
+name = "260206_Tomita_68_neg"
+column = "CV"
+
+[table.sample.attributes]
+Class = "protein_minus_bras"
+"File type" = "Sample"
+"Injection order" = "65"
+
+[[table.sample]]
+assay = 66
+name = "260206_Tomita_69_neg"
+column = "CW"
+
+[table.sample.attributes]
+Class = "protein_minus_cop"
+"File type" = "Sample"
+"Injection order" = "66"
+
+[[table.sample]]
+assay = 67
+name = "260206_Tomita_7_neg"
+column = "CX"
+
+[table.sample.attributes]
+Class = "Bt_sito_1"
+"File type" = "Sample"
+"Injection order" = "67"
+
+[[table.sample]]
+assay = 68
+name = "260206_Tomita_70_neg"
+column = "CY"
+
+[table.sample.attributes]
+Class = "blank"
+"File type" = "Blank"
+"Injection order" = "68"
+
+[[table.sample]]
+assay = 69
+name = "260206_Tomita_8_neg"
+column = "CZ"
+
+[table.sample.attributes]
+Class = "Bt_sito_2"
+"File type" = "Sample"
+"Injection order" = "69"
+
+[[table.sample]]
+assay = 70
+name = "260206_Tomita_9_neg"
+column = "DA"
+
+[table.sample.attributes]
+Class = "Bt_sito_3"
+"File type" = "Sample"
+"Injection order" = "70"
+
+[[table.sample]]
+assay = 71
+name = "260206_Tomita_QC1_neg"
+column = "DB"
+
+[table.sample.attributes]
+Class = "QC1"
+"File type" = "QC"
+"Injection order" = "71"
+
+[[table.sample]]
+assay = 72
+name = "260206_Tomita_QC2_neg"
+column = "DC"
+
+[table.sample.attributes]
+Class = "QC2"
+"File type" = "QC"
+"Injection order" = "72"
+
+[[table.sample]]
+assay = 73
+name = "260206_Tomita_QC3_neg"
+column = "DD"
+
+[table.sample.attributes]
+Class = "QC3"
+"File type" = "QC"
+"Injection order" = "73"
+
+[[table.sample]]
+assay = 74
+name = "260206_Tomita_QC4_neg"
+column = "DE"
+
+[table.sample.attributes]
+Class = "QC4"
+"File type" = "QC"
+"Injection order" = "74"
+
+[[table.sample]]
+assay = 75
+name = "260206_Tomita_QC5_neg"
+column = "DF"
+
+[table.sample.attributes]
+Class = "QC5"
+"File type" = "QC"
+"Injection order" = "75"

@@ -1,0 +1,140 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000222__FMT_plus_bacteria_results.xlsx"
+mbpost_id = "MPST000222"
+n_tables = 1
+
+[[table]]
+id = "MPST000222__FMT_plus_bacteria_results"
+mbpost_id = "MPST000222"
+source_file = "MPST000222__FMT_plus_bacteria_results.xlsx"
+sheet = "FMT+isolated bacteria"
+features_in = "rows"
+n_features = 514
+n_samples = 14
+description = "Quantification of ionic metabolites in mice fecal samples"
+
+[[table.sample]]
+assay = 1
+name = "FMT_only_1"
+column = "E"
+
+[table.sample.attributes]
+Sample = "FMT_only"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 2
+name = "FMT_only_2"
+column = "F"
+
+[table.sample.attributes]
+Sample = "FMT_only"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 3
+name = "FMT_only_3"
+column = "G"
+
+[table.sample.attributes]
+Sample = "FMT_only"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 4
+name = "FMT+Cd_1"
+column = "H"
+
+[table.sample.attributes]
+Sample = "FMT+C.difficile"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 5
+name = "FMT+Cd_2"
+column = "I"
+
+[table.sample.attributes]
+Sample = "FMT+C.difficile"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 6
+name = "FMT+Cd_3"
+column = "J"
+
+[table.sample.attributes]
+Sample = "FMT+C.difficile"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 7
+name = "FMT+Si_1"
+column = "K"
+
+[table.sample.attributes]
+Sample = "FMT+S.intestinalis"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 8
+name = "FMT+Si_2"
+column = "L"
+
+[table.sample.attributes]
+Sample = "FMT+S.intestinalis"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 9
+name = "FMT+Si_3"
+column = "M"
+
+[table.sample.attributes]
+Sample = "FMT+S.intestinalis"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 10
+name = "FMT+Hh_1"
+column = "N"
+
+[table.sample.attributes]
+Sample = "FMT+H.hominis"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 11
+name = "FMT+Hh_2"
+column = "O"
+
+[table.sample.attributes]
+Sample = "FMT+H.hominis"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 12
+name = "FMT+Hh_3"
+column = "P"
+
+[table.sample.attributes]
+Sample = "FMT+H.hominis"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 13
+name = "Blank1"
+column = "Q"
+
+[table.sample.attributes]
+Sample = "Blank4"
+unit = "µM"
+
+[[table.sample]]
+assay = 14
+name = "Blank2"
+column = "R"
+
+[table.sample.attributes]
+Sample = "Blank4"
+unit = "µM"

@@ -1,0 +1,244 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000150__②ASA+inhibitor(L-MS).xlsx"
+mbpost_id = "MPST000150"
+n_tables = 2
+skipped = [
+    { sheet = "calibration curve", reason = "calibration curves of standards, not samples" },
+]
+
+[[table]]
+id = "MPST000150__②ASA+inhibitor(L-MS)#result#Area"
+mbpost_id = "MPST000150"
+source_file = "MPST000150__②ASA+inhibitor(L-MS).xlsx"
+sheet = "result"
+features_in = "columns"
+n_features = 9
+n_samples = 12
+block = "Area"
+
+[[table.sample]]
+assay = 1
+name = "HCT116 MT_DMSO_1"
+row = 6
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "DMSO"
+
+[[table.sample]]
+assay = 2
+name = "HCT116 MT_DMSO_2"
+row = 7
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "DMSO"
+
+[[table.sample]]
+assay = 3
+name = "HCT116 MT_DMSO_3"
+row = 8
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "DMSO"
+
+[[table.sample]]
+assay = 4
+name = "HCT116 MT_ASA 2mM_1"
+row = 9
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "ASA 2mM"
+
+[[table.sample]]
+assay = 5
+name = "HCT116 MT_ASA 2mM_2"
+row = 10
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "ASA 2mM"
+
+[[table.sample]]
+assay = 6
+name = "HCT116 MT_ASA 2mM_3"
+row = 11
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "ASA 2mM"
+
+[[table.sample]]
+assay = 7
+name = "HCT116 MT_L-MS(10ｍM)_1"
+row = 12
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "L-MS(10ｍM)"
+
+[[table.sample]]
+assay = 8
+name = "HCT116 MT_L-MS(10ｍM)_2"
+row = 13
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "L-MS(10ｍM)"
+
+[[table.sample]]
+assay = 9
+name = "HCT116 MT_L-MS(10ｍM)_3"
+row = 14
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "L-MS(10ｍM)"
+
+[[table.sample]]
+assay = 10
+name = "HCT116 MT_ASA+L-MS_1"
+row = 15
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "ASA+L-MS"
+
+[[table.sample]]
+assay = 11
+name = "HCT116 MT_ASA+L-MS_2"
+row = 16
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "ASA+L-MS"
+
+[[table.sample]]
+assay = 12
+name = "HCT116 MT_ASA+L-MS_3"
+row = 17
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "ASA+L-MS"
+
+[[table]]
+id = "MPST000150__②ASA+inhibitor(L-MS)#result#Concentration (pmol)"
+mbpost_id = "MPST000150"
+source_file = "MPST000150__②ASA+inhibitor(L-MS).xlsx"
+sheet = "result"
+features_in = "columns"
+n_features = 9
+n_samples = 12
+unit = "pmol"
+block = "Concentration (pmol)"
+
+[[table.sample]]
+assay = 1
+name = "HCT116 MT_DMSO_1"
+row = 6
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "DMSO"
+
+[[table.sample]]
+assay = 2
+name = "HCT116 MT_DMSO_2"
+row = 7
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "DMSO"
+
+[[table.sample]]
+assay = 3
+name = "HCT116 MT_DMSO_3"
+row = 8
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "DMSO"
+
+[[table.sample]]
+assay = 4
+name = "HCT116 MT_ASA 2mM_1"
+row = 9
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "ASA 2mM"
+
+[[table.sample]]
+assay = 5
+name = "HCT116 MT_ASA 2mM_2"
+row = 10
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "ASA 2mM"
+
+[[table.sample]]
+assay = 6
+name = "HCT116 MT_ASA 2mM_3"
+row = 11
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "ASA 2mM"
+
+[[table.sample]]
+assay = 7
+name = "HCT116 MT_L-MS(10ｍM)_1"
+row = 12
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "L-MS(10ｍM)"
+
+[[table.sample]]
+assay = 8
+name = "HCT116 MT_L-MS(10ｍM)_2"
+row = 13
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "L-MS(10ｍM)"
+
+[[table.sample]]
+assay = 9
+name = "HCT116 MT_L-MS(10ｍM)_3"
+row = 14
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "L-MS(10ｍM)"
+
+[[table.sample]]
+assay = 10
+name = "HCT116 MT_ASA+L-MS_1"
+row = 15
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "ASA+L-MS"
+
+[[table.sample]]
+assay = 11
+name = "HCT116 MT_ASA+L-MS_2"
+row = 16
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "ASA+L-MS"
+
+[[table.sample]]
+assay = 12
+name = "HCT116 MT_ASA+L-MS_3"
+row = 17
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "ASA+L-MS"

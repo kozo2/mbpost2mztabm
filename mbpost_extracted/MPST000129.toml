@@ -1,0 +1,19 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000129.xlsx"
+mbpost_id = "MPST000129"
+n_tables = 1
+
+[[table]]
+id = "MPST000129"
+mbpost_id = "MPST000129"
+source_file = "MPST000129.xlsx"
+sheet = "Compounds"
+features_in = "rows"
+n_features = 6547
+n_samples = 4
+sample = [
+    { assay = 1, name = "Group Area: F62, Sample", column = "T" },
+    { assay = 2, name = "Group Area: F63, Sample", column = "U" },
+    { assay = 3, name = "Group Area: F64, Sample", column = "V" },
+    { assay = 4, name = "Group Area: F66, Sample", column = "W" },
+]

@@ -1,0 +1,202 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000052.xlsx"
+mbpost_id = "MPST000052"
+n_tables = 6
+
+[[table]]
+id = "MPST000052#C2C12_Mitoiso"
+mbpost_id = "MPST000052"
+source_file = "MPST000052.xlsx"
+sheet = "C2C12_Mitoiso"
+features_in = "rows"
+n_features = 269
+n_samples = 30
+sample = [
+    { assay = 1, name = "HA IP day0_neg_064", column = "AG" },
+    { assay = 2, name = "HA IP day0-1_neg_065", column = "AH" },
+    { assay = 3, name = "HA IP day0-2_neg_066", column = "AI" },
+    { assay = 4, name = "HA IP day1_neg_067", column = "AJ" },
+    { assay = 5, name = "HA IP day1-1_neg_068", column = "AK" },
+    { assay = 6, name = "HA IP day1-2_neg_069", column = "AL" },
+    { assay = 7, name = "HA IP day3_neg_070", column = "AM" },
+    { assay = 8, name = "HA IP day3-1_neg_071", column = "AN" },
+    { assay = 9, name = "HA IP day3-2_neg_072", column = "AO" },
+    { assay = 10, name = "HA IP day5_neg_073", column = "AP" },
+    { assay = 11, name = "HA IP day5-1_neg_074", column = "AQ" },
+    { assay = 12, name = "HA IP day5-2_neg_075", column = "AR" },
+    { assay = 13, name = "HA IP day7_neg_076", column = "AS" },
+    { assay = 14, name = "HA IP day7-1_neg_077", column = "AT" },
+    { assay = 15, name = "HA IP day7-2_neg_078", column = "AU" },
+    { assay = 16, name = "HA whole day0_neg_049", column = "AV" },
+    { assay = 17, name = "HA whole day0-1_neg_050", column = "AW" },
+    { assay = 18, name = "HA whole day0-2_neg_051", column = "AX" },
+    { assay = 19, name = "HA whole day1_neg_052", column = "AY" },
+    { assay = 20, name = "HA whole day1-1_neg_053", column = "AZ" },
+    { assay = 21, name = "HA whole day1-2_neg_054", column = "BA" },
+    { assay = 22, name = "HA whole day3_neg_055", column = "BB" },
+    { assay = 23, name = "HA whole day3-1_neg_056", column = "BC" },
+    { assay = 24, name = "HA whole day3-2_neg_057", column = "BD" },
+    { assay = 25, name = "HA whole day5_neg_058", column = "BE" },
+    { assay = 26, name = "HA whole day5-1_neg_059", column = "BF" },
+    { assay = 27, name = "HA whole day5-2_neg_060", column = "BG" },
+    { assay = 28, name = "HA whole day7_neg_061", column = "BH" },
+    { assay = 29, name = "HA whole day7-1_neg_062", column = "BI" },
+    { assay = 30, name = "HA whole day7-2_neg_063", column = "BJ" },
+]
+
+[[table]]
+id = "MPST000052#C2C12_siRNA_OA"
+mbpost_id = "MPST000052"
+source_file = "MPST000052.xlsx"
+sheet = "C2C12_siRNA_OA"
+features_in = "rows"
+n_features = 243
+n_samples = 33
+sample = [
+    { assay = 1, name = "C2C12_siCtrl_D0_1_neg_022.lcd", column = "AH" },
+    { assay = 2, name = "C2C12_siCtrl_D0_2_neg_023.lcd", column = "AI" },
+    { assay = 3, name = "C2C12_siCtrl_D0_3_neg_024.lcd", column = "AJ" },
+    { assay = 4, name = "C2C12_siMyoD_D0_1_neg_028.lcd", column = "AK" },
+    { assay = 5, name = "C2C12_siMyoD_D0_2_neg_029.lcd", column = "AL" },
+    { assay = 6, name = "C2C12_siMyoD_D0_3_neg_030.lcd", column = "AM" },
+    { assay = 7, name = "C2C12_siPrelid1_#1_D0_1_neg_031.lcd", column = "AN" },
+    { assay = 8, name = "C2C12_siPrelid1_#1_D0_2_neg_032.lcd", column = "AO" },
+    { assay = 9, name = "C2C12_siPrelid1_#1_D0_3_neg_033.lcd", column = "AP" },
+    { assay = 10, name = "C2C12_siPrelid1_#2_D0_1_neg_037.lcd", column = "AQ" },
+    { assay = 11, name = "C2C12_siPrelid1_#2_D0_2_neg_038.lcd", column = "AR" },
+    { assay = 12, name = "C2C12_siPrelid1_#2_D0_3_neg_039.lcd", column = "AS" },
+    { assay = 13, name = "C2C12_siCtrl_D3_1_neg_040.lcd", column = "AT" },
+    { assay = 14, name = "C2C12_siCtrl_D3_2_neg_041.lcd", column = "AU" },
+    { assay = 15, name = "C2C12_siCtrl_D3_3_neg_042.lcd", column = "AV" },
+    { assay = 16, name = "C2C12_siMyoD_D3_1_neg_046.lcd", column = "AW" },
+    { assay = 17, name = "C2C12_siMyoD_D3_2_neg_047.lcd", column = "AX" },
+    { assay = 18, name = "C2C12_siMyoD_D3_3_neg_048.lcd", column = "AY" },
+    { assay = 19, name = "C2C12_siPrelid1_#1_D3_1_neg_049.lcd", column = "AZ" },
+    { assay = 20, name = "C2C12_siPrelid1_#1_D3_2_neg_050.lcd", column = "BA" },
+    { assay = 21, name = "C2C12_siPrelid1_#1_D3_3_neg_051.lcd", column = "BB" },
+    { assay = 22, name = "C2C12_siPrelid1_#2_D3_1_neg_055.lcd", column = "BC" },
+    { assay = 23, name = "C2C12_siPrelid1_#2_D3_2_neg_056.lcd", column = "BD" },
+    { assay = 24, name = "C2C12_siPrelid1_#2_D3_3_neg_057.lcd", column = "BE" },
+    { assay = 25, name = "C2C12_D0_1_neg_058.lcd", column = "BF" },
+    { assay = 26, name = "C2C12_D0_2_neg_059.lcd", column = "BG" },
+    { assay = 27, name = "C2C12_D0_3_neg_060.lcd", column = "BH" },
+    { assay = 28, name = "C2C12_DMSO_D3_1_neg_061.lcd", column = "BI" },
+    { assay = 29, name = "C2C12_DMSO_D3_2_neg_062.lcd", column = "BJ" },
+    { assay = 30, name = "C2C12_DMSO_D3_3_neg_063.lcd", column = "BK" },
+    { assay = 31, name = "C2C12_OligomycinA_D3_1_neg_064.lcd", column = "BL" },
+    { assay = 32, name = "C2C12_OligomycinA_D3_2_neg_065.lcd", column = "BM" },
+    { assay = 33, name = "C2C12_OligomycinA_D3_3_neg_066.lcd", column = "BN" },
+]
+
+[[table]]
+id = "MPST000052#C2C12_siRNA(2)"
+mbpost_id = "MPST000052"
+source_file = "MPST000052.xlsx"
+sheet = "C2C12_siRNA(2)"
+features_in = "rows"
+n_features = 214
+n_samples = 18
+sample = [
+    { assay = 1, name = "C2C12_siCtrl_D0_1_neg_033.lcd", column = "AH" },
+    { assay = 2, name = "C2C12_siCtrl_D0_2_neg_034.lcd", column = "AI" },
+    { assay = 3, name = "C2C12_siCtrl_D0_3_neg_035.lcd", column = "AJ" },
+    { assay = 4, name = "C2C12_siTaz_#1_D0_1_neg_039.lcd", column = "AK" },
+    { assay = 5, name = "C2C12_siTaz_#1_D0_2_neg_040.lcd", column = "AL" },
+    { assay = 6, name = "C2C12_siTaz_#1_D0_3_neg_041.lcd", column = "AM" },
+    { assay = 7, name = "C2C12_siTaz_#2_D0_1_neg_042.lcd", column = "AN" },
+    { assay = 8, name = "C2C12_siTaz_#2_D0_2_neg_043.lcd", column = "AO" },
+    { assay = 9, name = "C2C12_siTaz_#2_D0_3_neg_044.lcd", column = "AP" },
+    { assay = 10, name = "C2C12_siCtrl_D3_1_neg_045.lcd", column = "AQ" },
+    { assay = 11, name = "C2C12_siCtrl_D3_2_neg_046.lcd", column = "AR" },
+    { assay = 12, name = "C2C12_siCtrl_D3_3_neg_047.lcd", column = "AS" },
+    { assay = 13, name = "C2C12_siTaz_#1_D3_1_neg_051.lcd", column = "AT" },
+    { assay = 14, name = "C2C12_siTaz_#1_D3_2_neg_052.lcd", column = "AU" },
+    { assay = 15, name = "C2C12_siTaz_#1_D3_3_neg_053.lcd", column = "AV" },
+    { assay = 16, name = "C2C12_siTaz_#2_D3_1_neg_054.lcd", column = "AW" },
+    { assay = 17, name = "C2C12_siTaz_#2_D3_2_neg_055.lcd", column = "AX" },
+    { assay = 18, name = "C2C12_siTaz_#2_D3_3_neg_056.lcd", column = "AY" },
+]
+
+[[table]]
+id = "MPST000052#C2C12_siRNA_lipidsupp"
+mbpost_id = "MPST000052"
+source_file = "MPST000052.xlsx"
+sheet = "C2C12_siRNA_lipidsupp"
+features_in = "rows"
+n_features = 202
+n_samples = 24
+sample = [
+    { assay = 1, name = "C2C12_siCtrl_D0_1_neg_005.lcd", column = "AH" },
+    { assay = 2, name = "C2C12_siCtrl_D0_2_neg_001.lcd", column = "AI" },
+    { assay = 3, name = "C2C12_siCtrl_D0_3_neg_002.lcd", column = "AJ" },
+    { assay = 4, name = "C2C12_siCtrl_BSA_D3_1_neg_003.lcd", column = "AK" },
+    { assay = 5, name = "C2C12_siCtrl_BSA_D3_2_neg_004.lcd", column = "AL" },
+    { assay = 6, name = "C2C12_siCtrl_BSA_D3_3_neg_005.lcd", column = "AM" },
+    { assay = 7, name = "C2C12_siCtrl_OA_D3_1_neg_009.lcd", column = "AN" },
+    { assay = 8, name = "C2C12_siCtrl_OA_D3_2_neg_010.lcd", column = "AO" },
+    { assay = 9, name = "C2C12_siCtrl_OA_D3_3_neg_011.lcd", column = "AP" },
+    { assay = 10, name = "C2C12_siCtrl_LA_D3_1_neg_012.lcd", column = "AQ" },
+    { assay = 11, name = "C2C12_siCtrl_LA_D3_2_neg_013.lcd", column = "AR" },
+    { assay = 12, name = "C2C12_siCtrl_LA_D3_3_neg_014.lcd", column = "AS" },
+    { assay = 13, name = "C2C12_siTaz_BSA_D3_1_neg_015.lcd", column = "AT" },
+    { assay = 14, name = "C2C12_siTaz_BSA_D3_2_neg_016.lcd", column = "AU" },
+    { assay = 15, name = "C2C12_siTaz_BSA_D3_3_neg_017.lcd", column = "AV" },
+    { assay = 16, name = "C2C12_siTaz_LA_D3_1_neg_018.lcd", column = "AW" },
+    { assay = 17, name = "C2C12_siTaz_LA_D3_2_neg_019.lcd", column = "AX" },
+    { assay = 18, name = "C2C12_siTaz_LA_D3_3_neg_020.lcd", column = "AY" },
+    { assay = 19, name = "C2C12_siMyoD_BSA_D3_1_neg_021.lcd", column = "AZ" },
+    { assay = 20, name = "C2C12_siMyoD_BSA_D3_2_neg_022.lcd", column = "BA" },
+    { assay = 21, name = "C2C12_siMyoD_BSA_D3_3_neg_023.lcd", column = "BB" },
+    { assay = 22, name = "C2C12_siMyoD_LA_D3_1_neg_024.lcd", column = "BC" },
+    { assay = 23, name = "C2C12_siMyoD_LA_D3_2_neg_025.lcd", column = "BD" },
+    { assay = 24, name = "C2C12_siMyoD_LA_D3_3_neg_026.lcd", column = "BE" },
+]
+
+[[table]]
+id = "MPST000052#Primary"
+mbpost_id = "MPST000052"
+source_file = "MPST000052.xlsx"
+sheet = "Primary"
+features_in = "rows"
+n_features = 230
+n_samples = 12
+sample = [
+    { assay = 1, name = "day0-1_neg_025", column = "AH" },
+    { assay = 2, name = "day0-2_neg_026", column = "AI" },
+    { assay = 3, name = "day0-3_neg_027", column = "AJ" },
+    { assay = 4, name = "day1-1_neg_028", column = "AK" },
+    { assay = 5, name = "day1-2_neg_029", column = "AL" },
+    { assay = 6, name = "day1-3_neg_030", column = "AM" },
+    { assay = 7, name = "day3-1_neg_031", column = "AN" },
+    { assay = 8, name = "day3-2_neg_032", column = "AO" },
+    { assay = 9, name = "day3-3_neg_033", column = "AP" },
+    { assay = 10, name = "day5-1_neg_034", column = "AQ" },
+    { assay = 11, name = "day5-2_neg_035", column = "AR" },
+    { assay = 12, name = "day5-3_neg_036", column = "AS" },
+]
+
+[[table]]
+id = "MPST000052#C2C12_OA_lipidsupp"
+mbpost_id = "MPST000052"
+source_file = "MPST000052.xlsx"
+sheet = "C2C12_OA_lipidsupp"
+features_in = "rows"
+n_features = 206
+n_samples = 15
+sample = [
+    { assay = 1, name = "C2C12_D0_1_neg_057.lcd", column = "AH" },
+    { assay = 2, name = "C2C12_D0_2_neg_058.lcd", column = "AI" },
+    { assay = 3, name = "C2C12_D0_3_neg_059.lcd", column = "AJ" },
+    { assay = 4, name = "C2C12_DMSO_BSA_D3_1_neg_060.lcd", column = "AK" },
+    { assay = 5, name = "C2C12_DMSO_BSA_D3_2_neg_061.lcd", column = "AL" },
+    { assay = 6, name = "C2C12_DMSO_BSA_D3_3_neg_062.lcd", column = "AM" },
+    { assay = 7, name = "C2C12_DMSO_LA_D3_1_neg_066.lcd", column = "AN" },
+    { assay = 8, name = "C2C12_DMSO_LA_D3_2_neg_067.lcd", column = "AO" },
+    { assay = 9, name = "C2C12_DMSO_LA_D3_3_neg_068.lcd", column = "AP" },
+    { assay = 10, name = "C2C12_OligomycinA_BSA_D3_1_neg_075.lcd", column = "AQ" },
+    { assay = 11, name = "C2C12_OligomycinA_BSA_D3_2_neg_076.lcd", column = "AR" },
+    { assay = 12, name = "C2C12_OligomycinA_BSA_D3_3_neg_077.lcd", column = "AS" },
+    { assay = 13, name = "C2C12_OligomycinA_LA_D3_1_neg_078.lcd", column = "AT" },
+    { assay = 14, name = "C2C12_OligomycinA_LA_D3_2_neg_079.lcd", column = "AU" },
+    { assay = 15, name = "C2C12_OligomycinA_LA_D3_3_neg_080.lcd", column = "AV" },
+]

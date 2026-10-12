@@ -1,0 +1,31 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000019.xlsx"
+mbpost_id = "MPST000019"
+n_tables = 1
+
+[[table]]
+id = "MPST000019"
+mbpost_id = "MPST000019"
+source_file = "MPST000019.xlsx"
+sheet = "Sheet1"
+features_in = "rows"
+n_features = 80
+n_samples = 15
+unit = "μM"
+sample = [
+    { assay = 1, name = "PCIH31", column = "B" },
+    { assay = 2, name = "PCIH32", column = "C" },
+    { assay = 3, name = "PCIH33", column = "D" },
+    { assay = 4, name = "PCN31", column = "E" },
+    { assay = 5, name = "PCN32", column = "F" },
+    { assay = 6, name = "PCN33", column = "G" },
+    { assay = 7, name = "PEH21", column = "H" },
+    { assay = 8, name = "PEH22", column = "I" },
+    { assay = 9, name = "PEH23", column = "J" },
+    { assay = 10, name = "PEN21", column = "K" },
+    { assay = 11, name = "PEN22", column = "L" },
+    { assay = 12, name = "PEN23", column = "M" },
+    { assay = 13, name = "M21", column = "N" },
+    { assay = 14, name = "M22", column = "O" },
+    { assay = 15, name = "M23", column = "P" },
+]

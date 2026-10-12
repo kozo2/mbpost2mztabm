@@ -1,0 +1,317 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000083.xlsx"
+mbpost_id = "MPST000083"
+n_tables = 2
+
+[[table]]
+id = "MPST000083#Peak area"
+mbpost_id = "MPST000083"
+source_file = "MPST000083.xlsx"
+sheet = "Results"
+features_in = "rows"
+n_features = 128
+n_samples = 32
+description = "Table. Quantitaive lipidomic profile data of 115 lipids in neutrophils."
+block = "Peak area"
+
+[[table.sample]]
+assay = 1
+name = "WT_0 min_1"
+column = "L"
+
+[table.sample.attributes]
+header_2 = "0.08862053333333333"
+
+[[table.sample]]
+assay = 2
+name = "WT_0 min_2"
+column = "M"
+
+[table.sample.attributes]
+header_2 = "0.05163213333333333"
+
+[[table.sample]]
+assay = 3
+name = "WT_0 min_3"
+column = "N"
+
+[table.sample.attributes]
+header_2 = "0.07074973333333333"
+
+[[table.sample]]
+assay = 4
+name = "WT_0 min_4"
+column = "O"
+
+[table.sample.attributes]
+header_2 = "0.044566933333333336"
+
+[[table.sample]]
+assay = 5
+name = "WT_5 min_1"
+column = "P"
+
+[table.sample.attributes]
+header_2 = "0.06410013333333334"
+
+[[table.sample]]
+assay = 6
+name = "WT_5 min_2"
+column = "Q"
+
+[table.sample.attributes]
+header_2 = "0.052878933333333336"
+
+[[table.sample]]
+assay = 7
+name = "WT_5 min_3"
+column = "R"
+
+[table.sample.attributes]
+header_2 = "0.06950293333333334"
+
+[[table.sample]]
+assay = 8
+name = "WT_5 min_4"
+column = "S"
+
+[table.sample.attributes]
+header_2 = "0.061606533333333324"
+
+[[table.sample]]
+assay = 9
+name = "WT_10 min_1"
+column = "T"
+
+[table.sample.attributes]
+header_2 = "0.06326893333333333"
+
+[[table.sample]]
+assay = 10
+name = "WT_10 min_2"
+column = "U"
+
+[table.sample.attributes]
+header_2 = "0.05121653333333333"
+
+[[table.sample]]
+assay = 11
+name = "WT_10 min_3"
+column = "V"
+
+[table.sample.attributes]
+header_2 = "0.07074973333333333"
+
+[[table.sample]]
+assay = 12
+name = "WT_10 min_4"
+column = "W"
+
+[table.sample.attributes]
+header_2 = "0.04498253333333333"
+
+[[table.sample]]
+assay = 13
+name = "WT_30 min_1"
+column = "X"
+
+[table.sample.attributes]
+header_2 = "0.05578813333333334"
+
+[[table.sample]]
+assay = 14
+name = "WT_30 min_2"
+column = "Y"
+
+[table.sample.attributes]
+header_2 = "0.05745053333333333"
+
+[[table.sample]]
+assay = 15
+name = "WT_30 min_3"
+column = "Z"
+
+[table.sample.attributes]
+header_2 = "0.07282773333333334"
+
+[[table.sample]]
+assay = 16
+name = "WT_30 min_4"
+column = "AA"
+
+[table.sample.attributes]
+header_2 = "0.04622933333333334"
+
+[[table.sample]]
+assay = 17
+name = "KO_0 min_1"
+column = "AB"
+
+[table.sample.attributes]
+header_2 = "0.07199653333333333"
+
+[[table.sample]]
+assay = 18
+name = "KO_0 min_2"
+column = "AC"
+
+[table.sample.attributes]
+header_2 = "0.052878933333333336"
+
+[[table.sample]]
+assay = 19
+name = "KO_0 min_3"
+column = "AD"
+
+[table.sample.attributes]
+header_2 = "0.05745053333333333"
+
+[[table.sample]]
+assay = 20
+name = "KO_0 min_4"
+column = "AE"
+
+[table.sample.attributes]
+header_2 = "0.061606533333333324"
+
+[[table.sample]]
+assay = 21
+name = "KO_5 min_1"
+column = "AF"
+
+[table.sample.attributes]
+header_2 = "0.07324333333333334"
+
+[[table.sample]]
+assay = 22
+name = "KO_5 min_2"
+column = "AG"
+
+[table.sample.attributes]
+header_2 = "0.05204773333333334"
+
+[[table.sample]]
+assay = 23
+name = "KO_5 min_3"
+column = "AH"
+
+[table.sample.attributes]
+header_2 = "0.05786613333333334"
+
+[[table.sample]]
+assay = 24
+name = "KO_5 min_4"
+column = "AI"
+
+[table.sample.attributes]
+header_2 = "0.04747613333333333"
+
+[[table.sample]]
+assay = 25
+name = "KO_10 min_1"
+column = "AJ"
+
+[table.sample.attributes]
+header_2 = "0.07199653333333333"
+
+[[table.sample]]
+assay = 26
+name = "KO_10 min_2"
+column = "AK"
+
+[table.sample.attributes]
+header_2 = "0.052463333333333334"
+
+[[table.sample]]
+assay = 27
+name = "KO_10 min_3"
+column = "AL"
+
+[table.sample.attributes]
+header_2 = "0.05994413333333333"
+
+[[table.sample]]
+assay = 28
+name = "KO_10 min_4"
+column = "AM"
+
+[table.sample.attributes]
+header_2 = "0.04789173333333333"
+
+[[table.sample]]
+assay = 29
+name = "KO_30 min_1"
+column = "AN"
+
+[table.sample.attributes]
+header_2 = "0.07158093333333335"
+
+[[table.sample]]
+assay = 30
+name = "KO_30 min_2"
+column = "AO"
+
+[table.sample.attributes]
+header_2 = "0.05371013333333333"
+
+[[table.sample]]
+assay = 31
+name = "KO_30 min_3"
+column = "AP"
+
+[table.sample.attributes]
+header_2 = "0.06243773333333333"
+
+[[table.sample]]
+assay = 32
+name = "KO_30 min_4"
+column = "AQ"
+
+[table.sample.attributes]
+header_2 = "0.04581373333333334"
+
+[[table]]
+id = "MPST000083#Quantitative values for each lipid molecule (pmol/mg-protein)"
+mbpost_id = "MPST000083"
+source_file = "MPST000083.xlsx"
+sheet = "Results"
+features_in = "rows"
+n_features = 115
+n_samples = 32
+unit = "pmol/mg-protein"
+description = "Table. Quantitaive lipidomic profile data of 115 lipids in neutrophils."
+block = "Quantitative values for each lipid molecule (pmol/mg-protein)"
+sample = [
+    { assay = 1, name = "WT_0 min_1", column = "AT" },
+    { assay = 2, name = "WT_0 min_2", column = "AU" },
+    { assay = 3, name = "WT_0 min_3", column = "AV" },
+    { assay = 4, name = "WT_0 min_4", column = "AW" },
+    { assay = 5, name = "WT_5 min_1", column = "AX" },
+    { assay = 6, name = "WT_5 min_2", column = "AY" },
+    { assay = 7, name = "WT_5 min_3", column = "AZ" },
+    { assay = 8, name = "WT_5 min_4", column = "BA" },
+    { assay = 9, name = "WT_10 min_1", column = "BB" },
+    { assay = 10, name = "WT_10 min_2", column = "BC" },
+    { assay = 11, name = "WT_10 min_3", column = "BD" },
+    { assay = 12, name = "WT_10 min_4", column = "BE" },
+    { assay = 13, name = "WT_30 min_1", column = "BF" },
+    { assay = 14, name = "WT_30 min_2", column = "BG" },
+    { assay = 15, name = "WT_30 min_3", column = "BH" },
+    { assay = 16, name = "WT_30 min_4", column = "BI" },
+    { assay = 17, name = "KO_0 min_1", column = "BJ" },
+    { assay = 18, name = "KO_0 min_2", column = "BK" },
+    { assay = 19, name = "KO_0 min_3", column = "BL" },
+    { assay = 20, name = "KO_0 min_4", column = "BM" },
+    { assay = 21, name = "KO_5 min_1", column = "BN" },
+    { assay = 22, name = "KO_5 min_2", column = "BO" },
+    { assay = 23, name = "KO_5 min_3", column = "BP" },
+    { assay = 24, name = "KO_5 min_4", column = "BQ" },
+    { assay = 25, name = "KO_10 min_1", column = "BR" },
+    { assay = 26, name = "KO_10 min_2", column = "BS" },
+    { assay = 27, name = "KO_10 min_3", column = "BT" },
+    { assay = 28, name = "KO_10 min_4", column = "BU" },
+    { assay = 29, name = "KO_30 min_1", column = "BV" },
+    { assay = 30, name = "KO_30 min_2", column = "BW" },
+    { assay = 31, name = "KO_30 min_3", column = "BX" },
+    { assay = 32, name = "KO_30 min_4", column = "BY" },
+]

@@ -1,0 +1,133 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000063.xlsx"
+mbpost_id = "MPST000063"
+n_tables = 1
+
+[[table]]
+id = "MPST000063"
+mbpost_id = "MPST000063"
+source_file = "MPST000063.xlsx"
+sheet = "Height"
+features_in = "rows"
+n_features = 132
+n_samples = 12
+
+[[table.sample]]
+assay = 1
+name = "200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_QC_Pos_01"
+column = "AG"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "1"
+
+[[table.sample]]
+assay = 2
+name = "200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_QC_Pos_02"
+column = "AH"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "12"
+
+[[table.sample]]
+assay = 3
+name = "200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_WT01_Pos"
+column = "AI"
+
+[table.sample.attributes]
+Class = "WT1"
+"File type" = "Sample"
+"Injection order" = "2"
+
+[[table.sample]]
+assay = 4
+name = "200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_WT02_Pos"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "WT2"
+"File type" = "Sample"
+"Injection order" = "3"
+
+[[table.sample]]
+assay = 5
+name = "200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_WT03_Pos"
+column = "AK"
+
+[table.sample.attributes]
+Class = "WT3"
+"File type" = "Sample"
+"Injection order" = "4"
+
+[[table.sample]]
+assay = 6
+name = "200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_WT04_Pos"
+column = "AL"
+
+[table.sample.attributes]
+Class = "WT4"
+"File type" = "Sample"
+"Injection order" = "5"
+
+[[table.sample]]
+assay = 7
+name = "200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_WT05_Pos"
+column = "AM"
+
+[table.sample.attributes]
+Class = "WT5"
+"File type" = "Sample"
+"Injection order" = "6"
+
+[[table.sample]]
+assay = 8
+name = "200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_WT06_Pos"
+column = "AN"
+
+[table.sample.attributes]
+Class = "WT6"
+"File type" = "Sample"
+"Injection order" = "7"
+
+[[table.sample]]
+assay = 9
+name = "200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_RL01_Pos"
+column = "AP"
+
+[table.sample.attributes]
+Class = "Reelin1"
+"File type" = "Sample"
+"Injection order" = "8"
+
+[[table.sample]]
+assay = 10
+name = "200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_RL02_Pos"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "Reelin2"
+"File type" = "Sample"
+"Injection order" = "9"
+
+[[table.sample]]
+assay = 11
+name = "200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_RL03_Pos"
+column = "AR"
+
+[table.sample.attributes]
+Class = "Reelin3"
+"File type" = "Sample"
+"Injection order" = "10"
+
+[[table.sample]]
+assay = 12
+name = "200925_TT2_Iclass_NagoyaCityUniHattori_Reelin_RL04_Pos"
+column = "AS"
+
+[table.sample.attributes]
+Class = "Reelin4"
+"File type" = "Sample"
+"Injection order" = "11"

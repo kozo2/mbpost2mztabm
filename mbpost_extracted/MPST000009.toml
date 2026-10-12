@@ -1,0 +1,18 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000009.txt"
+mbpost_id = "MPST000009"
+n_tables = 1
+
+[[table]]
+id = "MPST000009"
+mbpost_id = "MPST000009"
+source_file = "MPST000009.txt"
+features_in = "rows"
+n_features = 113
+n_samples = 4
+sample = [
+    { assay = 1, name = "BY4947", column = "B" },
+    { assay = 2, name = "QA23", column = "C" },
+    { assay = 3, name = "RedStar", column = "D" },
+    { assay = 4, name = "Kyokai 7", column = "E" },
+]

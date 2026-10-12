@@ -1,0 +1,60 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000130.xlsx"
+mbpost_id = "MPST000130"
+n_tables = 2
+
+[[table]]
+id = "MPST000130#Sample (peak area, cell number)"
+mbpost_id = "MPST000130"
+source_file = "MPST000130.xlsx"
+sheet = "Relative peak area"
+features_in = "rows"
+n_features = 9
+n_samples = 17
+block = "Sample (peak area, cell number)"
+sample = [
+    { assay = 1, name = "ProcedureBLK_01", column = "H" },
+    { assay = 2, name = "ProcedureBLK_02", column = "I" },
+    { assay = 3, name = "Spleen_1", column = "J" },
+    { assay = 4, name = "Spleen_2", column = "K" },
+    { assay = 5, name = "Spleen_3", column = "L" },
+    { assay = 6, name = "Thymus_1", column = "M" },
+    { assay = 7, name = "Thymus_2", column = "N" },
+    { assay = 8, name = "Thymus_3", column = "O" },
+    { assay = 9, name = "Intestine_1", column = "P" },
+    { assay = 10, name = "Intestine_2", column = "Q" },
+    { assay = 11, name = "Intestine_3", column = "R" },
+    { assay = 12, name = "Tumor (a8-1)", column = "S" },
+    { assay = 13, name = "Tumor (a8-2)", column = "T" },
+    { assay = 14, name = "Tumor (a8-3)", column = "U" },
+    { assay = 15, name = "Tumor (cl.9-1)", column = "V" },
+    { assay = 16, name = "Tumor (cl.9-2)", column = "W" },
+    { assay = 17, name = "Tumor (cl.9-3)", column = "X" },
+]
+
+[[table]]
+id = "MPST000130#Relative peak area (analyte/IS/sample amount)"
+mbpost_id = "MPST000130"
+source_file = "MPST000130.xlsx"
+sheet = "Relative peak area"
+features_in = "rows"
+n_features = 7
+n_samples = 15
+block = "Relative peak area (analyte/IS/sample amount)"
+sample = [
+    { assay = 1, name = "Spleen_1", column = "Z" },
+    { assay = 2, name = "Spleen_2", column = "AA" },
+    { assay = 3, name = "Spleen_3", column = "AB" },
+    { assay = 4, name = "Thymus_1", column = "AC" },
+    { assay = 5, name = "Thymus_2", column = "AD" },
+    { assay = 6, name = "Thymus_3", column = "AE" },
+    { assay = 7, name = "Intestine_1", column = "AF" },
+    { assay = 8, name = "Intestine_2", column = "AG" },
+    { assay = 9, name = "Intestine_3", column = "AH" },
+    { assay = 10, name = "Tumor (a8-1)", column = "AI" },
+    { assay = 11, name = "Tumor (a8-2)", column = "AJ" },
+    { assay = 12, name = "Tumor (a8-3)", column = "AK" },
+    { assay = 13, name = "Tumor (cl.9-1)", column = "AL" },
+    { assay = 14, name = "Tumor (cl.9-2)", column = "AM" },
+    { assay = 15, name = "Tumor (cl.9-3)", column = "AN" },
+]

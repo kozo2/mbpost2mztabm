@@ -1,0 +1,288 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000062.xlsx"
+mbpost_id = "MPST000062"
+n_tables = 2
+
+[[table]]
+id = "MPST000062#Explants"
+mbpost_id = "MPST000062"
+source_file = "MPST000062.xlsx"
+sheet = "Explants"
+features_in = "rows"
+n_features = 551
+n_samples = 15
+unit = "μM"
+
+[[table.sample]]
+assay = 1
+name = "VE1"
+column = "F"
+
+[table.sample.attributes]
+header_1 = "Explants of Ventral Marginal Zone"
+
+[[table.sample]]
+assay = 2
+name = "VE2"
+column = "G"
+
+[table.sample.attributes]
+header_1 = "Explants of Ventral Marginal Zone"
+
+[[table.sample]]
+assay = 3
+name = "VE3"
+column = "H"
+
+[table.sample.attributes]
+header_1 = "Explants of Ventral Marginal Zone"
+
+[[table.sample]]
+assay = 4
+name = "VE4"
+column = "I"
+
+[table.sample.attributes]
+header_1 = "Explants of Ventral Marginal Zone"
+
+[[table.sample]]
+assay = 5
+name = "VE5"
+column = "J"
+
+[table.sample.attributes]
+header_1 = "Explants of Ventral Marginal Zone"
+
+[[table.sample]]
+assay = 6
+name = "VE6"
+column = "K"
+
+[table.sample.attributes]
+header_1 = "Explants of Ventral Marginal Zone"
+
+[[table.sample]]
+assay = 7
+name = "DE1"
+column = "L"
+
+[table.sample.attributes]
+header_1 = "Explants of Dorsal Marginal Zone"
+
+[[table.sample]]
+assay = 8
+name = "DE2"
+column = "M"
+
+[table.sample.attributes]
+header_1 = "Explants of Dorsal Marginal Zone"
+
+[[table.sample]]
+assay = 9
+name = "DE3"
+column = "N"
+
+[table.sample.attributes]
+header_1 = "Explants of Dorsal Marginal Zone"
+
+[[table.sample]]
+assay = 10
+name = "DE4"
+column = "O"
+
+[table.sample.attributes]
+header_1 = "Explants of Dorsal Marginal Zone"
+
+[[table.sample]]
+assay = 11
+name = "DE5"
+column = "P"
+
+[table.sample.attributes]
+header_1 = "Explants of Dorsal Marginal Zone"
+
+[[table.sample]]
+assay = 12
+name = "DE6"
+column = "Q"
+
+[table.sample.attributes]
+header_1 = "Explants of Dorsal Marginal Zone"
+
+[[table.sample]]
+assay = 13
+name = "Tblank1"
+column = "R"
+
+[table.sample.attributes]
+header_1 = "Sample preparation blank"
+
+[[table.sample]]
+assay = 14
+name = "Tblank2"
+column = "S"
+
+[table.sample.attributes]
+header_1 = "Sample preparation blank"
+
+[[table.sample]]
+assay = 15
+name = "Tblank3"
+column = "T"
+
+[table.sample.attributes]
+header_1 = "Sample preparation blank"
+
+[[table]]
+id = "MPST000062#Supernatant"
+mbpost_id = "MPST000062"
+source_file = "MPST000062.xlsx"
+sheet = "Supernatant"
+features_in = "rows"
+n_features = 551
+n_samples = 18
+unit = "μM"
+
+[[table.sample]]
+assay = 1
+name = "VS1"
+column = "F"
+
+[table.sample.attributes]
+header_1 = "Supernatant of Ventral Marginal Zone"
+
+[[table.sample]]
+assay = 2
+name = "VS2"
+column = "G"
+
+[table.sample.attributes]
+header_1 = "Supernatant of Ventral Marginal Zone"
+
+[[table.sample]]
+assay = 3
+name = "VS3"
+column = "H"
+
+[table.sample.attributes]
+header_1 = "Supernatant of Ventral Marginal Zone"
+
+[[table.sample]]
+assay = 4
+name = "VS4"
+column = "I"
+
+[table.sample.attributes]
+header_1 = "Supernatant of Ventral Marginal Zone"
+
+[[table.sample]]
+assay = 5
+name = "VS5"
+column = "J"
+
+[table.sample.attributes]
+header_1 = "Supernatant of Ventral Marginal Zone"
+
+[[table.sample]]
+assay = 6
+name = "VS6"
+column = "K"
+
+[table.sample.attributes]
+header_1 = "Supernatant of Ventral Marginal Zone"
+
+[[table.sample]]
+assay = 7
+name = "DS1"
+column = "L"
+
+[table.sample.attributes]
+header_1 = "Supernatant of Dorsal Marginal Zone"
+
+[[table.sample]]
+assay = 8
+name = "DS2"
+column = "M"
+
+[table.sample.attributes]
+header_1 = "Supernatant of Dorsal Marginal Zone"
+
+[[table.sample]]
+assay = 9
+name = "DS3"
+column = "N"
+
+[table.sample.attributes]
+header_1 = "Supernatant of Dorsal Marginal Zone"
+
+[[table.sample]]
+assay = 10
+name = "DS4"
+column = "O"
+
+[table.sample.attributes]
+header_1 = "Supernatant of Dorsal Marginal Zone"
+
+[[table.sample]]
+assay = 11
+name = "DS5"
+column = "P"
+
+[table.sample.attributes]
+header_1 = "Supernatant of Dorsal Marginal Zone"
+
+[[table.sample]]
+assay = 12
+name = "DS6"
+column = "Q"
+
+[table.sample.attributes]
+header_1 = "Supernatant of Dorsal Marginal Zone"
+
+[[table.sample]]
+assay = 13
+name = "SS1"
+column = "R"
+
+[table.sample.attributes]
+header_1 = "Steinberg’s solution"
+
+[[table.sample]]
+assay = 14
+name = "SS2"
+column = "S"
+
+[table.sample.attributes]
+header_1 = "Steinberg’s solution"
+
+[[table.sample]]
+assay = 15
+name = "SS3"
+column = "T"
+
+[table.sample.attributes]
+header_1 = "Steinberg’s solution"
+
+[[table.sample]]
+assay = 16
+name = "SS4"
+column = "U"
+
+[table.sample.attributes]
+header_1 = "Steinberg’s solution"
+
+[[table.sample]]
+assay = 17
+name = "SS5"
+column = "V"
+
+[table.sample.attributes]
+header_1 = "Steinberg’s solution"
+
+[[table.sample]]
+assay = 18
+name = "SS6"
+column = "W"
+
+[table.sample.attributes]
+header_1 = "Steinberg’s solution"

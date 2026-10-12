@@ -1,0 +1,158 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000106.xlsx"
+mbpost_id = "MPST000106"
+n_tables = 1
+
+[[table]]
+id = "MPST000106"
+mbpost_id = "MPST000106"
+source_file = "MPST000106.xlsx"
+sheet = "相対定量結果のまとめ"
+features_in = "rows"
+n_features = 196
+n_samples = 16
+description = "Relative quantification of hydrophilic metabolites measured by IC/HRMS/MS, PFPP-LC/HRMS/MS, and C18-LC/HRMS/MS analyses"
+
+[[table.sample]]
+assay = 1
+name = "1"
+column = "K"
+
+[table.sample.attributes]
+header_1 = "Dnmt1 flox/flox"
+header_2 = "Male"
+
+[[table.sample]]
+assay = 2
+name = "2"
+column = "L"
+
+[table.sample.attributes]
+header_1 = "Dnmt1 flox/flox"
+header_2 = "Male"
+
+[[table.sample]]
+assay = 3
+name = "3"
+column = "M"
+
+[table.sample.attributes]
+header_1 = "Dnmt1 flox/flox"
+header_2 = "Male"
+
+[[table.sample]]
+assay = 4
+name = "4"
+column = "N"
+
+[table.sample.attributes]
+header_1 = "Dnmt1 flox/flox"
+header_2 = "Female"
+
+[[table.sample]]
+assay = 5
+name = "5"
+column = "O"
+
+[table.sample.attributes]
+header_1 = "Dnmt1 flox/flox"
+header_2 = "Female"
+
+[[table.sample]]
+assay = 6
+name = "6"
+column = "P"
+
+[table.sample.attributes]
+header_1 = "Dnmt1 flox/flox"
+header_2 = "Female"
+
+[[table.sample]]
+assay = 7
+name = "7"
+column = "Q"
+
+[table.sample.attributes]
+header_1 = "Dnmt1 flox/flox"
+header_2 = "Female"
+
+[[table.sample]]
+assay = 8
+name = "8"
+column = "R"
+
+[table.sample.attributes]
+header_1 = "Prx1-Cre; Dnmt1 flox/flox"
+header_2 = "Female"
+
+[[table.sample]]
+assay = 9
+name = "9"
+column = "S"
+
+[table.sample.attributes]
+header_1 = "Prx1-Cre; Dnmt1 flox/flox"
+header_2 = "Male"
+
+[[table.sample]]
+assay = 10
+name = "10"
+column = "T"
+
+[table.sample.attributes]
+header_1 = "Prx1-Cre; Dnmt1 flox/flox"
+header_2 = "Male"
+
+[[table.sample]]
+assay = 11
+name = "11"
+column = "U"
+
+[table.sample.attributes]
+header_1 = "Prx1-Cre; Dnmt1 flox/flox"
+header_2 = "Male"
+
+[[table.sample]]
+assay = 12
+name = "12"
+column = "V"
+
+[table.sample.attributes]
+header_1 = "Prx1-Cre; Dnmt1 flox/flox"
+header_2 = "Male"
+
+[[table.sample]]
+assay = 13
+name = "13"
+column = "W"
+
+[table.sample.attributes]
+header_1 = "Prx1-Cre; Dnmt1 flox/flox"
+header_2 = "Male"
+
+[[table.sample]]
+assay = 14
+name = "14"
+column = "X"
+
+[table.sample.attributes]
+header_1 = "Prx1-Cre; Dnmt1 flox/flox"
+header_2 = "Male"
+
+[[table.sample]]
+assay = 15
+name = "15"
+column = "Y"
+
+[table.sample.attributes]
+header_1 = "Prx1-Cre; Dnmt1 flox/flox"
+header_2 = "Male"
+
+[[table.sample]]
+assay = 16
+name = "16"
+column = "Z"
+
+[table.sample.attributes]
+header_1 = "Prx1-Cre; Dnmt1 flox/flox"
+header_2 = "Male"

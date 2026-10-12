@@ -1,0 +1,26 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000011.txt"
+mbpost_id = "MPST000011"
+n_tables = 1
+
+[[table]]
+id = "MPST000011"
+mbpost_id = "MPST000011"
+source_file = "MPST000011.txt"
+features_in = "rows"
+n_features = 441
+n_samples = 12
+sample = [
+    { assay = 1, name = "30°C_0.5h_1", column = "F" },
+    { assay = 2, name = "30°C_0.5h_2", column = "G" },
+    { assay = 3, name = "30°C_0.5h_3", column = "H" },
+    { assay = 4, name = "10°C_0.5h_1", column = "I" },
+    { assay = 5, name = "10°C_0.5h_2", column = "J" },
+    { assay = 6, name = "10°C_0.5h_3", column = "K" },
+    { assay = 7, name = "30°C_3h_1", column = "L" },
+    { assay = 8, name = "30°C_3h_2", column = "M" },
+    { assay = 9, name = "30°C_3h_3", column = "N" },
+    { assay = 10, name = "10°C_3h_1", column = "O" },
+    { assay = 11, name = "10°C_3h_2", column = "P" },
+    { assay = 12, name = "10°C_3h_3", column = "Q" },
+]

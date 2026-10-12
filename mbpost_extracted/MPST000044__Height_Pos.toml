@@ -1,0 +1,1072 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000044__Height_Pos.txt"
+mbpost_id = "MPST000044"
+n_tables = 1
+
+[[table]]
+id = "MPST000044__Height_Pos"
+mbpost_id = "MPST000044"
+source_file = "MPST000044__Height_Pos.txt"
+features_in = "rows"
+n_features = 12327
+n_samples = 106
+
+[[table.sample]]
+assay = 1
+name = "240828_Tomita_1_pos"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "Bthe"
+"File type" = "Sample"
+"Injection order" = "1"
+
+[[table.sample]]
+assay = 2
+name = "240828_Tomita_10_pos"
+column = "AK"
+
+[table.sample.attributes]
+Class = "Efae"
+"File type" = "Sample"
+"Injection order" = "10"
+
+[[table.sample]]
+assay = 3
+name = "240828_Tomita_100_pos"
+column = "AL"
+
+[table.sample.attributes]
+Class = "Elen"
+"File type" = "Sample"
+"Injection order" = "100"
+
+[[table.sample]]
+assay = 4
+name = "240828_Tomita_101_pos"
+column = "AM"
+
+[table.sample.attributes]
+Class = "Elen"
+"File type" = "Sample"
+"Injection order" = "101"
+
+[[table.sample]]
+assay = 5
+name = "240828_Tomita_102_pos"
+column = "AN"
+
+[table.sample.attributes]
+Class = "Elen"
+"File type" = "Sample"
+"Injection order" = "102"
+
+[[table.sample]]
+assay = 6
+name = "240828_Tomita_103_pos"
+column = "AO"
+
+[table.sample.attributes]
+Class = "Csci"
+"File type" = "Sample"
+"Injection order" = "103"
+
+[[table.sample]]
+assay = 7
+name = "240828_Tomita_104_pos"
+column = "AP"
+
+[table.sample.attributes]
+Class = "Csci"
+"File type" = "Sample"
+"Injection order" = "104"
+
+[[table.sample]]
+assay = 8
+name = "240828_Tomita_105_pos"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "Csci"
+"File type" = "Sample"
+"Injection order" = "105"
+
+[[table.sample]]
+assay = 9
+name = "240828_Tomita_106_pos"
+column = "AR"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "106"
+
+[[table.sample]]
+assay = 10
+name = "240828_Tomita_11_pos"
+column = "AS"
+
+[table.sample.attributes]
+Class = "Ef"
+"File type" = "Sample"
+"Injection order" = "11"
+
+[[table.sample]]
+assay = 11
+name = "240828_Tomita_12_pos"
+column = "AT"
+
+[table.sample.attributes]
+Class = "Ef"
+"File type" = "Sample"
+"Injection order" = "12"
+
+[[table.sample]]
+assay = 12
+name = "240828_Tomita_13_pos"
+column = "AU"
+
+[table.sample.attributes]
+Class = "Pjoh"
+"File type" = "Sample"
+"Injection order" = "13"
+
+[[table.sample]]
+assay = 13
+name = "240828_Tomita_14_pos"
+column = "AV"
+
+[table.sample.attributes]
+Class = "Pjoh"
+"File type" = "Sample"
+"Injection order" = "14"
+
+[[table.sample]]
+assay = 14
+name = "240828_Tomita_15_pos"
+column = "AW"
+
+[table.sample.attributes]
+Class = "Pjoh"
+"File type" = "Sample"
+"Injection order" = "15"
+
+[[table.sample]]
+assay = 15
+name = "240828_Tomita_16_pos"
+column = "AX"
+
+[table.sample.attributes]
+Class = "Bova"
+"File type" = "Sample"
+"Injection order" = "16"
+
+[[table.sample]]
+assay = 16
+name = "240828_Tomita_17_pos"
+column = "AY"
+
+[table.sample.attributes]
+Class = "Bova"
+"File type" = "Sample"
+"Injection order" = "17"
+
+[[table.sample]]
+assay = 17
+name = "240828_Tomita_18_pos"
+column = "AZ"
+
+[table.sample.attributes]
+Class = "Bova"
+"File type" = "Sample"
+"Injection order" = "18"
+
+[[table.sample]]
+assay = 18
+name = "240828_Tomita_19_pos"
+column = "BA"
+
+[table.sample.attributes]
+Class = "Bcac"
+"File type" = "Sample"
+"Injection order" = "19"
+
+[[table.sample]]
+assay = 19
+name = "240828_Tomita_2_pos"
+column = "BB"
+
+[table.sample.attributes]
+Class = "Bthe"
+"File type" = "Sample"
+"Injection order" = "2"
+
+[[table.sample]]
+assay = 20
+name = "240828_Tomita_20_pos"
+column = "BC"
+
+[table.sample.attributes]
+Class = "Bcac"
+"File type" = "Sample"
+"Injection order" = "20"
+
+[[table.sample]]
+assay = 21
+name = "240828_Tomita_21_pos"
+column = "BD"
+
+[table.sample.attributes]
+Class = "Bcac"
+"File type" = "Sample"
+"Injection order" = "21"
+
+[[table.sample]]
+assay = 22
+name = "240828_Tomita_22_pos"
+column = "BE"
+
+[table.sample.attributes]
+Class = "Erec"
+"File type" = "Sample"
+"Injection order" = "22"
+
+[[table.sample]]
+assay = 23
+name = "240828_Tomita_23_pos"
+column = "BF"
+
+[table.sample.attributes]
+Class = "Erec"
+"File type" = "Sample"
+"Injection order" = "23"
+
+[[table.sample]]
+assay = 24
+name = "240828_Tomita_24_pos"
+column = "BG"
+
+[table.sample.attributes]
+Class = "Erec"
+"File type" = "Sample"
+"Injection order" = "24"
+
+[[table.sample]]
+assay = 25
+name = "240828_Tomita_25_pos"
+column = "BH"
+
+[table.sample.attributes]
+Class = "Caer"
+"File type" = "Sample"
+"Injection order" = "25"
+
+[[table.sample]]
+assay = 26
+name = "240828_Tomita_26_pos"
+column = "BI"
+
+[table.sample.attributes]
+Class = "Caer"
+"File type" = "Sample"
+"Injection order" = "26"
+
+[[table.sample]]
+assay = 27
+name = "240828_Tomita_27_pos"
+column = "BJ"
+
+[table.sample.attributes]
+Class = "Caer"
+"File type" = "Sample"
+"Injection order" = "27"
+
+[[table.sample]]
+assay = 28
+name = "240828_Tomita_28_pos"
+column = "BK"
+
+[table.sample.attributes]
+Class = "Ecol"
+"File type" = "Sample"
+"Injection order" = "28"
+
+[[table.sample]]
+assay = 29
+name = "240828_Tomita_29_pos"
+column = "BL"
+
+[table.sample.attributes]
+Class = "Ecol"
+"File type" = "Sample"
+"Injection order" = "29"
+
+[[table.sample]]
+assay = 30
+name = "240828_Tomita_3_pos"
+column = "BM"
+
+[table.sample.attributes]
+Class = "Bthe"
+"File type" = "Sample"
+"Injection order" = "3"
+
+[[table.sample]]
+assay = 31
+name = "240828_Tomita_30_pos"
+column = "BN"
+
+[table.sample.attributes]
+Class = "Ecol"
+"File type" = "Sample"
+"Injection order" = "30"
+
+[[table.sample]]
+assay = 32
+name = "240828_Tomita_31_pos"
+column = "BO"
+
+[table.sample.attributes]
+Class = "Bfra"
+"File type" = "Sample"
+"Injection order" = "31"
+
+[[table.sample]]
+assay = 33
+name = "240828_Tomita_32_pos"
+column = "BP"
+
+[table.sample.attributes]
+Class = "Bfra"
+"File type" = "Sample"
+"Injection order" = "32"
+
+[[table.sample]]
+assay = 34
+name = "240828_Tomita_33_pos"
+column = "BQ"
+
+[table.sample.attributes]
+Class = "Bfra"
+"File type" = "Sample"
+"Injection order" = "33"
+
+[[table.sample]]
+assay = 35
+name = "240828_Tomita_34_pos"
+column = "BR"
+
+[table.sample.attributes]
+Class = "Kpne"
+"File type" = "Sample"
+"Injection order" = "34"
+
+[[table.sample]]
+assay = 36
+name = "240828_Tomita_35_pos"
+column = "BS"
+
+[table.sample.attributes]
+Class = "Kpne"
+"File type" = "Sample"
+"Injection order" = "35"
+
+[[table.sample]]
+assay = 37
+name = "240828_Tomita_36_pos"
+column = "BT"
+
+[table.sample.attributes]
+Class = "Kpne"
+"File type" = "Sample"
+"Injection order" = "36"
+
+[[table.sample]]
+assay = 38
+name = "240828_Tomita_37_pos"
+column = "BU"
+
+[table.sample.attributes]
+Class = "Lp1"
+"File type" = "Sample"
+"Injection order" = "37"
+
+[[table.sample]]
+assay = 39
+name = "240828_Tomita_38_pos"
+column = "BV"
+
+[table.sample.attributes]
+Class = "Lp1"
+"File type" = "Sample"
+"Injection order" = "38"
+
+[[table.sample]]
+assay = 40
+name = "240828_Tomita_39_pos"
+column = "BW"
+
+[table.sample.attributes]
+Class = "Lp1"
+"File type" = "Sample"
+"Injection order" = "39"
+
+[[table.sample]]
+assay = 41
+name = "240828_Tomita_4_pos"
+column = "BX"
+
+[table.sample.attributes]
+Class = "Bvlu"
+"File type" = "Sample"
+"Injection order" = "4"
+
+[[table.sample]]
+assay = 42
+name = "240828_Tomita_40_pos"
+column = "BY"
+
+[table.sample.attributes]
+Class = "Lp6"
+"File type" = "Sample"
+"Injection order" = "40"
+
+[[table.sample]]
+assay = 43
+name = "240828_Tomita_41_pos"
+column = "BZ"
+
+[table.sample.attributes]
+Class = "Lp6"
+"File type" = "Sample"
+"Injection order" = "41"
+
+[[table.sample]]
+assay = 44
+name = "240828_Tomita_42_pos"
+column = "CA"
+
+[table.sample.attributes]
+Class = "Lp6"
+"File type" = "Sample"
+"Injection order" = "42"
+
+[[table.sample]]
+assay = 45
+name = "240828_Tomita_43_pos"
+column = "CB"
+
+[table.sample.attributes]
+Class = "Fvar"
+"File type" = "Sample"
+"Injection order" = "43"
+
+[[table.sample]]
+assay = 46
+name = "240828_Tomita_44_pos"
+column = "CC"
+
+[table.sample.attributes]
+Class = "Fvar"
+"File type" = "Sample"
+"Injection order" = "44"
+
+[[table.sample]]
+assay = 47
+name = "240828_Tomita_45_pos"
+column = "CD"
+
+[table.sample.attributes]
+Class = "Fvar"
+"File type" = "Sample"
+"Injection order" = "45"
+
+[[table.sample]]
+assay = 48
+name = "240828_Tomita_46_pos"
+column = "CE"
+
+[table.sample.attributes]
+Class = "Buni"
+"File type" = "Sample"
+"Injection order" = "46"
+
+[[table.sample]]
+assay = 49
+name = "240828_Tomita_47_pos"
+column = "CF"
+
+[table.sample.attributes]
+Class = "Buni"
+"File type" = "Sample"
+"Injection order" = "47"
+
+[[table.sample]]
+assay = 50
+name = "240828_Tomita_48_pos"
+column = "CG"
+
+[table.sample.attributes]
+Class = "Buni"
+"File type" = "Sample"
+"Injection order" = "48"
+
+[[table.sample]]
+assay = 51
+name = "240828_Tomita_49_pos"
+column = "CH"
+
+[table.sample.attributes]
+Class = "Amun"
+"File type" = "Sample"
+"Injection order" = "49"
+
+[[table.sample]]
+assay = 52
+name = "240828_Tomita_5_pos"
+column = "CI"
+
+[table.sample.attributes]
+Class = "Bvlu"
+"File type" = "Sample"
+"Injection order" = "5"
+
+[[table.sample]]
+assay = 53
+name = "240828_Tomita_50_pos"
+column = "CJ"
+
+[table.sample.attributes]
+Class = "Amun"
+"File type" = "Sample"
+"Injection order" = "50"
+
+[[table.sample]]
+assay = 54
+name = "240828_Tomita_51_pos"
+column = "CK"
+
+[table.sample.attributes]
+Class = "Amun"
+"File type" = "Sample"
+"Injection order" = "51"
+
+[[table.sample]]
+assay = 55
+name = "240828_Tomita_52_pos"
+column = "CL"
+
+[table.sample.attributes]
+Class = "Pcop"
+"File type" = "Sample"
+"Injection order" = "52"
+
+[[table.sample]]
+assay = 56
+name = "240828_Tomita_53_pos"
+column = "CM"
+
+[table.sample.attributes]
+Class = "Pcop"
+"File type" = "Sample"
+"Injection order" = "53"
+
+[[table.sample]]
+assay = 57
+name = "240828_Tomita_54_pos"
+column = "CN"
+
+[table.sample.attributes]
+Class = "Pcop"
+"File type" = "Sample"
+"Injection order" = "54"
+
+[[table.sample]]
+assay = 58
+name = "240828_Tomita_55_pos"
+column = "CO"
+
+[table.sample.attributes]
+Class = "Ccoc"
+"File type" = "Sample"
+"Injection order" = "55"
+
+[[table.sample]]
+assay = 59
+name = "240828_Tomita_56_pos"
+column = "CP"
+
+[table.sample.attributes]
+Class = "Ccoc"
+"File type" = "Sample"
+"Injection order" = "56"
+
+[[table.sample]]
+assay = 60
+name = "240828_Tomita_57_pos"
+column = "CQ"
+
+[table.sample.attributes]
+Class = "Ccoc"
+"File type" = "Sample"
+"Injection order" = "57"
+
+[[table.sample]]
+assay = 61
+name = "240828_Tomita_58_pos"
+column = "CR"
+
+[table.sample.attributes]
+Class = "Bobe"
+"File type" = "Sample"
+"Injection order" = "58"
+
+[[table.sample]]
+assay = 62
+name = "240828_Tomita_59_pos"
+column = "CS"
+
+[table.sample.attributes]
+Class = "Bobe"
+"File type" = "Sample"
+"Injection order" = "59"
+
+[[table.sample]]
+assay = 63
+name = "240828_Tomita_6_pos"
+column = "CT"
+
+[table.sample.attributes]
+Class = "Bvlu"
+"File type" = "Sample"
+"Injection order" = "6"
+
+[[table.sample]]
+assay = 64
+name = "240828_Tomita_60_pos"
+column = "CU"
+
+[table.sample.attributes]
+Class = "Bobe"
+"File type" = "Sample"
+"Injection order" = "60"
+
+[[table.sample]]
+assay = 65
+name = "240828_Tomita_61_pos"
+column = "CV"
+
+[table.sample.attributes]
+Class = "Ceut"
+"File type" = "Sample"
+"Injection order" = "61"
+
+[[table.sample]]
+assay = 66
+name = "240828_Tomita_62_pos"
+column = "CW"
+
+[table.sample.attributes]
+Class = "Ceut"
+"File type" = "Sample"
+"Injection order" = "62"
+
+[[table.sample]]
+assay = 67
+name = "240828_Tomita_63_pos"
+column = "CX"
+
+[table.sample.attributes]
+Class = "Ceut"
+"File type" = "Sample"
+"Injection order" = "63"
+
+[[table.sample]]
+assay = 68
+name = "240828_Tomita_64_pos"
+column = "CY"
+
+[table.sample.attributes]
+Class = "Csym"
+"File type" = "Sample"
+"Injection order" = "64"
+
+[[table.sample]]
+assay = 69
+name = "240828_Tomita_65_pos"
+column = "CZ"
+
+[table.sample.attributes]
+Class = "Csym"
+"File type" = "Sample"
+"Injection order" = "65"
+
+[[table.sample]]
+assay = 70
+name = "240828_Tomita_66_pos"
+column = "DA"
+
+[table.sample.attributes]
+Class = "Csym"
+"File type" = "Sample"
+"Injection order" = "66"
+
+[[table.sample]]
+assay = 71
+name = "240828_Tomita_67_pos"
+column = "DB"
+
+[table.sample.attributes]
+Class = "Cclo"
+"File type" = "Sample"
+"Injection order" = "67"
+
+[[table.sample]]
+assay = 72
+name = "240828_Tomita_68_pos"
+column = "DC"
+
+[table.sample.attributes]
+Class = "Cclo"
+"File type" = "Sample"
+"Injection order" = "68"
+
+[[table.sample]]
+assay = 73
+name = "240828_Tomita_69_pos"
+column = "DD"
+
+[table.sample.attributes]
+Class = "Cclo"
+"File type" = "Sample"
+"Injection order" = "69"
+
+[[table.sample]]
+assay = 74
+name = "240828_Tomita_7_pos"
+column = "DE"
+
+[table.sample.attributes]
+Class = "Sthe"
+"File type" = "Sample"
+"Injection order" = "7"
+
+[[table.sample]]
+assay = 75
+name = "240828_Tomita_70_pos"
+column = "DF"
+
+[table.sample.attributes]
+Class = "Cspi"
+"File type" = "Sample"
+"Injection order" = "70"
+
+[[table.sample]]
+assay = 76
+name = "240828_Tomita_71_pos"
+column = "DG"
+
+[table.sample.attributes]
+Class = "Cspi"
+"File type" = "Sample"
+"Injection order" = "71"
+
+[[table.sample]]
+assay = 77
+name = "240828_Tomita_72_pos"
+column = "DH"
+
+[table.sample.attributes]
+Class = "Cspi"
+"File type" = "Sample"
+"Injection order" = "72"
+
+[[table.sample]]
+assay = 78
+name = "240828_Tomita_73_pos"
+column = "DI"
+
+[table.sample.attributes]
+Class = "Cinn"
+"File type" = "Sample"
+"Injection order" = "73"
+
+[[table.sample]]
+assay = 79
+name = "240828_Tomita_74_pos"
+column = "DJ"
+
+[table.sample.attributes]
+Class = "Cinn"
+"File type" = "Sample"
+"Injection order" = "74"
+
+[[table.sample]]
+assay = 80
+name = "240828_Tomita_75_pos"
+column = "DK"
+
+[table.sample.attributes]
+Class = "Cinn"
+"File type" = "Sample"
+"Injection order" = "75"
+
+[[table.sample]]
+assay = 81
+name = "240828_Tomita_76_pos"
+column = "DL"
+
+[table.sample.attributes]
+Class = "Aind"
+"File type" = "Sample"
+"Injection order" = "76"
+
+[[table.sample]]
+assay = 82
+name = "240828_Tomita_77_pos"
+column = "DM"
+
+[table.sample.attributes]
+Class = "Aind"
+"File type" = "Sample"
+"Injection order" = "77"
+
+[[table.sample]]
+assay = 83
+name = "240828_Tomita_78_pos"
+column = "DN"
+
+[table.sample.attributes]
+Class = "Aind"
+"File type" = "Sample"
+"Injection order" = "78"
+
+[[table.sample]]
+assay = 84
+name = "240828_Tomita_79_pos"
+column = "DO"
+
+[table.sample.attributes]
+Class = "Ccom"
+"File type" = "Sample"
+"Injection order" = "79"
+
+[[table.sample]]
+assay = 85
+name = "240828_Tomita_8_pos"
+column = "DP"
+
+[table.sample.attributes]
+Class = "Sthe"
+"File type" = "Sample"
+"Injection order" = "8"
+
+[[table.sample]]
+assay = 86
+name = "240828_Tomita_80_pos"
+column = "DQ"
+
+[table.sample.attributes]
+Class = "Ccom"
+"File type" = "Sample"
+"Injection order" = "80"
+
+[[table.sample]]
+assay = 87
+name = "240828_Tomita_81_pos"
+column = "DR"
+
+[table.sample.attributes]
+Class = "Ccom"
+"File type" = "Sample"
+"Injection order" = "81"
+
+[[table.sample]]
+assay = 88
+name = "240828_Tomita_82_pos"
+column = "DS"
+
+[table.sample.attributes]
+Class = "Afin"
+"File type" = "Sample"
+"Injection order" = "82"
+
+[[table.sample]]
+assay = 89
+name = "240828_Tomita_83_pos"
+column = "DT"
+
+[table.sample.attributes]
+Class = "Afin"
+"File type" = "Sample"
+"Injection order" = "83"
+
+[[table.sample]]
+assay = 90
+name = "240828_Tomita_84_pos"
+column = "DU"
+
+[table.sample.attributes]
+Class = "Afin"
+"File type" = "Sample"
+"Injection order" = "84"
+
+[[table.sample]]
+assay = 91
+name = "240828_Tomita_85_pos"
+column = "DV"
+
+[table.sample.attributes]
+Class = "Pgol"
+"File type" = "Sample"
+"Injection order" = "85"
+
+[[table.sample]]
+assay = 92
+name = "240828_Tomita_86_pos"
+column = "DW"
+
+[table.sample.attributes]
+Class = "Pgol"
+"File type" = "Sample"
+"Injection order" = "86"
+
+[[table.sample]]
+assay = 93
+name = "240828_Tomita_87_pos"
+column = "DX"
+
+[table.sample.attributes]
+Class = "Pgol"
+"File type" = "Sample"
+"Injection order" = "87"
+
+[[table.sample]]
+assay = 94
+name = "240828_Tomita_88_pos"
+column = "DY"
+
+[table.sample.attributes]
+Class = "Pgin"
+"File type" = "Sample"
+"Injection order" = "88"
+
+[[table.sample]]
+assay = 95
+name = "240828_Tomita_89_pos"
+column = "DZ"
+
+[table.sample.attributes]
+Class = "Pgin"
+"File type" = "Sample"
+"Injection order" = "89"
+
+[[table.sample]]
+assay = 96
+name = "240828_Tomita_9_pos"
+column = "EA"
+
+[table.sample.attributes]
+Class = "Sthe"
+"File type" = "Sample"
+"Injection order" = "9"
+
+[[table.sample]]
+assay = 97
+name = "240828_Tomita_90_pos"
+column = "EB"
+
+[table.sample.attributes]
+Class = "Pgin"
+"File type" = "Sample"
+"Injection order" = "90"
+
+[[table.sample]]
+assay = 98
+name = "240828_Tomita_91_pos"
+column = "EC"
+
+[table.sample.attributes]
+Class = "Pden"
+"File type" = "Sample"
+"Injection order" = "91"
+
+[[table.sample]]
+assay = 99
+name = "240828_Tomita_92_pos"
+column = "ED"
+
+[table.sample.attributes]
+Class = "Pden"
+"File type" = "Sample"
+"Injection order" = "92"
+
+[[table.sample]]
+assay = 100
+name = "240828_Tomita_93_pos"
+column = "EE"
+
+[table.sample.attributes]
+Class = "Pden"
+"File type" = "Sample"
+"Injection order" = "93"
+
+[[table.sample]]
+assay = 101
+name = "240828_Tomita_94_pos"
+column = "EF"
+
+[table.sample.attributes]
+Class = "Fnuc"
+"File type" = "Sample"
+"Injection order" = "94"
+
+[[table.sample]]
+assay = 102
+name = "240828_Tomita_95_pos"
+column = "EG"
+
+[table.sample.attributes]
+Class = "Fnuc"
+"File type" = "Sample"
+"Injection order" = "95"
+
+[[table.sample]]
+assay = 103
+name = "240828_Tomita_96_pos"
+column = "EH"
+
+[table.sample.attributes]
+Class = "Fnuc"
+"File type" = "Sample"
+"Injection order" = "96"
+
+[[table.sample]]
+assay = 104
+name = "240828_Tomita_97_pos"
+column = "EI"
+
+[table.sample.attributes]
+Class = "Bint"
+"File type" = "Sample"
+"Injection order" = "97"
+
+[[table.sample]]
+assay = 105
+name = "240828_Tomita_98_pos"
+column = "EJ"
+
+[table.sample.attributes]
+Class = "Bint"
+"File type" = "Sample"
+"Injection order" = "98"
+
+[[table.sample]]
+assay = 106
+name = "240828_Tomita_99_pos"
+column = "EK"
+
+[table.sample.attributes]
+Class = "Bint"
+"File type" = "Sample"
+"Injection order" = "99"

@@ -1,0 +1,3907 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx"
+mbpost_id = "MPST000141"
+n_tables = 8
+skipped = [
+    { sheet = "Sheet3", reason = "no sample header above the abundance columns" },
+]
+
+[[table]]
+id = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Height"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx"
+sheet = "Height"
+features_in = "rows"
+n_features = 191
+n_samples = 144
+
+[[table.sample]]
+assay = 1
+name = "BC0-1__11202024_31"
+column = "AC"
+
+[table.sample.attributes]
+Class = "BC0"
+"File type" = "Sample"
+"Injection order" = "19"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 2
+name = "BC0-2__11202024_23"
+column = "AD"
+
+[table.sample.attributes]
+Class = "BC0"
+"File type" = "Sample"
+"Injection order" = "13"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 3
+name = "BC0-3__11202024_27"
+column = "AE"
+
+[table.sample.attributes]
+Class = "BC0"
+"File type" = "Sample"
+"Injection order" = "16"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 4
+name = "BC2-1__11242024_192"
+column = "AF"
+
+[table.sample.attributes]
+Class = "BC2"
+"File type" = "Sample"
+"Injection order" = "124"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 5
+name = "BC2-2__11242024_211"
+column = "AG"
+
+[table.sample.attributes]
+Class = "BC2"
+"File type" = "Sample"
+"Injection order" = "133"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 6
+name = "BC2-3__11242024_197"
+column = "AH"
+
+[table.sample.attributes]
+Class = "BC2"
+"File type" = "Sample"
+"Injection order" = "128"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 7
+name = "BC4-1__11212024_73"
+column = "AI"
+
+[table.sample.attributes]
+Class = "BC4"
+"File type" = "Sample"
+"Injection order" = "47"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 8
+name = "BC4-2__11222024_108"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "BC4"
+"File type" = "Sample"
+"Injection order" = "69"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 9
+name = "BC4-3__11202024_36"
+column = "AK"
+
+[table.sample.attributes]
+Class = "BC4"
+"File type" = "Sample"
+"Injection order" = "23"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 10
+name = "BC5-1__11202024_37"
+column = "AL"
+
+[table.sample.attributes]
+Class = "BC5"
+"File type" = "Sample"
+"Injection order" = "24"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 11
+name = "BC5-2__11212024_68"
+column = "AM"
+
+[table.sample.attributes]
+Class = "BC5"
+"File type" = "Sample"
+"Injection order" = "43"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 12
+name = "BC5-3__11222024_112"
+column = "AN"
+
+[table.sample.attributes]
+Class = "BC5"
+"File type" = "Sample"
+"Injection order" = "72"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 13
+name = "BCL-1__11212024_53"
+column = "AO"
+
+[table.sample.attributes]
+Class = "BCL"
+"File type" = "Sample"
+"Injection order" = "31"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 14
+name = "BCL-2__11202024_38"
+column = "AP"
+
+[table.sample.attributes]
+Class = "BCL"
+"File type" = "Sample"
+"Injection order" = "25"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 15
+name = "BCL-3__11202024_16"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "BCL"
+"File type" = "Sample"
+"Injection order" = "7"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 16
+name = "BCR-1__11202024_12"
+column = "AR"
+
+[table.sample.attributes]
+Class = "BCR"
+"File type" = "Sample"
+"Injection order" = "4"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 17
+name = "BCR-2__11222024_93"
+column = "AS"
+
+[table.sample.attributes]
+Class = "BCR"
+"File type" = "Sample"
+"Injection order" = "57"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 18
+name = "BCR-3__11212024_58"
+column = "AT"
+
+[table.sample.attributes]
+Class = "BCR"
+"File type" = "Sample"
+"Injection order" = "35"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 19
+name = "Blank1__11202024_7"
+column = "AU"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "1"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 20
+name = "Blank2__11212024_47"
+column = "AV"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "27"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 21
+name = "Blank3__11222024_87"
+column = "AW"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "53"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 22
+name = "Blank4__11232024_127"
+column = "AX"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "79"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 23
+name = "Blank5__11242024_167"
+column = "AY"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "105"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 24
+name = "Blank6__11242024_207"
+column = "AZ"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "131"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 25
+name = "BM0-1__11232024_131"
+column = "BA"
+
+[table.sample.attributes]
+Class = "BM0"
+"File type" = "Sample"
+"Injection order" = "81"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 26
+name = "BM0-2__11222024_113"
+column = "BB"
+
+[table.sample.attributes]
+Class = "BM0"
+"File type" = "Sample"
+"Injection order" = "73"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 27
+name = "BM0-3__11212024_52"
+column = "BC"
+
+[table.sample.attributes]
+Class = "BM0"
+"File type" = "Sample"
+"Injection order" = "30"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 28
+name = "BM2-1__11242024_187"
+column = "BD"
+
+[table.sample.attributes]
+Class = "BM2"
+"File type" = "Sample"
+"Injection order" = "120"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 29
+name = "BM2-2__11242024_212"
+column = "BE"
+
+[table.sample.attributes]
+Class = "BM2"
+"File type" = "Sample"
+"Injection order" = "134"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 30
+name = "BM2-3__11242024_186"
+column = "BF"
+
+[table.sample.attributes]
+Class = "BM2"
+"File type" = "Sample"
+"Injection order" = "119"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 31
+name = "BM4-1__11202024_18"
+column = "BG"
+
+[table.sample.attributes]
+Class = "BM4"
+"File type" = "Sample"
+"Injection order" = "9"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 32
+name = "BM4-2__11212024_62"
+column = "BH"
+
+[table.sample.attributes]
+Class = "BM4"
+"File type" = "Sample"
+"Injection order" = "38"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 33
+name = "BM4-3__11222024_91"
+column = "BI"
+
+[table.sample.attributes]
+Class = "BM4"
+"File type" = "Sample"
+"Injection order" = "55"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 34
+name = "BM5-1__11212024_71"
+column = "BJ"
+
+[table.sample.attributes]
+Class = "BM5"
+"File type" = "Sample"
+"Injection order" = "45"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 35
+name = "BM5-2__11202024_17"
+column = "BK"
+
+[table.sample.attributes]
+Class = "BM5"
+"File type" = "Sample"
+"Injection order" = "8"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 36
+name = "BM5-3__11212024_66"
+column = "BL"
+
+[table.sample.attributes]
+Class = "BM5"
+"File type" = "Sample"
+"Injection order" = "41"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 37
+name = "BML-1__11212024_63"
+column = "BM"
+
+[table.sample.attributes]
+Class = "BML"
+"File type" = "Sample"
+"Injection order" = "39"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 38
+name = "BML-2__11222024_102"
+column = "BN"
+
+[table.sample.attributes]
+Class = "BML"
+"File type" = "Sample"
+"Injection order" = "64"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 39
+name = "BML-3__11222024_118"
+column = "BO"
+
+[table.sample.attributes]
+Class = "BML"
+"File type" = "Sample"
+"Injection order" = "77"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 40
+name = "BMR-1__11202024_11"
+column = "BP"
+
+[table.sample.attributes]
+Class = "BMR"
+"File type" = "Sample"
+"Injection order" = "3"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 41
+name = "BMR-2__11212024_57"
+column = "BQ"
+
+[table.sample.attributes]
+Class = "BMR"
+"File type" = "Sample"
+"Injection order" = "34"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 42
+name = "BMR-3__11232024_132"
+column = "BR"
+
+[table.sample.attributes]
+Class = "BMR"
+"File type" = "Sample"
+"Injection order" = "82"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 43
+name = "FC0-1__11212024_61"
+column = "BS"
+
+[table.sample.attributes]
+Class = "FC0"
+"File type" = "Sample"
+"Injection order" = "37"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 44
+name = "FC0-2__11212024_67"
+column = "BT"
+
+[table.sample.attributes]
+Class = "FC0"
+"File type" = "Sample"
+"Injection order" = "42"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 45
+name = "FC0-3__11222024_96"
+column = "BU"
+
+[table.sample.attributes]
+Class = "FC0"
+"File type" = "Sample"
+"Injection order" = "59"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 46
+name = "FC2-1__11242024_198"
+column = "BV"
+
+[table.sample.attributes]
+Class = "FC2"
+"File type" = "Sample"
+"Injection order" = "129"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 47
+name = "FC2-2__11242024_191"
+column = "BW"
+
+[table.sample.attributes]
+Class = "FC2"
+"File type" = "Sample"
+"Injection order" = "123"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 48
+name = "FC2-3__11242024_196"
+column = "BX"
+
+[table.sample.attributes]
+Class = "FC2"
+"File type" = "Sample"
+"Injection order" = "127"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 49
+name = "FC4-1__11212024_78"
+column = "BY"
+
+[table.sample.attributes]
+Class = "FC4"
+"File type" = "Sample"
+"Injection order" = "51"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 50
+name = "FC4-2__11212024_56"
+column = "BZ"
+
+[table.sample.attributes]
+Class = "FC4"
+"File type" = "Sample"
+"Injection order" = "33"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 51
+name = "FC4-3__11232024_133"
+column = "CA"
+
+[table.sample.attributes]
+Class = "FC4"
+"File type" = "Sample"
+"Injection order" = "83"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 52
+name = "FC5-1__11222024_116"
+column = "CB"
+
+[table.sample.attributes]
+Class = "FC5"
+"File type" = "Sample"
+"Injection order" = "75"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 53
+name = "FC5-2__11222024_106"
+column = "CC"
+
+[table.sample.attributes]
+Class = "FC5"
+"File type" = "Sample"
+"Injection order" = "67"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 54
+name = "FC5-3__11222024_107"
+column = "CD"
+
+[table.sample.attributes]
+Class = "FC5"
+"File type" = "Sample"
+"Injection order" = "68"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 55
+name = "FCL-1__11222024_98"
+column = "CE"
+
+[table.sample.attributes]
+Class = "FCL"
+"File type" = "Sample"
+"Injection order" = "61"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 56
+name = "FCL-2__11212024_76"
+column = "CF"
+
+[table.sample.attributes]
+Class = "FCL"
+"File type" = "Sample"
+"Injection order" = "49"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 57
+name = "FCL-3__11202024_13"
+column = "CG"
+
+[table.sample.attributes]
+Class = "FCL"
+"File type" = "Sample"
+"Injection order" = "5"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 58
+name = "FCR-1__11212024_51"
+column = "CH"
+
+[table.sample.attributes]
+Class = "FCR"
+"File type" = "Sample"
+"Injection order" = "29"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 59
+name = "FCR-2__11222024_103"
+column = "CI"
+
+[table.sample.attributes]
+Class = "FCR"
+"File type" = "Sample"
+"Injection order" = "65"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 60
+name = "FCR-3__11212024_77"
+column = "CJ"
+
+[table.sample.attributes]
+Class = "FCR"
+"File type" = "Sample"
+"Injection order" = "50"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 61
+name = "FD0-1__11232024_157"
+column = "CK"
+
+[table.sample.attributes]
+Class = "FD0"
+"File type" = "Sample"
+"Injection order" = "102"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 62
+name = "FD0-2__11232024_137"
+column = "CL"
+
+[table.sample.attributes]
+Class = "FD0"
+"File type" = "Sample"
+"Injection order" = "86"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 63
+name = "FD0-3__11232024_138"
+column = "CM"
+
+[table.sample.attributes]
+Class = "FD0"
+"File type" = "Sample"
+"Injection order" = "87"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 64
+name = "FD2-1__11242024_217"
+column = "CN"
+
+[table.sample.attributes]
+Class = "FD2"
+"File type" = "Sample"
+"Injection order" = "138"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 65
+name = "FD2-2__11242024_222"
+column = "CO"
+
+[table.sample.attributes]
+Class = "FD2"
+"File type" = "Sample"
+"Injection order" = "142"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 66
+name = "FD2-3__11242024_221"
+column = "CP"
+
+[table.sample.attributes]
+Class = "FD2"
+"File type" = "Sample"
+"Injection order" = "141"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 67
+name = "FD4-1__11232024_156"
+column = "CQ"
+
+[table.sample.attributes]
+Class = "FD4"
+"File type" = "Sample"
+"Injection order" = "101"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 68
+name = "FD4-2__11242024_181"
+column = "CR"
+
+[table.sample.attributes]
+Class = "FD4"
+"File type" = "Sample"
+"Injection order" = "115"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 69
+name = "FD4-3__11232024_152"
+column = "CS"
+
+[table.sample.attributes]
+Class = "FD4"
+"File type" = "Sample"
+"Injection order" = "98"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 70
+name = "FDL-1__11242024_182"
+column = "CT"
+
+[table.sample.attributes]
+Class = "FDL"
+"File type" = "Sample"
+"Injection order" = "116"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 71
+name = "FDL-2__11232024_158"
+column = "CU"
+
+[table.sample.attributes]
+Class = "FDL"
+"File type" = "Sample"
+"Injection order" = "103"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 72
+name = "FDL-3__11242024_172"
+column = "CV"
+
+[table.sample.attributes]
+Class = "FDL"
+"File type" = "Sample"
+"Injection order" = "108"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 73
+name = "FDR-1__11242024_177"
+column = "CW"
+
+[table.sample.attributes]
+Class = "FDR"
+"File type" = "Sample"
+"Injection order" = "112"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 74
+name = "FDR-2__11232024_136"
+column = "CX"
+
+[table.sample.attributes]
+Class = "FDR"
+"File type" = "Sample"
+"Injection order" = "85"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 75
+name = "FDR-3__11232024_146"
+column = "CY"
+
+[table.sample.attributes]
+Class = "FDR"
+"File type" = "Sample"
+"Injection order" = "93"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 76
+name = "FM0-1__11202024_22"
+column = "CZ"
+
+[table.sample.attributes]
+Class = "FM0"
+"File type" = "Sample"
+"Injection order" = "12"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 77
+name = "FM0-2__11202024_32"
+column = "DA"
+
+[table.sample.attributes]
+Class = "FM0"
+"File type" = "Sample"
+"Injection order" = "20"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 78
+name = "FM0-3__11222024_92"
+column = "DB"
+
+[table.sample.attributes]
+Class = "FM0"
+"File type" = "Sample"
+"Injection order" = "56"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 79
+name = "FM2-1__11242024_213"
+column = "DC"
+
+[table.sample.attributes]
+Class = "FM2"
+"File type" = "Sample"
+"Injection order" = "135"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 80
+name = "FM2-2__11242024_188"
+column = "DD"
+
+[table.sample.attributes]
+Class = "FM2"
+"File type" = "Sample"
+"Injection order" = "121"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 81
+name = "FM2-3__11242024_193"
+column = "DE"
+
+[table.sample.attributes]
+Class = "FM2"
+"File type" = "Sample"
+"Injection order" = "125"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 82
+name = "FM4-1__11202024_28"
+column = "DF"
+
+[table.sample.attributes]
+Class = "FM4"
+"File type" = "Sample"
+"Injection order" = "17"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 83
+name = "FM4-2__11202024_21"
+column = "DG"
+
+[table.sample.attributes]
+Class = "FM4"
+"File type" = "Sample"
+"Injection order" = "11"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 84
+name = "FM4-3__11202024_33"
+column = "DH"
+
+[table.sample.attributes]
+Class = "FM4"
+"File type" = "Sample"
+"Injection order" = "21"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 85
+name = "FML-1__11222024_97"
+column = "DI"
+
+[table.sample.attributes]
+Class = "FML"
+"File type" = "Sample"
+"Injection order" = "60"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 86
+name = "FML-2__11202024_26"
+column = "DJ"
+
+[table.sample.attributes]
+Class = "FML"
+"File type" = "Sample"
+"Injection order" = "15"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 87
+name = "FML-3__11222024_117"
+column = "DK"
+
+[table.sample.attributes]
+Class = "FML"
+"File type" = "Sample"
+"Injection order" = "76"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 88
+name = "FMR-1__11222024_101"
+column = "DL"
+
+[table.sample.attributes]
+Class = "FMR"
+"File type" = "Sample"
+"Injection order" = "63"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 89
+name = "FMR-2__11212024_72"
+column = "DM"
+
+[table.sample.attributes]
+Class = "FMR"
+"File type" = "Sample"
+"Injection order" = "46"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 90
+name = "FMR-3__11222024_111"
+column = "DN"
+
+[table.sample.attributes]
+Class = "FMR"
+"File type" = "Sample"
+"Injection order" = "71"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 91
+name = "FP0-1__11242024_178"
+column = "DO"
+
+[table.sample.attributes]
+Class = "FP0"
+"File type" = "Sample"
+"Injection order" = "113"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 92
+name = "FP0-2__11242024_171"
+column = "DP"
+
+[table.sample.attributes]
+Class = "FP0"
+"File type" = "Sample"
+"Injection order" = "107"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 93
+name = "FP0-3__11242024_173"
+column = "DQ"
+
+[table.sample.attributes]
+Class = "FP0"
+"File type" = "Sample"
+"Injection order" = "109"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 94
+name = "FP2-1__11242024_218"
+column = "DR"
+
+[table.sample.attributes]
+Class = "FP2"
+"File type" = "Sample"
+"Injection order" = "139"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 95
+name = "FP2-2__11242024_216"
+column = "DS"
+
+[table.sample.attributes]
+Class = "FP2"
+"File type" = "Sample"
+"Injection order" = "137"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 96
+name = "FP2-3__11242024_223"
+column = "DT"
+
+[table.sample.attributes]
+Class = "FP2"
+"File type" = "Sample"
+"Injection order" = "143"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 97
+name = "FP4-1__11232024_153"
+column = "DU"
+
+[table.sample.attributes]
+Class = "FP4"
+"File type" = "Sample"
+"Injection order" = "99"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 98
+name = "FP4-2__11232024_147"
+column = "DV"
+
+[table.sample.attributes]
+Class = "FP4"
+"File type" = "Sample"
+"Injection order" = "94"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 99
+name = "FP4-3__11232024_143"
+column = "DW"
+
+[table.sample.attributes]
+Class = "FP4"
+"File type" = "Sample"
+"Injection order" = "91"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 100
+name = "FPL-1__11232024_142"
+column = "DX"
+
+[table.sample.attributes]
+Class = "FPL"
+"File type" = "Sample"
+"Injection order" = "90"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 101
+name = "FPL-2__11242024_183"
+column = "DY"
+
+[table.sample.attributes]
+Class = "FPL"
+"File type" = "Sample"
+"Injection order" = "117"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 102
+name = "FPL-3__11232024_151"
+column = "DZ"
+
+[table.sample.attributes]
+Class = "FPL"
+"File type" = "Sample"
+"Injection order" = "97"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 103
+name = "FPR-1__11232024_148"
+column = "EA"
+
+[table.sample.attributes]
+Class = "FPR"
+"File type" = "Sample"
+"Injection order" = "95"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 104
+name = "FPR-2__11232024_141"
+column = "EB"
+
+[table.sample.attributes]
+Class = "FPR"
+"File type" = "Sample"
+"Injection order" = "89"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 105
+name = "FPR-3__11242024_176"
+column = "EC"
+
+[table.sample.attributes]
+Class = "FPR"
+"File type" = "Sample"
+"Injection order" = "111"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 106
+name = "QC1__11202024_9"
+column = "ED"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "2"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 107
+name = "qc10__11212024_59"
+column = "EE"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "36"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 108
+name = "QC11__11212024_64"
+column = "EF"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "40"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 109
+name = "QC12__11212024_69"
+column = "EG"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "44"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 110
+name = "QC13__11212024_74"
+column = "EH"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "48"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 111
+name = "QC14__11212024_79"
+column = "EI"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "52"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 112
+name = "QC15__11222024_89"
+column = "EJ"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "54"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 113
+name = "QC16__11222024_94"
+column = "EK"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "58"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 114
+name = "QC17__11222024_99"
+column = "EL"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "62"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 115
+name = "QC18__11222024_104"
+column = "EM"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "66"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 116
+name = "QC19__11222024_109"
+column = "EN"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "70"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 117
+name = "QC2__11202024_14"
+column = "EO"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "6"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 118
+name = "QC20__11222024_114"
+column = "EP"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "74"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 119
+name = "QC21__11222024_119"
+column = "EQ"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "78"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 120
+name = "QC22__11232024_129"
+column = "ER"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "80"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 121
+name = "QC23__11232024_134"
+column = "ES"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "84"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 122
+name = "QC24__11232024_139"
+column = "ET"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "88"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 123
+name = "QC25__11232024_144"
+column = "EU"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "92"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 124
+name = "QC26__11232024_149"
+column = "EV"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "96"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 125
+name = "QC27__11232024_154"
+column = "EW"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "100"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 126
+name = "QC28__11232024_159"
+column = "EX"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "104"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 127
+name = "QC29__11242024_169"
+column = "EY"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "106"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 128
+name = "QC3__11202024_19"
+column = "EZ"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "10"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 129
+name = "QC30__11242024_174"
+column = "FA"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "110"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 130
+name = "QC31__11242024_179"
+column = "FB"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "114"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 131
+name = "QC32__11242024_184"
+column = "FC"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "118"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 132
+name = "QC33__11242024_189"
+column = "FD"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "122"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 133
+name = "QC34__11242024_194"
+column = "FE"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "126"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 134
+name = "QC35__11242024_199"
+column = "FF"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "130"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 135
+name = "QC36__11242024_209"
+column = "FG"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "132"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 136
+name = "QC37__11242024_214"
+column = "FH"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "136"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 137
+name = "QC38__11242024_219"
+column = "FI"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "140"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 138
+name = "QC39__11242024_224"
+column = "FJ"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "144"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 139
+name = "QC4__11202024_24"
+column = "FK"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "14"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 140
+name = "QC5__11202024_29"
+column = "FL"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "18"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 141
+name = "QC6__11202024_34"
+column = "FM"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "22"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 142
+name = "QC7__11202024_39"
+column = "FN"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "26"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 143
+name = "QC8__11212024_49"
+column = "FO"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "28"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 144
+name = "QC9__11212024_54"
+column = "FP"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "32"
+"Batch ID" = "2"
+
+[[table]]
+id = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Manual annotation"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx"
+sheet = "Manual annotation"
+features_in = "rows"
+n_features = 191
+n_samples = 147
+sample = [
+    { assay = 1, name = "BC0-1", column = "H" },
+    { assay = 2, name = "BC0-2", column = "I" },
+    { assay = 3, name = "BC0-3", column = "J" },
+    { assay = 4, name = "BC2-1", column = "K" },
+    { assay = 5, name = "BC2-2", column = "L" },
+    { assay = 6, name = "BC2-3", column = "M" },
+    { assay = 7, name = "BC4-1", column = "N" },
+    { assay = 8, name = "BC4-2", column = "O" },
+    { assay = 9, name = "BC4-3", column = "P" },
+    { assay = 10, name = "BC5-1", column = "Q" },
+    { assay = 11, name = "BC5-2", column = "R" },
+    { assay = 12, name = "BC5-3", column = "S" },
+    { assay = 13, name = "BCL-1", column = "T" },
+    { assay = 14, name = "BCL-2", column = "U" },
+    { assay = 15, name = "BCL-3", column = "V" },
+    { assay = 16, name = "BCR-1", column = "W" },
+    { assay = 17, name = "BCR-2", column = "X" },
+    { assay = 18, name = "BCR-3", column = "Y" },
+    { assay = 19, name = "BM0-1", column = "Z" },
+    { assay = 20, name = "BM0-2", column = "AA" },
+    { assay = 21, name = "BM0-3", column = "AB" },
+    { assay = 22, name = "BM2-1", column = "AC" },
+    { assay = 23, name = "BM2-2", column = "AD" },
+    { assay = 24, name = "BM2-3", column = "AE" },
+    { assay = 25, name = "BM4-1", column = "AF" },
+    { assay = 26, name = "BM4-2", column = "AG" },
+    { assay = 27, name = "BM4-3", column = "AH" },
+    { assay = 28, name = "BM5-1", column = "AI" },
+    { assay = 29, name = "BM5-2", column = "AJ" },
+    { assay = 30, name = "BM5-3", column = "AK" },
+    { assay = 31, name = "BML-1", column = "AL" },
+    { assay = 32, name = "BML-2", column = "AM" },
+    { assay = 33, name = "BML-3", column = "AN" },
+    { assay = 34, name = "BMR-1", column = "AO" },
+    { assay = 35, name = "BMR-2", column = "AP" },
+    { assay = 36, name = "BMR-3", column = "AQ" },
+    { assay = 37, name = "FC0-1", column = "AR" },
+    { assay = 38, name = "FC0-2", column = "AS" },
+    { assay = 39, name = "FC0-3", column = "AT" },
+    { assay = 40, name = "FC2-1", column = "AU" },
+    { assay = 41, name = "FC2-2", column = "AV" },
+    { assay = 42, name = "FC2-3", column = "AW" },
+    { assay = 43, name = "FC4-1", column = "AX" },
+    { assay = 44, name = "FC4-2", column = "AY" },
+    { assay = 45, name = "FC4-3", column = "AZ" },
+    { assay = 46, name = "FC5-1", column = "BA" },
+    { assay = 47, name = "FC5-2", column = "BB" },
+    { assay = 48, name = "FC5-3", column = "BC" },
+    { assay = 49, name = "FCL-1", column = "BD" },
+    { assay = 50, name = "FCL-2", column = "BE" },
+    { assay = 51, name = "FCL-3", column = "BF" },
+    { assay = 52, name = "FCR-1", column = "BG" },
+    { assay = 53, name = "FCR-2", column = "BH" },
+    { assay = 54, name = "FCR-3", column = "BI" },
+    { assay = 55, name = "FD0-1", column = "BJ" },
+    { assay = 56, name = "FD0-2", column = "BK" },
+    { assay = 57, name = "FD0-3", column = "BL" },
+    { assay = 58, name = "FD2-1", column = "BM" },
+    { assay = 59, name = "FD2-2", column = "BN" },
+    { assay = 60, name = "FD2-3", column = "BO" },
+    { assay = 61, name = "FD4-1", column = "BP" },
+    { assay = 62, name = "FD4-2", column = "BQ" },
+    { assay = 63, name = "FD4-3", column = "BR" },
+    { assay = 64, name = "FDL-1", column = "BS" },
+    { assay = 65, name = "FDL-2", column = "BT" },
+    { assay = 66, name = "FDL-3", column = "BU" },
+    { assay = 67, name = "FDR-1", column = "BV" },
+    { assay = 68, name = "FDR-2", column = "BW" },
+    { assay = 69, name = "FDR-3", column = "BX" },
+    { assay = 70, name = "FM0-1", column = "BY" },
+    { assay = 71, name = "FM0-2", column = "BZ" },
+    { assay = 72, name = "FM0-3", column = "CA" },
+    { assay = 73, name = "FM2-1", column = "CB" },
+    { assay = 74, name = "FM2-2", column = "CC" },
+    { assay = 75, name = "FM2-3", column = "CD" },
+    { assay = 76, name = "FM4-1", column = "CE" },
+    { assay = 77, name = "FM4-2", column = "CF" },
+    { assay = 78, name = "FM4-3", column = "CG" },
+    { assay = 79, name = "FML-1", column = "CH" },
+    { assay = 80, name = "FML-2", column = "CI" },
+    { assay = 81, name = "FML-3", column = "CJ" },
+    { assay = 82, name = "FMR-1", column = "CK" },
+    { assay = 83, name = "FMR-2", column = "CL" },
+    { assay = 84, name = "FMR-3", column = "CM" },
+    { assay = 85, name = "FP0-1", column = "CN" },
+    { assay = 86, name = "FP0-2", column = "CO" },
+    { assay = 87, name = "FP0-3", column = "CP" },
+    { assay = 88, name = "FP2-1", column = "CQ" },
+    { assay = 89, name = "FP2-2", column = "CR" },
+    { assay = 90, name = "FP2-3", column = "CS" },
+    { assay = 91, name = "FP4-1", column = "CT" },
+    { assay = 92, name = "FP4-2", column = "CU" },
+    { assay = 93, name = "FP4-3", column = "CV" },
+    { assay = 94, name = "FPL-1", column = "CW" },
+    { assay = 95, name = "FPL-2", column = "CX" },
+    { assay = 96, name = "FPL-3", column = "CY" },
+    { assay = 97, name = "FPR-1", column = "CZ" },
+    { assay = 98, name = "FPR-2", column = "DA" },
+    { assay = 99, name = "FPR-3", column = "DB" },
+    { assay = 100, name = "QC1", column = "DC" },
+    { assay = 101, name = "qc10", column = "DD" },
+    { assay = 102, name = "QC11", column = "DE" },
+    { assay = 103, name = "QC12", column = "DF" },
+    { assay = 104, name = "QC13", column = "DG" },
+    { assay = 105, name = "QC14", column = "DH" },
+    { assay = 106, name = "QC15", column = "DI" },
+    { assay = 107, name = "QC16", column = "DJ" },
+    { assay = 108, name = "QC17", column = "DK" },
+    { assay = 109, name = "QC18", column = "DL" },
+    { assay = 110, name = "QC19", column = "DM" },
+    { assay = 111, name = "QC2", column = "DN" },
+    { assay = 112, name = "QC20", column = "DO" },
+    { assay = 113, name = "QC21", column = "DP" },
+    { assay = 114, name = "QC22", column = "DQ" },
+    { assay = 115, name = "QC23", column = "DR" },
+    { assay = 116, name = "QC24", column = "DS" },
+    { assay = 117, name = "QC25", column = "DT" },
+    { assay = 118, name = "QC26", column = "DU" },
+    { assay = 119, name = "QC27", column = "DV" },
+    { assay = 120, name = "QC28", column = "DW" },
+    { assay = 121, name = "QC29", column = "DX" },
+    { assay = 122, name = "QC3", column = "DY" },
+    { assay = 123, name = "QC30", column = "DZ" },
+    { assay = 124, name = "QC31", column = "EA" },
+    { assay = 125, name = "QC32", column = "EB" },
+    { assay = 126, name = "QC33", column = "EC" },
+    { assay = 127, name = "QC34", column = "ED" },
+    { assay = 128, name = "QC35", column = "EE" },
+    { assay = 129, name = "QC36", column = "EF" },
+    { assay = 130, name = "QC37", column = "EG" },
+    { assay = 131, name = "QC38", column = "EH" },
+    { assay = 132, name = "QC39", column = "EI" },
+    { assay = 133, name = "QC4", column = "EJ" },
+    { assay = 134, name = "QC5", column = "EK" },
+    { assay = 135, name = "QC6", column = "EL" },
+    { assay = 136, name = "QC7", column = "EM" },
+    { assay = 137, name = "QC8", column = "EN" },
+    { assay = 138, name = "QC9", column = "EO" },
+    { assay = 139, name = "Blank1", column = "EP" },
+    { assay = 140, name = "Blank2", column = "EQ" },
+    { assay = 141, name = "Blank3", column = "ER" },
+    { assay = 142, name = "Blank4", column = "ES" },
+    { assay = 143, name = "Blank5", column = "ET" },
+    { assay = 144, name = "Blank6", column = "EU" },
+    { assay = 145, name = "AVG Blank", column = "EV" },
+    { assay = 146, name = "AVG QC", column = "EW" },
+    { assay = 147, name = "RSD QC", column = "EY" },
+]
+
+[[table]]
+id = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Normalized"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx"
+sheet = "Normalized"
+features_in = "rows"
+n_features = 191
+n_samples = 144
+
+[[table.sample]]
+assay = 1
+name = "BC0-1__11202024_31"
+column = "AC"
+
+[table.sample.attributes]
+Class = "BC0"
+"File type" = "Sample"
+"Injection order" = "19"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 2
+name = "BC0-2__11202024_23"
+column = "AD"
+
+[table.sample.attributes]
+Class = "BC0"
+"File type" = "Sample"
+"Injection order" = "13"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 3
+name = "BC0-3__11202024_27"
+column = "AE"
+
+[table.sample.attributes]
+Class = "BC0"
+"File type" = "Sample"
+"Injection order" = "16"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 4
+name = "BC2-1__11242024_192"
+column = "AF"
+
+[table.sample.attributes]
+Class = "BC2"
+"File type" = "Sample"
+"Injection order" = "124"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 5
+name = "BC2-2__11242024_211"
+column = "AG"
+
+[table.sample.attributes]
+Class = "BC2"
+"File type" = "Sample"
+"Injection order" = "133"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 6
+name = "BC2-3__11242024_197"
+column = "AH"
+
+[table.sample.attributes]
+Class = "BC2"
+"File type" = "Sample"
+"Injection order" = "128"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 7
+name = "BC4-1__11212024_73"
+column = "AI"
+
+[table.sample.attributes]
+Class = "BC4"
+"File type" = "Sample"
+"Injection order" = "47"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 8
+name = "BC4-2__11222024_108"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "BC4"
+"File type" = "Sample"
+"Injection order" = "69"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 9
+name = "BC4-3__11202024_36"
+column = "AK"
+
+[table.sample.attributes]
+Class = "BC4"
+"File type" = "Sample"
+"Injection order" = "23"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 10
+name = "BC5-1__11202024_37"
+column = "AL"
+
+[table.sample.attributes]
+Class = "BC5"
+"File type" = "Sample"
+"Injection order" = "24"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 11
+name = "BC5-2__11212024_68"
+column = "AM"
+
+[table.sample.attributes]
+Class = "BC5"
+"File type" = "Sample"
+"Injection order" = "43"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 12
+name = "BC5-3__11222024_112"
+column = "AN"
+
+[table.sample.attributes]
+Class = "BC5"
+"File type" = "Sample"
+"Injection order" = "72"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 13
+name = "BCL-1__11212024_53"
+column = "AO"
+
+[table.sample.attributes]
+Class = "BCL"
+"File type" = "Sample"
+"Injection order" = "31"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 14
+name = "BCL-2__11202024_38"
+column = "AP"
+
+[table.sample.attributes]
+Class = "BCL"
+"File type" = "Sample"
+"Injection order" = "25"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 15
+name = "BCL-3__11202024_16"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "BCL"
+"File type" = "Sample"
+"Injection order" = "7"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 16
+name = "BCR-1__11202024_12"
+column = "AR"
+
+[table.sample.attributes]
+Class = "BCR"
+"File type" = "Sample"
+"Injection order" = "4"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 17
+name = "BCR-2__11222024_93"
+column = "AS"
+
+[table.sample.attributes]
+Class = "BCR"
+"File type" = "Sample"
+"Injection order" = "57"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 18
+name = "BCR-3__11212024_58"
+column = "AT"
+
+[table.sample.attributes]
+Class = "BCR"
+"File type" = "Sample"
+"Injection order" = "35"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 19
+name = "Blank1__11202024_7"
+column = "AU"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "1"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 20
+name = "Blank2__11212024_47"
+column = "AV"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "27"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 21
+name = "Blank3__11222024_87"
+column = "AW"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "53"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 22
+name = "Blank4__11232024_127"
+column = "AX"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "79"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 23
+name = "Blank5__11242024_167"
+column = "AY"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "105"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 24
+name = "Blank6__11242024_207"
+column = "AZ"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "131"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 25
+name = "BM0-1__11232024_131"
+column = "BA"
+
+[table.sample.attributes]
+Class = "BM0"
+"File type" = "Sample"
+"Injection order" = "81"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 26
+name = "BM0-2__11222024_113"
+column = "BB"
+
+[table.sample.attributes]
+Class = "BM0"
+"File type" = "Sample"
+"Injection order" = "73"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 27
+name = "BM0-3__11212024_52"
+column = "BC"
+
+[table.sample.attributes]
+Class = "BM0"
+"File type" = "Sample"
+"Injection order" = "30"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 28
+name = "BM2-1__11242024_187"
+column = "BD"
+
+[table.sample.attributes]
+Class = "BM2"
+"File type" = "Sample"
+"Injection order" = "120"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 29
+name = "BM2-2__11242024_212"
+column = "BE"
+
+[table.sample.attributes]
+Class = "BM2"
+"File type" = "Sample"
+"Injection order" = "134"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 30
+name = "BM2-3__11242024_186"
+column = "BF"
+
+[table.sample.attributes]
+Class = "BM2"
+"File type" = "Sample"
+"Injection order" = "119"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 31
+name = "BM4-1__11202024_18"
+column = "BG"
+
+[table.sample.attributes]
+Class = "BM4"
+"File type" = "Sample"
+"Injection order" = "9"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 32
+name = "BM4-2__11212024_62"
+column = "BH"
+
+[table.sample.attributes]
+Class = "BM4"
+"File type" = "Sample"
+"Injection order" = "38"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 33
+name = "BM4-3__11222024_91"
+column = "BI"
+
+[table.sample.attributes]
+Class = "BM4"
+"File type" = "Sample"
+"Injection order" = "55"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 34
+name = "BM5-1__11212024_71"
+column = "BJ"
+
+[table.sample.attributes]
+Class = "BM5"
+"File type" = "Sample"
+"Injection order" = "45"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 35
+name = "BM5-2__11202024_17"
+column = "BK"
+
+[table.sample.attributes]
+Class = "BM5"
+"File type" = "Sample"
+"Injection order" = "8"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 36
+name = "BM5-3__11212024_66"
+column = "BL"
+
+[table.sample.attributes]
+Class = "BM5"
+"File type" = "Sample"
+"Injection order" = "41"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 37
+name = "BML-1__11212024_63"
+column = "BM"
+
+[table.sample.attributes]
+Class = "BML"
+"File type" = "Sample"
+"Injection order" = "39"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 38
+name = "BML-2__11222024_102"
+column = "BN"
+
+[table.sample.attributes]
+Class = "BML"
+"File type" = "Sample"
+"Injection order" = "64"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 39
+name = "BML-3__11222024_118"
+column = "BO"
+
+[table.sample.attributes]
+Class = "BML"
+"File type" = "Sample"
+"Injection order" = "77"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 40
+name = "BMR-1__11202024_11"
+column = "BP"
+
+[table.sample.attributes]
+Class = "BMR"
+"File type" = "Sample"
+"Injection order" = "3"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 41
+name = "BMR-2__11212024_57"
+column = "BQ"
+
+[table.sample.attributes]
+Class = "BMR"
+"File type" = "Sample"
+"Injection order" = "34"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 42
+name = "BMR-3__11232024_132"
+column = "BR"
+
+[table.sample.attributes]
+Class = "BMR"
+"File type" = "Sample"
+"Injection order" = "82"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 43
+name = "FC0-1__11212024_61"
+column = "BS"
+
+[table.sample.attributes]
+Class = "FC0"
+"File type" = "Sample"
+"Injection order" = "37"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 44
+name = "FC0-2__11212024_67"
+column = "BT"
+
+[table.sample.attributes]
+Class = "FC0"
+"File type" = "Sample"
+"Injection order" = "42"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 45
+name = "FC0-3__11222024_96"
+column = "BU"
+
+[table.sample.attributes]
+Class = "FC0"
+"File type" = "Sample"
+"Injection order" = "59"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 46
+name = "FC2-1__11242024_198"
+column = "BV"
+
+[table.sample.attributes]
+Class = "FC2"
+"File type" = "Sample"
+"Injection order" = "129"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 47
+name = "FC2-2__11242024_191"
+column = "BW"
+
+[table.sample.attributes]
+Class = "FC2"
+"File type" = "Sample"
+"Injection order" = "123"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 48
+name = "FC2-3__11242024_196"
+column = "BX"
+
+[table.sample.attributes]
+Class = "FC2"
+"File type" = "Sample"
+"Injection order" = "127"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 49
+name = "FC4-1__11212024_78"
+column = "BY"
+
+[table.sample.attributes]
+Class = "FC4"
+"File type" = "Sample"
+"Injection order" = "51"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 50
+name = "FC4-2__11212024_56"
+column = "BZ"
+
+[table.sample.attributes]
+Class = "FC4"
+"File type" = "Sample"
+"Injection order" = "33"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 51
+name = "FC4-3__11232024_133"
+column = "CA"
+
+[table.sample.attributes]
+Class = "FC4"
+"File type" = "Sample"
+"Injection order" = "83"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 52
+name = "FC5-1__11222024_116"
+column = "CB"
+
+[table.sample.attributes]
+Class = "FC5"
+"File type" = "Sample"
+"Injection order" = "75"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 53
+name = "FC5-2__11222024_106"
+column = "CC"
+
+[table.sample.attributes]
+Class = "FC5"
+"File type" = "Sample"
+"Injection order" = "67"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 54
+name = "FC5-3__11222024_107"
+column = "CD"
+
+[table.sample.attributes]
+Class = "FC5"
+"File type" = "Sample"
+"Injection order" = "68"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 55
+name = "FCL-1__11222024_98"
+column = "CE"
+
+[table.sample.attributes]
+Class = "FCL"
+"File type" = "Sample"
+"Injection order" = "61"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 56
+name = "FCL-2__11212024_76"
+column = "CF"
+
+[table.sample.attributes]
+Class = "FCL"
+"File type" = "Sample"
+"Injection order" = "49"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 57
+name = "FCL-3__11202024_13"
+column = "CG"
+
+[table.sample.attributes]
+Class = "FCL"
+"File type" = "Sample"
+"Injection order" = "5"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 58
+name = "FCR-1__11212024_51"
+column = "CH"
+
+[table.sample.attributes]
+Class = "FCR"
+"File type" = "Sample"
+"Injection order" = "29"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 59
+name = "FCR-2__11222024_103"
+column = "CI"
+
+[table.sample.attributes]
+Class = "FCR"
+"File type" = "Sample"
+"Injection order" = "65"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 60
+name = "FCR-3__11212024_77"
+column = "CJ"
+
+[table.sample.attributes]
+Class = "FCR"
+"File type" = "Sample"
+"Injection order" = "50"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 61
+name = "FD0-1__11232024_157"
+column = "CK"
+
+[table.sample.attributes]
+Class = "FD0"
+"File type" = "Sample"
+"Injection order" = "102"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 62
+name = "FD0-2__11232024_137"
+column = "CL"
+
+[table.sample.attributes]
+Class = "FD0"
+"File type" = "Sample"
+"Injection order" = "86"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 63
+name = "FD0-3__11232024_138"
+column = "CM"
+
+[table.sample.attributes]
+Class = "FD0"
+"File type" = "Sample"
+"Injection order" = "87"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 64
+name = "FD2-1__11242024_217"
+column = "CN"
+
+[table.sample.attributes]
+Class = "FD2"
+"File type" = "Sample"
+"Injection order" = "138"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 65
+name = "FD2-2__11242024_222"
+column = "CO"
+
+[table.sample.attributes]
+Class = "FD2"
+"File type" = "Sample"
+"Injection order" = "142"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 66
+name = "FD2-3__11242024_221"
+column = "CP"
+
+[table.sample.attributes]
+Class = "FD2"
+"File type" = "Sample"
+"Injection order" = "141"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 67
+name = "FD4-1__11232024_156"
+column = "CQ"
+
+[table.sample.attributes]
+Class = "FD4"
+"File type" = "Sample"
+"Injection order" = "101"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 68
+name = "FD4-2__11242024_181"
+column = "CR"
+
+[table.sample.attributes]
+Class = "FD4"
+"File type" = "Sample"
+"Injection order" = "115"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 69
+name = "FD4-3__11232024_152"
+column = "CS"
+
+[table.sample.attributes]
+Class = "FD4"
+"File type" = "Sample"
+"Injection order" = "98"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 70
+name = "FDL-1__11242024_182"
+column = "CT"
+
+[table.sample.attributes]
+Class = "FDL"
+"File type" = "Sample"
+"Injection order" = "116"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 71
+name = "FDL-2__11232024_158"
+column = "CU"
+
+[table.sample.attributes]
+Class = "FDL"
+"File type" = "Sample"
+"Injection order" = "103"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 72
+name = "FDL-3__11242024_172"
+column = "CV"
+
+[table.sample.attributes]
+Class = "FDL"
+"File type" = "Sample"
+"Injection order" = "108"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 73
+name = "FDR-1__11242024_177"
+column = "CW"
+
+[table.sample.attributes]
+Class = "FDR"
+"File type" = "Sample"
+"Injection order" = "112"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 74
+name = "FDR-2__11232024_136"
+column = "CX"
+
+[table.sample.attributes]
+Class = "FDR"
+"File type" = "Sample"
+"Injection order" = "85"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 75
+name = "FDR-3__11232024_146"
+column = "CY"
+
+[table.sample.attributes]
+Class = "FDR"
+"File type" = "Sample"
+"Injection order" = "93"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 76
+name = "FM0-1__11202024_22"
+column = "CZ"
+
+[table.sample.attributes]
+Class = "FM0"
+"File type" = "Sample"
+"Injection order" = "12"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 77
+name = "FM0-2__11202024_32"
+column = "DA"
+
+[table.sample.attributes]
+Class = "FM0"
+"File type" = "Sample"
+"Injection order" = "20"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 78
+name = "FM0-3__11222024_92"
+column = "DB"
+
+[table.sample.attributes]
+Class = "FM0"
+"File type" = "Sample"
+"Injection order" = "56"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 79
+name = "FM2-1__11242024_213"
+column = "DC"
+
+[table.sample.attributes]
+Class = "FM2"
+"File type" = "Sample"
+"Injection order" = "135"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 80
+name = "FM2-2__11242024_188"
+column = "DD"
+
+[table.sample.attributes]
+Class = "FM2"
+"File type" = "Sample"
+"Injection order" = "121"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 81
+name = "FM2-3__11242024_193"
+column = "DE"
+
+[table.sample.attributes]
+Class = "FM2"
+"File type" = "Sample"
+"Injection order" = "125"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 82
+name = "FM4-1__11202024_28"
+column = "DF"
+
+[table.sample.attributes]
+Class = "FM4"
+"File type" = "Sample"
+"Injection order" = "17"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 83
+name = "FM4-2__11202024_21"
+column = "DG"
+
+[table.sample.attributes]
+Class = "FM4"
+"File type" = "Sample"
+"Injection order" = "11"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 84
+name = "FM4-3__11202024_33"
+column = "DH"
+
+[table.sample.attributes]
+Class = "FM4"
+"File type" = "Sample"
+"Injection order" = "21"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 85
+name = "FML-1__11222024_97"
+column = "DI"
+
+[table.sample.attributes]
+Class = "FML"
+"File type" = "Sample"
+"Injection order" = "60"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 86
+name = "FML-2__11202024_26"
+column = "DJ"
+
+[table.sample.attributes]
+Class = "FML"
+"File type" = "Sample"
+"Injection order" = "15"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 87
+name = "FML-3__11222024_117"
+column = "DK"
+
+[table.sample.attributes]
+Class = "FML"
+"File type" = "Sample"
+"Injection order" = "76"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 88
+name = "FMR-1__11222024_101"
+column = "DL"
+
+[table.sample.attributes]
+Class = "FMR"
+"File type" = "Sample"
+"Injection order" = "63"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 89
+name = "FMR-2__11212024_72"
+column = "DM"
+
+[table.sample.attributes]
+Class = "FMR"
+"File type" = "Sample"
+"Injection order" = "46"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 90
+name = "FMR-3__11222024_111"
+column = "DN"
+
+[table.sample.attributes]
+Class = "FMR"
+"File type" = "Sample"
+"Injection order" = "71"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 91
+name = "FP0-1__11242024_178"
+column = "DO"
+
+[table.sample.attributes]
+Class = "FP0"
+"File type" = "Sample"
+"Injection order" = "113"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 92
+name = "FP0-2__11242024_171"
+column = "DP"
+
+[table.sample.attributes]
+Class = "FP0"
+"File type" = "Sample"
+"Injection order" = "107"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 93
+name = "FP0-3__11242024_173"
+column = "DQ"
+
+[table.sample.attributes]
+Class = "FP0"
+"File type" = "Sample"
+"Injection order" = "109"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 94
+name = "FP2-1__11242024_218"
+column = "DR"
+
+[table.sample.attributes]
+Class = "FP2"
+"File type" = "Sample"
+"Injection order" = "139"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 95
+name = "FP2-2__11242024_216"
+column = "DS"
+
+[table.sample.attributes]
+Class = "FP2"
+"File type" = "Sample"
+"Injection order" = "137"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 96
+name = "FP2-3__11242024_223"
+column = "DT"
+
+[table.sample.attributes]
+Class = "FP2"
+"File type" = "Sample"
+"Injection order" = "143"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 97
+name = "FP4-1__11232024_153"
+column = "DU"
+
+[table.sample.attributes]
+Class = "FP4"
+"File type" = "Sample"
+"Injection order" = "99"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 98
+name = "FP4-2__11232024_147"
+column = "DV"
+
+[table.sample.attributes]
+Class = "FP4"
+"File type" = "Sample"
+"Injection order" = "94"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 99
+name = "FP4-3__11232024_143"
+column = "DW"
+
+[table.sample.attributes]
+Class = "FP4"
+"File type" = "Sample"
+"Injection order" = "91"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 100
+name = "FPL-1__11232024_142"
+column = "DX"
+
+[table.sample.attributes]
+Class = "FPL"
+"File type" = "Sample"
+"Injection order" = "90"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 101
+name = "FPL-2__11242024_183"
+column = "DY"
+
+[table.sample.attributes]
+Class = "FPL"
+"File type" = "Sample"
+"Injection order" = "117"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 102
+name = "FPL-3__11232024_151"
+column = "DZ"
+
+[table.sample.attributes]
+Class = "FPL"
+"File type" = "Sample"
+"Injection order" = "97"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 103
+name = "FPR-1__11232024_148"
+column = "EA"
+
+[table.sample.attributes]
+Class = "FPR"
+"File type" = "Sample"
+"Injection order" = "95"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 104
+name = "FPR-2__11232024_141"
+column = "EB"
+
+[table.sample.attributes]
+Class = "FPR"
+"File type" = "Sample"
+"Injection order" = "89"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 105
+name = "FPR-3__11242024_176"
+column = "EC"
+
+[table.sample.attributes]
+Class = "FPR"
+"File type" = "Sample"
+"Injection order" = "111"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 106
+name = "QC1__11202024_9"
+column = "ED"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "2"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 107
+name = "qc10__11212024_59"
+column = "EE"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "36"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 108
+name = "QC11__11212024_64"
+column = "EF"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "40"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 109
+name = "QC12__11212024_69"
+column = "EG"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "44"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 110
+name = "QC13__11212024_74"
+column = "EH"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "48"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 111
+name = "QC14__11212024_79"
+column = "EI"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "52"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 112
+name = "QC15__11222024_89"
+column = "EJ"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "54"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 113
+name = "QC16__11222024_94"
+column = "EK"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "58"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 114
+name = "QC17__11222024_99"
+column = "EL"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "62"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 115
+name = "QC18__11222024_104"
+column = "EM"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "66"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 116
+name = "QC19__11222024_109"
+column = "EN"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "70"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 117
+name = "QC2__11202024_14"
+column = "EO"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "6"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 118
+name = "QC20__11222024_114"
+column = "EP"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "74"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 119
+name = "QC21__11222024_119"
+column = "EQ"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "78"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 120
+name = "QC22__11232024_129"
+column = "ER"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "80"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 121
+name = "QC23__11232024_134"
+column = "ES"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "84"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 122
+name = "QC24__11232024_139"
+column = "ET"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "88"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 123
+name = "QC25__11232024_144"
+column = "EU"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "92"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 124
+name = "QC26__11232024_149"
+column = "EV"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "96"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 125
+name = "QC27__11232024_154"
+column = "EW"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "100"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 126
+name = "QC28__11232024_159"
+column = "EX"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "104"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 127
+name = "QC29__11242024_169"
+column = "EY"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "106"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 128
+name = "QC3__11202024_19"
+column = "EZ"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "10"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 129
+name = "QC30__11242024_174"
+column = "FA"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "110"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 130
+name = "QC31__11242024_179"
+column = "FB"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "114"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 131
+name = "QC32__11242024_184"
+column = "FC"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "118"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 132
+name = "QC33__11242024_189"
+column = "FD"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "122"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 133
+name = "QC34__11242024_194"
+column = "FE"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "126"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 134
+name = "QC35__11242024_199"
+column = "FF"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "130"
+"Batch ID" = "5"
+
+[[table.sample]]
+assay = 135
+name = "QC36__11242024_209"
+column = "FG"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "132"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 136
+name = "QC37__11242024_214"
+column = "FH"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "136"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 137
+name = "QC38__11242024_219"
+column = "FI"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "140"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 138
+name = "QC39__11242024_224"
+column = "FJ"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "144"
+"Batch ID" = "6"
+
+[[table.sample]]
+assay = 139
+name = "QC4__11202024_24"
+column = "FK"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "14"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 140
+name = "QC5__11202024_29"
+column = "FL"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "18"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 141
+name = "QC6__11202024_34"
+column = "FM"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "22"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 142
+name = "QC7__11202024_39"
+column = "FN"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "26"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 143
+name = "QC8__11212024_49"
+column = "FO"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "28"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 144
+name = "QC9__11212024_54"
+column = "FP"
+
+[table.sample.attributes]
+Class = "QC"
+"File type" = "QC"
+"Injection order" = "32"
+"Batch ID" = "2"
+
+[[table]]
+id = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Blank filter and rsd"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx"
+sheet = "Blank filter and rsd"
+features_in = "rows"
+n_features = 191
+n_samples = 147
+sample = [
+    { assay = 1, name = "BC0-1", column = "G" },
+    { assay = 2, name = "BC0-2", column = "H" },
+    { assay = 3, name = "BC0-3", column = "I" },
+    { assay = 4, name = "BC2-1", column = "J" },
+    { assay = 5, name = "BC2-2", column = "K" },
+    { assay = 6, name = "BC2-3", column = "L" },
+    { assay = 7, name = "BC4-1", column = "M" },
+    { assay = 8, name = "BC4-2", column = "N" },
+    { assay = 9, name = "BC4-3", column = "O" },
+    { assay = 10, name = "BC5-1", column = "P" },
+    { assay = 11, name = "BC5-2", column = "Q" },
+    { assay = 12, name = "BC5-3", column = "R" },
+    { assay = 13, name = "BCR-1", column = "S" },
+    { assay = 14, name = "BCR-2", column = "T" },
+    { assay = 15, name = "BCR-3", column = "U" },
+    { assay = 16, name = "BCL-1", column = "V" },
+    { assay = 17, name = "BCL-2", column = "W" },
+    { assay = 18, name = "BCL-3", column = "X" },
+    { assay = 19, name = "BM0-1", column = "Y" },
+    { assay = 20, name = "BM0-2", column = "Z" },
+    { assay = 21, name = "BM0-3", column = "AA" },
+    { assay = 22, name = "BM2-1", column = "AB" },
+    { assay = 23, name = "BM2-2", column = "AC" },
+    { assay = 24, name = "BM2-3", column = "AD" },
+    { assay = 25, name = "BM4-1", column = "AE" },
+    { assay = 26, name = "BM4-2", column = "AF" },
+    { assay = 27, name = "BM4-3", column = "AG" },
+    { assay = 28, name = "BM5-1", column = "AH" },
+    { assay = 29, name = "BM5-2", column = "AI" },
+    { assay = 30, name = "BM5-3", column = "AJ" },
+    { assay = 31, name = "BMR-1", column = "AK" },
+    { assay = 32, name = "BMR-2", column = "AL" },
+    { assay = 33, name = "BMR-3", column = "AM" },
+    { assay = 34, name = "BML-1", column = "AN" },
+    { assay = 35, name = "BML-2", column = "AO" },
+    { assay = 36, name = "BML-3", column = "AP" },
+    { assay = 37, name = "FC0-1", column = "AQ" },
+    { assay = 38, name = "FC0-2", column = "AR" },
+    { assay = 39, name = "FC0-3", column = "AS" },
+    { assay = 40, name = "FC2-1", column = "AT" },
+    { assay = 41, name = "FC2-2", column = "AU" },
+    { assay = 42, name = "FC2-3", column = "AV" },
+    { assay = 43, name = "FC4-1", column = "AW" },
+    { assay = 44, name = "FC4-2", column = "AX" },
+    { assay = 45, name = "FC4-3", column = "AY" },
+    { assay = 46, name = "FC5-1", column = "AZ" },
+    { assay = 47, name = "FC5-2", column = "BA" },
+    { assay = 48, name = "FC5-3", column = "BB" },
+    { assay = 49, name = "FCR-1", column = "BC" },
+    { assay = 50, name = "FCR-2", column = "BD" },
+    { assay = 51, name = "FCR-3", column = "BE" },
+    { assay = 52, name = "FCL-1", column = "BF" },
+    { assay = 53, name = "FCL-2", column = "BG" },
+    { assay = 54, name = "FCL-3", column = "BH" },
+    { assay = 55, name = "FD0-1", column = "BI" },
+    { assay = 56, name = "FD0-2", column = "BJ" },
+    { assay = 57, name = "FD0-3", column = "BK" },
+    { assay = 58, name = "FD2-1", column = "BL" },
+    { assay = 59, name = "FD2-2", column = "BM" },
+    { assay = 60, name = "FD2-3", column = "BN" },
+    { assay = 61, name = "FD4-1", column = "BO" },
+    { assay = 62, name = "FD4-2", column = "BP" },
+    { assay = 63, name = "FD4-3", column = "BQ" },
+    { assay = 64, name = "FDR-1", column = "BR" },
+    { assay = 65, name = "FDR-2", column = "BS" },
+    { assay = 66, name = "FDR-3", column = "BT" },
+    { assay = 67, name = "FDL-1", column = "BU" },
+    { assay = 68, name = "FDL-2", column = "BV" },
+    { assay = 69, name = "FDL-3", column = "BW" },
+    { assay = 70, name = "FM0-1", column = "BX" },
+    { assay = 71, name = "FM0-2", column = "BY" },
+    { assay = 72, name = "FM0-3", column = "BZ" },
+    { assay = 73, name = "FM2-1", column = "CA" },
+    { assay = 74, name = "FM2-2", column = "CB" },
+    { assay = 75, name = "FM2-3", column = "CC" },
+    { assay = 76, name = "FM4-1", column = "CD" },
+    { assay = 77, name = "FM4-2", column = "CE" },
+    { assay = 78, name = "FM4-3", column = "CF" },
+    { assay = 79, name = "FMR-1", column = "CG" },
+    { assay = 80, name = "FMR-2", column = "CH" },
+    { assay = 81, name = "FMR-3", column = "CI" },
+    { assay = 82, name = "FML-1", column = "CJ" },
+    { assay = 83, name = "FML-2", column = "CK" },
+    { assay = 84, name = "FML-3", column = "CL" },
+    { assay = 85, name = "FP0-1", column = "CM" },
+    { assay = 86, name = "FP0-2", column = "CN" },
+    { assay = 87, name = "FP0-3", column = "CO" },
+    { assay = 88, name = "FP2-1", column = "CP" },
+    { assay = 89, name = "FP2-2", column = "CQ" },
+    { assay = 90, name = "FP2-3", column = "CR" },
+    { assay = 91, name = "FP4-1", column = "CS" },
+    { assay = 92, name = "FP4-2", column = "CT" },
+    { assay = 93, name = "FP4-3", column = "CU" },
+    { assay = 94, name = "FPR-1", column = "CV" },
+    { assay = 95, name = "FPR-2", column = "CW" },
+    { assay = 96, name = "FPR-3", column = "CX" },
+    { assay = 97, name = "FPL-1", column = "CY" },
+    { assay = 98, name = "FPL-2", column = "CZ" },
+    { assay = 99, name = "FPL-3", column = "DA" },
+    { assay = 100, name = "QC1", column = "DB" },
+    { assay = 101, name = "qc10", column = "DC" },
+    { assay = 102, name = "QC11", column = "DD" },
+    { assay = 103, name = "QC12", column = "DE" },
+    { assay = 104, name = "QC13", column = "DF" },
+    { assay = 105, name = "QC14", column = "DG" },
+    { assay = 106, name = "QC15", column = "DH" },
+    { assay = 107, name = "QC16", column = "DI" },
+    { assay = 108, name = "QC17", column = "DJ" },
+    { assay = 109, name = "QC18", column = "DK" },
+    { assay = 110, name = "QC19", column = "DL" },
+    { assay = 111, name = "QC2", column = "DM" },
+    { assay = 112, name = "QC20", column = "DN" },
+    { assay = 113, name = "QC21", column = "DO" },
+    { assay = 114, name = "QC22", column = "DP" },
+    { assay = 115, name = "QC23", column = "DQ" },
+    { assay = 116, name = "QC24", column = "DR" },
+    { assay = 117, name = "QC25", column = "DS" },
+    { assay = 118, name = "QC26", column = "DT" },
+    { assay = 119, name = "QC27", column = "DU" },
+    { assay = 120, name = "QC28", column = "DV" },
+    { assay = 121, name = "QC29", column = "DW" },
+    { assay = 122, name = "QC3", column = "DX" },
+    { assay = 123, name = "QC30", column = "DY" },
+    { assay = 124, name = "QC31", column = "DZ" },
+    { assay = 125, name = "QC32", column = "EA" },
+    { assay = 126, name = "QC33", column = "EB" },
+    { assay = 127, name = "QC34", column = "EC" },
+    { assay = 128, name = "QC35", column = "ED" },
+    { assay = 129, name = "QC36", column = "EE" },
+    { assay = 130, name = "QC37", column = "EF" },
+    { assay = 131, name = "QC38", column = "EG" },
+    { assay = 132, name = "QC39", column = "EH" },
+    { assay = 133, name = "QC4", column = "EI" },
+    { assay = 134, name = "QC5", column = "EJ" },
+    { assay = 135, name = "QC6", column = "EK" },
+    { assay = 136, name = "QC7", column = "EL" },
+    { assay = 137, name = "QC8", column = "EM" },
+    { assay = 138, name = "QC9", column = "EN" },
+    { assay = 139, name = "Blank1", column = "EO" },
+    { assay = 140, name = "Blank2", column = "EP" },
+    { assay = 141, name = "Blank3", column = "EQ" },
+    { assay = 142, name = "Blank4", column = "ER" },
+    { assay = 143, name = "Blank5", column = "ES" },
+    { assay = 144, name = "Blank6", column = "ET" },
+    { assay = 145, name = "AVG Blank", column = "EU" },
+    { assay = 146, name = "AVG QC", column = "EV" },
+    { assay = 147, name = "RSD QC", column = "EX" },
+]
+
+[[table]]
+id = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Blank filter and RSD Edited"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx"
+sheet = "Blank filter and RSD Edited"
+features_in = "rows"
+n_features = 191
+n_samples = 147
+sample = [
+    { assay = 1, name = "BC0-1", column = "I" },
+    { assay = 2, name = "BC0-2", column = "J" },
+    { assay = 3, name = "BC0-3", column = "K" },
+    { assay = 4, name = "BC2-1", column = "L" },
+    { assay = 5, name = "BC2-2", column = "M" },
+    { assay = 6, name = "BC2-3", column = "N" },
+    { assay = 7, name = "BC4-1", column = "O" },
+    { assay = 8, name = "BC4-2", column = "P" },
+    { assay = 9, name = "BC4-3", column = "Q" },
+    { assay = 10, name = "BC5-1", column = "R" },
+    { assay = 11, name = "BC5-2", column = "S" },
+    { assay = 12, name = "BC5-3", column = "T" },
+    { assay = 13, name = "BCR-1", column = "U" },
+    { assay = 14, name = "BCR-2", column = "V" },
+    { assay = 15, name = "BCR-3", column = "W" },
+    { assay = 16, name = "BCL-1", column = "X" },
+    { assay = 17, name = "BCL-2", column = "Y" },
+    { assay = 18, name = "BCL-3", column = "Z" },
+    { assay = 19, name = "BM0-1", column = "AA" },
+    { assay = 20, name = "BM0-2", column = "AB" },
+    { assay = 21, name = "BM0-3", column = "AC" },
+    { assay = 22, name = "BM2-1", column = "AD" },
+    { assay = 23, name = "BM2-2", column = "AE" },
+    { assay = 24, name = "BM2-3", column = "AF" },
+    { assay = 25, name = "BM4-1", column = "AG" },
+    { assay = 26, name = "BM4-2", column = "AH" },
+    { assay = 27, name = "BM4-3", column = "AI" },
+    { assay = 28, name = "BM5-1", column = "AJ" },
+    { assay = 29, name = "BM5-2", column = "AK" },
+    { assay = 30, name = "BM5-3", column = "AL" },
+    { assay = 31, name = "BMR-1", column = "AM" },
+    { assay = 32, name = "BMR-2", column = "AN" },
+    { assay = 33, name = "BMR-3", column = "AO" },
+    { assay = 34, name = "BML-1", column = "AP" },
+    { assay = 35, name = "BML-2", column = "AQ" },
+    { assay = 36, name = "BML-3", column = "AR" },
+    { assay = 37, name = "FC0-1", column = "AS" },
+    { assay = 38, name = "FC0-2", column = "AT" },
+    { assay = 39, name = "FC0-3", column = "AU" },
+    { assay = 40, name = "FC2-1", column = "AV" },
+    { assay = 41, name = "FC2-2", column = "AW" },
+    { assay = 42, name = "FC2-3", column = "AX" },
+    { assay = 43, name = "FC4-1", column = "AY" },
+    { assay = 44, name = "FC4-2", column = "AZ" },
+    { assay = 45, name = "FC4-3", column = "BA" },
+    { assay = 46, name = "FC5-1", column = "BB" },
+    { assay = 47, name = "FC5-2", column = "BC" },
+    { assay = 48, name = "FC5-3", column = "BD" },
+    { assay = 49, name = "FCR-1", column = "BE" },
+    { assay = 50, name = "FCR-2", column = "BF" },
+    { assay = 51, name = "FCR-3", column = "BG" },
+    { assay = 52, name = "FCL-1", column = "BH" },
+    { assay = 53, name = "FCL-2", column = "BI" },
+    { assay = 54, name = "FCL-3", column = "BJ" },
+    { assay = 55, name = "FD0-1", column = "BK" },
+    { assay = 56, name = "FD0-2", column = "BL" },
+    { assay = 57, name = "FD0-3", column = "BM" },
+    { assay = 58, name = "FD2-1", column = "BN" },
+    { assay = 59, name = "FD2-2", column = "BO" },
+    { assay = 60, name = "FD2-3", column = "BP" },
+    { assay = 61, name = "FD4-1", column = "BQ" },
+    { assay = 62, name = "FD4-2", column = "BR" },
+    { assay = 63, name = "FD4-3", column = "BS" },
+    { assay = 64, name = "FDR-1", column = "BT" },
+    { assay = 65, name = "FDR-2", column = "BU" },
+    { assay = 66, name = "FDR-3", column = "BV" },
+    { assay = 67, name = "FDL-1", column = "BW" },
+    { assay = 68, name = "FDL-2", column = "BX" },
+    { assay = 69, name = "FDL-3", column = "BY" },
+    { assay = 70, name = "FM0-1", column = "BZ" },
+    { assay = 71, name = "FM0-2", column = "CA" },
+    { assay = 72, name = "FM0-3", column = "CB" },
+    { assay = 73, name = "FM2-1", column = "CC" },
+    { assay = 74, name = "FM2-2", column = "CD" },
+    { assay = 75, name = "FM2-3", column = "CE" },
+    { assay = 76, name = "FM4-1", column = "CF" },
+    { assay = 77, name = "FM4-2", column = "CG" },
+    { assay = 78, name = "FM4-3", column = "CH" },
+    { assay = 79, name = "FMR-1", column = "CI" },
+    { assay = 80, name = "FMR-2", column = "CJ" },
+    { assay = 81, name = "FMR-3", column = "CK" },
+    { assay = 82, name = "FML-1", column = "CL" },
+    { assay = 83, name = "FML-2", column = "CM" },
+    { assay = 84, name = "FML-3", column = "CN" },
+    { assay = 85, name = "FP0-1", column = "CO" },
+    { assay = 86, name = "FP0-2", column = "CP" },
+    { assay = 87, name = "FP0-3", column = "CQ" },
+    { assay = 88, name = "FP2-1", column = "CR" },
+    { assay = 89, name = "FP2-2", column = "CS" },
+    { assay = 90, name = "FP2-3", column = "CT" },
+    { assay = 91, name = "FP4-1", column = "CU" },
+    { assay = 92, name = "FP4-2", column = "CV" },
+    { assay = 93, name = "FP4-3", column = "CW" },
+    { assay = 94, name = "FPR-1", column = "CX" },
+    { assay = 95, name = "FPR-2", column = "CY" },
+    { assay = 96, name = "FPR-3", column = "CZ" },
+    { assay = 97, name = "FPL-1", column = "DA" },
+    { assay = 98, name = "FPL-2", column = "DB" },
+    { assay = 99, name = "FPL-3", column = "DC" },
+    { assay = 100, name = "QC1", column = "DD" },
+    { assay = 101, name = "qc10", column = "DE" },
+    { assay = 102, name = "QC11", column = "DF" },
+    { assay = 103, name = "QC12", column = "DG" },
+    { assay = 104, name = "QC13", column = "DH" },
+    { assay = 105, name = "QC14", column = "DI" },
+    { assay = 106, name = "QC15", column = "DJ" },
+    { assay = 107, name = "QC16", column = "DK" },
+    { assay = 108, name = "QC17", column = "DL" },
+    { assay = 109, name = "QC18", column = "DM" },
+    { assay = 110, name = "QC19", column = "DN" },
+    { assay = 111, name = "QC2", column = "DO" },
+    { assay = 112, name = "QC20", column = "DP" },
+    { assay = 113, name = "QC21", column = "DQ" },
+    { assay = 114, name = "QC22", column = "DR" },
+    { assay = 115, name = "QC23", column = "DS" },
+    { assay = 116, name = "QC24", column = "DT" },
+    { assay = 117, name = "QC25", column = "DU" },
+    { assay = 118, name = "QC26", column = "DV" },
+    { assay = 119, name = "QC27", column = "DW" },
+    { assay = 120, name = "QC28", column = "DX" },
+    { assay = 121, name = "QC29", column = "DY" },
+    { assay = 122, name = "QC3", column = "DZ" },
+    { assay = 123, name = "QC30", column = "EA" },
+    { assay = 124, name = "QC31", column = "EB" },
+    { assay = 125, name = "QC32", column = "EC" },
+    { assay = 126, name = "QC33", column = "ED" },
+    { assay = 127, name = "QC34", column = "EE" },
+    { assay = 128, name = "QC35", column = "EF" },
+    { assay = 129, name = "QC36", column = "EG" },
+    { assay = 130, name = "QC37", column = "EH" },
+    { assay = 131, name = "QC38", column = "EI" },
+    { assay = 132, name = "QC39", column = "EJ" },
+    { assay = 133, name = "QC4", column = "EK" },
+    { assay = 134, name = "QC5", column = "EL" },
+    { assay = 135, name = "QC6", column = "EM" },
+    { assay = 136, name = "QC7", column = "EN" },
+    { assay = 137, name = "QC8", column = "EO" },
+    { assay = 138, name = "QC9", column = "EP" },
+    { assay = 139, name = "Blank1", column = "EQ" },
+    { assay = 140, name = "Blank2", column = "ER" },
+    { assay = 141, name = "Blank3", column = "ES" },
+    { assay = 142, name = "Blank4", column = "ET" },
+    { assay = 143, name = "Blank5", column = "EU" },
+    { assay = 144, name = "Blank6", column = "EV" },
+    { assay = 145, name = "AVG Blank", column = "EW" },
+    { assay = 146, name = "AVG QC", column = "EX" },
+    { assay = 147, name = "RSD QC", column = "EZ" },
+]
+
+[[table]]
+id = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Double check"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx"
+sheet = "Double check"
+features_in = "rows"
+n_features = 86
+n_samples = 99
+sample = [
+    { assay = 1, name = "BC0-1", column = "I" },
+    { assay = 2, name = "BC0-2", column = "J" },
+    { assay = 3, name = "BC0-3", column = "K" },
+    { assay = 4, name = "BC2-1", column = "L" },
+    { assay = 5, name = "BC2-2", column = "M" },
+    { assay = 6, name = "BC2-3", column = "N" },
+    { assay = 7, name = "BC4-1", column = "O" },
+    { assay = 8, name = "BC4-2", column = "P" },
+    { assay = 9, name = "BC4-3", column = "Q" },
+    { assay = 10, name = "BC5-1", column = "R" },
+    { assay = 11, name = "BC5-2", column = "S" },
+    { assay = 12, name = "BC5-3", column = "T" },
+    { assay = 13, name = "BCR-1", column = "U" },
+    { assay = 14, name = "BCR-2", column = "V" },
+    { assay = 15, name = "BCR-3", column = "W" },
+    { assay = 16, name = "BCL-1", column = "X" },
+    { assay = 17, name = "BCL-2", column = "Y" },
+    { assay = 18, name = "BCL-3", column = "Z" },
+    { assay = 19, name = "BM0-1", column = "AA" },
+    { assay = 20, name = "BM0-2", column = "AB" },
+    { assay = 21, name = "BM0-3", column = "AC" },
+    { assay = 22, name = "BM2-1", column = "AD" },
+    { assay = 23, name = "BM2-2", column = "AE" },
+    { assay = 24, name = "BM2-3", column = "AF" },
+    { assay = 25, name = "BM4-1", column = "AG" },
+    { assay = 26, name = "BM4-2", column = "AH" },
+    { assay = 27, name = "BM4-3", column = "AI" },
+    { assay = 28, name = "BM5-1", column = "AJ" },
+    { assay = 29, name = "BM5-2", column = "AK" },
+    { assay = 30, name = "BM5-3", column = "AL" },
+    { assay = 31, name = "BMR-1", column = "AM" },
+    { assay = 32, name = "BMR-2", column = "AN" },
+    { assay = 33, name = "BMR-3", column = "AO" },
+    { assay = 34, name = "BML-1", column = "AP" },
+    { assay = 35, name = "BML-2", column = "AQ" },
+    { assay = 36, name = "BML-3", column = "AR" },
+    { assay = 37, name = "FC0-1", column = "AS" },
+    { assay = 38, name = "FC0-2", column = "AT" },
+    { assay = 39, name = "FC0-3", column = "AU" },
+    { assay = 40, name = "FC2-1", column = "AV" },
+    { assay = 41, name = "FC2-2", column = "AW" },
+    { assay = 42, name = "FC2-3", column = "AX" },
+    { assay = 43, name = "FC4-1", column = "AY" },
+    { assay = 44, name = "FC4-2", column = "AZ" },
+    { assay = 45, name = "FC4-3", column = "BA" },
+    { assay = 46, name = "FC5-1", column = "BB" },
+    { assay = 47, name = "FC5-2", column = "BC" },
+    { assay = 48, name = "FC5-3", column = "BD" },
+    { assay = 49, name = "FCR-1", column = "BE" },
+    { assay = 50, name = "FCR-2", column = "BF" },
+    { assay = 51, name = "FCR-3", column = "BG" },
+    { assay = 52, name = "FCL-1", column = "BH" },
+    { assay = 53, name = "FCL-2", column = "BI" },
+    { assay = 54, name = "FCL-3", column = "BJ" },
+    { assay = 55, name = "FD0-1", column = "BK" },
+    { assay = 56, name = "FD0-2", column = "BL" },
+    { assay = 57, name = "FD0-3", column = "BM" },
+    { assay = 58, name = "FD2-1", column = "BN" },
+    { assay = 59, name = "FD2-2", column = "BO" },
+    { assay = 60, name = "FD2-3", column = "BP" },
+    { assay = 61, name = "FD4-1", column = "BQ" },
+    { assay = 62, name = "FD4-2", column = "BR" },
+    { assay = 63, name = "FD4-3", column = "BS" },
+    { assay = 64, name = "FDR-1", column = "BT" },
+    { assay = 65, name = "FDR-2", column = "BU" },
+    { assay = 66, name = "FDR-3", column = "BV" },
+    { assay = 67, name = "FDL-1", column = "BW" },
+    { assay = 68, name = "FDL-2", column = "BX" },
+    { assay = 69, name = "FDL-3", column = "BY" },
+    { assay = 70, name = "FM0-1", column = "BZ" },
+    { assay = 71, name = "FM0-2", column = "CA" },
+    { assay = 72, name = "FM0-3", column = "CB" },
+    { assay = 73, name = "FM2-1", column = "CC" },
+    { assay = 74, name = "FM2-2", column = "CD" },
+    { assay = 75, name = "FM2-3", column = "CE" },
+    { assay = 76, name = "FM4-1", column = "CF" },
+    { assay = 77, name = "FM4-2", column = "CG" },
+    { assay = 78, name = "FM4-3", column = "CH" },
+    { assay = 79, name = "FMR-1", column = "CI" },
+    { assay = 80, name = "FMR-2", column = "CJ" },
+    { assay = 81, name = "FMR-3", column = "CK" },
+    { assay = 82, name = "FML-1", column = "CL" },
+    { assay = 83, name = "FML-2", column = "CM" },
+    { assay = 84, name = "FML-3", column = "CN" },
+    { assay = 85, name = "FP0-1", column = "CO" },
+    { assay = 86, name = "FP0-2", column = "CP" },
+    { assay = 87, name = "FP0-3", column = "CQ" },
+    { assay = 88, name = "FP2-1", column = "CR" },
+    { assay = 89, name = "FP2-2", column = "CS" },
+    { assay = 90, name = "FP2-3", column = "CT" },
+    { assay = 91, name = "FP4-1", column = "CU" },
+    { assay = 92, name = "FP4-2", column = "CV" },
+    { assay = 93, name = "FP4-3", column = "CW" },
+    { assay = 94, name = "FPR-1", column = "CX" },
+    { assay = 95, name = "FPR-2", column = "CY" },
+    { assay = 96, name = "FPR-3", column = "CZ" },
+    { assay = 97, name = "FPL-1", column = "DA" },
+    { assay = 98, name = "FPL-2", column = "DB" },
+    { assay = 99, name = "FPL-3", column = "DC" },
+]
+
+[[table]]
+id = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Sheet1"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx"
+sheet = "Sheet1"
+features_in = "rows"
+n_features = 6
+n_samples = 9
+sample = [
+    { assay = 1, name = "BC0-1", column = "B" },
+    { assay = 2, name = "BC0-2", column = "C" },
+    { assay = 3, name = "BC0-3", column = "D" },
+    { assay = 4, name = "FCL-1", column = "E" },
+    { assay = 5, name = "FCL-2", column = "F" },
+    { assay = 6, name = "FCL-3", column = "G" },
+    { assay = 7, name = "FPL-1", column = "H" },
+    { assay = 8, name = "FPL-2", column = "I" },
+    { assay = 9, name = "FPL-3", column = "J" },
+]
+
+[[table]]
+id = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Matrix PCA Non volatile"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx"
+sheet = "Matrix PCA Non volatile"
+features_in = "columns"
+n_features = 123
+n_samples = 99
+sample = [
+    { assay = 1, name = "BC0-1", row = 2 },
+    { assay = 2, name = "BC0-2", row = 3 },
+    { assay = 3, name = "BC0-3", row = 4 },
+    { assay = 4, name = "BC2-1", row = 5 },
+    { assay = 5, name = "BC2-2", row = 6 },
+    { assay = 6, name = "BC2-3", row = 7 },
+    { assay = 7, name = "BC4-1", row = 8 },
+    { assay = 8, name = "BC4-2", row = 9 },
+    { assay = 9, name = "BC4-3", row = 10 },
+    { assay = 10, name = "BC5-1", row = 11 },
+    { assay = 11, name = "BC5-2", row = 12 },
+    { assay = 12, name = "BC5-3", row = 13 },
+    { assay = 13, name = "BCR-1", row = 14 },
+    { assay = 14, name = "BCR-2", row = 15 },
+    { assay = 15, name = "BCR-3", row = 16 },
+    { assay = 16, name = "BCL-1", row = 17 },
+    { assay = 17, name = "BCL-2", row = 18 },
+    { assay = 18, name = "BCL-3", row = 19 },
+    { assay = 19, name = "BM0-1", row = 20 },
+    { assay = 20, name = "BM0-2", row = 21 },
+    { assay = 21, name = "BM0-3", row = 22 },
+    { assay = 22, name = "BM2-1", row = 23 },
+    { assay = 23, name = "BM2-2", row = 24 },
+    { assay = 24, name = "BM2-3", row = 25 },
+    { assay = 25, name = "BM4-1", row = 26 },
+    { assay = 26, name = "BM4-2", row = 27 },
+    { assay = 27, name = "BM4-3", row = 28 },
+    { assay = 28, name = "BM5-1", row = 29 },
+    { assay = 29, name = "BM5-2", row = 30 },
+    { assay = 30, name = "BM5-3", row = 31 },
+    { assay = 31, name = "BMR-1", row = 32 },
+    { assay = 32, name = "BMR-2", row = 33 },
+    { assay = 33, name = "BMR-3", row = 34 },
+    { assay = 34, name = "BML-1", row = 35 },
+    { assay = 35, name = "BML-2", row = 36 },
+    { assay = 36, name = "BML-3", row = 37 },
+    { assay = 37, name = "FC0-1", row = 38 },
+    { assay = 38, name = "FC0-2", row = 39 },
+    { assay = 39, name = "FC0-3", row = 40 },
+    { assay = 40, name = "FC2-1", row = 41 },
+    { assay = 41, name = "FC2-2", row = 42 },
+    { assay = 42, name = "FC2-3", row = 43 },
+    { assay = 43, name = "FC4-1", row = 44 },
+    { assay = 44, name = "FC4-2", row = 45 },
+    { assay = 45, name = "FC4-3", row = 46 },
+    { assay = 46, name = "FC5-1", row = 47 },
+    { assay = 47, name = "FC5-2", row = 48 },
+    { assay = 48, name = "FC5-3", row = 49 },
+    { assay = 49, name = "FCR-1", row = 50 },
+    { assay = 50, name = "FCR-2", row = 51 },
+    { assay = 51, name = "FCR-3", row = 52 },
+    { assay = 52, name = "FCL-1", row = 53 },
+    { assay = 53, name = "FCL-2", row = 54 },
+    { assay = 54, name = "FCL-3", row = 55 },
+    { assay = 55, name = "FD0-1", row = 56 },
+    { assay = 56, name = "FD0-2", row = 57 },
+    { assay = 57, name = "FD0-3", row = 58 },
+    { assay = 58, name = "FD2-1", row = 59 },
+    { assay = 59, name = "FD2-2", row = 60 },
+    { assay = 60, name = "FD2-3", row = 61 },
+    { assay = 61, name = "FD4-1", row = 62 },
+    { assay = 62, name = "FD4-2", row = 63 },
+    { assay = 63, name = "FD4-3", row = 64 },
+    { assay = 64, name = "FDR-1", row = 65 },
+    { assay = 65, name = "FDR-2", row = 66 },
+    { assay = 66, name = "FDR-3", row = 67 },
+    { assay = 67, name = "FDL-1", row = 68 },
+    { assay = 68, name = "FDL-2", row = 69 },
+    { assay = 69, name = "FDL-3", row = 70 },
+    { assay = 70, name = "FM0-1", row = 71 },
+    { assay = 71, name = "FM0-2", row = 72 },
+    { assay = 72, name = "FM0-3", row = 73 },
+    { assay = 73, name = "FM2-1", row = 74 },
+    { assay = 74, name = "FM2-2", row = 75 },
+    { assay = 75, name = "FM2-3", row = 76 },
+    { assay = 76, name = "FM4-1", row = 77 },
+    { assay = 77, name = "FM4-2", row = 78 },
+    { assay = 78, name = "FM4-3", row = 79 },
+    { assay = 79, name = "FMR-1", row = 80 },
+    { assay = 80, name = "FMR-2", row = 81 },
+    { assay = 81, name = "FMR-3", row = 82 },
+    { assay = 82, name = "FML-1", row = 83 },
+    { assay = 83, name = "FML-2", row = 84 },
+    { assay = 84, name = "FML-3", row = 85 },
+    { assay = 85, name = "FP0-1", row = 86 },
+    { assay = 86, name = "FP0-2", row = 87 },
+    { assay = 87, name = "FP0-3", row = 88 },
+    { assay = 88, name = "FP2-1", row = 89 },
+    { assay = 89, name = "FP2-2", row = 90 },
+    { assay = 90, name = "FP2-3", row = 91 },
+    { assay = 91, name = "FP4-1", row = 92 },
+    { assay = 92, name = "FP4-2", row = 93 },
+    { assay = 93, name = "FP4-3", row = 94 },
+    { assay = 94, name = "FPR-1", row = 95 },
+    { assay = 95, name = "FPR-2", row = 96 },
+    { assay = 96, name = "FPR-3", row = 97 },
+    { assay = 97, name = "FPL-1", row = 98 },
+    { assay = 98, name = "FPL-2", row = 99 },
+    { assay = 99, name = "FPL-3", row = 100 },
+]

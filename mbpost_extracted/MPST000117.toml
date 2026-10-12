@@ -1,0 +1,482 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000117.xlsx"
+mbpost_id = "MPST000117"
+n_tables = 1
+
+[[table]]
+id = "MPST000117"
+mbpost_id = "MPST000117"
+source_file = "MPST000117.xlsx"
+sheet = "Sheet1"
+features_in = "rows"
+n_features = 106
+n_samples = 52
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 1
+name = "TW_4W-1"
+column = "D"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "4"
+
+[[table.sample]]
+assay = 2
+name = "TW_4W-2"
+column = "E"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "4"
+
+[[table.sample]]
+assay = 3
+name = "TW_4W-3"
+column = "F"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "4"
+
+[[table.sample]]
+assay = 4
+name = "TW_4W-4"
+column = "G"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "4"
+
+[[table.sample]]
+assay = 5
+name = "TW_5W-1"
+column = "H"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "5"
+
+[[table.sample]]
+assay = 6
+name = "TW_5W-2"
+column = "I"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "5"
+
+[[table.sample]]
+assay = 7
+name = "TW_5W-3"
+column = "J"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "5"
+
+[[table.sample]]
+assay = 8
+name = "TW_5W-4"
+column = "K"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "5"
+
+[[table.sample]]
+assay = 9
+name = "TW_6W-1"
+column = "L"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "6"
+
+[[table.sample]]
+assay = 10
+name = "TW_6W-2"
+column = "M"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "6"
+
+[[table.sample]]
+assay = 11
+name = "TW_6W-3"
+column = "N"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "6"
+
+[[table.sample]]
+assay = 12
+name = "TW_6W-4"
+column = "O"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "6"
+
+[[table.sample]]
+assay = 13
+name = "TW_7W-1"
+column = "P"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "7"
+
+[[table.sample]]
+assay = 14
+name = "TW_7W-2"
+column = "Q"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "7"
+
+[[table.sample]]
+assay = 15
+name = "TW_7W-3"
+column = "R"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "7"
+
+[[table.sample]]
+assay = 16
+name = "TW_7W-4"
+column = "S"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "7"
+
+[[table.sample]]
+assay = 17
+name = "TW_8W-1"
+column = "T"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "8"
+
+[[table.sample]]
+assay = 18
+name = "TW_8W-2"
+column = "U"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "8"
+
+[[table.sample]]
+assay = 19
+name = "TW_8W-3"
+column = "V"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "8"
+
+[[table.sample]]
+assay = 20
+name = "TW_8W-4b"
+column = "W"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "8"
+
+[[table.sample]]
+assay = 21
+name = "TW_9W-1"
+column = "X"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "9"
+
+[[table.sample]]
+assay = 22
+name = "TW_9W-2"
+column = "Y"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "9"
+
+[[table.sample]]
+assay = 23
+name = "TW_9W-3"
+column = "Z"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "9"
+
+[[table.sample]]
+assay = 24
+name = "TW_9W-4"
+column = "AA"
+
+[table.sample.attributes]
+Group = "Wild"
+Week-old = "9"
+
+[[table.sample]]
+assay = 25
+name = "TK_9W-1"
+column = "AB"
+
+[table.sample.attributes]
+Group = "PK"
+Week-old = "9"
+
+[[table.sample]]
+assay = 26
+name = "TK_9W-2"
+column = "AC"
+
+[table.sample.attributes]
+Group = "PK"
+Week-old = "9"
+
+[[table.sample]]
+assay = 27
+name = "TK_9W-3"
+column = "AD"
+
+[table.sample.attributes]
+Group = "PK"
+Week-old = "9"
+
+[[table.sample]]
+assay = 28
+name = "TK_9W-4"
+column = "AE"
+
+[table.sample.attributes]
+Group = "PK"
+Week-old = "9"
+
+[[table.sample]]
+assay = 29
+name = "TF_4W-1"
+column = "AF"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "4"
+
+[[table.sample]]
+assay = 30
+name = "TF_4W-2"
+column = "AG"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "4"
+
+[[table.sample]]
+assay = 31
+name = "TF_4W-3"
+column = "AH"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "4"
+
+[[table.sample]]
+assay = 32
+name = "TF_4W-4"
+column = "AI"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "4"
+
+[[table.sample]]
+assay = 33
+name = "TF_5W-1"
+column = "AJ"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "5"
+
+[[table.sample]]
+assay = 34
+name = "TF_5W-2"
+column = "AK"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "5"
+
+[[table.sample]]
+assay = 35
+name = "TF_5W-3"
+column = "AL"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "5"
+
+[[table.sample]]
+assay = 36
+name = "TF_5W-4"
+column = "AM"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "5"
+
+[[table.sample]]
+assay = 37
+name = "TF_6W-1"
+column = "AN"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "6"
+
+[[table.sample]]
+assay = 38
+name = "TF_6W-2"
+column = "AO"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "6"
+
+[[table.sample]]
+assay = 39
+name = "TF_6W-3"
+column = "AP"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "6"
+
+[[table.sample]]
+assay = 40
+name = "TF_6W-4"
+column = "AQ"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "6"
+
+[[table.sample]]
+assay = 41
+name = "TF_7W-1"
+column = "AR"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "7"
+
+[[table.sample]]
+assay = 42
+name = "TF_7W-2"
+column = "AS"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "7"
+
+[[table.sample]]
+assay = 43
+name = "TF_7W-3"
+column = "AT"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "7"
+
+[[table.sample]]
+assay = 44
+name = "TF_7W-4"
+column = "AU"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "7"
+
+[[table.sample]]
+assay = 45
+name = "TF_8W-1"
+column = "AV"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "8"
+
+[[table.sample]]
+assay = 46
+name = "TF_8W-2"
+column = "AW"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "8"
+
+[[table.sample]]
+assay = 47
+name = "TF_8W-3"
+column = "AX"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "8"
+
+[[table.sample]]
+assay = 48
+name = "TF_8W-4"
+column = "AY"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "8"
+
+[[table.sample]]
+assay = 49
+name = "TF_9W-1"
+column = "AZ"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "9"
+
+[[table.sample]]
+assay = 50
+name = "TF_9W-2"
+column = "BA"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "9"
+
+[[table.sample]]
+assay = 51
+name = "TF_9W-3"
+column = "BB"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "9"
+
+[[table.sample]]
+assay = 52
+name = "TF_9W-4"
+column = "BC"
+
+[table.sample.attributes]
+Group = "PKF"
+Week-old = "9"

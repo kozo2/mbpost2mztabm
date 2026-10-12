@@ -1,0 +1,494 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000110.xlsx"
+mbpost_id = "MPST000110"
+n_tables = 1
+
+[[table]]
+id = "MPST000110"
+mbpost_id = "MPST000110"
+source_file = "MPST000110.xlsx"
+sheet = "Quantitative values"
+features_in = "rows"
+n_features = 120
+n_samples = 48
+unit = "pmol/mg-DCW"
+
+[[table.sample]]
+assay = 1
+name = "BW25113_4h_1"
+column = "J"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "4h"
+header_3 = "1"
+
+[[table.sample]]
+assay = 2
+name = "BW25113_4h_2"
+column = "K"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "4h"
+header_3 = "2"
+
+[[table.sample]]
+assay = 3
+name = "BW25113_4h_3"
+column = "L"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "4h"
+header_3 = "3"
+
+[[table.sample]]
+assay = 4
+name = "BW25113_4h_4"
+column = "M"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "4h"
+header_3 = "4"
+
+[[table.sample]]
+assay = 5
+name = "BW25113_8h_1"
+column = "N"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "8h"
+header_3 = "1"
+
+[[table.sample]]
+assay = 6
+name = "BW25113_8h_2"
+column = "O"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "8h"
+header_3 = "2"
+
+[[table.sample]]
+assay = 7
+name = "BW25113_8h_3"
+column = "P"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "8h"
+header_3 = "3"
+
+[[table.sample]]
+assay = 8
+name = "BW25113_8h_4"
+column = "Q"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "8h"
+header_3 = "4"
+
+[[table.sample]]
+assay = 9
+name = "BW25113_12h_1"
+column = "R"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "12h"
+header_3 = "1"
+
+[[table.sample]]
+assay = 10
+name = "BW25113_12h_2"
+column = "S"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "12h"
+header_3 = "2"
+
+[[table.sample]]
+assay = 11
+name = "BW25113_12h_3"
+column = "T"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "12h"
+header_3 = "3"
+
+[[table.sample]]
+assay = 12
+name = "BW25113_12h_4"
+column = "U"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "12h"
+header_3 = "4"
+
+[[table.sample]]
+assay = 13
+name = "BW25113_16h_1"
+column = "V"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "16h"
+header_3 = "1"
+
+[[table.sample]]
+assay = 14
+name = "BW25113_16h_2"
+column = "W"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "16h"
+header_3 = "2"
+
+[[table.sample]]
+assay = 15
+name = "BW25113_16h_3"
+column = "X"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "16h"
+header_3 = "3"
+
+[[table.sample]]
+assay = 16
+name = "BW25113_16h_4"
+column = "Y"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "16h"
+header_3 = "4"
+
+[[table.sample]]
+assay = 17
+name = "BW25113_20h_1"
+column = "Z"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "20h"
+header_3 = "1"
+
+[[table.sample]]
+assay = 18
+name = "BW25113_20h_2"
+column = "AA"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "20h"
+header_3 = "2"
+
+[[table.sample]]
+assay = 19
+name = "BW25113_20h_3"
+column = "AB"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "20h"
+header_3 = "3"
+
+[[table.sample]]
+assay = 20
+name = "BW25113_20h_4"
+column = "AC"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "20h"
+header_3 = "4"
+
+[[table.sample]]
+assay = 21
+name = "BW25113_24h_1"
+column = "AD"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "24h"
+header_3 = "1"
+
+[[table.sample]]
+assay = 22
+name = "BW25113_24h_2"
+column = "AE"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "24h"
+header_3 = "2"
+
+[[table.sample]]
+assay = 23
+name = "BW25113_24h_3"
+column = "AF"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "24h"
+header_3 = "3"
+
+[[table.sample]]
+assay = 24
+name = "BW25113_24h_4"
+column = "AG"
+
+[table.sample.attributes]
+header_1 = "BW25113"
+header_2 = "24h"
+header_3 = "4"
+
+[[table.sample]]
+assay = 25
+name = "BL21_4h_1"
+column = "AH"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "4h"
+header_3 = "1"
+
+[[table.sample]]
+assay = 26
+name = "BL21_4h_2"
+column = "AI"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "4h"
+header_3 = "2"
+
+[[table.sample]]
+assay = 27
+name = "BL21_4h_3"
+column = "AJ"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "4h"
+header_3 = "3"
+
+[[table.sample]]
+assay = 28
+name = "BL21_4h_4"
+column = "AK"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "4h"
+header_3 = "4"
+
+[[table.sample]]
+assay = 29
+name = "BL21_8h_1"
+column = "AL"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "8h"
+header_3 = "1"
+
+[[table.sample]]
+assay = 30
+name = "BL21_8h_2"
+column = "AM"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "8h"
+header_3 = "2"
+
+[[table.sample]]
+assay = 31
+name = "BL21_8h_3"
+column = "AN"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "8h"
+header_3 = "3"
+
+[[table.sample]]
+assay = 32
+name = "BL21_8h_4"
+column = "AO"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "8h"
+header_3 = "4"
+
+[[table.sample]]
+assay = 33
+name = "BL21_12h_1"
+column = "AP"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "12h"
+header_3 = "1"
+
+[[table.sample]]
+assay = 34
+name = "BL21_12h_2"
+column = "AQ"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "12h"
+header_3 = "2"
+
+[[table.sample]]
+assay = 35
+name = "BL21_12h_3"
+column = "AR"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "12h"
+header_3 = "3"
+
+[[table.sample]]
+assay = 36
+name = "BL21_12h_4"
+column = "AS"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "12h"
+header_3 = "4"
+
+[[table.sample]]
+assay = 37
+name = "BL21_16h_1"
+column = "AT"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "16h"
+header_3 = "1"
+
+[[table.sample]]
+assay = 38
+name = "BL21_16h_2"
+column = "AU"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "16h"
+header_3 = "2"
+
+[[table.sample]]
+assay = 39
+name = "BL21_16h_3"
+column = "AV"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "16h"
+header_3 = "3"
+
+[[table.sample]]
+assay = 40
+name = "BL21_16h_4"
+column = "AW"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "16h"
+header_3 = "4"
+
+[[table.sample]]
+assay = 41
+name = "BL21_20h_1"
+column = "AX"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "20h"
+header_3 = "1"
+
+[[table.sample]]
+assay = 42
+name = "BL21_20h_2"
+column = "AY"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "20h"
+header_3 = "2"
+
+[[table.sample]]
+assay = 43
+name = "BL21_20h_3"
+column = "AZ"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "20h"
+header_3 = "3"
+
+[[table.sample]]
+assay = 44
+name = "BL21_20h_4"
+column = "BA"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "20h"
+header_3 = "4"
+
+[[table.sample]]
+assay = 45
+name = "BL21_24h_1"
+column = "BB"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "24h"
+header_3 = "1"
+
+[[table.sample]]
+assay = 46
+name = "BL21_24h_2"
+column = "BC"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "24h"
+header_3 = "2"
+
+[[table.sample]]
+assay = 47
+name = "BL21_24h_3"
+column = "BD"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "24h"
+header_3 = "3"
+
+[[table.sample]]
+assay = 48
+name = "BL21_24h_4"
+column = "BE"
+
+[table.sample.attributes]
+header_1 = "BL21"
+header_2 = "24h"
+header_3 = "4"

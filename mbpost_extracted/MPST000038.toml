@@ -1,0 +1,324 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000038.xlsx"
+mbpost_id = "MPST000038"
+n_tables = 2
+
+[[table]]
+id = "MPST000038#results_anion"
+mbpost_id = "MPST000038"
+source_file = "MPST000038.xlsx"
+sheet = "results_anion"
+features_in = "rows"
+n_features = 239
+n_samples = 15
+unit = "fmol/cell"
+
+[[table.sample]]
+assay = 1
+name = "1_A"
+column = "D"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "0"
+"Sample number" = "1"
+header_3 = "A"
+
+[[table.sample]]
+assay = 2
+name = "1_B"
+column = "E"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "0"
+"Sample number" = "1"
+header_3 = "B"
+
+[[table.sample]]
+assay = 3
+name = "1_C"
+column = "F"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "0"
+"Sample number" = "1"
+header_3 = "C"
+
+[[table.sample]]
+assay = 4
+name = "2_A"
+column = "G"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "48"
+"Sample number" = "2"
+header_3 = "A"
+
+[[table.sample]]
+assay = 5
+name = "2_B"
+column = "H"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "48"
+"Sample number" = "2"
+header_3 = "B"
+
+[[table.sample]]
+assay = 6
+name = "2_C"
+column = "I"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "48"
+"Sample number" = "2"
+header_3 = "C"
+
+[[table.sample]]
+assay = 7
+name = "3_A"
+column = "J"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "96"
+"Sample number" = "3"
+header_3 = "A"
+
+[[table.sample]]
+assay = 8
+name = "3_B"
+column = "K"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "96"
+"Sample number" = "3"
+header_3 = "B"
+
+[[table.sample]]
+assay = 9
+name = "3_C"
+column = "L"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "96"
+"Sample number" = "3"
+header_3 = "C"
+
+[[table.sample]]
+assay = 10
+name = "4_A"
+column = "M"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "144"
+"Sample number" = "4"
+header_3 = "A"
+
+[[table.sample]]
+assay = 11
+name = "4_B"
+column = "N"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "144"
+"Sample number" = "4"
+header_3 = "B"
+
+[[table.sample]]
+assay = 12
+name = "4_C"
+column = "O"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "144"
+"Sample number" = "4"
+header_3 = "C"
+
+[[table.sample]]
+assay = 13
+name = "5_A"
+column = "P"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "192"
+"Sample number" = "5"
+header_3 = "A"
+
+[[table.sample]]
+assay = 14
+name = "5_B"
+column = "Q"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "192"
+"Sample number" = "5"
+header_3 = "B"
+
+[[table.sample]]
+assay = 15
+name = "5_C"
+column = "R"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "192"
+"Sample number" = "5"
+header_3 = "C"
+
+[[table]]
+id = "MPST000038#results_cation"
+mbpost_id = "MPST000038"
+source_file = "MPST000038.xlsx"
+sheet = "results_cation"
+features_in = "rows"
+n_features = 272
+n_samples = 15
+unit = "fmol/cell"
+
+[[table.sample]]
+assay = 1
+name = "1_A"
+column = "E"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "0"
+"Sample number" = "1"
+header_3 = "A"
+
+[[table.sample]]
+assay = 2
+name = "1_B"
+column = "F"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "0"
+"Sample number" = "1"
+header_3 = "B"
+
+[[table.sample]]
+assay = 3
+name = "1_C"
+column = "G"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "0"
+"Sample number" = "1"
+header_3 = "C"
+
+[[table.sample]]
+assay = 4
+name = "2_A"
+column = "H"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "48"
+"Sample number" = "2"
+header_3 = "A"
+
+[[table.sample]]
+assay = 5
+name = "2_B"
+column = "I"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "48"
+"Sample number" = "2"
+header_3 = "B"
+
+[[table.sample]]
+assay = 6
+name = "2_C"
+column = "J"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "48"
+"Sample number" = "2"
+header_3 = "C"
+
+[[table.sample]]
+assay = 7
+name = "3_A"
+column = "K"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "96"
+"Sample number" = "3"
+header_3 = "A"
+
+[[table.sample]]
+assay = 8
+name = "3_B"
+column = "L"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "96"
+"Sample number" = "3"
+header_3 = "B"
+
+[[table.sample]]
+assay = 9
+name = "3_C"
+column = "M"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "96"
+"Sample number" = "3"
+header_3 = "C"
+
+[[table.sample]]
+assay = 10
+name = "4_A"
+column = "N"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "144"
+"Sample number" = "4"
+header_3 = "A"
+
+[[table.sample]]
+assay = 11
+name = "4_B"
+column = "O"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "144"
+"Sample number" = "4"
+header_3 = "B"
+
+[[table.sample]]
+assay = 12
+name = "4_C"
+column = "P"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "144"
+"Sample number" = "4"
+header_3 = "C"
+
+[[table.sample]]
+assay = 13
+name = "5_A"
+column = "Q"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "192"
+"Sample number" = "5"
+header_3 = "A"
+
+[[table.sample]]
+assay = 14
+name = "5_B"
+column = "R"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "192"
+"Sample number" = "5"
+header_3 = "B"
+
+[[table.sample]]
+assay = 15
+name = "5_C"
+column = "S"
+
+[table.sample.attributes]
+"Time of differentiation(h)" = "192"
+"Sample number" = "5"
+header_3 = "C"

@@ -1,0 +1,760 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000115.xlsx"
+mbpost_id = "MPST000115"
+n_tables = 6
+
+[[table]]
+id = "MPST000115#L2"
+mbpost_id = "MPST000115"
+source_file = "MPST000115.xlsx"
+sheet = "L2"
+features_in = "rows"
+n_features = 143
+n_samples = 16
+
+[[table.sample]]
+assay = 1
+name = "BL__20241225_34"
+column = "AC"
+
+[table.sample.attributes]
+Class = "1"
+"File type" = "Blank"
+"Injection order" = "16"
+"Batch ID" = "4"
+
+[[table.sample]]
+assay = 2
+name = "L2-12__20241219_14"
+column = "AD"
+
+[table.sample.attributes]
+Class = "2"
+"File type" = "Sample"
+"Injection order" = "3"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 3
+name = "L2-13__20241220_19"
+column = "AE"
+
+[table.sample.attributes]
+Class = "2"
+"File type" = "Sample"
+"Injection order" = "8"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 4
+name = "L2-14__20241220_20"
+column = "AF"
+
+[table.sample.attributes]
+Class = "2"
+"File type" = "Sample"
+"Injection order" = "9"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 5
+name = "L2-21__20241219_15"
+column = "AG"
+
+[table.sample.attributes]
+Class = "3"
+"File type" = "Sample"
+"Injection order" = "4"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 6
+name = "L2-22__20241219_17"
+column = "AH"
+
+[table.sample.attributes]
+Class = "3"
+"File type" = "Sample"
+"Injection order" = "6"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 7
+name = "L2-23__20241220_24"
+column = "AI"
+
+[table.sample.attributes]
+Class = "3"
+"File type" = "Sample"
+"Injection order" = "13"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 8
+name = "L2-31__20241219_13"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "4"
+"File type" = "Sample"
+"Injection order" = "2"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 9
+name = "L2-32__20241220_13"
+column = "AK"
+
+[table.sample.attributes]
+Class = "4"
+"File type" = "Sample"
+"Injection order" = "7"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 10
+name = "L2-33__20241220_23"
+column = "AL"
+
+[table.sample.attributes]
+Class = "4"
+"File type" = "Sample"
+"Injection order" = "12"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 11
+name = "L2-41__20241219_12"
+column = "AM"
+
+[table.sample.attributes]
+Class = "5"
+"File type" = "Sample"
+"Injection order" = "1"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 12
+name = "L2-43__20241220_21"
+column = "AN"
+
+[table.sample.attributes]
+Class = "5"
+"File type" = "Sample"
+"Injection order" = "10"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 13
+name = "L2-44__20241221_27"
+column = "AO"
+
+[table.sample.attributes]
+Class = "5"
+"File type" = "Sample"
+"Injection order" = "15"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 14
+name = "L2-51__20241219_16"
+column = "AP"
+
+[table.sample.attributes]
+Class = "6"
+"File type" = "Sample"
+"Injection order" = "5"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 15
+name = "L2-52__20241220_22"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "6"
+"File type" = "Sample"
+"Injection order" = "11"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 16
+name = "L2-53__20241220_25"
+column = "AR"
+
+[table.sample.attributes]
+Class = "6"
+"File type" = "Sample"
+"Injection order" = "14"
+"Batch ID" = "2"
+
+[[table]]
+id = "MPST000115#L2_"
+mbpost_id = "MPST000115"
+source_file = "MPST000115.xlsx"
+sheet = "L2_"
+features_in = "rows"
+n_features = 143
+n_samples = 16
+sample = [
+    { assay = 1, name = "BL__20241225_34", column = "I" },
+    { assay = 2, name = "L2-12__20241219_14", column = "J" },
+    { assay = 3, name = "L2-13__20241220_19", column = "K" },
+    { assay = 4, name = "L2-14__20241220_20", column = "L" },
+    { assay = 5, name = "L2-21__20241219_15", column = "M" },
+    { assay = 6, name = "L2-22__20241219_17", column = "N" },
+    { assay = 7, name = "L2-23__20241220_24", column = "O" },
+    { assay = 8, name = "L2-31__20241219_13", column = "P" },
+    { assay = 9, name = "L2-32__20241220_13", column = "Q" },
+    { assay = 10, name = "L2-33__20241220_23", column = "R" },
+    { assay = 11, name = "L2-41__20241219_12", column = "S" },
+    { assay = 12, name = "L2-43__20241220_21", column = "T" },
+    { assay = 13, name = "L2-44__20241221_27", column = "U" },
+    { assay = 14, name = "L2-51__20241219_16", column = "V" },
+    { assay = 15, name = "L2-52__20241220_22", column = "W" },
+    { assay = 16, name = "L2-53__20241220_25", column = "X" },
+]
+
+[[table]]
+id = "MPST000115#L3"
+mbpost_id = "MPST000115"
+source_file = "MPST000115.xlsx"
+sheet = "L3"
+features_in = "rows"
+n_features = 105
+n_samples = 21
+
+[[table.sample]]
+assay = 1
+name = "BL__20241225_34"
+column = "AC"
+
+[table.sample.attributes]
+Class = "1"
+"File type" = "Blank"
+"Injection order" = "21"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 2
+name = "L3-1__20241221_1"
+column = "AD"
+
+[table.sample.attributes]
+Class = "2"
+"File type" = "Sample"
+"Injection order" = "1"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 3
+name = "L3-1__20241221_11"
+column = "AE"
+
+[table.sample.attributes]
+Class = "2"
+"File type" = "Sample"
+"Injection order" = "11"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 4
+name = "L3-1__20241221_6"
+column = "AF"
+
+[table.sample.attributes]
+Class = "2"
+"File type" = "Sample"
+"Injection order" = "6"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 5
+name = "L3-1__20241225_29"
+column = "AG"
+
+[table.sample.attributes]
+Class = "2"
+"File type" = "Sample"
+"Injection order" = "16"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 6
+name = "L3-2__20241221_12"
+column = "AH"
+
+[table.sample.attributes]
+Class = "3"
+"File type" = "Sample"
+"Injection order" = "12"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 7
+name = "L3-2__20241221_2"
+column = "AI"
+
+[table.sample.attributes]
+Class = "3"
+"File type" = "Sample"
+"Injection order" = "2"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 8
+name = "L3-2__20241221_7"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "3"
+"File type" = "Sample"
+"Injection order" = "7"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 9
+name = "L3-2__20241225_30"
+column = "AK"
+
+[table.sample.attributes]
+Class = "3"
+"File type" = "Sample"
+"Injection order" = "17"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 10
+name = "L3-3__20241221_13"
+column = "AL"
+
+[table.sample.attributes]
+Class = "4"
+"File type" = "Sample"
+"Injection order" = "13"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 11
+name = "L3-3__20241221_3"
+column = "AM"
+
+[table.sample.attributes]
+Class = "4"
+"File type" = "Sample"
+"Injection order" = "3"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 12
+name = "L3-3__20241221_8"
+column = "AN"
+
+[table.sample.attributes]
+Class = "4"
+"File type" = "Sample"
+"Injection order" = "8"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 13
+name = "L3-3__20241225_31"
+column = "AO"
+
+[table.sample.attributes]
+Class = "4"
+"File type" = "Sample"
+"Injection order" = "18"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 14
+name = "L3-4__20241221_4"
+column = "AP"
+
+[table.sample.attributes]
+Class = "5"
+"File type" = "Sample"
+"Injection order" = "4"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 15
+name = "L3-4__20241221_9"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "5"
+"File type" = "Sample"
+"Injection order" = "9"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 16
+name = "L3-4__20241223_15"
+column = "AR"
+
+[table.sample.attributes]
+Class = "5"
+"File type" = "Sample"
+"Injection order" = "14"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 17
+name = "L3-4__20241225_32"
+column = "AS"
+
+[table.sample.attributes]
+Class = "5"
+"File type" = "Sample"
+"Injection order" = "19"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 18
+name = "L3-5__20241221_10"
+column = "AT"
+
+[table.sample.attributes]
+Class = "6"
+"File type" = "Sample"
+"Injection order" = "10"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 19
+name = "L3-5__20241221_5"
+column = "AU"
+
+[table.sample.attributes]
+Class = "6"
+"File type" = "Sample"
+"Injection order" = "5"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 20
+name = "L3-5__20241223_16"
+column = "AV"
+
+[table.sample.attributes]
+Class = "6"
+"File type" = "Sample"
+"Injection order" = "15"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 21
+name = "L3-5__20241225_33"
+column = "AW"
+
+[table.sample.attributes]
+Class = "6"
+"File type" = "Sample"
+"Injection order" = "20"
+"Batch ID" = "3"
+
+[[table]]
+id = "MPST000115#L3_"
+mbpost_id = "MPST000115"
+source_file = "MPST000115.xlsx"
+sheet = "L3_"
+features_in = "rows"
+n_features = 105
+n_samples = 21
+sample = [
+    { assay = 1, name = "BL__20241225_34", column = "I" },
+    { assay = 2, name = "L3-1__20241221_1", column = "J" },
+    { assay = 3, name = "L3-1__20241221_11", column = "K" },
+    { assay = 4, name = "L3-1__20241221_6", column = "L" },
+    { assay = 5, name = "L3-1__20241225_29", column = "M" },
+    { assay = 6, name = "L3-2__20241221_12", column = "N" },
+    { assay = 7, name = "L3-2__20241221_2", column = "O" },
+    { assay = 8, name = "L3-2__20241221_7", column = "P" },
+    { assay = 9, name = "L3-2__20241225_30", column = "Q" },
+    { assay = 10, name = "L3-3__20241221_13", column = "R" },
+    { assay = 11, name = "L3-3__20241221_3", column = "S" },
+    { assay = 12, name = "L3-3__20241221_8", column = "T" },
+    { assay = 13, name = "L3-3__20241225_31", column = "U" },
+    { assay = 14, name = "L3-4__20241221_4", column = "V" },
+    { assay = 15, name = "L3-4__20241221_9", column = "W" },
+    { assay = 16, name = "L3-4__20241223_15", column = "X" },
+    { assay = 17, name = "L3-4__20241225_32", column = "Y" },
+    { assay = 18, name = "L3-5__20241221_10", column = "Z" },
+    { assay = 19, name = "L3-5__20241221_5", column = "AA" },
+    { assay = 20, name = "L3-5__20241223_16", column = "AB" },
+    { assay = 21, name = "L3-5__20241225_33", column = "AC" },
+]
+
+[[table]]
+id = "MPST000115#L4"
+mbpost_id = "MPST000115"
+source_file = "MPST000115.xlsx"
+sheet = "L4"
+features_in = "rows"
+n_features = 116
+n_samples = 21
+
+[[table.sample]]
+assay = 1
+name = "BL__20241225_34"
+column = "AC"
+
+[table.sample.attributes]
+Class = "1"
+"File type" = "Blank"
+"Injection order" = "21"
+"Batch ID" = "3"
+
+[[table.sample]]
+assay = 2
+name = "L4-1__20241223_18"
+column = "AD"
+
+[table.sample.attributes]
+Class = "2"
+"File type" = "Sample"
+"Injection order" = "1"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 3
+name = "L4-1__20241223_23"
+column = "AE"
+
+[table.sample.attributes]
+Class = "2"
+"File type" = "Sample"
+"Injection order" = "6"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 4
+name = "L4-1__20241224_29"
+column = "AF"
+
+[table.sample.attributes]
+Class = "2"
+"File type" = "Sample"
+"Injection order" = "11"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 5
+name = "L4-1__20241225_24"
+column = "AG"
+
+[table.sample.attributes]
+Class = "2"
+"File type" = "Sample"
+"Injection order" = "16"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 6
+name = "L4-2__20241223_19"
+column = "AH"
+
+[table.sample.attributes]
+Class = "3"
+"File type" = "Sample"
+"Injection order" = "2"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 7
+name = "L4-2__20241223_24"
+column = "AI"
+
+[table.sample.attributes]
+Class = "3"
+"File type" = "Sample"
+"Injection order" = "7"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 8
+name = "L4-2__20241224_30"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "3"
+"File type" = "Sample"
+"Injection order" = "12"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 9
+name = "L4-2__20241225_25"
+column = "AK"
+
+[table.sample.attributes]
+Class = "3"
+"File type" = "Sample"
+"Injection order" = "17"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 10
+name = "L4-3__20241223_20"
+column = "AL"
+
+[table.sample.attributes]
+Class = "4"
+"File type" = "Sample"
+"Injection order" = "3"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 11
+name = "L4-3__20241223_25"
+column = "AM"
+
+[table.sample.attributes]
+Class = "4"
+"File type" = "Sample"
+"Injection order" = "8"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 12
+name = "L4-3__20241224_31"
+column = "AN"
+
+[table.sample.attributes]
+Class = "4"
+"File type" = "Sample"
+"Injection order" = "13"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 13
+name = "L4-3__20241225_26"
+column = "AO"
+
+[table.sample.attributes]
+Class = "4"
+"File type" = "Sample"
+"Injection order" = "18"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 14
+name = "L4-4__20241223_21"
+column = "AP"
+
+[table.sample.attributes]
+Class = "5"
+"File type" = "Sample"
+"Injection order" = "4"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 15
+name = "L4-4__20241224_27"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "5"
+"File type" = "Sample"
+"Injection order" = "9"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 16
+name = "L4-4__20241224_32"
+column = "AR"
+
+[table.sample.attributes]
+Class = "5"
+"File type" = "Sample"
+"Injection order" = "14"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 17
+name = "L4-4__20241225_27"
+column = "AS"
+
+[table.sample.attributes]
+Class = "5"
+"File type" = "Sample"
+"Injection order" = "19"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 18
+name = "L4-5__20241223_22"
+column = "AT"
+
+[table.sample.attributes]
+Class = "6"
+"File type" = "Sample"
+"Injection order" = "5"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 19
+name = "L4-5__20241224_28"
+column = "AU"
+
+[table.sample.attributes]
+Class = "6"
+"File type" = "Sample"
+"Injection order" = "10"
+"Batch ID" = "1"
+
+[[table.sample]]
+assay = 20
+name = "L4-5__20241224_33"
+column = "AV"
+
+[table.sample.attributes]
+Class = "6"
+"File type" = "Sample"
+"Injection order" = "15"
+"Batch ID" = "2"
+
+[[table.sample]]
+assay = 21
+name = "L4-5__20241225_28"
+column = "AW"
+
+[table.sample.attributes]
+Class = "6"
+"File type" = "Sample"
+"Injection order" = "20"
+"Batch ID" = "2"
+
+[[table]]
+id = "MPST000115#L4_"
+mbpost_id = "MPST000115"
+source_file = "MPST000115.xlsx"
+sheet = "L4_"
+features_in = "rows"
+n_features = 116
+n_samples = 21
+sample = [
+    { assay = 1, name = "BL__20241225_34", column = "I" },
+    { assay = 2, name = "L4-1__20241223_18", column = "J" },
+    { assay = 3, name = "L4-1__20241223_23", column = "K" },
+    { assay = 4, name = "L4-1__20241224_29", column = "L" },
+    { assay = 5, name = "L4-1__20241225_24", column = "M" },
+    { assay = 6, name = "L4-2__20241223_19", column = "N" },
+    { assay = 7, name = "L4-2__20241223_24", column = "O" },
+    { assay = 8, name = "L4-2__20241224_30", column = "P" },
+    { assay = 9, name = "L4-2__20241225_25", column = "Q" },
+    { assay = 10, name = "L4-3__20241223_20", column = "R" },
+    { assay = 11, name = "L4-3__20241223_25", column = "S" },
+    { assay = 12, name = "L4-3__20241224_31", column = "T" },
+    { assay = 13, name = "L4-3__20241225_26", column = "U" },
+    { assay = 14, name = "L4-4__20241223_21", column = "V" },
+    { assay = 15, name = "L4-4__20241224_27", column = "W" },
+    { assay = 16, name = "L4-4__20241224_32", column = "X" },
+    { assay = 17, name = "L4-4__20241225_27", column = "Y" },
+    { assay = 18, name = "L4-5__20241223_22", column = "Z" },
+    { assay = 19, name = "L4-5__20241224_28", column = "AA" },
+    { assay = 20, name = "L4-5__20241224_33", column = "AB" },
+    { assay = 21, name = "L4-5__20241225_28", column = "AC" },
+]

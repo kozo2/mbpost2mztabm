@@ -1,0 +1,1664 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx"
+mbpost_id = "MPST000141"
+n_tables = 9
+skipped = [
+    { sheet = "Sheet4", reason = "no sample header above the abundance columns" },
+]
+
+[[table]]
+id = "MPST000141__QC2_Data Analysis_20241125 - Copy#Height"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx"
+sheet = "Height"
+features_in = "rows"
+n_features = 454
+n_samples = 58
+
+[[table.sample]]
+assay = 1
+name = "BC5-1__20241122_41"
+column = "AC"
+
+[table.sample.attributes]
+Class = "BC5"
+"File type" = "Sample"
+"Injection order" = "30"
+
+[[table.sample]]
+assay = 2
+name = "BC5-2__20241120_25"
+column = "AD"
+
+[table.sample.attributes]
+Class = "BC5"
+"File type" = "Sample"
+"Injection order" = "20"
+
+[[table.sample]]
+assay = 3
+name = "BC5-3__20241122_43"
+column = "AE"
+
+[table.sample.attributes]
+Class = "BC5"
+"File type" = "Sample"
+"Injection order" = "32"
+
+[[table.sample]]
+assay = 4
+name = "BCL-1__20241120_24"
+column = "AF"
+
+[table.sample.attributes]
+Class = "BCL"
+"File type" = "Sample"
+"Injection order" = "19"
+
+[[table.sample]]
+assay = 5
+name = "BCL-2__20241123_65"
+column = "AG"
+
+[table.sample.attributes]
+Class = "BCL"
+"File type" = "Sample"
+"Injection order" = "54"
+
+[[table.sample]]
+assay = 6
+name = "BCL-3__20241122_42"
+column = "AH"
+
+[table.sample.attributes]
+Class = "BCL"
+"File type" = "Sample"
+"Injection order" = "31"
+
+[[table.sample]]
+assay = 7
+name = "BCR-1__20241119_16"
+column = "AI"
+
+[table.sample.attributes]
+Class = "BCR"
+"File type" = "Sample"
+"Injection order" = "11"
+
+[[table.sample]]
+assay = 8
+name = "BCR-2__20241119_17"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "BCR"
+"File type" = "Sample"
+"Injection order" = "12"
+
+[[table.sample]]
+assay = 9
+name = "BCR-3__20241120_28"
+column = "AK"
+
+[table.sample.attributes]
+Class = "BCR"
+"File type" = "Sample"
+"Injection order" = "23"
+
+[[table.sample]]
+assay = 10
+name = "Blank__20241119_6"
+column = "AL"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "1"
+
+[[table.sample]]
+assay = 11
+name = "BM5-1__20241122_40"
+column = "AM"
+
+[table.sample.attributes]
+Class = "BM5"
+"File type" = "Sample"
+"Injection order" = "29"
+
+[[table.sample]]
+assay = 12
+name = "BM5-2__20241120_23"
+column = "AN"
+
+[table.sample.attributes]
+Class = "BM5"
+"File type" = "Sample"
+"Injection order" = "18"
+
+[[table.sample]]
+assay = 13
+name = "BM5-3__20241120_35"
+column = "AO"
+
+[table.sample.attributes]
+Class = "BM5"
+"File type" = "Sample"
+"Injection order" = "28"
+
+[[table.sample]]
+assay = 14
+name = "BML-1__20241119_20"
+column = "AP"
+
+[table.sample.attributes]
+Class = "BML"
+"File type" = "Sample"
+"Injection order" = "15"
+
+[[table.sample]]
+assay = 15
+name = "BML-2__20241123_69"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "BML"
+"File type" = "Sample"
+"Injection order" = "58"
+
+[[table.sample]]
+assay = 16
+name = "BML-3__20241120_29"
+column = "AR"
+
+[table.sample.attributes]
+Class = "BML"
+"File type" = "Sample"
+"Injection order" = "24"
+
+[[table.sample]]
+assay = 17
+name = "BMR-1__20241120_26"
+column = "AS"
+
+[table.sample.attributes]
+Class = "BMR"
+"File type" = "Sample"
+"Injection order" = "21"
+
+[[table.sample]]
+assay = 18
+name = "BMR-2__20241120_21"
+column = "AT"
+
+[table.sample.attributes]
+Class = "BMR"
+"File type" = "Sample"
+"Injection order" = "16"
+
+[[table.sample]]
+assay = 19
+name = "BMR-3__20241120_30"
+column = "AU"
+
+[table.sample.attributes]
+Class = "BMR"
+"File type" = "Sample"
+"Injection order" = "25"
+
+[[table.sample]]
+assay = 20
+name = "FC5-1__20241120_27"
+column = "AV"
+
+[table.sample.attributes]
+Class = "FC5"
+"File type" = "Sample"
+"Injection order" = "22"
+
+[[table.sample]]
+assay = 21
+name = "FC5-2__20241119_18"
+column = "AW"
+
+[table.sample.attributes]
+Class = "FC5"
+"File type" = "Sample"
+"Injection order" = "13"
+
+[[table.sample]]
+assay = 22
+name = "FC5-3__20241120_31"
+column = "AX"
+
+[table.sample.attributes]
+Class = "FC5"
+"File type" = "Sample"
+"Injection order" = "26"
+
+[[table.sample]]
+assay = 23
+name = "FCL-1 __20241119_8"
+column = "AY"
+
+[table.sample.attributes]
+Class = "FCL"
+"File type" = "Sample"
+"Injection order" = "3"
+
+[[table.sample]]
+assay = 24
+name = "FCL-2__20241119_11"
+column = "AZ"
+
+[table.sample.attributes]
+Class = "FCL"
+"File type" = "Sample"
+"Injection order" = "6"
+
+[[table.sample]]
+assay = 25
+name = "FCL-3__20241119_10"
+column = "BA"
+
+[table.sample.attributes]
+Class = "FCL"
+"File type" = "Sample"
+"Injection order" = "5"
+
+[[table.sample]]
+assay = 26
+name = "FCR-1__20241120_32"
+column = "BB"
+
+[table.sample.attributes]
+Class = "FCR"
+"File type" = "Sample"
+"Injection order" = "27"
+
+[[table.sample]]
+assay = 27
+name = "FCR-2__20241123_68"
+column = "BC"
+
+[table.sample.attributes]
+Class = "FCR"
+"File type" = "Sample"
+"Injection order" = "57"
+
+[[table.sample]]
+assay = 28
+name = "FCR-3__20241119_13"
+column = "BD"
+
+[table.sample.attributes]
+Class = "FCR"
+"File type" = "Sample"
+"Injection order" = "8"
+
+[[table.sample]]
+assay = 29
+name = "FD4-1__20241122_51"
+column = "BE"
+
+[table.sample.attributes]
+Class = "FD4"
+"File type" = "Sample"
+"Injection order" = "40"
+
+[[table.sample]]
+assay = 30
+name = "FD4-2__20241123_64"
+column = "BF"
+
+[table.sample.attributes]
+Class = "FD4"
+"File type" = "Sample"
+"Injection order" = "53"
+
+[[table.sample]]
+assay = 31
+name = "FD4-3__20241122_46"
+column = "BG"
+
+[table.sample.attributes]
+Class = "FD4"
+"File type" = "Sample"
+"Injection order" = "35"
+
+[[table.sample]]
+assay = 32
+name = "FDL-1__20241123_62"
+column = "BH"
+
+[table.sample.attributes]
+Class = "FDL"
+"File type" = "Sample"
+"Injection order" = "51"
+
+[[table.sample]]
+assay = 33
+name = "FDL-2__20241123_61"
+column = "BI"
+
+[table.sample.attributes]
+Class = "FDL"
+"File type" = "Sample"
+"Injection order" = "50"
+
+[[table.sample]]
+assay = 34
+name = "FDL-3__20241123_58"
+column = "BJ"
+
+[table.sample.attributes]
+Class = "FDL"
+"File type" = "Sample"
+"Injection order" = "47"
+
+[[table.sample]]
+assay = 35
+name = "FDR-1__20241123_54"
+column = "BK"
+
+[table.sample.attributes]
+Class = "FDR"
+"File type" = "Sample"
+"Injection order" = "43"
+
+[[table.sample]]
+assay = 36
+name = "FDR-2__20241123_57"
+column = "BL"
+
+[table.sample.attributes]
+Class = "FDR"
+"File type" = "Sample"
+"Injection order" = "46"
+
+[[table.sample]]
+assay = 37
+name = "FDR-3__20241123_55"
+column = "BM"
+
+[table.sample.attributes]
+Class = "FDR"
+"File type" = "Sample"
+"Injection order" = "44"
+
+[[table.sample]]
+assay = 38
+name = "FM4-1__20241123_67"
+column = "BN"
+
+[table.sample.attributes]
+Class = "FM4"
+"File type" = "Sample"
+"Injection order" = "56"
+
+[[table.sample]]
+assay = 39
+name = "FM4-2__20241119_12"
+column = "BO"
+
+[table.sample.attributes]
+Class = "FM4"
+"File type" = "Sample"
+"Injection order" = "7"
+
+[[table.sample]]
+assay = 40
+name = "FM4-3__20241122_44"
+column = "BP"
+
+[table.sample.attributes]
+Class = "FM4"
+"File type" = "Sample"
+"Injection order" = "33"
+
+[[table.sample]]
+assay = 41
+name = "FML-1__20241120_22"
+column = "BQ"
+
+[table.sample.attributes]
+Class = "FML"
+"File type" = "Sample"
+"Injection order" = "17"
+
+[[table.sample]]
+assay = 42
+name = "FML-2__20241119_9"
+column = "BR"
+
+[table.sample.attributes]
+Class = "FML"
+"File type" = "Sample"
+"Injection order" = "4"
+
+[[table.sample]]
+assay = 43
+name = "FML-3__20241123_66"
+column = "BS"
+
+[table.sample.attributes]
+Class = "FML"
+"File type" = "Sample"
+"Injection order" = "55"
+
+[[table.sample]]
+assay = 44
+name = "FMR-1__20241122_45"
+column = "BT"
+
+[table.sample.attributes]
+Class = "FMR"
+"File type" = "Sample"
+"Injection order" = "34"
+
+[[table.sample]]
+assay = 45
+name = "FMR-2__20241119_15"
+column = "BU"
+
+[table.sample.attributes]
+Class = "FMR"
+"File type" = "Sample"
+"Injection order" = "10"
+
+[[table.sample]]
+assay = 46
+name = "FMR-3__20241119_14"
+column = "BV"
+
+[table.sample.attributes]
+Class = "FMR"
+"File type" = "Sample"
+"Injection order" = "9"
+
+[[table.sample]]
+assay = 47
+name = "FP4-1__20241122_52"
+column = "BW"
+
+[table.sample.attributes]
+Class = "FP4"
+"File type" = "Sample"
+"Injection order" = "41"
+
+[[table.sample]]
+assay = 48
+name = "FP4-2__20241123_53"
+column = "BX"
+
+[table.sample.attributes]
+Class = "FP4"
+"File type" = "Sample"
+"Injection order" = "42"
+
+[[table.sample]]
+assay = 49
+name = "FP4-3__20241123_63"
+column = "BY"
+
+[table.sample.attributes]
+Class = "FP4"
+"File type" = "Sample"
+"Injection order" = "52"
+
+[[table.sample]]
+assay = 50
+name = "FPL-1__20241123_59"
+column = "BZ"
+
+[table.sample.attributes]
+Class = "FPL"
+"File type" = "Sample"
+"Injection order" = "48"
+
+[[table.sample]]
+assay = 51
+name = "FPL-2__20241123_56"
+column = "CA"
+
+[table.sample.attributes]
+Class = "FPL"
+"File type" = "Sample"
+"Injection order" = "45"
+
+[[table.sample]]
+assay = 52
+name = "FPL-3__20241122_50"
+column = "CB"
+
+[table.sample.attributes]
+Class = "FPL"
+"File type" = "Sample"
+"Injection order" = "39"
+
+[[table.sample]]
+assay = 53
+name = "FPR-1__20241122_48"
+column = "CC"
+
+[table.sample.attributes]
+Class = "FPR"
+"File type" = "Sample"
+"Injection order" = "37"
+
+[[table.sample]]
+assay = 54
+name = "FPR-2__20241123_60"
+column = "CD"
+
+[table.sample.attributes]
+Class = "FPR"
+"File type" = "Sample"
+"Injection order" = "49"
+
+[[table.sample]]
+assay = 55
+name = "FPR-3__20241122_47"
+column = "CE"
+
+[table.sample.attributes]
+Class = "FPR"
+"File type" = "Sample"
+"Injection order" = "36"
+
+[[table.sample]]
+assay = 56
+name = "QC1__20241119_7"
+column = "CF"
+
+[table.sample.attributes]
+Class = "QC1"
+"File type" = "QC"
+"Injection order" = "2"
+
+[[table.sample]]
+assay = 57
+name = "QC2__20241119_19"
+column = "CG"
+
+[table.sample.attributes]
+Class = "QC2"
+"File type" = "QC"
+"Injection order" = "14"
+
+[[table.sample]]
+assay = 58
+name = "QC4__20241122_49"
+column = "CH"
+
+[table.sample.attributes]
+Class = "QC4"
+"File type" = "QC"
+"Injection order" = "38"
+
+[[table]]
+id = "MPST000141__QC2_Data Analysis_20241125 - Copy#Manual annotation"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx"
+sheet = "Manual annotation"
+features_in = "rows"
+n_features = 454
+n_samples = 60
+sample = [
+    { assay = 1, name = "BC5-1", column = "I" },
+    { assay = 2, name = "BC5-2", column = "J" },
+    { assay = 3, name = "BC5-3", column = "K" },
+    { assay = 4, name = "BCR-1", column = "L" },
+    { assay = 5, name = "BCR-2", column = "M" },
+    { assay = 6, name = "BCR-3", column = "N" },
+    { assay = 7, name = "BCL-1", column = "O" },
+    { assay = 8, name = "BCL-2", column = "P" },
+    { assay = 9, name = "BCL-3", column = "Q" },
+    { assay = 10, name = "BM5-1", column = "R" },
+    { assay = 11, name = "BM5-2", column = "S" },
+    { assay = 12, name = "BM5-3", column = "T" },
+    { assay = 13, name = "BMR-1", column = "U" },
+    { assay = 14, name = "BMR-2", column = "V" },
+    { assay = 15, name = "BMR-3", column = "W" },
+    { assay = 16, name = "BML-1", column = "X" },
+    { assay = 17, name = "BML-2", column = "Y" },
+    { assay = 18, name = "BML-3", column = "Z" },
+    { assay = 19, name = "FC5-1", column = "AA" },
+    { assay = 20, name = "FC5-2", column = "AB" },
+    { assay = 21, name = "FC5-3", column = "AC" },
+    { assay = 22, name = "FCR-1", column = "AD" },
+    { assay = 23, name = "FCR-2", column = "AE" },
+    { assay = 24, name = "FCR-3", column = "AF" },
+    { assay = 25, name = "FCL-1", column = "AG" },
+    { assay = 26, name = "FCL-2", column = "AH" },
+    { assay = 27, name = "FCL-3", column = "AI" },
+    { assay = 28, name = "FD4-1", column = "AJ" },
+    { assay = 29, name = "FD4-2", column = "AK" },
+    { assay = 30, name = "FD4-3", column = "AL" },
+    { assay = 31, name = "FDR-1", column = "AM" },
+    { assay = 32, name = "FDR-2", column = "AN" },
+    { assay = 33, name = "FDR-3", column = "AO" },
+    { assay = 34, name = "FDL-1", column = "AP" },
+    { assay = 35, name = "FDL-2", column = "AQ" },
+    { assay = 36, name = "FDL-3", column = "AR" },
+    { assay = 37, name = "FM4-1", column = "AS" },
+    { assay = 38, name = "FM4-2", column = "AT" },
+    { assay = 39, name = "FM4-3", column = "AU" },
+    { assay = 40, name = "FMR-1", column = "AV" },
+    { assay = 41, name = "FMR-2", column = "AW" },
+    { assay = 42, name = "FMR-3", column = "AX" },
+    { assay = 43, name = "FML-1", column = "AY" },
+    { assay = 44, name = "FML-2", column = "AZ" },
+    { assay = 45, name = "FML-3", column = "BA" },
+    { assay = 46, name = "FP4-1", column = "BB" },
+    { assay = 47, name = "FP4-2", column = "BC" },
+    { assay = 48, name = "FP4-3", column = "BD" },
+    { assay = 49, name = "FPR-1", column = "BE" },
+    { assay = 50, name = "FPR-2", column = "BF" },
+    { assay = 51, name = "FPR-3", column = "BG" },
+    { assay = 52, name = "FPL-1", column = "BH" },
+    { assay = 53, name = "FPL-2", column = "BI" },
+    { assay = 54, name = "FPL-3", column = "BJ" },
+    { assay = 55, name = "QC1", column = "BK" },
+    { assay = 56, name = "QC2", column = "BL" },
+    { assay = 57, name = "QC4", column = "BM" },
+    { assay = 58, name = "Blank", column = "BN" },
+    { assay = 59, name = "AVG QC", column = "BO" },
+    { assay = 60, name = "RSD QC", column = "BQ" },
+]
+
+[[table]]
+id = "MPST000141__QC2_Data Analysis_20241125 - Copy#Normalized"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx"
+sheet = "Normalized"
+features_in = "rows"
+n_features = 454
+n_samples = 58
+
+[[table.sample]]
+assay = 1
+name = "BC5-1__20241122_41"
+column = "AC"
+
+[table.sample.attributes]
+Class = "BC5"
+"File type" = "Sample"
+"Injection order" = "30"
+
+[[table.sample]]
+assay = 2
+name = "BC5-2__20241120_25"
+column = "AD"
+
+[table.sample.attributes]
+Class = "BC5"
+"File type" = "Sample"
+"Injection order" = "20"
+
+[[table.sample]]
+assay = 3
+name = "BC5-3__20241122_43"
+column = "AE"
+
+[table.sample.attributes]
+Class = "BC5"
+"File type" = "Sample"
+"Injection order" = "32"
+
+[[table.sample]]
+assay = 4
+name = "BCL-1__20241120_24"
+column = "AF"
+
+[table.sample.attributes]
+Class = "BCL"
+"File type" = "Sample"
+"Injection order" = "19"
+
+[[table.sample]]
+assay = 5
+name = "BCL-2__20241123_65"
+column = "AG"
+
+[table.sample.attributes]
+Class = "BCL"
+"File type" = "Sample"
+"Injection order" = "54"
+
+[[table.sample]]
+assay = 6
+name = "BCL-3__20241122_42"
+column = "AH"
+
+[table.sample.attributes]
+Class = "BCL"
+"File type" = "Sample"
+"Injection order" = "31"
+
+[[table.sample]]
+assay = 7
+name = "BCR-1__20241119_16"
+column = "AI"
+
+[table.sample.attributes]
+Class = "BCR"
+"File type" = "Sample"
+"Injection order" = "11"
+
+[[table.sample]]
+assay = 8
+name = "BCR-2__20241119_17"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "BCR"
+"File type" = "Sample"
+"Injection order" = "12"
+
+[[table.sample]]
+assay = 9
+name = "BCR-3__20241120_28"
+column = "AK"
+
+[table.sample.attributes]
+Class = "BCR"
+"File type" = "Sample"
+"Injection order" = "23"
+
+[[table.sample]]
+assay = 10
+name = "Blank__20241119_6"
+column = "AL"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "1"
+
+[[table.sample]]
+assay = 11
+name = "BM5-1__20241122_40"
+column = "AM"
+
+[table.sample.attributes]
+Class = "BM5"
+"File type" = "Sample"
+"Injection order" = "29"
+
+[[table.sample]]
+assay = 12
+name = "BM5-2__20241120_23"
+column = "AN"
+
+[table.sample.attributes]
+Class = "BM5"
+"File type" = "Sample"
+"Injection order" = "18"
+
+[[table.sample]]
+assay = 13
+name = "BM5-3__20241120_35"
+column = "AO"
+
+[table.sample.attributes]
+Class = "BM5"
+"File type" = "Sample"
+"Injection order" = "28"
+
+[[table.sample]]
+assay = 14
+name = "BML-1__20241119_20"
+column = "AP"
+
+[table.sample.attributes]
+Class = "BML"
+"File type" = "Sample"
+"Injection order" = "15"
+
+[[table.sample]]
+assay = 15
+name = "BML-2__20241123_69"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "BML"
+"File type" = "Sample"
+"Injection order" = "58"
+
+[[table.sample]]
+assay = 16
+name = "BML-3__20241120_29"
+column = "AR"
+
+[table.sample.attributes]
+Class = "BML"
+"File type" = "Sample"
+"Injection order" = "24"
+
+[[table.sample]]
+assay = 17
+name = "BMR-1__20241120_26"
+column = "AS"
+
+[table.sample.attributes]
+Class = "BMR"
+"File type" = "Sample"
+"Injection order" = "21"
+
+[[table.sample]]
+assay = 18
+name = "BMR-2__20241120_21"
+column = "AT"
+
+[table.sample.attributes]
+Class = "BMR"
+"File type" = "Sample"
+"Injection order" = "16"
+
+[[table.sample]]
+assay = 19
+name = "BMR-3__20241120_30"
+column = "AU"
+
+[table.sample.attributes]
+Class = "BMR"
+"File type" = "Sample"
+"Injection order" = "25"
+
+[[table.sample]]
+assay = 20
+name = "FC5-1__20241120_27"
+column = "AV"
+
+[table.sample.attributes]
+Class = "FC5"
+"File type" = "Sample"
+"Injection order" = "22"
+
+[[table.sample]]
+assay = 21
+name = "FC5-2__20241119_18"
+column = "AW"
+
+[table.sample.attributes]
+Class = "FC5"
+"File type" = "Sample"
+"Injection order" = "13"
+
+[[table.sample]]
+assay = 22
+name = "FC5-3__20241120_31"
+column = "AX"
+
+[table.sample.attributes]
+Class = "FC5"
+"File type" = "Sample"
+"Injection order" = "26"
+
+[[table.sample]]
+assay = 23
+name = "FCL-1 __20241119_8"
+column = "AY"
+
+[table.sample.attributes]
+Class = "FCL"
+"File type" = "Sample"
+"Injection order" = "3"
+
+[[table.sample]]
+assay = 24
+name = "FCL-2__20241119_11"
+column = "AZ"
+
+[table.sample.attributes]
+Class = "FCL"
+"File type" = "Sample"
+"Injection order" = "6"
+
+[[table.sample]]
+assay = 25
+name = "FCL-3__20241119_10"
+column = "BA"
+
+[table.sample.attributes]
+Class = "FCL"
+"File type" = "Sample"
+"Injection order" = "5"
+
+[[table.sample]]
+assay = 26
+name = "FCR-1__20241120_32"
+column = "BB"
+
+[table.sample.attributes]
+Class = "FCR"
+"File type" = "Sample"
+"Injection order" = "27"
+
+[[table.sample]]
+assay = 27
+name = "FCR-2__20241123_68"
+column = "BC"
+
+[table.sample.attributes]
+Class = "FCR"
+"File type" = "Sample"
+"Injection order" = "57"
+
+[[table.sample]]
+assay = 28
+name = "FCR-3__20241119_13"
+column = "BD"
+
+[table.sample.attributes]
+Class = "FCR"
+"File type" = "Sample"
+"Injection order" = "8"
+
+[[table.sample]]
+assay = 29
+name = "FD4-1__20241122_51"
+column = "BE"
+
+[table.sample.attributes]
+Class = "FD4"
+"File type" = "Sample"
+"Injection order" = "40"
+
+[[table.sample]]
+assay = 30
+name = "FD4-2__20241123_64"
+column = "BF"
+
+[table.sample.attributes]
+Class = "FD4"
+"File type" = "Sample"
+"Injection order" = "53"
+
+[[table.sample]]
+assay = 31
+name = "FD4-3__20241122_46"
+column = "BG"
+
+[table.sample.attributes]
+Class = "FD4"
+"File type" = "Sample"
+"Injection order" = "35"
+
+[[table.sample]]
+assay = 32
+name = "FDL-1__20241123_62"
+column = "BH"
+
+[table.sample.attributes]
+Class = "FDL"
+"File type" = "Sample"
+"Injection order" = "51"
+
+[[table.sample]]
+assay = 33
+name = "FDL-2__20241123_61"
+column = "BI"
+
+[table.sample.attributes]
+Class = "FDL"
+"File type" = "Sample"
+"Injection order" = "50"
+
+[[table.sample]]
+assay = 34
+name = "FDL-3__20241123_58"
+column = "BJ"
+
+[table.sample.attributes]
+Class = "FDL"
+"File type" = "Sample"
+"Injection order" = "47"
+
+[[table.sample]]
+assay = 35
+name = "FDR-1__20241123_54"
+column = "BK"
+
+[table.sample.attributes]
+Class = "FDR"
+"File type" = "Sample"
+"Injection order" = "43"
+
+[[table.sample]]
+assay = 36
+name = "FDR-2__20241123_57"
+column = "BL"
+
+[table.sample.attributes]
+Class = "FDR"
+"File type" = "Sample"
+"Injection order" = "46"
+
+[[table.sample]]
+assay = 37
+name = "FDR-3__20241123_55"
+column = "BM"
+
+[table.sample.attributes]
+Class = "FDR"
+"File type" = "Sample"
+"Injection order" = "44"
+
+[[table.sample]]
+assay = 38
+name = "FM4-1__20241123_67"
+column = "BN"
+
+[table.sample.attributes]
+Class = "FM4"
+"File type" = "Sample"
+"Injection order" = "56"
+
+[[table.sample]]
+assay = 39
+name = "FM4-2__20241119_12"
+column = "BO"
+
+[table.sample.attributes]
+Class = "FM4"
+"File type" = "Sample"
+"Injection order" = "7"
+
+[[table.sample]]
+assay = 40
+name = "FM4-3__20241122_44"
+column = "BP"
+
+[table.sample.attributes]
+Class = "FM4"
+"File type" = "Sample"
+"Injection order" = "33"
+
+[[table.sample]]
+assay = 41
+name = "FML-1__20241120_22"
+column = "BQ"
+
+[table.sample.attributes]
+Class = "FML"
+"File type" = "Sample"
+"Injection order" = "17"
+
+[[table.sample]]
+assay = 42
+name = "FML-2__20241119_9"
+column = "BR"
+
+[table.sample.attributes]
+Class = "FML"
+"File type" = "Sample"
+"Injection order" = "4"
+
+[[table.sample]]
+assay = 43
+name = "FML-3__20241123_66"
+column = "BS"
+
+[table.sample.attributes]
+Class = "FML"
+"File type" = "Sample"
+"Injection order" = "55"
+
+[[table.sample]]
+assay = 44
+name = "FMR-1__20241122_45"
+column = "BT"
+
+[table.sample.attributes]
+Class = "FMR"
+"File type" = "Sample"
+"Injection order" = "34"
+
+[[table.sample]]
+assay = 45
+name = "FMR-2__20241119_15"
+column = "BU"
+
+[table.sample.attributes]
+Class = "FMR"
+"File type" = "Sample"
+"Injection order" = "10"
+
+[[table.sample]]
+assay = 46
+name = "FMR-3__20241119_14"
+column = "BV"
+
+[table.sample.attributes]
+Class = "FMR"
+"File type" = "Sample"
+"Injection order" = "9"
+
+[[table.sample]]
+assay = 47
+name = "FP4-1__20241122_52"
+column = "BW"
+
+[table.sample.attributes]
+Class = "FP4"
+"File type" = "Sample"
+"Injection order" = "41"
+
+[[table.sample]]
+assay = 48
+name = "FP4-2__20241123_53"
+column = "BX"
+
+[table.sample.attributes]
+Class = "FP4"
+"File type" = "Sample"
+"Injection order" = "42"
+
+[[table.sample]]
+assay = 49
+name = "FP4-3__20241123_63"
+column = "BY"
+
+[table.sample.attributes]
+Class = "FP4"
+"File type" = "Sample"
+"Injection order" = "52"
+
+[[table.sample]]
+assay = 50
+name = "FPL-1__20241123_59"
+column = "BZ"
+
+[table.sample.attributes]
+Class = "FPL"
+"File type" = "Sample"
+"Injection order" = "48"
+
+[[table.sample]]
+assay = 51
+name = "FPL-2__20241123_56"
+column = "CA"
+
+[table.sample.attributes]
+Class = "FPL"
+"File type" = "Sample"
+"Injection order" = "45"
+
+[[table.sample]]
+assay = 52
+name = "FPL-3__20241122_50"
+column = "CB"
+
+[table.sample.attributes]
+Class = "FPL"
+"File type" = "Sample"
+"Injection order" = "39"
+
+[[table.sample]]
+assay = 53
+name = "FPR-1__20241122_48"
+column = "CC"
+
+[table.sample.attributes]
+Class = "FPR"
+"File type" = "Sample"
+"Injection order" = "37"
+
+[[table.sample]]
+assay = 54
+name = "FPR-2__20241123_60"
+column = "CD"
+
+[table.sample.attributes]
+Class = "FPR"
+"File type" = "Sample"
+"Injection order" = "49"
+
+[[table.sample]]
+assay = 55
+name = "FPR-3__20241122_47"
+column = "CE"
+
+[table.sample.attributes]
+Class = "FPR"
+"File type" = "Sample"
+"Injection order" = "36"
+
+[[table.sample]]
+assay = 56
+name = "QC1__20241119_7"
+column = "CF"
+
+[table.sample.attributes]
+Class = "QC1"
+"File type" = "QC"
+"Injection order" = "2"
+
+[[table.sample]]
+assay = 57
+name = "QC2__20241119_19"
+column = "CG"
+
+[table.sample.attributes]
+Class = "QC2"
+"File type" = "QC"
+"Injection order" = "14"
+
+[[table.sample]]
+assay = 58
+name = "QC4__20241122_49"
+column = "CH"
+
+[table.sample.attributes]
+Class = "QC4"
+"File type" = "QC"
+"Injection order" = "38"
+
+[[table]]
+id = "MPST000141__QC2_Data Analysis_20241125 - Copy#Blank filter and RSD"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx"
+sheet = "Blank filter and RSD"
+features_in = "rows"
+n_features = 454
+n_samples = 60
+sample = [
+    { assay = 1, name = "BC5-1", column = "G" },
+    { assay = 2, name = "BC5-2", column = "H" },
+    { assay = 3, name = "BC5-3", column = "I" },
+    { assay = 4, name = "BCR-1", column = "J" },
+    { assay = 5, name = "BCR-2", column = "K" },
+    { assay = 6, name = "BCR-3", column = "L" },
+    { assay = 7, name = "BCL-1", column = "M" },
+    { assay = 8, name = "BCL-2", column = "N" },
+    { assay = 9, name = "BCL-3", column = "O" },
+    { assay = 10, name = "BM5-1", column = "P" },
+    { assay = 11, name = "BM5-2", column = "Q" },
+    { assay = 12, name = "BM5-3", column = "R" },
+    { assay = 13, name = "BMR-1", column = "S" },
+    { assay = 14, name = "BMR-2", column = "T" },
+    { assay = 15, name = "BMR-3", column = "U" },
+    { assay = 16, name = "BML-1", column = "V" },
+    { assay = 17, name = "BML-2", column = "W" },
+    { assay = 18, name = "BML-3", column = "X" },
+    { assay = 19, name = "FC5-1", column = "Y" },
+    { assay = 20, name = "FC5-2", column = "Z" },
+    { assay = 21, name = "FC5-3", column = "AA" },
+    { assay = 22, name = "FCR-1", column = "AB" },
+    { assay = 23, name = "FCR-2", column = "AC" },
+    { assay = 24, name = "FCR-3", column = "AD" },
+    { assay = 25, name = "FCL-1", column = "AE" },
+    { assay = 26, name = "FCL-2", column = "AF" },
+    { assay = 27, name = "FCL-3", column = "AG" },
+    { assay = 28, name = "FD4-1", column = "AH" },
+    { assay = 29, name = "FD4-2", column = "AI" },
+    { assay = 30, name = "FD4-3", column = "AJ" },
+    { assay = 31, name = "FDR-1", column = "AK" },
+    { assay = 32, name = "FDR-2", column = "AL" },
+    { assay = 33, name = "FDR-3", column = "AM" },
+    { assay = 34, name = "FDL-1", column = "AN" },
+    { assay = 35, name = "FDL-2", column = "AO" },
+    { assay = 36, name = "FDL-3", column = "AP" },
+    { assay = 37, name = "FM4-1", column = "AQ" },
+    { assay = 38, name = "FM4-2", column = "AR" },
+    { assay = 39, name = "FM4-3", column = "AS" },
+    { assay = 40, name = "FMR-1", column = "AT" },
+    { assay = 41, name = "FMR-2", column = "AU" },
+    { assay = 42, name = "FMR-3", column = "AV" },
+    { assay = 43, name = "FML-1", column = "AW" },
+    { assay = 44, name = "FML-2", column = "AX" },
+    { assay = 45, name = "FML-3", column = "AY" },
+    { assay = 46, name = "FP4-1", column = "AZ" },
+    { assay = 47, name = "FP4-2", column = "BA" },
+    { assay = 48, name = "FP4-3", column = "BB" },
+    { assay = 49, name = "FPR-1", column = "BC" },
+    { assay = 50, name = "FPR-2", column = "BD" },
+    { assay = 51, name = "FPR-3", column = "BE" },
+    { assay = 52, name = "FPL-1", column = "BF" },
+    { assay = 53, name = "FPL-2", column = "BG" },
+    { assay = 54, name = "FPL-3", column = "BH" },
+    { assay = 55, name = "QC1", column = "BI" },
+    { assay = 56, name = "QC2", column = "BJ" },
+    { assay = 57, name = "QC4", column = "BK" },
+    { assay = 58, name = "Blank", column = "BL" },
+    { assay = 59, name = "AVG QC", column = "BM" },
+    { assay = 60, name = "RSD QC", column = "BO" },
+]
+
+[[table]]
+id = "MPST000141__QC2_Data Analysis_20241125 - Copy#Blank filter and RSD edited"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx"
+sheet = "Blank filter and RSD edited"
+features_in = "rows"
+n_features = 454
+n_samples = 60
+sample = [
+    { assay = 1, name = "BC5-1", column = "G" },
+    { assay = 2, name = "BC5-2", column = "H" },
+    { assay = 3, name = "BC5-3", column = "I" },
+    { assay = 4, name = "BCR-1", column = "J" },
+    { assay = 5, name = "BCR-2", column = "K" },
+    { assay = 6, name = "BCR-3", column = "L" },
+    { assay = 7, name = "BCL-1", column = "M" },
+    { assay = 8, name = "BCL-2", column = "N" },
+    { assay = 9, name = "BCL-3", column = "O" },
+    { assay = 10, name = "BM5-1", column = "P" },
+    { assay = 11, name = "BM5-2", column = "Q" },
+    { assay = 12, name = "BM5-3", column = "R" },
+    { assay = 13, name = "BMR-1", column = "S" },
+    { assay = 14, name = "BMR-2", column = "T" },
+    { assay = 15, name = "BMR-3", column = "U" },
+    { assay = 16, name = "BML-1", column = "V" },
+    { assay = 17, name = "BML-2", column = "W" },
+    { assay = 18, name = "BML-3", column = "X" },
+    { assay = 19, name = "FC5-1", column = "Y" },
+    { assay = 20, name = "FC5-2", column = "Z" },
+    { assay = 21, name = "FC5-3", column = "AA" },
+    { assay = 22, name = "FCR-1", column = "AB" },
+    { assay = 23, name = "FCR-2", column = "AC" },
+    { assay = 24, name = "FCR-3", column = "AD" },
+    { assay = 25, name = "FCL-1", column = "AE" },
+    { assay = 26, name = "FCL-2", column = "AF" },
+    { assay = 27, name = "FCL-3", column = "AG" },
+    { assay = 28, name = "FD4-1", column = "AH" },
+    { assay = 29, name = "FD4-2", column = "AI" },
+    { assay = 30, name = "FD4-3", column = "AJ" },
+    { assay = 31, name = "FDR-1", column = "AK" },
+    { assay = 32, name = "FDR-2", column = "AL" },
+    { assay = 33, name = "FDR-3", column = "AM" },
+    { assay = 34, name = "FDL-1", column = "AN" },
+    { assay = 35, name = "FDL-2", column = "AO" },
+    { assay = 36, name = "FDL-3", column = "AP" },
+    { assay = 37, name = "FM4-1", column = "AQ" },
+    { assay = 38, name = "FM4-2", column = "AR" },
+    { assay = 39, name = "FM4-3", column = "AS" },
+    { assay = 40, name = "FMR-1", column = "AT" },
+    { assay = 41, name = "FMR-2", column = "AU" },
+    { assay = 42, name = "FMR-3", column = "AV" },
+    { assay = 43, name = "FML-1", column = "AW" },
+    { assay = 44, name = "FML-2", column = "AX" },
+    { assay = 45, name = "FML-3", column = "AY" },
+    { assay = 46, name = "FP4-1", column = "AZ" },
+    { assay = 47, name = "FP4-2", column = "BA" },
+    { assay = 48, name = "FP4-3", column = "BB" },
+    { assay = 49, name = "FPR-1", column = "BC" },
+    { assay = 50, name = "FPR-2", column = "BD" },
+    { assay = 51, name = "FPR-3", column = "BE" },
+    { assay = 52, name = "FPL-1", column = "BF" },
+    { assay = 53, name = "FPL-2", column = "BG" },
+    { assay = 54, name = "FPL-3", column = "BH" },
+    { assay = 55, name = "QC1", column = "BI" },
+    { assay = 56, name = "QC2", column = "BJ" },
+    { assay = 57, name = "QC4", column = "BK" },
+    { assay = 58, name = "Blank", column = "BL" },
+    { assay = 59, name = "AVG QC", column = "BM" },
+    { assay = 60, name = "RSD QC", column = "BO" },
+]
+
+[[table]]
+id = "MPST000141__QC2_Data Analysis_20241125 - Copy#Good rsd and blank"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx"
+sheet = "Good rsd and blank"
+features_in = "rows"
+n_features = 317
+n_samples = 60
+sample = [
+    { assay = 1, name = "BC5-1", column = "I" },
+    { assay = 2, name = "BC5-2", column = "J" },
+    { assay = 3, name = "BC5-3", column = "K" },
+    { assay = 4, name = "BCR-1", column = "L" },
+    { assay = 5, name = "BCR-2", column = "M" },
+    { assay = 6, name = "BCR-3", column = "N" },
+    { assay = 7, name = "BCL-1", column = "O" },
+    { assay = 8, name = "BCL-2", column = "P" },
+    { assay = 9, name = "BCL-3", column = "Q" },
+    { assay = 10, name = "BM5-1", column = "R" },
+    { assay = 11, name = "BM5-2", column = "S" },
+    { assay = 12, name = "BM5-3", column = "T" },
+    { assay = 13, name = "BMR-1", column = "U" },
+    { assay = 14, name = "BMR-2", column = "V" },
+    { assay = 15, name = "BMR-3", column = "W" },
+    { assay = 16, name = "BML-1", column = "X" },
+    { assay = 17, name = "BML-2", column = "Y" },
+    { assay = 18, name = "BML-3", column = "Z" },
+    { assay = 19, name = "FC5-1", column = "AA" },
+    { assay = 20, name = "FC5-2", column = "AB" },
+    { assay = 21, name = "FC5-3", column = "AC" },
+    { assay = 22, name = "FCR-1", column = "AD" },
+    { assay = 23, name = "FCR-2", column = "AE" },
+    { assay = 24, name = "FCR-3", column = "AF" },
+    { assay = 25, name = "FCL-1", column = "AG" },
+    { assay = 26, name = "FCL-2", column = "AH" },
+    { assay = 27, name = "FCL-3", column = "AI" },
+    { assay = 28, name = "FD4-1", column = "AJ" },
+    { assay = 29, name = "FD4-2", column = "AK" },
+    { assay = 30, name = "FD4-3", column = "AL" },
+    { assay = 31, name = "FDR-1", column = "AM" },
+    { assay = 32, name = "FDR-2", column = "AN" },
+    { assay = 33, name = "FDR-3", column = "AO" },
+    { assay = 34, name = "FDL-1", column = "AP" },
+    { assay = 35, name = "FDL-2", column = "AQ" },
+    { assay = 36, name = "FDL-3", column = "AR" },
+    { assay = 37, name = "FM4-1", column = "AS" },
+    { assay = 38, name = "FM4-2", column = "AT" },
+    { assay = 39, name = "FM4-3", column = "AU" },
+    { assay = 40, name = "FMR-1", column = "AV" },
+    { assay = 41, name = "FMR-2", column = "AW" },
+    { assay = 42, name = "FMR-3", column = "AX" },
+    { assay = 43, name = "FML-1", column = "AY" },
+    { assay = 44, name = "FML-2", column = "AZ" },
+    { assay = 45, name = "FML-3", column = "BA" },
+    { assay = 46, name = "FP4-1", column = "BB" },
+    { assay = 47, name = "FP4-2", column = "BC" },
+    { assay = 48, name = "FP4-3", column = "BD" },
+    { assay = 49, name = "FPR-1", column = "BE" },
+    { assay = 50, name = "FPR-2", column = "BF" },
+    { assay = 51, name = "FPR-3", column = "BG" },
+    { assay = 52, name = "FPL-1", column = "BH" },
+    { assay = 53, name = "FPL-2", column = "BI" },
+    { assay = 54, name = "FPL-3", column = "BJ" },
+    { assay = 55, name = "QC1", column = "BK" },
+    { assay = 56, name = "QC2", column = "BL" },
+    { assay = 57, name = "QC4", column = "BM" },
+    { assay = 58, name = "Blank", column = "BN" },
+    { assay = 59, name = "AVG QC", column = "BO" },
+    { assay = 60, name = "RSD QC", column = "BQ" },
+]
+
+[[table]]
+id = "MPST000141__QC2_Data Analysis_20241125 - Copy#Check double"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx"
+sheet = "Check double"
+features_in = "rows"
+n_features = 294
+n_samples = 54
+sample = [
+    { assay = 1, name = "BC5-1", column = "I" },
+    { assay = 2, name = "BC5-2", column = "J" },
+    { assay = 3, name = "BC5-3", column = "K" },
+    { assay = 4, name = "BCR-1", column = "L" },
+    { assay = 5, name = "BCR-2", column = "M" },
+    { assay = 6, name = "BCR-3", column = "N" },
+    { assay = 7, name = "BCL-1", column = "O" },
+    { assay = 8, name = "BCL-2", column = "P" },
+    { assay = 9, name = "BCL-3", column = "Q" },
+    { assay = 10, name = "BM5-1", column = "R" },
+    { assay = 11, name = "BM5-2", column = "S" },
+    { assay = 12, name = "BM5-3", column = "T" },
+    { assay = 13, name = "BMR-1", column = "U" },
+    { assay = 14, name = "BMR-2", column = "V" },
+    { assay = 15, name = "BMR-3", column = "W" },
+    { assay = 16, name = "BML-1", column = "X" },
+    { assay = 17, name = "BML-2", column = "Y" },
+    { assay = 18, name = "BML-3", column = "Z" },
+    { assay = 19, name = "FC5-1", column = "AA" },
+    { assay = 20, name = "FC5-2", column = "AB" },
+    { assay = 21, name = "FC5-3", column = "AC" },
+    { assay = 22, name = "FCR-1", column = "AD" },
+    { assay = 23, name = "FCR-2", column = "AE" },
+    { assay = 24, name = "FCR-3", column = "AF" },
+    { assay = 25, name = "FCL-1", column = "AG" },
+    { assay = 26, name = "FCL-2", column = "AH" },
+    { assay = 27, name = "FCL-3", column = "AI" },
+    { assay = 28, name = "FD4-1", column = "AJ" },
+    { assay = 29, name = "FD4-2", column = "AK" },
+    { assay = 30, name = "FD4-3", column = "AL" },
+    { assay = 31, name = "FDR-1", column = "AM" },
+    { assay = 32, name = "FDR-2", column = "AN" },
+    { assay = 33, name = "FDR-3", column = "AO" },
+    { assay = 34, name = "FDL-1", column = "AP" },
+    { assay = 35, name = "FDL-2", column = "AQ" },
+    { assay = 36, name = "FDL-3", column = "AR" },
+    { assay = 37, name = "FM4-1", column = "AS" },
+    { assay = 38, name = "FM4-2", column = "AT" },
+    { assay = 39, name = "FM4-3", column = "AU" },
+    { assay = 40, name = "FMR-1", column = "AV" },
+    { assay = 41, name = "FMR-2", column = "AW" },
+    { assay = 42, name = "FMR-3", column = "AX" },
+    { assay = 43, name = "FML-1", column = "AY" },
+    { assay = 44, name = "FML-2", column = "AZ" },
+    { assay = 45, name = "FML-3", column = "BA" },
+    { assay = 46, name = "FP4-1", column = "BB" },
+    { assay = 47, name = "FP4-2", column = "BC" },
+    { assay = 48, name = "FP4-3", column = "BD" },
+    { assay = 49, name = "FPR-1", column = "BE" },
+    { assay = 50, name = "FPR-2", column = "BF" },
+    { assay = 51, name = "FPR-3", column = "BG" },
+    { assay = 52, name = "FPL-1", column = "BH" },
+    { assay = 53, name = "FPL-2", column = "BI" },
+    { assay = 54, name = "FPL-3", column = "BJ" },
+]
+
+[[table]]
+id = "MPST000141__QC2_Data Analysis_20241125 - Copy#Matrix PCA without unknown"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx"
+sheet = "Matrix PCA without unknown"
+features_in = "columns"
+n_features = 93
+n_samples = 54
+sample = [
+    { assay = 1, name = "BC5-1", row = 2 },
+    { assay = 2, name = "BC5-2", row = 3 },
+    { assay = 3, name = "BC5-3", row = 4 },
+    { assay = 4, name = "BCR-1", row = 5 },
+    { assay = 5, name = "BCR-2", row = 6 },
+    { assay = 6, name = "BCR-3", row = 7 },
+    { assay = 7, name = "BCL-1", row = 8 },
+    { assay = 8, name = "BCL-2", row = 9 },
+    { assay = 9, name = "BCL-3", row = 10 },
+    { assay = 10, name = "BM5-1", row = 11 },
+    { assay = 11, name = "BM5-2", row = 12 },
+    { assay = 12, name = "BM5-3", row = 13 },
+    { assay = 13, name = "BMR-1", row = 14 },
+    { assay = 14, name = "BMR-2", row = 15 },
+    { assay = 15, name = "BMR-3", row = 16 },
+    { assay = 16, name = "BML-1", row = 17 },
+    { assay = 17, name = "BML-2", row = 18 },
+    { assay = 18, name = "BML-3", row = 19 },
+    { assay = 19, name = "FC5-1", row = 20 },
+    { assay = 20, name = "FC5-2", row = 21 },
+    { assay = 21, name = "FC5-3", row = 22 },
+    { assay = 22, name = "FCR-1", row = 23 },
+    { assay = 23, name = "FCR-2", row = 24 },
+    { assay = 24, name = "FCR-3", row = 25 },
+    { assay = 25, name = "FCL-1", row = 26 },
+    { assay = 26, name = "FCL-2", row = 27 },
+    { assay = 27, name = "FCL-3", row = 28 },
+    { assay = 28, name = "FD4-1", row = 29 },
+    { assay = 29, name = "FD4-2", row = 30 },
+    { assay = 30, name = "FD4-3", row = 31 },
+    { assay = 31, name = "FDR-1", row = 32 },
+    { assay = 32, name = "FDR-2", row = 33 },
+    { assay = 33, name = "FDR-3", row = 34 },
+    { assay = 34, name = "FDL-1", row = 35 },
+    { assay = 35, name = "FDL-2", row = 36 },
+    { assay = 36, name = "FDL-3", row = 37 },
+    { assay = 37, name = "FM4-1", row = 38 },
+    { assay = 38, name = "FM4-2", row = 39 },
+    { assay = 39, name = "FM4-3", row = 40 },
+    { assay = 40, name = "FMR-1", row = 41 },
+    { assay = 41, name = "FMR-2", row = 42 },
+    { assay = 42, name = "FMR-3", row = 43 },
+    { assay = 43, name = "FML-1", row = 44 },
+    { assay = 44, name = "FML-2", row = 45 },
+    { assay = 45, name = "FML-3", row = 46 },
+    { assay = 46, name = "FP4-1", row = 47 },
+    { assay = 47, name = "FP4-2", row = 48 },
+    { assay = 48, name = "FP4-3", row = 49 },
+    { assay = 49, name = "FPR-1", row = 50 },
+    { assay = 50, name = "FPR-2", row = 51 },
+    { assay = 51, name = "FPR-3", row = 52 },
+    { assay = 52, name = "FPL-1", row = 53 },
+    { assay = 53, name = "FPL-2", row = 54 },
+    { assay = 54, name = "FPL-3", row = 55 },
+]
+
+[[table]]
+id = "MPST000141__QC2_Data Analysis_20241125 - Copy# Matrix PCA with unknown"
+mbpost_id = "MPST000141"
+source_file = "MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx"
+sheet = " Matrix PCA with unknown"
+features_in = "columns"
+n_features = 294
+n_samples = 54
+sample = [
+    { assay = 1, name = "BC5-1", row = 2 },
+    { assay = 2, name = "BC5-2", row = 3 },
+    { assay = 3, name = "BC5-3", row = 4 },
+    { assay = 4, name = "BCR-1", row = 5 },
+    { assay = 5, name = "BCR-2", row = 6 },
+    { assay = 6, name = "BCR-3", row = 7 },
+    { assay = 7, name = "BCL-1", row = 8 },
+    { assay = 8, name = "BCL-2", row = 9 },
+    { assay = 9, name = "BCL-3", row = 10 },
+    { assay = 10, name = "BM5-1", row = 11 },
+    { assay = 11, name = "BM5-2", row = 12 },
+    { assay = 12, name = "BM5-3", row = 13 },
+    { assay = 13, name = "BMR-1", row = 14 },
+    { assay = 14, name = "BMR-2", row = 15 },
+    { assay = 15, name = "BMR-3", row = 16 },
+    { assay = 16, name = "BML-1", row = 17 },
+    { assay = 17, name = "BML-2", row = 18 },
+    { assay = 18, name = "BML-3", row = 19 },
+    { assay = 19, name = "FC5-1", row = 20 },
+    { assay = 20, name = "FC5-2", row = 21 },
+    { assay = 21, name = "FC5-3", row = 22 },
+    { assay = 22, name = "FCR-1", row = 23 },
+    { assay = 23, name = "FCR-2", row = 24 },
+    { assay = 24, name = "FCR-3", row = 25 },
+    { assay = 25, name = "FCL-1", row = 26 },
+    { assay = 26, name = "FCL-2", row = 27 },
+    { assay = 27, name = "FCL-3", row = 28 },
+    { assay = 28, name = "FD4-1", row = 29 },
+    { assay = 29, name = "FD4-2", row = 30 },
+    { assay = 30, name = "FD4-3", row = 31 },
+    { assay = 31, name = "FDR-1", row = 32 },
+    { assay = 32, name = "FDR-2", row = 33 },
+    { assay = 33, name = "FDR-3", row = 34 },
+    { assay = 34, name = "FDL-1", row = 35 },
+    { assay = 35, name = "FDL-2", row = 36 },
+    { assay = 36, name = "FDL-3", row = 37 },
+    { assay = 37, name = "FM4-1", row = 38 },
+    { assay = 38, name = "FM4-2", row = 39 },
+    { assay = 39, name = "FM4-3", row = 40 },
+    { assay = 40, name = "FMR-1", row = 41 },
+    { assay = 41, name = "FMR-2", row = 42 },
+    { assay = 42, name = "FMR-3", row = 43 },
+    { assay = 43, name = "FML-1", row = 44 },
+    { assay = 44, name = "FML-2", row = 45 },
+    { assay = 45, name = "FML-3", row = 46 },
+    { assay = 46, name = "FP4-1", row = 47 },
+    { assay = 47, name = "FP4-2", row = 48 },
+    { assay = 48, name = "FP4-3", row = 49 },
+    { assay = 49, name = "FPR-1", row = 50 },
+    { assay = 50, name = "FPR-2", row = 51 },
+    { assay = 51, name = "FPR-3", row = 52 },
+    { assay = 52, name = "FPL-1", row = 53 },
+    { assay = 53, name = "FPL-2", row = 54 },
+    { assay = 54, name = "FPL-3", row = 55 },
+]

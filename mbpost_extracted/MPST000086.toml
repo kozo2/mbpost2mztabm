@@ -1,0 +1,26 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000086.xlsx"
+mbpost_id = "MPST000086"
+n_tables = 1
+
+[[table]]
+id = "MPST000086"
+mbpost_id = "MPST000086"
+source_file = "MPST000086.xlsx"
+sheet = "S7 Metabolome data"
+features_in = "rows"
+n_features = 200
+n_samples = 9
+unit = "µmol per g genomic DNA"
+description = "Raw concentration values (µmol per g genomic DNA) for the metabolome analysis."
+sample = [
+    { assay = 1, name = "ara_S1", column = "B", attributes = { header_1 = "Control #1" } },
+    { assay = 2, name = "ara_S2", column = "C", attributes = { header_1 = "Control #2" } },
+    { assay = 3, name = "ara_S3", column = "D", attributes = { header_1 = "Control #3" } },
+    { assay = 4, name = "ara_S4", column = "E", attributes = { header_1 = "Bleomycin #1" } },
+    { assay = 5, name = "ara_S5", column = "F", attributes = { header_1 = "Bleomycin #2" } },
+    { assay = 6, name = "ara_S6", column = "G", attributes = { header_1 = "Bleomycin #3" } },
+    { assay = 7, name = "ara_S7", column = "H", attributes = { header_1 = "Anhydrobiosis #1" } },
+    { assay = 8, name = "ara_S8", column = "I", attributes = { header_1 = "Anhydrobiosis #2" } },
+    { assay = 9, name = "ara_S9", column = "J", attributes = { header_1 = "Anhydrobiosis #3" } },
+]

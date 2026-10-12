@@ -1,0 +1,32 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000181__Lipid mediators_mouse.xlsx"
+mbpost_id = "MPST000181"
+n_tables = 1
+
+[[table]]
+id = "MPST000181__Lipid mediators_mouse"
+mbpost_id = "MPST000181"
+source_file = "MPST000181__Lipid mediators_mouse.xlsx"
+sheet = "Sheet1"
+features_in = "rows"
+n_features = 83
+n_samples = 16
+description = "Peak relative area of lipid mediators detected from mouse faecal metabolome using LC/MS/MS method package for lipid mediators"
+sample = [
+    { assay = 1, name = "GF1", column = "B" },
+    { assay = 2, name = "GF2", column = "C" },
+    { assay = 3, name = "GF3", column = "D" },
+    { assay = 4, name = "GF4", column = "E" },
+    { assay = 5, name = "GF5", column = "F" },
+    { assay = 6, name = "GF6", column = "G" },
+    { assay = 7, name = "GF7", column = "H" },
+    { assay = 8, name = "GF8", column = "I" },
+    { assay = 9, name = "ExGF1", column = "J" },
+    { assay = 10, name = "ExGF2", column = "K" },
+    { assay = 11, name = "ExGF3", column = "L" },
+    { assay = 12, name = "ExGF4", column = "M" },
+    { assay = 13, name = "ExGF5", column = "N" },
+    { assay = 14, name = "ExGF6", column = "O" },
+    { assay = 15, name = "ExGF7", column = "P" },
+    { assay = 16, name = "ExGF8", column = "Q" },
+]

@@ -1,0 +1,612 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000005.csv"
+mbpost_id = "MPST000005"
+n_tables = 1
+
+[[table]]
+id = "MPST000005"
+mbpost_id = "MPST000005"
+source_file = "MPST000005.csv"
+features_in = "rows"
+n_features = 58
+n_samples = 60
+
+[[table.sample]]
+assay = 1
+name = "MG1655-GFP-empty_7h_1"
+column = "B"
+
+[table.sample.attributes]
+Strain = "MG1655-GFP-empty"
+Time = "7h"
+replicate = "1"
+
+[[table.sample]]
+assay = 2
+name = "MG1655-GFP-empty_7h_2"
+column = "C"
+
+[table.sample.attributes]
+Strain = "MG1655-GFP-empty"
+Time = "7h"
+replicate = "2"
+
+[[table.sample]]
+assay = 3
+name = "MG1655-GFP-empty_7h_3"
+column = "D"
+
+[table.sample.attributes]
+Strain = "MG1655-GFP-empty"
+Time = "7h"
+replicate = "3"
+
+[[table.sample]]
+assay = 4
+name = "MG1655-GFP_7h_1"
+column = "E"
+
+[table.sample.attributes]
+Strain = "MG1655-GFP"
+Time = "7h"
+replicate = "1"
+
+[[table.sample]]
+assay = 5
+name = "MG1655-GFP_7h_2"
+column = "F"
+
+[table.sample.attributes]
+Strain = "MG1655-GFP"
+Time = "7h"
+replicate = "2"
+
+[[table.sample]]
+assay = 6
+name = "MG1655-GFP_7h_3"
+column = "G"
+
+[table.sample.attributes]
+Strain = "MG1655-GFP"
+Time = "7h"
+replicate = "3"
+
+[[table.sample]]
+assay = 7
+name = "MG1655-GFP-empty_10h_1"
+column = "H"
+
+[table.sample.attributes]
+Strain = "MG1655-GFP-empty"
+Time = "10h"
+replicate = "1"
+
+[[table.sample]]
+assay = 8
+name = "MG1655-GFP-empty_10h_2"
+column = "I"
+
+[table.sample.attributes]
+Strain = "MG1655-GFP-empty"
+Time = "10h"
+replicate = "2"
+
+[[table.sample]]
+assay = 9
+name = "MG1655-GFP-empty_10h_3"
+column = "J"
+
+[table.sample.attributes]
+Strain = "MG1655-GFP-empty"
+Time = "10h"
+replicate = "3"
+
+[[table.sample]]
+assay = 10
+name = "MG1655-GFP_10h_1"
+column = "K"
+
+[table.sample.attributes]
+Strain = "MG1655-GFP"
+Time = "10h"
+replicate = "1"
+
+[[table.sample]]
+assay = 11
+name = "MG1655-GFP_10h_2"
+column = "L"
+
+[table.sample.attributes]
+Strain = "MG1655-GFP"
+Time = "10h"
+replicate = "2"
+
+[[table.sample]]
+assay = 12
+name = "MG1655-GFP_10h_3"
+column = "M"
+
+[table.sample.attributes]
+Strain = "MG1655-GFP"
+Time = "10h"
+replicate = "3"
+
+[[table.sample]]
+assay = 13
+name = "Rosetta-GFP-empty_7h_1"
+column = "N"
+
+[table.sample.attributes]
+Strain = "Rosetta-GFP-empty"
+Time = "7h"
+replicate = "1"
+
+[[table.sample]]
+assay = 14
+name = "Rosetta-GFP-empty_7h_2"
+column = "O"
+
+[table.sample.attributes]
+Strain = "Rosetta-GFP-empty"
+Time = "7h"
+replicate = "2"
+
+[[table.sample]]
+assay = 15
+name = "Rosetta-GFP-empty_7h_3"
+column = "P"
+
+[table.sample.attributes]
+Strain = "Rosetta-GFP-empty"
+Time = "7h"
+replicate = "3"
+
+[[table.sample]]
+assay = 16
+name = "Rosetta-GFP_7h_1"
+column = "Q"
+
+[table.sample.attributes]
+Strain = "Rosetta-GFP"
+Time = "7h"
+replicate = "1"
+
+[[table.sample]]
+assay = 17
+name = "Rosetta-GFP_7h_2"
+column = "R"
+
+[table.sample.attributes]
+Strain = "Rosetta-GFP"
+Time = "7h"
+replicate = "2"
+
+[[table.sample]]
+assay = 18
+name = "Rosetta-GFP_7h_3"
+column = "S"
+
+[table.sample.attributes]
+Strain = "Rosetta-GFP"
+Time = "7h"
+replicate = "3"
+
+[[table.sample]]
+assay = 19
+name = "Rosetta-GFP-empty_10h_1"
+column = "T"
+
+[table.sample.attributes]
+Strain = "Rosetta-GFP-empty"
+Time = "10h"
+replicate = "1"
+
+[[table.sample]]
+assay = 20
+name = "Rosetta-GFP-empty_10h_2"
+column = "U"
+
+[table.sample.attributes]
+Strain = "Rosetta-GFP-empty"
+Time = "10h"
+replicate = "2"
+
+[[table.sample]]
+assay = 21
+name = "Rosetta-GFP-empty_10h_3"
+column = "V"
+
+[table.sample.attributes]
+Strain = "Rosetta-GFP-empty"
+Time = "10h"
+replicate = "3"
+
+[[table.sample]]
+assay = 22
+name = "Rosetta-GFP_10h_1"
+column = "W"
+
+[table.sample.attributes]
+Strain = "Rosetta-GFP"
+Time = "10h"
+replicate = "1"
+
+[[table.sample]]
+assay = 23
+name = "Rosetta-GFP_10h_2"
+column = "X"
+
+[table.sample.attributes]
+Strain = "Rosetta-GFP"
+Time = "10h"
+replicate = "2"
+
+[[table.sample]]
+assay = 24
+name = "Rosetta-GFP_10h_3"
+column = "Y"
+
+[table.sample.attributes]
+Strain = "Rosetta-GFP"
+Time = "10h"
+replicate = "3"
+
+[[table.sample]]
+assay = 25
+name = "W3110-GFP-empty_7h_1"
+column = "Z"
+
+[table.sample.attributes]
+Strain = "W3110-GFP-empty"
+Time = "7h"
+replicate = "1"
+
+[[table.sample]]
+assay = 26
+name = "W3110-GFP-empty_7h_2"
+column = "AA"
+
+[table.sample.attributes]
+Strain = "W3110-GFP-empty"
+Time = "7h"
+replicate = "2"
+
+[[table.sample]]
+assay = 27
+name = "W3110-GFP-empty_7h_3"
+column = "AB"
+
+[table.sample.attributes]
+Strain = "W3110-GFP-empty"
+Time = "7h"
+replicate = "3"
+
+[[table.sample]]
+assay = 28
+name = "W3110-GFP_7h_1"
+column = "AC"
+
+[table.sample.attributes]
+Strain = "W3110-GFP"
+Time = "7h"
+replicate = "1"
+
+[[table.sample]]
+assay = 29
+name = "W3110-GFP_7h_2"
+column = "AD"
+
+[table.sample.attributes]
+Strain = "W3110-GFP"
+Time = "7h"
+replicate = "2"
+
+[[table.sample]]
+assay = 30
+name = "W3110-GFP_7h_3"
+column = "AE"
+
+[table.sample.attributes]
+Strain = "W3110-GFP"
+Time = "7h"
+replicate = "3"
+
+[[table.sample]]
+assay = 31
+name = "W3110-GFP-empty_10h_1"
+column = "AF"
+
+[table.sample.attributes]
+Strain = "W3110-GFP-empty"
+Time = "10h"
+replicate = "1"
+
+[[table.sample]]
+assay = 32
+name = "W3110-GFP-empty_10h_2"
+column = "AG"
+
+[table.sample.attributes]
+Strain = "W3110-GFP-empty"
+Time = "10h"
+replicate = "2"
+
+[[table.sample]]
+assay = 33
+name = "W3110-GFP-empty_10h_3"
+column = "AH"
+
+[table.sample.attributes]
+Strain = "W3110-GFP-empty"
+Time = "10h"
+replicate = "3"
+
+[[table.sample]]
+assay = 34
+name = "W3110-GFP_10h_1"
+column = "AI"
+
+[table.sample.attributes]
+Strain = "W3110-GFP"
+Time = "10h"
+replicate = "1"
+
+[[table.sample]]
+assay = 35
+name = "W3110-GFP_10h_2"
+column = "AJ"
+
+[table.sample.attributes]
+Strain = "W3110-GFP"
+Time = "10h"
+replicate = "2"
+
+[[table.sample]]
+assay = 36
+name = "W3110-GFP_10h_3"
+column = "AK"
+
+[table.sample.attributes]
+Strain = "W3110-GFP"
+Time = "10h"
+replicate = "3"
+
+[[table.sample]]
+assay = 37
+name = "BL21star-DR-empty_7h_1"
+column = "AM"
+
+[table.sample.attributes]
+Strain = "BL21star-DR-empty"
+Time = "7h"
+replicate = "1"
+
+[[table.sample]]
+assay = 38
+name = "BL21star-DR-empty_7h_2"
+column = "AN"
+
+[table.sample.attributes]
+Strain = "BL21star-DR-empty"
+Time = "7h"
+replicate = "2"
+
+[[table.sample]]
+assay = 39
+name = "BL21star-DR-empty_7h_3"
+column = "AO"
+
+[table.sample.attributes]
+Strain = "BL21star-DR-empty"
+Time = "7h"
+replicate = "3"
+
+[[table.sample]]
+assay = 40
+name = "BL21star-DR_7h_1"
+column = "AP"
+
+[table.sample.attributes]
+Strain = "BL21star-DR"
+Time = "7h"
+replicate = "1"
+
+[[table.sample]]
+assay = 41
+name = "BL21star-DR_7h_2"
+column = "AQ"
+
+[table.sample.attributes]
+Strain = "BL21star-DR"
+Time = "7h"
+replicate = "2"
+
+[[table.sample]]
+assay = 42
+name = "BL21star-DR_7h_3"
+column = "AR"
+
+[table.sample.attributes]
+Strain = "BL21star-DR"
+Time = "7h"
+replicate = "3"
+
+[[table.sample]]
+assay = 43
+name = "BL21star-DR-empty_10h_1"
+column = "AS"
+
+[table.sample.attributes]
+Strain = "BL21star-DR-empty"
+Time = "10h"
+replicate = "1"
+
+[[table.sample]]
+assay = 44
+name = "BL21star-DR-empty_10h_2"
+column = "AT"
+
+[table.sample.attributes]
+Strain = "BL21star-DR-empty"
+Time = "10h"
+replicate = "2"
+
+[[table.sample]]
+assay = 45
+name = "BL21star-DR-empty_10h_3"
+column = "AU"
+
+[table.sample.attributes]
+Strain = "BL21star-DR-empty"
+Time = "10h"
+replicate = "3"
+
+[[table.sample]]
+assay = 46
+name = "BL21star-DR_10h_1"
+column = "AV"
+
+[table.sample.attributes]
+Strain = "BL21star-DR"
+Time = "10h"
+replicate = "1"
+
+[[table.sample]]
+assay = 47
+name = "BL21star-DR_10h_2"
+column = "AW"
+
+[table.sample.attributes]
+Strain = "BL21star-DR"
+Time = "10h"
+replicate = "2"
+
+[[table.sample]]
+assay = 48
+name = "BL21star-DR_10h_3"
+column = "AX"
+
+[table.sample.attributes]
+Strain = "BL21star-DR"
+Time = "10h"
+replicate = "3"
+
+[[table.sample]]
+assay = 49
+name = "MG1655-DR-empty_7h_1"
+column = "AY"
+
+[table.sample.attributes]
+Strain = "MG1655-DR-empty"
+Time = "7h"
+replicate = "1"
+
+[[table.sample]]
+assay = 50
+name = "MG1655-DR-empty_7h_2"
+column = "AZ"
+
+[table.sample.attributes]
+Strain = "MG1655-DR-empty"
+Time = "7h"
+replicate = "2"
+
+[[table.sample]]
+assay = 51
+name = "MG1655-DR-empty_7h_3"
+column = "BA"
+
+[table.sample.attributes]
+Strain = "MG1655-DR-empty"
+Time = "7h"
+replicate = "3"
+
+[[table.sample]]
+assay = 52
+name = "MG1655-DR_7h_1"
+column = "BB"
+
+[table.sample.attributes]
+Strain = "MG1655-DR"
+Time = "7h"
+replicate = "1"
+
+[[table.sample]]
+assay = 53
+name = "MG1655-DR_7h_2"
+column = "BC"
+
+[table.sample.attributes]
+Strain = "MG1655-DR"
+Time = "7h"
+replicate = "2"
+
+[[table.sample]]
+assay = 54
+name = "MG1655-DR_7h_3"
+column = "BD"
+
+[table.sample.attributes]
+Strain = "MG1655-DR"
+Time = "7h"
+replicate = "3"
+
+[[table.sample]]
+assay = 55
+name = "MG1655-DR-empty_10h_1"
+column = "BE"
+
+[table.sample.attributes]
+Strain = "MG1655-DR-empty"
+Time = "10h"
+replicate = "1"
+
+[[table.sample]]
+assay = 56
+name = "MG1655-DR-empty_10h_2"
+column = "BF"
+
+[table.sample.attributes]
+Strain = "MG1655-DR-empty"
+Time = "10h"
+replicate = "2"
+
+[[table.sample]]
+assay = 57
+name = "MG1655-DR-empty_10h_3"
+column = "BG"
+
+[table.sample.attributes]
+Strain = "MG1655-DR-empty"
+Time = "10h"
+replicate = "3"
+
+[[table.sample]]
+assay = 58
+name = "MG1655-DR_10h_1"
+column = "BH"
+
+[table.sample.attributes]
+Strain = "MG1655-DR"
+Time = "10h"
+replicate = "1"
+
+[[table.sample]]
+assay = 59
+name = "MG1655-DR_10h_2"
+column = "BI"
+
+[table.sample.attributes]
+Strain = "MG1655-DR"
+Time = "10h"
+replicate = "2"
+
+[[table.sample]]
+assay = 60
+name = "MG1655-DR_10h_3"
+column = "BJ"
+
+[table.sample.attributes]
+Strain = "MG1655-DR"
+Time = "10h"
+replicate = "3"

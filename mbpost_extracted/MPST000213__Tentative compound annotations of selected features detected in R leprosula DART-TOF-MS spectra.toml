@@ -1,0 +1,7 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000213__Tentative compound annotations of selected features detected in R leprosula DART-TOF-MS spectra.xlsx"
+mbpost_id = "MPST000213"
+n_tables = 0
+skipped = [
+    { sheet = "Sheet1", reason = "no abundance columns (only annotation columns)" },
+]

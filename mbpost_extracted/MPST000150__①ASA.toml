@@ -1,0 +1,508 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000150__①ASA.xlsx"
+mbpost_id = "MPST000150"
+n_tables = 2
+skipped = [
+    { sheet = "calibration curve", reason = "calibration curves of standards, not samples" },
+]
+
+[[table]]
+id = "MPST000150__①ASA#result#Area"
+mbpost_id = "MPST000150"
+source_file = "MPST000150__①ASA.xlsx"
+sheet = "result"
+features_in = "columns"
+n_features = 8
+n_samples = 24
+block = "Area"
+
+[[table.sample]]
+assay = 1
+name = "HCT116 MT_20% O₂_control_1"
+row = 6
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "20% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 2
+name = "HCT116 MT_20% O₂_control_2"
+row = 7
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "20% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 3
+name = "HCT116 MT_20% O₂_control_3"
+row = 8
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "20% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 4
+name = "HCT116 MT_20% O₂_ASA 2mM_1"
+row = 9
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "20% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 5
+name = "HCT116 MT_20% O₂_ASA 2mM_2"
+row = 10
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "20% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 6
+name = "HCT116 MT_20% O₂_ASA 2mM_3"
+row = 11
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "20% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 7
+name = "HCT116 MT_1% O₂_control_1"
+row = 12
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "1% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 8
+name = "HCT116 MT_1% O₂_control_2"
+row = 13
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "1% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 9
+name = "HCT116 MT_1% O₂_control_3"
+row = 14
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "1% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 10
+name = "HCT116 MT_1% O₂_ASA 2mM_1"
+row = 15
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "1% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 11
+name = "HCT116 MT_1% O₂_ASA 2mM_2"
+row = 16
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "1% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 12
+name = "HCT116 MT_1% O₂_ASA 2mM_3"
+row = 17
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "1% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 13
+name = "HCT116 WT_20% O₂_control_1"
+row = 18
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "20% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 14
+name = "HCT116 WT_20% O₂_control_2"
+row = 19
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "20% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 15
+name = "HCT116 WT_20% O₂_control_3"
+row = 20
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "20% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 16
+name = "HCT116 WT_20% O₂_ASA 2mM_1"
+row = 21
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "20% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 17
+name = "HCT116 WT_20% O₂_ASA 2mM_2"
+row = 22
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "20% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 18
+name = "HCT116 WT_20% O₂_ASA 2mM_3"
+row = 23
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "20% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 19
+name = "HCT116 WT_1% O₂_control_1"
+row = 24
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "1% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 20
+name = "HCT116 WT_1% O₂_control_2"
+row = 25
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "1% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 21
+name = "HCT116 WT_1% O₂_control_3"
+row = 26
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "1% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 22
+name = "HCT116 WT_1% O₂_ASA 2mM_1"
+row = 27
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "1% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 23
+name = "HCT116 WT_1% O₂_ASA 2mM_2"
+row = 28
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "1% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 24
+name = "HCT116 WT_1% O₂_ASA 2mM_3"
+row = 29
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "1% O₂"
+header_3 = "ASA 2mM"
+
+[[table]]
+id = "MPST000150__①ASA#result#Concentration (pmol)"
+mbpost_id = "MPST000150"
+source_file = "MPST000150__①ASA.xlsx"
+sheet = "result"
+features_in = "columns"
+n_features = 8
+n_samples = 24
+unit = "pmol"
+block = "Concentration (pmol)"
+
+[[table.sample]]
+assay = 1
+name = "HCT116 MT_20% O₂_control_1"
+row = 6
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "20% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 2
+name = "HCT116 MT_20% O₂_control_2"
+row = 7
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "20% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 3
+name = "HCT116 MT_20% O₂_control_3"
+row = 8
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "20% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 4
+name = "HCT116 MT_20% O₂_ASA 2mM_1"
+row = 9
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "20% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 5
+name = "HCT116 MT_20% O₂_ASA 2mM_2"
+row = 10
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "20% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 6
+name = "HCT116 MT_20% O₂_ASA 2mM_3"
+row = 11
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "20% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 7
+name = "HCT116 MT_1% O₂_control_1"
+row = 12
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "1% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 8
+name = "HCT116 MT_1% O₂_control_2"
+row = 13
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "1% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 9
+name = "HCT116 MT_1% O₂_control_3"
+row = 14
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "1% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 10
+name = "HCT116 MT_1% O₂_ASA 2mM_1"
+row = 15
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "1% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 11
+name = "HCT116 MT_1% O₂_ASA 2mM_2"
+row = 16
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "1% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 12
+name = "HCT116 MT_1% O₂_ASA 2mM_3"
+row = 17
+
+[table.sample.attributes]
+Cell = "HCT116 MT"
+Condition = "1% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 13
+name = "HCT116 WT_20% O₂_control_1"
+row = 18
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "20% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 14
+name = "HCT116 WT_20% O₂_control_2"
+row = 19
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "20% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 15
+name = "HCT116 WT_20% O₂_control_3"
+row = 20
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "20% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 16
+name = "HCT116 WT_20% O₂_ASA 2mM_1"
+row = 21
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "20% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 17
+name = "HCT116 WT_20% O₂_ASA 2mM_2"
+row = 22
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "20% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 18
+name = "HCT116 WT_20% O₂_ASA 2mM_3"
+row = 23
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "20% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 19
+name = "HCT116 WT_1% O₂_control_1"
+row = 24
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "1% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 20
+name = "HCT116 WT_1% O₂_control_2"
+row = 25
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "1% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 21
+name = "HCT116 WT_1% O₂_control_3"
+row = 26
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "1% O₂"
+header_3 = "control"
+
+[[table.sample]]
+assay = 22
+name = "HCT116 WT_1% O₂_ASA 2mM_1"
+row = 27
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "1% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 23
+name = "HCT116 WT_1% O₂_ASA 2mM_2"
+row = 28
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "1% O₂"
+header_3 = "ASA 2mM"
+
+[[table.sample]]
+assay = 24
+name = "HCT116 WT_1% O₂_ASA 2mM_3"
+row = 29
+
+[table.sample.attributes]
+Cell = "HCT116 WT"
+Condition = "1% O₂"
+header_3 = "ASA 2mM"

@@ -1,0 +1,56 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000010.xlsx"
+mbpost_id = "MPST000010"
+n_tables = 1
+
+[[table]]
+id = "MPST000010"
+mbpost_id = "MPST000010"
+source_file = "MPST000010.xlsx"
+sheet = "Sheet1"
+features_in = "rows"
+n_features = 388
+n_samples = 40
+description = "This table is a part of Supplementary Tables in the article."
+sample = [
+    { assay = 1, name = "1_Young_Medulla", column = "M" },
+    { assay = 2, name = "2_Young_Cerebellum", column = "N" },
+    { assay = 3, name = "3_Young_Midbrain", column = "O" },
+    { assay = 4, name = "4_Young_Hippocampus", column = "P" },
+    { assay = 5, name = "5_Young_Frontal-Lobe", column = "Q" },
+    { assay = 6, name = "6_Young_Medulla", column = "R" },
+    { assay = 7, name = "7_Young_Cerebellum", column = "S" },
+    { assay = 8, name = "8_Young_Midbrain", column = "T" },
+    { assay = 9, name = "9_Young_Hippocampus", column = "U" },
+    { assay = 10, name = "10_Young_Frontal-Lobe", column = "V" },
+    { assay = 11, name = "11_Young_Medulla", column = "W" },
+    { assay = 12, name = "12_Young_Cerebellum", column = "X" },
+    { assay = 13, name = "13_Young_Midbrain", column = "Y" },
+    { assay = 14, name = "14_Young_Hippocampus", column = "Z" },
+    { assay = 15, name = "15_Young_Frontal-Lobe", column = "AA" },
+    { assay = 16, name = "16_Young_Medulla", column = "AB" },
+    { assay = 17, name = "17_Young_Cerebellum", column = "AC" },
+    { assay = 18, name = "18_Young_Midbrain", column = "AD" },
+    { assay = 19, name = "19_Young_Hippocampus", column = "AE" },
+    { assay = 20, name = "20_Young_Frontal-Lobe", column = "AF" },
+    { assay = 21, name = "21_Old_Medulla", column = "AG" },
+    { assay = 22, name = "22_Old_Cerebellum", column = "AH" },
+    { assay = 23, name = "23_Old_Midbrain", column = "AI" },
+    { assay = 24, name = "24_Old_Hippocampus", column = "AJ" },
+    { assay = 25, name = "25_Old_Frontal-Lobe", column = "AK" },
+    { assay = 26, name = "26_Old_Medulla", column = "AL" },
+    { assay = 27, name = "27_Old_Cerebellum", column = "AM" },
+    { assay = 28, name = "28_Old_Midbrain", column = "AN" },
+    { assay = 29, name = "29_Old_Hippocampus", column = "AO" },
+    { assay = 30, name = "30_Old_Frontal-Lobe", column = "AP" },
+    { assay = 31, name = "31_Old_Medulla", column = "AQ" },
+    { assay = 32, name = "32_Old_Cerebellum", column = "AR" },
+    { assay = 33, name = "33_Old_Midbrain", column = "AS" },
+    { assay = 34, name = "34_Old_Hippocampus", column = "AT" },
+    { assay = 35, name = "35_Old_Frontal-Lobe", column = "AU" },
+    { assay = 36, name = "36_Old_Medulla", column = "AV" },
+    { assay = 37, name = "37_Old_Cerebellum", column = "AW" },
+    { assay = 38, name = "38_Old_Midbrain", column = "AX" },
+    { assay = 39, name = "39_Old_Hippocampus", column = "AY" },
+    { assay = 40, name = "40_Old_Frontal-Lobe", column = "AZ" },
+]

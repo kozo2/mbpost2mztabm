@@ -1,0 +1,382 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000189__Height_0_20245232029_neg.txt"
+mbpost_id = "MPST000189"
+n_tables = 1
+
+[[table]]
+id = "MPST000189__Height_0_20245232029_neg"
+mbpost_id = "MPST000189"
+source_file = "MPST000189__Height_0_20245232029_neg.txt"
+features_in = "rows"
+n_features = 2050
+n_samples = 37
+
+[[table.sample]]
+assay = 1
+name = "1_Sce_4_n1_neg1u"
+column = "AG"
+
+[table.sample.attributes]
+Class = "Sce_4"
+"File type" = "Sample"
+"Injection order" = "1"
+
+[[table.sample]]
+assay = 2
+name = "10_Sce_12_n1_neg1u"
+column = "AH"
+
+[table.sample.attributes]
+Class = "Sce_12"
+"File type" = "Sample"
+"Injection order" = "2"
+
+[[table.sample]]
+assay = 3
+name = "11_Sce_12_n2_neg1u"
+column = "AI"
+
+[table.sample.attributes]
+Class = "Sce_12"
+"File type" = "Sample"
+"Injection order" = "3"
+
+[[table.sample]]
+assay = 4
+name = "12_Sce_12_n3_neg1u"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "Sce_12"
+"File type" = "Sample"
+"Injection order" = "4"
+
+[[table.sample]]
+assay = 5
+name = "13_Seu_12_n1_neg1u"
+column = "AK"
+
+[table.sample.attributes]
+Class = "Seu_12"
+"File type" = "Sample"
+"Injection order" = "5"
+
+[[table.sample]]
+assay = 6
+name = "14_Seu_12_n2_neg1u"
+column = "AL"
+
+[table.sample.attributes]
+Class = "Seu_12"
+"File type" = "Sample"
+"Injection order" = "6"
+
+[[table.sample]]
+assay = 7
+name = "15_Seu_12_n3_neg1u"
+column = "AM"
+
+[table.sample.attributes]
+Class = "Seu_12"
+"File type" = "Sample"
+"Injection order" = "7"
+
+[[table.sample]]
+assay = 8
+name = "16_Spa_12_n1_neg1u"
+column = "AN"
+
+[table.sample.attributes]
+Class = "Spa_12"
+"File type" = "Sample"
+"Injection order" = "8"
+
+[[table.sample]]
+assay = 9
+name = "17_Spa_12_n2_neg1u"
+column = "AO"
+
+[table.sample.attributes]
+Class = "Spa_12"
+"File type" = "Sample"
+"Injection order" = "9"
+
+[[table.sample]]
+assay = 10
+name = "18_Spa_12_n3_neg1u"
+column = "AP"
+
+[table.sample.attributes]
+Class = "Spa_12"
+"File type" = "Sample"
+"Injection order" = "10"
+
+[[table.sample]]
+assay = 11
+name = "19_Sce_25_n1_neg1u"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "Sce_25"
+"File type" = "Sample"
+"Injection order" = "11"
+
+[[table.sample]]
+assay = 12
+name = "2_Sce_4_n2_neg1u"
+column = "AR"
+
+[table.sample.attributes]
+Class = "Sce_4"
+"File type" = "Sample"
+"Injection order" = "12"
+
+[[table.sample]]
+assay = 13
+name = "20_Sce_25_n2_neg1u"
+column = "AS"
+
+[table.sample.attributes]
+Class = "Sce_25"
+"File type" = "Sample"
+"Injection order" = "13"
+
+[[table.sample]]
+assay = 14
+name = "21_Sce_25_n3_neg1u"
+column = "AT"
+
+[table.sample.attributes]
+Class = "Sce_25"
+"File type" = "Sample"
+"Injection order" = "14"
+
+[[table.sample]]
+assay = 15
+name = "22_Seu_25_n1_neg1u"
+column = "AU"
+
+[table.sample.attributes]
+Class = "Seu_25"
+"File type" = "Sample"
+"Injection order" = "15"
+
+[[table.sample]]
+assay = 16
+name = "23_Seu_25_n2_neg1u"
+column = "AV"
+
+[table.sample.attributes]
+Class = "Seu_25"
+"File type" = "Sample"
+"Injection order" = "16"
+
+[[table.sample]]
+assay = 17
+name = "24_Seu_25_n3_neg1u"
+column = "AW"
+
+[table.sample.attributes]
+Class = "Seu_25"
+"File type" = "Sample"
+"Injection order" = "17"
+
+[[table.sample]]
+assay = 18
+name = "25_Spa_25_n1_neg1u"
+column = "AX"
+
+[table.sample.attributes]
+Class = "Spa_25"
+"File type" = "Sample"
+"Injection order" = "18"
+
+[[table.sample]]
+assay = 19
+name = "26_Spa_25_n2_neg1u"
+column = "AY"
+
+[table.sample.attributes]
+Class = "Spa_25"
+"File type" = "Sample"
+"Injection order" = "19"
+
+[[table.sample]]
+assay = 20
+name = "27_Spa_25_n3_neg1u"
+column = "AZ"
+
+[table.sample.attributes]
+Class = "Spa_25"
+"File type" = "Sample"
+"Injection order" = "20"
+
+[[table.sample]]
+assay = 21
+name = "28_Sce_30_n1_neg1u"
+column = "BA"
+
+[table.sample.attributes]
+Class = "Sce_30"
+"File type" = "Sample"
+"Injection order" = "21"
+
+[[table.sample]]
+assay = 22
+name = "29_Sce_30_n2_neg1u"
+column = "BB"
+
+[table.sample.attributes]
+Class = "Sce_30"
+"File type" = "Sample"
+"Injection order" = "22"
+
+[[table.sample]]
+assay = 23
+name = "3_Sce_4_n3_neg1u"
+column = "BC"
+
+[table.sample.attributes]
+Class = "Sce_4"
+"File type" = "Sample"
+"Injection order" = "23"
+
+[[table.sample]]
+assay = 24
+name = "30_Sce_30_n3_neg1u"
+column = "BD"
+
+[table.sample.attributes]
+Class = "Sce_30"
+"File type" = "Sample"
+"Injection order" = "24"
+
+[[table.sample]]
+assay = 25
+name = "31_Seu_30_n1_neg1u"
+column = "BE"
+
+[table.sample.attributes]
+Class = "Seu_30"
+"File type" = "Sample"
+"Injection order" = "25"
+
+[[table.sample]]
+assay = 26
+name = "32_Seu_30_n2_neg1u"
+column = "BF"
+
+[table.sample.attributes]
+Class = "Seu_30"
+"File type" = "Sample"
+"Injection order" = "26"
+
+[[table.sample]]
+assay = 27
+name = "33_Seu_30_n3_neg1u"
+column = "BG"
+
+[table.sample.attributes]
+Class = "Seu_30"
+"File type" = "Sample"
+"Injection order" = "27"
+
+[[table.sample]]
+assay = 28
+name = "34_Spa_30_n1_neg1u"
+column = "BH"
+
+[table.sample.attributes]
+Class = "Spa_30"
+"File type" = "Sample"
+"Injection order" = "28"
+
+[[table.sample]]
+assay = 29
+name = "35_Spa_30_n2_neg1u"
+column = "BI"
+
+[table.sample.attributes]
+Class = "Spa_30"
+"File type" = "Sample"
+"Injection order" = "29"
+
+[[table.sample]]
+assay = 30
+name = "36_Spa_30_n3_neg1u"
+column = "BJ"
+
+[table.sample.attributes]
+Class = "Spa_30"
+"File type" = "Sample"
+"Injection order" = "30"
+
+[[table.sample]]
+assay = 31
+name = "4_Seu_4_n1_neg1u"
+column = "BK"
+
+[table.sample.attributes]
+Class = "Seu_4"
+"File type" = "Sample"
+"Injection order" = "31"
+
+[[table.sample]]
+assay = 32
+name = "49_procedure_neg1u"
+column = "BL"
+
+[table.sample.attributes]
+Class = "procedure"
+"File type" = "Blank"
+"Injection order" = "32"
+
+[[table.sample]]
+assay = 33
+name = "5_Seu_4_n2_neg1u"
+column = "BM"
+
+[table.sample.attributes]
+Class = "Seu_4"
+"File type" = "Sample"
+"Injection order" = "33"
+
+[[table.sample]]
+assay = 34
+name = "6_Seu_4_n3_neg1u"
+column = "BN"
+
+[table.sample.attributes]
+Class = "Seu_4"
+"File type" = "Sample"
+"Injection order" = "34"
+
+[[table.sample]]
+assay = 35
+name = "7_Spa_4_n1_neg1u"
+column = "BO"
+
+[table.sample.attributes]
+Class = "Spa_4"
+"File type" = "Sample"
+"Injection order" = "35"
+
+[[table.sample]]
+assay = 36
+name = "8_Spa_4_n2_neg1u"
+column = "BP"
+
+[table.sample.attributes]
+Class = "Spa_4"
+"File type" = "Sample"
+"Injection order" = "36"
+
+[[table.sample]]
+assay = 37
+name = "9_Spa_4_n3_neg1u"
+column = "BQ"
+
+[table.sample.attributes]
+Class = "Spa_4"
+"File type" = "Sample"
+"Injection order" = "37"

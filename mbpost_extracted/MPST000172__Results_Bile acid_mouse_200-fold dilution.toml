@@ -1,0 +1,23 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000172__Results_Bile acid_mouse_200-fold dilution.xlsx"
+mbpost_id = "MPST000172"
+n_tables = 1
+
+[[table]]
+id = "MPST000172__Results_Bile acid_mouse_200-fold dilution"
+mbpost_id = "MPST000172"
+source_file = "MPST000172__Results_Bile acid_mouse_200-fold dilution.xlsx"
+sheet = "Sheet1"
+features_in = "columns"
+n_features = 1
+n_samples = 8
+sample = [
+    { assay = 1, name = "ExGF1", row = 3 },
+    { assay = 2, name = "ExGF2", row = 4 },
+    { assay = 3, name = "ExGF3", row = 5 },
+    { assay = 4, name = "ExGF4", row = 6 },
+    { assay = 5, name = "ExGF5", row = 7 },
+    { assay = 6, name = "ExGF6", row = 8 },
+    { assay = 7, name = "ExGF7", row = 9 },
+    { assay = 8, name = "ExGF8", row = 10 },
+]

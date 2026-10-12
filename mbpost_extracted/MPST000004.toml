@@ -1,0 +1,7 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000004.xlsx"
+mbpost_id = "MPST000004"
+n_tables = 0
+skipped = [
+    { sheet = "Table 1", reason = "no numeric cells" },
+]

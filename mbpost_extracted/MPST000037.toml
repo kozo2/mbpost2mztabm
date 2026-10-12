@@ -1,0 +1,19 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000037.xlsx"
+mbpost_id = "MPST000037"
+n_tables = 1
+
+[[table]]
+id = "MPST000037"
+mbpost_id = "MPST000037"
+source_file = "MPST000037.xlsx"
+sheet = "results"
+features_in = "rows"
+n_features = 85
+n_samples = 4
+sample = [
+    { assay = 1, name = "16", column = "F", attributes = { "number of cells" = "4.71×106" } },
+    { assay = 2, name = "17", column = "G", attributes = { "number of cells" = "4.70×106" } },
+    { assay = 3, name = "18", column = "H", attributes = { "number of cells" = "4.73×106" } },
+    { assay = 4, name = "19", column = "I", attributes = { "number of cells" = "4.71×106" } },
+]

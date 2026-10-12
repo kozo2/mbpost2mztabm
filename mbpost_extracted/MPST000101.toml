@@ -1,0 +1,32 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000101.csv"
+mbpost_id = "MPST000101"
+n_tables = 1
+
+[[table]]
+id = "MPST000101"
+mbpost_id = "MPST000101"
+source_file = "MPST000101.csv"
+features_in = "rows"
+n_features = 15
+n_samples = 18
+sample = [
+    { assay = 1, name = "MeOH_20 g/L_Log_1", column = "B" },
+    { assay = 2, name = "MeOH_20 g/L_Log_2", column = "C" },
+    { assay = 3, name = "MeOH_20 g/L_Log_3", column = "D" },
+    { assay = 4, name = "MeOH_20 g/L_Sta_1", column = "E" },
+    { assay = 5, name = "MeOH_20 g/L_Sta_2", column = "F" },
+    { assay = 6, name = "MeOH_20 g/L_Sta_3", column = "G" },
+    { assay = 7, name = "MeOH_10 g/L_Log_1", column = "H" },
+    { assay = 8, name = "MeOH_10 g/L_Log_2", column = "I" },
+    { assay = 9, name = "MeOH_10 g/L_Log_3", column = "J" },
+    { assay = 10, name = "MeOH_10 g/L_Sta_1", column = "K" },
+    { assay = 11, name = "MeOH_10 g/L_Sta_2", column = "L" },
+    { assay = 12, name = "MeOH_10 g/L_Sta_3", column = "M" },
+    { assay = 13, name = "Glc_Log_1", column = "N" },
+    { assay = 14, name = "Glc_Log_2", column = "O" },
+    { assay = 15, name = "Glc_Log_3", column = "P" },
+    { assay = 16, name = "Glc_Sta_1", column = "Q" },
+    { assay = 17, name = "Glc_Sta_2", column = "R" },
+    { assay = 18, name = "Glc_Sta_3", column = "S" },
+]

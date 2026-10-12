@@ -1,0 +1,212 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000222__Infant1_results.xlsx"
+mbpost_id = "MPST000222"
+n_tables = 1
+
+[[table]]
+id = "MPST000222__Infant1_results"
+mbpost_id = "MPST000222"
+source_file = "MPST000222__Infant1_results.xlsx"
+sheet = "Infant 1"
+features_in = "rows"
+n_features = 515
+n_samples = 22
+description = "Quantification of ionic metabolites in mice fecal samples"
+
+[[table.sample]]
+assay = 1
+name = "1_8M_1"
+column = "E"
+
+[table.sample.attributes]
+condition = "Infant 1 (8M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 2
+name = "1_8M_2"
+column = "F"
+
+[table.sample.attributes]
+condition = "Infant 1 (8M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 3
+name = "1_8M_3"
+column = "G"
+
+[table.sample.attributes]
+condition = "Infant 1 (8M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 4
+name = "1_8M_4"
+column = "H"
+
+[table.sample.attributes]
+condition = "Infant 1 (8M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 5
+name = "1_8M_5"
+column = "I"
+
+[table.sample.attributes]
+condition = "Infant 1 (8M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 6
+name = "1_3M_1"
+column = "J"
+
+[table.sample.attributes]
+condition = "Infant 1 (3M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 7
+name = "1_3M_2"
+column = "K"
+
+[table.sample.attributes]
+condition = "Infant 1 (3M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 8
+name = "1_3M_3"
+column = "L"
+
+[table.sample.attributes]
+condition = "Infant 1 (3M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 9
+name = "1_5M_1"
+column = "M"
+
+[table.sample.attributes]
+condition = "Infant 1 (5M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 10
+name = "1_5M_2"
+column = "N"
+
+[table.sample.attributes]
+condition = "Infant 1 (5M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 11
+name = "1_5M_3"
+column = "O"
+
+[table.sample.attributes]
+condition = "Infant 1 (5M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 12
+name = "1_8.5M_1"
+column = "P"
+
+[table.sample.attributes]
+condition = "Infant 1 (8.5M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 13
+name = "1_8.5M_2"
+column = "Q"
+
+[table.sample.attributes]
+condition = "Infant 1 (8.5M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 14
+name = "1_8.5M_3"
+column = "R"
+
+[table.sample.attributes]
+condition = "Infant 1 (8.5M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 15
+name = "1_10M_1"
+column = "S"
+
+[table.sample.attributes]
+condition = "Infant 1 (10M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 16
+name = "1_10M_2"
+column = "T"
+
+[table.sample.attributes]
+condition = "Infant 1 (10M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 17
+name = "1_10M_3"
+column = "U"
+
+[table.sample.attributes]
+condition = "Infant 1 (10M)"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 18
+name = "GF_1"
+column = "V"
+
+[table.sample.attributes]
+condition = "GF"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 19
+name = "GF_2"
+column = "W"
+
+[table.sample.attributes]
+condition = "GF"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 20
+name = "GF_3"
+column = "X"
+
+[table.sample.attributes]
+condition = "GF"
+unit = "nmol/g"
+
+[[table.sample]]
+assay = 21
+name = "Blank1"
+column = "Y"
+
+[table.sample.attributes]
+condition = "Blank1"
+unit = "µM"
+
+[[table.sample]]
+assay = 22
+name = "Blank2"
+column = "Z"
+
+[table.sample.attributes]
+condition = "Blank1"
+unit = "µM"

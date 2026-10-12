@@ -1,0 +1,194 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000041.xlsx"
+mbpost_id = "MPST000041"
+n_tables = 1
+
+[[table]]
+id = "MPST000041"
+mbpost_id = "MPST000041"
+source_file = "MPST000041.xlsx"
+sheet = "results"
+features_in = "rows"
+n_features = 180
+n_samples = 18
+unit = "fmol/cell"
+
+[[table.sample]]
+assay = 1
+name = "1A"
+column = "D"
+
+[table.sample.attributes]
+"Cell Number" = "2.60×106"
+"sampling day" = "2025-03-03"
+header_3 = "D0_si-Ctr_A"
+
+[[table.sample]]
+assay = 2
+name = "1B"
+column = "E"
+
+[table.sample.attributes]
+"Cell Number" = "2.60×106"
+"sampling day" = "2025-03-03"
+header_3 = "D0_si-Ctr_B"
+
+[[table.sample]]
+assay = 3
+name = "1C"
+column = "F"
+
+[table.sample.attributes]
+"Cell Number" = "2.60×106"
+"sampling day" = "2025-03-03"
+header_3 = "D0_si-Ctr_C"
+
+[[table.sample]]
+assay = 4
+name = "2A"
+column = "G"
+
+[table.sample.attributes]
+"Cell Number" = "2.08×106"
+"sampling day" = "2025-03-03"
+header_3 = "D0_si-Idh3b_A"
+
+[[table.sample]]
+assay = 5
+name = "2B"
+column = "H"
+
+[table.sample.attributes]
+"Cell Number" = "2.08×106"
+"sampling day" = "2025-03-03"
+header_3 = "D0_si-Idh3b_B"
+
+[[table.sample]]
+assay = 6
+name = "2C"
+column = "I"
+
+[table.sample.attributes]
+"Cell Number" = "2.08×106"
+"sampling day" = "2025-03-03"
+header_3 = "D0_si-Idh3b_C"
+
+[[table.sample]]
+assay = 7
+name = "3A"
+column = "J"
+
+[table.sample.attributes]
+"Cell Number" = "2.13×106"
+"sampling day" = "2025-03-03"
+header_3 = "D0_si-Idh3b_dma_A"
+
+[[table.sample]]
+assay = 8
+name = "3B"
+column = "K"
+
+[table.sample.attributes]
+"Cell Number" = "2.13×106"
+"sampling day" = "2025-03-03"
+header_3 = "D0_si-Idh3b_dma_B"
+
+[[table.sample]]
+assay = 9
+name = "3C"
+column = "L"
+
+[table.sample.attributes]
+"Cell Number" = "2.13×106"
+"sampling day" = "2025-03-03"
+header_3 = "D0_si-Idh3b_dma_C"
+
+[[table.sample]]
+assay = 10
+name = "7A"
+column = "M"
+
+[table.sample.attributes]
+"Cell Number" = "6.60×106"
+"sampling day" = "2025-03-10"
+header_3 = "D7_si-Ctr_A"
+
+[[table.sample]]
+assay = 11
+name = "7B"
+column = "N"
+
+[table.sample.attributes]
+"Cell Number" = "6.60×106"
+"sampling day" = "2025-03-10"
+header_3 = "D7_si-Ctr_B"
+
+[[table.sample]]
+assay = 12
+name = "7C"
+column = "O"
+
+[table.sample.attributes]
+"Cell Number" = "6.60×106"
+"sampling day" = "2025-03-10"
+header_3 = "D7_si-Ctr_C"
+
+[[table.sample]]
+assay = 13
+name = "8A"
+column = "P"
+
+[table.sample.attributes]
+"Cell Number" = "3.90×106"
+"sampling day" = "2025-03-10"
+header_3 = "D7_si-Idh3b_A"
+
+[[table.sample]]
+assay = 14
+name = "8B"
+column = "Q"
+
+[table.sample.attributes]
+"Cell Number" = "3.90×106"
+"sampling day" = "2025-03-10"
+header_3 = "D7_si-Idh3b_B"
+
+[[table.sample]]
+assay = 15
+name = "8C"
+column = "R"
+
+[table.sample.attributes]
+"Cell Number" = "3.90×106"
+"sampling day" = "2025-03-10"
+header_3 = "D7_si-Idh3b_C"
+
+[[table.sample]]
+assay = 16
+name = "9A"
+column = "S"
+
+[table.sample.attributes]
+"Cell Number" = "3.81×106"
+"sampling day" = "2025-03-10"
+header_3 = "D7_si-Idh3b_dma_A"
+
+[[table.sample]]
+assay = 17
+name = "9B"
+column = "T"
+
+[table.sample.attributes]
+"Cell Number" = "3.81×106"
+"sampling day" = "2025-03-10"
+header_3 = "D7_si-Idh3b_dma_B"
+
+[[table.sample]]
+assay = 18
+name = "9C"
+column = "U"
+
+[table.sample.attributes]
+"Cell Number" = "3.81×106"
+"sampling day" = "2025-03-10"
+header_3 = "D7_si-Idh3b_dma_C"

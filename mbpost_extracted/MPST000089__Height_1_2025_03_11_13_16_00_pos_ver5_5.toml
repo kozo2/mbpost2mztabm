@@ -1,0 +1,502 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000089__Height_1_2025_03_11_13_16_00_pos_ver5_5.txt"
+mbpost_id = "MPST000089"
+n_tables = 1
+
+[[table]]
+id = "MPST000089__Height_1_2025_03_11_13_16_00_pos_ver5_5"
+mbpost_id = "MPST000089"
+source_file = "MPST000089__Height_1_2025_03_11_13_16_00_pos_ver5_5.txt"
+features_in = "rows"
+n_features = 12387
+n_samples = 49
+
+[[table.sample]]
+assay = 1
+name = "650_mito_DHA(-)_01_pos_026"
+column = "AJ"
+
+[table.sample.attributes]
+Class = "650_mito_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "1"
+
+[[table.sample]]
+assay = 2
+name = "650_mito_DHA(-)_02_pos_027"
+column = "AK"
+
+[table.sample.attributes]
+Class = "650_mito_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "2"
+
+[[table.sample]]
+assay = 3
+name = "650_mito_DHA(-)_03_pos_028"
+column = "AL"
+
+[table.sample.attributes]
+Class = "650_mito_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "3"
+
+[[table.sample]]
+assay = 4
+name = "650_mito_DHA(+)_01_pos_050"
+column = "AM"
+
+[table.sample.attributes]
+Class = "650_mito_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "4"
+
+[[table.sample]]
+assay = 5
+name = "650_mito_DHA(+)_02_pos_051"
+column = "AN"
+
+[table.sample.attributes]
+Class = "650_mito_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "5"
+
+[[table.sample]]
+assay = 6
+name = "650_mito_DHA(+)_03_pos_052"
+column = "AO"
+
+[table.sample.attributes]
+Class = "650_mito_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "6"
+
+[[table.sample]]
+assay = 7
+name = "650_whole_DHA(-)_01_pos_014"
+column = "AP"
+
+[table.sample.attributes]
+Class = "650_whole_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "7"
+
+[[table.sample]]
+assay = 8
+name = "650_whole_DHA(-)_02_pos_015"
+column = "AQ"
+
+[table.sample.attributes]
+Class = "650_whole_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "8"
+
+[[table.sample]]
+assay = 9
+name = "650_whole_DHA(-)_03_pos_016"
+column = "AR"
+
+[table.sample.attributes]
+Class = "650_whole_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "9"
+
+[[table.sample]]
+assay = 10
+name = "650_whole_DHA(+)_01_pos_038"
+column = "AS"
+
+[table.sample.attributes]
+Class = "650_whole_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "10"
+
+[[table.sample]]
+assay = 11
+name = "650_whole_DHA(+)_02_pos_039"
+column = "AT"
+
+[table.sample.attributes]
+Class = "650_whole_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "11"
+
+[[table.sample]]
+assay = 12
+name = "650_whole_DHA(+)_03_pos_040"
+column = "AU"
+
+[table.sample.attributes]
+Class = "650_whole_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "12"
+
+[[table.sample]]
+assay = 13
+name = "697_mito_DHA(-)_01_pos_023"
+column = "AV"
+
+[table.sample.attributes]
+Class = "697_mito_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "13"
+
+[[table.sample]]
+assay = 14
+name = "697_mito_DHA(-)_02_pos_024"
+column = "AW"
+
+[table.sample.attributes]
+Class = "697_mito_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "14"
+
+[[table.sample]]
+assay = 15
+name = "697_mito_DHA(-)_03_pos_025"
+column = "AX"
+
+[table.sample.attributes]
+Class = "697_mito_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "15"
+
+[[table.sample]]
+assay = 16
+name = "697_mito_DHA(+)_01_pos_047"
+column = "AY"
+
+[table.sample.attributes]
+Class = "697_mito_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "16"
+
+[[table.sample]]
+assay = 17
+name = "697_mito_DHA(+)_02_pos_048"
+column = "AZ"
+
+[table.sample.attributes]
+Class = "697_mito_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "17"
+
+[[table.sample]]
+assay = 18
+name = "697_mito_DHA(+)_03_pos_049"
+column = "BA"
+
+[table.sample.attributes]
+Class = "697_mito_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "18"
+
+[[table.sample]]
+assay = 19
+name = "697_whole_DHA(-)_01_pos_011"
+column = "BB"
+
+[table.sample.attributes]
+Class = "697_whole_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "19"
+
+[[table.sample]]
+assay = 20
+name = "697_whole_DHA(-)_02_pos_012"
+column = "BC"
+
+[table.sample.attributes]
+Class = "697_whole_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "20"
+
+[[table.sample]]
+assay = 21
+name = "697_whole_DHA(-)_03_pos_013"
+column = "BD"
+
+[table.sample.attributes]
+Class = "697_whole_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "21"
+
+[[table.sample]]
+assay = 22
+name = "697_whole_DHA(+)_01_pos_035"
+column = "BE"
+
+[table.sample.attributes]
+Class = "697_whole_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "22"
+
+[[table.sample]]
+assay = 23
+name = "697_whole_DHA(+)_02_pos_036"
+column = "BF"
+
+[table.sample.attributes]
+Class = "697_whole_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "23"
+
+[[table.sample]]
+assay = 24
+name = "697_whole_DHA(+)_03_pos_037"
+column = "BG"
+
+[table.sample.attributes]
+Class = "697_whole_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "24"
+
+[[table.sample]]
+assay = 25
+name = "722_mito_DHA(-)_01_pos_029"
+column = "BH"
+
+[table.sample.attributes]
+Class = "722_mito_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "25"
+
+[[table.sample]]
+assay = 26
+name = "722_mito_DHA(-)_02_pos_030"
+column = "BI"
+
+[table.sample.attributes]
+Class = "722_mito_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "26"
+
+[[table.sample]]
+assay = 27
+name = "722_mito_DHA(-)_03_pos_031"
+column = "BJ"
+
+[table.sample.attributes]
+Class = "722_mito_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "27"
+
+[[table.sample]]
+assay = 28
+name = "722_mito_DHA(+)_01_pos_053"
+column = "BK"
+
+[table.sample.attributes]
+Class = "722_mito_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "28"
+
+[[table.sample]]
+assay = 29
+name = "722_mito_DHA(+)_02_pos_054"
+column = "BL"
+
+[table.sample.attributes]
+Class = "722_mito_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "29"
+
+[[table.sample]]
+assay = 30
+name = "722_mito_DHA(+)_03_pos_055"
+column = "BM"
+
+[table.sample.attributes]
+Class = "722_mito_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "30"
+
+[[table.sample]]
+assay = 31
+name = "722_whole_DHA(-)_01_pos_017"
+column = "BN"
+
+[table.sample.attributes]
+Class = "722_whole_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "31"
+
+[[table.sample]]
+assay = 32
+name = "722_whole_DHA(-)_02_pos_018"
+column = "BO"
+
+[table.sample.attributes]
+Class = "722_whole_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "32"
+
+[[table.sample]]
+assay = 33
+name = "722_whole_DHA(-)_03_pos_019"
+column = "BP"
+
+[table.sample.attributes]
+Class = "722_whole_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "33"
+
+[[table.sample]]
+assay = 34
+name = "722_whole_DHA(+)_01_pos_041"
+column = "BQ"
+
+[table.sample.attributes]
+Class = "722_whole_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "34"
+
+[[table.sample]]
+assay = 35
+name = "722_whole_DHA(+)_02_pos_042"
+column = "BR"
+
+[table.sample.attributes]
+Class = "722_whole_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "35"
+
+[[table.sample]]
+assay = 36
+name = "722_whole_DHA(+)_03_pos_043"
+column = "BS"
+
+[table.sample.attributes]
+Class = "722_whole_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "36"
+
+[[table.sample]]
+assay = 37
+name = "blank_pos_005"
+column = "BT"
+
+[table.sample.attributes]
+Class = "Blank"
+"File type" = "Blank"
+"Injection order" = "37"
+
+[[table.sample]]
+assay = 38
+name = "mock_mito_DHA(-)_01_pos_020"
+column = "BU"
+
+[table.sample.attributes]
+Class = "mock_mito_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "38"
+
+[[table.sample]]
+assay = 39
+name = "mock_mito_DHA(-)_02_pos_021"
+column = "BV"
+
+[table.sample.attributes]
+Class = "mock_mito_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "39"
+
+[[table.sample]]
+assay = 40
+name = "mock_mito_DHA(-)_03_pos_022"
+column = "BW"
+
+[table.sample.attributes]
+Class = "mock_mito_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "40"
+
+[[table.sample]]
+assay = 41
+name = "mock_mito_DHA(+)_01_pos_044"
+column = "BX"
+
+[table.sample.attributes]
+Class = "mock_mito_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "41"
+
+[[table.sample]]
+assay = 42
+name = "mock_mito_DHA(+)_02_pos_045"
+column = "BY"
+
+[table.sample.attributes]
+Class = "mock_mito_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "42"
+
+[[table.sample]]
+assay = 43
+name = "mock_mito_DHA(+)_03_pos_046"
+column = "BZ"
+
+[table.sample.attributes]
+Class = "mock_mito_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "43"
+
+[[table.sample]]
+assay = 44
+name = "mock_whole_DHA(-)_01_pos_008"
+column = "CA"
+
+[table.sample.attributes]
+Class = "mock_whole_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "44"
+
+[[table.sample]]
+assay = 45
+name = "mock_whole_DHA(-)_02_pos_009"
+column = "CB"
+
+[table.sample.attributes]
+Class = "mock_whole_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "45"
+
+[[table.sample]]
+assay = 46
+name = "mock_whole_DHA(-)_03_pos_010"
+column = "CC"
+
+[table.sample.attributes]
+Class = "mock_whole_DHA(-)"
+"File type" = "Sample"
+"Injection order" = "46"
+
+[[table.sample]]
+assay = 47
+name = "mock_whole_DHA(+)_01_pos_032"
+column = "CD"
+
+[table.sample.attributes]
+Class = "mock_whole_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "47"
+
+[[table.sample]]
+assay = 48
+name = "mock_whole_DHA(+)_02_pos_033"
+column = "CE"
+
+[table.sample.attributes]
+Class = "mock_whole_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "48"
+
+[[table.sample]]
+assay = 49
+name = "mock_whole_DHA(+)_03_pos_034"
+column = "CF"
+
+[table.sample.attributes]
+Class = "mock_whole_DHA(+)"
+"File type" = "Sample"
+"Injection order" = "49"

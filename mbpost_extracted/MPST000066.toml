@@ -1,0 +1,184 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000066.xlsx"
+mbpost_id = "MPST000066"
+n_tables = 2
+
+[[table]]
+id = "MPST000066#Cell"
+mbpost_id = "MPST000066"
+source_file = "MPST000066.xlsx"
+sheet = "Cell"
+features_in = "rows"
+n_features = 94
+n_samples = 9
+
+[[table.sample]]
+assay = 1
+name = "HC11-u"
+column = "B"
+
+[table.sample.attributes]
+header_1 = "Cell"
+Origin = "HCT116 WT"
+
+[[table.sample]]
+assay = 2
+name = "HC12-u"
+column = "C"
+
+[table.sample.attributes]
+header_1 = "Cell"
+Origin = "HCT116 WT"
+
+[[table.sample]]
+assay = 3
+name = "HC13-u"
+column = "D"
+
+[table.sample.attributes]
+header_1 = "Cell"
+Origin = "HCT116 WT"
+
+[[table.sample]]
+assay = 4
+name = "HC14-u"
+column = "E"
+
+[table.sample.attributes]
+header_1 = "Cell"
+Origin = "HCT116 IDH1(R132H/+)"
+
+[[table.sample]]
+assay = 5
+name = "HC15-u"
+column = "F"
+
+[table.sample.attributes]
+header_1 = "Cell"
+Origin = "HCT116 IDH1(R132H/+)"
+
+[[table.sample]]
+assay = 6
+name = "HC16-u"
+column = "G"
+
+[table.sample.attributes]
+header_1 = "Cell"
+Origin = "HCT116 IDH1(R132H/+)"
+
+[[table.sample]]
+assay = 7
+name = "CB1-u"
+column = "H"
+
+[table.sample.attributes]
+header_1 = "Cell_Blank"
+Origin = "Procedure blank"
+
+[[table.sample]]
+assay = 8
+name = "CB2-u"
+column = "I"
+
+[table.sample.attributes]
+header_1 = "Cell_Blank"
+Origin = "Procedure blank"
+
+[[table.sample]]
+assay = 9
+name = "CB3-u"
+column = "J"
+
+[table.sample.attributes]
+header_1 = "Cell_Blank"
+Origin = "Procedure blank"
+
+[[table]]
+id = "MPST000066#EVs"
+mbpost_id = "MPST000066"
+source_file = "MPST000066.xlsx"
+sheet = "EVs"
+features_in = "rows"
+n_features = 58
+n_samples = 9
+
+[[table.sample]]
+assay = 1
+name = "HE11-u"
+column = "B"
+
+[table.sample.attributes]
+header_1 = "EVs"
+Origin = "HCT116 WT"
+
+[[table.sample]]
+assay = 2
+name = "HE12-u"
+column = "C"
+
+[table.sample.attributes]
+header_1 = "EVs"
+Origin = "HCT116 WT"
+
+[[table.sample]]
+assay = 3
+name = "HE13-u"
+column = "D"
+
+[table.sample.attributes]
+header_1 = "EVs"
+Origin = "HCT116 WT"
+
+[[table.sample]]
+assay = 4
+name = "HE14-u"
+column = "E"
+
+[table.sample.attributes]
+header_1 = "EVs"
+Origin = "HCT116 IDH1(R132H/+)"
+
+[[table.sample]]
+assay = 5
+name = "HE15-u"
+column = "F"
+
+[table.sample.attributes]
+header_1 = "EVs"
+Origin = "HCT116 IDH1(R132H/+)"
+
+[[table.sample]]
+assay = 6
+name = "HE16-u"
+column = "G"
+
+[table.sample.attributes]
+header_1 = "EVs"
+Origin = "HCT116 IDH1(R132H/+)"
+
+[[table.sample]]
+assay = 7
+name = "DM11-u"
+column = "H"
+
+[table.sample.attributes]
+header_1 = "Cell_Blank"
+Origin = "Non-cultured medium"
+
+[[table.sample]]
+assay = 8
+name = "DM12-u"
+column = "I"
+
+[table.sample.attributes]
+header_1 = "Cell_Blank"
+Origin = "Non-cultured medium"
+
+[[table.sample]]
+assay = 9
+name = "DM13-u"
+column = "J"
+
+[table.sample.attributes]
+header_1 = "Cell_Blank"
+Origin = "Non-cultured medium"

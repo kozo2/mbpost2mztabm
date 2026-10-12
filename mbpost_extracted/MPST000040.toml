@@ -1,0 +1,226 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000040.xlsx"
+mbpost_id = "MPST000040"
+n_tables = 2
+
+[[table]]
+id = "MPST000040#results_anion"
+mbpost_id = "MPST000040"
+source_file = "MPST000040.xlsx"
+sheet = "results_anion"
+features_in = "rows"
+n_features = 121
+n_samples = 10
+unit = "fmol/cell"
+description = "[fmol / cell]"
+
+[[table.sample]]
+assay = 1
+name = "1"
+column = "D"
+
+[table.sample.attributes]
+si-RNA = "si-Ctr"
+"Time of Differentiation" = "0 h"
+"Cell Number [x 10^6]" = "1.3"
+
+[[table.sample]]
+assay = 2
+name = "2"
+column = "E"
+
+[table.sample.attributes]
+si-RNA = "si-Ctr"
+"Time of Differentiation" = "48 h"
+"Cell Number [x 10^6]" = "2.7"
+
+[[table.sample]]
+assay = 3
+name = "3"
+column = "F"
+
+[table.sample.attributes]
+si-RNA = "si-Ctr"
+"Time of Differentiation" = "96 h"
+"Cell Number [x 10^6]" = "4.4"
+
+[[table.sample]]
+assay = 4
+name = "4"
+column = "G"
+
+[table.sample.attributes]
+si-RNA = "si-Ctr"
+"Time of Differentiation" = "144 h"
+"Cell Number [x 10^6]" = "6.2"
+
+[[table.sample]]
+assay = 5
+name = "5"
+column = "H"
+
+[table.sample.attributes]
+si-RNA = "si-Ctr"
+"Time of Differentiation" = "192 h"
+"Cell Number [x 10^6]" = "4.6"
+
+[[table.sample]]
+assay = 6
+name = "6"
+column = "I"
+
+[table.sample.attributes]
+si-RNA = "si-IDH3β"
+"Time of Differentiation" = "0 h"
+"Cell Number [x 10^6]" = "1.2"
+
+[[table.sample]]
+assay = 7
+name = "7"
+column = "J"
+
+[table.sample.attributes]
+si-RNA = "si-IDH3β"
+"Time of Differentiation" = "48 h"
+"Cell Number [x 10^6]" = "1.7"
+
+[[table.sample]]
+assay = 8
+name = "8"
+column = "K"
+
+[table.sample.attributes]
+si-RNA = "si-IDH3β"
+"Time of Differentiation" = "96 h"
+"Cell Number [x 10^6]" = "2"
+
+[[table.sample]]
+assay = 9
+name = "9"
+column = "L"
+
+[table.sample.attributes]
+si-RNA = "si-IDH3β"
+"Time of Differentiation" = "144 h"
+"Cell Number [x 10^6]" = "1.9"
+
+[[table.sample]]
+assay = 10
+name = "10"
+column = "M"
+
+[table.sample.attributes]
+si-RNA = "si-IDH3β"
+"Time of Differentiation" = "192 h"
+"Cell Number [x 10^6]" = "1.9"
+
+[[table]]
+id = "MPST000040#results_cation"
+mbpost_id = "MPST000040"
+source_file = "MPST000040.xlsx"
+sheet = "results_cation"
+features_in = "rows"
+n_features = 128
+n_samples = 10
+unit = "fmol/cell"
+description = "[fmol / cell]"
+
+[[table.sample]]
+assay = 1
+name = "1"
+column = "D"
+
+[table.sample.attributes]
+si-RNA = "si-Ctr"
+"Time of Differentiation" = "0 h"
+"Cell Number [x 10^6]" = "1.3"
+
+[[table.sample]]
+assay = 2
+name = "2"
+column = "E"
+
+[table.sample.attributes]
+si-RNA = "si-Ctr"
+"Time of Differentiation" = "48 h"
+"Cell Number [x 10^6]" = "2.7"
+
+[[table.sample]]
+assay = 3
+name = "3"
+column = "F"
+
+[table.sample.attributes]
+si-RNA = "si-Ctr"
+"Time of Differentiation" = "96 h"
+"Cell Number [x 10^6]" = "4.4"
+
+[[table.sample]]
+assay = 4
+name = "4"
+column = "G"
+
+[table.sample.attributes]
+si-RNA = "si-Ctr"
+"Time of Differentiation" = "144 h"
+"Cell Number [x 10^6]" = "6.2"
+
+[[table.sample]]
+assay = 5
+name = "5"
+column = "H"
+
+[table.sample.attributes]
+si-RNA = "si-Ctr"
+"Time of Differentiation" = "192 h"
+"Cell Number [x 10^6]" = "4.6"
+
+[[table.sample]]
+assay = 6
+name = "6"
+column = "I"
+
+[table.sample.attributes]
+si-RNA = "si-IDH3β"
+"Time of Differentiation" = "0 h"
+"Cell Number [x 10^6]" = "1.2"
+
+[[table.sample]]
+assay = 7
+name = "7"
+column = "J"
+
+[table.sample.attributes]
+si-RNA = "si-IDH3β"
+"Time of Differentiation" = "48 h"
+"Cell Number [x 10^6]" = "1.7"
+
+[[table.sample]]
+assay = 8
+name = "8"
+column = "K"
+
+[table.sample.attributes]
+si-RNA = "si-IDH3β"
+"Time of Differentiation" = "96 h"
+"Cell Number [x 10^6]" = "2"
+
+[[table.sample]]
+assay = 9
+name = "9"
+column = "L"
+
+[table.sample.attributes]
+si-RNA = "si-IDH3β"
+"Time of Differentiation" = "144 h"
+"Cell Number [x 10^6]" = "1.9"
+
+[[table.sample]]
+assay = 10
+name = "10"
+column = "M"
+
+[table.sample.attributes]
+si-RNA = "si-IDH3β"
+"Time of Differentiation" = "192 h"
+"Cell Number [x 10^6]" = "1.9"

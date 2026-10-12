@@ -1,0 +1,31 @@
+generator = "extract_mbpost_tables.py"
+source_file = "MPST000174__Results_ion-pair_mouse.xlsx"
+mbpost_id = "MPST000174"
+n_tables = 1
+
+[[table]]
+id = "MPST000174__Results_ion-pair_mouse"
+mbpost_id = "MPST000174"
+source_file = "MPST000174__Results_ion-pair_mouse.xlsx"
+sheet = "Sheet1"
+features_in = "columns"
+n_features = 57
+n_samples = 16
+sample = [
+    { assay = 1, name = "GF1", row = 3 },
+    { assay = 2, name = "GF2", row = 4 },
+    { assay = 3, name = "GF3", row = 5 },
+    { assay = 4, name = "GF4", row = 6 },
+    { assay = 5, name = "GF5", row = 7 },
+    { assay = 6, name = "GF6", row = 8 },
+    { assay = 7, name = "GF7", row = 9 },
+    { assay = 8, name = "GF8", row = 10 },
+    { assay = 9, name = "ExGF1", row = 11 },
+    { assay = 10, name = "ExGF2", row = 12 },
+    { assay = 11, name = "ExGF3", row = 13 },
+    { assay = 12, name = "ExGF4", row = 14 },
+    { assay = 13, name = "ExGF5", row = 15 },
+    { assay = 14, name = "ExGF6", row = 16 },
+    { assay = 15, name = "ExGF7", row = 17 },
+    { assay = 16, name = "ExGF8", row = 18 },
+]
