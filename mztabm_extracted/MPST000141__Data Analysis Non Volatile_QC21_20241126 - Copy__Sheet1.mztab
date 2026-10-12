@@ -1,0 +1,89 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Sheet1
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000141, MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx, sheet "Sheet1"
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	BC0-1
+MTD	sample[2]	BC0-2
+MTD	sample[3]	BC0-3
+MTD	sample[4]	FCL-1
+MTD	sample[5]	FCL-2
+MTD	sample[6]	FCL-3
+MTD	sample[7]	FPL-1
+MTD	sample[8]	FPL-2
+MTD	sample[9]	FPL-3
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	ms_run[5]-location	null
+MTD	ms_run[6]-location	null
+MTD	ms_run[7]-location	null
+MTD	ms_run[8]-location	null
+MTD	ms_run[9]-location	null
+MTD	assay[1]	BC0-1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	BC0-2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	BC0-3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	FCL-1
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	FCL-2
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	FCL-3
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	FPL-1
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	FPL-2
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	FPL-3
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	Citric acid	null	null	null	null	null	null	804655.09999999998	680530.30000000005	816157.90000000002	205792.70000000001	173113.79999999999	210543.29999999999	264488.40000000002	282499.20000000001	263371.40000000002	411239.12222222221	0.66060297799150713
+SML	2	null	null	null	null	null	Isocitric acid	null	null	null	null	null	null	11144.17	10118.65	11810.6	2641.8629999999998	2379.9200000000001	2474.4810000000002	2315.2379999999998	4477.3950000000004	3682.357	5671.6304444444449	0.72240418412037055
+SML	3	null	null	null	null	null	Malic acid	null	null	null	null	null	null	162713.5	146630.70000000001	197668	21443.32	18066.970000000001	19361.25	23319.98	25459.27	20918.459999999999	70620.161111111112	1.061484821356697
+SML	4	null	null	null	null	null	Fructose	null	null	null	null	null	null	6293237	5632533	6433339	135020.5	130164.60000000001	135961.10000000001	64387.949999999997	71818.800000000003	65582.300000000003	2106893.8055555555	1.4321236485557298
+SML	5	null	null	null	null	null	Glucose	null	null	null	null	null	null	4937759	4039065	5141030	3990.585	3395.085	4533.6930000000002	5327.1099999999997	5202.1120000000001	5476.9870000000001	1571753.2857777777	1.5071478836883154
+SML	6	null	null	null	null	null	Sucrose	null	null	null	null	null	null	1313842	1197331	1437979	291443.29999999999	210687	235665.20000000001	844449	784379.09999999998	938582.90000000002	806039.83333333337	0.58428648312839504
+

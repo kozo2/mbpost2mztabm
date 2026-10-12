@@ -1,0 +1,112 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000172__Results_Bile acid_human
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000172, MPST000172__Results_Bile acid_human.xlsx, sheet "Sheet1"
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	Feces1-1
+MTD	sample[1]-custom[1]	[,,Pre/Post*, Pre]
+MTD	sample[2]	Feces1-2
+MTD	sample[2]-custom[1]	[,,Pre/Post*, Post]
+MTD	sample[3]	Feces2-1
+MTD	sample[3]-custom[1]	[,,Pre/Post*, Pre]
+MTD	sample[4]	Feces3-1
+MTD	sample[4]-custom[1]	[,,Pre/Post*, Pre]
+MTD	sample[5]	Feces4-1
+MTD	sample[5]-custom[1]	[,,Pre/Post*, Pre]
+MTD	sample[6]	Feces5-2
+MTD	sample[6]-custom[1]	[,,Pre/Post*, Post]
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	ms_run[5]-location	null
+MTD	ms_run[6]-location	null
+MTD	assay[1]	Feces1-1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	Feces1-2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	Feces2-1
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	Feces3-1
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	Feces4-1
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	Feces5-2
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	TaMCA	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	2	null	null	null	null	null	TbMCA	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	3	null	null	null	null	null	TUDCA	null	null	null	null	null	null	null	null	null	null	814348	141387	null	null
+SML	4	null	null	null	null	null	THDCA	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	5	null	null	null	null	null	TCA	null	null	null	null	null	null	12587	41038	null	18627	1730790	3454628	null	null
+SML	6	null	null	null	null	null	D4_TCA	null	null	null	null	null	null	1034388	2507264	1207445	1571260	2816995	2882452	2003300.6666666667	0.41451596538585184
+SML	7	null	null	null	null	null	TCDCA	null	null	null	null	null	null	31060	125724	null	57614	2052528	600548	null	null
+SML	8	null	null	null	null	null	D4_TCDCA	null	null	null	null	null	null	2292829	3862414	2486738	4327123	4502732	5064646	3756080.3333333335	0.30025744896442813
+SML	9	null	null	null	null	null	TDCA	null	null	null	null	null	null	null	null	null	null	340911	5014462	null	null
+SML	10	null	null	null	null	null	TLCA	null	null	null	null	null	null	183384	132819	136485	278440	336566	519270	264494	0.56231912512810822
+SML	11	null	null	null	null	null	D4_TLCA	null	null	null	null	null	null	12264576	12742467	9211540	12711270	10879003	11694072	11583821.333333334	0.11718701022723427
+SML	12	null	null	null	null	null	GCA	null	null	null	null	null	null	24804	291498	39217	367842	616346	3367365	784512	1.6372249167581809
+SML	13	null	null	null	null	null	D4_GCA	null	null	null	null	null	null	1176702	2441733	1507052	2041381	2301288	2720610	2031461	0.28886462278761782
+SML	14	null	null	null	null	null	GUDCA	null	null	null	null	null	null	62293	364621	null	98093	1214676	887438	null	null
+SML	15	null	null	null	null	null	GHDCA	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	16	null	null	null	null	null	oMCA	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	17	null	null	null	null	null	aMCA	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	18	null	null	null	null	null	7keto_DCA	null	null	null	null	null	null	7436983	33515500	null	291090	1541585	1505124	null	null
+SML	19	null	null	null	null	null	bMCA	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	20	null	null	null	null	null	GCDCA	null	null	null	null	null	null	70790	1761019	72591	574056	1710225	2103138	1048636.5	0.87309425093387671
+SML	21	null	null	null	null	null	CA	null	null	null	null	null	null	30738059	70530647	null	974655	27740968	28452007	null	null
+SML	22	null	null	null	null	null	D4_CA	null	null	null	null	null	null	488077	630713	694711	1038380	708840	784753	724245.66666666663	0.25307637608930372
+SML	23	null	null	null	null	null	GDCA	null	null	null	null	null	null	null	null	167515	187995	297617	4310031	null	null
+SML	24	null	null	null	null	null	D4_GDCA	null	null	null	null	null	null	4043880	3882729	3494843	4325433	3427614	3979191	3858948.3333333335	0.088673169467220411
+SML	25	null	null	null	null	null	UDCA	null	null	null	null	null	null	12567315	13281964	172595	4254285	16055511	18278414	10768347.333333334	0.6548285767771892
+SML	26	null	null	null	null	null	HDCA	null	null	null	null	null	null	null	null	1328959	1422910	null	null	null	null
+SML	27	null	null	null	null	null	7keto_LCA	null	null	null	null	null	null	2390525	5328838	null	698301	2137770	3131273	null	null
+SML	28	null	null	null	null	null	12keto_LCA	null	null	null	null	null	null	null	null	5351603	8591948	449664	2522640	null	null
+SML	29	null	null	null	null	null	CDCA	null	null	null	null	null	null	10611029	16796485	null	1602090	29080117	44373048	null	null
+SML	30	null	null	null	null	null	D4_CDCA	null	null	null	null	null	null	580755	703335	700359	832731	552797	576139	657686	0.1639240302928229
+SML	31	null	null	null	null	null	allo_CDCA	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	32	null	null	null	null	null	DCA	null	null	null	null	null	null	233008	269843	72169364	142784322	10720608	74168680	50057637.5	1.1363097008730285
+SML	33	null	null	null	null	null	D4_DCA	null	null	null	null	null	null	1815791	1689780	1367578	1024940	1371530	1242610	1418704.8333333333	0.20479030334693202
+SML	34	null	null	null	null	null	GLCA	null	null	null	null	null	null	32509	541089	51792	69698	380965	155713	205294.33333333331	1.0168277041405562
+SML	35	null	null	null	null	null	D4_GLCA	null	null	null	null	null	null	3960060	3971086	3360880	4049086	3276219	3914376	3755284.5	0.091100574173859361
+SML	36	null	null	null	null	null	LCA	null	null	null	null	null	null	196331	365020	23472909	80915845	952327	8526354	19071464.333333336	1.6564285834362298
+SML	37	null	null	null	null	null	D4_LCA	null	null	null	null	null	null	1076722	1118453	1241446	825284	927633	1087279	1046136.1666666666	0.14102179977608287
+SML	38	null	null	null	null	null	allo_LCA	null	null	null	null	null	null	null	184193	201186	null	140889	null	null	null
+

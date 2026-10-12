@@ -1,0 +1,626 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000142
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000142, MPST000142.csv
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	251031_Tomita_a_C1_neg
+MTD	sample[1]-custom[1]	[,,header_1, BthetaChol]
+MTD	sample[1]-custom[2]	[,,header_2, Sample]
+MTD	sample[1]-custom[3]	[,,header_3, 2]
+MTD	sample[2]	251031_Tomita_a_C2_neg
+MTD	sample[2]-custom[1]	[,,header_1, BthetaChol]
+MTD	sample[2]-custom[2]	[,,header_2, Sample]
+MTD	sample[2]-custom[3]	[,,header_3, 3]
+MTD	sample[3]	251031_Tomita_a_C3_neg
+MTD	sample[3]-custom[1]	[,,header_1, BthetaChol]
+MTD	sample[3]-custom[2]	[,,header_2, Sample]
+MTD	sample[3]-custom[3]	[,,header_3, 4]
+MTD	sample[4]	251031_Tomita_a_S1_neg
+MTD	sample[4]-custom[1]	[,,header_1, BthetaSito]
+MTD	sample[4]-custom[2]	[,,header_2, Sample]
+MTD	sample[4]-custom[3]	[,,header_3, 5]
+MTD	sample[5]	251031_Tomita_a_S2_neg
+MTD	sample[5]-custom[1]	[,,header_1, BthetaSito]
+MTD	sample[5]-custom[2]	[,,header_2, Sample]
+MTD	sample[5]-custom[3]	[,,header_3, 6]
+MTD	sample[6]	251031_Tomita_a_S3_neg
+MTD	sample[6]-custom[1]	[,,header_1, BthetaSito]
+MTD	sample[6]-custom[2]	[,,header_2, Sample]
+MTD	sample[6]-custom[3]	[,,header_3, 7]
+MTD	sample[7]	251031_Tomita_A16_C1_neg
+MTD	sample[7]-custom[1]	[,,header_1, AfineChol]
+MTD	sample[7]-custom[2]	[,,header_2, Sample]
+MTD	sample[7]-custom[3]	[,,header_3, 8]
+MTD	sample[8]	251031_Tomita_A16_C2_neg
+MTD	sample[8]-custom[1]	[,,header_1, AfineChol]
+MTD	sample[8]-custom[2]	[,,header_2, Sample]
+MTD	sample[8]-custom[3]	[,,header_3, 9]
+MTD	sample[9]	251031_Tomita_A16_C3_neg
+MTD	sample[9]-custom[1]	[,,header_1, AfineChol]
+MTD	sample[9]-custom[2]	[,,header_2, Sample]
+MTD	sample[9]-custom[3]	[,,header_3, 10]
+MTD	sample[10]	251031_Tomita_A16_S1_neg
+MTD	sample[10]-custom[1]	[,,header_1, AfineSito]
+MTD	sample[10]-custom[2]	[,,header_2, Sample]
+MTD	sample[10]-custom[3]	[,,header_3, 11]
+MTD	sample[11]	251031_Tomita_A16_S2_neg
+MTD	sample[11]-custom[1]	[,,header_1, AfineSito]
+MTD	sample[11]-custom[2]	[,,header_2, Sample]
+MTD	sample[11]-custom[3]	[,,header_3, 12]
+MTD	sample[12]	251031_Tomita_A16_S3_neg
+MTD	sample[12]-custom[1]	[,,header_1, AfineSito]
+MTD	sample[12]-custom[2]	[,,header_2, Sample]
+MTD	sample[12]-custom[3]	[,,header_3, 13]
+MTD	sample[13]	251031_Tomita_A27_C1_neg
+MTD	sample[13]-custom[1]	[,,header_1, PgoldChol]
+MTD	sample[13]-custom[2]	[,,header_2, Sample]
+MTD	sample[13]-custom[3]	[,,header_3, 14]
+MTD	sample[14]	251031_Tomita_A27_C2_neg
+MTD	sample[14]-custom[1]	[,,header_1, PgoldChol]
+MTD	sample[14]-custom[2]	[,,header_2, Sample]
+MTD	sample[14]-custom[3]	[,,header_3, 15]
+MTD	sample[15]	251031_Tomita_A27_C3_neg
+MTD	sample[15]-custom[1]	[,,header_1, PgoldChol]
+MTD	sample[15]-custom[2]	[,,header_2, Sample]
+MTD	sample[15]-custom[3]	[,,header_3, 16]
+MTD	sample[16]	251031_Tomita_A27_S1_neg
+MTD	sample[16]-custom[1]	[,,header_1, PgoldSito]
+MTD	sample[16]-custom[2]	[,,header_2, Sample]
+MTD	sample[16]-custom[3]	[,,header_3, 17]
+MTD	sample[17]	251031_Tomita_A27_S2_neg
+MTD	sample[17]-custom[1]	[,,header_1, PgoldSito]
+MTD	sample[17]-custom[2]	[,,header_2, Sample]
+MTD	sample[17]-custom[3]	[,,header_3, 18]
+MTD	sample[18]	251031_Tomita_A27_S3_neg
+MTD	sample[18]-custom[1]	[,,header_1, PgoldSito]
+MTD	sample[18]-custom[2]	[,,header_2, Sample]
+MTD	sample[18]-custom[3]	[,,header_3, 19]
+MTD	sample[19]	251031_Tomita_A29_C1_neg
+MTD	sample[19]-custom[1]	[,,header_1, PginChol]
+MTD	sample[19]-custom[2]	[,,header_2, Sample]
+MTD	sample[19]-custom[3]	[,,header_3, 20]
+MTD	sample[20]	251031_Tomita_A29_C2_neg
+MTD	sample[20]-custom[1]	[,,header_1, PginChol]
+MTD	sample[20]-custom[2]	[,,header_2, Sample]
+MTD	sample[20]-custom[3]	[,,header_3, 21]
+MTD	sample[21]	251031_Tomita_A29_C3_neg
+MTD	sample[21]-custom[1]	[,,header_1, PginChol]
+MTD	sample[21]-custom[2]	[,,header_2, Sample]
+MTD	sample[21]-custom[3]	[,,header_3, 22]
+MTD	sample[22]	251031_Tomita_A29_S1_neg
+MTD	sample[22]-custom[1]	[,,header_1, PginSito]
+MTD	sample[22]-custom[2]	[,,header_2, Sample]
+MTD	sample[22]-custom[3]	[,,header_3, 23]
+MTD	sample[23]	251031_Tomita_A29_S2_neg
+MTD	sample[23]-custom[1]	[,,header_1, PginSito]
+MTD	sample[23]-custom[2]	[,,header_2, Sample]
+MTD	sample[23]-custom[3]	[,,header_3, 24]
+MTD	sample[24]	251031_Tomita_A29_S3_neg
+MTD	sample[24]-custom[1]	[,,header_1, PginSito]
+MTD	sample[24]-custom[2]	[,,header_2, Sample]
+MTD	sample[24]-custom[3]	[,,header_3, 25]
+MTD	sample[25]	251031_Tomita_A30_C1_neg
+MTD	sample[25]-custom[1]	[,,header_1, PdentChol]
+MTD	sample[25]-custom[2]	[,,header_2, Sample]
+MTD	sample[25]-custom[3]	[,,header_3, 26]
+MTD	sample[26]	251031_Tomita_A30_C2_neg
+MTD	sample[26]-custom[1]	[,,header_1, PdentChol]
+MTD	sample[26]-custom[2]	[,,header_2, Sample]
+MTD	sample[26]-custom[3]	[,,header_3, 27]
+MTD	sample[27]	251031_Tomita_A30_C3_neg
+MTD	sample[27]-custom[1]	[,,header_1, PdentChol]
+MTD	sample[27]-custom[2]	[,,header_2, Sample]
+MTD	sample[27]-custom[3]	[,,header_3, 28]
+MTD	sample[28]	251031_Tomita_A30_S1_neg
+MTD	sample[28]-custom[1]	[,,header_1, PdentSito]
+MTD	sample[28]-custom[2]	[,,header_2, Sample]
+MTD	sample[28]-custom[3]	[,,header_3, 29]
+MTD	sample[29]	251031_Tomita_A30_S2_neg
+MTD	sample[29]-custom[1]	[,,header_1, PdentSito]
+MTD	sample[29]-custom[2]	[,,header_2, Sample]
+MTD	sample[29]-custom[3]	[,,header_3, 30]
+MTD	sample[30]	251031_Tomita_A30_S3_neg
+MTD	sample[30]-custom[1]	[,,header_1, PdentSito]
+MTD	sample[30]-custom[2]	[,,header_2, Sample]
+MTD	sample[30]-custom[3]	[,,header_3, 31]
+MTD	sample[31]	251031_Tomita_A37_C1_neg
+MTD	sample[31]-custom[1]	[,,header_1, BinteChol]
+MTD	sample[31]-custom[2]	[,,header_2, Sample]
+MTD	sample[31]-custom[3]	[,,header_3, 32]
+MTD	sample[32]	251031_Tomita_A37_C2_neg
+MTD	sample[32]-custom[1]	[,,header_1, BinteChol]
+MTD	sample[32]-custom[2]	[,,header_2, Sample]
+MTD	sample[32]-custom[3]	[,,header_3, 33]
+MTD	sample[33]	251031_Tomita_A37_C3_neg
+MTD	sample[33]-custom[1]	[,,header_1, BinteChol]
+MTD	sample[33]-custom[2]	[,,header_2, Sample]
+MTD	sample[33]-custom[3]	[,,header_3, 34]
+MTD	sample[34]	251031_Tomita_A37_S1_neg
+MTD	sample[34]-custom[1]	[,,header_1, BinteSito]
+MTD	sample[34]-custom[2]	[,,header_2, Sample]
+MTD	sample[34]-custom[3]	[,,header_3, 35]
+MTD	sample[35]	251031_Tomita_A37_S2_neg
+MTD	sample[35]-custom[1]	[,,header_1, BinteSito]
+MTD	sample[35]-custom[2]	[,,header_2, Sample]
+MTD	sample[35]-custom[3]	[,,header_3, 36]
+MTD	sample[36]	251031_Tomita_A37_S3_neg
+MTD	sample[36]-custom[1]	[,,header_1, BinteSito]
+MTD	sample[36]-custom[2]	[,,header_2, Sample]
+MTD	sample[36]-custom[3]	[,,header_3, 37]
+MTD	sample[37]	251031_Tomita_af_C1_neg
+MTD	sample[37]-custom[1]	[,,header_1, PjohnChol]
+MTD	sample[37]-custom[2]	[,,header_2, Sample]
+MTD	sample[37]-custom[3]	[,,header_3, 38]
+MTD	sample[38]	251031_Tomita_af_C2_neg
+MTD	sample[38]-custom[1]	[,,header_1, PjohnChol]
+MTD	sample[38]-custom[2]	[,,header_2, Sample]
+MTD	sample[38]-custom[3]	[,,header_3, 39]
+MTD	sample[39]	251031_Tomita_af_C3_neg
+MTD	sample[39]-custom[1]	[,,header_1, PjohnChol]
+MTD	sample[39]-custom[2]	[,,header_2, Sample]
+MTD	sample[39]-custom[3]	[,,header_3, 40]
+MTD	sample[40]	251031_Tomita_af_S1_neg
+MTD	sample[40]-custom[1]	[,,header_1, PjohnSito]
+MTD	sample[40]-custom[2]	[,,header_2, Sample]
+MTD	sample[40]-custom[3]	[,,header_3, 41]
+MTD	sample[41]	251031_Tomita_af_S2_neg
+MTD	sample[41]-custom[1]	[,,header_1, PjohnSito]
+MTD	sample[41]-custom[2]	[,,header_2, Sample]
+MTD	sample[41]-custom[3]	[,,header_3, 42]
+MTD	sample[42]	251031_Tomita_af_S3_neg
+MTD	sample[42]-custom[1]	[,,header_1, PjohnSito]
+MTD	sample[42]-custom[2]	[,,header_2, Sample]
+MTD	sample[42]-custom[3]	[,,header_3, 43]
+MTD	sample[43]	251031_Tomita_c_C1_neg
+MTD	sample[43]-custom[1]	[,,header_1, BcacChol]
+MTD	sample[43]-custom[2]	[,,header_2, Sample]
+MTD	sample[43]-custom[3]	[,,header_3, 45]
+MTD	sample[44]	251031_Tomita_c_C2_neg
+MTD	sample[44]-custom[1]	[,,header_1, BcacChol]
+MTD	sample[44]-custom[2]	[,,header_2, Sample]
+MTD	sample[44]-custom[3]	[,,header_3, 46]
+MTD	sample[45]	251031_Tomita_c_C3_neg
+MTD	sample[45]-custom[1]	[,,header_1, BcacChol]
+MTD	sample[45]-custom[2]	[,,header_2, Sample]
+MTD	sample[45]-custom[3]	[,,header_3, 47]
+MTD	sample[46]	251031_Tomita_c_S1_neg
+MTD	sample[46]-custom[1]	[,,header_1, BcacSito]
+MTD	sample[46]-custom[2]	[,,header_2, Sample]
+MTD	sample[46]-custom[3]	[,,header_3, 48]
+MTD	sample[47]	251031_Tomita_c_S2_neg
+MTD	sample[47]-custom[1]	[,,header_1, BcacSito]
+MTD	sample[47]-custom[2]	[,,header_2, Sample]
+MTD	sample[47]-custom[3]	[,,header_3, 49]
+MTD	sample[48]	251031_Tomita_c_S3_neg
+MTD	sample[48]-custom[1]	[,,header_1, BcacSito]
+MTD	sample[48]-custom[2]	[,,header_2, Sample]
+MTD	sample[48]-custom[3]	[,,header_3, 50]
+MTD	sample[49]	251031_Tomita_k_C1_neg
+MTD	sample[49]-custom[1]	[,,header_1, BfraChol]
+MTD	sample[49]-custom[2]	[,,header_2, Sample]
+MTD	sample[49]-custom[3]	[,,header_3, 51]
+MTD	sample[50]	251031_Tomita_k_C2_neg
+MTD	sample[50]-custom[1]	[,,header_1, BfraChol]
+MTD	sample[50]-custom[2]	[,,header_2, Sample]
+MTD	sample[50]-custom[3]	[,,header_3, 52]
+MTD	sample[51]	251031_Tomita_k_C3_neg
+MTD	sample[51]-custom[1]	[,,header_1, BfraChol]
+MTD	sample[51]-custom[2]	[,,header_2, Sample]
+MTD	sample[51]-custom[3]	[,,header_3, 53]
+MTD	sample[52]	251031_Tomita_k_S1_neg
+MTD	sample[52]-custom[1]	[,,header_1, BfraSito]
+MTD	sample[52]-custom[2]	[,,header_2, Sample]
+MTD	sample[52]-custom[3]	[,,header_3, 54]
+MTD	sample[53]	251031_Tomita_k_S2_neg
+MTD	sample[53]-custom[1]	[,,header_1, BfraSito]
+MTD	sample[53]-custom[2]	[,,header_2, Sample]
+MTD	sample[53]-custom[3]	[,,header_3, 55]
+MTD	sample[54]	251031_Tomita_k_S3_neg
+MTD	sample[54]-custom[1]	[,,header_1, BfraSito]
+MTD	sample[54]-custom[2]	[,,header_2, Sample]
+MTD	sample[54]-custom[3]	[,,header_3, 56]
+MTD	sample[55]	251031_Tomita_p_C1_neg
+MTD	sample[55]-custom[1]	[,,header_1, BuniChol]
+MTD	sample[55]-custom[2]	[,,header_2, Sample]
+MTD	sample[55]-custom[3]	[,,header_3, 57]
+MTD	sample[56]	251031_Tomita_p_C2_neg
+MTD	sample[56]-custom[1]	[,,header_1, BuniChol]
+MTD	sample[56]-custom[2]	[,,header_2, Sample]
+MTD	sample[56]-custom[3]	[,,header_3, 58]
+MTD	sample[57]	251031_Tomita_p_C3_neg
+MTD	sample[57]-custom[1]	[,,header_1, BuniChol]
+MTD	sample[57]-custom[2]	[,,header_2, Sample]
+MTD	sample[57]-custom[3]	[,,header_3, 59]
+MTD	sample[58]	251031_Tomita_p_S1_neg
+MTD	sample[58]-custom[1]	[,,header_1, BuniSito]
+MTD	sample[58]-custom[2]	[,,header_2, Sample]
+MTD	sample[58]-custom[3]	[,,header_3, 60]
+MTD	sample[59]	251031_Tomita_p_S2_neg
+MTD	sample[59]-custom[1]	[,,header_1, BuniSito]
+MTD	sample[59]-custom[2]	[,,header_2, Sample]
+MTD	sample[59]-custom[3]	[,,header_3, 61]
+MTD	sample[60]	251031_Tomita_p_S3_neg
+MTD	sample[60]-custom[1]	[,,header_1, BuniSito]
+MTD	sample[60]-custom[2]	[,,header_2, Sample]
+MTD	sample[60]-custom[3]	[,,header_3, 62]
+MTD	sample[61]	251031_Tomita_Blank_neg
+MTD	sample[61]-custom[1]	[,,header_1, Blank]
+MTD	sample[61]-custom[2]	[,,header_2, Blank]
+MTD	sample[61]-custom[3]	[,,header_3, 44]
+MTD	sample[62]	251031_Tomita_QC1_neg
+MTD	sample[62]-custom[1]	[,,header_1, QC1]
+MTD	sample[62]-custom[2]	[,,header_2, QC]
+MTD	sample[62]-custom[3]	[,,header_3, 63]
+MTD	sample[63]	251031_Tomita_QC2_neg
+MTD	sample[63]-custom[1]	[,,header_1, QC2]
+MTD	sample[63]-custom[2]	[,,header_2, QC]
+MTD	sample[63]-custom[3]	[,,header_3, 64]
+MTD	sample[64]	251031_Tomita_QC3_neg
+MTD	sample[64]-custom[1]	[,,header_1, QC3]
+MTD	sample[64]-custom[2]	[,,header_2, QC]
+MTD	sample[64]-custom[3]	[,,header_3, 65]
+MTD	sample[65]	251031_Tomita_QC4_neg
+MTD	sample[65]-custom[1]	[,,header_1, QC4]
+MTD	sample[65]-custom[2]	[,,header_2, QC]
+MTD	sample[65]-custom[3]	[,,header_3, 66]
+MTD	ms_run[1]-location	null
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[2]-location	null
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[3]-location	null
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[4]-location	null
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[5]-location	null
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[6]-location	null
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[7]-location	null
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[8]-location	null
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[9]-location	null
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[10]-location	null
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[11]-location	null
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[12]-location	null
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[13]-location	null
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[14]-location	null
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[15]-location	null
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[16]-location	null
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[17]-location	null
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[18]-location	null
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[19]-location	null
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[20]-location	null
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[21]-location	null
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[22]-location	null
+MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[23]-location	null
+MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[24]-location	null
+MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[25]-location	null
+MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[26]-location	null
+MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[27]-location	null
+MTD	ms_run[27]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[28]-location	null
+MTD	ms_run[28]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[29]-location	null
+MTD	ms_run[29]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[30]-location	null
+MTD	ms_run[30]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[31]-location	null
+MTD	ms_run[31]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[32]-location	null
+MTD	ms_run[32]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[33]-location	null
+MTD	ms_run[33]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[34]-location	null
+MTD	ms_run[34]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[35]-location	null
+MTD	ms_run[35]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[36]-location	null
+MTD	ms_run[36]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[37]-location	null
+MTD	ms_run[37]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[38]-location	null
+MTD	ms_run[38]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[39]-location	null
+MTD	ms_run[39]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[40]-location	null
+MTD	ms_run[40]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[41]-location	null
+MTD	ms_run[41]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[42]-location	null
+MTD	ms_run[42]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[43]-location	null
+MTD	ms_run[43]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[44]-location	null
+MTD	ms_run[44]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[45]-location	null
+MTD	ms_run[45]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[46]-location	null
+MTD	ms_run[46]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[47]-location	null
+MTD	ms_run[47]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[48]-location	null
+MTD	ms_run[48]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[49]-location	null
+MTD	ms_run[49]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[50]-location	null
+MTD	ms_run[50]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[51]-location	null
+MTD	ms_run[51]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[52]-location	null
+MTD	ms_run[52]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[53]-location	null
+MTD	ms_run[53]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[54]-location	null
+MTD	ms_run[54]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[55]-location	null
+MTD	ms_run[55]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[56]-location	null
+MTD	ms_run[56]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[57]-location	null
+MTD	ms_run[57]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[58]-location	null
+MTD	ms_run[58]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[59]-location	null
+MTD	ms_run[59]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[60]-location	null
+MTD	ms_run[60]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[61]-location	null
+MTD	ms_run[61]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[62]-location	null
+MTD	ms_run[62]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[63]-location	null
+MTD	ms_run[63]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[64]-location	null
+MTD	ms_run[64]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[65]-location	null
+MTD	ms_run[65]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	assay[1]	251031_Tomita_a_C1_neg
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	251031_Tomita_a_C2_neg
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	251031_Tomita_a_C3_neg
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	251031_Tomita_a_S1_neg
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	251031_Tomita_a_S2_neg
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	251031_Tomita_a_S3_neg
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	251031_Tomita_A16_C1_neg
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	251031_Tomita_A16_C2_neg
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	251031_Tomita_A16_C3_neg
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	251031_Tomita_A16_S1_neg
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	251031_Tomita_A16_S2_neg
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	251031_Tomita_A16_S3_neg
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	251031_Tomita_A27_C1_neg
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	251031_Tomita_A27_C2_neg
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	251031_Tomita_A27_C3_neg
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	251031_Tomita_A27_S1_neg
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	251031_Tomita_A27_S2_neg
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	251031_Tomita_A27_S3_neg
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	251031_Tomita_A29_C1_neg
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[20]	251031_Tomita_A29_C2_neg
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	251031_Tomita_A29_C3_neg
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	251031_Tomita_A29_S1_neg
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	251031_Tomita_A29_S2_neg
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	251031_Tomita_A29_S3_neg
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	251031_Tomita_A30_C1_neg
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	251031_Tomita_A30_C2_neg
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	assay[27]	251031_Tomita_A30_C3_neg
+MTD	assay[27]-sample_ref	sample[27]
+MTD	assay[27]-ms_run_ref	ms_run[27]
+MTD	assay[28]	251031_Tomita_A30_S1_neg
+MTD	assay[28]-sample_ref	sample[28]
+MTD	assay[28]-ms_run_ref	ms_run[28]
+MTD	assay[29]	251031_Tomita_A30_S2_neg
+MTD	assay[29]-sample_ref	sample[29]
+MTD	assay[29]-ms_run_ref	ms_run[29]
+MTD	assay[30]	251031_Tomita_A30_S3_neg
+MTD	assay[30]-sample_ref	sample[30]
+MTD	assay[30]-ms_run_ref	ms_run[30]
+MTD	assay[31]	251031_Tomita_A37_C1_neg
+MTD	assay[31]-sample_ref	sample[31]
+MTD	assay[31]-ms_run_ref	ms_run[31]
+MTD	assay[32]	251031_Tomita_A37_C2_neg
+MTD	assay[32]-sample_ref	sample[32]
+MTD	assay[32]-ms_run_ref	ms_run[32]
+MTD	assay[33]	251031_Tomita_A37_C3_neg
+MTD	assay[33]-sample_ref	sample[33]
+MTD	assay[33]-ms_run_ref	ms_run[33]
+MTD	assay[34]	251031_Tomita_A37_S1_neg
+MTD	assay[34]-sample_ref	sample[34]
+MTD	assay[34]-ms_run_ref	ms_run[34]
+MTD	assay[35]	251031_Tomita_A37_S2_neg
+MTD	assay[35]-sample_ref	sample[35]
+MTD	assay[35]-ms_run_ref	ms_run[35]
+MTD	assay[36]	251031_Tomita_A37_S3_neg
+MTD	assay[36]-sample_ref	sample[36]
+MTD	assay[36]-ms_run_ref	ms_run[36]
+MTD	assay[37]	251031_Tomita_af_C1_neg
+MTD	assay[37]-sample_ref	sample[37]
+MTD	assay[37]-ms_run_ref	ms_run[37]
+MTD	assay[38]	251031_Tomita_af_C2_neg
+MTD	assay[38]-sample_ref	sample[38]
+MTD	assay[38]-ms_run_ref	ms_run[38]
+MTD	assay[39]	251031_Tomita_af_C3_neg
+MTD	assay[39]-sample_ref	sample[39]
+MTD	assay[39]-ms_run_ref	ms_run[39]
+MTD	assay[40]	251031_Tomita_af_S1_neg
+MTD	assay[40]-sample_ref	sample[40]
+MTD	assay[40]-ms_run_ref	ms_run[40]
+MTD	assay[41]	251031_Tomita_af_S2_neg
+MTD	assay[41]-sample_ref	sample[41]
+MTD	assay[41]-ms_run_ref	ms_run[41]
+MTD	assay[42]	251031_Tomita_af_S3_neg
+MTD	assay[42]-sample_ref	sample[42]
+MTD	assay[42]-ms_run_ref	ms_run[42]
+MTD	assay[43]	251031_Tomita_c_C1_neg
+MTD	assay[43]-sample_ref	sample[43]
+MTD	assay[43]-ms_run_ref	ms_run[43]
+MTD	assay[44]	251031_Tomita_c_C2_neg
+MTD	assay[44]-sample_ref	sample[44]
+MTD	assay[44]-ms_run_ref	ms_run[44]
+MTD	assay[45]	251031_Tomita_c_C3_neg
+MTD	assay[45]-sample_ref	sample[45]
+MTD	assay[45]-ms_run_ref	ms_run[45]
+MTD	assay[46]	251031_Tomita_c_S1_neg
+MTD	assay[46]-sample_ref	sample[46]
+MTD	assay[46]-ms_run_ref	ms_run[46]
+MTD	assay[47]	251031_Tomita_c_S2_neg
+MTD	assay[47]-sample_ref	sample[47]
+MTD	assay[47]-ms_run_ref	ms_run[47]
+MTD	assay[48]	251031_Tomita_c_S3_neg
+MTD	assay[48]-sample_ref	sample[48]
+MTD	assay[48]-ms_run_ref	ms_run[48]
+MTD	assay[49]	251031_Tomita_k_C1_neg
+MTD	assay[49]-sample_ref	sample[49]
+MTD	assay[49]-ms_run_ref	ms_run[49]
+MTD	assay[50]	251031_Tomita_k_C2_neg
+MTD	assay[50]-sample_ref	sample[50]
+MTD	assay[50]-ms_run_ref	ms_run[50]
+MTD	assay[51]	251031_Tomita_k_C3_neg
+MTD	assay[51]-sample_ref	sample[51]
+MTD	assay[51]-ms_run_ref	ms_run[51]
+MTD	assay[52]	251031_Tomita_k_S1_neg
+MTD	assay[52]-sample_ref	sample[52]
+MTD	assay[52]-ms_run_ref	ms_run[52]
+MTD	assay[53]	251031_Tomita_k_S2_neg
+MTD	assay[53]-sample_ref	sample[53]
+MTD	assay[53]-ms_run_ref	ms_run[53]
+MTD	assay[54]	251031_Tomita_k_S3_neg
+MTD	assay[54]-sample_ref	sample[54]
+MTD	assay[54]-ms_run_ref	ms_run[54]
+MTD	assay[55]	251031_Tomita_p_C1_neg
+MTD	assay[55]-sample_ref	sample[55]
+MTD	assay[55]-ms_run_ref	ms_run[55]
+MTD	assay[56]	251031_Tomita_p_C2_neg
+MTD	assay[56]-sample_ref	sample[56]
+MTD	assay[56]-ms_run_ref	ms_run[56]
+MTD	assay[57]	251031_Tomita_p_C3_neg
+MTD	assay[57]-sample_ref	sample[57]
+MTD	assay[57]-ms_run_ref	ms_run[57]
+MTD	assay[58]	251031_Tomita_p_S1_neg
+MTD	assay[58]-sample_ref	sample[58]
+MTD	assay[58]-ms_run_ref	ms_run[58]
+MTD	assay[59]	251031_Tomita_p_S2_neg
+MTD	assay[59]-sample_ref	sample[59]
+MTD	assay[59]-ms_run_ref	ms_run[59]
+MTD	assay[60]	251031_Tomita_p_S3_neg
+MTD	assay[60]-sample_ref	sample[60]
+MTD	assay[60]-ms_run_ref	ms_run[60]
+MTD	assay[61]	251031_Tomita_Blank_neg
+MTD	assay[61]-sample_ref	sample[61]
+MTD	assay[61]-ms_run_ref	ms_run[61]
+MTD	assay[62]	251031_Tomita_QC1_neg
+MTD	assay[62]-sample_ref	sample[62]
+MTD	assay[62]-ms_run_ref	ms_run[62]
+MTD	assay[63]	251031_Tomita_QC2_neg
+MTD	assay[63]-sample_ref	sample[63]
+MTD	assay[63]-ms_run_ref	ms_run[63]
+MTD	assay[64]	251031_Tomita_QC3_neg
+MTD	assay[64]-sample_ref	sample[64]
+MTD	assay[64]-ms_run_ref	ms_run[64]
+MTD	assay[65]	251031_Tomita_QC4_neg
+MTD	assay[65]-sample_ref	sample[65]
+MTD	assay[65]-ms_run_ref	ms_run[65]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]|assay[19]|assay[20]|assay[21]|assay[22]|assay[23]|assay[24]|assay[25]|assay[26]|assay[27]|assay[28]|assay[29]|assay[30]|assay[31]|assay[32]|assay[33]|assay[34]|assay[35]|assay[36]|assay[37]|assay[38]|assay[39]|assay[40]|assay[41]|assay[42]|assay[43]|assay[44]|assay[45]|assay[46]|assay[47]|assay[48]|assay[49]|assay[50]|assay[51]|assay[52]|assay[53]|assay[54]|assay[55]|assay[56]|assay[57]|assay[58]|assay[59]|assay[60]|assay[61]|assay[62]|assay[63]|assay[64]|assay[65]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_assay[27]	abundance_assay[28]	abundance_assay[29]	abundance_assay[30]	abundance_assay[31]	abundance_assay[32]	abundance_assay[33]	abundance_assay[34]	abundance_assay[35]	abundance_assay[36]	abundance_assay[37]	abundance_assay[38]	abundance_assay[39]	abundance_assay[40]	abundance_assay[41]	abundance_assay[42]	abundance_assay[43]	abundance_assay[44]	abundance_assay[45]	abundance_assay[46]	abundance_assay[47]	abundance_assay[48]	abundance_assay[49]	abundance_assay[50]	abundance_assay[51]	abundance_assay[52]	abundance_assay[53]	abundance_assay[54]	abundance_assay[55]	abundance_assay[56]	abundance_assay[57]	abundance_assay[58]	abundance_assay[59]	abundance_assay[60]	abundance_assay[61]	abundance_assay[62]	abundance_assay[63]	abundance_assay[64]	abundance_assay[65]	abundance_study_variable[1]	abundance_variation_study_variable[1]	opt_global_feature_id	opt_global_exp_mass_to_charge	opt_global_retention_time_min
+SML	1	null	null	C27H46O4S	null	null	ST 27:1;O;S	null	null	[M-H]1-	null	null	null	75825	114758	112431	1592	1330	1226	199	189	157	174	163	171	134523	214679	177083	1458	1573	1962	166	172	158	148	146	156	179	159	167	149	147	172	2032	2052	1757	321	226	231	164518	158094	127518	1353	1622	1911	293697	197258	244808	3762	1959	3307	99768	63978	67067	1071	1767	1463	123924	161763	164955	2171	1414	1319	202	73859	80634	77705	87162	47047.076923076929	1.5709503562919906	1719	465.30392	7.77
+SML	2	null	null	C29H50O4S	null	null	ST 29:1;O;S	null	null	[M-H]1-	null	null	null	133	146	141	52320	45206	46087	27	40	29	57	43	43	220	342	297	55111	61143	66169	25	38	31	33	27	35	21	29	23	23	19	23	2662	3234	1820	2964	2811	2795	250	238	191	69801	89659	114241	554	273	378	133201	83177	121358	237	84	99	67645	105138	92240	191	261	254	72739	54602	51857	30	33342	35486	35955	39040	23795.199999999997	1.5489239480117825	1843	493.33582	8.065
+SML	3	null	null	C26H45[2H]7NO7P	null	null	LPC 18:1(d7)	null	null	[M+CH3COO]1-	null	null	null	24474	34924	38371	37381	35159	34761	31896	33605	31885	31981	33129	32387	33458	35211	33383	34823	33958	33146	33801	32356	33272	32505	34972	34279	33734	32910	33041	32721	35109	34974	32261	33180	33164	32727	34790	33484	35820	34058	35040	34201	33073	34278	34835	34068	35153	35822	34121	34873	38940	35394	35466	35664	39288	35944	33850	34282	35495	37070	34384	34663	37269	35834	40240	38610	45672	34624.907692307694	0.075336439788329518	2570	587.40609	6.99
+

@@ -1,0 +1,563 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000011
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000011, MPST000011.txt
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	30°C_0.5h_1
+MTD	sample[2]	30°C_0.5h_2
+MTD	sample[3]	30°C_0.5h_3
+MTD	sample[4]	10°C_0.5h_1
+MTD	sample[5]	10°C_0.5h_2
+MTD	sample[6]	10°C_0.5h_3
+MTD	sample[7]	30°C_3h_1
+MTD	sample[8]	30°C_3h_2
+MTD	sample[9]	30°C_3h_3
+MTD	sample[10]	10°C_3h_1
+MTD	sample[11]	10°C_3h_2
+MTD	sample[12]	10°C_3h_3
+MTD	ms_run[1]-location	null
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[1]-scan_polarity[2]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[2]-location	null
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-scan_polarity[2]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[3]-location	null
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-scan_polarity[2]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[4]-location	null
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-scan_polarity[2]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[5]-location	null
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-scan_polarity[2]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[6]-location	null
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-scan_polarity[2]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[7]-location	null
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-scan_polarity[2]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[8]-location	null
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-scan_polarity[2]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[9]-location	null
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-scan_polarity[2]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[10]-location	null
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-scan_polarity[2]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[11]-location	null
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-scan_polarity[2]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[12]-location	null
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-scan_polarity[2]	[MS, MS:1000129, negative scan, ]
+MTD	assay[1]	30°C_0.5h_1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	30°C_0.5h_2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	30°C_0.5h_3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	10°C_0.5h_1
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	10°C_0.5h_2
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	10°C_0.5h_3
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	30°C_3h_1
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	30°C_3h_2
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	30°C_3h_3
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	10°C_3h_1
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	10°C_3h_2
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	10°C_3h_3
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	PC 15:0_18:1(d7)	null	null	[M+CH3COO]1-	null	null	null	16276	17616	15769	16676	16253	21689	22272	22477	19910	19097	19507	18606	18845.666666666668	0.12770367256600182
+SML	2	null	null	null	null	null	PC 10:0_16:1	null	null	[M+CH3COO]1-	null	null	null	2329	3091	1635	3651	1988	4076	621	1429	538	3629	3468	2935	2449.1666666666665	0.49388260900115744
+SML	3	null	null	null	null	null	PC 10:0_16:0	null	null	[M+CH3COO]1-	null	null	null	3285	2388	1579	838	1435	2441	2582	2462	1915	1500	2082	1774	2023.4166666666667	0.32317092031984951
+SML	4	null	null	null	null	null	PC 12:0_14:0	null	null	[M+CH3COO]1-	null	null	null	1079	1503	1197	1829	1462	1153	0	506	785	956	1418	1185	1089.4166666666667	0.4486100658897354
+SML	5	null	null	null	null	null	PC 12:0_16:1	null	null	[M+CH3COO]1-	null	null	null	9462	7650	7147	8471	10324	7218	4744	4097	2421	8874	5097	10868	7197.75	0.36488647256443485
+SML	6	null	null	null	null	null	PC 12:0_16:0	null	null	[M+CH3COO]1-	null	null	null	1876	1679	1244	2247	2041	1188	2391	1988	1785	603	697	1282	1585.0833333333333	0.36640095159724523
+SML	7	null	null	null	null	null	PC 14:0_16:0	null	null	[M+CH3COO]1-	null	null	null	1077	1065	1332	535	1371	929	1771	1429	1100	606	747	826	1065.6666666666667	0.342516509198448
+SML	8	null	null	null	null	null	PC 14:0_16:1	null	null	[M+CH3COO]1-	null	null	null	7259	7624	7232	6221	7209	8124	6012	4268	4236	5315	4918	7129	6295.583333333333	0.21278511416856941
+SML	9	null	null	null	null	null	PC 16:0_14:1	null	null	[M+CH3COO]1-	null	null	null	3329	2971	3994	2682	3168	2174	1985	3388	2462	1771	1615	2212	2645.9166666666665	0.27735589437728564
+SML	10	null	null	null	null	null	PC 14:1_16:1	null	null	[M+CH3COO]1-	null	null	null	4785	5876	3168	4835	7394	3985	2138	1553	1876	9306	7324	7821	5005.083333333333	0.51360934150563997
+SML	11	null	null	null	null	null	PC 15:1_16:1	null	null	[M+CH3COO]1-	null	null	null	1115	1212	1759	606	1544	1938	568	1047	818	1015	1206	1312	1178.3333333333333	0.35691243360802699
+SML	12	null	null	null	null	null	PC 15:0_16:1	null	null	[M+CH3COO]1-	null	null	null	3218	2688	3841	3576	3941	3235	3844	2915	2509	4094	4356	3924	3511.75	0.16807022856395548
+SML	13	null	null	null	null	null	PC 16:1_16:1	null	null	[M+CH3COO]1-	null	null	null	128353	113521	102024	108982	119803	111962	73594	6312	60459	133685	127944	126624	101105.25	0.36832507466812148
+SML	14	null	null	null	null	null	PC 14:0_18:1	null	null	[M+CH3COO]1-	null	null	null	4109	6259	4974	4028	3365	2638	2735	2473	3282	3803	2926	3464	3671.3333333333335	0.29557875446150361
+SML	15	null	null	null	null	null	PC 16:0_16:1	null	null	[M+CH3COO]1-	null	null	null	44153	1553	40809	33654	45374	34400	57712	46592	41236	30044	24259	28591	35698.083333333336	0.39708319380498242
+SML	16	null	null	null	null	null	PC 16:1_18:1	null	null	[M+CH3COO]1-	null	null	null	59285	50441	56235	57353	61124	52868	40165	37918	29944	54950	60488	66159	52244.166666666664	0.20739723314864172
+SML	17	null	null	null	null	null	PC 16:0_18:1	null	null	[M+CH3COO]1-	null	null	null	21232	17926	17994	13550	19059	13988	21038	18158	14782	9447	8144	11118	15536.333333333334	0.28250274752933102
+SML	18	null	null	null	null	null	PC 18:0_16:1	null	null	[M+CH3COO]1-	null	null	null	8161	7138	6895	7971	7371	6079	12238	13834	10416	5465	5162	4512	7936.833333333333	0.36141116446279203
+SML	19	null	null	null	null	null	PC 18:1_18:1	null	null	[M+CH3COO]1-	null	null	null	6854	7935	7096	7391	7708	8241	5082	4579	3656	7243	8691	10997	7122.75	0.27607637073059904
+SML	20	null	null	null	null	null	PC 18:0_18:1	null	null	[M+CH3COO]1-	null	null	null	3050	3141	2859	2953	2547	2606	3871	4985	5165	1774	2026	926	2991.9166666666665	0.40988990086446647
+SML	21	null	null	null	null	null	PC 26:0_16:1	null	null	[M+CH3COO]1-	null	null	null	800	897	644	406	0	653	4953	4996	2274	0	0	471	1341.1666666666665	1.3442033617074858
+SML	22	null	null	null	null	null	PE 15:0_18:1(d7)	null	null	[M-H]1-	null	null	null	67728	73419	67013	70276	72022	93592	79657	78102	69324	78303	75729	75356	75043.416666666672	0.096016211388854258
+SML	23	null	null	null	null	null	PE 10:0_16:1	null	null	[M-H]1-	null	null	null	2888	1138	2259	2379	1426	3115	956	962	1050	3400	4388	5318	2439.916666666667	0.58920832397826783
+SML	24	null	null	null	null	null	PE 10:0_16:0	null	null	[M-H]1-	null	null	null	1659	1997	2162	1735	2118	1576	1359	909	1232	1997	2159	2265	1764	0.24320670893297455
+SML	25	null	null	null	null	null	PE 12:0_16:1	null	null	[M-H]1-	null	null	null	9241	5932	5359	7668	7903	6135	4997	4532	3841	10106	9160	10609	7123.583333333333	0.32262754258584736
+SML	26	null	null	null	null	null	PE 12:0_16:0	null	null	[M-H]1-	null	null	null	2424	2674	2285	1538	2703	1106	1388	1832	1476	1350	1571	1544	1824.25	0.30221007691117863
+SML	27	null	null	null	null	null	PE 14:1_16:1	null	null	[M-H]1-	null	null	null	7709	3808	5676	6687	8800	4544	2953	1800	1015	9832	6426	5230	5373.333333333333	0.50433564764200156
+SML	28	null	null	null	null	null	PE 12:0_18:1	null	null	[M-H]1-	null	null	null	2274	1138	1485	2274	2853	1735	638	753	0	1291	1241	1824	1458.8333333333335	0.54532565920472742
+SML	29	null	null	null	null	null	PE 14:0_16:1	null	null	[M-H]1-	null	null	null	19417	13832	18973	22332	24368	14853	7241	8706	6956	22914	22297	28585	17539.5	0.40888690768869962
+SML	30	null	null	null	null	null	PE 14:0_16:0	null	null	[M-H]1-	null	null	null	2956	2568	3385	1244	2353	1141	1736	1635	1368	665	626	1094	1730.9166666666665	0.51712421574474543
+SML	31	null	null	null	null	null	PE 15:1_16:1	null	null	[M-H]1-	null	null	null	800	794	1421	379	659	1156	647	344	0	1374	1529	885	832.33333333333337	0.56544126328521771
+SML	32	null	null	null	null	null	PE 16:1_16:1	null	null	[M-H]1-	null	null	null	259066	229332	226832	227574	264402	220465	113326	115006	76150	292674	248097	301191	214509.58333333334	0.34166440978220086
+SML	33	null	null	null	null	null	PE 14:0_18:1	null	null	[M-H]1-	null	null	null	23221	21297	19256	25275	23906	22403	13306	12056	5949	26762	23176	30382	20582.416666666668	0.33607890096933907
+SML	34	null	null	null	null	null	PE 16:0_16:1	null	null	[M-H]1-	null	null	null	93180	88847	92302	80080	96900	86431	58165	53389	37606	94723	82968	103108	80641.583333333328	0.24989422780207779
+SML	35	null	null	null	null	null	PE 16:1_18:1	null	null	[M-H]1-	null	null	null	221638	213850	199629	206524	233027	214726	113339	107612	72621	258306	221126	282750	195429	0.32627652071324897
+SML	36	null	null	null	null	null	PE 16:0_18:1	null	null	[M-H]1-	null	null	null	44484	43653	40623	39796	47515	43437	26962	25732	18453	43363	38357	43215	37965.833333333336	0.24018711611949409
+SML	37	null	null	null	null	null	PE 18:0_16:1	null	null	[M-H]1-	null	null	null	1614	984	2172	1374	1647	1294	1518	1013	1056	1271	1113	1750	1400.5	0.25393925684997853
+SML	38	null	null	null	null	null	PE 18:1_18:1	null	null	[M-H]1-	null	null	null	55748	49891	50062	48211	48766	46979	20100	16603	14712	53185	46985	62956	42849.833333333336	0.37729569517634698
+SML	39	null	null	null	null	null	PE 18:0_18:1	null	null	[M-H]1-	null	null	null	16806	12779	11363	8851	10989	8105	8435	9026	5970	6694	5356	5764	9178.1666666666661	0.36546651428260457
+SML	40	null	null	null	null	null	DMPE 10:0_16:1	null	null	[M-H]1-	null	null	null	694	809	653	1000	1488	921	647	0	0	1382	915	1074	798.58333333333337	0.57151334420179634
+SML	41	null	null	null	null	null	DMPE 12:0_16:1	null	null	[M-H]1-	null	null	null	1612	2168	1435	1726	3315	1509	1279	988	724	2632	1459	3053	1825	0.44173510918371162
+SML	42	null	null	null	null	null	DMPE 14:1_16:1	null	null	[M-H]1-	null	null	null	1332	1674	1091	2909	1744	1468	550	1088	0	2838	2029	2974	1641.4166666666667	0.56904221506635466
+SML	43	null	null	null	null	null	DMPE 14:0_16:1	null	null	[M-H]1-	null	null	null	2724	3612	3612	2982	2556	2985	1335	2285	2088	2691	2229	3356	2704.5833333333335	0.24696511338918545
+SML	44	null	null	null	null	null	DMPE 16:1_16:1	null	null	[M-H]1-	null	null	null	82768	79072	76047	74497	77271	69668	26002	28350	22885	87630	78850	98203	66770.25	0.38594533444756396
+SML	45	null	null	null	null	null	DMPE 14:0_18:1	null	null	[M-H]1-	null	null	null	7471	5174	6291	8362	8656	4023	3400	2970	2797	5503	3338	5235	5268.3333333333339	0.39305265951557189
+SML	46	null	null	null	null	null	DMPE 16:0_16:1	null	null	[M-H]1-	null	null	null	38015	34219	39956	22256	32521	24379	24438	22985	15594	20285	18612	20515	26147.916666666668	0.30567608133796992
+SML	47	null	null	null	null	null	DMPE 16:1_18:1	null	null	[M-H]1-	null	null	null	55748	49891	50062	48211	48766	46979	20100	16603	14712	53185	46985	62956	42849.833333333336	0.37729569517634698
+SML	48	null	null	null	null	null	DMPE 16:0_18:1	null	null	[M-H]1-	null	null	null	16351	12376	10903	8805	11099	8307	8435	9026	6053	6308	5041	5438	9011.8333333333339	0.36434872166505694
+SML	49	null	null	null	null	null	DMPE 18:0_16:1	null	null	[M-H]1-	null	null	null	3515	3650	3094	2144	2956	2706	5650	5053	4397	2179	2015	3212	3380.9166666666665	0.34139454255464335
+SML	50	null	null	null	null	null	DMPE 18:1_18:1	null	null	[M-H]1-	null	null	null	4388	2806	3456	3362	3035	3188	1806	2082	932	3624	2732	4024	2952.9166666666665	0.32877409592827522
+SML	51	null	null	null	null	null	DMPE 18:0_18:1	null	null	[M-H]1-	null	null	null	2426	894	1438	856	1494	1032	2274	2194	1209	738	459	547	1296.75	0.52532277235052061
+SML	52	null	null	null	null	null	DMPE 26:0_16:1	null	null	[M-H]1-	null	null	null	0	0	0	0	0	0	4841	1512	2750	0	0	0	758.58333333333326	2.0413888838994643
+SML	53	null	null	null	null	null	MMPE 14:0_16:1	null	null	[M-H]1-	null	null	null	8176	8356	7929	9832	11053	8850	3965	2385	3147	10359	9838	12265	8012.916666666667	0.39831627896422317
+SML	54	null	null	null	null	null	MMPE 16:0_14:1	null	null	[M-H]1-	null	null	null	1442	715	585	1076	876	921	406	565	0	2141	1732	1685	1012	0.61949723141996149
+SML	55	null	null	null	null	null	MMPE 16:1_16:1	null	null	[M-H]1-	null	null	null	10805	8381	8212	10856	11381	9122	1743	2435	1556	11788	8424	10851	7962.8333333333339	0.48370698396979972
+SML	56	null	null	null	null	null	MMPE 14:0_18:1	null	null	[M-H]1-	null	null	null	5291	5994	6226	5685	8047	3715	3132	3012	2197	7206	6347	7309	5346.75	0.35597445389100535
+SML	57	null	null	null	null	null	MMPE 16:0_16:1	null	null	[M-H]1-	null	null	null	22579	24591	22380	21497	22762	16019	12882	10821	8309	26275	17985	22944	19087	0.30500718844663877
+SML	58	null	null	null	null	null	MMPE 16:1_18:1	null	null	[M-H]1-	null	null	null	6256	5147	6507	5876	7374	6091	1564	3462	932	8019	5214	5812	5187.833333333333	0.41740570151989237
+SML	59	null	null	null	null	null	MMPE 16:0_18:1	null	null	[M-H]1-	null	null	null	2000	1476	1338	1641	1474	1735	663	750	938	1697	850	1397	1329.9166666666667	0.32510355497640903
+SML	60	null	null	null	null	null	PA 16:1_16:1	null	null	[M-H]1-	null	null	null	4185	2663	3997	3459	3297	3744	2163	3025	1359	4262	3721	3710	3298.75	0.26338711876145071
+SML	61	null	null	null	null	null	PA 16:1_18:1	null	null	[M-H]1-	null	null	null	7950	8721	7218	7153	7185	3909	3409	1276	1252	2776	3879	5091	4984.9166666666661	0.52284531548756785
+SML	62	null	null	null	null	null	PA 16:0_18:1	null	null	[M-H]1-	null	null	null	2250	2129	2615	1691	1829	1774	2176	2653	1226	1703	926	1609	1881.75	0.27363071758465746
+SML	63	null	null	null	null	null	PI 15:0_18:1(d7)	null	null	[M-H]1-	null	null	null	124502	130475	123986	124708	127412	149952	127940	122365	103422	137312	129598	130022	127641.16666666667	0.083688933372469937
+SML	64	null	null	null	null	null	PI 10:0_14:0	null	null	[M-H]1-	null	null	null	1344	1491	441	1253	1956	1344	715	679	0	1565	703	1606	1091.4166666666667	0.52611021060317908
+SML	65	null	null	null	null	null	PI 10:0_16:1	null	null	[M-H]1-	null	null	null	609	1012	794	815	1247	812	0	0	562	1371	1503	2512	936.41666666666674	0.73042610809635522
+SML	66	null	null	null	null	null	PI 10:0_16:0	null	null	[M-H]1-	null	null	null	33959	28856	28453	33062	35612	24112	12568	14106	10597	29407	21253	27015	24916.666666666664	0.3430255623310714
+SML	67	null	null	null	null	null	PI 12:0_14:0	null	null	[M-H]1-	null	null	null	1429	1718	1047	1721	2685	3706	821	779	1388	2347	2191	2574	1867.1666666666667	0.46525864840892955
+SML	68	null	null	null	null	null	PI 12:0_16:1	null	null	[M-H]1-	null	null	null	2271	2126	2868	3497	3688	2000	1085	1112	782	5156	3862	4535	2748.5	0.51655884442185163
+SML	69	null	null	null	null	null	PI 10:0_18:0	null	null	[M-H]1-	null	null	null	7403	8582	6856	9156	10265	7235	4841	3168	3376	7341	5594	7238	6754.5833333333339	0.32175184461332051
+SML	70	null	null	null	null	null	PI 12:0_16:0	null	null	[M-H]1-	null	null	null	29171	27024	25062	27009	33081	23585	14266	12441	10397	26350	16841	20850	22173.083333333332	0.32429356759889832
+SML	71	null	null	null	null	null	PI 14:0_14:0	null	null	[M-H]1-	null	null	null	982	1085	1826	1276	994	1012	574	756	547	921	1059	888	993.33333333333326	0.33720183082240884
+SML	72	null	null	null	null	null	PI 14:1_16:1	null	null	[M-H]1-	null	null	null	509	0	518	1459	1212	512	0	0	0	2294	1721	1171	783	0.99118629508693512
+SML	73	null	null	null	null	null	PI 14:0_16:1	null	null	[M-H]1-	null	null	null	6765	4832	4803	9597	10526	11618	1394	1565	1821	8465	7836	7196	6368.166666666667	0.55208454246761773
+SML	74	null	null	null	null	null	PI 16:0_14:1	null	null	[M-H]1-	null	null	null	4562	3853	3968	5485	6738	7121	1974	2394	1138	10297	3874	7591	4916.25	0.53867148255960151
+SML	75	null	null	null	null	null	PI 12:0_18:0	null	null	[M-H]1-	null	null	null	6374	6224	5285	4618	4806	6124	3315	3426	2041	3935	3626	4476	4520.833333333333	0.29472349055586261
+SML	76	null	null	null	null	null	PI 14:0_16:0	null	null	[M-H]1-	null	null	null	7324	6609	5897	6779	4897	4779	3547	3585	2768	2115	1609	2094	4333.5833333333339	0.46178249043632247
+SML	77	null	null	null	null	null	PI 16:1_16:1	null	null	[M-H]1-	null	null	null	26315	31235	29559	52762	50056	56453	5762	5221	3959	45629	31515	44550	31918	0.59212983889315074
+SML	78	null	null	null	null	null	PI 14:0_18:1	null	null	[M-H]1-	null	null	null	4097	4232	4924	4265	6106	3976	1853	1944	1941	6591	5265	5638	4236	0.38216505286001967
+SML	79	null	null	null	null	null	PI 16:0_16:1	null	null	[M-H]1-	null	null	null	44111	48162	51139	69756	66341	61886	25503	23415	18385	57199	41604	51684	46598.75	0.36203269010728062
+SML	80	null	null	null	null	null	PI 16:0_16:0	null	null	[M-H]1-	null	null	null	1265	1647	1697	1674	1995	1032	547	400	0	656	409	874	1016.3333333333333	0.62690395678246147
+SML	81	null	null	null	null	null	PI 15:0_18:1	null	null	[M-H]1-	null	null	null	876	841	856	1200	1315	1791	1174	871	509	1079	1024	959	1041.25	0.30402798912387685
+SML	82	null	null	null	null	null	PI 16:1_18:1	null	null	[M-H]1-	null	null	null	13738	18188	14226	26912	26709	27291	5862	4568	1838	20271	13709	18885	16016.416666666668	0.54564807800791859
+SML	83	null	null	null	null	null	PI 16:0_18:1	null	null	[M-H]1-	null	null	null	35035	31944	34600	41104	44841	39750	16774	19615	11776	34168	26268	34888	30896.916666666664	0.33083536590233054
+SML	84	null	null	null	null	null	PI 18:0_16:1	null	null	[M-H]1-	null	null	null	16659	17385	15924	17547	18768	15326	7976	5606	2732	18338	14171	18747	14098.25	0.39101806247905441
+SML	85	null	null	null	null	null	PI 18:1_18:1	null	null	[M-H]1-	null	null	null	2453	2021	1551	4341	4012	4165	1218	894	0	1876	1794	2515	2236.6666666666665	0.60449529929131873
+SML	86	null	null	null	null	null	PI 18:0_18:1	null	null	[M-H]1-	null	null	null	10562	13512	11868	15612	17326	14671	5124	3988	3103	11882	8674	12106	10702.333333333334	0.43134899295033591
+SML	87	null	null	null	null	null	PI 26:0_16:1	null	null	[M-H]1-	null	null	null	1353	1803	1224	2091	2791	1406	1512	1121	582	1103	1329	1788	1508.5833333333333	0.37229504542675629
+SML	88	null	null	null	null	null	PI 26:0_18:1	null	null	[M-H]1-	null	null	null	1174	659	838	1056	1374	841	865	835	0	826	712	1100	856.66666666666663	0.39557890041067018
+SML	89	null	null	null	null	null	PS 15:0_18:1(d7)	null	null	[M-H]1-	null	null	null	49992	56125	50466	48244	55680	73492	40036	37034	27830	47397	43451	47228	48081.25	0.23438551535512661
+SML	90	null	null	null	null	null	PS 10:0_16:0	null	null	[M-H]1-	null	null	null	1291	678	1174	988	1318	1262	900	1547	465	2232	1303	1683	1236.75	0.37669827646945325
+SML	91	null	null	null	null	null	PS 14:0_16:1	null	null	[M-H]1-	null	null	null	2329	1191	1782	1476	2647	1609	1415	641	538	2818	1876	1665	1665.5833333333333	0.42212379888558899
+SML	92	null	null	null	null	null	PS 16:1_16:1	null	null	[M-H]1-	null	null	null	42213	33232	32794	29144	30915	28897	16091	17485	10303	29385	26047	33053	27463.25	0.32127674613238028
+SML	93	null	null	null	null	null	PS 16:0_16:1	null	null	[M-H]1-	null	null	null	15700	18312	20894	10953	12541	10809	8600	9503	8156	15597	14282	16306	13471.083333333334	0.29922790147657435
+SML	94	null	null	null	null	null	PS 16:1_18:1	null	null	[M-H]1-	null	null	null	108348	90443	74953	72729	75530	65341	38224	36553	19508	48103	35062	51882	59723	0.43462873399992463
+SML	95	null	null	null	null	null	PS 16:0_18:1	null	null	[M-H]1-	null	null	null	27416	22255	20865	16899	22971	17177	11712	12256	8185	16601	12471	13607	16867.916666666668	0.33291744193466571
+SML	96	null	null	null	null	null	PG 15:0_18:1(d7)	null	null	[M-H]1-	null	null	null	244623	257790	237549	238973	252239	286137	244964	241101	208422	264243	254190	246991	248101.83333333334	0.073888516514804575
+SML	97	null	null	null	null	null	PG 10:0_16:0	null	null	[M-H]1-	null	null	null	694	809	653	1000	1488	921	647	0	0	1382	915	1074	798.58333333333337	0.57151334420179634
+SML	98	null	null	null	null	null	PG 14:0_16:1	null	null	[M-H]1-	null	null	null	2329	1191	1782	1476	2647	1609	1415	641	538	2590	1876	1529	1635.25	0.41112186070238854
+SML	99	null	null	null	null	null	PG 16:0_16:1	null	null	[M-H]1-	null	null	null	5974	6135	5190	4244	5541	4569	3988	4026	2109	4178	4100	6908	4746.833333333333	0.26956596789445608
+SML	100	null	null	null	null	null	PG 16:1_18:1	null	null	[M-H]1-	null	null	null	4822	3627	4264	3891	4015	3818	2062	1724	1250	5547	3329	5103	3621	0.37018552500991919
+SML	101	null	null	null	null	null	PG 16:0_18:1	null	null	[M-H]1-	null	null	null	5579	5282	4246	2368	3834	3341	2971	2824	2629	2915	2776	3497	3521.8333333333335	0.29444431715974745
+SML	102	null	null|null	null|null	null|null	null|null	CL 60:1|CL 12:0_16:0_16:0_16:1	null|null	null|null	[M-2H]2-	null	null	null	1965	2124	1873	1804	2242	1714	1153	836	698	1637	1341	1653	1586.6666666666665	0.30731382125652029
+SML	103	null	null|null	null|null	null|null	null|null	CL 60:2|CL 12:0_16:0_16:1_16:1	null|null	null|null	[M-2H]2-	null	null	null	2207	2224	1998	1820	2222	2068	1401	1226	866	2115	1438	2147	1811	0.25496160212780589
+SML	104	null	null|null	null|null	null|null	null|null	CL 64:3|CL 16:0_16:1_16:1_16:1	null|null	null|null	[M-2H]2-	null	null	null	1781	1649	1573	1890	2179	1606	895	776	586	2044	1531	1948	1538.1666666666667	0.33590896838526491
+SML	105	null	null|null	null|null	null|null	null|null	CL 64:4|CL 14:1_16:1_16:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	1265	1273	1011	1137	1397	1239	768	666	503	1331	1089	1207	1073.8333333333333	0.26424368871031234
+SML	106	null	null|null	null|null	null|null	null|null	CL 66:2|CL 14:0_16:0_18:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	1901	1948	1859	1979	2296	1888	780	665	494	2028	1533	2007	1614.8333333333333	0.37854218072865325
+SML	107	null	null|null	null|null	null|null	null|null	CL 66:4|CL 16:1_16:1_16:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	2596	2766	2455	2534	3120	2338	1641	1430	1003	2522	1985	2244	2219.5	0.27185155468896005
+SML	108	null	null|null	null|null	null|null	null|null	CL 68:3|CL 14:0_18:1_18:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	2236	2669	2343	2350	2729	2412	1379	1003	825	2626	1761	2324	2054.75	0.31889490723323638
+SML	109	null	null|null	null|null	null|null	null|null	CL 70:4|CL 16:1_18:1_18:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	1203	1285	1116	1246	1370	1116	768	684	500	1145	831	970	1019.5	0.26392012585526176
+SML	110	null	null	null	null	null	FA 15:0	null	null	[M-H]1-	null	null	null	2519	2618	2405	2484	2581	3106	2403	2521	2438	2954	2295	2419	2561.9166666666665	0.092650688038315443
+SML	111	null	null	null	null	null	FA 16:0	null	null	[M-H]1-	null	null	null	125127	130598	118875	115016	122949	133967	102432	111498	107774	121782	111836	113361	117934.58333333333	0.079278803593603051
+SML	112	null	null	null	null	null	FA 16:1	null	null	[M-H]1-	null	null	null	34701	22527	23744	64734	79929	54661	8634	8835	5260	46969	43017	43185	36349.666666666664	0.64723218822203565
+SML	113	null	null	null	null	null	FA 17:0	null	null	[M-H]1-	null	null	null	2198	2428	2342	2135	2009	2912	2209	2262	2401	2362	1936	2126	2276.6666666666665	0.11040784761233104
+SML	114	null	null	null	null	null	FA 18:0	null	null	[M-H]1-	null	null	null	135769	149113	136058	103761	105157	139408	116790	123008	124846	128242	123589	116030	125147.58333333333	0.10871587505340655
+SML	115	null	null	null	null	null	FA 18:1	null	null	[M-H]1-	null	null	null	52536	51703	42768	49445	64644	60264	31158	39296	27126	44601	38047	47855	45786.916666666664	0.2408902225239376
+SML	116	null	null	null	null	null	FA 18:2	null	null	[M-H]1-	null	null	null	8612	7671	7666	7748	9264	10367	7842	9131	8630	8122	7406	8840	8441.5833333333339	0.1028550824072596
+SML	117	null	null	null	null	null	FA 20:0	null	null	[M-H]1-	null	null	null	4163	5243	3969	3042	2979	3643	3242	3467	2949	3462	3257	3068	3540.3333333333335	0.18654918945686044
+SML	118	null	null	null	null	null	FA 22:0	null	null	[M-H]1-	null	null	null	2336	3047	2027	1864	2003	2171	1891	1910	1547	2008	1724	1773	2025.0833333333333	0.18850636451999608
+SML	119	null	null	null	null	null	FA 24:0	null	null	[M-H]1-	null	null	null	2144	2030	1754	2316	2301	2477	2454	2595	2611	1846	1860	1744	2177.6666666666665	0.14935733333339463
+SML	120	null	null	null	null	null	FA 26:0	null	null	[M-H]1-	null	null	null	4240	4053	3370	6175	7155	5881	5277	5239	4123	3130	3055	3170	4572.333333333333	0.29688169467825154
+SML	121	null	null	null	null	null	TG 15:0_18:1(d7)_15:0	null	null	[M+NH4]1+	null	null	null	102198	115900	106055	119179	123430	150310	133350	133899	117814	127247	127008	128495	123740.41666666667	0.10456042490373667
+SML	122	null	null	null	null	null	TG 10:0 (24:0)	null	null	[M+NH4]1+	null	null	null	309	541	279	594	550	459	518	594	376	626	571	609	502.16666666666669	0.23813153767882028
+SML	123	null	null	null	null	null	TG 10:0 (26:1)	null	null	[M+NH4]1+	null	null	null	885	782	629	0	609	897	247	447	312	303	1788	1568	705.58333333333326	0.75204377041611359
+SML	124	null	null	null	null	null	TG 10:0 (26:0)	null	null	[M+NH4]1+	null	null	null	2432	1735	2403	1665	2221	1674	1412	1521	1471	3459	3306	1956	2104.5833333333335	0.32815393931934839
+SML	125	null	null	null	null	null	TG 12:0 (24:0)	null	null	[M+NH4]1+	null	null	null	444	653	541	585	565	382	662	518	356	1491	703	688	632.33333333333337	0.46460140375671627
+SML	126	null	null	null	null	null	TG 14:0 (22:0)	null	null	[M+NH4]1+	null	null	null	588	547	324	429	344	244	159	406	0	1053	724	935	479.41666666666663	0.64477684284069636
+SML	127	null	null	null	null	null	TG 16:0 (20:0)	null	null	[M+NH4]1+	null	null	null	2212	1197	1009	1188	1750	1444	929	2018	1588	2421	1276	2006	1586.5	0.31051728699671299
+SML	128	null	null	null	null	null	TG 10:0 (28:1)	null	null	[M+NH4]1+	null	null	null	1082	953	738	1088	1797	1153	1015	744	606	3186	2818	2337	1459.75	0.59505700914557991
+SML	129	null	null	null	null	null	TG 12:0 (26:1)	null	null	[M+NH4]1+	null	null	null	774	671	797	1221	1118	1406	871	788	471	2659	1788	2532	1258	0.57176636850834262
+SML	130	null	null	null	null	null	TG 14:0 (24:1)	null	null	[M+NH4]1+	null	null	null	471	479	344	612	376	282	224	1068	488	829	876	550	549.91666666666663	0.46595331677888535
+SML	131	null	null	null	null	null	TG 16:1 (22:0)	null	null	[M+NH4]1+	null	null	null	1550	1609	900	1421	1441	280	821	744	865	3421	2379	3195	1552.1666666666665	0.63278304378068639
+SML	132	null	null	null	null	null	TG 10:0 (28:0)	null	null	[M+NH4]1+	null	null	null	3032	1679	2544	909	2247	1971	1806	2447	362	2621	2241	3118	2081.4166666666665	0.39006347380702033
+SML	133	null	null	null	null	null	TG 12:0 (26:0)	null	null	[M+NH4]1+	null	null	null	1450	2188	1218	1691	1306	1688	1853	2144	921	1797	1700	2082	1669.8333333333333	0.23265605224108699
+SML	134	null	null	null	null	null	TG 14:0 (24:0)	null	null	[M+NH4]1+	null	null	null	1459	2235	1391	1783	3179	2147	1129	2147	729	2862	3438	3985	2207	0.44917649677250676
+SML	135	null	null	null	null	null	TG 16:0 (22:0)	null	null	[M+NH4]1+	null	null	null	1574	1762	2562	1438	2800	1421	1368	1365	1294	2409	2559	1926	1873.1666666666667	0.29847029863953273
+SML	136	null	null	null	null	null	TG 14:1 (26:1)	null	null	[M+NH4]1+	null	null	null	0	574	0	700	841	318	0	297	412	1053	662	1279	511.33333333333337	0.81942966017572028
+SML	137	null	null	null	null	null	TG 16:1 (24:1)	null	null	[M+NH4]1+	null	null	null	2065	1538	1635	2359	1353	2806	959	800	697	4221	2560	3618	2050.9166666666665	0.54221214282845054
+SML	138	null	null	null	null	null	TG 8:0 (32:2)	null	null	[M+NH4]1+	null	null	null	768	703	835	1038	668	712	344	218	0	1668	1406	1074	786.16666666666663	0.60318579424547247
+SML	139	null	null	null	null	null	TG 10:0 (30:2)	null	null	[M+NH4]1+	null	null	null	453	576	400	574	1003	0	0	0	0	1050	874	1021	495.91666666666663	0.85769124203709612
+SML	140	null	null	null	null	null	TG 8:0 (32:1)	null	null	[M+NH4]1+	null	null	null	950	515	291	835	653	418	515	388	353	1147	235	991	607.58333333333337	0.49974968017297333
+SML	141	null	null	null	null	null	TG 10:0 (30:1)	null	null	[M+NH4]1+	null	null	null	6232	5076	6082	4991	5574	5356	3859	5350	2674	9556	8253	8968	5997.583333333333	0.337712699521103
+SML	142	null	null	null	null	null	TG 12:0 (28:1)	null	null	[M+NH4]1+	null	null	null	1503	1162	1326	1126	1326	1388	1391	1491	500	2676	2103	2338	1527.5	0.38371386681986153
+SML	143	null	null	null	null	null	TG 14:0 (26:1)	null	null	[M+NH4]1+	null	null	null	7968	7009	8415	8353	9303	7044	5900	7788	5132	14074	11597	14321	8908.6666666666661	0.33238700615135847
+SML	144	null	null	null	null	null	TG 16:0 (24:1)	null	null	[M+NH4]1+	null	null	null	2306	1400	1085	1015	1500	1406	1532	1574	621	2035	1357	1215	1420.5	0.31246674206108405
+SML	145	null	null	null	null	null	TG 18:1 (22:0)	null	null	[M+NH4]1+	null	null	null	703	865	900	1226	879	471	635	1176	324	824	979	629	800.91666666666663	0.33175673587042426
+SML	146	null	null	null	null	null	TG 16:1 (24:0)	null	null	[M+NH4]1+	null	null	null	9684	10389	7579	8762	13360	9785	7685	9800	6653	16911	13615	17671	10991.166666666666	0.32857713853239645
+SML	147	null	null	null	null	null	TG 14:1 (26:0)	null	null	[M+NH4]1+	null	null	null	2194	1794	909	1226	1485	785	1112	1550	744	2085	2341	1968	1516.0833333333333	0.37173622290009656
+SML	148	null	null	null	null	null	TG 10:0 (30:0)	null	null	[M+NH4]1+	null	null	null	5191	5750	4203	2706	4641	4382	3579	3921	2732	4271	4865	4085	4193.833333333333	0.21475455295944526
+SML	149	null	null	null	null	null	TG 12:0 (28:0)	null	null	[M+NH4]1+	null	null	null	2174	1571	1962	1703	1600	1318	894	1659	1647	2315	1665	1385	1657.75	0.22842215656899301
+SML	150	null	null	null	null	null	TG 14:0 (26:0)	null	null	[M+NH4]1+	null	null	null	9050	10297	9524	7562	324	7138	6521	8297	5024	8679	7129	10071	7468	0.36515798741095268
+SML	151	null	null	null	null	null	TG 16:0 (24:0)	null	null	[M+NH4]1+	null	null	null	11532	9538	11875	7356	9541	6124	8441	7112	5326	11579	8832	10656	8992.6666666666661	0.24415930704899474
+SML	152	null	null	null	null	null	TG 10:0 (31:1)	null	null	[M+NH4]1+	null	null	null	921	1026	682	271	459	576	882	779	0	1074	329	803	650.16666666666663	0.50814012796172625
+SML	153	null	null	null	null	null	TG 16:1 (25:0)	null	null	[M+NH4]1+	null	null	null	906	512	421	532	1021	0	1403	1047	744	379	718	1059	728.5	0.52612214565857862
+SML	154	null	null	null	null	null	TG 10:0 (31:0)	null	null	[M+NH4]1+	null	null	null	803	759	521	456	574	518	1074	571	656	450	291	709	615.16666666666663	0.33119907871459853
+SML	155	null	null	null	null	null	TG 15:0 (26:0)	null	null	[M+NH4]1+	null	null	null	976	659	1074	971	535	756	1279	821	1059	1668	818	1056	972.66666666666663	0.3077780917880984
+SML	156	null	null	null	null	null	TG 16:0 (25:0)	null	null	[M+NH4]1+	null	null	null	1385	1388	938	591	965	471	1403	1479	1291	629	650	335	960.41666666666663	0.43399082984110315
+SML	157	null	null	null	null	null	TG 14:1 (28:1)	null	null	[M+NH4]1+	null	null	null	459	582	503	1085	1168	1079	759	0	0	1941	1315	1606	874.75	0.68745668642513047
+SML	158	null	null	null	null	null	TG 16:1 (26:1)	null	null	[M+NH4]1+	null	null	null	18727	15523	15835	21750	21168	19403	13644	11252	10090	36632	30042	35933	20833.25	0.42979554432501149
+SML	159	null	null	null	null	null	TG 18:1 (24:1)	null	null	[M+NH4]1+	null	null	null	524	259	388	844	597	371	732	0	0	832	494	850	490.91666666666669	0.61454283877472871
+SML	160	null	null	null	null	null	TG 8:0 (34:2)	null	null	[M+NH4]1+	null	null	null	397	685	429	418	0	571	353	712	0	697	835	709	483.83333333333331	0.56422759671724554
+SML	161	null	null	null	null	null	TG 10:0 (32:2)	null	null	[M+NH4]1+	null	null	null	6071	4738	5297	6326	7362	6418	4153	3279	2235	12006	9424	10403	6476	0.45063430511979463
+SML	162	null	null	null	null	null	TG 12:0 (30:2)	null	null	[M+NH4]1+	null	null	null	224	359	162	388	582	456	159	0	279	1150	776	741	439.66666666666663	0.73850500760529647
+SML	163	null	null	null	null	null	TG 8:0 (34:1)	null	null	[M+NH4]1+	null	null	null	524	694	515	512	0	0	874	0	0	429	294	350	349.33333333333331	0.85269735569303184
+SML	164	null	null	null	null	null	TG 10:0 (32:1)	null	null	[M+NH4]1+	null	null	null	22444	20187	20097	15529	21056	16174	16485	14888	12338	20097	18413	18853	18046.75	0.16456089908730187
+SML	165	null	null	null	null	null	TG 12:0 (30:1)	null	null	[M+NH4]1+	null	null	null	4426	2724	3724	2838	4206	4379	2956	3162	2241	6065	4241	5918	3906.6666666666665	0.31068520146972251
+SML	166	null	null	null	null	null	TG 14:0 (28:1)	null	null	[M+NH4]1+	null	null	null	388	7421	8188	8444	8718	7412	7171	7171	4453	13624	9991	12250	7935.916666666667	0.42805085824637074
+SML	167	null	null	null	null	null	TG 16:0 (26:1)	null	null	[M+NH4]1+	null	null	null	39506	31925	32174	23913	33459	23371	26648	26421	20329	33635	27888	34230	29458.25	0.18910887581071237
+SML	168	null	null	null	null	null	TG 18:1 (24:0)	null	null	[M+NH4]1+	null	null	null	4371	3997	3924	2956	3812	4091	4650	3871	3268	5694	4950	4632	4184.666666666667	0.17669936733818753
+SML	169	null	null	null	null	null	TG 16:1 (26:0)	null	null	[M+NH4]1+	null	null	null	46238	45997	39209	31435	40899	34179	35879	33326	25044	42554	36944	43565	37939.083333333336	0.16790402721314682
+SML	170	null	null	null	null	null	TG 14:1 (28:0)	null	null	[M+NH4]1+	null	null	null	1297	879	1268	1250	1150	806	894	1171	959	1935	2341	1812	1313.5	0.36236111447887531
+SML	171	null	null	null	null	null	TG 10:0 (32:0)	null	null	[M+NH4]1+	null	null	null	14426	15582	12874	10894	11435	8744	10779	11321	7315	9597	9703	10953	11135.25	0.20745178368300088
+SML	172	null	null	null	null	null	TG 12:0 (30:0)	null	null	[M+NH4]1+	null	null	null	4200	4306	2644	3171	3526	2488	2968	2409	1829	3562	2876	2715	3057.8333333333335	0.24020063123800339
+SML	173	null	null	null	null	null	TG 14:0 (28:0)	null	null	[M+NH4]1+	null	null	null	5782	6544	4715	4195	5318	7282	5032	6403	2107	8024	6591	10132	6010.416666666667	0.33701718196007768
+SML	174	null	null	null	null	null	TG 16:0 (26:0)	null	null	[M+NH4]1+	null	null	null	59659	57976	52644	30979	43508	34706	48315	40767	29885	33233	28874	37491	41503.083333333336	0.26314196538602963
+SML	175	null	null	null	null	null	TG 18:0 (24:0)	null	null	[M+NH4]1+	null	null	null	2038	1585	1362	1088	1615	1296	2871	1397	982	2108	1894	1885	1676.75	0.31130543421230727
+SML	176	null	null	null	null	null	TG 15:0 (28:2)	null	null	[M+NH4]1+	null	null	null	674	276	409	1382	362	494	0	356	0	1285	1218	1556	667.66666666666674	0.82234120743526629
+SML	177	null	null	null	null	null	TG 9:0 (34:1)	null	null	[M+NH4]1+	null	null	null	10338	10497	9756	7491	8200	6553	9521	7774	6668	7197	8212	10459	8555.5	0.17390287925119863
+SML	178	null	null	null	null	null	TG 12:0 (31:1)	null	null	[M+NH4]1+	null	null	null	444	0	253	400	1029	568	609	382	359	450	418	385	441.41666666666669	0.54454468301479808
+SML	179	null	null	null	null	null	TG 16:1 (27:0)	null	null	[M+NH4]1+	null	null	null	818	682	944	1229	894	400	853	1065	432	765	565	765	784.33333333333337	0.31017708617745843
+SML	180	null	null	null	null	null	TG 16:0 (27:0)	null	null	[M+NH4]1+	null	null	null	1265	897	759	279	812	568	1076	1156	465	238	532	824	739.25	0.44898421070698857
+SML	181	null	null	null	null	null	TG 16:1 (28:2)	null	null	[M+NH4]1+	null	null	null	674	276	409	1382	362	494	0	356	0	1285	1218	1556	667.66666666666674	0.82234120743526629
+SML	182	null	null	null	null	null	TG 14:1 (30_2)	null	null	[M+NH4]1+	null	null	null	0	494	253	0	568	0	0	0	0	962	888	732	324.75	1.1798624577747814
+SML	183	null	null	null	null	null	TG 14:1 (30:1)	null	null	[M+NH4]1+	null	null	null	1918	1271	1826	2629	2124	1018	1715	1315	703	4538	4238	5300	2382.916666666667	0.62957003186156824
+SML	184	null	null	null	null	null	TG 16:1 (28:1)	null	null	[M+NH4]1+	null	null	null	32502	32433	28787	38006	45236	31236	23607	20965	14310	75190	61396	65721	39115.75	0.4867007821649853
+SML	185	null	null	null	null	null	TG 18:1 (26:1)	null	null	[M+NH4]1+	null	null	null	9182	8482	7576	7874	9574	8324	7018	5138	3938	12968	11826	14862	8896.8333333333339	0.35025889952986999
+SML	186	null	null	null	null	null	TG 10:0 (34:2)	null	null	[M+NH4]1+	null	null	null	6864	5800	4782	6853	7213	5688	3732	4456	2353	8691	8597	11938	6413.916666666667	0.40049984444277442
+SML	187	null	null	null	null	null	TG 12:0 (32:2)	null	null	[M+NH4]1+	null	null	null	9009	7094	8285	7668	11497	7188	4897	4471	2844	17685	14991	14988	9218.0833333333339	0.50384771868306988
+SML	188	null	null	null	null	null	TG 14:0 (30:2)	null	null	[M+NH4]1+	null	null	null	1694	1712	1841	1185	2679	2224	1297	1394	1350	5071	3267	4385	2341.5833333333335	0.54608109687896789
+SML	189	null	null	null	null	null	TG 10:0 (34:1)	null	null	[M+NH4]1+	null	null	null	14409	12121	10682	8109	11653	8860	10488	10344	6050	8679	7324	9124	9820.25	0.23232184815196247
+SML	190	null	null	null	null	null	TG 12:0 (32:1)	null	null	[M+NH4]1+	null	null	null	15441	12724	11621	9165	14279	11191	9409	13053	6885	13950	12858	14056	12052.666666666666	0.20796785860979539
+SML	191	null	null	null	null	null	TG 14:0 (30:1)	null	null	[M+NH4]1+	null	null	null	6121	7245	5847	6778	8600	5276	3965	4579	3662	9490	6431	11079	6589.416666666667	0.33964267411051446
+SML	192	null	null	null	null	null	TG 16:0 (28:1)	null	null	[M+NH4]1+	null	null	null	37081	36410	33880	24369	32495	23501	30819	26752	17074	26761	25261	32087	28874.166666666668	0.20538342035407878
+SML	193	null	null	null	null	null	TG 18:0 (26:1)	null	null	[M+NH4]1+	null	null	null	8288	6535	7264	6129	5500	5285	4941	3765	3391	7268	5465	6847	5889.833333333333	0.24702980953407858
+SML	194	null	null	null	null	null	TG 18:1 (26:0)	null	null	[M+NH4]1+	null	null	null	20989	20718	16341	13868	14267	14659	17359	16026	10604	12794	12391	11844	15155	0.2175631949340274
+SML	195	null	null	null	null	null	TG 16:1 (28:0)	null	null	[M+NH4]1+	null	null	null	31406	34900	1021	24888	31194	462	26765	23408	16371	31432	25285	26358	22790.833333333332	0.49841539937767426
+SML	196	null	null	null	null	null	TG 14:1 (30:0)	null	null	[M+NH4]1+	null	null	null	967	1938	965	1141	1559	997	785	600	1071	2165	1550	1729	1288.9166666666667	0.37830187039863677
+SML	197	null	null	null	null	null	TG 10:0 (34:0)	null	null	[M+NH4]1+	null	null	null	5157	6074	5891	3600	5068	4597	5353	4656	3838	3159	3432	3185	4500.833333333333	0.2305506421649752
+SML	198	null	null	null	null	null	TG 12:0 (32:0)	null	null	[M+NH4]1+	null	null	null	11841	11618	9556	9018	8941	7147	8518	7253	3626	5929	7818	7915	8265	0.27386788363517622
+SML	199	null	null	null	null	null	TG 14:0 (30:0)	null	null	[M+NH4]1+	null	null	null	3288	4744	3212	2447	3894	2069	2941	1818	1432	2238	2416	2553	2754.3333333333335	0.33558221307924785
+SML	200	null	null	null	null	null	TG 16:0 (28:0)	null	null	[M+NH4]1+	null	null	null	50226	58124	44641	33535	39361	31332	38675	32219	23646	32062	28471	31651	36995.25	0.2652164055558342
+SML	201	null	null	null	null	null	TG 18:0 (26:0)	null	null	[M+NH4]1+	null	null	null	12626	11821	11000	8082	10109	6591	10250	8444	5765	6565	7282	7565	8841.6666666666661	0.25509377076767414
+SML	202	null	null	null	null	null	TG 15:1 (30:1)	null	null	[M+NH4]1+	null	null	null	6121	7544	5847	7091	8600	5276	4153	4579	3662	9909	6850	11359	6749.25	0.34539863799245596
+SML	203	null	null	null	null	null	TG 16:1 (29:1)	null	null	[M+NH4]1+	null	null	null	797	559	374	841	909	888	618	238	306	1218	644	1747	761.58333333333337	0.55029264926996901
+SML	204	null	null	null	null	null	TG 14:0 (31:1)	null	null	[M+NH4]1+	null	null	null	638	347	415	509	332	0	597	750	359	744	665	1097	537.75	0.5156653209178429
+SML	205	null	null	null	null	null	TG 16:1 (29:0)	null	null	[M+NH4]1+	null	null	null	412	809	315	659	568	0	632	479	0	382	324	741	443.41666666666669	0.58878784507028703
+SML	206	null	null	null	null	null	TG 14:1 (32:2)	null	null	[M+NH4]1+	null	null	null	5653	4676	3815	5612	6342	4979	3084	2074	1318	14624	9403	9023	5883.5833333333339	0.62496196014298533
+SML	207	null	null	null	null	null	TG 16:1 (30:2)	null	null	[M+NH4]1+	null	null	null	11912	10594	10935	16732	16876	14476	5000	4276	2629	1003	22659	24595	11807.25	0.64835039317945731
+SML	208	null	null	null	null	null	TG 14:1 (32:1)	null	null	[M+NH4]1+	null	null	null	8029	5774	6985	5474	9343	8018	4529	4172	3844	11747	9471	11815	7433.416666666667	0.37407047343140387
+SML	209	null	null	null	null	null	TG 16:1 (30:1)	null	null	[M+NH4]1+	null	null	null	63921	61787	61071	62448	77740	63082	42935	35232	26476	98235	331	97726	57582	0.48990977208406711
+SML	210	null	null	null	null	null	TG 18:1 (28:1)	null	null	[M+NH4]1+	null	null	null	11069	13003	11375	9648	12783	10385	10854	10056	5621	17215	14993	17018	12001.666666666666	0.27305610265118901
+SML	211	null	null	null	null	null	TG 10:0 (36:2)	null	null	[M+NH4]1+	null	null	null	1809	1600	856	921	550	1112	591	868	459	1465	994	1729	1079.5	0.4332174953969341
+SML	212	null	null	null	null	null	TG 12:0 (34:2)	null	null	[M+NH4]1+	null	null	null	3174	5074	5071	7009	8406	6274	4797	5291	3312	10171	8497	7650	6227.166666666667	0.34746793383666141
+SML	213	null	null	null	null	null	TG 14:0 (32:2)	null	null	[M+NH4]1+	null	null	null	28015	24741	25044	26975	553	23800	17306	15250	10562	41477	31844	39176	23728.583333333332	0.48797006824900413
+SML	214	null	null	null	null	null	TG 16:0 (30:2)	null	null	[M+NH4]1+	null	null	null	7174	6038	6162	3635	7706	6485	5000	3535	2859	10556	7837	8144	6260.916666666667	0.35714208189943031
+SML	215	null	null	null	null	null	TG 12:0 (34:1)	null	null	[M+NH4]1+	null	null	null	11050	11416	9729	7259	8885	8221	9938	8703	5268	11006	6976	9853	9025.3333333333339	0.2058235954413096
+SML	216	null	null	null	null	null	TG 14:0 (32:1)	null	null	[M+NH4]1+	null	null	null	23674	27779	22326	24176	24400	20421	16365	13883	11256	29435	368	26256	20028.25	0.41421188268545556
+SML	217	null	null	null	null	null	TG 16:0 (30:1)	null	null	[M+NH4]1+	null	null	null	41305	39847	39506	32928	38594	33076	32035	26539	20950	43991	35812	38591	35264.5	0.1864992517626799
+SML	218	null	null	null	null	null	TG 18:0 (28:1)	null	null	[M+NH4]1+	null	null	null	6776	7976	8418	9288	8371	8115	6891	7500	5588	8150	6179	9759	7750.916666666667	0.15786451029183529
+SML	219	null	null	null	null	null	TG 18:1 (28:0)	null	null	[M+NH4]1+	null	null	null	20038	23318	18662	13794	18653	15053	16621	15357	14659	13394	13606	13409	16380.333333333334	0.19291615394610506
+SML	220	null	null	null	null	null	TG 16:1 (30:0)	null	null	[M+NH4]1+	null	null	null	26741	25544	21282	22401	30603	19179	19344	16056	12076	23482	865	23459	20086	0.38727462973504195
+SML	221	null	null	null	null	null	TG 14:1 (32:0)	null	null	[M+NH4]1+	null	null	null	3266	3212	2882	2094	2809	1785	2962	2465	1288	3553	2329	3294	2661.5833333333335	0.25707823092830873
+SML	222	null	null	null	null	null	TG 10:0 (36:1)	null	null	[M+NH4]1+	null	null	null	2615	1550	2609	1806	2985	1912	1912	2965	1600	1817	2109	2703	2215.25	0.2376918723046598
+SML	223	null	null	null	null	null	TG 12:0 (34:0)	null	null	[M+NH4]1+	null	null	null	2688	3762	2385	1800	2100	1409	2626	2544	1585	700	1412	1576	2048.9166666666665	0.39410296594941729
+SML	224	null	null	null	null	null	TG 14:0 (32:0)	null	null	[M+NH4]1+	null	null	null	3053	3212	3053	1662	776	518	2724	1482	1250	1638	3747	1063	2014.8333333333333	0.5376573370195572
+SML	225	null	null	null	null	null	TG 16:0 (30:0)	null	null	[M+NH4]1+	null	null	null	11188	12447	12799	6186	8372	5860	8280	7359	5501	5013	4232	3392	7552.4166666666661	0.41806710816334763
+SML	226	null	null	null	null	null	TG 18:0 (28:0)	null	null	[M+NH4]1+	null	null	null	6441	6332	5818	2932	4209	3053	4606	2691	2879	1988	3147	3685	3981.75	0.37855059959007775
+SML	227	null	null	null	null	null	TG 10:0 (36:0)	null	null	[M+NH4]1+	null	null	null	1041	897	806	715	526	468	597	591	597	394	479	656	647.25	0.29268799308115118
+SML	228	null	null	null	null	null	TG 15:1 (32:2)	null	null	[M+NH4]1+	null	null	null	1229	1640	606	1325	2218	1334	915	712	565	1977	2376	1941	1403.1666666666667	0.44972127609403961
+SML	229	null	null	null	null	null	TG 16:1 (31:2)	null	null	[M+NH4]1+	null	null	null	2165	3018	1935	3603	4512	2559	1029	1159	929	4794	2826	5591	2843.3333333333335	0.53973595236366323
+SML	230	null	null	null	null	null	TG 16:1 (31:1)	null	null	[M+NH4]1+	null	null	null	8432	5657	4676	5418	5697	5203	4606	5088	4221	6894	4591	7682	5680.416666666667	0.23245278620378237
+SML	231	null	null	null	null	null	TG 15:0 (32:2)	null	null	[M+NH4]1+	null	null	null	2276	2432	2338	1762	3047	1924	2050	3579	1868	2468	2100	2555	2366.5833333333335	0.21968492977982149
+SML	232	null	null	null	null	null	TG 16:0 (31:2)	null	null	[M+NH4]1+	null	null	null	1697	2268	2003	3603	1347	2141	1276	953	797	1953	1662	5591	2107.5833333333335	0.6255508325173067
+SML	233	null	null	null	null	null	TG 14:0 (33:1)	null	null	[M+NH4]1+	null	null	null	915	1459	1206	626	726	0	621	497	468	547	882	797	728.66666666666663	0.51213291140635508
+SML	234	null	null	null	null	null	TG 15:0 (32:1)	null	null	[M+NH4]1+	null	null	null	1825	2155	2016	1464	2867	1795	4003	1645	1332	1929	1869	2294	2099.5	0.34316751894462355
+SML	235	null	null	null	null	null	TG 16:0 (31:1)	null	null	[M+NH4]1+	null	null	null	4774	3441	3503	3024	3459	5203	3882	2024	2406	3356	2506	2691	3355.75	0.27968826802167029
+SML	236	null	null	null	null	null	TG 18:1 (29:0)	null	null	[M+NH4]1+	null	null	null	444	506	0	226	612	421	541	532	484	415	359	526	422.16666666666669	0.39448123540578117
+SML	237	null	null	null	null	null	TG 16:1 (31:0)	null	null	[M+NH4]1+	null	null	null	2441	2638	2262	1524	1637	1362	1829	1985	1847	1052	1406	1194	1764.75	0.28206124635379876
+SML	238	null	null	null	null	null	TG 15:0 (32:0)	null	null	[M+NH4]1+	null	null	null	5566	3876	3284	2629	2774	3529	3337	3030	3479	2086	3469	2587	3303.8333333333335	0.26391660896017655
+SML	239	null	null	null	null	null	TG 14:1 (34:2)	null	null	[M+NH4]1+	null	null	null	2421	2444	2709	3565	3040	4271	1524	2326	1091	5391	4697	4941	3201.6666666666665	0.42968802232420217
+SML	240	null	null	null	null	null	TG 16:1 (32:2)	null	null	[M+NH4]1+	null	null	null	242825	217621	211495	270497	305838	236666	100526	104579	71297	289965	251726	284901	215661.33333333334	0.37092921748197272
+SML	241	null	null	null	null	null	TG 18:1 (30:2)	null	null	[M+NH4]1+	null	null	null	2576	2588	2674	1712	3409	3526	1612	1356	1191	4950	3682	3747	2751.9166666666665	0.41789123498611536
+SML	242	null	null	null	null	null	TG 14:1 (34:1)	null	null	[M+NH4]1+	null	null	null	3724	4750	3659	4509	6641	4256	4588	4318	2012	6276	6359	6671	4813.583333333333	0.29638743870092227
+SML	243	null	null	null	null	null	TG 16:1 (32:1)	null	null	[M+NH4]1+	null	null	null	195744	192500	186506	171299	196771	161621	125497	104644	80494	200339	173188	196960	165463.58333333334	0.24382247835919885
+SML	244	null	null	null	null	null	TG 18:1 (30:1)	null	null	[M+NH4]1+	null	null	null	26091	25935	23259	23471	27341	19962	20109	17131	14735	32671	25062	30400	23847.25	0.21956332101588047
+SML	245	null	null	null	null	null	TG 12:0 (36:2)	null	null	[M+NH4]1+	null	null	null	991	950	1094	1265	1391	765	1062	888	721	1862	1138	1618	1145.4166666666667	0.29714282697321448
+SML	246	null	null	null	null	null	TG 14:0 (34:2)	null	null	[M+NH4]1+	null	null	null	24650	24171	23091	23000	27497	18185	17215	17538	13303	30900	26979	30788	23109.75	0.24184085259650531
+SML	247	null	null	null	null	null	TG 16:0 (32:2)	null	null	[M+NH4]1+	null	null	null	95593	90029	80944	82662	101881	83615	58021	55291	43644	94468	79097	89611	79571.333333333328	0.22606039798261099
+SML	248	null	null	null	null	null	TG 18:0 (30:2)	null	null	[M+NH4]1+	null	null	null	878	1512	1176	1712	1226	868	1612	1541	1191	1915	1750	1894	1439.5833333333333	0.25370452762557483
+SML	249	null	null	null	null	null	TG 14:0 (34:1)	null	null	[M+NH4]1+	null	null	null	21759	19318	15815	14015	16629	13065	12956	10679	8203	13382	9377	16655	14321.083333333334	0.27680062346799589
+SML	250	null	null	null	null	null	TG 16:0 (32:1)	null	null	[M+NH4]1+	null	null	null	102674	104924	98106	78873	91976	71559	71066	58379	43568	69246	63421	78179	77664.25	0.24188643269462007
+SML	251	null	null	null	null	null	TG 18:0 (30:1)	null	null	[M+NH4]1+	null	null	null	7612	7912	6597	6171	8988	5879	5785	5990	3785	7156	5653	7558	6590.5	0.20579648834664474
+SML	252	null	null	null	null	null	TG 18:1 (30:0)	null	null	[M+NH4]1+	null	null	null	13422	12600	11679	9506	12835	9912	10753	11012	8265	11347	5129	11656	10676.333333333334	0.21316653304128683
+SML	253	null	null	null	null	null	TG 16:1 (32:0)	null	null	[M+NH4]1+	null	null	null	40155	41515	41402	30944	38103	28082	26162	25294	17412	31847	23497	32335	31395.666666666668	0.24654620632715796
+SML	254	null	null	null	null	null	TG 14:1 (34:0)	null	null	[M+NH4]1+	null	null	null	2856	2359	2012	1956	2321	2176	1865	1603	1103	1659	2121	3179	2100.8333333333335	0.26374532381237831
+SML	255	null	null	null	null	null	TG 12:0 (36:1)	null	null	[M+NH4]1+	null	null	null	2197	2041	1724	1353	1818	1797	1579	1924	847	2006	1524	1329	1678.25	0.22414907164832665
+SML	256	null	null	null	null	null	TG 14:0 (34:0)	null	null	[M+NH4]1+	null	null	null	1224	1399	1412	1026	1641	594	1279	2138	1315	1079	715	838	1221.6666666666667	0.344792284062861
+SML	257	null	null	null	null	null	TG 16:0 (32:0)	null	null	[M+NH4]1+	null	null	null	7045	9186	7279	5033	6078	4505	5134	5413	4398	3390	2188	1889	5128.1666666666661	0.4108861478666801
+SML	258	null	null	null	null	null	TG 18:0 (30:0)	null	null	[M+NH4]1+	null	null	null	3224	3807	1088	1691	3074	2329	2943	2571	1629	1426	888	700	2114.1666666666665	0.48162648505183675
+SML	259	null	null	null	null	null	TG 15:1 (34:2)	null	null	[M+NH4]1+	null	null	null	1203	1103	700	921	1491	1068	712	521	503	1776	1597	1556	1095.9166666666667	0.3996838818318082
+SML	260	null	null	null	null	null	TG 16:1 (33:2)	null	null	[M+NH4]1+	null	null	null	3396	2097	1953	2415	2565	2415	2750	1285	1126	4235	2435	4250	2576.8333333333335	0.38302756169885299
+SML	261	null	null	null	null	null	TG 18:1 (31:2)	null	null	[M+NH4]1+	null	null	null	1574	991	1356	750	871	1132	1100	591	332	1991	1112	1697	1124.75	0.42130847766897456
+SML	262	null	null	null	null	null	TG 15:1 (34:1)	null	null	[M+NH4]1+	null	null	null	1785	2016	1512	1090	1700	1409	1203	838	708	1649	1317	1610	1403.0833333333333	0.27793424514358839
+SML	263	null	null	null	null	null	TG 16:1 (33:1)	null	null	[M+NH4]1+	null	null	null	5079	3003	2791	3515	2465	3097	3712	3741	2497	4776	3235	4085	3499.6666666666665	0.23792394492851593
+SML	264	null	null	null	null	null	TG 17:1 (32:1)	null	null	[M+NH4]1+	null	null	null	7685	9715	6950	5447	9211	7029	6029	5453	3585	5732	6735	8313	6823.666666666667	0.25448784953893189
+SML	265	null	null	null	null	null	TG 18:1 (31:1)	null	null	[M+NH4]1+	null	null	null	2429	3312	3459	2491	2965	2171	2841	1329	468	3409	2030	4247	2595.9166666666665	0.39411690155019347
+SML	266	null	null	null	null	null	TG 15:0 (34:2)	null	null	[M+NH4]1+	null	null	null	1662	2795	2806	1513	2333	3241	3462	2723	2806	2211	1375	3183	2509.1666666666665	0.27709396486230975
+SML	267	null	null	null	null	null	TG 16:0 (33:2)	null	null	[M+NH4]1+	null	null	null	1609	1485	1618	1138	2285	1732	1350	644	574	1412	1621	1659	1427.25	0.32890391277771175
+SML	268	null	null	null	null	null	TG 18:0 (31:2)	null	null	[M+NH4]1+	null	null	null	991	156	203	747	500	521	574	806	215	565	0	344	468.5	0.62927173688473126
+SML	269	null	null	null	null	null	TG 15:0 (34:1)	null	null	[M+NH4]1+	null	null	null	2397	2853	2241	1100	1824	1668	1980	1882	1379	959	1179	1779	1770.0833333333333	0.31715185452433342
+SML	270	null	null	null	null	null	TG 16:0 (33:1)	null	null	[M+NH4]1+	null	null	null	2300	2606	2624	1376	2541	1753	3339	1806	1756	1946	1318	1832	2099.75	0.28199427692249235
+SML	271	null	null	null	null	null	TG 18:0 (31:1)	null	null	[M+NH4]1+	null	null	null	679	1141	909	409	1471	1238	982	818	871	526	797	1012	904.41666666666663	0.32756738213187575
+SML	272	null	null	null	null	null	TG 18:1 (31:0)	null	null	[M+NH4]1+	null	null	null	1289	1397	1124	815	1779	1338	1888	1188	1241	800	862	1118	1236.5833333333333	0.27747939100963015
+SML	273	null	null	null	null	null	TG 17:1 (32:0)	null	null	[M+NH4]1+	null	null	null	1779	2526	1770	1983	1653	2900	2253	2565	2039	3232	1965	1473	2178.1666666666665	0.24410334382224982
+SML	274	null	null	null	null	null	TG 16:1 (33:0)	null	null	[M+NH4]1+	null	null	null	1459	485	1032	556	518	826	626	647	465	868	476	685	720.25	0.40575531540887233
+SML	275	null	null	null	null	null	TG 16:1 (34:2)	null	null	[M+NH4]1+	null	null	null	175850	161672	142317	188055	216764	170148	99737	81756	60288	219197	184013	201045	158403.5	0.33029007031916641
+SML	276	null	null	null	null	null	TG 18:1 (32:2)	null	null	[M+NH4]1+	null	null	null	77502	70374	66927	88455	94119	81473	42411	41451	27654	94031	77910	91473	71148.333333333328	0.3164042523056369
+SML	277	null	null	null	null	null	TG 16:1 (34:1)	null	null	[M+NH4]1+	null	null	null	117641	116240	113847	106785	127906	98326	1288	68124	51571	113562	96424	115223	93911.416666666672	0.38904356555982478
+SML	278	null	null	null	null	null	TG 18:1 (32:1)	null	null	[M+NH4]1+	null	null	null	77838	83348	83828	72356	82385	68206	59400	49035	36500	64844	58235	69323	67108.166666666672	0.21697671902595481
+SML	279	null	null	null	null	null	TG 14:1 (36:1)	null	null	[M+NH4]1+	null	null	null	1609	2235	1715	1394	1947	1215	1403	1547	1344	1947	1265	1415	1586.3333333333333	0.19928824143523777
+SML	280	null	null	null	null	null	TG 14:0 (36:2)	null	null	[M+NH4]1+	null	null	null	7068	5241	6697	6226	7882	6900	7350	5444	3813	6409	5762	7424	6351.333333333333	0.17945847077005186
+SML	281	null	null	null	null	null	TG 16:0 (34:2)	null	null	[M+NH4]1+	null	null	null	80994	81827	76115	77894	85871	72893	52818	47465	34199	73179	57541	75932	68060.666666666672	0.23694950758104932
+SML	282	null	null	null	null	null	TG 18:0 (32:2)	null	null	[M+NH4]1+	null	null	null	25053	25271	19800	19965	24303	21841	14581	11872	8713	22165	17690	24735	19665.75	0.27817469229483316
+SML	283	null	null	null	null	null	TG 16:0 (34:1)	null	null	[M+NH4]1+	null	null	null	77672	79190	77281	56091	81892	59065	57959	52340	35744	52347	848	53965	57032.833333333328	0.39611262339016262
+SML	284	null	null	null	null	null	TG 18:0 (32:1)	null	null	[M+NH4]1+	null	null	null	32809	32727	26802	25103	33037	23947	20560	19594	13941	23526	18756	26972	24814.5	0.24468416776818841
+SML	285	null	null	null	null	null	TG 18:1 (32:0)	null	null	[M+NH4]1+	null	null	null	23298	23466	22435	17658	21118	16951	18287	16279	11668	16600	13364	19426	18379.166666666668	0.20454003852604441
+SML	286	null	null	null	null	null	TG 16:1 (34:0)	null	null	[M+NH4]1+	null	null	null	24547	24656	20149	20842	22583	18929	15169	14355	9270	15324	14488	19720	18336	0.25492474278614108
+SML	287	null	null	null	null	null	TG 14:0 (36:1)	null	null	[M+NH4]1+	null	null	null	5171	4253	4747	4371	4758	3103	3388	4035	2759	4418	4044	5615	4221.833333333333	0.19714612991108804
+SML	288	null	null	null	null	null	TG 16:0 (34:0)	null	null	[M+NH4]1+	null	null	null	2669	3287	1846	1387	1861	1570	3018	1541	1891	1233	1555	1809	1972.25	0.33424052506174656
+SML	289	null	null	null	null	null	TG 18:0 (32:0)	null	null	[M+NH4]1+	null	null	null	1640	2148	1287	694	1687	829	1037	1124	673	724	959	1031	1152.75	0.39901320647648725
+SML	290	null	null	null	null	null	TG 26:0 (24:0)	null	null	[M+NH4]1+	null	null	null	529	1697	756	691	1706	626	1132	1076	1209	665	665	971	976.91666666666663	0.41255216871099487
+SML	291	null	null	null	null	null	TG 14:0 (36:0)	null	null	[M+NH4]1+	null	null	null	812	1394	903	562	1212	1459	1053	1221	882	876	676	1124	1014.5	0.2733994339606623
+SML	292	null	null	null	null	null	TG 10:0 (40:0)	null	null	[M+NH4]1+	null	null	null	1097	1015	1256	582	988	662	832	1174	456	559	838	685	845.33333333333337	0.30922242004054618
+SML	293	null	null	null	null	null	TG 16:1 (35:2)	null	null	[M+NH4]1+	null	null	null	909	579	750	791	506	521	462	447	0	1324	591	729	634.08333333333337	0.49857832196705909
+SML	294	null	null	null	null	null	TG 18:1 (33:2)	null	null	[M+NH4]1+	null	null	null	1100	941	903	709	1050	726	856	1029	429	1050	815	997	883.75	0.21774468475884043
+SML	295	null	null	null	null	null	TG 17:1 (34:1)	null	null	[M+NH4]1+	null	null	null	653	0	774	0	1109	0	965	0	0	821	847	962	510.91666666666663	0.90870808856081431
+SML	296	null	null	null	null	null	TG 18:1 (33:1)	null	null	[M+NH4]1+	null	null	null	1976	2288	1974	1576	2074	1129	2735	2038	1456	1029	956	1903	1761.1666666666667	0.30736838898992735
+SML	297	null	null	null	null	null	TG 16:1 (35:1)	null	null	[M+NH4]1+	null	null	null	762	753	797	397	926	1403	824	538	491	821	929	885	793.83333333333337	0.32542746721682603
+SML	298	null	null	null	null	null	TG 15:1 (36:1)	null	null	[M+NH4]1+	null	null	null	376	812	500	362	341	459	359	0	285	218	535	326	381.08333333333331	0.51040555383167885
+SML	299	null	null	null	null	null	TG 15:0 (36:2)	null	null	[M+NH4]1+	null	null	null	818	685	1129	803	888	776	1349	903	894	629	1003	374	854.25	0.28838220502584927
+SML	300	null	null	null	null	null	TG 16:0 (35:2)	null	null	[M+NH4]1+	null	null	null	485	1112	488	194	671	791	435	365	265	215	476	641	511.5	0.51396513931999299
+SML	301	null	null	null	null	null	TG 17:0 (34:2)	null	null	[M+NH4]1+	null	null	null	875	726	874	309	585	394	365	606	0	865	374	235	517.33333333333337	0.54726009286057975
+SML	302	null	null	null	null	null	TG 18:0 (33:2)	null	null	[M+NH4]1+	null	null	null	1285	668	744	0	894	659	468	568	274	550	432	0	545.16666666666663	0.65994764396401862
+SML	303	null	null	null	null	null	TG 18:0 (33:1)	null	null	[M+NH4]1+	null	null	null	994	891	982	356	274	341	1053	588	682	694	429	500	648.66666666666663	0.42865779382349856
+SML	304	null	null	null	null	null	TG 16:0 (35:1)	null	null	[M+NH4]1+	null	null	null	447	576	753	368	685	344	309	0	409	0	526	338	396.25	0.58500828245850744
+SML	305	null	null	null	null	null	TG 15:0 (36:1)	null	null	[M+NH4]1+	null	null	null	1385	441	419	359	626	488	733	456	359	250	491	556	546.91666666666663	0.53579809270742151
+SML	306	null	null	null	null	null	TG 16:1 (36:2)	null	null	[M+NH4]1+	null	null	null	37588	32800	33185	35430	45129	32691	20959	16874	14044	34232	30747	33953	30636	0.29179379826332524
+SML	307	null	null	null	null	null	TG 18:1 (34:2)	null	null	[M+NH4]1+	null	null	null	67875	64626	55521	59382	79126	64541	33153	32879	21721	58697	51935	59194	54054.166666666664	0.30830626281978507
+SML	308	null	null	null	null	null	TG 18:1 (34:1)	null	null	[M+NH4]1+	null	null	null	69730	71094	60405	55538	62401	47551	50862	46543	33026	53132	42198	49635	53509.583333333336	0.20755071426337687
+SML	309	null	null	null	null	null	TG 20:1 (32:1)	null	null	[M+NH4]1+	null	null	null	1056	953	1429	1076	950	918	841	815	879	711	1321	1074	1001.9166666666666	0.20642595030027697
+SML	310	null	null	null	null	null	TG 16:1 (36:1)	null	null	[M+NH4]1+	null	null	null	34382	35538	38719	31462	41236	30835	24768	20668	17965	33324	27903	35921	31060.083333333332	0.22792563590713205
+SML	311	null	null	null	null	null	TG 16:0 (36:2)	null	null	[M+NH4]1+	null	null	null	24153	22744	19976	16881	20009	15750	17102	16066	11038	15806	14271	13050	17237.166666666668	0.2239206873520862
+SML	312	null	null	null	null	null	TG 18:0 (34:2)	null	null	[M+NH4]1+	null	null	null	37361	35128	30156	29776	38471	29447	22456	19809	16185	35063	30976	30253	29590.083333333332	0.2343334404041563
+SML	313	null	null	null	null	null	TG 20:0 (32:2)	null	null	[M+NH4]1+	null	null	null	1709	1465	1621	1376	1497	1459	1062	979	368	1215	809	1282	1236.8333333333333	0.30801586326456099
+SML	314	null	null	null	null	null	TG 18:0 (34:1)	null	null	[M+NH4]1+	null	null	null	28301	31011	26134	19625	26354	17247	18751	16841	11752	16836	15601	16453	20408.833333333332	0.29375787818463189
+SML	315	null	null	null	null	null	TG 20:0 (32:1)	null	null	[M+NH4]1+	null	null	null	1853	1512	1832	1991	1585	1141	1978	1024	1209	1282	1071	1191	1472.4166666666667	0.24825908159731624
+SML	316	null	null	null	null	null	TG 26:0 (26:1)	null	null	[M+NH4]1+	null	null	null	1138	1047	1203	1226	1282	1026	1524	2029	1397	1079	888	1735	1297.8333333333333	0.25229005727722581
+SML	317	null	null	null	null	null	TG 18:1 (34:0)	null	null	[M+NH4]1+	null	null	null	17329	14812	785	12794	17904	12860	13466	9588	412	9603	759	12797	10259.083333333334	0.61432839922105187
+SML	318	null	null	null	null	null	TG 16:0 (36:1)	null	null	[M+NH4]1+	null	null	null	22805	25418	21782	15915	23566	12588	13274	13076	8682	15638	13738	14285	16730.583333333332	0.31661051686952113
+SML	319	null	null	null	null	null	TG 16:1 (36:0)	null	null	[M+NH4]1+	null	null	null	6212	5926	5355	6229	5845	4818	4106	3953	3803	4202	4482	5714	5053.75	0.18309723853305795
+SML	320	null	null	null	null	null	TG 10:0 (42:1)	null	null	[M+NH4]1+	null	null	null	1126	571	932	482	821	662	853	726	959	668	821	1147	814	0.25291994930516742
+SML	321	null	null	null	null	null	TG 18:0 (34:0)	null	null	[M+NH4]1+	null	null	null	797	2003	1750	759	1361	2735	1200	868	1091	1162	667	1653	1337.1666666666667	0.45509019672157902
+SML	322	null	null	null	null	null	TG 26:0 (26:0)	null	null	[M+NH4]1+	null	null	null	4953	3085	1691	3588	4582	2931	6906	5362	4203	2900	2394	3324	3826.5833333333335	0.37750874330208156
+SML	323	null	null	null	null	null	TG 24:0 (28:0)	null	null	[M+NH4]1+	null	null	null	985	1150	762	671	856	585	962	494	221	497	674	950	733.91666666666663	0.35745860994674261
+SML	324	null	null	null	null	null	TG 16:0 (36:0)	null	null	[M+NH4]1+	null	null	null	4865	4255	4944	3085	5018	3365	5776	3994	4532	2541	1921	2729	3918.75	0.30199139324861157
+SML	325	null	null	null	null	null	TG 10:0 (42:0)	null	null	[M+NH4]1+	null	null	null	2050	2441	2224	1721	2624	1621	3085	3691	2288	1429	1547	1738	2204.9166666666665	0.30801547688602038
+SML	326	null	null	null	null	null	TG 18:1 (35:1)	null	null	[M+NH4]1+	null	null	null	503	618	559	403	318	438	0	0	0	435	579	0	321.08333333333337	0.78009791834729281
+SML	327	null	null	null	null	null	TG 18:0 (35:2)	null	null	[M+NH4]1+	null	null	null	0	0	0	0	0	344	0	0	0	326	397	297	113.66666666666667	1.4896820155734312
+SML	328	null	null	null	null	null	TG 16:1 (38:2)	null	null	[M+NH4]1+	null	null	null	824	494	506	729	818	544	400	497	250	897	688	847	624.5	0.32760226071619308
+SML	329	null	null	null	null	null	TG 18:1 (36:2)	null	null	[M+NH4]1+	null	null	null	8426	8559	7529	8209	9076	7524	5518	3559	3318	8076	5303	6622	6809.916666666667	0.28738290740910455
+SML	330	null	null	null	null	null	TG 20:1 (34:1)	null	null	[M+NH4]1+	null	null	null	962	700	850	1129	1085	1485	759	585	424	909	1009	906	900.25	0.3056614532000807
+SML	331	null	null	null	null	null	TG 18:1 (36:1)	null	null	[M+NH4]1+	null	null	null	21744	20397	20897	15447	19744	14085	13747	12079	8991	12662	10191	9115	14924.916666666668	0.31445892698053757
+SML	332	null	null	null	null	null	TG 16:1 (38:1)	null	null	[M+NH4]1+	null	null	null	2279	2500	2868	2109	2759	2300	1288	1765	915	2597	2306	3097	2231.9166666666665	0.28678249693431773
+SML	333	null	null	null	null	null	TG 18:0 (36:2)	null	null	[M+NH4]1+	null	null	null	9821	10262	9112	7991	10071	7215	6594	6994	4879	8153	4397	6815	7692	0.24968557540943453
+SML	334	null	null	null	null	null	TG 20:0 (34:2)	null	null	[M+NH4]1+	null	null	null	1135	1294	1300	1312	1738	865	815	1035	444	1056	874	1559	1118.9166666666667	0.31439547252266853
+SML	335	null	null	null	null	null	TG 22:0 (32:2)	null	null	[M+NH4]1+	null	null	null	703	1306	947	629	921	653	379	476	259	1421	544	618	738	0.47743207639264623
+SML	336	null	null	null	null	null	TG 20:0 (34:1)	null	null	[M+NH4]1+	null	null	null	1241	2153	1135	1335	759	1059	1238	788	941	1006	791	988	1119.5	0.3360728962164316
+SML	337	null	null	null	null	null	TG 22:0 (32:1)	null	null	[M+NH4]1+	null	null	null	1603	765	1438	1006	1606	747	1032	915	715	750	426	1209	1017.6666666666667	0.37044648305738886
+SML	338	null	null	null	null	null	TG 24:0 (30:1)	null	null	[M+NH4]1+	null	null	null	609	712	294	491	756	512	432	321	0	1135	759	576	549.75	0.5197483158680829
+SML	339	null	null	null	null	null	TG 26:0 (28:1)	null	null	[M+NH4]1+	null	null	null	1850	1279	1509	1582	2052	1553	1791	1479	991	1338	1297	1521	1520.1666666666667	0.18741655290738909
+SML	340	null	null	null	null	null	TG 18:0 (36:1)	null	null	[M+NH4]1+	null	null	null	7862	7138	7329	5800	6391	4471	4497	4113	3374	2818	2859	4112	5063.6666666666661	0.35130808424342863
+SML	341	null	null	null	null	null	TG 18:1 (36:0)	null	null	[M+NH4]1+	null	null	null	4109	4712	3751	2644	3879	2729	3053	3315	1909	2574	1324	2214	3017.75	0.32520642698655883
+SML	342	null	null	null	null	null	TG 16:0 (38:1)	null	null	[M+NH4]1+	null	null	null	1835	2518	2053	1976	3485	935	1397	1115	1179	1518	618	1003	1636	0.4878001287079205
+SML	343	null	null	null	null	null	TG 16:1 (38:0)	null	null	[M+NH4]1+	null	null	null	2032	2271	2662	1724	1874	1476	1950	1706	1256	950	1585	1826	1776	0.25321896432100688
+SML	344	null	null	null	null	null	TG 12:0 (42:1)	null	null	[M+NH4]1+	null	null	null	971	832	759	556	776	682	900	588	429	578	597	844	709.33333333333337	0.22982926743623255
+SML	345	null	null	null	null	null	TG 26:0 (28:0)	null	null	[M+NH4]1+	null	null	null	2897	4485	2718	2397	3935	1941	3732	3176	3424	1412	1982	3424	2960.25	0.30759256640100818
+SML	346	null	null	null	null	null	TG 18:0 (36:0)	null	null	[M+NH4]1+	null	null	null	1379	2750	3720	1526	1856	3359	2286	1788	2794	2091	959	3024	2294.3333333333335	0.36836171592510508
+SML	347	null	null	null	null	null	TG 16:0 (38:0)	null	null	[M+NH4]1+	null	null	null	3053	2315	2018	1997	2400	1668	2579	2559	2776	1065	2224	2262	2243	0.23332971891018311
+SML	348	null	null	null	null	null	TG 12:0 (42:0)	null	null	[M+NH4]1+	null	null	null	959	1871	1374	768	1729	1788	1456	1359	1674	609	709	1072	1280.6666666666667	0.34880357113597393
+SML	349	null	null	null	null	null	TG 18:1 (38:1)	null	null	[M+NH4]1+	null	null	null	1003	1279	935	676	1276	709	597	685	488	641	656	853	816.5	0.31689663478048669
+SML	350	null	null	null	null	null	TG 16:1 (40:1)	null	null	[M+NH4]1+	null	null	null	2753	2121	2044	1656	3326	1906	1556	1115	744	2076	1950	3391	2053.1666666666665	0.38675794495862914
+SML	351	null	null	null	null	null	TG 24:0 (32:2)	null	null	[M+NH4]1+	null	null	null	994	1574	912	979	1609	1059	553	353	321	1106	1056	1418	994.5	0.42663746540462849
+SML	352	null	null	null	null	null	TG 22:0 (34:1)	null	null	[M+NH4]1+	null	null	null	559	932	1003	600	1256	585	765	429	344	491	618	465	670.58333333333337	0.40153415033947398
+SML	353	null	null	null	null	null	TG 24:0 (32:1)	null	null	[M+NH4]1+	null	null	null	1518	2188	1224	1188	2291	1312	1647	847	735	1521	759	1249	1373.25	0.36483993745792109
+SML	354	null	null	null	null	null	TG 26:0 (30:1)	null	null	[M+NH4]1+	null	null	null	1800	2994	2359	1679	2206	1415	2374	2044	1406	2097	1656	2371	2033.4166666666667	0.22929259790028858
+SML	355	null	null	null	null	null	TG 20:0 (36:1)	null	null	[M+NH4]1+	null	null	null	609	671	638	500	409	382	647	159	300	550	326	233	452	0.38705491965913896
+SML	356	null	null	null	null	null	TG 18:0 (38:1)	null	null	[M+NH4]1+	null	null	null	900	926	685	944	565	394	979	624	212	750	412	706	674.75	0.36365058389134164
+SML	357	null	null	null	null	null	TG 18:1 (38:0)	null	null	[M+NH4]1+	null	null	null	1524	1174	685	894	626	885	1521	694	685	862	824	712	923.83333333333337	0.34168657852117779
+SML	358	null	null	null	null	null	TG 16:0 (40:1)	null	null	[M+NH4]1+	null	null	null	2700	1971	2506	1373	2391	1268	1279	1259	1315	1068	1088	1776	1666.1666666666667	0.35183163609800727
+SML	359	null	null	null	null	null	TG 16:1 (40:0)	null	null	[M+NH4]1+	null	null	null	2224	2406	1709	1900	2706	1262	2147	1303	1165	2256	1632	2726	1953	0.2787018573917181
+SML	360	null	null	null	null	null	TG 14:0 (42:1)	null	null	[M+NH4]1+	null	null	null	1444	1350	1515	1871	2668	1221	1832	756	1079	1491	2171	1524	1576.8333333333333	0.32147856006246062
+SML	361	null	null	null	null	null	TG 26:0 (30:0)	null	null	[M+NH4]1+	null	null	null	812	1432	1485	1265	1041	562	1315	1059	1326	491	924	756	1039	0.32263311420503915
+SML	362	null	null	null	null	null	TG 16:0 (40:0)	null	null	[M+NH4]1+	null	null	null	1685	1226	974	594	718	571	1206	565	718	621	682	791	862.58333333333337	0.40196244510398771
+SML	363	null	null	null	null	null	TG 26:1 (32:1)	null	null	[M+NH4]1+	null	null	null	456	1091	597	1156	871	965	876	409	674	697	671	621	757	0.31231821290447676
+SML	364	null	null	null	null	null	TG 18:1 (40:1)	null	null	[M+NH4]1+	null	null	null	776	641	591	444	971	541	547	441	659	1121	585	1129	703.83333333333337	0.3458784783379788
+SML	365	null	null	null	null	null	TG 16:1 (42:1)	null	null	[M+NH4]1+	null	null	null	7188	7526	6047	6606	10574	6118	4576	2882	2132	8203	4789	6635	6106.333333333333	0.37715381538357234
+SML	366	null	null	null	null	null	TG 24:0 (34:2)	null	null	[M+NH4]1+	null	null	null	1062	1382	815	500	1235	453	432	424	362	1074	871	1159	814.08333333333337	0.4509522118990491
+SML	367	null	null	null	null	null	TG 26:0 (32:2)	null	null	[M+NH4]1+	null	null	null	4019	3959	4221	4644	6759	4450	3174	3368	2250	3509	2997	5015	4030.4166666666665	0.28673035287335857
+SML	368	null	null	null	null	null	TG 24:0 (34:1)	null	null	[M+NH4]1+	null	null	null	1082	1265	1371	938	1806	597	912	447	721	797	806	1094	986.33333333333326	0.37530264169537791
+SML	369	null	null	null	null	null	TG 26:0 (32:1)	null	null	[M+NH4]1+	null	null	null	5976	7288	3893	6112	6547	4524	5618	4809	4606	4070	3035	4494	5081	0.2428369546058986
+SML	370	null	null	null	null	null	TG 18:1 (40:0)	null	null	[M+NH4]1+	null	null	null	1232	1538	1626	919	2091	1200	1182	1497	1365	959	1426	1212	1353.9166666666667	0.23466256117303169
+SML	371	null	null	null	null	null	TG 14:0 (44:1)	null	null	[M+NH4]1+	null	null	null	744	1179	735	762	1674	1132	1021	1341	812	979	1521	1115	1084.5833333333333	0.28451874773053565
+SML	372	null	null	null	null	null	TG 16:0 (42:1)	null	null	[M+NH4]1+	null	null	null	3864	5829	4956	2961	5969	3682	3490	3115	3032	3844	3144	4144	4002.5	0.26196654083342658
+SML	373	null	null	null	null	null	TG 16:1 (42:0)	null	null	[M+NH4]1+	null	null	null	3971	4024	3157	4088	5715	2344	4985	3409	2700	3397	2853	4297	3745	0.25963819935865834
+SML	374	null	null	null	null	null	TG 16:1 (43:1)	null	null	[M+NH4]1+	null	null	null	462	267	494	606	918	326	371	0	256	579	429	429	428.08333333333331	0.52350189289620086
+SML	375	null	null	null	null	null	TG 18:1 (42:1)	null	null	[M+NH4]1+	null	null	null	3726	2867	4609	3421	6952	3735	3482	2788	1926	3939	3156	4752	3779.4166666666665	0.33454951468149435
+SML	376	null	null	null	null	null	TG 16:1 (44:1)	null	null	[M+NH4]1+	null	null	null	5420	5599	5274	5437	9033	4316	5518	3729	3018	6262	3996	7339	5411.75	0.3020069842676158
+SML	377	null	null	null	null	null	TG 26:0 (34:2)	null	null	[M+NH4]1+	null	null	null	4524	6018	5359	4897	9326	4568	4538	3124	2629	3017	3918	5426	4778.666666666667	0.36981793476903413
+SML	378	null	null	null	null	null	DG 15:0_18:1(d7)	null	null	[M+NH4]1+	null	null	null	45483	46308	41730	47411	47186	66698	52155	53158	40762	55239	51899	51896	49993.75	0.13890607950427517
+SML	379	null	null	null	null	null	DG 10:0_14:0	null	null	[M+NH4]1+	null	null	null	1879	1424	1262	606	1821	1094	606	1074	485	2026	1059	1791	1260.5833333333333	0.42465127147108089
+SML	380	null	null	null	null	null	DG 10:0_16:1	null	null	[M+NH4]1+	null	null	null	2976	1526	1335	1106	2050	2174	1609	1274	1047	2035	1468	2318	1743.1666666666667	0.32970489480918164
+SML	381	null	null	null	null	null	DG 10:0_16:0	null	null	[M+NH4]1+	null	null	null	6391	7665	7579	3738	4715	5085	5844	6626	3088	3821	3388	3565	5125.416666666667	0.32349579565265468
+SML	382	null	null	null	null	null	DG 12:0_14:0	null	null	[M+NH4]1+	null	null	null	1276	674	1056	868	674	721	903	1203	688	956	747	729	874.58333333333337	0.24026895071574941
+SML	383	null	null	null	null	null	DG 10:0_18:1	null	null	[M+NH4]1+	null	null	null	332	844	1250	1541	841	576	397	591	0	529	550	400	654.25	0.63715994908143625
+SML	384	null	null	null	null	null	DG 12:0_16:1	null	null	[M+NH4]1+	null	null	null	2900	2406	1547	1956	3171	2844	2397	1476	1012	2935	2747	3032	2368.5833333333335	0.2996437202531349
+SML	385	null	null	null	null	null	DG 10:0_18:0	null	null	[M+NH4]1+	null	null	null	1035	1679	1074	847	1279	1053	691	829	621	415	632	821	914.66666666666663	0.37038364145982017
+SML	386	null	null	null	null	null	DG 12:0_16:0	null	null	[M+NH4]1+	null	null	null	4306	3350	3356	2000	2029	2203	2682	3347	2624	2818	1818	2229	2730.1666666666665	0.27156718324763823
+SML	387	null	null	null	null	null	DG 14:1_16:1	null	null	[M+NH4]1+	null	null	null	476	682	532	653	806	1176	0	291	385	618	844	794	604.75	0.49923858597183807
+SML	388	null	null	null	null	null	DG 14:0_16:1	null	null	[M+NH4]1+	null	null	null	2515	2494	2221	2188	2982	1876	1074	1482	665	1938	2376	1915	1977.1666666666665	0.32804015302797263
+SML	389	null	null	null	null	null	DG 12:0_18:0	null	null	[M+NH4]1+	null	null	null	1321	606	556	447	738	741	568	335	391	565	485	518	605.91666666666663	0.42218811820607888
+SML	390	null	null	null	null	null	DG 16:1_16:1	null	null	[M+NH4]1+	null	null	null	35454	33647	32691	32659	38035	34395	15403	11074	7215	30712	25435	25955	26889.583333333336	0.38078956006572157
+SML	391	null	null	null	null	null	DG 14:0_18:1	null	null	[M+NH4]1+	null	null	null	3209	2688	1862	1750	1921	2229	2424	2459	1285	2538	1956	1926	2187.25	0.23284077133406106
+SML	392	null	null	null	null	null	DG 16:0_16:1	null	null	[M+NH4]1+	null	null	null	13526	11356	10079	8335	10094	11747	6888	7862	3753	9159	6041	8662	8958.5	0.2982840328619093
+SML	393	null	null	null	null	null	DG 16:0_16:0	null	null	[M+NH4]1+	null	null	null	1594	2112	1638	1315	1306	1003	1000	659	885	818	615	1188	1177.75	0.375932954303067
+SML	394	null	null	null	null	null	DG 16:1_18:1	null	null	[M+NH4]1+	null	null	null	9624	9671	8474	10162	11879	10518	4841	3938	2903	9215	6055	6568	7820.6666666666661	0.36797157048694895
+SML	395	null	null	null	null	null	DG 16:0_18:1	null	null	[M+NH4]1+	null	null	null	41644	33276	35400	26796	33998	28224	21713	27132	15050	23812	19021	22750	27401.333333333336	0.27741910309635198
+SML	396	null	null	null	null	null	DG 18:0_16:1	null	null	[M+NH4]1+	null	null	null	16576	13691	13600	9144	14647	9303	8106	11435	8215	10971	8709	11841	11353.166666666666	0.24556565045435599
+SML	397	null	null	null	null	null	DG 16:0_18:0	null	null	[M+NH4]1+	null	null	null	882	2065	2026	557	1276	4206	1521	1300	1071	1432	200	965	1458.4166666666665	0.69877315045092336
+SML	398	null	null	null	null	null	DG 18:1_18:1	null	null	[M+NH4]1+	null	null	null	9506	7106	10332	7860	9821	7913	5409	7141	3859	7729	4338	5367	7198.4166666666661	0.29365997131577859
+SML	399	null	null	null	null	null	DG 18:0_18:1	null	null	[M+NH4]1+	null	null	null	30528	497	24132	17441	22024	22809	16335	18544	8300	21362	12647	16297	17576.333333333332	0.4468055621833974
+SML	400	null	null	null	null	null	DG 18:0_18:0	null	null	[M+NH4]1+	null	null	null	1844	5479	5465	2506	4774	14285	4106	3682	3400	5453	12647	5494	5761.25	0.6618932149643304
+SML	401	null	null	null	null	null	DG_14:0_26:0	null	null	[M+NH4]1+	null	null	null	938	850	918	609	794	371	838	968	418	656	524	409	691.08333333333337	0.32032478957033966
+SML	402	null	null	null	null	null	DG 26:0_16:1	null	null	[M+NH4]1+	null	null	null	844	1212	897	1015	782	1121	1835	732	582	741	724	597	923.5	0.37531754121246336
+SML	403	null	null	null	null	null	DG 26:0_18:1	null	null	[M+NH4]1+	null	null	null	1662	774	1550	944	962	844	803	918	468	609	797	706	919.75	0.3812489347159696
+SML	404	null	null	null	null	null	PI-Cer 44:0;3O	null	null	[M+H]1+	null	null	null	2984	4837	4363	3480	4559	2734	2699	2030	2361	4520	4174	5057	3649.8333333333335	0.28921128494273063
+SML	405	null	null	null	null	null	PI-Cer 46:0;3O	null	null	[M+H]1+	null	null	null	234	467	425	288	356	148	549	372	566	213	209	229	338	0.41435292694178666
+SML	406	null	null	null	null	null	Cer(d7)	null	null	[M+CH3COO]1-	null	null	null	183086	194971	186345	187339	185022	225380	223502	213128	197419	196489	199184	192079	198662	0.072979948642968806
+SML	407	null	null|null	null|null	null|null	null|null	Cer 42:0;4O|Cer 18:0;3O/24:0;(2OH)	null|null	null|null	[M-H]1-	null	null	null	29499	33533	23834	24060	33679	17042	13692	13159	10817	17624	12085	15510	20377.833333333336	0.4073827927819616
+SML	408	null	null|null	null|null	null|null	null|null	Cer 42:0;4O|Cer 18:0;3O/24:0;(2OH)	null|null	null|null	[M+CH3COO]1-	null	null	null	4421	5406	3611	3733	5058	2619	2047	1842	1646	2538	1803	2328	3087.666666666667	0.42774045238707831
+SML	409	null	null|null	null|null	null|null	null|null	Cer 43:0;4O|Cer 18:0;3O/25:0;(2OH)	null|null	null|null	[M-H]1-	null	null	null	12764	15336	8786	12651	14976	6849	3962	4144	4092	5430	3637	4496	8093.5833333333339	0.56865881146059316
+SML	410	null	null|null	null|null	null|null	null|null	Cer 44:0;3O|Cer 18:0;3O/26:0	null|null	null|null	[M-H]1-	null	null	null	32513	43029	22150	33334	46089	19182	18360	20932	20385	46671	35375	45052	31922.666666666668	0.3564022871578898
+SML	411	null	null|null	null|null	null|null	null|null	Cer 44:0;3O|Cer 18:0;3O/26:0	null|null	null|null	[M+CH3COO]1-	null	null	null	27053	35967	19235	28170	38692	15487	15815	17542	18222	40153	29350	37110	26899.666666666668	0.35152445245888631
+SML	412	null	null|null	null|null	null|null	null|null	Cer 44:0;4O|Cer 18:0;3O/26:0;(2OH)	null|null	null|null	[M-H]1-	null	null	null	267821	300732	201714	236479	262313	137747	161856	174414	188655	166908	115007	142851	196374.75	0.29734289794285279
+SML	413	null	null|null	null|null	null|null	null|null	Cer 44:0;4O|Cer 18:0;3O/26:0;(2OH)	null|null	null|null	[M+CH3COO]1-	null	null	null	35045	41575	23760	28416	31686	14510	16730	18446	20863	17566	11970	14741	22942.333333333336	0.40539378910040985
+SML	414	null	null|null	null|null	null|null	null|null	Cer 46:0;3O|Cer 20:0;3O/26:0	null|null	null|null	[M-H]1-	null	null	null	4002	5036	2511	4077	5030	1620	4675	6443	8540	2977	1908	2150	4080.75	0.50016341403588238
+SML	415	null	null|null	null|null	null|null	null|null	Cer 46:0;4O|Cer 20:0;3O/26:0;(2OH)	null|null	null|null	[M-H]1-	null	null	null	25797	30808	15153	24148	26482	7910	20659	27516	37670	13155	7459	10023	20565	0.474697410632411
+SML	416	null	null|null	null|null	null|null	null|null	Cer 46:0;4O|Cer 20:0;3O/26:0;(2OH)	null|null	null|null	[M+CH3COO]1-	null	null	null	2842	3136	1517	2579	2703	761	2086	2905	3923	1357	784	1053	2137.1666666666665	0.48225423443953358
+SML	417	null	null	null	null	null	SHexCer 44:0;2O	null	null	[M-H]1-	null	null	null	4638	6098	2992	5556	6566	2490	2677	2654	3846	3842	1954	2845	3846.5	0.39937150343840849
+SML	418	null	null	null	null	null	SHexCer 44:0;3O	null	null	[M-H]1-	null	null	null	34947	47595	24218	53159	61695	21000	17067	17089	23211	57400	30130	42991	35875.166666666664	0.45062160013436875
+SML	419	null	null	null	null	null	LPE 18:1(d7)	null	null	[M+H]1+	null	null	null	71467	77824	71033	74832	76052	98451	82971	80888	70098	82380	79221	79018	78686.25	0.096549464377140709
+SML	420	null	null	null	null	null	SPB 18:0;2O	null	null	[M+H]1+	null	null	null	24300	24787	22084	23723	26807	24013	18513	19125	14749	20729	19222	22212	21688.666666666668	0.15505883585202968
+SML	421	null	null	null	null	null	SPB 18:0;3O	null	null	[M+H]1+	null	null	null	54466	50611	47787	41600	47854	42342	30640	32037	22015	49665	44727	51827	42964.25	0.23029464630693244
+SML	422	null	null	null	null	null	SPB 20:0;3O	null	null	[M+H]1+	null	null	null	1766	1664	1543	1399	1522	1329	3165	3110	2245	1377	1114	1371	1800.4166666666667	0.3802855880091901
+SML	423	null	null	null	null	null	LPC 18:1(d7)	null	null	[M+CH3COO]1-	null	null	null	43293	46897	43544	46131	46606	59432	52370	50909	43422	53428	49764	51109	48908.75	0.099442876805636196
+SML	424	null	null	null	null	null	LPC 16:1	null	null	[M+CH3COO]1-	null	null	null	1936	1780	1612	3698	4254	3328	1367	801	531	2024	1630	1580	2045.0833333333335	0.55588197443009613
+SML	425	null	null	null	null	null	LPC 16:1	null	null	[M+CH3COO]1-	null	null	null	2572	4352	2919	3885	4582	4889	620	618	422	1733	1562	1934	2507.333333333333	0.64481399400170836
+SML	426	null	null	null	null	null	LPE 18:1(d7)	null	null	[M-H]1-	null	null	null	110721	122707	110355	116720	118715	145829	126336	123959	111066	124221	121194	122094	121159.75	0.079052799135128013
+SML	427	null	null	null	null	null	LPE 16:0	null	null	[M-H]1-	null	null	null	5332	6352	5512	4638	5525	6207	1858	2440	1507	5534	4332	6393	4635.833333333333	0.37796184134579847
+SML	428	null	null	null	null	null	LPE 16:1	null	null	[M-H]1-	null	null	null	2234	2284	2020	4210	4775	4570	617	497	353	4234	3275	4235	2775.3333333333335	0.6010401571678311
+SML	429	null	null	null	null	null	LPE 16:1	null	null	[M-H]1-	null	null	null	8568	11942	9459	11234	13575	14960	1773	2503	1797	11708	9079	15596	9349.5	0.52616209006717229
+SML	430	null	null	null	null	null	LPE 18:1	null	null	[M-H]1-	null	null	null	7297	6967	6489	14260	15911	16234	2019	1790	1141	11278	9563	11556	8708.75	0.61408561524009009
+SML	431	null	null	null	null	null	LPI 16:0	null	null	[M-H]1-	null	null	null	6683	7257	6407	16244	17354	16959	2464	2261	1681	7740	5747	7850	8220.5833333333339	0.68484485210191748
+SML	432	null	null	null	null	null	LPS 16:0	null	null	[M-H]1-	null	null	null	1853	1728	1617	2133	2699	2308	453	460	312	2768	2177	2733	1770.0833333333333	0.510492066815323
+SML	433	null	null	null	null	null	LPS 16:1	null	null	[M-H]1-	null	null	null	1313	1371	1161	2210	2624	2376	321	284	140	1493	1211	1484	1332.3333333333333	0.60580664723124689
+SML	434	null	null	null	null	null	LPS 18:1	null	null	[M-H]1-	null	null	null	2770	2851	2626	7578	9054	8289	299	466	229	3596	2804	3790	3696	0.82549759405910439
+SML	435	null	null	null	null	null	CE 18:1(d7)	null	null	[M+NH4]1+	null	null	null	2193	2624	2362	2746	2745	4055	3119	3428	3138	3200	3206	2774	2965.8333333333335	0.16944666095212885
+SML	436	null	null	null	null	null	SE 27:2/16:1	null	null	[M+NH4]1+	null	null	null	1135	1079	1165	1673	1685	1570	268	233	98	2958	2267	2560	1390.9166666666667	0.66018721906025124
+SML	437	null	null	null	null	null	SE 28:2/16:1	null	null	[M+NH4]1+	null	null	null	1069	1127	1109	1641	1954	1501	487	414	146	2911	2196	2572	1427.25	0.6087491831241072
+SML	438	null	null	null	null	null	SE 28:3/16:1	null	null	[M+NH4]1+	null	null	null	3058	2631	2549	3820	3920	3474	1322	1294	799	4886	4243	4694	3057.5	0.44745984689330481
+SML	439	null	null	null	null	null	SE 28:3/18:1	null	null	[M+NH4]1+	null	null	null	3743	3533	3330	3843	4728	3685	1556	1377	894	2825	2142	2727	2865.25	0.40604235498430979
+SML	440	null	null	null	null	null	PE 15:0_18:1(d7)	null	null	[M+H]1+	null	null	null	35064	37685	34663	36548	34969	48175	41123	40855	37228	39465	38365	37350	38457.5	0.097094472491401573
+SML	441	null	null	null	null	null	CoQ6	null	null	[M+H]1+	null	null	null	8511	7467	6384	8106	9450	7575	2676	2713	1729	8145	5800	7707	6355.25	0.40689910146928648
+

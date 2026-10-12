@@ -1,0 +1,278 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000145
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000145, MPST000145.csv
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	251217_Tomita_blank_neg
+MTD	sample[1]-custom[1]	[,,Class, Blank]
+MTD	sample[1]-custom[2]	[,,File type, Blank]
+MTD	sample[1]-custom[3]	[,,Injection order, 1]
+MTD	sample[2]	251217_Tomita_Btheta_brassicasterol_1_neg
+MTD	sample[2]-custom[1]	[,,Class, brassicasterol]
+MTD	sample[2]-custom[2]	[,,File type, Sample]
+MTD	sample[2]-custom[3]	[,,Injection order, 2]
+MTD	sample[3]	251217_Tomita_Btheta_brassicasterol_2_neg
+MTD	sample[3]-custom[1]	[,,Class, brassicasterol]
+MTD	sample[3]-custom[2]	[,,File type, Sample]
+MTD	sample[3]-custom[3]	[,,Injection order, 3]
+MTD	sample[4]	251217_Tomita_Btheta_brassicasterol_3_neg
+MTD	sample[4]-custom[1]	[,,Class, brassicasterol]
+MTD	sample[4]-custom[2]	[,,File type, Sample]
+MTD	sample[4]-custom[3]	[,,Injection order, 4]
+MTD	sample[5]	251217_Tomita_Btheta_campesterol_1_neg
+MTD	sample[5]-custom[1]	[,,Class, campesterol]
+MTD	sample[5]-custom[2]	[,,File type, Sample]
+MTD	sample[5]-custom[3]	[,,Injection order, 5]
+MTD	sample[6]	251217_Tomita_Btheta_campesterol_2_neg
+MTD	sample[6]-custom[1]	[,,Class, campesterol]
+MTD	sample[6]-custom[2]	[,,File type, Sample]
+MTD	sample[6]-custom[3]	[,,Injection order, 6]
+MTD	sample[7]	251217_Tomita_Btheta_campesterol_3_neg
+MTD	sample[7]-custom[1]	[,,Class, campesterol]
+MTD	sample[7]-custom[2]	[,,File type, Sample]
+MTD	sample[7]-custom[3]	[,,Injection order, 7]
+MTD	sample[8]	251217_Tomita_Btheta_cholestanol_1_neg
+MTD	sample[8]-custom[1]	[,,Class, cholestanol]
+MTD	sample[8]-custom[2]	[,,File type, Sample]
+MTD	sample[8]-custom[3]	[,,Injection order, 8]
+MTD	sample[9]	251217_Tomita_Btheta_cholestanol_2_neg
+MTD	sample[9]-custom[1]	[,,Class, cholestanol]
+MTD	sample[9]-custom[2]	[,,File type, Sample]
+MTD	sample[9]-custom[3]	[,,Injection order, 9]
+MTD	sample[10]	251217_Tomita_Btheta_cholestanol_3_neg
+MTD	sample[10]-custom[1]	[,,Class, cholestanol]
+MTD	sample[10]-custom[2]	[,,File type, Sample]
+MTD	sample[10]-custom[3]	[,,Injection order, 10]
+MTD	sample[11]	251217_Tomita_Btheta_cholesterol_1_neg
+MTD	sample[11]-custom[1]	[,,Class, cholesterol]
+MTD	sample[11]-custom[2]	[,,File type, Sample]
+MTD	sample[11]-custom[3]	[,,Injection order, 11]
+MTD	sample[12]	251217_Tomita_Btheta_cholesterol_2_neg
+MTD	sample[12]-custom[1]	[,,Class, cholesterol]
+MTD	sample[12]-custom[2]	[,,File type, Sample]
+MTD	sample[12]-custom[3]	[,,Injection order, 12]
+MTD	sample[13]	251217_Tomita_Btheta_cholesterol_3_neg
+MTD	sample[13]-custom[1]	[,,Class, cholesterol]
+MTD	sample[13]-custom[2]	[,,File type, Sample]
+MTD	sample[13]-custom[3]	[,,Injection order, 13]
+MTD	sample[14]	251217_Tomita_Btheta_coprostanol_1_neg
+MTD	sample[14]-custom[1]	[,,Class, coprostanol]
+MTD	sample[14]-custom[2]	[,,File type, Sample]
+MTD	sample[14]-custom[3]	[,,Injection order, 14]
+MTD	sample[15]	251217_Tomita_Btheta_coprostanol_2_neg
+MTD	sample[15]-custom[1]	[,,Class, coprostanol]
+MTD	sample[15]-custom[2]	[,,File type, Sample]
+MTD	sample[15]-custom[3]	[,,Injection order, 15]
+MTD	sample[16]	251217_Tomita_Btheta_coprostanol_3_neg
+MTD	sample[16]-custom[1]	[,,Class, coprostanol]
+MTD	sample[16]-custom[2]	[,,File type, Sample]
+MTD	sample[16]-custom[3]	[,,Injection order, 16]
+MTD	sample[17]	251217_Tomita_Btheta_MeOH_1_neg
+MTD	sample[17]-custom[1]	[,,Class, MeOH]
+MTD	sample[17]-custom[2]	[,,File type, Sample]
+MTD	sample[17]-custom[3]	[,,Injection order, 17]
+MTD	sample[18]	251217_Tomita_Btheta_MeOH_2_neg
+MTD	sample[18]-custom[1]	[,,Class, MeOH]
+MTD	sample[18]-custom[2]	[,,File type, Sample]
+MTD	sample[18]-custom[3]	[,,Injection order, 18]
+MTD	sample[19]	251217_Tomita_Btheta_MeOH_3_neg
+MTD	sample[19]-custom[1]	[,,Class, MeOH]
+MTD	sample[19]-custom[2]	[,,File type, Sample]
+MTD	sample[19]-custom[3]	[,,Injection order, 19]
+MTD	sample[20]	251217_Tomita_Btheta_sitosterol_1_neg
+MTD	sample[20]-custom[1]	[,,Class, sitosterol]
+MTD	sample[20]-custom[2]	[,,File type, Sample]
+MTD	sample[20]-custom[3]	[,,Injection order, 20]
+MTD	sample[21]	251217_Tomita_Btheta_sitosterol_2_neg
+MTD	sample[21]-custom[1]	[,,Class, sitosterol]
+MTD	sample[21]-custom[2]	[,,File type, Sample]
+MTD	sample[21]-custom[3]	[,,Injection order, 21]
+MTD	sample[22]	251217_Tomita_Btheta_sitosterol_3_neg
+MTD	sample[22]-custom[1]	[,,Class, sitosterol]
+MTD	sample[22]-custom[2]	[,,File type, Sample]
+MTD	sample[22]-custom[3]	[,,Injection order, 22]
+MTD	sample[23]	251217_Tomita_Btheta_stigmasterol_1_neg
+MTD	sample[23]-custom[1]	[,,Class, stigmasterol]
+MTD	sample[23]-custom[2]	[,,File type, Sample]
+MTD	sample[23]-custom[3]	[,,Injection order, 23]
+MTD	sample[24]	251217_Tomita_Btheta_stigmasterol_2_neg
+MTD	sample[24]-custom[1]	[,,Class, stigmasterol]
+MTD	sample[24]-custom[2]	[,,File type, Sample]
+MTD	sample[24]-custom[3]	[,,Injection order, 24]
+MTD	sample[25]	251217_Tomita_Btheta_stigmasterol_3_neg
+MTD	sample[25]-custom[1]	[,,Class, stigmasterol]
+MTD	sample[25]-custom[2]	[,,File type, Sample]
+MTD	sample[25]-custom[3]	[,,Injection order, 25]
+MTD	sample[26]	251217_Tomita_QC1_neg
+MTD	sample[26]-custom[1]	[,,Class, QC]
+MTD	sample[26]-custom[2]	[,,File type, QC]
+MTD	sample[26]-custom[3]	[,,Injection order, 26]
+MTD	ms_run[1]-location	null
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[2]-location	null
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[3]-location	null
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[4]-location	null
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[5]-location	null
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[6]-location	null
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[7]-location	null
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[8]-location	null
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[9]-location	null
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[10]-location	null
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[11]-location	null
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[12]-location	null
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[13]-location	null
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[14]-location	null
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[15]-location	null
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[16]-location	null
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[17]-location	null
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[18]-location	null
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[19]-location	null
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[20]-location	null
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[21]-location	null
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[22]-location	null
+MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[23]-location	null
+MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[24]-location	null
+MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[25]-location	null
+MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[26]-location	null
+MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	assay[1]	251217_Tomita_blank_neg
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	251217_Tomita_Btheta_brassicasterol_1_neg
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	251217_Tomita_Btheta_brassicasterol_2_neg
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	251217_Tomita_Btheta_brassicasterol_3_neg
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	251217_Tomita_Btheta_campesterol_1_neg
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	251217_Tomita_Btheta_campesterol_2_neg
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	251217_Tomita_Btheta_campesterol_3_neg
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	251217_Tomita_Btheta_cholestanol_1_neg
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	251217_Tomita_Btheta_cholestanol_2_neg
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	251217_Tomita_Btheta_cholestanol_3_neg
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	251217_Tomita_Btheta_cholesterol_1_neg
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	251217_Tomita_Btheta_cholesterol_2_neg
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	251217_Tomita_Btheta_cholesterol_3_neg
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	251217_Tomita_Btheta_coprostanol_1_neg
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	251217_Tomita_Btheta_coprostanol_2_neg
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	251217_Tomita_Btheta_coprostanol_3_neg
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	251217_Tomita_Btheta_MeOH_1_neg
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	251217_Tomita_Btheta_MeOH_2_neg
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	251217_Tomita_Btheta_MeOH_3_neg
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[20]	251217_Tomita_Btheta_sitosterol_1_neg
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	251217_Tomita_Btheta_sitosterol_2_neg
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	251217_Tomita_Btheta_sitosterol_3_neg
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	251217_Tomita_Btheta_stigmasterol_1_neg
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	251217_Tomita_Btheta_stigmasterol_2_neg
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	251217_Tomita_Btheta_stigmasterol_3_neg
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	251217_Tomita_QC1_neg
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]|assay[19]|assay[20]|assay[21]|assay[22]|assay[23]|assay[24]|assay[25]|assay[26]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_study_variable[1]	abundance_variation_study_variable[1]	opt_global_feature_id	opt_global_exp_mass_to_charge	opt_global_retention_time_min	opt_global_inchikey
+SML	1	null	null	C27H46O4S	O=S(=O)(O)OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C)CCCC(C)C)C2(C)CC1	null	ST 27:1;O;S	null	null	[M-H]1-	null	null	null	230	1654	1577	1543	1869	2010	1611	1796	1568	1784	100586	115685	134272	1735	1428	1630	2020	1826	1630	1483	1686	1367	1896	1634	1644	39770	16382.076923076924	2.3226201243756335	2060	465.30366	7.999	BHYOQNUELFTYRT-UHFFFAOYSA-N
+SML	2	null	null	C27H48O4S	O=S(=O)(O)OC1CCC2(C)C(CCC3C4CCC(C(C)CCCC(C)C)C4(C)CCC32)C1	null	ST 27:0;O;S	null	null	[M-H]1-	null	null	null	26	41	30	23	8	26	25	80568	74217	76615	174	247	285	28819	28814	33116	47	37	42	23	34	26	38	38	26	20542	13226.423076923076	1.9423852907073815	2096	467.31986	8.121	CBBTWAWCVXJVTL-UHFFFAOYSA-N
+SML	3	null	null	C28H46O4S	O=S(=O)(O)OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C=CC(C)C(C)C)C)C2(C)CC1	null	ST 28:2;O;S	null	null	[M-H]1-	null	null	null	3	9360	9474	9168	19	1399	774	23	26	19	14	27	28	16	19	19	30	23	22	25	19	20	95	81	69	635	1207.9615384615381	2.4916104388538556	2148	477.3038	7.977	FOEFJGLJLQXUDF-UHFFFAOYSA-N
+SML	4	null	null	C28H48O4S	O=S(=O)(O)OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C)CCC(C)C(C)C)C2(C)CC1	null	ST 28:1;O;S	null	null	[M-H]1-	null	null	null	24	95	104	105	19097	22595	13630	55	63	56	160	197	257	730	654	844	84	68	75	202	256	178	82	82	66	2018	2376.0384615384619	2.5535486092817976	2158	479.31951	8.114	NNLNVKVMYKIRMN-UHFFFAOYSA-N
+SML	5	null	null	C29H48O4S	O=S(=O)(O)OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C=CC(CC)C(C)C)C)C2(C)CC1	null	ST 29:2;O;S	null	null	[M-H]1-	null	null	null	16	73	75	79	13	22	23	25	18	29	20	20	20	16	22	19	23	19	19	256	313	219	2350	2477	2386	304	340.61538461538453	2.2483719117986132	2191	491.31902	8.17	WXMRLOQHICRRPA-UHFFFAOYSA-N
+SML	6	null	null	C29H50O4S	O=S(=O)(O)OC1CC2=CCC3C(CCC4(C)C(CCC34)C(C)CCC(CC)C(C)C)C2(C)CC1	null	ST 29:1;O;S	null	null	[M-H]1-	null	null	null	17	126	125	118	4	119	93	60	55	62	52	52	68	66	72	63	88	76	82	15717	20001	14363	92	82	85	2946	2103.2307692307691	2.5992798892737028	2217	493.335	8.318	IPVNPUHVCZJVOI-UHFFFAOYSA-N
+

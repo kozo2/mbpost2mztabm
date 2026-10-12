@@ -1,0 +1,168 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000030
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000030, MPST000030.xlsx, sheet "CoA": Table S2. Metabolic profile data of 183 hydrophilic metabolites in each FA-treated AML12 cell conditions
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	DMSO-treated cells_1
+MTD	sample[1]-custom[1]	[,,header_1, DMSO-treated cells]
+MTD	sample[1]-custom[2]	[,,header_2, 1]
+MTD	sample[2]	DMSO-treated cells_2
+MTD	sample[2]-custom[1]	[,,header_1, DMSO-treated cells]
+MTD	sample[2]-custom[2]	[,,header_2, 2]
+MTD	sample[3]	DMSO-treated cells_3
+MTD	sample[3]-custom[1]	[,,header_1, DMSO-treated cells]
+MTD	sample[3]-custom[2]	[,,header_2, 3]
+MTD	sample[4]	FA 8:0-treated cells_1
+MTD	sample[4]-custom[1]	[,,header_1, FA 8:0-treated cells]
+MTD	sample[4]-custom[2]	[,,header_2, 1]
+MTD	sample[5]	FA 8:0-treated cells_2
+MTD	sample[5]-custom[1]	[,,header_1, FA 8:0-treated cells]
+MTD	sample[5]-custom[2]	[,,header_2, 2]
+MTD	sample[6]	FA 8:0-treated cells_3
+MTD	sample[6]-custom[1]	[,,header_1, FA 8:0-treated cells]
+MTD	sample[6]-custom[2]	[,,header_2, 3]
+MTD	sample[7]	FA 10:0-treated cells_1
+MTD	sample[7]-custom[1]	[,,header_1, FA 10:0-treated cells]
+MTD	sample[7]-custom[2]	[,,header_2, 1]
+MTD	sample[8]	FA 10:0-treated cells_2
+MTD	sample[8]-custom[1]	[,,header_1, FA 10:0-treated cells]
+MTD	sample[8]-custom[2]	[,,header_2, 2]
+MTD	sample[9]	FA 10:0-treated cells_3
+MTD	sample[9]-custom[1]	[,,header_1, FA 10:0-treated cells]
+MTD	sample[9]-custom[2]	[,,header_2, 3]
+MTD	sample[10]	FA 12:0-treated cells_1
+MTD	sample[10]-custom[1]	[,,header_1, FA 12:0-treated cells]
+MTD	sample[10]-custom[2]	[,,header_2, 1]
+MTD	sample[11]	FA 12:0-treated cells_2
+MTD	sample[11]-custom[1]	[,,header_1, FA 12:0-treated cells]
+MTD	sample[11]-custom[2]	[,,header_2, 2]
+MTD	sample[12]	FA 12:0-treated cells_3
+MTD	sample[12]-custom[1]	[,,header_1, FA 12:0-treated cells]
+MTD	sample[12]-custom[2]	[,,header_2, 3]
+MTD	sample[13]	FA 18:1-treated cells_1
+MTD	sample[13]-custom[1]	[,,header_1, FA 18:1-treated cells]
+MTD	sample[13]-custom[2]	[,,header_2, 1]
+MTD	sample[14]	FA 18:1-treated cells_2
+MTD	sample[14]-custom[1]	[,,header_1, FA 18:1-treated cells]
+MTD	sample[14]-custom[2]	[,,header_2, 2]
+MTD	sample[15]	FA 18:1-treated cells_3
+MTD	sample[15]-custom[1]	[,,header_1, FA 18:1-treated cells]
+MTD	sample[15]-custom[2]	[,,header_2, 3]
+MTD	ms_run[1]-location	null
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	null
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	null
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	null
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	null
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	null
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	null
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	null
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	null
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	null
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	null
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	null
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	null
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	null
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	null
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	DMSO-treated cells_1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	DMSO-treated cells_2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	DMSO-treated cells_3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	FA 8:0-treated cells_1
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	FA 8:0-treated cells_2
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	FA 8:0-treated cells_3
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	FA 10:0-treated cells_1
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	FA 10:0-treated cells_2
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	FA 10:0-treated cells_3
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	FA 12:0-treated cells_1
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	FA 12:0-treated cells_2
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	FA 12:0-treated cells_3
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	FA 18:1-treated cells_1
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	FA 18:1-treated cells_2
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	FA 18:1-treated cells_3
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_study_variable[1]	abundance_variation_study_variable[1]	opt_global_retention_time_min
+SML	1	null	null	C31H54N7O17P3S	null	null	Acylcoenzyme A 10:0	null	921.2509741879	[M+H]1+	null	null	null	0	0	0	0	0	0	0.01600097579118628	0.031824608180611128	0.031595329654973706	0.040189064414547913	0.029346462887345805	0.0342298493291383	0	0	0	0.012212419350520209	1.3272137258380579	7.29
+SML	2	null	null	C31H52N7O17P3S	null	null	Acylcoenzyme A 10:1	null	919.23532412376	[M+H]1+	null	null	null	0	0	0	0	0	0	0.013904790706119019	0.02885803214485053	0.025107592306807737	0.050451475400484086	0.045567918694505181	0.05526439392839614	0.0026077123946201923	0.0017245952778374642	0.001909439355815429	0.015026396680629052	1.3729904620765567	7.16
+SML	3	null	null	C33H58N7O17P3S	null	null	Acylcoenzyme A 12:0	null	949.28227431618	[M+H]1+	null	null	null	0	0	0	0	0	0	0	0	0	0.12497250098759674	0.16895308396738415	0.28168507673545196	0	0	0	0.03837404411269553	2.2180068268144377	8
+SML	4	null	null	C33H56N7O17P3S	null	null	Acylcoenzyme A 12:1	null	947.26662425204	[M+H]1+	null	null	null	0	0	0	0	0	0	0	0	0	0.060174979626021627	0.083784715478518526	0.14158117760078046	0	0	0	0.019036058180354708	2.2309739506306552	7.86
+SML	5	null	null	C23H38N7O17P3S	null	null	Acylcoenzyme A 2:0	null	809.12577367478	[M+H]1+	null	null	null	0.28659932935290194	0.28867461961581647	0.21331576313094755	0.24301916930367037	0.23613917021669742	0.26934340586816469	0.26963672004420475	0.23438486596372421	0.25058375096038599	0.4695442142008327	0.44300289459368264	0.43972502736407876	0.24612623875125328	0.2392885176867644	0.21233441665234176	0.28944787358036445	0.29930955765544087	4.16
+SML	6	null	null	C25H42N7O17P3S	null	null	Acylcoenzyme A 4:0	null	837.15707380306	[M+H]1+	null	null	null	0.0053662398412186807	0.0036471527900654691	0.0074167653846843214	0.0039855560244319941	0.0074496399433395828	0.0073138827617895965	0.0086701755475489216	0.01033541398343912	0.0097209407297363815	0.011022867937100393	0.0097527919432279179	0.0098726835714148167	0.0030366693286098525	0.0027825837630546376	0.0040749715841990296	0.0069632223422573811	0.41840379161781993	4.79
+SML	7	null	null	C27H46N7O17P3S	null	null	Acylcoenzyme A 6:0	null	865.18837393134	[M+H]1+	null	null	null	0	0	0	0.0028887989291767778	0.0081467498591180822	0.007063351113675293	0.010699382739402508	0.014136413358463657	0.013322265116351012	0.018235189473815833	0.01498813177646649	0.015278293664010664	0	0	0	0.0069839050686986877	0.9945099708316768	5.62
+SML	8	null	null	C29H50N7O17P3S	null	null	Acylcoenzyme A 8:0	null	893.21967405962	[M+H]1+	null	null	null	0	0	0	0.00093222735893284188	0.0048143086217910759	0.0033263824447776098	0.0061656410180547204	0.010544060208090223	0.0092783981241020275	0.01554443092569221	0.011536366179018258	0.01346512660759386	0	0	0	0.0050404627658701883	1.118933296793424	6.55
+SML	9	null	null	C29H48N7O17P3S	null	null	Acylcoenzyme A 8:1	null	891.20402399548	[M+H]1+	null	null	null	0	0	0	0.0021116852992081078	0.0099474512666013447	0.0080742083400160026	0.010584398971896015	0.015926568914694805	0.012008502961911142	0.017581825142118413	0.014069626828716828	0.016366060156614522	0	0	0	0.0071113551921184789	0.99066701389305623	6.39
+SML	10	null	null	C21H36N7O16P3S	null	null	Coenzyme A	null	767.11520899108	[M+H]1+	null	null	null	1.0599423566606547	0.43588108092681915	8.04106588735233	0.49178168359140884	0.3811942244748171	0.4030193238853067	0.53352333368037974	0.61465160680334796	0.70747004990455475	1.6747783949297455	1.9682229447218278	1.6231743069675124	0.22659052761655882	0.13632185724286042	0.11009223493279229	1.227180654246061	1.6076394092287642	3.47
+

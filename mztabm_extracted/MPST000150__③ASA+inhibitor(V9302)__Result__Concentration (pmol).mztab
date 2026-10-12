@@ -1,0 +1,131 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000150__③ASA+inhibitor(V9302)#Result#Concentration (pmol)
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000150, MPST000150__③ASA+inhibitor(V9302).xlsx, sheet "Result", Concentration (pmol)
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	HCT116 MT_DMSO_1
+MTD	sample[1]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[1]-custom[2]	[,,Condition, DMSO]
+MTD	sample[2]	HCT116 MT_DMSO_2
+MTD	sample[2]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[2]-custom[2]	[,,Condition, DMSO]
+MTD	sample[3]	HCT116 MT_DMSO_3
+MTD	sample[3]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[3]-custom[2]	[,,Condition, DMSO]
+MTD	sample[4]	HCT116 MT_ASA 2mM_1
+MTD	sample[4]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[4]-custom[2]	[,,Condition, ASA 2mM]
+MTD	sample[5]	HCT116 MT_ASA 2mM_2
+MTD	sample[5]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[5]-custom[2]	[,,Condition, ASA 2mM]
+MTD	sample[6]	HCT116 MT_ASA 2mM_3
+MTD	sample[6]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[6]-custom[2]	[,,Condition, ASA 2mM]
+MTD	sample[7]	HCT116 MT_V9302(20μM)_1
+MTD	sample[7]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[7]-custom[2]	[,,Condition, V9302(20μM)]
+MTD	sample[8]	HCT116 MT_V9302(20μM)_2
+MTD	sample[8]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[8]-custom[2]	[,,Condition, V9302(20μM)]
+MTD	sample[9]	HCT116 MT_V9302(20μM)_3
+MTD	sample[9]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[9]-custom[2]	[,,Condition, V9302(20μM)]
+MTD	sample[10]	HCT116 MT_ASA+V9302_1
+MTD	sample[10]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[10]-custom[2]	[,,Condition, ASA+V9302]
+MTD	sample[11]	HCT116 MT_ASA+V9302_2
+MTD	sample[11]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[11]-custom[2]	[,,Condition, ASA+V9302]
+MTD	sample[12]	HCT116 MT_ASA+V9302_3
+MTD	sample[12]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[12]-custom[2]	[,,Condition, ASA+V9302]
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	ms_run[5]-location	null
+MTD	ms_run[6]-location	null
+MTD	ms_run[7]-location	null
+MTD	ms_run[8]-location	null
+MTD	ms_run[9]-location	null
+MTD	ms_run[10]-location	null
+MTD	ms_run[11]-location	null
+MTD	ms_run[12]-location	null
+MTD	assay[1]	HCT116 MT_DMSO_1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	HCT116 MT_DMSO_2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	HCT116 MT_DMSO_3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	HCT116 MT_ASA 2mM_1
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	HCT116 MT_ASA 2mM_2
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	HCT116 MT_ASA 2mM_3
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	HCT116 MT_V9302(20μM)_1
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	HCT116 MT_V9302(20μM)_2
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	HCT116 MT_V9302(20μM)_3
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	HCT116 MT_ASA+V9302_1
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	HCT116 MT_ASA+V9302_2
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	HCT116 MT_ASA+V9302_3
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[,, pmol, ]
+MTD	small_molecule_feature-quantification_unit	[,, pmol, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	Fumalic acid	null	null	null	null	null	null	2060.808942607734	2318.7383971244622	2563.2381403799823	2156.0018959592371	2189.1811826045741	2440.0007899830157	1506.6358573290674	1567.0695580045031	1602.6187936959357	1436.7223604692499	1359.3040249634632	1408.6779634237864	1884.083158878751	0.23634761452504002
+SML	2	null	null	null	null	null	Succinic acid	null	null	null	null	null	null	5900.3565536693104	6745.9741365547334	6956.1279335852269	7353.552232451706	7601.1707732425102	8915.629822787505	7634.9635463785853	7951.4448406151887	8870.1825341919011	5982.5767654728334	6027.5451013783195	6501.3889628013412	7203.4094335940972	0.14481861523241421
+SML	3	null	null	null	null	null	Malic acid	null	null	null	null	null	null	11609.535539186661	13043.632315672296	13431.756708746832	13828.099760782548	14644.99182871083	15644.920774022406	11511.124795717771	12765.690059449089	13836.74474787428	13233.9404561711	12204.950143293623	13623.699107079416	13281.590519725571	0.089678391062240168
+SML	4	null	null	null	null	null	Oxoglutaric acid	null	null	null	null	null	null	243.57829579876201	277.42526010799418	267.02094033978665	224.08665876465165	267.15264059001714	303.63360990385877	272.68405109969706	320.09614118266825	295.33649413933881	287.9612801264322	269.25984459370471	271.49874884762278	274.97783045787787	0.093016626928057275
+SML	5	null	null	null	null	null	Glutamine	null	null	null	null	null	null	1072.5730922086325	1074.469330540066	1083.565420992637	4112.8284913275211	4166.29440216889	4137.6752210480918	511.42826334760781	509.48273206198593	506.77470039126285	958.37055978311105	926.50882651960944	966.49311439046187	1668.8720128983232	0.90225557500126119
+SML	6	null	null	null	null	null	Glutamic acid	null	null	null	null	null	null	8902.644310060472	9249.3293018141831	9416.9533709830575	7702.5408566145234	7980.4013194062672	7903.8762556849415	6257.5960817632067	6300.9355789894544	6142.1565295616965	5148.8755060222893	4910.9415762906692	5225.8688590134434	7095.1766288503504	0.23041035459885065
+SML	7	null	null	null	null	null	Hydroxyglutaric acid	null	null	null	null	null	null	517.84106950095486	607.70239973428545	602.1722162251931	669.28174043012541	703.62534252262731	811.10686705970272	541.50626920202603	559.87378560159425	608.23382878020425	571.864153450137	572.74433280744006	587.90666777381057	612.82155609067513	0.13176727540264177
+SML	8	null	null	null	null	null	Citric acid	null	null	null	null	null	null	2161.3838823285687	2299.2196671500587	2320.6270285201299	1797.3206270285202	1898.7638975208895	1848.8364063255301	1569.2286444306333	1543.2635867688696	1592.8457979421312	1545.5424349147158	1509.2880325944341	1551.4812512948001	1803.1501047349402	0.17019723417588051
+SML	9	null	null	null	null	null	Isocitric acid	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+

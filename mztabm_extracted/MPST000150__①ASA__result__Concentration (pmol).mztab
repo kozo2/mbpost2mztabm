@@ -1,0 +1,238 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000150__①ASA#result#Concentration (pmol)
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000150, MPST000150__①ASA.xlsx, sheet "result", Concentration (pmol)
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	HCT116 MT_20% O₂_control_1
+MTD	sample[1]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[1]-custom[2]	[,,Condition, 20% O₂]
+MTD	sample[1]-custom[3]	[,,header_3, control]
+MTD	sample[2]	HCT116 MT_20% O₂_control_2
+MTD	sample[2]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[2]-custom[2]	[,,Condition, 20% O₂]
+MTD	sample[2]-custom[3]	[,,header_3, control]
+MTD	sample[3]	HCT116 MT_20% O₂_control_3
+MTD	sample[3]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[3]-custom[2]	[,,Condition, 20% O₂]
+MTD	sample[3]-custom[3]	[,,header_3, control]
+MTD	sample[4]	HCT116 MT_20% O₂_ASA 2mM_1
+MTD	sample[4]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[4]-custom[2]	[,,Condition, 20% O₂]
+MTD	sample[4]-custom[3]	[,,header_3, ASA 2mM]
+MTD	sample[5]	HCT116 MT_20% O₂_ASA 2mM_2
+MTD	sample[5]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[5]-custom[2]	[,,Condition, 20% O₂]
+MTD	sample[5]-custom[3]	[,,header_3, ASA 2mM]
+MTD	sample[6]	HCT116 MT_20% O₂_ASA 2mM_3
+MTD	sample[6]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[6]-custom[2]	[,,Condition, 20% O₂]
+MTD	sample[6]-custom[3]	[,,header_3, ASA 2mM]
+MTD	sample[7]	HCT116 MT_1% O₂_control_1
+MTD	sample[7]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[7]-custom[2]	[,,Condition, 1% O₂]
+MTD	sample[7]-custom[3]	[,,header_3, control]
+MTD	sample[8]	HCT116 MT_1% O₂_control_2
+MTD	sample[8]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[8]-custom[2]	[,,Condition, 1% O₂]
+MTD	sample[8]-custom[3]	[,,header_3, control]
+MTD	sample[9]	HCT116 MT_1% O₂_control_3
+MTD	sample[9]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[9]-custom[2]	[,,Condition, 1% O₂]
+MTD	sample[9]-custom[3]	[,,header_3, control]
+MTD	sample[10]	HCT116 MT_1% O₂_ASA 2mM_1
+MTD	sample[10]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[10]-custom[2]	[,,Condition, 1% O₂]
+MTD	sample[10]-custom[3]	[,,header_3, ASA 2mM]
+MTD	sample[11]	HCT116 MT_1% O₂_ASA 2mM_2
+MTD	sample[11]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[11]-custom[2]	[,,Condition, 1% O₂]
+MTD	sample[11]-custom[3]	[,,header_3, ASA 2mM]
+MTD	sample[12]	HCT116 MT_1% O₂_ASA 2mM_3
+MTD	sample[12]-custom[1]	[,,Cell, HCT116 MT]
+MTD	sample[12]-custom[2]	[,,Condition, 1% O₂]
+MTD	sample[12]-custom[3]	[,,header_3, ASA 2mM]
+MTD	sample[13]	HCT116 WT_20% O₂_control_1
+MTD	sample[13]-custom[1]	[,,Cell, HCT116 WT]
+MTD	sample[13]-custom[2]	[,,Condition, 20% O₂]
+MTD	sample[13]-custom[3]	[,,header_3, control]
+MTD	sample[14]	HCT116 WT_20% O₂_control_2
+MTD	sample[14]-custom[1]	[,,Cell, HCT116 WT]
+MTD	sample[14]-custom[2]	[,,Condition, 20% O₂]
+MTD	sample[14]-custom[3]	[,,header_3, control]
+MTD	sample[15]	HCT116 WT_20% O₂_control_3
+MTD	sample[15]-custom[1]	[,,Cell, HCT116 WT]
+MTD	sample[15]-custom[2]	[,,Condition, 20% O₂]
+MTD	sample[15]-custom[3]	[,,header_3, control]
+MTD	sample[16]	HCT116 WT_20% O₂_ASA 2mM_1
+MTD	sample[16]-custom[1]	[,,Cell, HCT116 WT]
+MTD	sample[16]-custom[2]	[,,Condition, 20% O₂]
+MTD	sample[16]-custom[3]	[,,header_3, ASA 2mM]
+MTD	sample[17]	HCT116 WT_20% O₂_ASA 2mM_2
+MTD	sample[17]-custom[1]	[,,Cell, HCT116 WT]
+MTD	sample[17]-custom[2]	[,,Condition, 20% O₂]
+MTD	sample[17]-custom[3]	[,,header_3, ASA 2mM]
+MTD	sample[18]	HCT116 WT_20% O₂_ASA 2mM_3
+MTD	sample[18]-custom[1]	[,,Cell, HCT116 WT]
+MTD	sample[18]-custom[2]	[,,Condition, 20% O₂]
+MTD	sample[18]-custom[3]	[,,header_3, ASA 2mM]
+MTD	sample[19]	HCT116 WT_1% O₂_control_1
+MTD	sample[19]-custom[1]	[,,Cell, HCT116 WT]
+MTD	sample[19]-custom[2]	[,,Condition, 1% O₂]
+MTD	sample[19]-custom[3]	[,,header_3, control]
+MTD	sample[20]	HCT116 WT_1% O₂_control_2
+MTD	sample[20]-custom[1]	[,,Cell, HCT116 WT]
+MTD	sample[20]-custom[2]	[,,Condition, 1% O₂]
+MTD	sample[20]-custom[3]	[,,header_3, control]
+MTD	sample[21]	HCT116 WT_1% O₂_control_3
+MTD	sample[21]-custom[1]	[,,Cell, HCT116 WT]
+MTD	sample[21]-custom[2]	[,,Condition, 1% O₂]
+MTD	sample[21]-custom[3]	[,,header_3, control]
+MTD	sample[22]	HCT116 WT_1% O₂_ASA 2mM_1
+MTD	sample[22]-custom[1]	[,,Cell, HCT116 WT]
+MTD	sample[22]-custom[2]	[,,Condition, 1% O₂]
+MTD	sample[22]-custom[3]	[,,header_3, ASA 2mM]
+MTD	sample[23]	HCT116 WT_1% O₂_ASA 2mM_2
+MTD	sample[23]-custom[1]	[,,Cell, HCT116 WT]
+MTD	sample[23]-custom[2]	[,,Condition, 1% O₂]
+MTD	sample[23]-custom[3]	[,,header_3, ASA 2mM]
+MTD	sample[24]	HCT116 WT_1% O₂_ASA 2mM_3
+MTD	sample[24]-custom[1]	[,,Cell, HCT116 WT]
+MTD	sample[24]-custom[2]	[,,Condition, 1% O₂]
+MTD	sample[24]-custom[3]	[,,header_3, ASA 2mM]
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	ms_run[5]-location	null
+MTD	ms_run[6]-location	null
+MTD	ms_run[7]-location	null
+MTD	ms_run[8]-location	null
+MTD	ms_run[9]-location	null
+MTD	ms_run[10]-location	null
+MTD	ms_run[11]-location	null
+MTD	ms_run[12]-location	null
+MTD	ms_run[13]-location	null
+MTD	ms_run[14]-location	null
+MTD	ms_run[15]-location	null
+MTD	ms_run[16]-location	null
+MTD	ms_run[17]-location	null
+MTD	ms_run[18]-location	null
+MTD	ms_run[19]-location	null
+MTD	ms_run[20]-location	null
+MTD	ms_run[21]-location	null
+MTD	ms_run[22]-location	null
+MTD	ms_run[23]-location	null
+MTD	ms_run[24]-location	null
+MTD	assay[1]	HCT116 MT_20% O₂_control_1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	HCT116 MT_20% O₂_control_2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	HCT116 MT_20% O₂_control_3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	HCT116 MT_20% O₂_ASA 2mM_1
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	HCT116 MT_20% O₂_ASA 2mM_2
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	HCT116 MT_20% O₂_ASA 2mM_3
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	HCT116 MT_1% O₂_control_1
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	HCT116 MT_1% O₂_control_2
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	HCT116 MT_1% O₂_control_3
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	HCT116 MT_1% O₂_ASA 2mM_1
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	HCT116 MT_1% O₂_ASA 2mM_2
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	HCT116 MT_1% O₂_ASA 2mM_3
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	HCT116 WT_20% O₂_control_1
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	HCT116 WT_20% O₂_control_2
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	HCT116 WT_20% O₂_control_3
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	HCT116 WT_20% O₂_ASA 2mM_1
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	HCT116 WT_20% O₂_ASA 2mM_2
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	HCT116 WT_20% O₂_ASA 2mM_3
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	HCT116 WT_1% O₂_control_1
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[20]	HCT116 WT_1% O₂_control_2
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	HCT116 WT_1% O₂_control_3
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	HCT116 WT_1% O₂_ASA 2mM_1
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	HCT116 WT_1% O₂_ASA 2mM_2
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	HCT116 WT_1% O₂_ASA 2mM_3
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]|assay[19]|assay[20]|assay[21]|assay[22]|assay[23]|assay[24]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[,, pmol, ]
+MTD	small_molecule_feature-quantification_unit	[,, pmol, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	Fumalic acid	null	null	null	null	null	null	384.47527781246094	404.70252216256705	439.3978649019852	588.18360594331375	578.49138469222123	628.4976276688725	273.28786365338988	266.40498189536765	284.41596953427393	582.09670370832805	602.71413409913839	609.25365214134092	415.15950805343982	407.80840304657255	422.15164190285924	1391.7951679360719	1441.0054313896867	1398.2566487701336	653.98457984767128	649.63010363341232	627.40510675490066	941.34879510550627	970.65957048320638	929.26863528530396	662.09979918425097	0.52508307817395172
+SML	2	null	null	null	null	null	Succinic acid	null	null	null	null	null	null	694.98467730869504	762.29474454557931	821.29168000731829	429.43100214975073	488.39134610986599	474.9531171385446	573.6038055161689	559.88885331381789	568.49014316425007	804.52362438823582	811.46000091478754	814.92704569363764	764.29126835292504	729.55678543658235	744.94808580707138	1456.5727484791657	1452.2069249416822	1471.9937794447239	876.4739514247816	887.67095092164845	878.95988656634495	1039.841284361707	1048.4425742121393	1035.1758679046791	841.26558950433764	0.34934981277605004
+SML	3	null	null	null	null	null	Malic acid	null	null	null	null	null	null	5398.6042043399639	5569.3786731464734	5581.2966207052441	4777.0329452983724	4889.1458521699815	5004.885284810126	5235.3060013562381	5152.2759380650996	5215.3424502712478	7118.6214398734173	7063.9212251356239	6986.8402463833636	5423.3725135623863	5491.0770795660037	5638.2685352622057	9553.0769665461121	9589.5640257685354	9511.6735420433997	6748.5095501808319	6614.4764353526216	6658.12047920434	7006.100248643761	6983.4355221518981	6984.68297920434	6424.7920316267328	0.2254868189069571
+SML	4	null	null	null	null	null	Oxoglutaric acid	null	null	null	null	null	null	78.470491064724428	79.056164589277671	79.018621414626821	32.179756720228262	22.05811683435951	22.208289532962905	126.69845322120439	143.09731190869499	141.30274816038445	108.64769484907644	106.31250938579366	112.7699354257396	110.2169995494819	110.75011262952395	105.23126595584922	137.00780898032738	144.71166841868148	144.38128848175401	166.77954647845021	160.93782850277819	163.74605796666165	107.13845922811232	117.11743505030785	110.33713770836462	109.59065425239025	0.37423926398624702
+SML	5	null	null	null	null	null	Glutamine	null	null	null	null	null	null	7.8106250315120747	8.0897800036974168	8.6704425135711993	20.36923749180686	20.72250886539722	21.460647720206381	8.8295995025293692	7.1476109645216042	7.2946673165156888	43.352548696660556	42.193744642947173	42.01139476647451	6.5442597603401618	7.4615552679786887	6.8232466681232244	30.877632308700694	30.490748054654542	30.544864792188363	6.7770289574965119	7.5215542595922749	7.6486109477151638	26.415354363792204	26.660728391119477	27.617014840086721	18.888975255317838	0.68440391481436857
+SML	6	null	null	null	null	null	Glutamic acid	null	null	null	null	null	null	5783.0742659758207	6058.6706143597339	6650.4135208487542	6252.8709597828765	6391.7779422649892	6579.3382679496672	5240.9005674808786	6097.2188502343943	6169.8351838144581	6342.8803355539103	6236.5146804835922	6227.4690352825064	4039.7207007155193	4086.9928448063165	4134.7002220577351	9581.9284480631632	9363.2617813964971	9615.6491487786825	6191.9471996052307	6408.4031581544532	6397.2430298544286	7201.6466814705154	7001.8253145817916	7470.0340488527017	6480.1798667653593	0.22638473033747464
+SML	7	null	null	null	null	null	Hydroxyglutaric acid	null	null	null	null	null	null	15.619491736566729	17.59316501951665	18.658441989867949	39.54566065941367	40.513686570882818	44.586687152229885	21.138468565733742	20.765243750519058	20.41502366913047	25.082493148409601	25.206320073083631	25.814575201395233	30.526060958392158	30.000274063615979	30.584777011876088	32.040802258948588	33.181986545967945	33.240951748193673	32.749796528527533	32.8219666140686	32.760177726102484	28.148268416244498	28.299833900838799	27.904102649281619	28.63326066495031	0.25628775298826145
+SML	8	null	null	null	null	null	Citric acid	null	null	null	null	null	null	9.2120006643966441	9.814110123743875	10.007615646540986	12.53290424383357	13.522439996678017	13.661797192924176	8.757387260194335	8.646349970932647	8.6591396063449881	5.9712399302383519	6.1963873432439165	6.1492982310439332	18.471198405448053	17.647263516319242	17.598513412507266	11.358583174154971	10.887692052155138	10.866680508263434	15.869338094842622	15.979544888298316	15.534897433767961	8.0516319242587819	8.0663317000249144	8.3361597873930737	11.324937712814551	0.34147329602793086
+

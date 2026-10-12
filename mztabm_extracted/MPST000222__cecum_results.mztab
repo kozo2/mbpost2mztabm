@@ -1,0 +1,608 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000222__cecum_results
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000222, MPST000222__cecum_results.xlsx, sheet "cecal contents": Quantification of ionic metabolites in mice cecum samples
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	Ce_GF1
+MTD	sample[1]-custom[1]	[,,Condition, Ce_GF]
+MTD	sample[1]-custom[2]	[,,unit, µM]
+MTD	sample[2]	Ce_GF2
+MTD	sample[2]-custom[1]	[,,Condition, Ce_GF]
+MTD	sample[2]-custom[2]	[,,unit, µM]
+MTD	sample[3]	Ce_GF3
+MTD	sample[3]-custom[1]	[,,Condition, Ce_GF]
+MTD	sample[3]-custom[2]	[,,unit, µM]
+MTD	sample[4]	Ce_62A_1
+MTD	sample[4]-custom[1]	[,,Condition, Ce_62A]
+MTD	sample[4]-custom[2]	[,,unit, µM]
+MTD	sample[5]	Ce_62A_2
+MTD	sample[5]-custom[1]	[,,Condition, Ce_62A]
+MTD	sample[5]-custom[2]	[,,unit, µM]
+MTD	sample[6]	Ce_62A_3
+MTD	sample[6]-custom[1]	[,,Condition, Ce_62A]
+MTD	sample[6]-custom[2]	[,,unit, µM]
+MTD	sample[7]	Blank1
+MTD	sample[7]-custom[1]	[,,Condition, Blank3]
+MTD	sample[7]-custom[2]	[,,unit, μM]
+MTD	sample[8]	Blank2
+MTD	sample[8]-custom[1]	[,,Condition, Blank3]
+MTD	sample[8]-custom[2]	[,,unit, μM]
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	ms_run[5]-location	null
+MTD	ms_run[6]-location	null
+MTD	ms_run[7]-location	null
+MTD	ms_run[8]-location	null
+MTD	assay[1]	Ce_GF1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	Ce_GF2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	Ce_GF3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	Ce_62A_1
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	Ce_62A_2
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	Ce_62A_3
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	Blank1
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	Blank2
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_study_variable[1]	abundance_variation_study_variable[1]	opt_global_exp_mass_to_charge
+SML	1	null	null	null	null	null	Acetyl CoA	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	403.556610107422
+SML	2	null	null	null	null	null	Acetylcholine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	146.118377685547
+SML	3	null	null	null	null	null	Adenine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	136.061782836914
+SML	4	null	null	null	null	null	Adenosine	null	null	null	null	null	null	0.96139694464251313	0.73685821665308227	1.0412225611359969	1.9514881166572049	1.5960390278746357	1.7924065215755125	null	null	null	null	268.103851318359
+SML	5	null	null	null	null	null	Adenosine 3',5'-diphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	426.022399902344
+SML	6	null	null	null	null	null	Adenosine 5'-phosphosulfate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	426.013153076172
+SML	7	null	null	null	null	null	Adenylosuccinate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	462.067413330078
+SML	8	null	null	null	null	null	Adipate	null	null	null	null	null	null	3.383574142354524	4.1512536635551083	4.1170454384550652	2.0438733863833516	3.7014816448673309	2.3949320138328787	0.12613081983484414	0.14034219577647505	2.5073291631324475	0.6568634347803175	145.050964355469
+SML	9	null	null	null	null	null	ADMA	null	null	null	null	null	null	3.0641277137381797	2.8052064462665345	2.7730766063363417	3.1531005832514696	3.2207528432438166	2.9853937115131775	null	null	null	null	203.146224975586
+SML	10	null	null	null	null	null	ADP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	426.022338867188
+SML	11	null	null	null	null	null	ADP-glucose	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	588.0751953125
+SML	12	null	null	null	null	null	ADP-ribose	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	558.067749023438
+SML	13	null	null	null	null	null	Agmatine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	131.127655029297
+SML	14	null	null	null	null	null	AICAR	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	339.071502685547
+SML	15	null	null	null	null	null	Ala	null	null	null	null	null	null	642.37502265503031	635.30822495064615	808.32882284164589	317.5615715516692	395.32898463978836	188.42221276459324	0.11549552945102307	null	null	null	90.0553436279297
+SML	16	null	null	null	null	null	Ala-Ala	null	null	null	null	null	null	null	null	null	5.3774437854212156	5.8826662144940931	null	null	null	null	null	161.091720581055
+SML	17	null	null	null	null	null	Allantoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	175.04606628418
+SML	18	null	null	null	null	null	Allantoin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	159.054824829102
+SML	19	null	null	null	null	null	Alliin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	178.052795410156
+SML	20	null	null	null	null	null	alpha-Aminoadipate	null	null	null	null	null	null	6.8379097376967373	4.410579525509128	4.3310896523919364	4.5149316205802474	6.0747726419439898	3.351990496557538	null	null	null	null	162.075485229492
+SML	21	null	null	null	null	null	alpha-Methylbenzylamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	122.09676361084
+SML	22	null	null	null	null	null	Alpha-Methylserine	null	null	null	null	null	null	null	null	null	2.0821590586750292	2.3137123110661766	1.5912528092540001	null	null	null	null	120.065055847168
+SML	23	null	null	null	null	null	Amantadine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	152.144348144531
+SML	24	null	null	null	null	null	AMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	346.056365966797
+SML	25	null	null	null	null	null	Aniline	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	94.0652160644531
+SML	26	null	null	null	null	null	Anserine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	121.069305419922
+SML	27	null	null	null	null	null	Anthranilate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	138.055282592773
+SML	28	null	null	null	null	null	Arg	null	null	null	null	null	null	460.96958277731432	410.62973363484099	562.79352737421414	65.817964152050777	73.585567096406535	43.71952833429652	null	null	null	null	175.118728637695
+SML	29	null	null	null	null	null	Arginine ethyl ester	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	203.151382446289
+SML	30	null	null	null	null	null	Argininosuccinate	null	null	null	null	null	null	3.0226568755561094	3.5863790060373719	null	5.9650886419470783	3.6462415817893365	3.1244935118731125	null	null	null	null	291.128936767578
+SML	31	null	null	null	null	null	Asn	null	null	null	null	null	null	589.39436341547116	637.34877955164518	612.78195523906686	253.06060573783284	365.94055275919942	212.78165792389555	null	null	null	null	133.060333251953
+SML	32	null	null	null	null	null	Asp	null	null	null	null	null	null	500.44000346807428	481.15130920187738	633.34013367890566	534.1504864800861	727.38208169407017	454.15139099631801	0.38043046373703537	0.1658716068778246	416.39521344874333	0.65243916744926678	134.045288085938
+SML	33	null	null	null	null	null	ATP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	505.989410400391
+SML	34	null	null	null	null	null	Azelate	null	null	null	null	null	null	1.2165714602135544	1.2936859515989636	1.1943255950830691	1.1914313372056697	0.87890187901377392	1.1608363509294803	null	null	null	null	187.098205566406
+SML	35	null	null	null	null	null	Barbiturate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	127.015617370605
+SML	36	null	null	null	null	null	Benzamide	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	122.059288024902
+SML	37	null	null	null	null	null	Benzamidine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	121.075988769531
+SML	38	null	null	null	null	null	Benzimidazole	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	119.060661315918
+SML	39	null	null	null	null	null	Benzoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	121.029800415039
+SML	40	null	null	null	null	null	Benzoylformate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	149.024353027344
+SML	41	null	null	null	null	null	Benzylsuccinate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	207.066940307617
+SML	42	null	null	null	null	null	beta-Ala	null	null	null	null	null	null	4.3196698771216955	4.0894336957736064	4.3191492533466347	3.5339112505037464	3.6033307457486612	4.6606162735585022	null	null	null	null	90.0546798706055
+SML	43	null	null	null	null	null	beta-Ala-Lys	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	109.579444885254
+SML	44	null	null	null	null	null	beta-Cyanoalanine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	115.049736022949
+SML	45	null	null	null	null	null	beta-Imidazolelactate	null	null	null	null	null	null	null	null	null	28.12911121393639	25.492416582067325	19.67502335278871	null	null	null	null	157.061004638672
+SML	46	null	null	null	null	null	Betaine	null	null	null	null	null	null	4.7410608938977425	3.8676613270084474	5.5136010840472771	3.1210493709470115	3.7276597621024377	2.7174537489704349	null	null	null	null	118.086013793945
+SML	47	null	null	null	null	null	Betaine aldehyde	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	102.088775634766
+SML	48	null	null	null	null	null	beta-Leucine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	132.102813720703
+SML	49	null	null	null	null	null	Betonicine	null	null	null	null	null	null	null	null	null	null	null	0.6295965127343166	null	null	null	null	160.096267700195
+SML	50	null	null	null	null	null	Biotin	null	null	null	null	null	null	null	null	null	39.829569162476595	48.560179499379672	28.902473549428048	null	null	null	null	243.078277587891
+SML	51	null	null	null	null	null	Bis(3-aminopropyl)amine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	132.149551391602
+SML	52	null	null	null	null	null	Butyrate	null	null	null	null	null	null	null	null	null	84.966580780162815	165.06491368963566	49.317376243334706	null	null	null	null	87.0443801879883
+SML	53	null	null	null	null	null	Cadaverine	null	null	null	null	null	null	null	null	null	9.0170977631600184	11.320436488870332	9.9841528758662577	null	null	null	null	103.122512817383
+SML	54	null	null	null	null	null	cAMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	328.045104980469
+SML	55	null	null	null	null	null	Canavanine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	177.098434448242
+SML	56	null	null	null	null	null	Carbamoylaspartate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	175.03434753418
+SML	57	null	null	null	null	null	Carbamoylphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	139.977172851562
+SML	58	null	null	null	null	null	Carnitine	null	null	null	null	null	null	2.9686680686968692	2.5359287963647366	3.9341447647254215	1.7646806060423965	1.7017988993883493	1.5568299630616691	null	null	null	null	162.111663818359
+SML	59	null	null	null	null	null	Carnosine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	114.061431884766
+SML	60	null	null	null	null	null	Castanospermine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	190.107696533203
+SML	61	null	null	null	null	null	CDP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	402.011596679688
+SML	62	null	null	null	null	null	CDP-choline	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	547.1201171875
+SML	63	null	null	null	null	null	cGMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	344.040344238281
+SML	64	null	null	null	null	null	Cholate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	407.280303955078
+SML	65	null	null	null	null	null	Choline	null	null	null	null	null	null	53.596674901573778	55.87959878838609	86.18426696711046	18.297441280582134	21.398459255440336	14.422786682765574	null	null	null	null	104.107070922852
+SML	66	null	null	null	null	null	cIMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	329.028991699219
+SML	67	null	null	null	null	null	cis-Aconitate	null	null	null	null	null	null	0.70710313343182518	0.65744331857354443	0.40357044568410766	0.65700585562694747	0.58352197873760736	null	null	null	null	null	173.007843017578
+SML	68	null	null	null	null	null	Citraconate	null	null	null	null	null	null	5.950809354961172	5.8149341379359365	4.0380775670199638	3.2366131642723679	2.9449548636102079	4.2783301501051083	null	null	null	null	129.019287109375
+SML	69	null	null	null	null	null	Citramalate	null	null	null	null	null	null	4.8460491149228826	2.6184184685826102	2.102916291546006	2.8708782066021055	4.1219820485247478	2.7126938604546718	null	null	null	null	147.030136108398
+SML	70	null	null	null	null	null	Citrate	null	null	null	null	null	null	16.250018766379569	11.977433180040506	12.454041260380572	9.7711700087367603	8.0862147919134291	5.1075009369378241	null	null	null	null	191.019134521484
+SML	71	null	null	null	null	null	Citrulline	null	null	null	null	null	null	13.462278534302293	17.024622767531692	17.062864632477293	2.0532045298307091	2.6700898587188941	1.3603790968575389	null	null	null	null	176.102279663086
+SML	72	null	null	null	null	null	CMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	322.044586181641
+SML	73	null	null	null	null	null	CMP-N-acetylneuraminate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	613.140930175781
+SML	74	null	null	null	null	null	CoA	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	382.550689697266
+SML	75	null	null	null	null	null	Creatine	null	null	null	null	null	null	40.477637460596092	35.234501923785558	74.21248715740569	41.097159545955165	37.151220006799676	33.220970532207211	null	null	null	null	132.07649230957
+SML	76	null	null	null	null	null	Creatinine	null	null	null	null	null	null	92.484609106003873	72.458854622323059	92.674165724264427	99.701683952799783	93.107884924612122	131.1784186190925	null	null	null	null	114.066459655762
+SML	77	null	null	null	null	null	Crotonate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	85.0300598144531
+SML	78	null	null	null	null	null	CTP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	481.977874755859
+SML	79	null	null	null	null	null	Cyanocobalamin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	678.296264648438
+SML	80	null	null	null	null	null	Cyclohexylamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	100.112182617188
+SML	81	null	null	null	null	null	Cys	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	122.026924133301
+SML	82	null	null	null	null	null	Cys-Gly	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	179.048400878906
+SML	83	null	null	null	null	null	Cystathionine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	223.075576782227
+SML	84	null	null	null	null	null	Cysteamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	78.0374603271484
+SML	85	null	null	null	null	null	Cysteate	null	null	null	null	null	null	1.1579490195407756	1.4693340459102289	2.0842820701163549	0.96772267429968684	1.2924806899463723	1.1153002071839444	null	null	null	null	167.997100830078
+SML	86	null	null	null	null	null	Cysteine S-sulfate	null	null	null	null	null	null	48.116766665913971	32.007788089864079	39.682595485506262	32.492664545057337	43.815213319668729	29.25571980583414	null	null	null	null	199.96940612793
+SML	87	null	null	null	null	null	Cysteine sulfinate	null	null	null	null	null	null	4.0997923494633177	2.599211625566539	2.6331056233680901	3.6249254441746812	2.9203745004732089	3.5506909496306229	null	null	null	null	152.002395629883
+SML	88	null	null	null	null	null	Cysteine-glutathione disulphide	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	214.052673339844
+SML	89	null	null	null	null	null	Cystine	null	null	null	null	null	null	16.343339579755732	17.679013364812398	21.3191821113363	6.5220816315860013	6.532340204800632	9.8802163180941118	null	null	null	null	241.030731201172
+SML	90	null	null	null	null	null	Cytidine	null	null	null	null	null	null	22.349985344776286	13.894287616434982	10.357771414458961	null	null	null	null	null	null	null	244.096252441406
+SML	91	null	null	null	null	null	Cytosine	null	null	null	null	null	null	null	null	0.51603524444478599	null	null	null	null	null	null	null	112.049926757812
+SML	92	null	null	null	null	null	dADP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	410.027770996094
+SML	93	null	null	null	null	null	dAMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	330.060668945312
+SML	94	null	null	null	null	null	dATP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	489.994506835938
+SML	95	null	null	null	null	null	DCA	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	391.286163330078
+SML	96	null	null	null	null	null	dCDP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	386.0166015625
+SML	97	null	null	null	null	null	dCMP	null	null	null	null	null	null	null	null	1.0224625240965726	null	null	null	null	null	null	null	306.052459716797
+SML	98	null	null	null	null	null	dCTP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	465.982604980469
+SML	99	null	null	null	null	null	Deamido-NAD+	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	663.088012695312
+SML	100	null	null	null	null	null	Decanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	171.138122558594
+SML	101	null	null	null	null	null	Desthiobiotin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	215.138580322266
+SML	102	null	null	null	null	null	dGDP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	426.022399902344
+SML	103	null	null	null	null	null	dGTP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	505.989288330078
+SML	104	null	null	null	null	null	DHAP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	168.990676879883
+SML	105	null	null	null	null	null	Diethanolamine	null	null	null	null	null	null	null	null	null	1.3019824946866545	null	1.005305263803238	0.20343073834599512	null	null	null	106.086120605469
+SML	106	null	null	null	null	null	Digalacturonate	null	null	null	null	null	null	1.1353905697603857	1.8045560643711132	1.0861838698583781	1.332653771043055	1.4522716242120037	1.6258880628559411	null	null	null	null	369.072570800781
+SML	107	null	null	null	null	null	Dihydroorotate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	157.025894165039
+SML	108	null	null	null	null	null	Dihydrouracil	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	115.050468444824
+SML	109	null	null	null	null	null	dITP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	490.978240966797
+SML	110	null	null	null	null	null	Dodecanedioate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	229.144607543945
+SML	111	null	null	null	null	null	Dodecanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	199.170547485352
+SML	112	null	null	null	null	null	DOPA	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	198.076416015625
+SML	113	null	null	null	null	null	Dopamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	154.085052490234
+SML	114	null	null	null	null	null	dTDP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	401.016387939453
+SML	115	null	null	null	null	null	dTMP	null	null	null	null	null	null	null	null	1.0124507436752115	null	null	null	null	null	null	null	321.048828125
+SML	116	null	null	null	null	null	dTTP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	480.982666015625
+SML	117	null	null	null	null	null	dUDP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	387.000915527344
+SML	118	null	null	null	null	null	dUMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	307.033233642578
+SML	119	null	null	null	null	null	dUTP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	466.967163085938
+SML	120	null	null	null	null	null	Ectoine	null	null	null	null	null	null	null	null	0.60303840977890755	null	null	null	null	null	null	null	143.080261230469
+SML	121	null	null	null	null	null	Epinephrine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	184.097076416016
+SML	122	null	null	null	null	null	Ethanolamine phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	140.012100219727
+SML	123	null	null	null	null	null	F1,6P	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	338.98876953125
+SML	124	null	null	null	null	null	F6P	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	259.022583007812
+SML	125	null	null	null	null	null	FAD	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	784.153381347656
+SML	126	null	null	null	null	null	Folate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	440.132385253906
+SML	127	null	null	null	null	null	Fumarate	null	null	null	null	null	null	1.2866988666280643	1.2312902055105965	1.3647200939808188	1.3654004550770475	null	null	null	null	null	null	115.004776000977
+SML	128	null	null	null	null	null	G1P	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	259.022583007812
+SML	129	null	null	null	null	null	G3P	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	168.990661621094
+SML	130	null	null	null	null	null	G6P	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	259.022338867188
+SML	131	null	null	null	null	null	GABA	null	null	null	null	null	null	7.2387984296128502	6.974049261159788	6.6331538024799617	209.39940269698982	266.30427188487363	174.02539577897119	null	null	null	null	104.070457458496
+SML	132	null	null	null	null	null	Galacturonate 1-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	273.002014160156
+SML	133	null	null	null	null	null	gamma-Butyrobetaine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	146.116958618164
+SML	134	null	null	null	null	null	gamma-Glu-2AB	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	233.113754272461
+SML	135	null	null	null	null	null	gamma-Glu-cys	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	251.069854736328
+SML	136	null	null	null	null	null	gamma-Guanidinobutyrate	null	null	null	null	null	null	13.061849098563574	11.350133366151978	9.1016131783447296	7.7009904601498373	8.5784043909465595	12.217477022326984	null	null	null	null	146.091598510742
+SML	137	null	null	null	null	null	GDP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	442.018005371094
+SML	138	null	null	null	null	null	GDP-mannose	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	604.072631835938
+SML	139	null	null	null	null	null	Gln	null	null	null	null	null	null	634.52774403549097	680.89752025463758	714.40739703342263	209.77980796330019	276.97618393515364	168.18545303306377	null	null	null	null	147.076705932617
+SML	140	null	null	null	null	null	Glu	null	null	null	null	null	null	1619.3539660418473	1697.233140196463	2021.7342869452202	1982.8436786326774	2213.1081973828855	1778.2772268205269	0.19656740583317556	0.10124498791732889	1414.1060385516714	0.63162976286123351	148.062759399414
+SML	141	null	null	null	null	null	Gluconate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	195.051071166992
+SML	142	null	null	null	null	null	Glucosaminate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	196.081695556641
+SML	143	null	null	null	null	null	Glucosamine	null	null	null	null	null	null	163.40667590814675	170.7096149097091	189.05360301992215	97.412324960388204	81.142812105513855	93.488392865921242	null	null	null	null	180.086807250977
+SML	144	null	null	null	null	null	Glucosamine 6-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	258.038757324219
+SML	145	null	null	null	null	null	Glucuronate	null	null	null	null	null	null	209.66901487519337	196.79377580916895	205.83642326894531	240.7598724484177	153.99751048281732	229.73448984487132	null	null	null	null	193.03581237793
+SML	146	null	null	null	null	null	Glu-Glu	null	null	null	null	null	null	1.0815614773264521	0.98803384755289514	2.8042830226710032	1.5647636521154493	3.6535527040892131	3.7361745295535762	null	null	null	null	277.106323242188
+SML	147	null	null	null	null	null	Glutarate	null	null	null	null	null	null	1.8836178338251757	0.95337649126952584	null	1.9717409964492782	1.8233507354427292	3.4704973980436638	null	null	null	null	131.03450012207
+SML	148	null	null	null	null	null	Glutathione(ox)	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	307.086120605469
+SML	149	null	null	null	null	null	Glutathione(red)	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	308.092010498047
+SML	150	null	null	null	null	null	Gly	null	null	null	null	null	null	1108.6949252662882	1100.4649963996021	1099.1143065647461	231.49223046881613	255.13786876696017	151.66836859188695	0.52482534545328374	0.33461937946588727	493.42901759790237	1.0396651948127613	76.0399398803711
+SML	151	null	null	null	null	null	Glycerate	null	null	null	null	null	null	46.793704431740075	40.004021156480995	25.064259187350114	29.844603973550662	21.331942861597444	22.301119764995875	null	null	null	null	105.019485473633
+SML	152	null	null	null	null	null	Glycerophosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	171.006896972656
+SML	153	null	null	null	null	null	Glycerophosphorylcholine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	258.109527587891
+SML	154	null	null	null	null	null	Glycocholate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	464.301849365234
+SML	155	null	null	null	null	null	Glycolate	null	null	null	null	null	null	34.830064854807063	37.454288786019347	24.640961663445175	26.810456257020544	33.772680550530929	26.764960169444542	null	null	null	null	75.0092391967773
+SML	156	null	null	null	null	null	Gly-Gly	null	null	null	null	null	null	8.2403184136912966	5.512763290251649	7.8388166515697826	null	4.7013267559486058	null	null	null	null	null	133.059478759766
+SML	157	null	null	null	null	null	Gly-Leu	null	null	null	null	null	null	4.6412056834958157	5.3816129718830226	9.298597744207985	6.2430070130692172	6.2382272052462282	6.3532790299254858	null	null	null	null	189.12385559082
+SML	158	null	null	null	null	null	Glyoxylate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	72.9930877685547
+SML	159	null	null	null	null	null	GMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	362.051300048828
+SML	160	null	null	null	null	null	Gramine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	175.123687744141
+SML	161	null	null	null	null	null	GTP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	521.984375
+SML	162	null	null	null	null	null	Guanidinoacetate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	118.061012268066
+SML	163	null	null	null	null	null	Guanidinosuccinate	null	null	null	null	null	null	null	null	null	0.70985420931068277	null	null	null	null	null	null	176.067138671875
+SML	164	null	null	null	null	null	Guanine	null	null	null	null	null	null	null	0.82063523062924637	null	null	null	0.66740565265775487	null	null	null	null	152.055419921875
+SML	165	null	null	null	null	null	Guanosine	null	null	null	null	null	null	25.369083462893876	16.852333366374701	26.593539038619085	0.98154369161885191	1.5144945268105414	1.2177024100012406	null	null	null	null	284.101684570312
+SML	166	null	null	null	null	null	Harman	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	183.092712402344
+SML	167	null	null	null	null	null	Heptanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	129.090881347656
+SML	168	null	null	null	null	null	Hexanoate	null	null	null	null	null	null	null	null	1.0672316335335537	1.4326975651900948	1.4355040829758015	null	null	null	null	null	115.076446533203
+SML	169	null	null	null	null	null	Hexylamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	102.127960205078
+SML	170	null	null	null	null	null	Hippurate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	178.050277709961
+SML	171	null	null	null	null	null	His	null	null	null	null	null	null	186.41247115051615	187.37536838700009	208.19575806396062	96.642600335547186	118.67979391927641	58.67477164963848	null	null	null	null	156.076736450195
+SML	172	null	null	null	null	null	Histamine	null	null	null	null	null	null	null	null	null	0.45567243900748711	0.77255885896177534	0.52743301868886794	null	null	null	null	112.086074829102
+SML	173	null	null	null	null	null	Histidinol	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	142.097717285156
+SML	174	null	null	null	null	null	Homocarnosine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	121.06925201416
+SML	175	null	null	null	null	null	Homocysteine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	136.042434692383
+SML	176	null	null	null	null	null	Homocystine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	269.062622070312
+SML	177	null	null	null	null	null	Homoserine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	120.065467834473
+SML	178	null	null	null	null	null	Homovanillate	null	null	null	null	null	null	1.9284018323509025	1.6354119638043203	1.7609183998871194	5.0174282215042219	4.5445837970015646	5.9129914257459877	null	null	null	null	181.05583190918
+SML	179	null	null	null	null	null	Hydroxyproline	null	null	null	null	null	null	51.899750281775042	45.025302447367046	34.758014659830025	6.7969927286255869	7.3989994473162888	6.5601759134038655	null	null	null	null	132.065017700195
+SML	180	null	null	null	null	null	Hydroxyurea	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	77.0340805053711
+SML	181	null	null	null	null	null	Hypotaurine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	110.026992797852
+SML	182	null	null	null	null	null	Hypoxanthine	null	null	null	null	null	null	4.2275792676805413	6.5817727585474985	9.7144711943607795	7.4131102439969307	5.0469370170818495	6.325342425531093	null	null	null	null	137.045135498047
+SML	183	null	null	null	null	null	Ibotenate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	159.039825439453
+SML	184	null	null	null	null	null	IDP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	427.006958007812
+SML	185	null	null	null	null	null	Ile	null	null	null	null	null	null	245.54220672472329	195.53719603599777	273.79677230327883	40.501477447332455	48.773003497226661	23.515640272678411	null	null	null	null	132.102310180664
+SML	186	null	null	null	null	null	Imidazole-4-acetate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	127.049514770508
+SML	187	null	null	null	null	null	IMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	347.040161132812
+SML	188	null	null	null	null	null	Indolelactate	null	null	null	null	null	null	7.4359013202234365	8.3900743891049032	7.2611556058524318	7.5773335954750181	6.4269217946366739	8.2005569669660172	null	null	null	null	204.069671630859
+SML	189	null	null	null	null	null	Indole-3-acetaldehyde	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	160.07341003418
+SML	190	null	null	null	null	null	Indole-3-acetamide	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	175.085906982422
+SML	191	null	null	null	null	null	Indole-3-acetate	null	null	null	null	null	null	3.1679666741306098	null	null	null	null	null	null	null	null	null	176.070175170898
+SML	192	null	null	null	null	null	Indole-3-ethanol	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	162.091033935547
+SML	193	null	null	null	null	null	Inosine	null	null	null	null	null	null	26.599126787838856	19.977167256721419	37.957260857843963	13.337231228723692	12.651598013768432	11.399867595263981	null	null	null	null	269.088226318359
+SML	194	null	null	null	null	null	Isethionate	null	null	null	null	null	null	16.080231466383591	12.456175080731558	7.8235317936325313	22.709602179925113	9.6801791821505372	11.563271714646248	null	null	null	null	124.991477966309
+SML	195	null	null	null	null	null	Isoamylamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	88.1125869750977
+SML	196	null	null	null	null	null	Isobutylamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	74.0968322753906
+SML	197	null	null	null	null	null	Isobutyryl CoA	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	417.571563720703
+SML	198	null	null	null	null	null	Isocitrate	null	null	null	null	null	null	3.55437599980832	2.9745687691379805	1.894121115897917	2.0383188114530162	2.4394527740295415	2.1816293017810082	null	null	null	null	191.018707275391
+SML	199	null	null	null	null	null	Isonicotinamide	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	123.055397033691
+SML	200	null	null	null	null	null	Isopropanolamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	76.0757293701172
+SML	201	null	null	null	null	null	Itaconate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	129.019332885742
+SML	202	null	null	null	null	null	ITP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	506.973388671875
+SML	203	null	null	null	null	null	Kynurenine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	209.092819213867
+SML	204	null	null	null	null	null	Lactate	null	null	null	null	null	null	93.166628965743868	76.258567577193872	119.91424700782636	118.73222846204013	145.47308719269654	114.6149413507589	0.36096431126523376	0.37875809437819918	83.61242787023788	0.66040327067525473	89.0242233276367
+SML	205	null	null	null	null	null	Leu	null	null	null	null	null	null	364.94555999756841	335.00152641124828	515.82890072054624	128.03957570241167	107.28183706788141	59.479700189175837	null	null	null	null	132.102523803711
+SML	206	null	null	null	null	null	Leu-Leu-Tyr	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	408.252166748047
+SML	207	null	null	null	null	null	Lys	null	null	null	null	null	null	544.32394290585091	509.12693267959406	687.35979561625402	417.74233655220286	539.89331705354869	308.05121111289003	null	null	null	null	147.113677978516
+SML	208	null	null	null	null	null	Lysinamide	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	146.12873840332
+SML	209	null	null	null	null	null	Malate	null	null	null	null	null	null	9.2589230348753748	6.2916774798406658	14.921342195169061	8.4655017984996395	9.3240699079591902	8.7356086416703445	null	null	null	null	133.014617919922
+SML	210	null	null	null	null	null	Malonate	null	null	null	null	null	null	8.3356479108437007	6.6131636500776434	6.6920440203665708	9.7398842817443807	11.319337412289469	9.3991548192636891	0.22521272355807823	0.17008261178876552	6.5618159287415372	0.64388467167893271	103.004173278809
+SML	211	null	null	null	null	null	Malonyl CoA	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	425.550567626953
+SML	212	null	null	null	null	null	Mannosamine	null	null	null	null	null	null	16.398047637160982	16.393042979742464	18.127186628920523	14.360154113079414	13.175811676528648	21.737284851819126	null	null	null	null	180.087860107422
+SML	213	null	null	null	null	null	Melamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	127.072647094727
+SML	214	null	null	null	null	null	Melatonin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	233.128448486328
+SML	215	null	null	null	null	null	Met	null	null	null	null	null	null	63.456537421600501	53.593666359959926	96.155420907175483	30.628750927851208	36.958657847026423	19.31777742372492	null	null	null	null	150.058349609375
+SML	216	null	null	null	null	null	Metformin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	130.109161376953
+SML	217	null	null	null	null	null	Methanesulfonate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	94.9816513061523
+SML	218	null	null	null	null	null	Methionine sulfoxide	null	null	null	null	null	null	40.388918895283254	37.58148129090624	39.62330515551421	18.437965965502347	21.35924039736889	16.122810490583571	null	null	null	null	166.052627563477
+SML	219	null	null	null	null	null	Methionine sulfoximine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	181.063995361328
+SML	220	null	null	null	null	null	Methyl sulfate	null	null	null	null	null	null	0.48498886239893674	0.88627807375022361	1.014264978194517	1.0378643938766621	0.82620609849513471	1.2844335613104085	null	null	null	null	110.976684570312
+SML	221	null	null	null	null	null	Methylguanidine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	74.0713195800781
+SML	222	null	null	null	null	null	(Methylthio)acetate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	105.001823425293
+SML	223	null	null	null	null	null	m-Hydroxybenzoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	137.023986816406
+SML	224	null	null	null	null	null	Mucate	null	null	null	null	null	null	43.608426612006703	36.261062117627738	39.972923755742819	48.69555377415157	40.505869443599885	53.32104487210114	null	null	null	null	209.030395507812
+SML	225	null	null	null	null	null	Muramate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	252.108032226562
+SML	226	null	null	null	null	null	Muscimol	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	115.049812316895
+SML	227	null	null	null	null	null	N,N-Dimethylglycine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	104.070556640625
+SML	228	null	null	null	null	null	N1,N12-Diacetylspermine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	144.126113891602
+SML	229	null	null	null	null	null	N1,N8-Diacetylspermidine	null	null	null	null	null	null	null	null	null	null	0.98973198096902815	0.95266694731921819	null	null	null	null	230.184555053711
+SML	230	null	null	null	null	null	N1-Acetylspermidine+N8-Acetylspermidine	null	null	null	null	null	null	null	null	null	3.2765757403343745	3.3716164757003049	1.8013926015033455	null	null	null	null	188.174957275391
+SML	231	null	null	null	null	null	N1-Acetylspermine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	123.121360778809
+SML	232	null	null	null	null	null	N6,N6,N6-Trimethyllysine	null	null	null	null	null	null	7.5646691447477199	7.6865419963981516	8.336014828500371	7.9566930790735855	8.2574018422024853	7.4940812876028247	null	null	null	null	189.159484863281
+SML	233	null	null	null	null	null	N6-Methyl-2'-deoxyadenosine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	266.126037597656
+SML	234	null	null	null	null	null	N-Acetylaspartate	null	null	null	null	null	null	null	null	0.43436094288848875	3.1252557875259148	6.1234605243896176	3.588061937271668	null	null	null	null	174.041213989258
+SML	235	null	null	null	null	null	N-Acetyl-beta-alanine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	130.050918579102
+SML	236	null	null	null	null	null	N-Acetylglucosamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	222.097518920898
+SML	237	null	null	null	null	null	N-Acetylglucosamine 1-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	300.048950195312
+SML	238	null	null	null	null	null	N-Acetylglucosamine 6-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	300.049194335938
+SML	239	null	null	null	null	null	N-Acetylglucosylamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	221.112915039062
+SML	240	null	null	null	null	null	N-Acetylglutamate	null	null	null	null	null	null	null	0.51005077406173616	0.63137939054306136	4.13558343487251	4.3381321404616848	3.3465421652118805	null	null	null	null	188.056182861328
+SML	241	null	null	null	null	null	N-Acetylhistidine	null	null	null	null	null	null	2.2345300497404836	2.2608206316195107	2.2772760075890131	4.0191426093975098	4.5535366055761788	4.1329405194247588	null	null	null	null	198.087097167969
+SML	242	null	null	null	null	null	N-Acetylleucine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	172.098220825195
+SML	243	null	null	null	null	null	N-Acetylmethionine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	190.054748535156
+SML	244	null	null	null	null	null	N-Acetylmuramate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	292.103729248047
+SML	245	null	null	null	null	null	N-Acetylneuraminate	null	null	null	null	null	null	18.812101783430592	20.197231412987225	17.939741019039566	28.052963934069837	19.724684445297843	25.043013923550834	null	null	null	null	308.098358154297
+SML	246	null	null	null	null	null	N-Acetylornithine	null	null	null	null	null	null	null	null	null	1.3055870470167961	null	null	null	null	null	null	175.106689453125
+SML	247	null	null	null	null	null	N-Acetylphenylalanine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	206.082305908203
+SML	248	null	null	null	null	null	N-Acetylputrescine	null	null	null	null	null	null	0.42281197477342558	null	0.43554048332691564	1.6309909874832891	2.4859020558969878	2.5401530568624784	null	null	null	null	131.117233276367
+SML	249	null	null	null	null	null	N-Acetylvaline	null	null	null	null	null	null	null	null	null	null	1.4048847964905833	1.8286112087220245	null	null	null	null	160.097030639648
+SML	250	null	null	null	null	null	NAD+	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	662.103576660156
+SML	251	null	null	null	null	null	NADH	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	664.120544433594
+SML	252	null	null	null	null	null	NADP+	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	742.071044921875
+SML	253	null	null	null	null	null	NADPH	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	371.539245605469
+SML	254	null	null	null	null	null	N-alpha,N-alpha-Dimethylhistidine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	184.108383178711
+SML	255	null	null	null	null	null	N-alpha-Benzenolarginine ethylester	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	307.178558349609
+SML	256	null	null	null	null	null	n-Butyl a-Picolinate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	180.102767944336
+SML	257	null	null	null	null	null	N-Carbamylglutamate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	189.05158996582
+SML	258	null	null	null	null	null	N-epsilon-Acetyllysine	null	null	null	null	null	null	4.1115487794794658	4.6370214376094241	4.6995363598801658	2.1648289307377406	2.6091539289099863	1.9435443480900347	null	null	null	null	189.122741699219
+SML	259	null	null	null	null	null	N-Formylaspartate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	160.026016235352
+SML	260	null	null	null	null	null	N-Formylmethionine	null	null	null	null	null	null	null	null	null	null	1.5986464584388802	null	null	null	null	null	176.035369873047
+SML	261	null	null	null	null	null	N-gamma-Ethylglutamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	175.107955932617
+SML	262	null	null	null	null	null	Nicotinamide	null	null	null	null	null	null	3.7662813110849265	4.7025432596762728	5.1061630428225433	2.8899698770729398	2.4292197654122791	3.023366771933786	null	null	null	null	123.054534912109
+SML	263	null	null	null	null	null	Nicotinate	null	null	null	null	null	null	null	null	null	21.660601154974721	17.618973585125548	18.679447584203718	null	null	null	null	122.025192260742
+SML	264	null	null	null	null	null	Nicotine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	163.123672485352
+SML	265	null	null	null	null	null	N-Methylalanine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	104.070709228516
+SML	266	null	null	null	null	null	N-Methylaniline	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	108.081161499023
+SML	267	null	null	null	null	null	N-Methylglutamate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	162.075775146484
+SML	268	null	null	null	null	null	NMN	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	335.064636230469
+SML	269	null	null	null	null	null	N-omega-Methyltryptamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	175.123779296875
+SML	270	null	null	null	null	null	Noradrenaline	null	null	null	null	null	null	1.2430298896269749	null	2.1843740783796148	1.4945264020551363	1.0513491848967744	1.5261446220591641	null	null	null	null	170.081268310547
+SML	271	null	null	null	null	null	Nornicotine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	149.106903076172
+SML	272	null	null	null	null	null	o-Acetylcarnitine	null	null	null	null	null	null	null	null	0.57577967305979494	0.60882930461434659	0.47663538327569743	null	null	null	null	null	204.12141418457
+SML	273	null	null	null	null	null	O-Acetylserine	null	null	null	null	null	null	1.4239372329685871	null	null	null	null	null	null	null	null	null	148.059844970703
+SML	274	null	null	null	null	null	o-Coumarate	null	null	null	null	null	null	null	null	null	1.2826755211556615	1.9010625336946996	null	null	null	null	null	163.041305541992
+SML	275	null	null	null	null	null	Octanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	143.106994628906
+SML	276	null	null	null	null	null	Octopine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	247.140716552734
+SML	277	null	null	null	null	null	Octylamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	130.159790039062
+SML	278	null	null	null	null	null	o-Hydroxybenzoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	137.024108886719
+SML	279	null	null	null	null	null	o-Hydroxyhippurate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	194.046478271484
+SML	280	null	null	null	null	null	O-Phosphoserine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	184.001647949219
+SML	281	null	null	null	null	null	Ophthalmate	null	null	null	null	null	null	9.9631340880328576	8.3448531624415523	8.5097430211243577	11.164383042814642	10.408118145594971	12.225454381963182	null	null	null	null	290.135131835938
+SML	282	null	null	null	null	null	Ornithine	null	null	null	null	null	null	19.225118768391933	18.676801577638695	15.875565797147818	2.5043485728935182	2.1353777706025774	2.8758388385895763	null	null	null	null	133.096664428711
+SML	283	null	null	null	null	null	Orotate	null	null	null	null	null	null	null	null	null	null	7.8464839479003796	null	null	null	null	null	155.009216308594
+SML	284	null	null	null	null	null	Orotidine 5'-monophosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	367.018524169922
+SML	285	null	null	null	null	null	o-Succinylhomoserine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	220.08024597168
+SML	286	null	null	null	null	null	P1, P4-Di(adenosine-5') tetraphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	417.018096923828
+SML	287	null	null	null	null	null	p-Aminobenzoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	138.055068969727
+SML	288	null	null	null	null	null	Pantothenate	null	null	null	null	null	null	null	null	null	1.1681667110719092	1.7720731482511476	1.6009979131393375	null	null	null	null	218.103210449219
+SML	289	null	null	null	null	null	p-Coumarate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	163.039596557617
+SML	290	null	null	null	null	null	Pelargonate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	157.123718261719
+SML	291	null	null	null	null	null	Pentanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	101.061454772949
+SML	292	null	null	null	null	null	PEP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	166.975189208984
+SML	293	null	null	null	null	null	Phe	null	null	null	null	null	null	155.27837894021309	136.82326273453225	199.06113771221257	34.566640172472368	29.331927614292738	20.342688072935363	null	null	null	null	166.086349487305
+SML	294	null	null	null	null	null	Phenaceturate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	192.066284179688
+SML	295	null	null	null	null	null	Phenethylamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	122.095817565918
+SML	296	null	null	null	null	null	Phenyl phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	173.001052856445
+SML	297	null	null	null	null	null	Phenylethanolamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	138.091613769531
+SML	298	null	null	null	null	null	Phenylpyruvate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	163.039566040039
+SML	299	null	null	null	null	null	Phe-Phe	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	313.156646728516
+SML	300	null	null	null	null	null	Phosphonoacetate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	138.98063659668
+SML	301	null	null	null	null	null	Phosphorylcholine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	184.0732421875
+SML	302	null	null	null	null	null	Phthalate	null	null	null	null	null	null	0.30443407881420764	0.20684514444895846	0.16102292991846795	0.31103692353545609	0.19424167511983392	0.24548834139978315	null	0.011594478611224118	null	null	165.019561767578
+SML	303	null	null	null	null	null	p-Hydroxybenzoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	137.023971557617
+SML	304	null	null	null	null	null	p-Hydroxyphenylacetate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	151.040237426758
+SML	305	null	null	null	null	null	Picolinamide	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	123.055320739746
+SML	306	null	null	null	null	null	Pimelate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	159.066955566406
+SML	307	null	null	null	null	null	Pipecolate	null	null	null	null	null	null	null	null	null	7.0959354127257299	6.5331710294355716	5.4066476125061875	null	null	null	null	130.085647583008
+SML	308	null	null	null	null	null	Porphobilinogen	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	225.087387084961
+SML	309	null	null	null	null	null	Pro	null	null	null	null	null	null	1426.3770474186938	1357.4660141675718	1279.0812746319343	57.13007829522838	65.953170523480537	44.319012580890565	0.042114802466801625	null	null	null	116.071350097656
+SML	310	null	null	null	null	null	Proline betaine	null	null	null	null	null	null	1.1878691903876919	1.0090579778022069	1.0475759369190183	1.244429864291648	0.92890983156046258	1.2517604079472675	null	null	null	null	144.101211547852
+SML	311	null	null	null	null	null	Propionate	null	null	null	null	null	null	null	null	null	51.092687526515526	83.410557372986645	null	null	null	null	null	73.0302886962891
+SML	312	null	null	null	null	null	Prostaglandin E2	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	351.218048095703
+SML	313	null	null	null	null	null	Prostaglandin F2alpha	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	353.2333984375
+SML	314	null	null	null	null	null	PRPP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	388.9453125
+SML	315	null	null	null	null	null	Pseudopelletierine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	154.123016357422
+SML	316	null	null	null	null	null	Pterin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	164.056640625
+SML	317	null	null	null	null	null	Purine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	121.050987243652
+SML	318	null	null	null	null	null	Purine riboside	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	253.093780517578
+SML	319	null	null	null	null	null	Putrescine(1,4-Butanediamine)	null	null	null	null	null	null	null	null	0.85793524578420644	4.6290321792249927	8.8551495315766164	6.4043937505530533	null	null	null	null	89.1071166992188
+SML	320	null	null	null	null	null	Pyrazole	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	69.0448989868164
+SML	321	null	null	null	null	null	Pyridoxal	null	null	null	null	null	null	1.1014511415279324	1.5084366232332569	1.4111630312369354	1.0268030154510981	0.87233332992284462	1.4935011697293263	null	null	null	null	168.066665649414
+SML	322	null	null	null	null	null	Pyridoxamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	169.097473144531
+SML	323	null	null	null	null	null	Pyridoxamine 5'-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	249.064041137695
+SML	324	null	null	null	null	null	Pyridoxine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	170.081283569336
+SML	325	null	null	null	null	null	Pyrrole-2-carboxylate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	110.023979187012
+SML	326	null	null	null	null	null	Pyruvate	null	null	null	null	null	null	11.5774181517718	11.016920838947385	13.280698757838092	12.828063241071469	12.899456558216766	8.4815328263744512	null	null	null	null	87.0093688964844
+SML	327	null	null	null	null	null	Quinate	null	null	null	null	null	null	151.31487291916622	161.09386588207065	171.25273146459159	145.24690631717999	140.40613330195433	179.35842437469944	null	null	null	null	191.056747436523
+SML	328	null	null	null	null	null	R5P	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	229.011627197266
+SML	329	null	null	null	null	null	Riboflavin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	377.146148681641
+SML	330	null	null	null	null	null	Ribulose 1,5-diphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	308.978454589844
+SML	331	null	null	null	null	null	Ru5P	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	229.011489868164
+SML	332	null	null	null	null	null	S7P	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	289.033477783203
+SML	333	null	null	null	null	null	Saccharate	null	null	null	null	null	null	94.910120698996366	74.233763467254491	80.338940257773984	115.78637754391961	107.36007021014252	136.33514342705411	null	null	null	null	209.030670166016
+SML	334	null	null	null	null	null	Saccharopine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	277.139587402344
+SML	335	null	null	null	null	null	SAH	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	193.069961547852
+SML	336	null	null	null	null	null	SAM+	null	null	null	null	null	null	null	null	null	0.9544744698065134	1.0927704922813639	0.99909114789534692	null	null	null	null	200.077133178711
+SML	337	null	null	null	null	null	Sarcosine	null	null	null	null	null	null	null	null	1.5361802039219468	null	null	null	null	null	null	null	90.0548858642578
+SML	338	null	null	null	null	null	SDMA	null	null	null	null	null	null	1.0282423586558107	null	null	null	null	null	null	null	null	null	203.148040771484
+SML	339	null	null	null	null	null	Sebacate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	201.113372802734
+SML	340	null	null	null	null	null	Sepiapterin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	238.093338012695
+SML	341	null	null	null	null	null	Ser	null	null	null	null	null	null	707.51591194893524	746.97803311192899	810.86167036039592	139.41162533230235	150.63005447442714	77.747459806697876	null	0.042009626047200238	null	null	106.049598693848
+SML	342	null	null	null	null	null	Serine O-sulfate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	183.992401123047
+SML	343	null	null	null	null	null	Serotonin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	177.101318359375
+SML	344	null	null	null	null	null	Shikimate	null	null	null	null	null	null	36.43342903310878	41.002002608833557	40.741946809438183	35.479617737471614	32.897924273987286	44.49303695610125	null	null	null	null	173.046173095703
+SML	345	null	null	null	null	null	Sinapate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	223.061309814453
+SML	346	null	null	null	null	null	S-Lactoylglutathione	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	380.113525390625
+SML	347	null	null	null	null	null	S-Methylmethionine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	164.073669433594
+SML	348	null	null	null	null	null	Sorbitol 6-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	261.038452148438
+SML	349	null	null	null	null	null	Spermidine	null	null	null	null	null	null	null	null	0.37202781497025372	0.70520852383840316	1.0489559999998441	0.93625973896985326	null	null	null	null	146.164520263672
+SML	350	null	null	null	null	null	Spermine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	102.116325378418
+SML	351	null	null	null	null	null	Succinate	null	null	null	null	null	null	9.6767594307431288	9.7533277190044085	10.859996461523288	23.433469783235967	29.837576582608676	23.817792774807028	null	null	null	null	117.019462585449
+SML	352	null	null	null	null	null	Succinyl CoA	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	432.558319091797
+SML	353	null	null	null	null	null	Synephrine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	168.102508544922
+SML	354	null	null	null	null	null	Syringate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	197.046020507812
+SML	355	null	null	null	null	null	Tartrate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	149.009368896484
+SML	356	null	null	null	null	null	Taurine	null	null	null	null	null	null	49.632344956713787	30.149171221454608	77.809865087918837	44.901306510863385	31.654590859663415	27.636114310172786	0.24955864115535414	0.2778471584701579	32.788849843301541	0.78248406493319544	126.021926879883
+SML	357	null	null	null	null	null	Taurocholate	null	null	null	null	null	null	15.419017380910486	17.690046589775495	24.284759218812773	50.929819192730868	995.65857444500762	26.203307001120297	null	null	null	null	514.285522460938
+SML	358	null	null	null	null	null	Taurocyamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	168.04557800293
+SML	359	null	null	null	null	null	TDP-glucose	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	563.070068359375
+SML	360	null	null	null	null	null	Terephthalate	null	null	null	null	null	null	null	null	0.031778685887759076	0.030687863555154557	null	0.36805851038143073	0.26023562718653531	0.27260683284731874	null	null	165.019790649414
+SML	361	null	null	null	null	null	Tetrahydropalmatine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	356.187622070312
+SML	362	null	null	null	null	null	Thiamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	265.113067626953
+SML	363	null	null	null	null	null	Thiamine monophosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	345.078948974609
+SML	364	null	null	null	null	null	Thr	null	null	null	null	null	null	1064.003247355259	1095.7803440786001	1089.4359145358142	86.337843473188116	108.89303808979545	46.888734218023501	null	null	null	null	120.065246582031
+SML	365	null	null	null	null	null	threo-beta-methylaspartate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	146.046005249023
+SML	366	null	null	null	null	null	Threonate	null	null	null	null	null	null	27.462112685002744	21.817291661692899	20.089469225149614	20.441634951797752	20.733631275761478	20.778671029430015	null	null	null	null	135.030487060547
+SML	367	null	null	null	null	null	Thymidine	null	null	null	null	null	null	52.551205280350253	46.815713056483126	50.963776326814809	36.110076539801334	38.187352790482116	39.130708233249905	null	null	null	null	243.098876953125
+SML	368	null	null	null	null	null	Thymine	null	null	null	null	null	null	324.88948924795363	304.73026841946256	318.45670303392569	341.63850934413711	317.83394528693168	366.09689773444234	null	null	null	null	127.039756774902
+SML	369	null	null	null	null	null	Tiglate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	99.0459289550781
+SML	370	null	null	null	null	null	trans-4-Hydroxy-3-methoxycinnamate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	193.049865722656
+SML	371	null	null	null	null	null	trans-Aconitate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	173.009063720703
+SML	372	null	null	null	null	null	trans-Cinnamate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	147.043899536133
+SML	373	null	null	null	null	null	trans-Zeatin	null	null	null	null	null	null	null	1.1163528139952172	1.3238632887730761	null	1.4448318792906325	1.4454077663023748	null	null	null	null	220.126876831055
+SML	374	null	null	null	null	null	Trehalose 6-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	421.075958251953
+SML	375	null	null	null	null	null	TRH	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	363.179229736328
+SML	376	null	null	null	null	null	Trientine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	147.160064697266
+SML	377	null	null	null	null	null	Trigonelline	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	138.054779052734
+SML	378	null	null	null	null	null	Trimethylamine	null	null	null	null	null	null	null	null	null	8.9514543591053126	7.2947855302412137	8.6189991034386164	null	null	null	null	60.0814666748047
+SML	379	null	null	null	null	null	Trimethylamine N-oxide	null	null	null	null	null	null	0.79753476122708067	0.62941459484610718	0.61256862234149267	1.1127000865642436	0.65213220256010851	1.1379345035620316	null	null	null	null	76.0757827758789
+SML	380	null	null	null	null	null	Trimethylsulfonium	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	77.042236328125
+SML	381	null	null	null	null	null	Tropine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	142.122665405273
+SML	382	null	null	null	null	null	Tropinone	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	140.107391357422
+SML	383	null	null	null	null	null	Trp	null	null	null	null	null	null	56.740333965838815	48.805475666899767	58.932889208459699	17.469168634152872	28.359662670123171	13.337834997532925	null	null	null	null	205.097061157227
+SML	384	null	null	null	null	null	Tryptamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	161.107574462891
+SML	385	null	null	null	null	null	Tyr	null	null	null	null	null	null	192.8559521105712	187.01864729209541	240.11427637802458	29.878365399208775	30.034319935155281	19.703847760286745	null	null	null	null	182.081039428711
+SML	386	null	null	null	null	null	Tyramine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	138.091613769531
+SML	387	null	null	null	null	null	UDP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	402.99560546875
+SML	388	null	null	null	null	null	UDP-glucose	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	565.048400878906
+SML	389	null	null	null	null	null	UDP-glucuronate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	579.028381347656
+SML	390	null	null	null	null	null	UDP-N-acetylglucosamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	606.075134277344
+SML	391	null	null	null	null	null	UMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	323.028717041016
+SML	392	null	null	null	null	null	Undecanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	185.153839111328
+SML	393	null	null	null	null	null	Uracil	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	113.036514282227
+SML	394	null	null	null	null	null	Urate	null	null	null	null	null	null	20.457981089011454	19.694987064611929	22.134775541366171	3.4914992279221586	5.5598514352130666	4.5614917409696529	null	null	null	null	167.021560668945
+SML	395	null	null	null	null	null	Urea	null	null	null	null	null	null	3435.0466888639367	3363.6614652691942	3434.3884693035725	3657.2830805206786	3083.7824559014821	3462.7507057527946	null	null	null	null	61.0409355163574
+SML	396	null	null	null	null	null	Uridine	null	null	null	null	null	null	48.246136398774873	43.819926169065354	51.624494788204423	18.978088730458534	18.567792143152936	23.765339733445572	null	null	null	null	245.078918457031
+SML	397	null	null	null	null	null	Urocanate	null	null	null	null	null	null	9.4434221599073478	6.7617888804994717	6.6832598918440036	11.882361234657871	12.944214939438783	9.7690808614695825	null	null	null	null	139.051528930664
+SML	398	null	null	null	null	null	UTP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	482.962249755859
+SML	399	null	null	null	null	null	Val	null	null	null	null	null	null	507.67171150676631	462.13740329502866	576.42848775696041	107.57591195664187	107.82576885486465	52.501868203995627	null	null	null	null	118.086700439453
+SML	400	null	null	null	null	null	Xanthine	null	null	null	null	null	null	17.599724038107016	27.970227877238429	21.994956061307658	null	null	null	null	null	null	null	153.040237426758
+SML	401	null	null	null	null	null	Xanthopterin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	180.050964355469
+SML	402	null	null	null	null	null	Xanthosine	null	null	null	null	null	null	2.6266358932491825	2.2551932708282179	2.6796515496228563	null	null	null	null	null	null	null	285.083129882812
+SML	403	null	null	null	null	null	Xanthurenate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	204.030517578125
+SML	404	null	null	null	null	null	XMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	363.034790039062
+SML	405	null	null	null	null	null	XTP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	522.968566894531
+SML	406	null	null	null	null	null	1-Amino-1-cyclopentanecarboxylate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	130.086181640625
+SML	407	null	null	null	null	null	1-Aminocyclopropane-1-carboxylate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	102.05517578125
+SML	408	null	null	null	null	null	1-Aminoethylphosphonate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	124.016441345215
+SML	409	null	null	null	null	null	1-Methyl-2-pyrrolidinone	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	100.07559967041
+SML	410	null	null	null	null	null	1-Methyladenosine	null	null	null	null	null	null	null	0.70179295977937395	1.0055310520336709	null	1.0032413245662264	0.6572976258283949	null	null	null	null	282.123107910156
+SML	411	null	null	null	null	null	1-Methylhistamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	126.101829528809
+SML	412	null	null	null	null	null	1-Methylnicotinamide	null	null	null	null	null	null	1.5544303675393134	1.3750483833769263	1.1240315621878012	3.7550229192794191	1.0911252850382578	2.1894597404433207	null	null	null	null	137.070190429688
+SML	413	null	null	null	null	null	1,3-Diaminopropane	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	75.0912933349609
+SML	414	null	null	null	null	null	2',3'-cCMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	304.034545898438
+SML	415	null	null	null	null	null	2,3-Diaminopropionate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	105.065795898438
+SML	416	null	null	null	null	null	2,3-DPG	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	264.952301025391
+SML	417	null	null	null	null	null	2,3-Pyridinedicarboxylate	null	null	null	null	null	null	1.3248051101551788	1.3724537642230807	1.3676827098004787	2.3599433197037993	1.5834628330905991	1.9585639004519639	null	null	null	null	166.015411376953
+SML	418	null	null	null	null	null	2,4-Diaminobutyrate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	119.081481933594
+SML	419	null	null	null	null	null	2,4-Dihydroxypyrimidine-5-carboxylate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	155.010192871094
+SML	420	null	null	null	null	null	2,4-Dimethylaniline	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	122.096946716309
+SML	421	null	null	null	null	null	2,5-Dihydroxybenzoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	153.018600463867
+SML	422	null	null	null	null	null	2AB	null	null	null	null	null	null	null	null	null	11.798089670933322	19.357712187582255	5.5659945021464008	null	null	null	null	104.070388793945
+SML	423	null	null	null	null	null	2-Amino-3-phosphonopropionate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	168.007263183594
+SML	424	null	null	null	null	null	2-Aminobenzimidazole	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	134.072616577148
+SML	425	null	null	null	null	null	2-Aminoethylphosphonate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	124.016586303711
+SML	426	null	null	null	null	null	2-Aminophenol	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	110.060523986816
+SML	427	null	null	null	null	null	2'-Deoxycytidine	null	null	null	null	null	null	5.7443311145996834	5.0543556762749864	7.0659814651459651	null	2.8736933017044137	1.088745632213691	null	null	null	null	228.098770141602
+SML	428	null	null	null	null	null	2-Deoxyglucose 6-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	243.027542114258
+SML	429	null	null	null	null	null	2'-Deoxyguanosine	null	null	null	null	null	null	9.1927651367498129	7.6341693825216552	14.970529852124088	3.9781293890480618	6.1391554088045321	3.6501375911935852	null	null	null	null	268.106109619141
+SML	430	null	null	null	null	null	2'-Deoxyinosine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	253.094787597656
+SML	431	null	null	null	null	null	2-Deoxyribose 1-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	213.01643371582
+SML	432	null	null	null	null	null	2-Deoxystreptamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	163.107772827148
+SML	433	null	null	null	null	null	2-Furoate	null	null	null	null	null	null	null	null	null	null	2.7404948626530237	null	null	null	null	null	111.007881164551
+SML	434	null	null	null	null	null	2-Guanidinobenzimidazole	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	176.093399047852
+SML	435	null	null	null	null	null	2-Hydroxy-4-methylpentanoate	null	null	null	null	null	null	null	null	null	2.9073574567339371	4.5560119623269131	1.7074724006842312	null	null	null	null	131.071929931641
+SML	436	null	null	null	null	null	2-Hydroxybutyrate	null	null	null	null	null	null	null	null	null	2.7396108256371048	4.1850421098432848	2.4696037737491565	null	null	null	null	103.040596008301
+SML	437	null	null	null	null	null	2-Hydroxyglutarate	null	null	null	null	null	null	3.4339858520293136	2.7214309939152597	2.1767070238321709	5.690340530953506	8.4722818683814065	6.3960945293134657	null	null	null	null	147.030364990234
+SML	438	null	null	null	null	null	2-Hydroxyisobutyrate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	103.04069519043
+SML	439	null	null	null	null	null	2-Hydroxyoctanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	159.102737426758
+SML	440	null	null	null	null	null	2-Hydroxypentanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	117.056190490723
+SML	441	null	null	null	null	null	2-Hydroxyphenylacetate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	151.040344238281
+SML	442	null	null	null	null	null	2-Isopropylmalate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	175.061569213867
+SML	443	null	null	null	null	null	2-Oxoadipate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	159.030014038086
+SML	444	null	null	null	null	null	2-Oxobutyrate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	101.024803161621
+SML	445	null	null	null	null	null	2-Oxoglutarate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	145.01383972168
+SML	446	null	null	null	null	null	2-Oxoisopentanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	115.040023803711
+SML	447	null	null	null	null	null	2-Oxooctanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	157.087219238281
+SML	448	null	null	null	null	null	2PG	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	184.985290527344
+SML	449	null	null	null	null	null	2-Quinolinecarboxylate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	172.040313720703
+SML	450	null	null	null	null	null	2-Thiopheneacetate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	141.001998901367
+SML	451	null	null	null	null	null	3-(2-Hydroxyphenyl)propionate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	165.054946899414
+SML	452	null	null	null	null	null	3-(4-Hydroxyphenyl)propionate	null	null	null	null	null	null	null	null	null	122.76198034231768	190.74711525103996	59.988555127447079	null	null	null	null	165.055099487305
+SML	453	null	null	null	null	null	3,3',5-Triiodothyronine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	651.799438476562
+SML	454	null	null	null	null	null	3',5'-Cyclic dAMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	312.050872802734
+SML	455	null	null	null	null	null	3,5-Diiodo-tyrosine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	433.876129150391
+SML	456	null	null	null	null	null	3-Aminoisobutyrate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	104.070465087891
+SML	457	null	null	null	null	null	3-Aminopropane-1,2-diol	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	92.0697784423828
+SML	458	null	null	null	null	null	3-Aminopropionitrile	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	71.060905456543
+SML	459	null	null	null	null	null	3'-AMP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	346.056213378906
+SML	460	null	null	null	null	null	3-Chloroalanine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	124.015785217285
+SML	461	null	null	null	null	null	3-Hydroxy-3-methylglutarate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	161.045974731445
+SML	462	null	null	null	null	null	3-Hydroxyanthranilate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	154.050033569336
+SML	463	null	null	null	null	null	3-Hydroxybutyrate	null	null	null	null	null	null	4.6733960092719249	2.9909092693040678	5.4020075830682748	15.351392685274787	14.848878669092178	12.894109232380025	null	null	null	null	103.040435791016
+SML	464	null	null	null	null	null	3-Hydroxykynurenine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	225.087692260742
+SML	465	null	null	null	null	null	3-Hydroxypropionate	null	null	null	null	null	null	6.8478537919778537	6.3198206334393898	7.1042290583566201	7.1502596273594552	null	6.5302613311433113	null	null	null	null	89.0241546630859
+SML	466	null	null	null	null	null	3-Indolebutyrate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	202.088119506836
+SML	467	null	null	null	null	null	3-Indoxyl sulfate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	212.002593994141
+SML	468	null	null	null	null	null	3-Iodotyrosine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	307.978668212891
+SML	469	null	null	null	null	null	3-Methoxytyramine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	168.101806640625
+SML	470	null	null	null	null	null	3-Methyladenine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	150.077392578125
+SML	471	null	null	null	null	null	3-Methylbutanoate	null	null	null	null	null	null	null	null	null	86.851173102917471	153.01887571891993	45.06558704280036	null	null	null	null	101.061386108398
+SML	472	null	null	null	null	null	3-Methylguanine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	166.07421875
+SML	473	null	null	null	null	null	3-Methylhistidine	null	null	null	null	null	null	0.70731343354885523	0.83829970364155759	0.8161775420932138	0.49131964063495837	0.79530803019790164	null	null	null	null	null	170.092437744141
+SML	474	null	null	null	null	null	3PG	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	184.985595703125
+SML	475	null	null	null	null	null	3-Phenyllactate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	165.05256652832
+SML	476	null	null	null	null	null	3-Phenylpropionate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	149.061080932617
+SML	477	null	null	null	null	null	3-Ureidopropionate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	131.046615600586
+SML	478	null	null	null	null	null	4-(beta-Acetylaminoethyl)imidazole	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	154.095443725586
+SML	479	null	null	null	null	null	4-Acetylbutyrate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	129.055084228516
+SML	480	null	null	null	null	null	4-Amino-3-hydroxybutyrate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	120.065498352051
+SML	481	null	null	null	null	null	4-Aminosalicylate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	154.049819946289
+SML	482	null	null	null	null	null	4-Hydroxy-3-methoxymandelate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	197.045837402344
+SML	483	null	null	null	null	null	4-Hydroxymandelate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	167.037475585938
+SML	484	null	null	null	null	null	4-Hydroxymethylimidazole	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	99.0554809570312
+SML	485	null	null	null	null	null	4-Methyl-2-oxopentanoate	null	null	null	null	null	null	null	null	null	4.486115665820428	1.4579585750651529	null	null	null	null	null	129.054473876953
+SML	486	null	null	null	null	null	4-Methyl-5-thiazoleethanol	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	144.04801940918
+SML	487	null	null	null	null	null	4-Methylthio-2-oxobutyrate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	147.012939453125
+SML	488	null	null	null	null	null	4-Oxohexanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	129.055206298828
+SML	489	null	null	null	null	null	4-Oxopentanoate	null	null	null	null	null	null	null	1.8578030277452355	2.432696880202561	null	2.9330111897047835	null	null	null	null	null	115.040855407715
+SML	490	null	null	null	null	null	4-Pyridoxate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	182.046203613281
+SML	491	null	null	null	null	null	5,6-Dimethylbenzimidazole	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	147.092178344727
+SML	492	null	null	null	null	null	5-Aminolevulinate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	132.065368652344
+SML	493	null	null	null	null	null	5-Aminovalerate	null	null	null	null	null	null	null	5.8021151427574242	10.191968263121732	5972.0434588391108	6049.635583224127	5713.58284399268	null	null	null	null	118.087928771973
+SML	494	null	null	null	null	null	5'-Deoxyadenosine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	252.110122680664
+SML	495	null	null	null	null	null	5-Hydroxyindoleacetate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	192.074584960938
+SML	496	null	null	null	null	null	5-Hydroxylysine	null	null	null	null	null	null	1.7862992358686671	1.2503091343868142	1.5044606832616083	1.7653802242102432	1.6437355603694246	1.601406719426739	null	null	null	null	163.107162475586
+SML	497	null	null	null	null	null	5-Hydroxytryptophan	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	221.092437744141
+SML	498	null	null	null	null	null	5-Methoxyindoleacetate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	206.08137512207
+SML	499	null	null	null	null	null	5-Methoxytryptamine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	191.118530273438
+SML	500	null	null	null	null	null	5-Methyl-2'-deoxycytidine	null	null	null	null	null	null	4.8331740804033352	4.3190811055957674	5.920569920150732	5.8504591312300169	4.4889156524005411	5.4160441471828058	null	null	null	null	242.108489990234
+SML	501	null	null	null	null	null	5-Methylcytosine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	126.066131591797
+SML	502	null	null	null	null	null	5-Methyltetrahydrofolate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	460.195709228516
+SML	503	null	null	null	null	null	5-Methylthioadenosine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	298.097961425781
+SML	504	null	null	null	null	null	5-Oxoproline	null	null	null	null	null	null	23.155465565076842	22.066974329995293	18.672305001006261	13.359019393065321	13.746199265815411	17.308131220439904	null	null	null	null	128.034469604492
+SML	505	null	null	null	null	null	6-Aminohexanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	132.099884033203
+SML	506	null	null	null	null	null	6-Hydroxyhexanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	131.071746826172
+SML	507	null	null	null	null	null	6-Hydroxynicotinate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	140.033874511719
+SML	508	null	null	null	null	null	6-Methylaminopurine	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	150.07731628418
+SML	509	null	null	null	null	null	6-Phosphogluconate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	275.017639160156
+SML	510	null	null	null	null	null	7,8-Dihydrobiopterin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	240.108428955078
+SML	511	null	null	null	null	null	7,8-Dihydroneopterin	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	256.104156494141
+SML	512	null	null	null	null	null	7-Methylguanine	null	null	null	null	null	null	1.1383273910806277	1.3101642659903039	0.93807316594624945	1.5444156410911634	0.91479594048194079	1.3210542302109463	null	null	null	null	166.071365356445
+SML	513	null	null	null	null	null	10-Hydroxydecanoate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	187.133285522461
+SML	514	null	null	null	null	null	null	null	null	null	null	null	null	50	50	50	50	50	50	null	null	null	null	null
+

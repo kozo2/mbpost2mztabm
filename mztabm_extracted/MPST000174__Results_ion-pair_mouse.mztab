@@ -1,0 +1,175 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000174__Results_ion-pair_mouse
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000174, MPST000174__Results_ion-pair_mouse.xlsx, sheet "Sheet1"
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	GF1
+MTD	sample[2]	GF2
+MTD	sample[3]	GF3
+MTD	sample[4]	GF4
+MTD	sample[5]	GF5
+MTD	sample[6]	GF6
+MTD	sample[7]	GF7
+MTD	sample[8]	GF8
+MTD	sample[9]	ExGF1
+MTD	sample[10]	ExGF2
+MTD	sample[11]	ExGF3
+MTD	sample[12]	ExGF4
+MTD	sample[13]	ExGF5
+MTD	sample[14]	ExGF6
+MTD	sample[15]	ExGF7
+MTD	sample[16]	ExGF8
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	ms_run[5]-location	null
+MTD	ms_run[6]-location	null
+MTD	ms_run[7]-location	null
+MTD	ms_run[8]-location	null
+MTD	ms_run[9]-location	null
+MTD	ms_run[10]-location	null
+MTD	ms_run[11]-location	null
+MTD	ms_run[12]-location	null
+MTD	ms_run[13]-location	null
+MTD	ms_run[14]-location	null
+MTD	ms_run[15]-location	null
+MTD	ms_run[16]-location	null
+MTD	assay[1]	GF1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	GF2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	GF3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	GF4
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	GF5
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	GF6
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	GF7
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	GF8
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	ExGF1
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	ExGF2
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	ExGF3
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	ExGF4
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	ExGF5
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	ExGF6
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	ExGF7
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	ExGF8
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	Lysine	null	null	null	null	null	null	12465	14345	14478	10866	7085	12562	7150	9878	13817	96051	43870	25141	14980	9287	81301	57588	26929	1.0350314983840136
+SML	2	null	null	null	null	null	Arginine	null	null	null	null	null	null	48357	36131	44586	55821	28277	21296	23458	29745	7610	156113	77447	26628	11514	30083	49768	97754	46536.75	0.80386346744458059
+SML	3	null	null	null	null	null	Histidine	null	null	null	null	null	null	63515	62498	63538	53307	43664	49351	40643	51936	70001	82277	67838	63550	63252	67235	55347	62813	60047.8125	0.17512034098491577
+SML	4	null	null	null	null	null	Glycine	null	null	null	null	null	null	13032	10766	11046	11237	7751	7538	6117	6716	12562	19970	13021	9818	7331	9781	18088	20091	11554.0625	0.38724490801042427
+SML	5	null	null	null	null	null	Serine	null	null	null	null	null	null	119564	95247	118140	119500	86768	91445	66194	98279	143431	247564	181657	124395	95372	102487	183128	248144	132582.1875	0.41464054812816326
+SML	6	null	null	null	null	null	Asparagine	null	null	null	null	null	null	153986	149485	187925	184352	136872	159607	112561	155176	4417	21535	42784	2575	4884	3727	7517	20335	84233.625	0.89692626651127771
+SML	7	null	null	null	null	null	Alanine	null	null	null	null	null	null	36914	38006	37302	32168	27555	27056	24842	23962	90975	165989	112598	58772	55193	50067	182894	139168	68966.3125	0.76859569237688818
+SML	8	null	null	null	null	null	Glutamine	null	null	null	null	null	null	145420	135233	175412	181830	172459	134651	94721	158434	65283	340586	281040	74808	73526	71681	149627	317127	160739.875	0.53313780670666444
+SML	9	null	null	null	null	null	Threonine	null	null	null	null	null	null	399843	395887	555011	547905	336514	480790	353322	408142	226782	706277	409517	222838	144423	177551	520778	612473	406128.3125	0.39598280124345259
+SML	10	null	null	null	null	null	Cysteine	null	null	null	null	null	null	1430	1144	1010	773	1034	1192	1103	1379	1156	489	700	343	775	850	624	911	932.0625	0.3283830363017195
+SML	11	null	null	null	null	null	Methionine sulfone	null	null	null	null	null	null	16803	13506	14103	3875	7047	3276	5729	6027	4279	4468	4748	2398	3346	3284	5045	5836	6485.625	0.67001531687037641
+SML	12	null	null	null	null	null	Methionine	null	null	null	null	null	null	119012	124570	109351	113100	93631	79376	61996	91738	239347	1043903	570846	334019	229287	251401	660771	813914	308516.375	0.97532412855619088
+SML	13	null	null	null	null	null	Tyrosine	null	null	null	null	null	null	209182	229366	200376	205383	179590	156040	116955	176189	305792	1277965	947878	418733	287663	328221	809183	975377	426493.3125	0.8490296845299522
+SML	14	null	null	null	null	null	2-Morpholinoethanesulfonic acid	null	null	null	null	null	null	1922512	1930175	1933176	2016881	1981984	1978514	1964168	1962602	1913451	2068828	1929745	1967253	1962316	1970152	2069691	1980564	1972000.75	0.023545102183028639
+SML	15	null	null	null	null	null	Glutamic acid	null	null	null	null	null	null	1656458	1984999	1956775	1380147	1525546	1533270	960947	1760405	3118251	8015482	2788357	3119546	3153192	2542434	8601495	6776897	3179637.5625	0.75808748041455254
+SML	16	null	null	null	null	null	Aspartic acid	null	null	null	null	null	null	495429	550236	557315	478258	525992	463521	314240	538499	1629609	1467209	1148735	1575665	1273271	1427361	1524738	2147779	1007366.0625	0.56957587962607437
+SML	17	null	null	null	null	null	Phenylalanine	null	null	null	null	null	null	524200	521560	487873	485087	359226	348148	254710	382122	607736	2185746	1593383	826724	536251	633550	1303077	1682029	795713.875	0.7209215550291268
+SML	18	null	null	null	null	null	Glucose 6-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	12226033	2068661	null	null	null	211756	126519	null	null
+SML	19	null	null	null	null	null	Ribose 5-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	14804	197965	89751	15895	17241	14735	180890	55914	null	null
+SML	20	null	null	null	null	null	Sedoheptulose 7-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	17716	3960019	391110	22667	14563	21235	424746	141901	null	null
+SML	21	null	null	null	null	null	Fructose 6-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	3213383	446352	null	10560	9094	143080	71656	null	null
+SML	22	null	null	null	null	null	Tryptophan	null	null	null	null	null	null	221944	252064	257772	265328	223807	219490	137435	244736	210975	694694	606308	260594	210889	228621	364796	563966	310213.6875	0.52474441850984133
+SML	23	null	null	null	null	null	Glycerol 3-phosphate	null	null	null	null	null	null	39056	42102	21600	15193	29557	18828	17243	38271	98950	424127	345294	161741	116428	164244	379522	230382	133908.625	1.0433325709513499
+SML	24	null	null	null	null	null	Glucose 1-phosphate	null	null	null	null	null	null	null	4942	null	3068	null	null	null	3614	4753	281671	84196	21909	11256	13552	471173	370976	null	null
+SML	25	null	null	null	null	null	Glyceraldehyde 3-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	88439	555964	184957	92239	109784	46511	446493	139958	null	null
+SML	26	null	null	null	null	null	Erythrose 4-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	27	null	null	null	null	null	Ribulose 5-phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	54745	238720	176175	126002	84263	98465	545486	296003	null	null
+SML	28	null	null	null	null	null	Pyruvic acid	null	null	null	null	null	null	null	1170	1107	null	null	null	null	null	3654	7066	2761	1373	1259	2223	5197	3371	null	null
+SML	29	null	null	null	null	null	Cytidine monophosphate	null	null	null	null	null	null	3873	5550	2657	2664	5452	null	3769	2425	75537	51073	526352	358227	141688	213677	60742	300580	null	null
+SML	30	null	null	null	null	null	NAD	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	31	null	null	null	null	null	Dihydroxyacetone phosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	32	null	null	null	null	null	Uridine monophosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	57100	55161	501053	288410	97901	122016	52771	312652	null	null
+SML	33	null	null	null	null	null	Guanosine monophosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	44815	30322	534457	250090	105451	122446	39132	163591	null	null
+SML	34	null	null	null	null	null	Thymidine monophosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	162644	356460	544955	552843	201691	220537	469448	1050726	null	null
+SML	35	null	null	null	null	null	Adenosine monophosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	30723	19862	349428	176653	49312	66191	28812	142458	null	null
+SML	36	null	null	null	null	null	Guanosine 3',5'-cyclic monophosphate	null	null	null	null	null	null	11199	6523	5451	6380	5577	3827	7603	3036	null	null	null	null	null	null	null	null	null	null
+SML	37	null	null	null	null	null	Adenosine 3',5'-cyclic monophosphate	null	null	null	null	null	null	26907	19934	7798	2518	1921	1725	7035	3919	null	null	null	null	null	null	null	null	null	null
+SML	38	null	null	null	null	null	Cytidine diphosphate	null	null	null	null	null	null	8205	7039	15370	10592	10971	11898	13226	15482	9386	9322	8238	10780	14348	13379	7155	9048	10902.4375	0.2561936384815599
+SML	39	null	null	null	null	null	6-Phosphogluconic acid	null	null	null	null	null	null	31351	47538	18692	18716	20674	19917	21859	27317	26820	46604	16334	28045	34116	30698	37684	18223	27786.75	0.35260076897673104
+SML	40	null	null	null	null	null	Guanosine diphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	41	null	null	null	null	null	Uridine diphosphate	null	null	null	null	null	null	305640	240666	296343	305313	285657	302262	282105	308605	297983	272822	334036	270573	258353	262851	255226	255204	283352.4375	0.089550246795664909
+SML	42	null	null	null	null	null	3-Phosphoglyceric acid_2-Phosphoglyceric acid	null	null	null	null	null	null	49159	49279	54859	62549	58428	66882	58164	68503	85648	125189	95674	73881	99145	69594	293914	88095	87435.1875	0.67242339210896429
+SML	43	null	null	null	null	null	NADP	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	44	null	null	null	null	null	Fructose 1,6-bisphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	18902	15300	9552	13105	14811	10485	23515	21433	null	null
+SML	45	null	null	null	null	null	NADH	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	46	null	null	null	null	null	Adenosine diphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	47	null	null	null	null	null	Thymidine diphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	48	null	null	null	null	null	Phosphoenolpyruvic acid	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	9306	null	null	null	null	66480	null	null	null
+SML	49	null	null	null	null	null	Cytidine triphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	11821	12950	null	null	null	17176	2549	null	null
+SML	50	null	null	null	null	null	Guanosine triphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	22893	16793	null	null	null	15389	null	null	null
+SML	51	null	null	null	null	null	Uridine triphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	2700	24353	40172	4013	2030	null	25448	5193	null	null
+SML	52	null	null	null	null	null	Adenosine triphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	53	null	null	null	null	null	Thymidine triphosphate	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	54	null	null	null	null	null	NADPH	null	null	null	null	null	null	null	null	null	null	null	null	null	null	5290	3600	1621	6260	4271	9061	6939	3462	null	null
+SML	55	null	null	null	null	null	2,3-Bisphosphoglyceric acid	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	56	null	null	null	null	null	Succinyl coenzyme A	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	57	null	null	null	null	null	Acetyl coenzyme A	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+

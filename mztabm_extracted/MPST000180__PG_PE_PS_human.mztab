@@ -1,0 +1,246 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000180__PG_PE_PS_human
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000180, MPST000180__PG_PE_PS_human.xlsx, sheet "Sheet1": Peak area of phosphatidylglycerol, phosphatidylethanolamine and phosphatidylserine detected from human faecal metabolome using LC/MS/MS MRM library for phospholipid profiling
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	1-pre
+MTD	sample[1]-custom[1]	[,,Tissue weight (mg)*, 23.9]
+MTD	sample[1]-custom[2]	[,,header_1, Technical replicate 1]
+MTD	sample[2]	2-pre
+MTD	sample[2]-custom[1]	[,,Tissue weight (mg)*, 19.5]
+MTD	sample[2]-custom[2]	[,,header_1, null]
+MTD	sample[3]	3-pre
+MTD	sample[3]-custom[1]	[,,Tissue weight (mg)*, 24]
+MTD	sample[3]-custom[2]	[,,header_1, null]
+MTD	sample[4]	4-pre
+MTD	sample[4]-custom[1]	[,,Tissue weight (mg)*, 20]
+MTD	sample[4]-custom[2]	[,,header_1, null]
+MTD	sample[5]	1-post
+MTD	sample[5]-custom[1]	[,,Tissue weight (mg)*, 20]
+MTD	sample[5]-custom[2]	[,,header_1, null]
+MTD	sample[6]	5-post
+MTD	sample[6]-custom[1]	[,,Tissue weight (mg)*, 26]
+MTD	sample[6]-custom[2]	[,,header_1, null]
+MTD	sample[7]	1-pre_2
+MTD	sample[7]-custom[1]	[,,Tissue weight (mg)*, 23.9]
+MTD	sample[7]-custom[2]	[,,header_1, Technical replicate 2]
+MTD	sample[8]	2-pre_2
+MTD	sample[8]-custom[1]	[,,Tissue weight (mg)*, 19.5]
+MTD	sample[8]-custom[2]	[,,header_1, null]
+MTD	sample[9]	3-pre_2
+MTD	sample[9]-custom[1]	[,,Tissue weight (mg)*, 24]
+MTD	sample[9]-custom[2]	[,,header_1, null]
+MTD	sample[10]	4-pre_2
+MTD	sample[10]-custom[1]	[,,Tissue weight (mg)*, 20]
+MTD	sample[10]-custom[2]	[,,header_1, null]
+MTD	sample[11]	1-post_2
+MTD	sample[11]-custom[1]	[,,Tissue weight (mg)*, 20]
+MTD	sample[11]-custom[2]	[,,header_1, null]
+MTD	sample[12]	5-post_2
+MTD	sample[12]-custom[1]	[,,Tissue weight (mg)*, 26]
+MTD	sample[12]-custom[2]	[,,header_1, null]
+MTD	sample[13]	1-pre_3
+MTD	sample[13]-custom[1]	[,,Tissue weight (mg)*, 23.9]
+MTD	sample[13]-custom[2]	[,,header_1, Technical replicate 3]
+MTD	sample[14]	2-pre_3
+MTD	sample[14]-custom[1]	[,,Tissue weight (mg)*, 19.5]
+MTD	sample[14]-custom[2]	[,,header_1, null]
+MTD	sample[15]	3-pre_3
+MTD	sample[15]-custom[1]	[,,Tissue weight (mg)*, 24]
+MTD	sample[15]-custom[2]	[,,header_1, null]
+MTD	sample[16]	4-pre_3
+MTD	sample[16]-custom[1]	[,,Tissue weight (mg)*, 20]
+MTD	sample[16]-custom[2]	[,,header_1, null]
+MTD	sample[17]	1-post_3
+MTD	sample[17]-custom[1]	[,,Tissue weight (mg)*, 20]
+MTD	sample[17]-custom[2]	[,,header_1, null]
+MTD	sample[18]	5-post_3
+MTD	sample[18]-custom[1]	[,,Tissue weight (mg)*, 26]
+MTD	sample[18]-custom[2]	[,,header_1, null]
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	ms_run[5]-location	null
+MTD	ms_run[6]-location	null
+MTD	ms_run[7]-location	null
+MTD	ms_run[8]-location	null
+MTD	ms_run[9]-location	null
+MTD	ms_run[10]-location	null
+MTD	ms_run[11]-location	null
+MTD	ms_run[12]-location	null
+MTD	ms_run[13]-location	null
+MTD	ms_run[14]-location	null
+MTD	ms_run[15]-location	null
+MTD	ms_run[16]-location	null
+MTD	ms_run[17]-location	null
+MTD	ms_run[18]-location	null
+MTD	assay[1]	1-pre
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	2-pre
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	3-pre
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	4-pre
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	1-post
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	5-post
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	1-pre_2
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	2-pre_2
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	3-pre_2
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	4-pre_2
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	1-post_2
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	5-post_2
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	1-pre_3
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	2-pre_3
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	3-pre_3
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	4-pre_3
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	1-post_3
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	5-post_3
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	LPE(14:0)	null	null	null	null	null	null	170709	50562	414716	121638	280080	777552	189225	47387	419661	147835	294905	762709	202062	49406	410299	138696	275794	785082	307684.33333333331	0.79822708570530843
+SML	2	null	null	null	null	null	LPE(16:0)	null	null	null	null	null	null	3633677	533749	12066302	2468910	4951915	12505568	3905323	613417	11864622	2678496	5518808	12607915	3618435	561226	12332165	2718737	5348844	13039961	6164892.777777778	0.77344154569288726
+SML	3	null	null	null	null	null	LPE(16:1)	null	null	null	null	null	null	306035	11594	728348	57067	125286	338129	349033	14389	730086	66019	131631	352663	331774	12433	843729	57209	124848	348008	273793.38888888888	0.95876025528148678
+SML	4	null	null	null	null	null	LPE(18:0)	null	null	null	null	null	null	6107788	118111	848952	2789604	970086	1682900	6763236	114009	858742	2751116	933604	1822065	6353065	97968	814233	2789544	987605	1677797	2137801.388888889	1.0031865759687859
+SML	5	null	null	null	null	null	LPE(18:1)	null	null	null	null	null	null	1125160	99961	3014913	407556	877704	1149257	1085169	117548	3157698	425195	762868	1133688	1071324	97975	3217170	424381	755709	968228	1105083.5555555555	0.90618057493305648
+SML	6	null	null	null	null	null	LPE(18:2)	null	null	null	null	null	null	136056	11245	823889	163556	103660	106570	163932	11904	854607	181655	120010	108032	151940	7236	831860	177763	85099	117783	230933.16666666669	1.2295569137199673
+SML	7	null	null	null	null	null	LPE(20:0)	null	null	null	null	null	null	81166	null	null	47452	15955	20845	78629	null	null	51770	17379	22248	73807	null	null	45115	10694	21189	null	null
+SML	8	null	null	null	null	null	LPE(20:1)	null	null	null	null	null	null	29845	null	19065	35646	7546	15175	29120	null	11410	29742	6759	16369	22595	null	14524	28844	7313	12612	null	null
+SML	9	null	null	null	null	null	LPE(20:3)	null	null	null	null	null	null	17350	null	22257	null	null	13947	14614	null	19227	null	null	10842	16151	null	19931	null	null	10601	null	null
+SML	10	null	null	null	null	null	LPE(22:0)	null	null	null	null	null	null	119775	2565	5713	63876	16723	34169	108134	8779	5333	69512	26358	23520	103696	7899	1762	81208	23321	30243	40699.222222222219	0.97641860267328007
+SML	11	null	null	null	null	null	PE(28:0-14:0/14:0)	null	null	null	null	null	null	27389	115012	96984	156064	147219	84444	84447	78560	95856	116387	156935	59333	63917	85354	83239	94248	142439	45633	96303.333333333328	0.38480191379697659
+SML	12	null	null	null	null	null	PE(30:0-14:0/16:0)	null	null	null	null	null	null	288836	243210	719239	499319	1376241	460903	411169	232417	751991	561888	1476213	435975	412201	255544	920437	446539	1402342	383401	626548.0555555555	0.64987394391025688
+SML	13	null	null	null	null	null	PE(30:1-14:0/16:1)	null	null	null	null	null	null	59242	5563	244402	33737	38200	6646	57266	13396	356845	8938	40612	28026	100738	21194	295643	26965	56571	24733	78817.611111111109	1.3411251504431441
+SML	14	null	null	null	null	null	PE(32:0-16:0/16:0)	null	null	null	null	null	null	474794	243342	858179	344333	1321850	648541	512638	290282	969921	365302	1379883	748578	481973	316464	1073851	380896	1111496	760328	682369.5	0.53387830574764361
+SML	15	null	null	null	null	null	PE(32:1-14:0/18:1)	null	null	null	null	null	null	113894	64635	413467	106994	157715	117824	106350	96655	444846	92820	249252	129121	133149	108411	483365	79227	290328	108450	183139.05555555556	0.73257688860336168
+SML	16	null	null	null	null	null	PE(32:1-16:0/16:1)	null	null	null	null	null	null	685017	74393	532986	227409	804413	194649	591069	103471	568686	253040	1007538	141109	819962	93434	581901	278735	827194	166989	441777.5	0.68889676006436473
+SML	17	null	null	null	null	null	PE(32:2-14:0/18:2)	null	null	null	null	null	null	46933	8751	338480	33868	220013	10902	78683	9823	378320	30571	235344	13128	75400	19650	384085	18607	155458	16385	115244.5	1.1750334000016158
+SML	18	null	null	null	null	null	PE(32:2-14:1/18:1)	null	null	null	null	null	null	null	null	8892	null	null	null	null	null	12440	null	null	null	null	null	10721	null	null	null	null	null
+SML	19	null	null	null	null	null	PE(32:2-16:1/16:1)	null	null	null	null	null	null	726106	23873	1264702	130174	119355	9083	833156	14704	1370079	116366	86438	13499	954303	37591	1412634	123607	80606	7738	406889.66666666663	1.2923408101288458
+SML	20	null	null	null	null	null	PE(32:3-14:0/18:3)	null	null	null	null	null	null	null	null	null	null	22963	null	null	null	null	null	10414	null	null	null	null	null	30450	null	null	null
+SML	21	null	null	null	null	null	PE(34:0-16:0/18:0)	null	null	null	null	null	null	64619	84835	72391	128480	72235	64166	65011	91831	72282	132906	50552	59355	88692	97254	81911	163638	61482	74758	84799.888888888891	0.34822434558944665
+SML	22	null	null	null	null	null	PE(34:1-16:0/18:1)	null	null	null	null	null	null	1774571	1130971	4030086	1531190	3100401	1161862	1828838	1248623	4160493	1549150	3392898	1057350	1795608	1233110	4104087	1365504	3742387	1210369	2189861	0.5405910471358979
+SML	23	null	null	null	null	null	PE(34:1-16:1/18:0)	null	null	null	null	null	null	87604	22633	36580	29573	58377	3681	99742	18207	51430	21741	64782	13891	74209	22904	45367	27728	78636	3950	42279.722222222219	0.69051239484935778
+SML	24	null	null	null	null	null	PE(34:2-16:0/18:2)	null	null	null	null	null	null	905127	191897	796267	557128	2640735	106136	1136710	180850	875505	575828	3035420	81894	1079924	215016	904597	648402	2695378	95692	929028.11111111112	0.99815089133089074
+SML	25	null	null	null	null	null	PE(34:2-16:1/18:1)	null	null	null	null	null	null	271842	51001	662512	39634	279985	27398	358111	29307	614812	58103	349849	38152	401700	41046	793013	52929	268334	40276	243222.44444444444	1.0139725874086876
+SML	26	null	null	null	null	null	PE(34:3-16:0/18:3)	null	null	null	null	null	null	80046	55244	31011	50718	342741	9186	105001	71487	48133	65250	507788	13639	91623	63263	35773	59736	373354	16993	112277	1.262000541399148
+SML	27	null	null	null	null	null	PE(34:3-16:1/18:2)	null	null	null	null	null	null	34962	null	493734	17149	43945	null	25931	null	582434	15856	66724	null	24972	null	556065	11324	73350	9220	null	null
+SML	28	null	null	null	null	null	PE(34:4-14:0/20:4)	null	null	null	null	null	null	27530	null	15570	15341	8800	null	20901	null	2165	7728	24366	null	10999	7708	9987	18757	16349	null	null	null
+SML	29	null	null	null	null	null	PE(36:1-16:0/20:1)	null	null	null	null	null	null	12996	28344	23392	23009	null	null	20756	23908	35065	30507	null	null	7260	25237	28001	25111	null	null	null	null
+SML	30	null	null	null	null	null	PE(36:1-18:0/18:1)	null	null	null	null	null	null	72839	74439	112460	183308	89337	30809	58920	113139	164492	169508	80045	24659	61612	111520	162526	200785	100475	21379	101791.77777777778	0.5439057519566699
+SML	31	null	null	null	null	null	PE(36:2-18:0/18:2)	null	null	null	null	null	null	12342	16320	56778	38161	32641	null	10940	7464	54718	32639	40167	null	3486	11580	55189	21786	28948	null	null	null
+SML	32	null	null	null	null	null	PE(36:2-18:1/18:1)	null	null	null	null	null	null	599462	511611	1023060	180119	961759	132992	566764	592763	1020157	165766	1351987	139607	596213	523827	1070678	176007	1234527	116149	609080.4444444445	0.6778908748167034
+SML	33	null	null	null	null	null	PE(36:3-16:0/20:3)	null	null	null	null	null	null	173363	11861	58083	75932	131384	4931	239665	15400	26911	88762	111630	12755	167783	10480	48305	74012	137963	15803	78056.833333333328	0.88545045911431164
+SML	34	null	null	null	null	null	PE(36:3-18:1/18:2)	null	null	null	null	null	null	43467	34965	77780	54304	88969	9641	74358	31835	82708	26140	97436	11527	73556	72305	75912	50537	69597	12488	54862.5	0.51533743363389739
+SML	35	null	null	null	null	null	PE(36:4-16:0/20:4)	null	null	null	null	null	null	353871	33823	56681	323884	250769	4193	476951	46292	46795	271167	432850	5316	427224	45142	61601	262041	281093	8271	188220.22222222222	0.90065262780784394
+SML	36	null	null	null	null	null	PE(36:4-18:1/18:3)	null	null	null	null	null	null	null	4607	null	null	null	null	null	6919	null	null	null	null	null	6928	null	null	null	null	null	null
+SML	37	null	null	null	null	null	PE(36:4-18:2/18:2)	null	null	null	null	null	null	18465	25717	24225	20746	47312	null	13834	16154	15011	14985	37000	11528	13837	20819	39207	12665	58926	null	null	null
+SML	38	null	null	null	null	null	PE(36:5-16:0/20:5)	null	null	null	null	null	null	54662	16719	128000	63028	22342	6803	85383	34209	191617	49206	30242	null	66672	35184	155354	39369	24447	null	null	null
+SML	39	null	null	null	null	null	PE(36:5-16:1/20:4)	null	null	null	null	null	null	13406	null	35492	null	null	null	13327	null	29946	null	null	null	46360	null	24400	null	null	null	null	null
+SML	40	null	null	null	null	null	PE(38:4-18:0/20:4)	null	null	null	null	null	null	10916	23721	null	23585	1376	1347	13913	22391	null	28423	16559	null	7393	19685	null	11608	5666	2136	null	null
+SML	41	null	null	null	null	null	PE(38:5-18:0/20:5)	null	null	null	null	null	null	null	null	12537	null	null	null	null	null	9756	null	null	null	null	null	11607	null	null	null	null	null
+SML	42	null	null	null	null	null	PE(38:6-16:0/22:6)	null	null	null	null	null	null	91010	39696	132154	84789	47982	36056	133175	50901	127319	54362	101757	23560	108227	18453	130048	73733	75853	39524	76033.277777777781	0.5160832409192595
+SML	43	null	null	null	null	null	LPG(14:0)	null	null	null	null	null	null	25235	9613	13552	17953	40814	148277	22087	9712	10784	17001	41014	157831	22252	12262	11695	17397	34689	145872	42113.333333333328	1.2095600459675435
+SML	44	null	null	null	null	null	LPG(16:0)	null	null	null	null	null	null	839100	54044	618981	1633672	724177	2831218	816339	69134	660168	1630194	722105	3052841	824385	45058	631464	1619542	656662	2836909	1125888.5	0.84179279903217985
+SML	45	null	null	null	null	null	LPG(16:1)	null	null	null	null	null	null	62095	null	37489	8112	61771	120620	69607	null	30379	10721	59390	129825	61136	null	35991	9676	48953	112135	null	null
+SML	46	null	null	null	null	null	LPG(18:0)	null	null	null	null	null	null	261803	18106	148813	454295	135669	220731	283636	22202	156045	448720	126258	225865	259224	15990	133361	451860	132554	217217	206241.61111111112	0.67211295891820111
+SML	47	null	null	null	null	null	LPG(18:1)	null	null	null	null	null	null	762886	60528	942066	445933	267873	489081	645737	50713	1149446	427126	261060	464042	630026	51386	1187182	400972	263102	434900	496336.61111111112	0.68819594701195042
+SML	48	null	null	null	null	null	LPG(18:2)	null	null	null	null	null	null	291928	null	42819	211437	65659	227702	311568	null	45674	200367	59995	216805	256702	null	44549	174447	51941	233913	null	null
+SML	49	null	null	null	null	null	PG(28:0-14:0/14:0)	null	null	null	null	null	null	7102	null	9949	3239	6568	40104	14409	null	5223	5212	9520	22561	6476	null	null	15531	22075	32310	null	null
+SML	50	null	null	null	null	null	PG(30:0-14:0/16:0)	null	null	null	null	null	null	80078	null	52497	136990	120699	121030	127725	null	66020	147558	157536	133319	103076	null	54631	196594	135907	107954	null	null
+SML	51	null	null	null	null	null	PG(32:0-14:0/18:0)	null	null	null	null	null	null	35579	6647	22291	87805	42383	44466	30000	11067	21202	82517	61881	57056	64644	29562	35394	92682	73807	42444	46745.944444444445	0.55559305242974766
+SML	52	null	null	null	null	null	PG(32:0-16:0/16:0)	null	null	null	null	null	null	1423059	181485	748339	2082767	539643	849130	1603022	442790	689746	1921337	1004101	968105	1849422	353017	699732	2263711	904318	896020	1078874.6666666667	0.58079789632143297
+SML	53	null	null	null	null	null	PG(32:1-14:0/18:1)	null	null	null	null	null	null	59655	32421	16520	73294	64178	89568	111611	22127	48230	111415	75803	67785	81493	21890	43407	122209	67911	81295	66156.222222222219	0.47523243715741242
+SML	54	null	null	null	null	null	PG(32:1-16:0/16:1)	null	null	null	null	null	null	70389	17178	51814	130664	173726	61183	45707	12030	56716	105931	155423	73536	71505	11642	73697	87990	164503	49173	78489.277777777781	0.63461445565695895
+SML	55	null	null	null	null	null	PG(34:0-16:0/18:0)	null	null	null	null	null	null	122052	58712	173138	362560	133833	164118	132985	130376	216355	396603	124969	104257	152593	120697	198349	265068	145477	100665	172378.16666666666	0.51463414407112718
+SML	56	null	null	null	null	null	PG(34:1-16:0/18:1)	null	null	null	null	null	null	1415703	817201	1927656	2464337	1173360	1015820	1738136	653747	2233803	2736689	1246827	1018271	1551933	880285	1936288	2733228	1112505	926188	1532332.0555555555	0.43699551773539996
+SML	57	null	null	null	null	null	PG(34:1-16:1/18:0)	null	null	null	null	null	null	18742	6570	27333	30653	32877	5474	5451	null	31940	25193	31726	8725	10909	16878	27004	12019	8762	17489	null	null
+SML	58	null	null	null	null	null	PG(34:2-16:0/18:2)	null	null	null	null	null	null	68781	34651	122390	287412	261485	76789	107716	43094	114301	272663	277528	82747	77347	49798	96980	275615	261165	101311	145098.5	0.65991089857209129
+SML	59	null	null	null	null	null	PG(34:2-16:1/18:1)	null	null	null	null	null	null	80254	26459	74656	30457	110754	10166	58569	20176	100412	68556	81838	9028	48085	32294	108457	67649	73247	null	null	null
+SML	60	null	null	null	null	null	PG(36:1-16:0/20:1)	null	null	null	null	null	null	82267	141275	217106	122458	59658	7201	115528	178863	243954	98119	76990	7364	70569	174215	236056	71873	115500	25901	113605.38888888889	0.64348054331034332
+SML	61	null	null	null	null	null	PG(36:1-18:0/18:1)	null	null	null	null	null	null	197242	70896	134101	277559	258515	81156	220699	96538	130422	246409	382955	78511	229574	91068	144516	293343	282369	82698	183253.94444444444	0.51424219539375671
+SML	62	null	null	null	null	null	PG(36:2-18:0/18:2)	null	null	null	null	null	null	117358	40674	3344	134273	16059	80469	73802	38571	27496	145536	27751	60463	80345	73245	14526	170944	23379	90608	67713.5	0.72503826191600551
+SML	63	null	null	null	null	null	PG(36:2-18:1/18:1)	null	null	null	null	null	null	468488	158158	1133528	503959	604556	275131	485780	264846	1199905	642660	666354	281960	488466	250540	1056935	681879	572825	398182	563008.4444444445	0.54002701695624011
+SML	64	null	null	null	null	null	PG(36:3-18:1/18:2)	null	null	null	null	null	null	441111	122727	62124	291406	41308	203952	437067	142815	24263	269847	47327	120330	450783	154011	36972	279418	67677	136493	184979.5	0.78333037593905919
+SML	65	null	null	null	null	null	LPS(16:0)	null	null	null	null	null	null	7414	null	null	5391	null	39659	11194	null	null	4409	null	47589	9782	null	null	3736	null	42238	null	null
+SML	66	null	null	null	null	null	LPS(18:0)	null	null	null	null	null	null	117307	null	1345	90658	8652	103861	106400	null	null	87673	9095	108439	115553	null	1067	91263	11957	124999	null	null
+SML	67	null	null	null	null	null	LPS(20:0)	null	null	null	null	null	null	5298	null	null	9098	null	4168	4531	null	null	6197	null	4933	5797	null	null	5697	null	3263	null	null
+SML	68	null	null	null	null	null	LPS(22:0)	null	null	null	null	null	null	10019	null	null	10277	null	8724	9915	null	null	16442	null	6539	9923	null	null	15290	null	9488	null	null
+SML	69	null	null	null	null	null	PS(28:0-14:0/14:0)	null	null	null	null	null	null	null	null	null	26134	null	null	null	null	null	27766	null	null	null	null	null	26664	null	null	null	null
+SML	70	null	null	null	null	null	PS(32:1-16:0/16:1)	null	null	null	null	null	null	283075	null	null	98652	null	26538	284464	null	null	86766	null	21714	253928	null	null	98152	null	22402	null	null
+SML	71	null	null	null	null	null	PS(32:2-14:0/18:2)	null	null	null	null	null	null	34783	null	null	25847	null	7295	21485	null	5005	37001	null	19822	17031	null	null	24146	null	9117	null	null
+SML	72	null	null	null	null	null	PS(32:2-16:1/16:1)	null	null	null	null	null	null	388308	null	64069	58144	null	11203	413505	null	46249	47894	null	null	354559	null	79021	56831	null	10316	null	null
+SML	73	null	null	null	null	null	PS(34:1-16:0/18:1)	null	null	null	null	null	null	318016	26436	22115	347894	24620	218042	449386	26597	18916	350571	40060	215795	451351	32370	16634	515413	40182	201673	184226.16666666669	0.97426952548355883
+SML	74	null	null	null	null	null	PS(34:2-16:0/18:2)	null	null	null	null	null	null	432449	null	null	410407	33331	133957	417117	null	null	406795	36380	188784	484303	null	null	415352	29083	167528	null	null
+SML	75	null	null	null	null	null	PS(34:2-16:1/18:1)	null	null	null	null	null	null	51115	null	null	null	null	null	78879	null	null	null	null	null	81979	null	null	null	null	null	null	null
+SML	76	null	null	null	null	null	PS(36:1-18:0/18:1)	null	null	null	null	null	null	805774	229072	15789	1956373	151927	396757	659536	203200	28413	1953366	126810	394042	696871	220023	17775	2220159	155277	285681	584269.16666666674	1.2172321268223776
+SML	77	null	null	null	null	null	PS(36:2-18:0/18:2)	null	null	null	null	null	null	45978	null	null	97506	null	null	40296	null	null	100340	null	null	37722	null	null	107302	null	null	null	null
+SML	78	null	null	null	null	null	PS(36:2-18:1/18:1)	null	null	null	null	null	null	80390	null	null	61353	null	null	88994	null	null	44465	null	null	70484	null	null	37918	null	null	null	null
+SML	79	null	null	null	null	null	PS(36:3-16:0/20:3)	null	null	null	null	null	null	86282	null	null	44732	null	null	164976	null	null	79409	null	null	113645	null	null	98990	null	6791	null	null
+SML	80	null	null	null	null	null	PS(36:4-16:0/20:4)	null	null	null	null	null	null	245390	null	null	386345	null	32772	260706	null	null	300154	null	null	330488	null	null	392728	null	12899	null	null
+SML	81	null	null	null	null	null	PS(38:3-18:0/20:3)	null	null	null	null	null	null	null	null	null	82363	null	null	null	null	null	104606	null	null	null	null	null	105672	null	null	null	null
+SML	82	null	null	null	null	null	PS(38:4-18:0/20:4)	null	null	null	null	null	null	null	null	null	30596	null	null	null	null	null	45460	null	null	null	null	null	41789	null	null	null	null
+

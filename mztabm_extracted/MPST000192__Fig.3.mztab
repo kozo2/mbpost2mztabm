@@ -1,0 +1,142 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000192#Fig.3
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000192, MPST000192.xlsx, sheet "Fig.3"
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	15STDmix_100uM_02.mzML_1
+MTD	sample[2]	15STDmix_100uM_03.mzML_1
+MTD	sample[3]	15STDmix_100uM_04.mzML_1
+MTD	sample[4]	15STDmix_100uM_05.mzML_1
+MTD	sample[5]	15STDmix_100uM_06.mzML_1
+MTD	sample[6]	15STDmix_100uM_07.mzML_1
+MTD	sample[7]	15STDmix_100uM_08.mzML_1
+MTD	sample[8]	15STDmix_100uM_09.mzML_1
+MTD	sample[9]	15STDmix_100uM_10.mzML_1
+MTD	sample[10]	15STDmix_100uM_02.mzML_2
+MTD	sample[11]	15STDmix_100uM_03.mzML_2
+MTD	sample[12]	15STDmix_100uM_04.mzML_2
+MTD	sample[13]	15STDmix_100uM_05.mzML_2
+MTD	sample[14]	15STDmix_100uM_06.mzML_2
+MTD	sample[15]	15STDmix_100uM_07.mzML_2
+MTD	sample[16]	15STDmix_100uM_08.mzML_2
+MTD	sample[17]	15STDmix_100uM_09.mzML_2
+MTD	sample[18]	15STDmix_100uM_10.mzML_2
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	ms_run[5]-location	null
+MTD	ms_run[6]-location	null
+MTD	ms_run[7]-location	null
+MTD	ms_run[8]-location	null
+MTD	ms_run[9]-location	null
+MTD	ms_run[10]-location	null
+MTD	ms_run[11]-location	null
+MTD	ms_run[12]-location	null
+MTD	ms_run[13]-location	null
+MTD	ms_run[14]-location	null
+MTD	ms_run[15]-location	null
+MTD	ms_run[16]-location	null
+MTD	ms_run[17]-location	null
+MTD	ms_run[18]-location	null
+MTD	assay[1]	15STDmix_100uM_02.mzML_1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	15STDmix_100uM_03.mzML_1
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	15STDmix_100uM_04.mzML_1
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	15STDmix_100uM_05.mzML_1
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	15STDmix_100uM_06.mzML_1
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	15STDmix_100uM_07.mzML_1
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	15STDmix_100uM_08.mzML_1
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	15STDmix_100uM_09.mzML_1
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	15STDmix_100uM_10.mzML_1
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	15STDmix_100uM_02.mzML_2
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	15STDmix_100uM_03.mzML_2
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	15STDmix_100uM_04.mzML_2
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	15STDmix_100uM_05.mzML_2
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	15STDmix_100uM_06.mzML_2
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	15STDmix_100uM_07.mzML_2
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	15STDmix_100uM_08.mzML_2
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	15STDmix_100uM_09.mzML_2
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	15STDmix_100uM_10.mzML_2
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	DCS_hight	null	null	null	null	null	null	2358047.3999999999	2854357	2593390.7000000002	1815452.3	2044991.8	2626717.7999999998	1895002	2412405.2999999998	2110153	830059500	873075000	786150400	944014900	939620800	966276900	978037600	991479300	1171950000	472298606.51666671	1.0366210739419943
+SML	2	null	null	null	null	null	glucose_hight	null	null	null	null	null	null	54410.875	100263.47	79301.190000000002	78767.535000000003	61718.669999999998	80450.994999999995	72612.529999999999	76172.729999999996	81864.505000000005	17962785	29583122	25332232	34199718	30310515	33564774	31435144	39857295	49757056	16260455.75	1.0907664484416726
+SML	3	null	null	null	null	null	G6P_hight	null	null	null	null	null	null	584838.23999999999	587802.09999999998	610075.47999999998	592889.43999999994	559669.09999999998	625203	615628.76000000001	561694.09999999998	619127.56000000006	175892150	180973570	180039100	217501100	225647780	230619300	239975650	229522370	293150560	109926583.76555555	1.0493756643115659
+SML	4	null	null	null	null	null	FBP_hight	null	null	null	null	null	null	711799.76000000001	769206.30000000005	825681.40000000002	805383.5	792771.19999999995	873065.09999999998	839995.19999999995	814378.59999999998	851222.95999999996	247809130	289765090	306677430	377634700	385439600	406472170	409371280	409640470	540117200	187789476.33444443	1.0714014122076339
+SML	5	null	null	null	null	null	DHAP_hight	null	null	null	null	null	null	378809.44	402773.35999999999	396252.03999999998	370989.20000000001	327439.84000000003	404986.03999999998	341034.29999999999	354127.23999999999	364220.91999999998	109730600	113968260	110142340	128715110	128966900	133072990	132432540	130813160	161159520	64019002.909999996	1.0369799716924539
+SML	6	null	null	null	null	null	3PG_hight	null	null	null	null	null	null	164613.57000000001	259434.44	236010.14000000001	172289.07999999999	193072.04000000001	316534.41999999998	185332.20000000001	286981.17999999999	221344.5	187111100	203409820	200283500	246240150	248498070	262184840	258610320	263953200	325240570	122087065.64277777	1.0543177711767384
+SML	7	null	null	null	null	null	PEP_hight	null	null	null	null	null	null	124025.03	134233.28	110576.17	118052.56	93939.220000000001	128787.83	116448.12	161015.60000000001	135226.28	116245400	121732260	109902850	125299890	121803580	126031470	122149570	130018630	145885180	62232840.782777779	1.0327714808110913
+SML	8	null	null	null	null	null	Pyr_hight	null	null	null	null	null	null	48363.245000000003	58162.519999999997	43920.485000000001	57865.900000000001	37964.281999999999	87507.710000000006	41105.117999999995	86375.330000000002	78028.690000000002	95304960	118751690	109507530	148754110	132361580	138303600	132688210	153783860	185492750	67527087.960000008	1.0626579060188872
+SML	9	null	null	null	null	null	Lac_hight	null	null	null	null	null	null	142805.26999999999	137453.47	129101.73	118825.46000000001	98859.029999999999	136435.60000000001	133014.14999999999	119164.94	115904.56	551068960	477647600	489298330	519784780	498601780	508394200	507096470	563590230	616991600	262978084.12277776	1.0348734796577477
+SML	10	null	null	null	null	null	ATP_hight	null	null	null	null	null	null	350770.44	360738.64000000001	397340.29999999999	405633.35999999999	403516.96000000002	465852.91999999998	445907.64000000001	441492.35999999999	456440.64000000001	107293540	125678270	137687890	178382830	184028650	201174140	202234650	202754380	259623060	89032505.736666664	1.0867672958114949
+SML	11	null	null	null	null	null	ADP_hight	null	null	null	null	null	null	1266634.6399999999	1263017.3600000001	1319742.5	1336703.5	1290247.5	1491932	1481716.6000000001	1377750.7	1509671.7	357041100	373290970	367991360	447477470	460653320	480055800	491522660	483522300	600999100	226382860.91666666	1.0492973169933095
+SML	12	null	null	null	null	null	AMP_hight	null	null	null	null	null	null	1073205.7	1061481.3999999999	1091170.3999999999	1045913.3	990785.59999999998	1122103.6000000001	1136103.8999999999	929377.83999999997	1073947.7	306674670	309633500	293709700	349080540	358310300	362744460	379395100	355000650	452951740	176501374.96888888	1.0396326060587961
+SML	13	null	null	null	null	null	NADH_hight	null	null	null	null	null	null	301529.28000000003	332078.59999999998	348995.29999999999	323115.23999999999	316409.06	353142.79999999999	331389.53999999998	335692.29999999999	350782.35999999999	55230013	61158804	56993350	53550940	57612030	55382330	51569150	58447503	62480573	28634323.748888887	1.0204526283534663
+SML	14	null	null	null	null	null	NAD_hight	null	null	null	null	null	null	260027.48000000001	272933.84000000003	263549.88	253514.16	239215.54000000001	271623.96000000002	273043.17999999999	238271.44	272316.44	52228060	52143780	47276720	47400980	48774897	49339203	48622350	50035507	59713285	25437737.662222221	1.0237294950947688
+

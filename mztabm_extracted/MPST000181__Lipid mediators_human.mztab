@@ -1,0 +1,234 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000181__Lipid mediators_human
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000181, MPST000181__Lipid mediators_human.xlsx, sheet "Sheet1": Peak height of lipid mediators detected from human faecal metabolome using LC/MS/MS method package for lipid mediators
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	1-Pre
+MTD	sample[1]-custom[1]	[,,header_1, Technical replicate 1]
+MTD	sample[2]	2-pre
+MTD	sample[2]-custom[1]	[,,header_1, null]
+MTD	sample[3]	3-pre
+MTD	sample[3]-custom[1]	[,,header_1, null]
+MTD	sample[4]	4-pre
+MTD	sample[4]-custom[1]	[,,header_1, null]
+MTD	sample[5]	1-post
+MTD	sample[5]-custom[1]	[,,header_1, null]
+MTD	sample[6]	5-post
+MTD	sample[6]-custom[1]	[,,header_1, null]
+MTD	sample[7]	Blank1
+MTD	sample[7]-custom[1]	[,,header_1, null]
+MTD	sample[8]	1-Pre_2
+MTD	sample[8]-custom[1]	[,,header_1, Technical replicate 2]
+MTD	sample[9]	2-pre_2
+MTD	sample[9]-custom[1]	[,,header_1, null]
+MTD	sample[10]	3-pre_2
+MTD	sample[10]-custom[1]	[,,header_1, null]
+MTD	sample[11]	4-pre_2
+MTD	sample[11]-custom[1]	[,,header_1, null]
+MTD	sample[12]	1-post_2
+MTD	sample[12]-custom[1]	[,,header_1, null]
+MTD	sample[13]	5-post_2
+MTD	sample[13]-custom[1]	[,,header_1, null]
+MTD	sample[14]	Blank 2
+MTD	sample[14]-custom[1]	[,,header_1, null]
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	ms_run[5]-location	null
+MTD	ms_run[6]-location	null
+MTD	ms_run[7]-location	null
+MTD	ms_run[8]-location	null
+MTD	ms_run[9]-location	null
+MTD	ms_run[10]-location	null
+MTD	ms_run[11]-location	null
+MTD	ms_run[12]-location	null
+MTD	ms_run[13]-location	null
+MTD	ms_run[14]-location	null
+MTD	assay[1]	1-Pre
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	2-pre
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	3-pre
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	4-pre
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	1-post
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	5-post
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	Blank1
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	1-Pre_2
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	2-pre_2
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	3-pre_2
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	4-pre_2
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	1-post_2
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	5-post_2
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	Blank 2
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	tetranor-PGEM-d6	null	null	null	null	null	null	32576	34785	27865	22746	22777	27031	null	34139	31133	28215	18369	25108	19479	null	null	null
+SML	2	null	null	null	null	null	tetranor-PGJM	null	null	null	null	null	null	null	null	null	1043	428	356	null	null	null	null	857	330	703	null	null	null
+SML	3	null	null	null	null	null	tetranor-PGAM	null	null	null	null	null	null	null	null	null	1246	null	null	null	null	null	null	1032	null	null	null	null	null
+SML	4	null	null	null	null	null	20-hydroxy-PGE2	null	null	null	null	null	null	null	4756	76332	null	null	1002	null	null	4439	75806	null	null	2620	null	null	null
+SML	5	null	null	null	null	null	2,3-dinor-TXB2	null	null	null	null	null	null	null	null	null	1358	null	null	null	null	null	null	1284	null	null	null	null	null
+SML	6	null	null	null	null	null	13,14-dihydro-15-keto-tetranor-PGF1a	null	null	null	null	null	null	null	null	null	1479	null	null	null	null	null	1252	null	null	null	null	null	null
+SML	7	null	null	null	null	null	2,3-dinor-11b-PGF2a	null	null	null	null	null	null	558	null	639	1286	1484	null	null	437	null	627	713	1118	null	null	null	null
+SML	8	null	null	null	null	null	6-keto-PGF1a-d4	null	null	null	null	null	null	4317	6343	4197	17472	3823	3915	null	4036	5413	4837	7077	3127	3010	null	null	null
+SML	9	null	null	null	null	null	6-keto-PGF1a	null	null	null	null	null	null	null	2503	null	991	null	null	null	null	2588	null	1261	null	null	null	null	null
+SML	10	null	null	null	null	null	Resolvin E1	null	null	null	null	null	null	null	null	null	null	942	null	null	null	null	null	null	1436	null	null	null	null
+SML	11	null	null	null	null	null	20-carboxy-LTB4	null	null	null	null	null	null	null	1188	null	null	null	null	null	null	2093	null	null	null	null	null	null	null
+SML	12	null	null	null	null	null	8-iso-PGF3a	null	null	null	null	null	null	null	null	null	null	9308	null	null	null	null	null	null	7376	null	null	null	null
+SML	13	null	null	null	null	null	20-hydroxy-LTB4	null	null	null	null	null	null	null	null	701	null	717	830	null	null	null	984	null	440	466	null	null	null
+SML	14	null	null	null	null	null	PGE1-EA	null	null	null	null	null	null	null	1153	1437	null	381	null	null	null	1038	832	null	748	628	null	null	null
+SML	15	null	null	null	null	null	8-iso-15R-PGF2a	null	null	null	null	null	null	null	null	1256	null	null	1004	null	null	null	1673	null	null	584	null	null	null
+SML	16	null	null	null	null	null	8-iso-PGF2a	null	null	null	null	null	null	701	2216	3530	null	1652	1181	null	871	3467	3500	null	1482	759	null	null	null
+SML	17	null	null	null	null	null	TXB2-d4	null	null	null	null	null	null	5590	8274	6028	5581	4610	5643	null	7678	8383	5304	3623	4664	4696	null	null	null
+SML	18	null	null	null	null	null	8-iso-PGF1a	null	null	null	null	null	null	null	null	null	null	1027	1933	null	null	null	null	null	955	1447	null	null	null
+SML	19	null	null	null	null	null	5-iPF2a-VI	null	null	null	null	null	null	1571	4831	5729	null	3007	2413	null	1038	5920	4562	null	3503	1553	null	null	null
+SML	20	null	null	null	null	null	PGF2a-d4	null	null	null	null	null	null	6052	9719	3851	3362	5089	4543	null	4716	10115	4172	4239	4206	3624	null	null	null
+SML	21	null	null	null	null	null	PGF2a	null	null	null	null	null	null	809	2886	2291	2685	894	2177	null	1215	2401	2963	2560	1538	1709	null	null	null
+SML	22	null	null	null	null	null	PGE2-d4	null	null	null	null	null	null	57505	52179	42075	45551	42526	32345	null	55456	54285	46352	36472	43177	27125	null	null	null
+SML	23	null	null	null	null	null	PGD2-d4	null	null	null	null	null	null	49751	45655	39119	37501	32973	21765	null	45457	44274	38663	28504	32634	19824	null	null	null
+SML	24	null	null	null	null	null	13,14-dihydro-15-keto-PGE2	null	null	null	null	null	null	null	null	null	null	null	1556	null	null	null	null	null	null	1103	null	null	null
+SML	25	null	null	null	null	null	LTB4-EA	null	null	null	null	null	null	null	null	null	null	2132	1549	null	null	null	null	null	1950	1526	null	null	null
+SML	26	null	null	null	null	null	LTC4-d5	null	null	null	null	null	null	38583	10520	3024	15493	1666	11262	null	37972	10254	3413	13928	1034	12320	null	null	null
+SML	27	null	null	null	null	null	LTD4-d5	null	null	null	null	null	null	23832	14658	12371	7037	5030	8720	null	20743	16076	13272	9122	7011	7527	null	null	null
+SML	28	null	null	null	null	null	LTE4	null	null	null	null	null	null	8186	null	12071	14924	null	10673	null	7608	null	9901	14853	null	10523	null	null	null
+SML	29	null	null	null	null	null	8-iso-PGA2	null	null	null	null	null	null	1562	24244	3492	3378	1883	3841	null	1313	25098	4190	3430	1792	4276	null	null	null
+SML	30	null	null	null	null	null	PGA2-d4	null	null	null	null	null	null	71454	30253	38794	62905	49728	19685	null	68662	32882	35968	45951	48982	21462	null	null	null
+SML	31	null	null	null	null	null	8,12-iso-iPF2a-VI-1,5-lactone	null	null	null	null	null	null	null	2890	4604	null	null	5116	null	null	4402	4706	null	null	4105	null	null	null
+SML	32	null	null	null	null	null	17,18-DiHETE	null	null	null	null	null	null	7623	1166	17412	29797	14831	34669	null	7415	1531	18390	23243	14897	30412	null	null	null
+SML	33	null	null	null	null	null	LTB4 d4	null	null	null	null	null	null	17245	11527	8622	17519	12552	15644	null	13720	11664	9697	10989	12931	11102	null	null	null
+SML	34	null	null	null	null	null	14,15-DiHETE	null	null	null	null	null	null	3353	298	2466	22867	4284	2078	null	2989	396	3115	15789	2882	2847	null	null	null
+SML	35	null	null	null	null	null	12,13-DiHOME	null	null	null	null	null	null	962071	120380	889172	4840764	520903	356124	null	1032696	131385	891991	4212206	500677	315013	null	null	null
+SML	36	null	null	null	null	null	9,10-DiHOME	null	null	null	null	null	null	1451190	440825	4642691	5982748	1458240	446660	null	1441298	484803	4675633	5049677	1444795	408947	null	null	null
+SML	37	null	null	null	null	null	12-keto-LTB4	null	null	null	null	null	null	573	427	null	null	741	5405	null	532	null	null	null	964	3545	null	null	null
+SML	38	null	null	null	null	null	5,6-DiHETE	null	null	null	null	null	null	1064	null	null	601	1304	null	null	854	null	null	767	1014	null	null	null	null
+SML	39	null	null	null	null	null	tetranor-12-HETE	null	null	null	null	null	null	null	null	null	1810	null	null	null	null	null	null	1234	null	null	null	null	null
+SML	40	null	null	null	null	null	14,15-DiHET-d11	null	null	null	null	null	null	61237	49747	34777	61585	50319	67185	null	58243	52148	41412	47899	56293	58267	null	null	null
+SML	41	null	null	null	null	null	19,20-DiHDPA	null	null	null	null	null	null	34569	866	29002	50197	47343	97589	null	33072	969	30675	41835	48066	93595	null	null	null
+SML	42	null	null	null	null	null	14,15-DHET	null	null	null	null	null	null	83697	1097	81060	325688	49652	134931	null	74421	1028	86113	263718	49444	107877	null	null	null
+SML	43	null	null	null	null	null	11,12-DHET	null	null	null	null	null	null	18802	null	16640	89589	14679	27356	null	15998	null	20474	67922	16286	20378	null	null	null
+SML	44	null	null	null	null	null	8,9-DHET	null	null	null	null	null	null	18186	988	22585	35555	27558	12574	null	15708	702	22782	24550	26928	8166	null	null	null
+SML	45	null	null	null	null	null	20-carboxy-AA	null	null	null	null	null	null	423	null	1553	null	3402	2464	null	796	null	1819	null	4043	2268	null	null	null
+SML	46	null	null	null	null	null	9-HOTrE	null	null	null	null	null	null	19668	1522	7980	11078	13206	13205	null	18120	1166	7725	9203	12273	12215	null	null	null
+SML	47	null	null	null	null	null	5,6-DHET	null	null	null	null	null	null	3388	1832	5141	2837	3838	2597	null	3623	765	6786	2624	3030	1681	null	null	null
+SML	48	null	null	null	null	null	13-HOTrE	null	null	null	null	null	null	8818	1201	3447	5936	5409	15484	null	8798	383	3598	2873	5432	12774	null	null	null
+SML	49	null	null	null	null	null	18-HEPE	null	null	null	null	null	null	761	141	8880	2797	514	2015	null	781	406	7559	1922	403	1603	null	null	null
+SML	50	null	null	null	null	null	20-HETE	null	null	null	null	null	null	844	null	1286	1296	1824	796	null	1230	null	1274	1370	1712	421	null	null	null
+SML	51	null	null	null	null	null	15-HEPE	null	null	null	null	null	null	398	null	3197	1960	366	710	null	339	null	2070	1112	null	1291	null	null	null
+SML	52	null	null	null	null	null	11-HEPE	null	null	null	null	null	null	639	null	3647	1097	null	601	null	null	543	3730	803	null	null	null	null	null
+SML	53	null	null	null	null	null	18-HETE	null	null	null	null	null	null	402	null	2163	1081	510	501	null	null	null	2643	1398	410	240	null	null	null
+SML	54	null	null	null	null	null	8-HEPE	null	null	null	null	null	null	697	null	1196	862	null	467	null	648	null	1792	null	null	null	null	null	null
+SML	55	null	null	null	null	null	13-HpOTrE	null	null	null	null	null	null	null	null	null	null	null	1225	null	null	null	null	null	null	2425	null	null	null
+SML	56	null	null	null	null	null	9-HEPE	null	null	null	null	null	null	null	null	2739	620	null	null	null	null	null	1823	339	null	null	null	null	null
+SML	57	null	null	null	null	null	17-HETE	null	null	null	null	null	null	3001	null	null	null	null	null	null	2987	null	null	887	null	350	null	null	null
+SML	58	null	null	null	null	null	12-HEPE	null	null	null	null	null	null	1215	509	14556	2503	962	1189	null	655	943	12630	1600	802	1672	null	null	null
+SML	59	null	null	null	null	null	16-HETE	null	null	null	null	null	null	1176	null	1666	4153	481	2948	null	1162	null	2974	3425	1507	2803	null	null	null
+SML	60	null	null	null	null	null	5-HEPE	null	null	null	null	null	null	854	513	42239	2150	2030	2925	null	1037	684	33020	1112	1391	2430	null	null	null
+SML	61	null	null	null	null	null	13-HODE	null	null	null	null	null	null	455163	40848	159302	312718	419697	451895	null	439499	34101	126214	186240	389815	325627	null	null	null
+SML	62	null	null	null	null	null	9-HODE	null	null	null	null	null	null	512356	17421	302364	295393	499936	326587	null	462163	23051	259728	181475	488821	221686	null	null	null
+SML	63	null	null	null	null	null	20-HDHA	null	null	null	null	null	null	5358	648	49766	8520	3998	10923	null	5751	280	43287	6775	4110	5414	null	null	null
+SML	64	null	null	null	null	null	15-HETE-d8	null	null	null	null	null	null	16513	12777	8970	15444	14354	17722	null	18330	14323	9385	8396	14864	12106	null	null	null
+SML	65	null	null	null	null	null	15-HETE	null	null	null	null	null	null	9827	null	2225	11062	1981	7358	null	7177	null	2602	5839	2052	5129	null	null	null
+SML	66	null	null	null	null	null	9-HpODE	null	null	null	null	null	null	15967	839	1258	2375	67158	48929	null	9582	1709	528	1463	78729	33310	null	null	null
+SML	67	null	null	null	null	null	13-KODE	null	null	null	null	null	null	32933	11669	12050	16160	193795	89968	null	33203	10238	12244	11173	182689	63622	null	null	null
+SML	68	null	null	null	null	null	13-HpODE	null	null	null	null	null	null	23109	1098	null	null	94983	75626	null	20859	1272	null	null	97806	46827	null	null	null
+SML	69	null	null	null	null	null	16-HDHA	null	null	null	null	null	null	3893	439	23068	9836	2958	11161	null	5174	529	19307	5129	2973	9471	null	null	null
+SML	70	null	null	null	null	null	17-HDHA	null	null	null	null	null	null	1098	null	4650	2358	null	3058	null	849	null	4118	1420	null	1285	null	null	null
+SML	71	null	null	null	null	null	9-KODE	null	null	null	null	null	null	22091	3231	31008	20244	33560	40482	null	18437	3508	25976	16429	36357	35064	null	null	null
+SML	72	null	null	null	null	null	11-HETE	null	null	null	null	null	null	8578	2375	19212	24174	3005	13258	null	8780	1865	15100	15102	4053	10174	null	null	null
+SML	73	null	null	null	null	null	13-HDHA	null	null	null	null	null	null	1561	798	43532	6305	937	5189	null	2188	891	35490	4016	777	5056	null	null	null
+SML	74	null	null	null	null	null	10-HDHA	null	null	null	null	null	null	1964	null	37576	7117	1438	5372	null	2091	null	30347	3018	1952	3992	null	null	null
+SML	75	null	null	null	null	null	8-HETE	null	null	null	null	null	null	7257	null	8380	10776	5884	5547	null	7421	null	8377	6365	6349	3242	null	null	null
+SML	76	null	null	null	null	null	12-HETE-d8	null	null	null	null	null	null	18464	16946	7193	13603	11939	18741	null	18383	16714	6188	11360	15126	11417	null	null	null
+SML	77	null	null	null	null	null	14-HDHA	null	null	null	null	null	null	835	557	11321	5194	421	3739	null	807	1003	9388	2042	583	1923	null	null	null
+SML	78	null	null	null	null	null	15-KETE	null	null	null	null	null	null	5345	null	1184	2782	3018	9654	null	6706	null	876	2692	1384	8236	null	null	null
+SML	79	null	null	null	null	null	15-HpETE	null	null	null	null	null	null	4377	null	null	null	5110	12944	null	2743	null	null	null	4584	9973	null	null	null
+SML	80	null	null	null	null	null	12-HETE	null	null	null	null	null	null	9471	2737	11634	17833	3155	8241	null	7664	2555	9086	7977	3276	4960	null	null	null
+SML	81	null	null	null	null	null	11-HDHA	null	null	null	null	null	null	8347	559	38625	21837	12111	10139	null	8634	387	37806	14537	11021	8977	null	null	null
+SML	82	null	null	null	null	null	7-HDHA	null	null	null	null	null	null	2187	null	25712	4875	2708	2404	null	2520	null	23075	2677	1688	3085	null	null	null
+SML	83	null	null	null	null	null	9-HETE	null	null	null	null	null	null	1565	null	2968	2065	775	1616	null	1364	null	1567	910	589	690	null	null	null
+SML	84	null	null	null	null	null	5-HETE-d8	null	null	null	null	null	null	11664	11467	5476	17689	9324	17264	null	11906	15881	4593	9252	8652	8941	null	null	null
+SML	85	null	null	null	null	null	8-HDHA	null	null	null	null	null	null	1962	null	11828	5606	2397	2061	null	2510	null	9756	2756	1670	1987	null	null	null
+SML	86	null	null	null	null	null	5-HETE	null	null	null	null	null	null	7364	null	2839	9531	5665	3863	null	6197	null	2255	3986	5475	4162	null	null	null
+SML	87	null	null	null	null	null	17-HpDHA	null	null	null	null	null	null	null	null	null	null	null	751	null	null	null	null	null	null	664	null	null	null
+SML	88	null	null	null	null	null	15-HETrE	null	null	null	null	null	null	17343	null	11656	8565	13020	4785	null	16661	null	8576	5888	13139	3082	null	null	null
+SML	89	null	null	null	null	null	PAF-d4	null	null	null	null	null	null	1567	1254	535	692	549	689	null	1890	1325	524	375	728	625	null	null	null
+SML	90	null	null	null	null	null	8-HETrE	null	null	null	null	null	null	4260	null	3850	1382	3282	859	null	2710	null	3439	872	4032	659	null	null	null
+SML	91	null	null	null	null	null	12-HpETE	null	null	null	null	null	null	952	null	null	null	916	6021	null	921	null	null	null	2026	4348	null	null	null
+SML	92	null	null	null	null	null	12-KETE	null	null	null	null	null	null	1733	142	1281	3480	1058	3947	null	2050	767	546	1795	1650	1803	null	null	null
+SML	93	null	null	null	null	null	5,6-DHET-lactone	null	null	null	null	null	null	9934	5006	20504	4117	null	2858	null	8713	4375	17298	3301	null	4170	null	null	null
+SML	94	null	null	null	null	null	4-HDHA	null	null	null	null	null	null	2658	767	32104	4663	2322	7286	null	3259	1307	25161	4572	2566	6234	null	null	null
+SML	95	null	null	null	null	null	12,13-EpOME	null	null	null	null	null	null	4780	null	1105	null	8669	3968	null	3812	null	1025	1161	9910	2703	null	null	null
+SML	96	null	null	null	null	null	9,10-EpOME	null	null	null	null	null	null	12725	588	3325	4048	17859	11530	null	14062	805	2071	1976	17418	9137	null	null	null
+SML	97	null	null	null	null	null	19,20-EpDPA	null	null	null	null	null	null	586	null	1243	592	null	1025	null	402	null	634	506	null	285	null	null	null
+SML	98	null	null	null	null	null	14,15-EET	null	null	null	null	null	null	371	null	471	369	211	349	null	598	203	607	328	372	342	null	null	null
+SML	99	null	null	null	null	null	5-KETE	null	null	null	null	null	null	1077	null	null	1865	null	709	null	709	null	null	907	null	729	null	null	null
+SML	100	null	null	null	null	null	Azelaoyl-PAF	null	null	null	null	null	null	null	null	null	5544	null	313	null	null	null	null	2813	null	535	null	null	null
+SML	101	null	null	null	null	null	11-HEDE	null	null	null	null	null	null	2341	1481	1603	3212	2287	2017	null	2505	716	1696	2115	1932	966	null	null	null
+SML	102	null	null	null	null	null	15-HEDE	null	null	null	null	null	null	1306	1018	1975	1400	1604	1496	null	1159	903	1596	1304	1066	815	null	null	null
+SML	103	null	null	null	null	null	11,12-EET-d11	null	null	null	null	null	null	7723	6432	2574	7953	6181	7454	null	7587	6185	2440	4042	5606	4888	null	null	null
+SML	104	null	null	null	null	null	AEA	null	null	null	null	null	null	287494	589	98437	136150	88108	236408	null	246188	355	106573	143495	82340	236556	null	null	null
+SML	105	null	null	null	null	null	5,6-EET	null	null	null	null	null	null	3675	null	523	1604	474	1004	null	2410	null	null	1116	null	1857	null	null	null
+SML	106	null	null	null	null	null	15-KEDE	null	null	null	null	null	null	20791	12427	14253	39538	26817	23525	null	22368	14495	16268	42819	22757	22080	null	null	null
+SML	107	null	null	null	null	null	OEA-d4	null	null	null	null	null	null	62021	38812	18389	36663	29163	52551	null	55172	35406	18272	35673	25865	55890	null	null	null
+SML	108	null	null	null	null	null	OEA	null	null	null	null	null	null	16771274	70774	12416168	5190071	7433777	6762838	1893	15769075	65817	12342760	5196653	7107872	6839335	1863	6855012.1428571427	0.8397793520206519
+SML	109	null	null	null	null	null	EPA	null	null	null	null	null	null	179816	41595	1011898	217453	48273	400497	193	163436	37530	850852	150081	49921	285169	197	245493.64285714287	1.2795216754846228
+SML	110	null	null	null	null	null	DHA	null	null	null	null	null	null	2152278	1603250	4160261	2004197	600689	3615012	1729	2126658	1621891	3041949	1365997	592907	2604109	1246	1820869.5	0.69707536353032429
+SML	111	null	null	null	null	null	AA-d8	null	null	null	null	null	null	7000	6456	2574	4960	3335	7011	null	6811	6334	2550	2639	3166	4622	null	null	null
+SML	112	null	null	null	null	null	AA	null	null	null	null	null	null	925133	36646	459478	623338	212827	859968	524	951910	34894	361017	447025	206737	657405	null	null	null
+

@@ -1,0 +1,188 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000197__Supplementary Table_Lipidomics#Lipid class level
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000197, MPST000197__Supplementary Table_Lipidomics.xlsx, sheet "Lipid class level"
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	1
+MTD	sample[1]-custom[1]	[,,25%以下のもののみを集計。, Control]
+MTD	sample[2]	2
+MTD	sample[2]-custom[1]	[,,25%以下のもののみを集計。, Control]
+MTD	sample[3]	3
+MTD	sample[3]-custom[1]	[,,25%以下のもののみを集計。, Control]
+MTD	sample[4]	4
+MTD	sample[4]-custom[1]	[,,25%以下のもののみを集計。, Control]
+MTD	sample[5]	5
+MTD	sample[5]-custom[1]	[,,25%以下のもののみを集計。, Control]
+MTD	sample[6]	6
+MTD	sample[6]-custom[1]	[,,25%以下のもののみを集計。, Control]
+MTD	sample[7]	7
+MTD	sample[7]-custom[1]	[,,25%以下のもののみを集計。, Control]
+MTD	sample[8]	8
+MTD	sample[8]-custom[1]	[,,25%以下のもののみを集計。, HFpEF]
+MTD	sample[9]	9
+MTD	sample[9]-custom[1]	[,,25%以下のもののみを集計。, HFpEF]
+MTD	sample[10]	10
+MTD	sample[10]-custom[1]	[,,25%以下のもののみを集計。, HFpEF]
+MTD	sample[11]	11
+MTD	sample[11]-custom[1]	[,,25%以下のもののみを集計。, HFpEF]
+MTD	sample[12]	12
+MTD	sample[12]-custom[1]	[,,25%以下のもののみを集計。, HFpEF]
+MTD	sample[13]	13
+MTD	sample[13]-custom[1]	[,,25%以下のもののみを集計。, HFpEF]
+MTD	sample[14]	14
+MTD	sample[14]-custom[1]	[,,25%以下のもののみを集計。, HFpEF]
+MTD	sample[15]	Blank
+MTD	sample[15]-custom[1]	[,,25%以下のもののみを集計。, Blank]
+MTD	sample[16]	Neg1/Pos4
+MTD	sample[16]-custom[1]	[,,25%以下のもののみを集計。, QC]
+MTD	sample[17]	Neg2/Pos5
+MTD	sample[17]-custom[1]	[,,25%以下のもののみを集計。, QC]
+MTD	sample[18]	Neg3/Pos6
+MTD	sample[18]-custom[1]	[,,25%以下のもののみを集計。, QC]
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	ms_run[5]-location	null
+MTD	ms_run[6]-location	null
+MTD	ms_run[7]-location	null
+MTD	ms_run[8]-location	null
+MTD	ms_run[9]-location	null
+MTD	ms_run[10]-location	null
+MTD	ms_run[11]-location	null
+MTD	ms_run[12]-location	null
+MTD	ms_run[13]-location	null
+MTD	ms_run[14]-location	null
+MTD	ms_run[15]-location	null
+MTD	ms_run[16]-location	null
+MTD	ms_run[17]-location	null
+MTD	ms_run[18]-location	null
+MTD	assay[1]	1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	4
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	5
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	6
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	7
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	8
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	9
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	10
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	11
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	12
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	13
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	14
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	Blank
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	Neg1/Pos4
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	Neg2/Pos5
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	Neg3/Pos6
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	FA	null	null	null	null	null	null	159841	126795	118899	89086	119438	172844	148790	138379	335001	181213	165774	295956	157409	252410	21625	172992	196484	208956	170105.11111111112	0.42671477026149662
+SML	2	null	null	null	null	null	FA[O]	null	null	null	null	null	null	1859	4489	1537	2019	2925	9424	5031	3242	10372	9853	2632	10383	9119	1760	1053	5797	7198	6347	5280	0.63960108680995376
+SML	3	null	null	null	null	null	CoA	null	null	null	null	null	null	61502	66697	40592	29016	108975	120262	91186	23262	37852	9502	22380	40245	30698	36089	145	46983	51051	53584	48334.5	0.66259173812770067
+SML	4	null	null	null	null	null	Car	null	null	null	null	null	null	889834	657263	1166621	886934	785896	964660	490435	47149	156533	69039	82022	143364	172934	122179	6482	460717	422642	388328	439612.88888888882	0.8415675709298025
+SML	5	null	null	null	null	null	Car[O]	null	null	null	null	null	null	87566	69137	129720	92743	59991	69715	47613	5749	30987	11226	7258	19959	18259	12820	776	49161	49078	47600	44964.333333333328	0.78851434764664263
+SML	6	null	null	null	null	null	Taurine	null	null	null	null	null	null	10291	7920	9574	7750	10163	12426	7789	6543	7795	4521	7596	10276	7893	7492	61	7781	9903	9735	8083.833333333333	0.33080402077332732
+SML	7	null	null	null	null	null	DG	null	null	null	null	null	null	72144	66036	110460	54860	53148	94463	92495	36307	112063	54049	58532	78907	50012	90169	3075	68887	67924	54663	67677.444444444438	0.39377882906899292
+SML	8	null	null	null	null	null	TG	null	null	null	null	null	null	1469712	816615	1390446	1270931	896926	1793889	1779445	204614	492010	161106	259368	374094	281581	397824	5459	746543	766151	609082	761988.66666666674	0.73849225213419756
+SML	9	null	null	null	null	null	TG[e]	null	null	null	null	null	null	13856	10307	15685	10222	11817	15238	15093	2117	7104	2012	3043	3158	3876	4972	113	7359	7830	6547	7797.1666666666661	0.64528744340531929
+SML	10	null	null	null	null	null	LPA	null	null	null	null	null	null	4149	5100	4400	5220	5505	5287	5477	4406	4830	5648	3917	8023	6411	6312	94	5219	5706	4848	5030.666666666667	0.30928394402301079
+SML	11	null	null	null	null	null	LPC	null	null	null	null	null	null	507890	499720	650322	468268	450690	649858	581825	545134	690110	586690	610156	613233	770299	714764	935	519865	694159	675038	568275.33333333337	0.29537446509185961
+SML	12	null	null	null	null	null	LPE	null	null	null	null	null	null	53183	49797	57084	57648	60534	70443	83845	82234	93802	61359	71030	85238	94348	102960	489	71566	84037	88610	70455.944444444438	0.33320015469805581
+SML	13	null	null	null	null	null	LPE[p]	null	null	null	null	null	null	10961	9315	12108	8781	9581	15610	11132	11671	8754	8617	9366	9408	14659	10848	0	9892	10370	12537	10200.555555555555	0.31502803523865569
+SML	14	null	null	null	null	null	LPI	null	null	null	null	null	null	38785	37829	45622	34419	52829	69755	76418	69373	45636	47570	38495	46026	75872	48632	160	50457	48459	55130	48970.388888888891	0.36210684082779232
+SML	15	null	null	null	null	null	LPS	null	null	null	null	null	null	2491	2694	3469	2807	4413	3959	4155	6230	4976	4201	4307	3718	6568	4482	0	3856	3951	5403	3982.2222222222222	0.36964952590384731
+SML	16	null	null	null	null	null	LPG	null	null	null	null	null	null	18678	16352	22186	19324	17156	19218	18860	22648	24556	21194	23325	23593	29425	29866	193	20856	22333	23521	20738	0.30288287855418616
+SML	17	null	null	null	null	null	TLCL	null	null	null	null	null	null	4758	3904	2401	5098	3220	6641	1945	7089	1795	3622	7029	5179	9492	4858	0	4935	5032	5495	4582.9444444444443	0.49139940450188013
+SML	18	null	null	null	null	null	PA	null	null	null	null	null	null	4599	5336	8819	7259	7028	9015	8187	5045	7258	5609	7359	11152	7323	9017	170	5949	8399	7916	6968.8888888888887	0.33970628956588217
+SML	19	null	null	null	null	null	PC	null	null	null	null	null	null	3131314	3305002	4459663	4008491	4451812	4395298	5254430	3997898	4392959	3194847	4761082	5039882	4540088	5541323	5238	4264283	4590742	4837654	4120667	0.29622867826079763
+SML	20	null	null	null	null	null	PC[e]	null	null	null	null	null	null	51220	60598	74744	63199	87755	72023	102357	41086	53270	42723	50955	55824	40778	58096	14	59609	63930	68427	58144.888888888891	0.36865138562257288
+SML	21	null	null	null	null	null	PC[p]	null	null	null	null	null	null	132473	129176	172274	142658	179141	201653	221317	106672	109424	95644	131645	127037	124770	150905	782	142414	146734	184339	138836.55555555556	0.34562558064959398
+SML	22	null	null	null	null	null	PE	null	null	null	null	null	null	3211551	3040502	4300626	3841552	3929624	4098451	4633592	3913333	4058355	3333987	4625635	4683243	4260386	4885114	1211	3900705	4243610	4452639	3856339.777777778	0.28218241398651822
+SML	23	null	null	null	null	null	PE[e]	null	null	null	null	null	null	1902	2693	3348	3029	3728	3111	3386	2318	2474	1676	3769	2879	2738	3680	0	3066	2857	3688	2796.7777777777778	0.33021502840434791
+SML	24	null	null	null	null	null	PE[p]	null	null	null	null	null	null	1323693	1296505	1737724	1520880	1835041	1817617	2097981	1269381	1460012	1205794	1657023	1517136	1577160	1719416	701	1564661	1555315	1838851	1499716.1666666667	0.29335775573695833
+SML	25	null	null	null	null	null	PI	null	null	null	null	null	null	2947369	2847175	3225762	2525927	2828555	3443225	3518937	2820112	3313503	2857162	3450528	3429180	3423665	3907760	6967	3107114	3257468	3604350	3028597.722222222	0.27421730338436578
+SML	26	null	null	null	null	null	PIP1	null	null	null	null	null	null	14863	18629	11850	9889	17972	22605	21593	17552	28697	11200	18706	18693	18108	23214	102	17376	18180	19389	17145.444444444445	0.35968987324375878
+SML	27	null	null	null	null	null	PS	null	null	null	null	null	null	837241	808524	1034739	868614	960362	1001488	1207468	968502	1041732	922449	1134727	1190215	1107733	1291148	1608	1057591	1058858	1177208	981678.16666666663	0.28327401934803953
+SML	28	null	null	null	null	null	PG	null	null	null	null	null	null	428743	405825	511875	493786	515765	498658	657681	548989	564535	385561	647421	690950	539201	769130	709	555269	601197	636857	525119.5555555555	0.3136016098974993
+SML	29	null	null	null	null	null	BMP	null	null	null	null	null	null	20825	19140	31422	28723	30955	26617	34756	33769	30380	31319	41202	41566	41376	46541	83	31091	37756	38571	31449.555555555555	0.33713651847222864
+SML	30	null	null	null	null	null	GPPG	null	null	null	null	null	null	20853	22884	20231	17175	17299	24647	21085	15790	15801	22917	23398	21069	23276	18143	0	19896	22546	20489	19305.5	0.28535809830012726
+SML	31	null	null	null	null	null	DLCL	null	null	null	null	null	null	4077	3493	2266	3490	3175	5487	2878	9359	914	3081	5799	4871	12424	4633	60	4264	4598	4705	4420.7777777777774	0.63836142899341297
+SML	32	null	null	null	null	null	HBMP	null	null	null	null	null	null	803	716	1518	1109	1090	1191	1191	1258	1067	849	1795	1844	1498	2352	0	1288	1293	1486	1241.5555555555557	0.40741035861523617
+SML	33	null	null	null	null	null	MLCL	null	null	null	null	null	null	10454	12099	10528	10311	11511	14504	16290	9530	11000	10961	9822	8707	12612	9510	0	10905	12886	14368	10888.777777777777	0.30866848688640547
+SML	34	null	null	null	null	null	CL	null	null	null	null	null	null	511638	483130	711797	627908	766997	727186	894219	529663	610496	436566	766753	773364	633323	845769	0	637836	737827	759816	636349.33333333337	0.31858536534132409
+SML	35	null	null	null	null	null	GD1	null	null	null	null	null	null	934	1224	1820	845	703	1327	1192	998	796	1717	2580	976	1314	1263	102	1161	1345	1434	1207.2777777777778	0.42945247017679206
+SML	36	null	null	null	null	null	GM3	null	null	null	null	null	null	189510	170857	178809	149508	137443	172902	175221	170020	164620	196798	172417	220711	148268	180296	12	167437	184073	177967	164270.5	0.27403972799129894
+SML	37	null	null	null	null	null	GM3[NeuGc]	null	null	null	null	null	null	49670	35529	37609	41159	32500	43560	42340	49541	55883	56697	62590	51198	63443	69111	0	49463	48812	48784	46549.388888888891	0.32630010343543336
+SML	38	null	null	null	null	null	Cer	null	null	null	null	null	null	13413	16246	23839	16480	16285	17020	28643	17590	16170	16604	22856	23438	21500	29296	225	19670	21172	25291	19207.666666666668	0.34160050358345445
+SML	39	null	null	null	null	null	SM	null	null	null	null	null	null	213596	222653	319317	255927	286795	317172	342428	322635	363271	277411	389581	415744	375324	447885	593	321959	350378	379920	311254.94444444444	0.32014018621546991
+SML	40	null	null	null	null	null	ChE	null	null	null	null	null	null	109134	101983	249642	120052	101274	157275	156206	98403	207055	119164	156789	179895	170225	264877	764	145632	151397	123831	145199.88888888888	0.4133692339511672
+SML	41	null	null	null	null	null	CoQ	null	null	null	null	null	null	316694	295651	487953	279004	287148	398309	451228	182707	294943	177997	281825	282960	326469	378656	389	295906	305194	235279	293239.55555555556	0.36814086876194235
+SML	42	null	null	null	null	null	Dolichol	null	null	null	null	null	null	2089	2326	3617	2605	2603	2719	4009	4634	3573	3802	5686	4633	6184	6209	0	3596	3337	4754	3687.5555555555557	0.42150161898486682
+

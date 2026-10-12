@@ -1,0 +1,147 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000037
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000037, MPST000037.xlsx, sheet "results"
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	16
+MTD	sample[1]-custom[1]	[,,number of cells, 4.71×106]
+MTD	sample[2]	17
+MTD	sample[2]-custom[1]	[,,number of cells, 4.70×106]
+MTD	sample[3]	18
+MTD	sample[3]-custom[1]	[,,number of cells, 4.73×106]
+MTD	sample[4]	19
+MTD	sample[4]-custom[1]	[,,number of cells, 4.71×106]
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	assay[1]	16
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	17
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	18
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	19
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_study_variable[1]	abundance_variation_study_variable[1]	opt_global_feature_id	opt_global_exp_mass_to_charge
+SML	1	null	null	null	null	null	46:3 m0	null	null	null	null	null	null	1.032229435588879	7.9517518100718938	15.661779562608581	3.7030629759127605	7.087205946045529	0.90121838272370558	1	790.741809082031
+SML	2	null	null	null	null	null	46:3 m1	null	null	null	null	null	null	1.730169396810894	1.6173062469976809	3.3691906697364269	7.1209943209410831	3.4594151586215212	0.74260498789535567	2	791.739758300781
+SML	3	null	null	null	null	null	46:3 m2	null	null	null	null	null	null	1.5487281942672972	1.5076450062519851	3.0081402940010569	2.2049000156336729	2.0673533775385029	0.34046290904468018	3	792.704528808593
+SML	4	null	null	null	null	null	46:3 m3	null	null	null	null	null	null	0.27472690707819108	1.459277205923083	3.8050749258058985	3.0725672155223354	2.1529115635823768	0.73852581501267878	4	793.706628417968
+SML	5	null	null	null	null	null	46:3 m4	null	null	null	null	null	null	null	0.68456560065504468	1.7274954735511034	1.6333937092601782	null	null	5	794.708129882812
+SML	6	null	null	null	null	null	46:3 m5	null	null	null	null	null	null	null	0.30837159809692549	0.87568266283459606	0.90838242715933126	null	null	6	795.721328735351
+SML	7	null	null	null	null	null	46:3 m6	null	null	null	null	null	null	null	0.15568919705868636	0.36462577224021986	0.27229664369498091	null	null	7	796.726150512695
+SML	8	null	null	null	null	null	46:3 m7	null	null	null	null	null	null	null	0.16439815711790745	0.39807004962409936	0.64837280128670483	null	null	8	797.727828979492
+SML	9	null	null	null	null	null	46:3 m8	null	null	null	null	null	null	null	0.11305387676876617	0.33355277419202956	0.4830993559300446	null	null	9	798.718154907226
+SML	10	null	null	null	null	null	46:3 m9	null	null	null	null	null	null	null	0.10745919673072234	0.29280988378790906	0.34526115539671975	null	null	10	799.73403930664
+SML	11	null	null	null	null	null	46:3 m10	null	null	null	null	null	null	null	0.074028916503396588	0.23833205073810992	0.33319847402667307	null	null	11	800.722091674804
+SML	12	null	null	null	null	null	46:3 m11	null	null	null	null	null	null	null	0.096738356657820629	0.26564795685183085	0.31955440455018896	null	null	12	801.731323242187
+SML	13	null	null	null	null	null	46:3 m12	null	null	null	null	null	null	null	0.084777316576485739	0.19749677282740527	0.23750610535332486	null	null	13	802.729568481445
+SML	14	null	null	null	null	null	46:3 m13	null	null	null	null	null	null	null	null	0.15777014499572431	0.18907149753518598	null	null	14	803.738688151041
+SML	15	null	null	null	null	null	48:1 m0	null	null	null	null	null	null	127.57263795171232	141.95991012132723	196.77504470554439	144.92289648075308	152.80762231483425	0.19812686277393396	15	822.755731201171
+SML	16	null	null	null	null	null	48:1 m1	null	null	null	null	null	null	77.810117723747567	70.821513997586166	100.59804896679492	69.824687682284718	79.763592092603346	0.17974140561773774	16	823.754583740234
+SML	17	null	null	null	null	null	48:1 m2	null	null	null	null	null	null	11.108689318702272	12.293003039592403	22.140823011929385	14.67984558738104	15.055590239401274	0.32888019008584818	17	824.764892578125
+SML	18	null	null	null	null	null	48:1 m3	null	null	null	null	null	null	1.1462823320759492	4.9837327098893827	9.1143693584146508	7.9275022552249252	5.792971663901227	0.61303028104392987	18	825.762377929687
+SML	19	null	null	null	null	null	48:1 m4	null	null	null	null	null	null	0.12835660790164841	1.6095343269448319	3.7705835900140379	4.1825545603720808	2.42275727130815	0.78456087084862858	19	826.765211317274
+SML	20	null	null	null	null	null	48:1 m5	null	null	null	null	null	null	null	0.82258608159358504	1.8626275998498751	2.3645098849812101	null	null	20	827.755645751953
+SML	21	null	null	null	null	null	48:1 m6	null	null	null	null	null	null	null	0.53039495960668503	1.3873246743040126	2.1431891030149468	null	null	21	828.770919799804
+SML	22	null	null	null	null	null	48:1 m7	null	null	null	null	null	null	null	0.52992643960349783	1.3957011415677463	2.024732100902416	null	null	22	829.785522460937
+SML	23	null	null	null	null	null	48:1 m8	null	null	null	null	null	null	null	0.35525115841570637	0.96111031059047347	1.4672376286813185	null	null	23	830.770401000976
+SML	24	null	null	null	null	null	48:1 m9	null	null	null	null	null	null	null	0.40447331875041703	0.97931064938778012	1.4286958906453207	null	null	24	831.782531738281
+SML	25	null	null	null	null	null	48:1 m10	null	null	null	null	null	null	null	0.22632547753901275	0.66001942662896618	1.0271704174802081	null	null	25	832.784538269043
+SML	26	null	null	null	null	null	48:1 m11	null	null	null	null	null	null	null	0.24727107768144257	0.67350800259042065	0.96527562252354149	null	null	26	833.790771484375
+SML	27	null	null	null	null	null	48:1 m12	null	null	null	null	null	null	null	null	null	null	null	null	27	834.79214477539
+SML	28	null	null	null	null	null	48:1 m13	null	null	null	null	null	null	null	null	null	null	null	null	28	835.795878092447
+SML	29	null	null	null	null	null	48:1 m14	null	null	null	null	null	null	null	null	null	0.54587678610890877	null	null	29	836.787902832031
+SML	30	null	null	null	null	null	48:1 m15	null	null	null	null	null	null	null	null	null	null	null	null	30	837.799499511718
+SML	31	null	null	null	null	null	48:1 m16	null	null	null	null	null	null	null	null	null	null	null	null	31	838.809692382812
+SML	32	null	null	null	null	null	48:1 m17	null	null	null	null	null	null	null	null	null	null	null	null	32	839.814453125
+SML	33	null	null	null	null	null	48:2 m0	null	null	null	null	null	null	220.09861783444163	167.33451253387466	230.34312134824737	173.85836374655244	197.90865386577903	0.16131092031434635	33	820.731750488281
+SML	34	null	null	null	null	null	48:2 m1	null	null	null	null	null	null	109.68280590027855	84.232733728782549	117.81880303177589	85.237815579328029	99.243039560041254	0.17213461267163402	34	821.738641357421
+SML	35	null	null	null	null	null	48:2 m2	null	null	null	null	null	null	18.354405584176646	18.018482838525681	28.973402653116491	23.007067591212316	22.088339666757783	0.23195996222578638	35	822.7419921875
+SML	36	null	null	null	null	null	48:2 m3	null	null	null	null	null	null	2.0631497506801741	10.669470988552382	21.441819137104861	19.68493894426015	13.464844705149392	0.66445452473329536	36	823.751444498697
+SML	37	null	null	null	null	null	48:2 m4	null	null	null	null	null	null	null	3.7780378216906385	9.0992486031701887	10.67323332561395	null	null	37	824.754425048828
+SML	38	null	null	null	null	null	48:2 m5	null	null	null	null	null	null	null	1.6854621274611403	0.060116550535057496	6.0541825490438859	null	null	38	825.756088256835
+SML	39	null	null	null	null	null	48:2 m6	null	null	null	null	null	null	null	0.87613516195771901	2.6857694876894076	4.5221484621129298	null	null	39	826.756576538085
+SML	40	null	null	null	null	null	48:2 m7	null	null	null	null	null	null	null	0.94776360244479141	2.8457846490951373	4.2138881107601271	null	null	40	827.769355773925
+SML	41	null	null	null	null	null	48:2 m8	null	null	null	null	null	null	null	0.63639072032745536	1.9156580286298392	3.2498297893138641	null	null	41	828.763816833496
+SML	42	null	null	null	null	null	48:2 m9	null	null	null	null	null	null	null	0.78243116132052981	2.165196683916744	3.2207396034488958	null	null	42	829.766487121582
+SML	43	null	null	null	null	null	48:2 m10	null	null	null	null	null	null	null	0.44683303903846378	1.2499444520116638	2.0482690401610424	null	null	43	830.773941040039
+SML	44	null	null	null	null	null	48:2 m11	null	null	null	null	null	null	null	0.53689911965091275	1.360039564025818	1.9393739196223081	null	null	44	831.775352478027
+SML	45	null	null	null	null	null	48:2 m12	null	null	null	null	null	null	null	0.38887435864434466	0.83700309341088153	1.3294362046155859	null	null	45	832.783996582031
+SML	46	null	null	null	null	null	48:2 m13	null	null	null	null	null	null	null	0.28731575795374681	0.74212112414777365	1.0821144600620616	null	null	46	833.790972028459
+SML	47	null	null	null	null	null	48:2 m14	null	null	null	null	null	null	null	0.33309291826502974	0.59919765146030868	0.98002298602777282	null	null	47	834.774450683593
+SML	48	null	null	null	null	null	48:2 m15	null	null	null	null	null	null	null	0.27303967785666805	0.4885482144066427	0.65958962390214226	null	null	48	835.779821777343
+SML	49	null	null	null	null	null	48:2 m16	null	null	null	null	null	null	null	null	null	0.4478674999772887	null	null	49	836.787902832031
+SML	50	null	null	null	null	null	48:2 m17	null	null	null	null	null	null	null	null	0.22592132902015005	0.29818727687946922	null	null	50	837.790908813476
+SML	51	null	null	null	null	null	48:2 m18	null	null	null	null	null	null	null	null	null	null	null	null	51	838.788818359375
+SML	52	null	null	null	null	null	48:3 m0	null	null	null	null	null	null	106.53690722263015	80.109482100744472	121.85823118636975	89.386201123660726	99.472705408351274	0.18606548111417953	52	818.72290649414
+SML	53	null	null	null	null	null	48:3 m1	null	null	null	null	null	null	51.303712525640762	40.502978271420211	64.596978134001901	45.110055601973457	50.378431133259085	0.20765028881487282	53	819.727111816406
+SML	54	null	null	null	null	null	48:3 m2	null	null	null	null	null	null	9.1687756308040544	8.8885713364422774	16.14022366337835	12.705390595323099	11.725740306486944	0.29144056596030693	54	820.736518012152
+SML	55	null	null	null	null	null	48:3 m3	null	null	null	null	null	null	0.91324922209982795	8.1439001313785102	18.448433127905602	15.057466356611615	10.640762209498888	0.73062826864681629	55	821.745537651909
+SML	56	null	null	null	null	null	48:3 m4	null	null	null	null	null	null	0.2391246263873949	3.095817577051553	7.82744218751687	7.4618753990476439	4.6560649475008651	0.78300568637329182	56	822.744087219238
+SML	57	null	null	null	null	null	48:3 m5	null	null	null	null	null	null	null	1.2673218046177872	3.3699605656246296	3.798571462248153	null	null	57	823.742980957031
+SML	58	null	null	null	null	null	48:3 m6	null	null	null	null	null	null	null	0.44843151904933404	1.725216581722	2.5435009527495542	null	null	58	824.739318847656
+SML	59	null	null	null	null	null	48:3 m7	null	null	null	null	null	null	null	0.30183987805251061	0.92812797073952014	1.216275013836225	null	null	59	825.767431640625
+SML	60	null	null	null	null	null	48:3 m8	null	null	null	null	null	null	null	0.17128815716475937	1.2659890823219788	1.8678069136890489	null	null	60	826.757495117187
+SML	61	null	null	null	null	null	48:3 m9	null	null	null	null	null	null	null	0.52022531953753193	1.5354526431957842	1.5752133375302633	null	null	61	827.764660644531
+SML	62	null	null	null	null	null	48:3 m10	null	null	null	null	null	null	null	0.26212591778245531	0.85748232403729163	1.235987200465325	null	null	62	828.759716796875
+SML	63	null	null	null	null	null	48:3 m11	null	null	null	null	null	null	null	0.32548635821330635	0.6602349974776659	0.85891807824862643	null	null	63	829.773352050781
+SML	64	null	null	null	null	null	48:3 m12	null	null	null	null	null	null	null	0.22097883750265529	0.55288071482554124	0.75642206307083226	null	null	64	830.762219238281
+SML	65	null	null	null	null	null	48:3 m13	null	null	null	null	null	null	null	0.20411211738796234	0.54949317291741429	0.72508851268278762	null	null	65	831.769909667968
+SML	66	null	null	null	null	null	48:3 m14	null	null	null	null	null	null	null	0.20072223736491107	0.38307247772175262	0.46647639257864115	null	null	66	832.768310546875
+SML	67	null	null	null	null	null	48:3 m15	null	null	null	null	null	null	null	0.18473743725621447	0.34642543344291543	0.31381727560590023	null	null	67	833.769665527343
+SML	68	null	null	null	null	null	48:3 m16	null	null	null	null	null	null	null	0.17423707718481213	0.26983619048369761	0.30583678213852228	null	null	68	834.776586914062
+SML	69	null	null	null	null	null	48:3 m17	null	null	null	null	null	null	null	0.13716887693274829	0.24107288010013952	0.30432894696726537	null	null	69	835.779821777343
+SML	70	null	null	null	null	null	50:1 m0	null	null	null	null	null	null	70.120894621065389	65.527926961589785	90.567660560170609	60.994768142943947	71.802812571442431	0.18178846126851197	70	850.787445068359
+SML	71	null	null	null	null	null	50:1 m1	null	null	null	null	null	null	32.117078269126118	31.967756453380634	45.027271714089636	28.794506743167513	34.476653294940974	0.20879970604661327	71	851.783386230468
+SML	72	null	null	null	null	null	50:1 m2	null	null	null	null	null	null	5.6147791685210402	6.6052253209155314	10.086224336020994	7.245114899062739	7.3878359311300761	0.25987113655779959	72	852.790441894531
+SML	73	null	null	null	null	null	50:1 m3	null	null	null	null	null	null	0.74968162044577491	2.7841415349321488	4.7359714421594292	4.0627000524910404	3.0831236625070986	0.56878857471394229	73	853.796881781684
+SML	74	null	null	null	null	null	50:1 m4	null	null	null	null	null	null	0.15328303508814883	0.4016621987313021	2.1377883902964268	2.1518683493665818	1.211150493370615	0.89410161553253231	74	854.797166612413
+SML	75	null	null	null	null	null	50:1 m5	null	null	null	null	null	null	0.051838273282623352	0.55963611980552552	1.1748334091578116	1.4448039834504416	0.80777794642410061	0.77428058924792875	75	855.794698079427
+SML	76	null	null	null	null	null	50:1 m6	null	null	null	null	null	null	0.13961214575911848	0.32030507817807446	0.72934085240347357	0.89668751046520179	0.52148639670146713	0.67369330240269187	76	856.795349121093
+SML	77	null	null	null	null	null	50:1 m7	null	null	null	null	null	null	0.05840802928526688	0.2777524378887149	0.65718620976035091	0.87954967656751604	0.46822408837546214	0.78870235564526281	77	857.798909505208
+SML	78	null	null	null	null	null	50:1 m8	null	null	null	null	null	null	null	0.1706818371606364	0.39243441172239746	0.59530435855202335	null	null	78	858.809028625488
+SML	79	null	null	null	null	null	50:1 m9	null	null	null	null	null	null	null	0.18076879722922765	0.42162886380335302	0.57011247825177491	null	null	79	859.813011169433
+SML	80	null	null	null	null	null	50:1 m10	null	null	null	null	null	null	null	0.089931036611530846	0.23334312538250315	0.41796823182531634	null	null	80	860.812360491071
+SML	81	null	null	null	null	null	50:1 m11	null	null	null	null	null	null	null	0.10575047671910319	0.21335662812454753	0.34253969679494056	null	null	81	861.816510881696
+SML	82	null	null	null	null	null	50:1 m12	null	null	null	null	null	null	null	null	null	null	null	null	82	862.825012207031
+SML	83	null	null	null	null	null	50:1 m13	null	null	null	null	null	null	null	null	null	null	null	null	83	863.82632446289
+SML	84	null	null	null	null	null	50:1 m14	null	null	null	null	null	null	null	null	null	null	null	null	84	864.82485961914
+SML	85	null	null	null	null	null	50:1 m15	null	null	null	null	null	null	null	null	null	null	null	null	85	865.833709716796
+

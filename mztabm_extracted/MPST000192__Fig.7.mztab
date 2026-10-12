@@ -1,0 +1,316 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000192#Fig.7
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000192, MPST000192.xlsx, sheet "Fig.7"
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	21_ArNOG10_Low_00min_01.mzML
+MTD	sample[2]	21_ArNOG10_Low_00min_02.mzML
+MTD	sample[3]	21_ArNOG10_Low_00min_03.mzML
+MTD	sample[4]	21_ArNOG10_Low_05min_01.mzML
+MTD	sample[5]	21_ArNOG10_Low_05min_02.mzML
+MTD	sample[6]	21_ArNOG10_Low_05min_03.mzML
+MTD	sample[7]	21_ArNOG10_Low_10min_01.mzML
+MTD	sample[8]	21_ArNOG10_Low_10min_02.mzML
+MTD	sample[9]	21_ArNOG10_Low_10min_03.mzML
+MTD	sample[10]	21_ArNOG10_Low_20min_01.mzML
+MTD	sample[11]	21_ArNOG10_Low_20min_02.mzML
+MTD	sample[12]	21_ArNOG10_Low_20min_03.mzML
+MTD	sample[13]	21_ArNOG10_Low_30min_01.mzML
+MTD	sample[14]	21_ArNOG10_Low_30min_02.mzML
+MTD	sample[15]	21_ArNOG10_Low_30min_03.mzML
+MTD	sample[16]	21_ArNOG10_Low_40min_01.mzML
+MTD	sample[17]	21_ArNOG10_Low_40min_02.mzML
+MTD	sample[18]	21_ArNOG10_Low_40min_03.mzML
+MTD	sample[19]	21_ArNOG10_Low_50min_01.mzML
+MTD	sample[20]	21_ArNOG10_Low_50min_02.mzML
+MTD	sample[21]	21_ArNOG10_Low_50min_03.mzML
+MTD	sample[22]	21_ArNOG10_Low_60min_01.mzML
+MTD	sample[23]	21_ArNOG10_Low_60min_02.mzML
+MTD	sample[24]	21_ArNOG10_Low_60min_03.mzML
+MTD	sample[25]	21_ArNOG10_Low_re00min_01.mzML
+MTD	sample[26]	21_ArNOG10_Low_re00min_02.mzML
+MTD	sample[27]	21_ArNOG10_Low_re00min_03.mzML
+MTD	sample[28]	22_ArNOG_GlyK10_Low_00min_01.mzML
+MTD	sample[29]	22_ArNOG_GlyK10_Low_00min_02.mzML
+MTD	sample[30]	22_ArNOG_GlyK10_Low_00min_03.mzML
+MTD	sample[31]	22_ArNOG_GlyK10_Low_05min_01.mzML
+MTD	sample[32]	22_ArNOG_GlyK10_Low_05min_02.mzML
+MTD	sample[33]	22_ArNOG_GlyK10_Low_05min_03.mzML
+MTD	sample[34]	22_ArNOG_GlyK10_Low_10min_01.mzML
+MTD	sample[35]	22_ArNOG_GlyK10_Low_10min_02.mzML
+MTD	sample[36]	22_ArNOG_GlyK10_Low_10min_03.mzML
+MTD	sample[37]	22_ArNOG_GlyK10_Low_20min_01.mzML
+MTD	sample[38]	22_ArNOG_GlyK10_Low_20min_02.mzML
+MTD	sample[39]	22_ArNOG_GlyK10_Low_20min_03.mzML
+MTD	sample[40]	22_ArNOG_GlyK10_Low_30min_01.mzML
+MTD	sample[41]	22_ArNOG_GlyK10_Low_30min_02.mzML
+MTD	sample[42]	22_ArNOG_GlyK10_Low_30min_03.mzML
+MTD	sample[43]	22_ArNOG_GlyK10_Low_40min_01.mzML
+MTD	sample[44]	22_ArNOG_GlyK10_Low_40min_02.mzML
+MTD	sample[45]	22_ArNOG_GlyK10_Low_40min_03.mzML
+MTD	sample[46]	22_ArNOG_GlyK10_Low_50min_01.mzML
+MTD	sample[47]	22_ArNOG_GlyK10_Low_50min_02.mzML
+MTD	sample[48]	22_ArNOG_GlyK10_Low_50min_03.mzML
+MTD	sample[49]	22_ArNOG_GlyK10_Low_60min_01.mzML
+MTD	sample[50]	22_ArNOG_GlyK10_Low_60min_02.mzML
+MTD	sample[51]	22_ArNOG_GlyK10_Low_60min_03.mzML
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	ms_run[5]-location	null
+MTD	ms_run[6]-location	null
+MTD	ms_run[7]-location	null
+MTD	ms_run[8]-location	null
+MTD	ms_run[9]-location	null
+MTD	ms_run[10]-location	null
+MTD	ms_run[11]-location	null
+MTD	ms_run[12]-location	null
+MTD	ms_run[13]-location	null
+MTD	ms_run[14]-location	null
+MTD	ms_run[15]-location	null
+MTD	ms_run[16]-location	null
+MTD	ms_run[17]-location	null
+MTD	ms_run[18]-location	null
+MTD	ms_run[19]-location	null
+MTD	ms_run[20]-location	null
+MTD	ms_run[21]-location	null
+MTD	ms_run[22]-location	null
+MTD	ms_run[23]-location	null
+MTD	ms_run[24]-location	null
+MTD	ms_run[25]-location	null
+MTD	ms_run[26]-location	null
+MTD	ms_run[27]-location	null
+MTD	ms_run[28]-location	null
+MTD	ms_run[29]-location	null
+MTD	ms_run[30]-location	null
+MTD	ms_run[31]-location	null
+MTD	ms_run[32]-location	null
+MTD	ms_run[33]-location	null
+MTD	ms_run[34]-location	null
+MTD	ms_run[35]-location	null
+MTD	ms_run[36]-location	null
+MTD	ms_run[37]-location	null
+MTD	ms_run[38]-location	null
+MTD	ms_run[39]-location	null
+MTD	ms_run[40]-location	null
+MTD	ms_run[41]-location	null
+MTD	ms_run[42]-location	null
+MTD	ms_run[43]-location	null
+MTD	ms_run[44]-location	null
+MTD	ms_run[45]-location	null
+MTD	ms_run[46]-location	null
+MTD	ms_run[47]-location	null
+MTD	ms_run[48]-location	null
+MTD	ms_run[49]-location	null
+MTD	ms_run[50]-location	null
+MTD	ms_run[51]-location	null
+MTD	assay[1]	21_ArNOG10_Low_00min_01.mzML
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	21_ArNOG10_Low_00min_02.mzML
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	21_ArNOG10_Low_00min_03.mzML
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	21_ArNOG10_Low_05min_01.mzML
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	21_ArNOG10_Low_05min_02.mzML
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	21_ArNOG10_Low_05min_03.mzML
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	21_ArNOG10_Low_10min_01.mzML
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	21_ArNOG10_Low_10min_02.mzML
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	21_ArNOG10_Low_10min_03.mzML
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	21_ArNOG10_Low_20min_01.mzML
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	21_ArNOG10_Low_20min_02.mzML
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	21_ArNOG10_Low_20min_03.mzML
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	21_ArNOG10_Low_30min_01.mzML
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	21_ArNOG10_Low_30min_02.mzML
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	21_ArNOG10_Low_30min_03.mzML
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	21_ArNOG10_Low_40min_01.mzML
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	21_ArNOG10_Low_40min_02.mzML
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	21_ArNOG10_Low_40min_03.mzML
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	21_ArNOG10_Low_50min_01.mzML
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[20]	21_ArNOG10_Low_50min_02.mzML
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	21_ArNOG10_Low_50min_03.mzML
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	21_ArNOG10_Low_60min_01.mzML
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	21_ArNOG10_Low_60min_02.mzML
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	21_ArNOG10_Low_60min_03.mzML
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	21_ArNOG10_Low_re00min_01.mzML
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	21_ArNOG10_Low_re00min_02.mzML
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	assay[27]	21_ArNOG10_Low_re00min_03.mzML
+MTD	assay[27]-sample_ref	sample[27]
+MTD	assay[27]-ms_run_ref	ms_run[27]
+MTD	assay[28]	22_ArNOG_GlyK10_Low_00min_01.mzML
+MTD	assay[28]-sample_ref	sample[28]
+MTD	assay[28]-ms_run_ref	ms_run[28]
+MTD	assay[29]	22_ArNOG_GlyK10_Low_00min_02.mzML
+MTD	assay[29]-sample_ref	sample[29]
+MTD	assay[29]-ms_run_ref	ms_run[29]
+MTD	assay[30]	22_ArNOG_GlyK10_Low_00min_03.mzML
+MTD	assay[30]-sample_ref	sample[30]
+MTD	assay[30]-ms_run_ref	ms_run[30]
+MTD	assay[31]	22_ArNOG_GlyK10_Low_05min_01.mzML
+MTD	assay[31]-sample_ref	sample[31]
+MTD	assay[31]-ms_run_ref	ms_run[31]
+MTD	assay[32]	22_ArNOG_GlyK10_Low_05min_02.mzML
+MTD	assay[32]-sample_ref	sample[32]
+MTD	assay[32]-ms_run_ref	ms_run[32]
+MTD	assay[33]	22_ArNOG_GlyK10_Low_05min_03.mzML
+MTD	assay[33]-sample_ref	sample[33]
+MTD	assay[33]-ms_run_ref	ms_run[33]
+MTD	assay[34]	22_ArNOG_GlyK10_Low_10min_01.mzML
+MTD	assay[34]-sample_ref	sample[34]
+MTD	assay[34]-ms_run_ref	ms_run[34]
+MTD	assay[35]	22_ArNOG_GlyK10_Low_10min_02.mzML
+MTD	assay[35]-sample_ref	sample[35]
+MTD	assay[35]-ms_run_ref	ms_run[35]
+MTD	assay[36]	22_ArNOG_GlyK10_Low_10min_03.mzML
+MTD	assay[36]-sample_ref	sample[36]
+MTD	assay[36]-ms_run_ref	ms_run[36]
+MTD	assay[37]	22_ArNOG_GlyK10_Low_20min_01.mzML
+MTD	assay[37]-sample_ref	sample[37]
+MTD	assay[37]-ms_run_ref	ms_run[37]
+MTD	assay[38]	22_ArNOG_GlyK10_Low_20min_02.mzML
+MTD	assay[38]-sample_ref	sample[38]
+MTD	assay[38]-ms_run_ref	ms_run[38]
+MTD	assay[39]	22_ArNOG_GlyK10_Low_20min_03.mzML
+MTD	assay[39]-sample_ref	sample[39]
+MTD	assay[39]-ms_run_ref	ms_run[39]
+MTD	assay[40]	22_ArNOG_GlyK10_Low_30min_01.mzML
+MTD	assay[40]-sample_ref	sample[40]
+MTD	assay[40]-ms_run_ref	ms_run[40]
+MTD	assay[41]	22_ArNOG_GlyK10_Low_30min_02.mzML
+MTD	assay[41]-sample_ref	sample[41]
+MTD	assay[41]-ms_run_ref	ms_run[41]
+MTD	assay[42]	22_ArNOG_GlyK10_Low_30min_03.mzML
+MTD	assay[42]-sample_ref	sample[42]
+MTD	assay[42]-ms_run_ref	ms_run[42]
+MTD	assay[43]	22_ArNOG_GlyK10_Low_40min_01.mzML
+MTD	assay[43]-sample_ref	sample[43]
+MTD	assay[43]-ms_run_ref	ms_run[43]
+MTD	assay[44]	22_ArNOG_GlyK10_Low_40min_02.mzML
+MTD	assay[44]-sample_ref	sample[44]
+MTD	assay[44]-ms_run_ref	ms_run[44]
+MTD	assay[45]	22_ArNOG_GlyK10_Low_40min_03.mzML
+MTD	assay[45]-sample_ref	sample[45]
+MTD	assay[45]-ms_run_ref	ms_run[45]
+MTD	assay[46]	22_ArNOG_GlyK10_Low_50min_01.mzML
+MTD	assay[46]-sample_ref	sample[46]
+MTD	assay[46]-ms_run_ref	ms_run[46]
+MTD	assay[47]	22_ArNOG_GlyK10_Low_50min_02.mzML
+MTD	assay[47]-sample_ref	sample[47]
+MTD	assay[47]-ms_run_ref	ms_run[47]
+MTD	assay[48]	22_ArNOG_GlyK10_Low_50min_03.mzML
+MTD	assay[48]-sample_ref	sample[48]
+MTD	assay[48]-ms_run_ref	ms_run[48]
+MTD	assay[49]	22_ArNOG_GlyK10_Low_60min_01.mzML
+MTD	assay[49]-sample_ref	sample[49]
+MTD	assay[49]-ms_run_ref	ms_run[49]
+MTD	assay[50]	22_ArNOG_GlyK10_Low_60min_02.mzML
+MTD	assay[50]-sample_ref	sample[50]
+MTD	assay[50]-ms_run_ref	ms_run[50]
+MTD	assay[51]	22_ArNOG_GlyK10_Low_60min_03.mzML
+MTD	assay[51]-sample_ref	sample[51]
+MTD	assay[51]-ms_run_ref	ms_run[51]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]|assay[19]|assay[20]|assay[21]|assay[22]|assay[23]|assay[24]|assay[25]|assay[26]|assay[27]|assay[28]|assay[29]|assay[30]|assay[31]|assay[32]|assay[33]|assay[34]|assay[35]|assay[36]|assay[37]|assay[38]|assay[39]|assay[40]|assay[41]|assay[42]|assay[43]|assay[44]|assay[45]|assay[46]|assay[47]|assay[48]|assay[49]|assay[50]|assay[51]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_assay[27]	abundance_assay[28]	abundance_assay[29]	abundance_assay[30]	abundance_assay[31]	abundance_assay[32]	abundance_assay[33]	abundance_assay[34]	abundance_assay[35]	abundance_assay[36]	abundance_assay[37]	abundance_assay[38]	abundance_assay[39]	abundance_assay[40]	abundance_assay[41]	abundance_assay[42]	abundance_assay[43]	abundance_assay[44]	abundance_assay[45]	abundance_assay[46]	abundance_assay[47]	abundance_assay[48]	abundance_assay[49]	abundance_assay[50]	abundance_assay[51]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	DCS	null	null	null	null	null	null	5566.0073000000002	4714.7837	4300.2992999999997	4365.9830000000002	4496.4530000000004	4499.7439999999997	4596.6840000000002	5910.0834999999997	6543.3315000000002	6881.7866000000004	6861.3266999999996	5511.0739999999996	6410.9399999999996	6062.7793000000001	6245.8257000000003	6229.1895000000004	6377.1559999999999	6093.973	6331.2255999999998	5982.1475	5979.3823000000002	6482.6139999999996	5807.4633999999996	6307.2856000000002	6184.5500000000002	5779.9740000000002	5702.7309999999998	5960.9897000000001	5263.8850000000002	5736.8657000000003	5642.8877000000002	5880.0389999999998	5418.2772999999997	5391.4013999999997	5890.5492999999997	5942.8609999999999	5864.7016999999996	5704.2983000000004	5576.3676999999998	4989.9706999999999	4847.7250000000004	4939.0492999999997	5035.9076999999997	4758.0443999999998	4186.7124000000003	4212.7866000000004	4161.6599999999999	3809.3989999999999	3903.1300000000001	3790.7766000000001	4249.4129999999996	5438.8723921568626	0.15531202517197457
+SML	2	null	null	null	null	null	Hexose-P	null	null	null	null	null	null	7302.4750000000004	6218.7690000000002	5580.7309999999998	7693.7505000000001	7657.2856000000002	7713.4880000000003	11613.328	13543.045	15861.686	25937.653999999999	25202.540000000001	20469.486000000001	28454.562000000002	27552.780999999999	29316.026999999998	28678.771000000001	31064.315999999999	28760.041000000001	31472.610000000001	28895.258000000002	28761.903999999999	30426.616999999998	27673.502	29522.974999999999	10314.441999999999	10054.049000000001	9671.7900000000009	5131.6597000000002	4320.1149999999998	4605.6333000000004	9061.2219999999998	9105.8140000000003	8413.1779999999999	12942.558000000001	14365.968999999999	14077.777	22380.206999999999	20481.344000000001	20912.857	23192.442999999999	22576.119999999999	22272.838	23588.863000000001	23610.092000000001	21832.557000000001	23657.925999999999	22510.398000000001	21036.877	20250.613000000001	18790.478999999999	22164.809000000001	18562.671217647057	0.46424880619637732
+SML	3	null	null	null	null	null	Triose-P	null	null	null	null	null	null	180.14750000000001	132.44282999999999	126.63444	144.11491000000001	156.16502	158.75604000000001	263.68920000000003	318.16028	371.61707000000001	576.06349999999998	600.39030000000002	516.4194	706.87189999999998	686.50630000000001	723.1327	702.31775000000005	776.35064999999997	765.31524999999999	852.64250000000004	745.70763999999997	749.98530000000005	822	698.66819999999996	744.42600000000004	294.67250000000001	295.35430000000002	289.39150000000001	96.257140000000007	95.449520000000007	131.52455	254.37244999999999	247.6893	217.11374000000001	321.28607	405.13022000000001	331.97214000000002	547.97140000000002	532.30820000000006	573.05999999999995	651.67474000000004	645.68960000000004	664.91643999999997	667.04736000000003	670.92589999999996	562.79265999999996	664.02233999999999	613.56500000000005	576.3202	575.8211	518.23059999999998	570.66327000000001	481.0538611764706	0.48023011185111325
+SML	4	null	null	null	null	null	Pentose-P	null	null	null	null	null	null	20.587499999999999	33.333331999999999	26.804245000000002	23.894864999999999	22.344828	21.775362000000001	64.912279999999996	53.103836000000001	61.951217999999997	134.11421000000001	156.26785000000001	133.60794000000001	275.94220000000001	262.64909999999998	255.24815000000001	372.16748000000001	355.83949999999999	349.14532000000003	517.76419999999996	443.55527000000001	469.50979999999998	592.63684000000001	556.21410000000003	569.83672999999999	36.765000000000001	24.275058999999999	33.761789999999998	18.888311000000002	10.21875	19.467701000000002	34.528060000000004	39.801566999999999	43.322273000000003	77.262020000000007	75.200519999999997	80.774680000000004	170.37469999999999	177.45389	182.94499999999999	302.35192999999998	273.56873000000002	310.93612999999999	373.20853	371.98273	348.43169999999998	479.21588000000003	459.88749999999999	475.43842000000001	509.31862999999998	490.18203999999997	537.34436000000005	230.00219719607844	0.84377761875922197
+SML	5	null	null	null	null	null	E4P	null	null	null	null	null	null	201.63999999999999	167.54257000000001	144.30661000000001	192.52322000000001	202.5	197.79470000000001	298.26816000000002	342.00903	453.87804999999997	723.86289999999997	717.24239999999998	597.50369999999998	847.06029999999998	819.29070000000002	862.38819999999998	987.67737	1072.2739999999999	958.77829999999994	1157.4482	1036.2482	1006.74756	1136.9182000000001	987.65880000000004	1082.2141999999999	317.36500000000001	348.50116000000003	283.16744999999997	132.77142000000001	108.08414	167.80362	243.69642999999999	269.17493000000002	232.90996000000001	348.98320000000001	384.10678000000001	389.37723	546.90689999999995	533.47090000000003	598.03499999999997	719.24756000000002	734.14930000000004	716.04174999999998	750.03790000000004	726.07159999999999	635.96100000000001	743.85860000000002	669.67750000000001	597.15764999999999	646.41669999999999	571.34950000000003	630.50256000000002	573.30590411764706	0.53854361792380645
+SML	6	null	null	null	null	null	S7P	null	null	null	null	null	null	52.837499999999999	33.978104000000002	39.90802	76.317850000000007	77.403940000000006	74.693240000000003	168.67670000000001	196.25734	215.65120999999999	850.49239999999998	928.95410000000004	843.65509999999995	1771.4371000000001	1723.3308	1766.9165	2518.3054000000002	2619.5059999999999	2498.1453000000001	3508.5234	3167.1057000000001	3179.3506000000002	3911.9258	3588.5104999999999	3786.8544999999999	76.375	88.752914000000004	87.716980000000007	39.703896	24.709135	24.392765000000001	124.53827	122.91906	103.88388999999999	273.07929999999999	314.94272000000001	283.51137999999997	787.21479999999997	758.63589999999999	803.57749999999999	1282.9829999999999	1246.9763	1346.2383	1737.4123999999999	1790.7260000000001	1622.1757	2086.6799999999998	2007.52	1941.3695	2206.6300000000001	1967.5728999999999	2291.6095999999998	1236.0898885098038	0.95948139301189284
+SML	7	null	null	null	null	null	ATP	null	null	null	null	null	null	10.5725	27.734793	13.339622500000001	17.655256000000001	19.578817000000001	19.789856	32.421050000000001	14.656885000000001	28.239025000000002	47.593910000000001	57.650509999999997	65.885859999999994	55.648243000000001	63.478695000000002	63.862408000000002	69.302955999999995	57.619754999999998	68.758619999999993	86.23057	67.024569999999997	64.762249999999995	76.777500000000003	42.44706	39.540816999999997	24.712499999999999	9.3216780000000004	7.8136789999999996	1.0389610528945901	2.6442308425903298	5.9793281555175701	1.1301020383834799	6.5639686584472603	0	0	1.8229166269302299	4.3594937324523899	7.1575179100036603	1.3349514007568299	2.35750007629394	3.2597086429595898	4.4170618057250897	2.3169534206390301	1.0142179727554299	0	4.2341461181640598	4.9106698036193803	2.125	2.4605910778045601	7.0906863212585396	5.0266990661620996	6.3239793777465803	24.117413129433423	1.097727289971411
+SML	8	null	null	null	null	null	ADP	null	null	null	null	null	null	178.17250000000001	217.93673999999999	232.81133	230.49387999999999	234.53201000000001	230.73429999999999	198.96742	132.45372	131.35122999999999	30.624365000000001	49.762756000000003	79.178659999999994	60.804020000000001	72.794489999999996	42.466830000000002	67.714290000000005	62.365433000000003	58.844825999999998	49.795338000000001	40.776412999999998	66.982839999999996	69.104860000000002	49.174118	45.147959999999998	185.71250000000001	109.43356	150.98348999999999	272.96625	211.23797999999999	220.04392999999999	252.82397	264.22455000000002	229.72274999999999	244.36538999999999	247.9323	253.70633000000001	221.99284	193.42719	162.75	108.96117	114.13033	133.59705	102.87204	126.13827499999999	146.10731999999999	128.21836999999999	159.1875	224.01479	143.06128000000001	177.58981	179.90561	148.98229223529412	0.49912238210612991
+SML	9	null	null	null	null	null	dcs	null	null	null	null	null	null	53149705	54125042	55221694	55537598	55905348	55336384	56410313	55678550	52227983	51725041	52324348	51302550	51979309	51822890	52448413	52067670	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	10	null	null	null	null	null	G1P	null	null	null	null	null	null	16785565	18730447	24218571	34855953	41414739	40793638	41425037	40376703	10075671	16204517	23024428	31574493	35578450	34910152	33535301	31401837	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	11	null	null	null	null	null	G6P	null	null	null	null	null	null	125176351	134007235	162955550	209106533	228538298	228802620	230742553	229401339	83253446	122063844	158810581	199949855	221484386	225773223	228624432	223657655	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	12	null	null	null	null	null	F6P	null	null	null	null	null	null	17886527	19838913	25801131	37027810	44135662	43248645	44308122	117063647	10441984	16763641	23881158	32886631	37002805	36443100	35035425	32915471	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	13	null	null	null	null	null	R5P	null	null	null	null	null	null	130582	164986	266259	649435	1282843	1997663	3024588	4263878	124610	187082	320589	852849	1676467	2669958	3596392	4375037	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	14	null	null	null	null	null	Ru5P	null	null	null	null	null	null	116819	69129	32158	181913	581470	968396	1630980	2326725	98829	29541	31603	347804	903411	1516573	2113656	2543683	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	15	null	null	null	null	null	Xu5P	null	null	null	null	null	null	102487	104389	155293	202973	442439	680127	1062454	1185617	91975	158205	256702	545287	898939	1337477	1704538	1800360	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	16	null	null	null	null	null	S7P	null	null	null	null	null	null	783993	982123	2303679	11169015	24595076	36202768	47283661	55153241	293933	1038682	2629511	9107234	17654143	25358113	31970654	36532927	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	17	null	null	null	null	null	ADP	null	null	null	null	null	null	6210870	6618651	4349552	1324556	1036777	966901	885124	875965	9689741	10251231	9703529	7805101	7355204	6824699	6290508	5033216	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	18	null	null	null	null	null	ATP	null	null	null	null	null	null	8037491	7943029	10811216	17045157	17951763	17415548	16589649	16926288	1935301	1983993	2610429	4049292	4475392	4712883	4960518	6213909	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	19	null	null	null	null	null	Hexose-6P	null	null	null	null	null	null	159848443	172576595	212975252	280990296	314088699	312844903	316475712	386841689	103771101	155032002	205716167	264410979	294065641	297126475	297195158	287974963	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	20	null	null	null	null	null	Pentose-5P	null	null	null	null	null	null	349888	338504	453710	1034321	2306752	3646186	5718022	7776220	315414	374828	608894	1745940	3478817	5524008	7414586	8719080	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	21	null	null	null	null	null	DCS	null	null	null	null	null	null	4991439	4995104	4918803	4950685	4965702	5050511	5009067	5000199	5430081	5448885	5306484	5700954	5631462	5628924	5148915	5164330	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	22	null	null	null	null	null	E4P	null	null	null	null	null	null	19645	43093	91532	159280	223208	301250	317524	335870	10501	40831	76765	147864	208350	236305	253995	268167	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+SML	23	null	null	null	null	null	Triose-P	null	null	null	null	null	null	34558	77437	149103	208654	254355	327723	312083	321709	17666	70620	118948	199121	254603	260696	261274	269482	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null
+

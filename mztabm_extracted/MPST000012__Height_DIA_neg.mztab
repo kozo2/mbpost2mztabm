@@ -1,0 +1,985 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000012__Height_DIA_neg
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000012, MPST000012__Height_DIA_neg.txt
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	DIAblank_20ms_neg
+MTD	sample[1]-custom[1]	[,,File type, Blank]
+MTD	sample[1]-custom[2]	[,,Injection order, 1]
+MTD	sample[2]	y_DIA_35_20_20ms_neg_1
+MTD	sample[2]-custom[1]	[,,File type, Sample]
+MTD	sample[2]-custom[2]	[,,Injection order, 2]
+MTD	sample[3]	y_DIA_35_20_20ms_neg_2
+MTD	sample[3]-custom[1]	[,,File type, Sample]
+MTD	sample[3]-custom[2]	[,,Injection order, 3]
+MTD	sample[4]	y_DIA_35_20_20ms_neg_3
+MTD	sample[4]-custom[1]	[,,File type, Sample]
+MTD	sample[4]-custom[2]	[,,Injection order, 4]
+MTD	ms_run[1]-location	null
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[2]-location	null
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[3]-location	null
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	ms_run[4]-location	null
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000129, negative scan, ]
+MTD	assay[1]	DIAblank_20ms_neg
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	y_DIA_35_20_20ms_neg_1
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	y_DIA_35_20_20ms_neg_2
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	y_DIA_35_20_20ms_neg_3
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_study_variable[1]	abundance_variation_study_variable[1]	opt_global_feature_id	opt_global_exp_mass_to_charge	opt_global_retention_time_min	opt_global_inchikey
+SML	1	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	8341	0	0	0	2085.25	2	0	100.9327	15.167	null
+SML	2	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	6711	0	0	0	1677.75	2	1	100.9327	10.042	null
+SML	3	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	6365	0	1591.25	2	2	100.9327	13.021	null
+SML	4	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	5843	5641	5801	4321.25	0.66697081221616239	3	100.9327	9.785	null
+SML	5	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	5231	0	0	0	1307.75	2	4	100.9327	12.708	null
+SML	6	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	6288	1572	2	5	116.92741	15.208	null
+SML	7	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3199	0	0	0	799.75	2	6	116.92741	10.021	null
+SML	8	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	89679	0	0	0	22419.75	2	7	126.90319	6.354	null
+SML	9	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	81885	77661	0	39886.5	1.1555096216491856	8	126.90319	6.958	null
+SML	10	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	78935	0	0	19733.75	2	9	126.90319	9.396	null
+SML	11	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	79190	74807	69418	55853.75	0.67049542951643226	10	126.90319	8.792	null
+SML	12	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1224	0	1065	572.25	1.1602586601156035	11	132.86713	0.635	null
+SML	13	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1431	0	0	357.75	2	12	134.86467	0.625	null
+SML	14	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2341	0	0	0	585.25	2	13	134.89388	8.667	null
+SML	15	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2007	1793	0	950	1.1583568455866489	14	134.89388	9.656	null
+SML	16	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1153	0	0	288.25	2	15	134.89388	10.062	null
+SML	17	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	5899	0	0	1474.75	2	16	141.01498	9.438	null
+SML	18	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	13764	13821	16437	11005.5	0.6762246333029478	17	146.96465	15.208	null
+SML	19	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	14266	14049	15661	10994	0.66982493716554825	18	146.96465	14.812	null
+SML	20	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	10165	10372	13053	8397.5	0.68482041731658383	19	146.96465	15.66	null
+SML	21	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	8280	8241	9315	6459	0.67109882638495955	20	146.96465	14.438	null
+SML	22	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	3853	5057	2227.5	1.1755961496404186	21	146.96465	16.177	null
+SML	23	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	3368	0	842	2	22	146.96465	9.5	null
+SML	24	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	3230	0	807.5	2	23	146.96465	10.667	null
+SML	25	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2650	2601	2392	1910.75	0.66923287392087172	24	146.96465	8.819	null
+SML	26	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1923	1817	1706	1361.5	0.66983506845156049	25	146.96465	8.556	null
+SML	27	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	9345	0	9124	4617.25	1.1548658624400523	26	154.06131	0.625	null
+SML	28	null	null	C9H18O2	O=C(O)CCCCCCCC	null	w/o MS2:FA 9:0	null	null	[M-H2O-H]1-	null	null	null	0	1858	1666	1856	1345	0.67001953038388973	27	157.12242	1.806	FBUKVWPVBMHYJY-UHFFFAOYSA-N
+SML	29	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-111 from Mouse_Muscle_WT_CTX5_Ctr	null	null	[M-H]1-	null	null	null	0	8877	0	8318	4298.75	1.1559202560346644	28	158.97446	14.823	null
+SML	30	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	8581	0	2145.25	2	29	158.97446	15.646	null
+SML	31	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-97 from Mouse_Muscle_WT_CTX0_Ctr	null	null	[M-H]1-	null	null	null	5887	0	0	0	1471.75	2	30	158.97446	10.042	null
+SML	32	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-103 from Cell_C2C12_WT_N_24hCtr	null	null	[M-H]1-	null	null	null	0	4862	0	0	1215.5	2	31	158.97446	9.792	null
+SML	33	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1680	0	0	420	2	32	185.90996	14.812	null
+SML	34	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1575	1431	0	751.5	1.157347325078006	33	185.90996	15.646	null
+SML	35	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1334	0	0	333.5	2	34	185.90996	14.438	null
+SML	36	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1459	2168	2423	2212	2065.5	0.20303624058437689	35	197.15451	0.734	null
+SML	37	null	null	C12H24O2	O=C(O)CCCCCCCCCCC	null	w/o MS2:FA 12:0	null	null	[M-H]1-	null	null	null	21915	21369	21037	21973	21573.5	0.020831007724106589	36	199.17012	4.656	POULHZVOKOAJMA-UHFFFAOYSA-N
+SML	38	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2245	2491	2348	1771	0.66909530852894217	37	208.09636	4.201	null
+SML	39	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1582	1946	1793	1668	1747.25	0.09060317711731479	38	209.15248	1.094	null
+SML	40	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1719	2219	0	2132	1517.5	0.68198404296860426	39	211.09523	0.632	null
+SML	41	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2093	0	0	0	523.25	2	40	211.88164	10.562	null
+SML	42	null	null	C14H28O2	O=C(O)CCCCCCCCCCCCC	null	w/o MS2:FA 14:0	null	null	[M-H]1-	null	null	null	5356	7577	7511	7676	7030	0.1590409869165352	41	227.20148	5.651	TUNFSRHWOTWDNC-UHFFFAOYSA-N
+SML	43	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1869	1421	1483	1367	1535	0.14830925687324914	42	228.1584	0.651	null
+SML	44	null	null	C15H24O2	O=C(O)CCCCC=CCC=CCC=CCC	null	w/o MS2:FA 15:3	null	null	[M-H]1-	null	null	null	0	1026	0	0	256.5	2	43	235.16934	4.854	FNXANHXUVRZQAC-UHFFFAOYSA-N
+SML	45	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	0	0	0	1008	252	2	44	235.16934	1.812	null
+SML	46	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	1616	1694	827.5	1.1553415738377419	45	236.10423	1.792	null
+SML	47	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1362	1693	1794	1625	1618.5	0.11403029386524828	46	239.12836	1.812	null
+SML	48	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1100	1446	1263	1273	1270.5	0.11124940883485968	47	239.12836	1.047	null
+SML	49	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2431	3386	3358	3423	3149.5	0.15232232584269179	48	241.14397	0.74	null
+SML	50	null	null	C15H30O2	O=C(O)CCCCCCCCCCCCCC	null	FA 15:0	null	null	[M-H]1-	null	null	null	2011	3441	3424	3778	3163.5	0.24828096132081656	49	241.21651	6.078	WQEPLUUGTLDZJY-UHFFFAOYSA-N
+SML	51	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	4310	4327	3693	3803	4033.25	0.082439222706607182	50	241.21651	12.714	null
+SML	52	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	8843	7959	7503	7987	8073	0.069270812691168901	51	242.17451	0.865	null
+SML	53	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	3277	3148	3798	2555.75	0.67567144513082511	52	242.17451	15.208	null
+SML	54	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	3046	2943	3508	2374.25	0.6746502034210099	53	242.17451	14.806	null
+SML	55	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2466	2547	3334	2086.75	0.69256073347190816	54	242.17451	15.66	null
+SML	56	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1710	0	0	0	427.5	2	55	242.17451	7.396	null
+SML	57	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2376	2214	0	1147.5	1.1561380249093496	56	243.95029	15.188	null
+SML	58	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2288	2266	2254	1702	0.66671798561845763	57	243.95029	15.653	null
+SML	59	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1941	1734	1893	1392	0.66968897883936684	58	243.95029	14.438	null
+SML	60	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2423	2429	0	1213	1.1547023041322508	59	243.95309	14.802	null
+SML	61	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1065	1051	1041	789.25	0.66678331218720921	60	251.09549	1.799	null
+SML	62	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2873	3350	3601	3417	3310.25	0.093713256594936387	61	253.14368	1.089	null
+SML	63	null	null	C16H30O2	O=C(O)CCCCCCCC=CCCCCCC	null	FA 16:1	null	null	[M-H]1-	null	null	null	3329	51670	49971	51959	39232.25	0.61050695677328604	62	253.21513	5.891	SECPZKHBENQXJG-UHFFFAOYSA-N
+SML	64	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	13175	11974	11923	9268	0.66958292354314253	63	253.21513	10.701	null
+SML	65	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	9112	8814	8422	6587	0.66804534346881539	64	253.21513	12.181	null
+SML	66	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	2706	2679	1346.25	1.1547295665736268	65	253.21513	9.156	null
+SML	67	null	null	C16H32O2	O=C(O)CCCCCCCCCCCCCCC	null	FA 16:0	null	null	[M-H]1-	null	null	null	73237	129437	125904	129525	114525.75	0.24079699573746793	66	255.23175	6.474	IPCSVZSSVZVIGE-UHFFFAOYSA-N
+SML	68	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	8569	8938	8524	6507.75	0.66727555051380183	67	255.23175	13.028	null
+SML	69	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4605	4492	4370	3366.75	0.66727569563523004	68	255.23175	11.965	null
+SML	70	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3667	2608	2820	0	2273.75	0.69637013183383567	69	255.23175	7.097	null
+SML	71	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2676	0	0	669	2	70	255.23175	9.396	null
+SML	72	null	null	C12H26O4S	CCCCCCCCCCCCOS(O)(=O)=O	null	w/o MS2:Dodecyl sulfate	null	null	[M-H]1-	null	null	null	1183	1383	1385	1406	1339.25	0.078166768335772532	71	265.14505	4.609	MOTZDAYCYVMXPC-UHFFFAOYSA-N
+SML	73	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2108	3082	2946	3165	2825.25	0.17223740351801178	72	266.24905	10.036	null
+SML	74	null	null	C17H32O2	O=C(O)CCCCCCCC=CCCCCCCC	null	w/o MS2:FA 17:1	null	null	[M-H]1-	null	null	null	0	1072	1016	1090	794.5	0.66784533160502657	73	267.23203	6.285	QSBYPNXLFMSGKH-UHFFFAOYSA-N
+SML	75	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1309	1308	1342	989.75	0.66685770268821321	74	269.13849	0.993	null
+SML	76	null	null	C17H34O2	O=C(O)CCCCCCCCCCCCCCCC	null	FA 17:0	null	null	[M-H]1-	null	null	null	1871	2765	2821	2727	2546	0.17739719533919984	75	269.24756	6.839	KEMQGTRYUADPNZ-UHFFFAOYSA-N
+SML	77	null	null	C16H32O3	O=C(O)CCCCCCC(O)CCCCCCCC	null	w/o MS2:FA 16:0;1O	null	null	[M-H]1-	null	null	null	0	9221	8887	8979	6771.75	0.66699112116418235	76	271.22629	5.417	KMEKMXBMYZGGDT-UHFFFAOYSA-N
+SML	78	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	13464	0	0	3366	2	77	276.79633	2	null
+SML	79	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	7744	0	1936	2	78	276.79633	0.75	null
+SML	80	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2310	0	0	0	577.5	2	79	276.79932	10.562	null
+SML	81	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1408	352	2	80	276.79932	6.646	null
+SML	82	null	null	C18H32O2	O=C(O)CCCCCCCC=CCC=CCCCCC	null	FA 18:2	null	null	[M-H]1-	null	null	null	3939	6124	6062	5230	5338.75	0.19073845436219625	81	279.23169	6.146	OYHQOLUKZRVURQ-UHFFFAOYSA-N
+SML	83	null	null	C18H34O2	O=C(O)CCCCCCCC=CCCCCCCCC	null	FA 18:1	null	null	[M-H]1-	null	null	null	13653	131754	128453	132104	101491	0.5772114011084486	82	281.2467	6.641	ZQPPMHVWECSIRJ-UHFFFAOYSA-N
+SML	84	null	null	null	null	null	Unknown	null	null	[M-3H]1-	null	null	null	0	13469	13415	13246	10032.5	0.66673389721263165	83	281.2467	13.035	null
+SML	85	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	12390	11173	11212	8693.75	0.66982387825644674	84	281.2467	12.188	null
+SML	86	null	null	null	null	null	Unknown	null	null	[M-3H]1-	null	null	null	0	5906	5894	5628	4357	0.66731684609216757	85	281.2467	13.347	null
+SML	87	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2360	2228	0	1147	1.155655950571997	86	281.2467	10.062	null
+SML	88	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	1038	1070	527	1.1549665974567931	87	281.35217	6.646	null
+SML	89	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1113	1777	1743	1806	1609.75	0.20634632561441069	88	283.10873	6.432	null
+SML	90	null	null	C18H36O2	O=C(O)CCCCCCCCCCCCCCCCC	null	FA 18:0	null	null	[M-H]1-	null	null	null	115410	146854	146046	148959	139317.25	0.11474096463357687	89	283.26291	7.182	QIQXTHQIDYTFRH-UHFFFAOYSA-N
+SML	91	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	24744	11190	11678	11589	14800.25	0.44813851915107428	90	283.26291	7.698	null
+SML	92	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	7958	8279	8052	6072.25	0.66703587136998865	91	283.26291	13.347	null
+SML	93	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	5251	5544	5514	4077.25	0.66744780143573335	92	283.26291	13.035	null
+SML	94	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3318	4681	4867	4531	4349.25	0.16120070541319265	93	283.26291	13.609	null
+SML	95	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4089	4118	4437	3161	0.66852978723804324	94	283.26291	16.194	null
+SML	96	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3230	0	0	0	807.5	2	95	283.26291	15.729	null
+SML	97	null	null	null	null	null	Unknown	null	null	[M-2H]1-	null	null	null	2728	2909	2904	2719	2815	0.037562583153124267	96	287.28348	7.188	null
+SML	98	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	44279	46307	43863	45987	45109	0.026991955346446248	97	288.29227	7.182	null
+SML	99	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	7850	7415	6276	7091	7158	0.09292583653034836	98	288.29227	12.714	null
+SML	100	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	4762	4564	4774	4797	4724.25	0.022821784445450955	99	288.29227	6.568	null
+SML	101	null	null	null	null	null	RIKEN N-VS1 ID-763 from Mouse_Macrophage_WT_N_F1AA	null	null	[M-C6H10O5-H]1-	null	null	null	0	0	8218	8330	4137	1.154753432139501	100	293.17511	1.792	null
+SML	102	null	null	C18H30O3	O=C(O)CCCCCCC(O)C=CCC=CCC=CCC	null	w/o MS2:FA 18:3;1O	null	null	[M-H]1-	null	null	null	0	4232	4158	4422	3203	0.66756989316593207	101	293.21204	5.292	NFIYYIXFARWVBH-UHFFFAOYSA-N
+SML	103	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2577	4232	4198	4030	3759.25	0.21097248175029204	102	295.15332	1.771	null
+SML	104	null	null	C18H32O3	O=C(O)CCCCCCC(O)C=CCC=CCCCCC	null	w/o MS2:FA 18:2;1O	null	null	[M-H]1-	null	null	null	0	2380	2417	2547	1836	0.66780678303834984	103	295.22739	5.646	UKRXAPMQXXXXTD-UHFFFAOYSA-N
+SML	105	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2661	2427	2666	2531	2571.25	0.044604403470440999	104	297.15054	4.682	null
+SML	106	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3054	4696	4770	4790	4327.5	0.196409510345533	105	298.12689	1.042	null
+SML	107	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2612	3404	3537	3603	3289	0.1395131435596324	106	299.20114	5.557	null
+SML	108	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-803 from Mouse_Feces_WT_N_Ctr	null	null	[M-H]1-	null	null	null	0	2948	3111	3158	2304.25	0.66780950268984984	107	299.25708	6.132	null
+SML	109	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2761	2866	2837	2116	0.66699493450434821	108	299.25708	5.201	null
+SML	110	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-805 from Cell_C2C12_WT_N_4h10AA	null	null	[M-H]1-	null	null	null	0	2581	2429	2443	1863.25	0.66768230173393506	109	299.25708	5.021	null
+SML	111	null	null	C20H30O2	O=C(O)CCCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:FA 20:5	null	null	[M-H]1-	null	null	null	0	1664	1659	1658	1245.25	0.66666999859964771	110	301.21512	6.264	JAZBEHYOTPTENJ-UHFFFAOYSA-N
+SML	112	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1865	0	1977	960.5	1.1556813966905293	111	305.0217	9.51	null
+SML	113	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3694	6101	0	5816	3902.75	0.72121326461316737	112	309.168	0.646	null
+SML	114	null	null	null	null	null	Unknown	null	null	[M-C6H10O4-H]1-	null	null	null	0	0	4956	5077	2508.25	1.1548684755777805	113	309.168	1.792	null
+SML	115	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2387	3186	2878	3097	2887	0.12385732564139201	114	309.168	1.49	null
+SML	116	null	null	C20H38O2	O=C(O)CCCCCCCCCC=CCCCCCCCC	null	w/o MS2:FA 20:1	null	null	[M-H]1-	null	null	null	0	2719	2744	2829	2073	0.6670534226966135	115	309.27856	7.264	BITHHVVYSMSWAG-UHFFFAOYSA-N
+SML	117	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	8445	7742	7918	8176	8070.25	0.038027614206339384	116	311.16766	5.068	null
+SML	118	null	null	C20H40O2	O=C(O)CCCCCCCCCCCCCCCCCCC	null	FA 20:0	null	null	[M-H]1-	null	null	null	1994	4048	3866	4321	3557.25	0.29764806180080589	117	311.29443	7.781	VKOBVWXKNCXXDE-UHFFFAOYSA-N
+SML	119	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	205504	0	0	0	51376	2	118	312.82095	8.479	null
+SML	120	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	204916	0	0	0	51229	2	119	312.82095	6.812	null
+SML	121	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	194841	168445	0	0	90821.5	1.160780577934722	120	312.82095	10.365	null
+SML	122	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	181576	0	0	45394	2	121	312.82095	7	null
+SML	123	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	173356	0	0	43339	2	122	312.82095	9.417	null
+SML	124	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	172863	164370	154467	122925	0.66946574625620758	123	312.82095	8.792	null
+SML	125	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	163209	152128	78834.25	1.1561255208514705	124	312.82095	9.292	null
+SML	126	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	166815	0	146732	78386.75	1.1594280556109136	125	312.82095	5.625	null
+SML	127	null	null	C18H34O4	O=C(OC(C(=O)O)CCCCCCCCCCCCCC)C	null	w/o MS2:AAHFA 2:0/16:0;O	null	null	[M-H]1-	null	null	null	0	2393	2341	2262	1749	0.66737746762989558	126	313.23737	5.125	XYVRWOFSMCJEII-UHFFFAOYSA-N
+SML	128	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	10291	0	10561	10895	7936.75	0.66739291362081754	127	315.03961	8.653	null
+SML	129	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	9941	10292	10804	7759.25	0.6682290691123175	128	315.03961	8.493	null
+SML	130	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	8993	8731	9104	6707	0.66707426988090779	129	315.03961	10.056	null
+SML	131	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	7909	7910	9020	6209.75	0.67197565891569377	130	315.03961	10.889	null
+SML	132	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	5684	5465	5786	5881	5704	0.031291741732307955	131	315.03961	6.573	null
+SML	133	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3972	5391	5168	6515	5261.5	0.19811207794587121	132	315.03961	10.411	null
+SML	134	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3245	0	0	0	811.25	2	133	315.03961	9.708	null
+SML	135	null	null	C18H36O4	O=C(O)CCCCCCCC(O)C(O)CCCCCCCC	null	w/o MS2:FA 18:0;2O	null	null	[M-H]1-	null	null	null	0	1049	0	1133	545.5	1.156410541851189	134	315.2533	4.792	VACHUYIREGFMSP-UHFFFAOYSA-N
+SML	136	null	null	C18H30O3S	CCCCCCCCCCCCC1=CC=C(C=C1)S(O)(=O)=O	null	Unknown	null	null	[M-H]1-	null	null	null	8920	8329	8134	9021	8601	0.050689379991802654	135	325.18375	5.438	KWXICGTUELOLSQ-UHFFFAOYSA-N
+SML	137	null	null	C20H40O3	O=C(O)CCCCCCCC(O)CCCCCCCCCCC	null	w/o MS2:FA 20:0;1O	null	null	[M-H]1-	null	null	null	0	1082	1194	1175	862.75	0.66907542273786713	136	327.28647	6.743	XBUMIWJLJJFEIG-UHFFFAOYSA-N
+SML	138	null	null	C22H40O2	O=C(O)CCCCCCCCCCCC=CCC=CCCCCC	null	FA 22:2	null	null	[M-H]1-	null	null	null	0	1094	1173	1154	855.25	0.66782795434070208	137	335.29453	7.826	HVGRZDASOHMCSK-UHFFFAOYSA-N
+SML	139	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-1030 from Mouse_Eye_fads2KO_N_Ctr	null	null	[M-H]1-	null	null	null	0	1911	1906	1981	1449.5	0.66708497695212032	138	337.23495	6.472	null
+SML	140	null	null	C22H42O2	O=C(O)CCCCCCCCCCCC=CCCCCCCCC	null	Unknown	null	null	[M-H]1-	null	null	null	1240	1227	1264	1044	1193.75	0.084609748898426193	139	337.30753	7.828	DPUOLQHDNGRHBS-UHFFFAOYSA-N
+SML	141	null	null	C22H28O3	CC(=O)O[C@]1(CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@]12C)C#C	null	Unknown	null	null	[M-H]1-	null	null	null	7639	7096	7061	7248	7261	0.036461946939319437	140	339.19751	5.771	IMONTRJLAWHYGT-ZCPXKWAGSA-N
+SML	142	null	null	C22H44O2	O=C(O)CCCCCCCCCCCCCCCCCCCCC	null	FA 22:0	null	null	[M-H]1-	null	null	null	1197	3254	3138	3148	2684.25	0.36989407442120992	141	339.32657	8.328	UKMSUNONTOPOIO-UHFFFAOYSA-N
+SML	143	null	null	C20H38O4	O=C(OC(C(=O)O)CCCCCCCCCCCCCCCC)C	null	w/o MS2:AAHFA 2:0/18:0;O	null	null	[M-H]1-	null	null	null	0	3093	3123	3182	2349.5	0.66685235435078882	142	341.26865	5.91	VHVMZXQGJMKAIO-UHFFFAOYSA-N
+SML	144	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	4962	4967	0	4667	3649	0.66777381672199976	143	343.99222	8.667	null
+SML	145	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4368	4231	3934	3133.25	0.66916890019429842	144	343.99222	8.472	null
+SML	146	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4157	3952	3841	2987.5	0.66810488469180473	145	343.99222	10.056	null
+SML	147	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1875	1638	1645	1614	1693	0.072095312205081724	146	343.99222	6.578	null
+SML	148	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	7469	6956	7162	7098	7171.25	0.030170880686719415	147	346.25842	5.031	null
+SML	149	null	null	C22H38O3	O=C(O)C(O)CCCCCCCC=CCC=CCC=CCCCCC	null	w/o MS2:FA 22:3;(2OH)	null	null	[M-H]1-	null	null	null	0	1080	1059	1192	832.75	0.67034257110951023	148	349.27368	6.826	AJUIOBNBCIEFQU-UHFFFAOYSA-N
+SML	150	null	null	C22H40O3	O=C(O)C(O)CCCCCCCCCCC=CCC=CCCCCC	null	w/o MS2:FA 22:2;(2OH)	null	null	[M-H]1-	null	null	null	0	1599	1490	1479	1142	0.66835156969651799	149	351.28775	7.076	PQXJBLNXBNPTMB-UHFFFAOYSA-N
+SML	151	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-1146 from Mouse_Lung_WT_N_F1	null	null	[M-H]1-	null	null	null	0	1782	1799	1918	1374.75	0.66811778086077611	150	363.25064	6.639	null
+SML	152	null	null	C24H44O2	O=C(O)CCCCCCCCCCCC=CCC=CCCCCCCC	null	w/o MS2:FA 24:2	null	null	[M-H]1-	null	null	null	0	1063	0	1108	542.75	1.1551965381590796	151	363.32599	8.365	SVGHINSTYCDBLY-UHFFFAOYSA-N
+SML	153	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-1159 from Cell_C2C12_WT_N_12h50AA	null	null	[M-H]1-	null	null	null	2376	3183	3122	3338	3004.75	0.1427454611046593	152	365.26678	7.182	null
+SML	154	null	null	C24H48O2	O=C(O)CCCCCCCCCCCCCCCCCCCCCCC	null	FA 24:0	null	null	[M-H]1-	null	null	null	3461	7493	6717	6901	6143	0.29601065116552988	153	367.35739	8.99	QZZGJDVWLFXDLK-UHFFFAOYSA-N
+SML	155	null	null	C22H44O4	O=C(O)CCCCCCCC(O)C(O)CCCCCCCCCCCC	null	w/o MS2:FA 22:0;2O	null	null	[M-H]1-	null	null	null	0	2159	2423	2297	1719.75	0.66960789853534353	154	371.31412	6.681	UNIHVJYJIYQWMS-UHFFFAOYSA-N
+SML	156	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1088	1100	1470	914.5	0.69429043729939299	155	374.29034	13.438	null
+SML	157	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	5474	5456	5720	4162.5	0.66729419914673438	156	376.30548	6.368	null
+SML	158	null	null	C24H42O3	O=C(O)C(O)CCCCCCCC=CCC=CCC=CCCCCCCC	null	w/o MS2:FA 24:3;(2OH)	null	null	[M-H]1-	null	null	null	0	3264	3218	3329	2452.75	0.66692512241393898	157	377.30289	7.389	YUXYODVACGINHT-UHFFFAOYSA-N
+SML	159	null	null	C24H44O3	O=C(O)C(O)CCCCCCCCCCC=CCC=CCCCCCCC	null	w/o MS2:FA 24:2;(2OH)	null	null	[M-H]1-	null	null	null	0	1331	1169	1303	950.75	0.67080094412309843	158	379.31912	7.639	CFZUQUWKHAYTHF-UHFFFAOYSA-N
+SML	160	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	13038	0	0	0	3259.5	2	159	380.71298	10.562	null
+SML	161	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3596	0	0	0	899	2	160	380.71298	12.438	null
+SML	162	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3534	0	0	0	883.5	2	161	380.71298	11.083	null
+SML	163	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	2739	684.75	2	162	380.71298	6.646	null
+SML	164	null	null	C25H50O2	O=C(O)CCCCCCCCCCCCCCCCCCCCCCCC	null	FA 25:0	null	null	[M-H]1-	null	null	null	0	5641	5119	5156	3979	0.6693408122818062	163	381.37228	9.403	MWMPEAHGUXCSMY-UHFFFAOYSA-N
+SML	165	null	null	C24H48O3	O=C(O)CCCCCCCC(O)CCCCCCCCCCCCCCC	null	w/o MS2:FA 24:0;1O	null	null	[M-H]1-	null	null	null	0	0	0	1700	425	2	164	383.3501	7.771	DBQCMUUXNYUQBH-UHFFFAOYSA-N
+SML	166	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1704	1622	0	831.5	1.1554021885811241	165	383.3501	7.635	null
+SML	167	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2131	1961	1855	1920	1966.75	0.059934766044930393	166	386.16223	5.026	null
+SML	168	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2251	2201	0	1113	1.1548461753639918	167	387.02414	9.51	null
+SML	169	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1246	0	0	0	311.5	2	168	389.28943	7.104	null
+SML	170	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	16600	20706	21014	22028	20087	0.11909638081811516	169	391.28766	15.672	null
+SML	171	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	19935	20174	0	10027.25	1.1547415374290617	170	391.28766	14.844	null
+SML	172	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	18578	18649	20092	14329.75	0.66844161989778628	171	391.28766	16.188	null
+SML	173	null	null	null	null	null	Unknown	null	null	[M-H2O-H]1-	null	null	null	0	16946	17040	0	8496.5	1.1547093716859196	172	391.28766	14.458	null
+SML	174	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	15377	17356	8183.25	1.1589135996020736	173	391.28766	18.167	null
+SML	175	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	15250	0	0	0	3812.5	2	174	391.28766	15.146	null
+SML	176	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	14006	14174	13981	10540.25	0.66671624467780433	175	391.28766	13.236	null
+SML	177	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	10636	9806	9552	9965	9989.75	0.046366735381764383	176	391.28766	7.693	null
+SML	178	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-1363 from Mouse_Feces_WT_N_Ctr	null	null	[M-H]1-	null	null	null	0	0	6927	0	1731.75	2	177	391.28766	7.188	null
+SML	179	null	null	C26H52O2	O=C(O)CCCCCCCCCCCCCCCCCCCCCCCCC	null	FA 26:0	null	null	[M-H]1-	null	null	null	1399	47786	43580	42944	33927.25	0.64230552725284717	178	395.38873	9.906	XMHIUKTWLZUKEX-UHFFFAOYSA-N
+SML	180	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1043	1035	0	519.5	1.1547176525175609	179	395.38873	14.625	null
+SML	181	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-1461 from Mouse_Feces_WT_ABX_Ctr	null	null	[M-H]1-	null	null	null	0	3317	3177	3352	2461.5	0.66737391860632977	180	399.34601	7.236	null
+SML	182	null	null	C20H41NO3	O=C(NC(CO)C(O)CCCCCCCCC)CCCCCCC	null	w/o MS2:Cer 12:0;2O/8:0	null	null	[M-H]1-	null	null	null	0	1498	1493	1542	1133.25	0.66694964995960448	181	402.32062	6.993	YYEQAULBZQNYQA-UHFFFAOYSA-N
+SML	183	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	11979	12253	13322	9388.5	0.66951715617060303	182	404.33749	7.111	null
+SML	184	null	null	C26H46O3	O=C(O)C(O)CCCCCCCCCC=CCC=CCC=CCCCCCCC	null	w/o MS2:FA 26:3;(2OH)	null	null	[M-C6H8O6-H]1-	null	null	null	0	2307	2092	2132	1632.75	0.66911446564276	183	405.33517	7.91	FBQIXPAQZMHIDG-UHFFFAOYSA-N
+SML	185	null	null	C19H37O7P	O=C(OCC(O)COP(=O)(O)O)CCCCCCCC=CCCCCCC	null	LPA 16:1	null	null	[M-H]1-	null	null	null	0	1449	1308	1370	1031.75	0.66900839490659325	184	407.2182	5.66	GLGQZYWTNAOWHT-UHFFFAOYSA-N
+SML	186	null	null	C26H52O3	O=C(O)C(O)CCCCCCCCCCCCCCCCCCCCCCCC	null	FA 26:0;(2OH)	null	null	[M-H]1-	null	null	null	0	46064	44252	44509	33706.25	0.66708957045980177	185	411.38348	8.201	IFYDZTDBJZWEPK-UHFFFAOYSA-N
+SML	187	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1088	272	2	186	411.38348	13.667	null
+SML	188	null	null	null	null	null	Unknown	null	null	[M-H2O-H]1-	null	null	null	0	0	1019	0	254.75	2	187	417.23804	6.375	null
+SML	189	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	12470	5127	5171	5105	6968.25	0.52637835409289302	188	417.31876	7.698	null
+SML	190	null	null	null	null	null	Unknown	null	null	[M-2H]1-	null	null	null	1686	1547	1606	1543	1595.5	0.041902579575031955	189	421.34351	7.188	null
+SML	191	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	26127	25482	24850	25382	25460.25	0.020578962435137998	190	422.34714	7.182	null
+SML	192	null	null	C28H56O2	O=C(O)CCCCCCCCCCCCCCCCCCCCCCCCCCC	null	FA 28:0	null	null	[M-H]1-	null	null	null	0	2295	2198	1878	1592.75	0.67598644622638782	191	423.41855	11.167	UTOPWMOLSKOLTQ-UHFFFAOYSA-N
+SML	193	null	null	C20H44NO6P	O=P(O)(OCCN)OCC(O)COCCCCCCCCCCCCCCC	null	w/o MS2:LPE O-15:0	null	null	[M-H2O-H]1-	null	null	null	5108	4726	4777	4739	4837.5	0.037545613842700901	192	424.28403	6.516	UGDQTNCVEYMZRG-UHFFFAOYSA-N
+SML	194	null	null	C28H44O3	O=C(O)C(O)CCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:FA 28:6;(2OH)	null	null	[M-H]1-	null	null	null	0	1055	1001	1094	787.5	0.66842278152768353	193	427.32022	6.743	ONDSXKJTBLHASC-UHFFFAOYSA-N
+SML	195	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-1677 from Mouse_Feces_WT_ABX_Ctr	null	null	[M-H]1-	null	null	null	0	1618	1648	1593	1214.75	0.66692357173000905	194	427.37592	7.722	null
+SML	196	null	null	C22H45NO3	O=C(NC(CO)C(O)CCCCCCCCC)CCCCCCCCC	null	w/o MS2:Cer 12:0;2O/10:0	null	null	[M-H]1-	null	null	null	0	3789	4048	3986	2955.75	0.66771255190799539	195	430.35233	7.618	FVBPPMAWPQPNRU-UHFFFAOYSA-N
+SML	197	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-1716 from Mouse_Feces_WT_N_Ctr	null	null	[M-H]1-	null	null	null	0	1122	1073	1158	838.25	0.66796072098354387	196	433.33157	6.396	null
+SML	198	null	null	C28H50O3	O=C(O)C(O)CCCCCCCCCCCC=CCC=CCC=CCCCCCCC	null	w/o MS2:FA 28:3;(2OH)	null	null	[M-H]1-	null	null	null	0	1358	1459	1400	1054.25	0.6678237665158101	197	433.36896	8.41	TYIOEUUJVBNPNK-UHFFFAOYSA-N
+SML	199	null	null	C21H41O7P	O=C(OCC(O)COP(=O)(O)O)CCCCCCCC=CCCCCCCCC	null	LPA 18:1	null	null	[M-H]1-	null	null	null	0	1974	1758	1814	1386.5	0.66992686223701292	198	435.24847	6.389	WRGQSWVCFNIUNZ-UHFFFAOYSA-N
+SML	200	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1508	1564	1488	1428	1497	0.037495524132338941	199	438.25961	10.406	null
+SML	201	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2018	1940	2015	1493.25	0.66710445544699226	200	441.33398	6.965	null
+SML	202	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1730	1871	1664	1316.25	0.66988570862847341	201	441.33398	7.368	null
+SML	203	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	7835	7712	8001	8022	7892.5	0.018568014963768562	202	442.29315	6.516	null
+SML	204	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2335	1928	1803	1846	1978	0.12314609553288441	203	445.18451	3.562	null
+SML	205	null	null	C21H42NO7P	O=C(OCC(O)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCC	null	LPE 16:1	null	null	[M-H]1-	null	null	null	0	10407	9860	10422	7672.25	0.66753715149522297	204	450.25937	5.889	DSOWUEHXZJUNID-UHFFFAOYSA-N
+SML	206	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	6684	6745	6784	5053.25	0.6667164063414035	205	450.25937	5.743	null
+SML	207	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2435	2407	2402	1811	0.66671489056934419	206	450.25937	9.174	null
+SML	208	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1643	1738	1686	1266.75	0.66737142989604403	207	450.25937	10.076	null
+SML	209	null	null	C21H44NO7P	O=C(OCC(O)COP(=O)(O)OCCN)CCCCCCCCCCCCCCC	null	LPE 16:0	null	null	[M-H]1-	null	null	null	0	10252	10332	10675	7814.75	0.66707996634816258	208	452.27444	6.486	YVYMBNSKXOXSKW-UHFFFAOYSA-N
+SML	210	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1218	1102	1096	854	0.66990112776672583	209	452.27826	11.076	null
+SML	211	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1907	1104	0	1042	1013.25	0.77176447655120628	210	457.22424	7.701	null
+SML	212	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2881	1703	1843	1808	2058.75	0.26782520933646081	211	459.32413	8.052	null
+SML	213	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3087	2651	2619	2716	2768.25	0.078135360734034223	212	462.25119	7.182	null
+SML	214	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	3388	0	847	2	213	463.32562	13.021	null
+SML	215	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3671	3217	3469	3333	3422.5	0.056995869710639309	214	468.30817	6.516	null
+SML	216	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1179	0	0	0	294.75	2	215	469.25339	8.729	null
+SML	217	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-1986 from Mouse_Feces_WT_ABX_Ctr	null	null	[M-H]1-	null	null	null	7691	5411	5451	5570	6030.75	0.18387289324785652	216	471.26367	5.844	null
+SML	218	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2892	0	0	0	723	2	217	473.27826	6.521	null
+SML	219	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	33635	35533	34950	35343	34865.25	0.024532810540474133	218	473.28217	6.167	null
+SML	220	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	2008	2085	1023.25	1.1551091309805501	219	473.28217	10.844	null
+SML	221	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-2002 from Mouse_Feces_WT_N_Ctr	null	null	[M-H]1-	null	null	null	1769	0	0	0	442.25	2	220	473.28217	7.188	null
+SML	222	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1643	0	0	0	410.75	2	221	473.28217	8.688	null
+SML	223	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1341	0	0	0	335.25	2	222	473.28217	12.729	null
+SML	224	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1036	0	0	0	259	2	223	477.2222	10.229	null
+SML	225	null	null	C23H46NO7P	O=C(OCC(O)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCCCC	null	LPE 18:1	null	null	[M-H]1-	null	null	null	0	41757	42704	43043	31876	0.66688524285677409	224	478.29031	6.486	PYVRVRFVLRNJLY-UHFFFAOYSA-N
+SML	226	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4106	3896	3932	2983.5	0.66737472870779679	225	478.29031	5.66	null
+SML	227	null	null	null	null	null	Unknown	null	null	[M-H2O-H]1-	null	null	null	0	1034	1072	0	526.5	1.1550764183180569	226	478.29031	10.062	null
+SML	228	null	null	C30H59NO3	O=C(NC(CO)C(O)C=CCCCCCCCCCC)CCCCCCCCCCCCCC	null	w/o MS2:Cer 15:1;2O/15:0	null	null	[M-H]1-	null	null	null	1783	3092	3065	3203	2785.75	0.24092681171046224	227	480.44189	8.786	VHWAYGFKLPIESY-UHFFFAOYSA-N
+SML	229	null	null	null	null	null	Unknown	null	null	[M-H2O-H]1-	null	null	null	1718	2674	2383	2430	2301.25	0.17782504635169347	228	481.50964	10.036	null
+SML	230	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1257	0	0	0	314.25	2	229	483.22211	7.688	null
+SML	231	null	null	C24H43NO5	O=C(NC(CO)C(O)C(O)C=CCCC=CCCC=CC)C(O)CCCCCCC	null	w/o MS2:Cer 15:3;3O/9:0;(2OH)	null	null	[M-H]1-	null	null	null	15606	15997	15692	16176	15867.75	0.016718357097417758	230	484.32852	6.578	OFYOEZWWUHJMBC-UHFFFAOYSA-N
+SML	232	null	null	C23H39D7NO7P	[C@](COP(=O)(O)OCCN)([H])(O)COC(CCCCCCC/C=C\CCCCCC([2H])([2H])C([2H])([2H])C([2H])([2H])[2H])=O	null	LPE 18:1(d7)	null	null	[M-H]1-	null	null	null	232710	226496	232684	238671	232640.25	0.021367180502589369	231	485.33728	6.578	PYVRVRFVLRNJLY-CCLUNVSZNA-N
+SML	233	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1002	0	0	250.5	2	232	485.33728	10.417	null
+SML	234	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1477	1455	1611	1135.75	0.669424424345474	233	487.30237	0.66	null
+SML	235	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1685	1447	1394	1280	1451.5	0.11749852784084705	234	488.2467	7.193	null
+SML	236	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1902	1890	1942	1433.5	0.66684702216898217	235	489.21976	9.083	null
+SML	237	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1258	1205	1220	920.75	0.66710669038525394	236	489.21976	5.66	null
+SML	238	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-2112 from Mouse_BAT_fads2KO_N_Ctr	null	null	[M-H]1-	null	null	null	10216	16158	16240	16365	14744.75	0.2048434957518187	237	489.27539	6.432	null
+SML	239	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1030	1024	1057	777.75	0.666922033960198	238	491.23651	10.812	null
+SML	240	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1003	250.75	2	239	493.38507	8.208	null
+SML	241	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2944	2908	2965	2204.25	0.66675217756666749	240	496.35852	8.201	null
+SML	242	null	null	null	null	null	Unknown	null	null	[M-H2O-H]1-	null	null	null	1403	2072	1784	1900	1789.75	0.15850446275693139	241	497.50391	10.036	null
+SML	243	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1395	1078	1021	0	873.5	0.69276286323830416	242	499.41315	8.118	null
+SML	244	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2048	2747	2779	2952	2631.5	0.151733401818649	243	499.52158	10.036	null
+SML	245	null	null	null	null	null	Unknown	null	null	[M-2H]1-	null	null	null	1100	1039	1016	1003	1039.5	0.041358583321923048	244	501.30594	6.516	null
+SML	246	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	8397	8649	8394	6360	0.66693142511797776	245	505.37283	13.222	null
+SML	247	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	8659	8263	8396	6329.5	0.66717333543743562	246	505.37283	13.042	null
+SML	248	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	5780	0	0	1445	2	247	505.37283	8.875	null
+SML	249	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	5139	0	0	0	1284.75	2	248	505.37283	15.729	null
+SML	250	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3372	0	0	0	843	2	249	505.37283	10.208	null
+SML	251	null	null	null	null	null	RIKEN N-VS1 ID-2259 from Mouse_Plasma_ApoEKO_N_F1DHA	null	null	[M-H]1-	null	null	null	0	4761	4493	4663	3479.25	0.6674257440478476	250	506.32239	6.389	null
+SML	252	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1273	1086	1081	860	0.67471458354228331	251	509.03857	6.472	null
+SML	253	null	null	C26H47NO5	O=C(NC(CO)C(O)C(O)C=CCCC=CCCC=CC)C(O)CCCCCCCCC	null	w/o MS2:Cer 15:3;3O/11:0;(2OH)	null	null	[M-H2O-H]1-	null	null	null	2020	1996	2084	1895	1998.75	0.039278795301896194	252	512.35962	6.516	QGNSYYIFJUTVKF-UHFFFAOYSA-N
+SML	254	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	31785	30964	30855	32032	31409	0.018695590005289007	253	513.36865	6.516	null
+SML	255	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1044	3458	3228	3398	2782	0.41795621912214176	254	515.51605	9.531	null
+SML	256	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1013	0	0	253.25	2	255	516.41791	8.792	null
+SML	257	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1450	1390	1546	1096.5	0.66923675089020329	256	517.2511	6.389	null
+SML	258	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1009	0	0	252.25	2	257	517.2511	12.438	null
+SML	259	null	null	C36H54O2	O=C(O)CCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:FA 36:9	null	null	[M-C6H10O5-H]1-	null	null	null	0	1583	1335	1363	1070.25	0.67467144469599283	258	517.40234	9.361	OYQHJXSIVKWCJG-UHFFFAOYSA-N
+SML	260	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3375	3063	2862	2740	3010	0.092156618006301413	259	520.26276	10.406	null
+SML	261	null	null	C24H46NO9P	O=C(OCC(O)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCC=CCCCCCCCC	null	LPS 18:1	null	null	[M-H]1-	null	null	null	0	1574	1704	1625	1225.75	0.66809290770281393	260	522.28082	5.715	JZWNYZVVZXZRRH-UHFFFAOYSA-N
+SML	262	null	null	C24H48NO9P	O=C(OC(COC(=O)CCCCCCCCCCCCCCCC)COP(=O)(O)OCCN)CO	null	w/o MS2:PE 17:0_2:0;1O	null	null	[M+Na-2H]1-	null	null	null	4742	4626	4337	4496	4550.25	0.038260018185431739	261	524.29456	6.516	GMUHEBXMBKSZSW-UHFFFAOYSA-N
+SML	263	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1236	1025	0	0	565.25	1.1647133091226947	262	524.29456	10.219	null
+SML	264	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1219	1209	1066	1201	1173.75	0.061520565608291923	263	527.38025	6.516	null
+SML	265	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	11256	16548	15518	15818	14785	0.16179217224861422	264	528.52368	10.042	null
+SML	266	null	null	C34H58O4	O=C(O)CCCCCCCC(OC(=O)CCCCCCC)CCCCC=CCC=CCC=CCC=CCC	null	w/o MS2:FAHFA 8:0/26:4;O	null	null	[M-H]1-	null	null	null	7131	7552	7342	6924	7237.25	0.037371307305148621	265	529.42444	8.036	JKEBFQXJEJUSGK-UHFFFAOYSA-N
+SML	267	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	179565	264088	252396	250866	236728.75	0.16290376625588052	266	529.53192	10.036	null
+SML	268	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1157	1155	1159	867.75	0.66666932273892521	267	529.68079	10.035	null
+SML	269	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	5776	5479	5605	4215	0.66729174564296978	268	532.26404	9.181	null
+SML	270	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	0	4054	3965	4033	3013	0.66678586140008578	269	532.26404	10.069	null
+SML	271	null	null	null	null	null	Unknown	null	null	[M-C6H10O4-H]1-	null	null	null	0	5205	4692	4837	3683.5	0.66923892441544985	270	533.39612	9.361	null
+SML	272	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2194	1969	1792	1488.75	0.67576213527530571	271	534.28027	11.097	null
+SML	273	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1186	1074	0	565	1.1575329489900035	272	537.07037	7.177	null
+SML	274	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2672	2071	1898	1660.25	0.69595936537760872	273	539.26257	8.861	null
+SML	275	null	null	C30H59NO3	O=C(NC(CO)C(O)C=CCCCCCCCCCC)CCCCCCCCCCCCCC	null	w/o MS2:Cer 15:1;2O/15:0	null	null	[M+Hac-H]1-	null	null	null	3057	5360	5266	5455	4784.5	0.24124747183324058	274	540.46057	8.786	VHWAYGFKLPIESY-UHFFFAOYSA-N
+SML	276	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	1236	1298	1215	1210	1239.75	0.032614722942663203	275	543.29602	6.599	null
+SML	277	null	null	C35H60O4	O=C(O)CCCCCCC(OC(=O)CCCCCCCC=CCC=CCCCC)C=CCC=CCCCCC	null	w/o MS2:FAHFA 17:2/18:2;O	null	null	[M-H]1-	null	null	null	17808	18815	18047	17889	18139.75	0.025412520620514013	276	543.43842	8.141	KOFATPFAUDOZJG-UHFFFAOYSA-N
+SML	278	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1343	1502	1498	1494	1459.25	0.053156612422685642	277	543.43842	8.792	null
+SML	279	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	31616	30572	31017	23301.25	0.66691936876569158	278	544.41467	8.306	null
+SML	280	null	null	C29H57O7P	O=C(OCC(O)COP(=O)(O)O)CCCCCCCCCCCCCC=CCCCCCCCCCC	null	w/o MS2:LPA 26:1	null	null	[M-H]1-	null	null	null	0	1166	1023	1150	834.75	0.67105729839485173	279	547.37817	9.368	ACIQXKXWCKSCJU-UHFFFAOYSA-N
+SML	281	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1649	1407	1282	1533	1467.75	0.10794255706045534	280	551.26044	8.724	null
+SML	282	null	null	C24H48NO7P	O=C(OCC(O)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCC=CCCCCCC	null	LPC 16:1	null	null	[M+CH3COO]1-	null	null	null	0	15803	15689	16030	11880.5	0.66677340671347463	281	552.32812	5.66	LFUDDCMNKWEORN-UHFFFAOYSA-N
+SML	283	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1232	1212	1293	934.25	0.66768575845439682	282	553.27429	8.396	null
+SML	284	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1363	1316	1455	1033.5	0.66900266195522873	283	553.2785	8.917	null
+SML	285	null	null	C24H50NO7P	O=C(OCC(O)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCC	null	LPC 16:0	null	null	[M+CH3COO]1-	null	null	null	0	2781	2657	2770	2052	0.66722583980371619	284	554.34393	6.403	ASWBNKHCZGQVJV-UHFFFAOYSA-N
+SML	286	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1249	1060	0	0	577.25	1.1624113035683319	285	557.27069	8.615	null
+SML	287	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1156	1234	1198	1115	1175.75	0.043834846115433347	286	558.25928	6.167	null
+SML	288	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1704	1662	1778	1286	0.66770870561335183	287	558.3017	5.625	null
+SML	289	null	null	C35H60O5	O=C(O)CCC(C)C1CCC2C3CCC4CC(OC(=O)CCCCCCCCCC)CCC4(C)C3CC(O)C12C	null	w/o MS2:SE 24:1;O4/11:0	null	null	[M-2H]1-	null	null	null	2400	2601	2662	2633	2574	0.046093678761326036	288	559.43573	8.099	NSETUGWFGNCFKH-UHFFFAOYSA-N
+SML	290	null	null	null	null	null	Unknown	null	null	[M-H2O-H]1-	null	null	null	0	3393	3411	3306	2527.5	0.6669134019663544	289	560.29437	10.069	null
+SML	291	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1990	1916	1825	1432.75	0.66832828082174289	290	560.29437	11.118	null
+SML	292	null	null	C27H48NO9P	O=C(OCC(O)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCC=CCC=CCC=CCCCCC	null	w/o MS2:LPS 21:3	null	null	[M-H]1-	null	null	null	0	1324	1352	1326	1000.5	0.66678853361944002	291	560.29437	6.465	NTSHBPGVLATXMO-UHFFFAOYSA-N
+SML	293	null	null	C30H60NO6P	O=C(NC(COP(=O)(O)O)C(O)C=CCCCCCCCCCC)CCCCCCCCCCCCCC	null	w/o MS2:CerP 15:1;2O/15:0	null	null	[M-C6H10O5-H]1-	null	null	null	0	0	1028	0	257	2	292	560.40924	8	VKGWDVZAKVKZLS-UHFFFAOYSA-N
+SML	294	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	6210	6185	5984	4594.75	0.66703011750482166	293	560.422	9.361	null
+SML	295	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-2720 from Mouse_Feces_WT_N_Ctr	null	null	[M-H]1-	null	null	null	0	1031	0	1090	530.25	1.1555936878100435	294	560.43896	8.104	null
+SML	296	null	null	C35H63NO4	O=C(NC(CO)C(O)C=CCCCCCCCC)CC(O)CCCCCCC=CCC=CCC=CCCCCC	null	w/o MS2:Cer 13:1;2O/22:3;(3OH)	null	null	[M-H]1-	null	null	null	1436	0	0	0	359	2	295	560.46875	9.229	KALMGPAIFRHIOZ-UHFFFAOYSA-N
+SML	297	null	null	C30H59O7P	O=C(OCC(O)COP(=O)(O)O)CCCCCCCCCCCCCCC=CCCCCCCCCCC	null	Unknown	null	null	[M-H]1-	null	null	null	0	12948	12127	12391	9366.5	0.66766706553703004	296	561.39209	9.361	WBPVUEVTPQQVNU-UHFFFAOYSA-N
+SML	298	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2055	1964	2052	1517.75	0.66724645749526912	297	563.27087	6.472	null
+SML	299	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	2022	1752	1984	1771	1882.25	0.074647227986909856	298	563.36041	6.516	null
+SML	300	null	null	C35H67NO4	O=C(NC(CO)C(O)C=CCCC=CCCCCCCCCCCCCCCC)CC(O)CCCCCCCC	null	w/o MS2:Cer 24:2;2O/11:0;(3OH)	null	null	[M-H]1-	null	null	null	3301	3121	3016	3118	3139	0.037755916447460229	299	564.50378	10.031	NHEXBLOOHPSRND-UHFFFAOYSA-N
+SML	301	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	50868	51838	50697	50450	50963.25	0.011927920835078293	300	565.50732	10.031	null
+SML	302	null	null	C56H100N2O21	O=C(O)C1(OC2C(O)C(OC(CO)C2O)OC3C(O)C(O)C(OCC(NC(=O)CCCCCCCC=CCCCCCCC)C(O)C=CCCCCCCCCCCC)OC3CO)OC(C(O)C(O)CO)C(N=C(O)C)C(O)C1	null	w/o MS2:GM3 33:2;2O	null	null	[M+Hac-H]1-	null	null	null	7614	7477	7454	7665	7552.5	0.013640867425489792	301	567.33734	6.589	MIHQECQULHPXNL-UHFFFAOYSA-N
+SML	303	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2848	2577	2405	2324	2538.5	0.09128863525546338	302	567.33734	10.411	null
+SML	304	null	null	C25H47O12P	O=C(OCC(O)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCC=CCCCCCC	null	LPI 16:1	null	null	[M-H]1-	null	null	null	0	8063	7845	7801	5927.25	0.66694674895817252	303	569.26892	5	VPFGUPHJCAHVJV-UHFFFAOYSA-N
+SML	305	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1316	1330	1403	1012.25	0.66773073389795057	304	569.26892	8.056	null
+SML	306	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1086	0	1067	538.25	1.1547904615475966	305	569.27319	8.438	null
+SML	307	null	null	C57H94N2O21	O=C(O)C1(OC2C(O)C(OC(CO)C2O)OC3C(O)C(O)C(OCC(NC(=O)CC=CCC=CCC=CCC=CCC=CCC)C(O)C=CCCCCCCCCCCC)OC3CO)OC(C(O)C(O)CO)C(N=C(O)C)C(O)C1	null	w/o MS2:GM3 34:6;2O	null	null	[M-H]1-	null	null	null	12968	12828	12560	12704	12765	0.013638224029634556	306	570.31525	6.583	OTEMRGNYILWMDB-UHFFFAOYSA-N
+SML	308	null	null	C25H49O12P	O=C(OCC(O)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC	null	LPI 16:0	null	null	[M-H]1-	null	null	null	0	6053	5780	6179	4503	0.66769169562669206	307	571.28534	5.708	UOXRPRZMAROFPH-UHFFFAOYSA-N
+SML	309	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1462	1576	1622	1165	0.66916170610131709	308	571.28534	8.389	null
+SML	310	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1066	1091	1103	815	0.66693484512807066	309	571.28534	8.882	null
+SML	311	null	null	null	null	null	Unknown	null	null	[M-C6H10O5-H]1-	null	null	null	1930	2883	2708	2624	2536.25	0.16493608929178427	310	571.53009	10.047	null
+SML	312	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	28384	40846	38780	38189	36549.75	0.1521686504951458	311	572.53558	10.036	null
+SML	313	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	1309	1334	1288	1362	1323.25	0.024146447455770909	312	573.38702	6.516	null
+SML	314	null	null	C31H61O7P	O=C(OCC(O)COP(=O)(O)O)CCCCCCCCCCCCCCCC=CCCCCCCCCCC	null	Unknown	null	null	[M-H]1-	null	null	null	0	9658	8753	8701	6778	0.66981106056782913	313	575.40643	9.361	NEUBNJBZHMMPBD-UHFFFAOYSA-N
+SML	315	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	22605	40335	39794	39765	35624.75	0.24375723791300694	314	575.53571	10.036	null
+SML	316	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	1854	5884	5452	5459	4662.25	0.40388964490110058	315	575.53571	9.531	null
+SML	317	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1052	1046	1095	798.25	0.6672269537459643	316	578.50916	9.535	null
+SML	318	null	null	C26H52NO7P	O=C(OCC(O)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCC=CCCCCCCCC	null	LPC 18:1	null	null	[M+CH3COO]1-	null	null	null	0	17483	17326	17425	13058.5	0.66668514567954273	317	580.36005	6.389	YAMUFBLWGFFICM-UHFFFAOYSA-N
+SML	319	null	null	C26H54NO7P	O=C(OCC(O)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCC	null	LPC 18:0	null	null	[M+CH3COO]1-	null	null	null	0	2500	2584	2544	1907	0.66690933678640607	318	582.37433	7.056	IHNKQIMGVNPMTC-UHFFFAOYSA-N
+SML	320	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	8532	7966	7265	7059	7705.5	0.087474385373799396	319	585.26105	6.578	null
+SML	321	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	5960	5963	5911	5872	5926.5	0.0073323137641251052	320	586.39594	6.516	null
+SML	322	null	null	C26H45D7NO7P	C(COP(=O)([O-])OCC[N+](C)(C)C)([H])(O)COC(CCCCCCC/C=C\CCCCCC([2H])([2H])C([2H])([2H])C([2H])([2H])[2H])=O	null	LPC 18:1(d7)	null	null	[M+CH3COO]1-	null	null	null	96785	93242	92755	95030	94453	0.019446108790458917	321	587.4057	6.516	YAMUFBLWGFFICM-HNNXNMBSNA-N
+SML	323	null	null	null	null	null	Unknown	null	null	[M-C6H10O4-H]1-	null	null	null	0	0	1055	0	263.75	2	322	587.54071	10.021	null
+SML	324	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	19174	28147	26520	27244	25271.25	0.16298999145729171	323	588.54706	10.042	null
+SML	325	null	null	C31H59O8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)O)CCCCCCCCCCC	null	w/o MS2:PA 12:0_16:1	null	null	[M-H]1-	null	null	null	0	1294	1225	1288	951.75	0.66747262392626117	324	589.38416	8.326	UARCTMUVJALMHM-UHFFFAOYSA-N
+SML	326	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	283241	356440	353124	349440	335561.25	0.10429436008948484	325	589.54993	10.036	null
+SML	327	null	null	null	null	null	Unknown	null	null	[M-C6H10O5-H]1-	null	null	null	0	5899	4427	4223	3637.25	0.69755558528560802	326	589.61536	10.028	null
+SML	328	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	1353	3779	3253	3060	2861.25	0.36711406562137638	327	589.70697	10.026	null
+SML	329	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1125	0	0	281.25	2	328	589.85968	10.042	null
+SML	330	null	null	null	null	null	Unknown	null	null	[M-2H]1-	null	null	null	0	1082	0	0	270.5	2	329	589.99933	10.042	null
+SML	331	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	1079	0	269.75	2	330	590.08661	10	null
+SML	332	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1070	1002	0	518	1.1559435465988941	331	590.27863	10.021	null
+SML	333	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1066	0	0	266.5	2	332	590.33099	10.042	null
+SML	334	null	null	C28H54NO6P	O=P([O-])(OCC[N+](C)(C)C)OCC(OCCCCCCCCCCC=CCC=CCC=CCC)CO	null	w/o MS2:LPC O-20:3	null	null	[M+Hac-H]1-	null	null	null	6278	5617	5807	5746	5862	0.049202003466153124	333	590.37903	6.516	RGWHWBSGENFVNZ-UHFFFAOYSA-N
+SML	335	null	null	C38H73NO3	O=C(NC(CO)C(O)C=CCCC=CCCCCCCCCCCCCCC)CCCCCCCCCCCCCC	null	w/o MS2:Cer 23:2;2O/15:0	null	null	[M-2H]2-	null	null	null	0	170762	0	0	42690.5	2	334	590.55365	10.042	REJPYQLRWYJFNB-UHFFFAOYSA-N
+SML	336	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1203	1079	1169	862.75	0.66941869578325663	335	590.97284	10.035	null
+SML	337	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1320	1376	1377	1018.25	0.66717973090806548	336	591.20435	10.035	null
+SML	338	null	null	C31H61O8P	O=C(OCC(OC(=O)CCCCCCCCCCCCC)COP(=O)(O)O)CCCCCCCCCCCCC	null	w/o MS2:PA 14:0_14:0	null	null	[M-H]1-	null	null	null	0	3284	2880	2817	2245.25	0.67300535349460611	337	591.40094	9.576	OZSITQMWYBNPMW-UHFFFAOYSA-N
+SML	339	null	null	C31H61O8P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)O)CCCCCCCCCCC	null	w/o MS2:PA 12:0_16:0	null	null	[M-C6H10O4-H]1-	null	null	null	0	1728	1827	1785	1335	0.66735898067663801	338	591.40094	8.819	NBPKRIQYNFLUFX-UHFFFAOYSA-N
+SML	340	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	1025	0	256.25	2	339	591.40094	8.167	null
+SML	341	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1040	0	0	0	260	2	340	591.5014	10.042	null
+SML	342	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-3011 from Blank	null	null	[M-2H]1-	null	null	null	0	37342	0	0	9335.5	2	341	591.55823	10.042	null
+SML	343	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	43323	43934	43904	43256	43604.25	0.0083633026762480536	342	592.52429	10.036	null
+SML	344	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2201	2071	2084	1589	0.66768104222093738	343	593.35986	7.91	null
+SML	345	null	null	C31H63O8P	O=P(O)(OCC(O)CO)OCC(O)COCCCCCCCCCCCCCC=CCCCCCCCCCC	null	w/o MS2:LPG O-25:1	null	null	[M-H]1-	null	null	null	0	9416	8714	8787	6729.25	0.66830944280995219	344	593.41675	9.361	DDLTVIHUEFAHQR-UHFFFAOYSA-N
+SML	346	null	null	C27H51O12P	O=C(OCC(O)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCC=CCCCCCCCC	null	LPI 18:1	null	null	[M-H]1-	null	null	null	0	29345	28840	30114	22074.75	0.6670888411928747	345	597.3006	5.708	UGDOFRYHDCDVHD-UHFFFAOYSA-N
+SML	347	null	null	null	null	null	Unknown	null	null	[M-3H]1-	null	null	null	0	1303	1286	1309	974.5	0.66674160232555868	346	597.3006	9.653	null
+SML	348	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1465	1291	1286	1348	1347.5	0.061765195438450791	347	598.33289	8.724	null
+SML	349	null	null	C36H73NO5	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCCCCCCCCCC)C(O)CCCCCCCC	null	w/o MS2:Cer 26:0;3O/10:0;(2OH)	null	null	[M-H]1-	null	null	null	0	1133	1072	1038	810.75	0.66842681465899623	348	598.53943	10.778	BLVIVOWBXZLXHW-UHFFFAOYSA-N
+SML	350	null	null	C27H53O12P	O=C(OCC(O)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCCCC	null	LPI 18:0	null	null	[M-H]1-	null	null	null	0	7393	7393	7621	5601.75	0.66694271243463377	349	599.31769	6.361	MXAFDFDAIFZFET-UHFFFAOYSA-N
+SML	351	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2028	2072	2104	1551	0.6669692250878595	350	599.31769	9.653	null
+SML	352	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1864	1698	1630	1462	1663.5	0.10005902623225234	351	602.26807	10.411	null
+SML	353	null	null	C37H67NO5	O=C(O)CNC(=O)CCCCCC(OC(=O)CCCCCCCCCCCC=CCC=CCCCCCCC)CCCC	null	w/o MS2:NAGly 11:0;O(FA 24:2)	null	null	[M-H]1-	null	null	null	3969	2277	2000	1999	2561.25	0.36996512335639548	352	604.49219	9.849	NUYKEFAUTXREIS-UHFFFAOYSA-N
+SML	354	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1039	1147	1169	1095	1112.5	0.052132248418511364	353	605.28754	6.589	null
+SML	355	null	null	null	null	null	Unknown	null	null	[M-C6H10O4-H]1-	null	null	null	0	1484	1434	1410	1082	0.66727512911540321	354	605.54834	10.028	null
+SML	356	null	null	C31H62NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)C)CCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:LPE-N (FA 2:0)24:0	null	null	[M-H]1-	null	null	null	0	1126	0	1166	573	1.1550521749227411	355	606.41077	8.354	GYZIIOHYQPHGPL-UHFFFAOYSA-N
+SML	357	null	null	C32H65O8P	O=P(O)(OCC(O)CO)OCC(O)COCCCCCCCCCCCCCCC=CCCCCCCCCCC	null	Unknown	null	null	[M-H]1-	null	null	null	0	2948	2853	2906	2176.75	0.66690577725509026	356	607.43317	9.361	BRTXDEJRQWVSBQ-UHFFFAOYSA-N
+SML	358	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1905	1848	2040	1448.25	0.66898049006422688	357	614.26666	9.188	null
+SML	359	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	0	1623	1766	1513	1225.5	0.67200303363739577	358	614.26666	10.083	null
+SML	360	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1116	1049	1010	793.75	0.66894385297902503	359	616.28094	11.097	null
+SML	361	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	0	9109	9073	8621	6700.75	0.66748973597910266	360	617.40533	7.91	null
+SML	362	null	null	C33H63O8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)O)CCCCCCCCCCCCC	null	w/o MS2:PA 14:0_16:1	null	null	[M-H]1-	null	null	null	0	1097	0	1202	574.75	1.1571066611103278	361	617.41876	8.25	ALDWDBNWDITVID-UHFFFAOYSA-N
+SML	363	null	null	C35H63NO4	O=C(NC(CO)C(O)CCCCCCCCCC)CC(O)CCCCCCC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 13:0;2O/22:4;(3OH)	null	null	[M-H]1-	null	null	null	2471	1409	1369	1455	1676	0.31692333100373127	362	620.48486	9.229	YDNSJEBLLWWPHD-UHFFFAOYSA-N
+SML	364	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-3330 from Mouse_AdrenalGlands_fads2KO_N_Ctr	null	null	[M-H]1-	null	null	null	0	2640	2622	2500	1940.5	0.66743654099521266	363	621.4519	9.361	null
+SML	365	null	null	C32H65O9P	O=C(OCC(O)COP(=O)(O)OCC(O)CO)CCCCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:LPG 26:0	null	null	[M-H]1-	null	null	null	0	1406	1330	1233	992.25	0.67047425013109652	364	623.42853	9.576	DIMGZJMBUJNJIC-UHFFFAOYSA-N
+SML	366	null	null	C44H64O2	O=C(O)CCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:FA 44:12	null	null	[M-H]1-	null	null	null	0	1529	1445	1340	1078.5	0.6705101656307656	365	623.48688	10.701	QLVGHSAPDUUNLW-UHFFFAOYSA-N
+SML	367	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1327	1772	1793	1741	1658.25	0.13379399047073931	366	628.41766	8.146	null
+SML	368	null	null	C42H62O4	O=C(OC(C(=O)O)CC=CCC=CCC=CCC=CCC)CCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:AAHFA 26:6/16:4;O	null	null	[M-H]1-	null	null	null	2464	1932	1745	1584	1931.25	0.19809795767868629	367	629.45844	10.031	LSHXXIBBTRENPL-UHFFFAOYSA-N
+SML	369	null	null	C33H64NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCC	null	w/o MS2:PE 15:0_13:1	null	null	[M-H]1-	null	null	null	0	2320	2201	2288	1702.25	0.66732072552749999	368	632.4278	8.424	GVJMYWLKUSNGDU-UHFFFAOYSA-N
+SML	370	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1297	1243	1307	961.75	0.66730710535266313	369	633.26385	8.41	null
+SML	371	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1086	0	0	271.5	2	370	633.26385	8.062	null
+SML	372	null	null	C33H66NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCCCCCCCCCCC)CCCCCCCCC	null	w/o MS2:LPE-N (FA 18:0)10:0	null	null	[M-H]1-	null	null	null	0	1860	1719	1865	1361	0.66851861455927764	371	634.4444	8.264	GZTRPWDMVOZTJZ-UHFFFAOYSA-N
+SML	373	null	null	C34H69O8P	O=P(O)(OCC(O)CO)OCC(O)COCCCCCCCCCCCCCCCCC=CCCCCCCCCCC	null	LPG O-28:1	null	null	[M-H]1-	null	null	null	0	6198	5896	5836	4482.5	0.66760269636676983	372	635.46301	9.361	OZXILKVJOZWUFF-UHFFFAOYSA-N
+SML	374	null	null	C34H58O11	O=C(OCC(OC(=O)CCCCCCCCC)COC1OC(C(=O)O)C(O)C(O)C1O)CCCCCCC=CCC=CCCC	null	w/o MS2:DGGA 10:0_15:2	null	null	[M-H]1-	null	null	null	8600	1466	1472	1379	3229.25	1.1088494822426382	373	641.38684	7.589	IXUQWHXFGBYOFX-UHFFFAOYSA-N
+SML	375	null	null|null	C35H65O8P|C35H65O8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)O)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)O)CCCCCCCC=CCCCCCC	null|null	PA 32:2|PA 16:1_16:1	null|null	null|null	[M-H]1-	null	null	null	0	18102	17893	18081	13519	0.66670289923911286	374	643.4314	8.306	YLDMPBGXNLGSQO-UHFFFAOYSA-N
+SML	376	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	12505	12338	12124	9241.75	0.66688015758327734	375	643.4314	9.056	null
+SML	377	null	null|null	C69H128O17P2|C69H128O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCC	null|null	CL 60:3|CL 14:0_14:1_16:1_16:1	null|null	null|null	[M-2H]2-	null	null	null	0	1763	1588	1824	1293.75	0.67113463702306497	376	644.42065	13.229	WMFCHRDSRRFOBY-UHFFFAOYSA-N
+SML	378	null	null|null	C69H130O17P2|C69H130O17P2	O=C(OCC(OC(=O)CCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCCCC	null|null	CL 60:2|CL 12:0_12:0_18:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	0	1696	1495	1862	1263.25	0.6771662397531506	377	645.42896	13.375	ZDFNFCZDVNOHQL-UHFFFAOYSA-N
+SML	379	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2123	2139	2189	1612.75	0.66689449209718488	378	645.44263	8.431	null
+SML	380	null	null|null	C35H67O8P|C35H67O8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)O)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)O)CCCCCCCCCCCCCCC	null|null	PA 32:1|PA 16:0_16:1	null|null	null|null	[M-H]1-	null	null	null	0	14188	14274	14168	10657.5	0.66668062996291588	379	645.4472	8.736	SCNLPRDASXIFJK-UHFFFAOYSA-N
+SML	381	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	10652	9768	10341	7690.25	0.66836457652680059	380	645.4472	9.757	null
+SML	382	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2245	0	2353	1149.5	1.1553374206993443	381	645.52936	13.24	null
+SML	383	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1900	0	0	0	475	2	382	645.52936	13.479	null
+SML	384	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2145	1804	1341	1533	1705.75	0.20462328765087962	383	646.5614	12.729	null
+SML	385	null	null	C42H80O4	O=C(O)CCCCCCCC(OC(=O)CCCCCCCC=CCCCCCC)CCCCCCCCCCCCCCCCC	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	1049	0	262.25	2	384	647.59418	13.125	FXOCBLDELVAQBR-UHFFFAOYSA-N
+SML	386	null	null	C31H55O12P	O=C(OCC(O)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCC=CCC=CCC=CCCCCC	null	w/o MS2:LPI 22:3	null	null	[M-H]1-	null	null	null	1966	1920	1968	1862	1929	0.025850953039517181	385	649.34186	6.599	CWJJECLSZQDEPA-UHFFFAOYSA-N
+SML	387	null	null	null	null	null	Unknown	null	null	[M-H2O-H]1-	null	null	null	0	3395	3022	2777	2298.5	0.67577018022572122	386	651.51819	12.194	null
+SML	388	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	13996	5728	5508	5680	7728	0.54085584405096587	387	651.54114	9.698	null
+SML	389	null	null	null	null	null	Unknown	null	null	[2M-H]1-	null	null	null	0	5084	5076	5135	3823.75	0.6667016951166842	388	653.5329	13.035	null
+SML	390	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1414	1128	1032	0	893.5	0.69095626121059184	389	657.44257	10.028	null
+SML	391	null	null|null	C36H67O8P|C36H67O8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC)CCCCCCCC=CCCCCCC	null|null	PMeOH 32:2|PMeOH 16:1_16:1	null|null	null|null	[M-H]1-	null	null	null	0	1912	1886	1965	1440.75	0.66705701168193843	390	657.4472	8.264	JRIKQBWRJIOGQA-UHFFFAOYSA-N
+SML	392	null	null|null	C71H132O17P2|C71H132O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCCCC	null|null	CL 62:3|CL 12:0_16:1_16:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	0	2420	2132	2190	1685.5	0.67073766986699979	391	658.43793	13.396	DWCXWEYTQVZRBF-UHFFFAOYSA-N
+SML	393	null	null	C71H134O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCC)CCCCCCCC=CCC=CCCC	null	w/o MS2:CL 12:0_17:0_17:0_16:2	null	null	[M-2H]2-	null	null	null	0	1726	1545	1681	1238	0.66955746243000991	392	659.4433	13.556	OWFDEIMFAXRJNM-UHFFFAOYSA-N
+SML	394	null	null|null	C36H69O8P|C36H69O8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC)CCCCCCCCCCCCCCC	null|null	PMeOH 32:1|PMeOH 16:0_16:1	null|null	null|null	[M-H]1-	null	null	null	0	2074	1956	2077	1526.75	0.66768742182424723	393	659.46173	8.667	PRJBVVOFHKTECB-UHFFFAOYSA-N
+SML	395	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1001	0	0	250.25	2	394	659.46173	9.771	null
+SML	396	null	null|null	C35H68NO8P|C35H68NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCC	null|null	PE 30:1|PE 14:0_16:1	null|null	null|null	[M-H]1-	null	null	null	0	19882	17545	16672	13524.75	0.67415427656674298	395	660.45868	9.056	AZKOMSGSPCBHKK-UHFFFAOYSA-N
+SML	397	null	null	C35H68NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCCCCCCC)CCCCCCCC=CCCCCCC	null	w/o MS2:LPE-N (FA 14:0)16:1	null	null	[M-H]1-	null	null	null	0	5315	5355	5236	3976.5	0.66678260877076168	396	660.45868	8.326	CRKUDMQRJOACAV-UHFFFAOYSA-N
+SML	398	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1002	250.5	2	397	661.29462	8.917	null
+SML	399	null	null|null	C35H70NO8P|C35H70NO8P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCC	null|null	PE 30:0|PE 14:0_16:0	null|null	null|null	[M-H]1-	null	null	null	0	2148	1852	1812	1453	0.67459723161947982	398	662.47321	9.771	FXNACVVCWBVCGD-UHFFFAOYSA-N
+SML	400	null	null	C35H70NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCCCCCCCCCCC)CCCCCCCCCCC	null	w/o MS2:LPE-N (FA 18:0)12:0	null	null	[M-H]1-	null	null	null	0	6674	5951	5669	4573.5	0.67305936272537259	399	662.47321	8.806	CBTMOSAIDHZEJF-UHFFFAOYSA-N
+SML	401	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	1036	0	0	0	259	2	400	665.55646	9.708	null
+SML	402	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2787	2852	3013	2833	2871.25	0.034257258774567881	401	666.05707	5.333	null
+SML	403	null	null	C36H62D7O8P	[C@](COP(=O)(O)O)([H])(OC(CCCCCCC/C=C\CCCCCC([2H])([2H])C([2H])([2H])C([2H])([2H])[2H])=O)COC(CCCCCCCCCCCCCC)=O	null	PA 15:0_18:1(d7)	null	null	[M-H]1-	null	null	null	5116	4569	4365	4436	4621.5	0.073642232502844809	402	666.5069	10.214	NKHIVFXDPYZIBK-ZYYJJESQNA-N
+SML	404	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	4429	5245	5277	5075	5006.5	0.078912264980314825	403	666.5069	8.661	null
+SML	405	null	null	C37H67O8P	O=C(OCC(OC(=O)CCCCCCCC=CCC=CCCCCC)COP(=O)(O)O)CCCCCCCC=CCCCCCC	null	w/o MS2:PA 16:1_18:2	null	null	[M-H]1-	null	null	null	0	5418	5380	5343	4035.25	0.66670984872279393	404	669.44611	9.056	ROISGXJHEWMJAP-UHFFFAOYSA-N
+SML	406	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1132	283	2	405	669.87384	11.292	null
+SML	407	null	null|null	C73H134O17P2|C73H134O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCC)COC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCC)COC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCC	null|null	CL 64:4|CL 16:1_16:1_16:1_16:1	null|null	null|null	[M-2H]2-	null	null	null	0	3251	3279	3342	2468	0.66684496533032944	406	671.44635	13.417	UYSHBKYVDAZLKJ-UHFFFAOYSA-N
+SML	408	null	null|null	C37H69O8P|C37H69O8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)O)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)O)CCCCCCCC=CCCCCCC	null|null	PA 34:2|PA 16:1_18:1	null|null	null|null	[M-H]1-	null	null	null	0	46174	46204	45619	34499.25	0.66671225625200181	407	671.46503	8.792	HDXXGJAGUJYVES-UHFFFAOYSA-N
+SML	409	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	15390	14796	14918	11276	0.66705357266100007	408	671.46503	9.861	null
+SML	410	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	5396	5261	5371	4007	0.66682728252009338	409	671.46503	8.5	null
+SML	411	null	null|null	C73H136O17P2|C73H136O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCC	null|null	CL 64:3|CL 16:0_16:1_16:1_16:1	null|null	null|null	[M-2H]2-	null	null	null	0	2276	2051	2138	1616.25	0.66912608469352364	410	672.45227	13.576	RDAMEHGOZNITKS-UHFFFAOYSA-N
+SML	412	null	null|null	C37H71O8P|C37H71O8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)O)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)O)CCCCCCCCCCCCCCC	null|null	PA 34:1|PA 16:0_18:1	null|null	null|null	[M-H]1-	null	null	null	0	24735	24356	24516	18401.75	0.6667201165685136	411	673.4776	9.382	OPVZUEPSMJNLOM-UHFFFAOYSA-N
+SML	413	null	null	null	null	null	Unknown	null	null	[M-C6H10O4-H]1-	null	null	null	0	12739	12032	12110	9220.25	0.66754984247742366	412	673.4776	10.854	null
+SML	414	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	5963	5769	5816	4387	0.6669327067009202	413	673.4776	9.007	null
+SML	415	null	null	C37H61N2O7P	O=C(NC(COP(=O)(O)OCCN)C(O)C=CCCC=CCCC=CCCCC)CC(O)=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:PE-Cer 17:3;2O/18:5;O	null	null	[M-H]1-	null	null	null	0	1095	1130	1073	824.5	0.66727416644826232	414	675.41388	8.493	FLQKFJKZROQFIR-UHFFFAOYSA-N
+SML	416	null	null	null	null	null	Unknown	null	null	[M-C6H10O5-H]1-	null	null	null	5302	2732	2591	2487	3278	0.41277103044037838	415	677.55396	9.729	null
+SML	417	null	null	null	null	null	Unknown	null	null	[M-2H]2-	null	null	null	0	10182	10786	21012	10495	0.81769088191119699	416	677.87201	10.507	null
+SML	418	null	null	C34H66NO10P	O=C(OCC(OC(=O)CCCCCCCCCCCCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCCCCCCC	null	PS 28:0	null	null	[M-H]1-	null	null	null	0	1656	1663	1620	1234.75	0.66684122425887238	417	678.43341	7.931	WKJDWDLHIOUPPL-UHFFFAOYSA-N
+SML	419	null	null	C44H89NO3	O=C(NC(CO)C(O)CCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:Cer 18:0;2O/26:0	null	null	[M-H]1-	null	null	null	0	2552	2502	3156	2052.5	0.68221210061568816	418	678.67676	14.083	NWERZHCPHDHUMO-UHFFFAOYSA-N
+SML	420	null	null	C31H53O14P	O=C(OC(COC(=O)CCCCCCCCCC=CCC=CCC=CCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CO	null	w/o MS2:PI 20:3_2:0;1O	null	null	[M-H]1-	null	null	null	0	1358	1289	1495	1035.5	0.67177381381882983	419	679.30408	5.708	LIJAXPBQTIKNPU-UHFFFAOYSA-N
+SML	421	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1260	1253	1253	941.5	0.66667587966897723	420	679.54761	13.076	null
+SML	422	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	3201	3043	3089	2333.25	0.66727292412452666	421	681.56293	13.354	null
+SML	423	null	null|null	C42H85NO5|C42H85NO5	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCCC|O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCCC	null|null	Cer 42:0;4O|Cer 18:0;3O/24:0;(2OH)	null|null	null|null	[M-H]1-	null	null	null	0	10625	9896	10878	7849.75	0.66877278764227011	422	682.63269	13.389	ZFUXWVVVWGWGPQ-UHFFFAOYSA-N
+SML	424	null	null|null	C75H138O17P2|C75H138O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCC	null|null	CL 66:4|CL 16:1_16:1_16:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	0	10342	9596	9750	7422	0.6680731248684072	423	685.46136	13.604	RLNUSHBADPLXEA-UHFFFAOYSA-N
+SML	425	null	null|null	C38H71O8P|C38H71O8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC)CCCCCCCC=CCCCCCC	null|null	PMeOH 34:2|PMeOH 16:1_18:1	null|null	null|null	[M-H]1-	null	null	null	0	2500	2152	2417	1767.25	0.67193475825482007	424	685.48016	8.743	PITARHJSTIOFOM-UHFFFAOYSA-N
+SML	426	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1198	1052	1043	823.25	0.67222844541946802	425	685.48016	9.875	null
+SML	427	null	null|null	C75H140O17P2|C75H140O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCCCC	null|null	CL 66:3|CL 16:0_16:1_16:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	0	3386	3088	3302	2444	0.66864003898475854	426	686.46832	13.771	GXKQMWHMHISQFO-UHFFFAOYSA-N
+SML	428	null	null|null	C37H70NO8P|C37H70NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCC	null|null	PE 32:2|PE 16:1_16:1	null|null	null|null	[M-H]1-	null	null	null	0	224356	223601	224344	168075.25	0.6666699771192689	427	686.47302	9.174	PGPMCWZMPPZJML-UHFFFAOYSA-N
+SML	429	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	1062	1100	540.5	1.1550572014260381	428	686.47772	9.833	null
+SML	430	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1137	0	0	284.25	2	429	686.63776	9.188	null
+SML	431	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	1046	1093	534.75	1.1552579021204112	430	686.66132	9.167	null
+SML	432	null	null|null	C75H142O17P2|C75H142O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCC)CCCCCCCC=CCC=CCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCC)CCCCCCCC=CCC=CCCCCC	null|null	CL 66:2|CL 16:0_16:0_16:0_18:2	null|null	null|null	[M-2H]2-	null	null	null	0	1374	1223	1271	967	0.66984186823338998	431	687.47595	13.979	YGTROZKINQENJN-UHFFFAOYSA-N
+SML	433	null	null|null	C37H72NO8P|C37H72NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCCC	null|null	PE 32:1|PE 16:0_16:1	null|null	null|null	[M-H]1-	null	null	null	0	238326	223022	226305	171913.25	0.66776401522396267	432	688.48914	9.903	CZOSTDZGCCEZTJ-UHFFFAOYSA-N
+SML	434	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	3483	3544	3537	2641	0.66674654376994946	433	688.48914	8.938	null
+SML	435	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1193	1114	1158	866.25	0.66770997532376031	434	688.65411	9.896	null
+SML	436	null	null	C38H75O8P	O=C(OCC(OC(=O)CCCCCCC)COP(=O)(O)OCC)CCCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:PEtOH 25:0_8:0	null	null	[M-H]1-	null	null	null	1751	0	0	0	437.75	2	435	689.51245	10.021	CWOOWMQIUHALAW-UHFFFAOYSA-N
+SML	437	null	null	C37H74NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCCCCCCC)CCCCCCCCCCCCCCCCC	null	w/o MS2:LPE-N (FA 14:0)18:0	null	null	[M-H]1-	null	null	null	0	2155	1873	1845	1468.25	0.67345139848905788	436	690.50348	9.59	PHTCYIUXKWGMTJ-UHFFFAOYSA-N
+SML	438	null	null	C37H74NO8P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCCC	null	w/o MS2:PE 16:0_16:0	null	null	[M-H]1-	null	null	null	0	1167	0	0	291.75	2	437	690.50348	10.896	SLKDGVPOSSLUAI-UHFFFAOYSA-N
+SML	439	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1021	0	0	255.25	2	438	691.42432	12.208	null
+SML	440	null	null	null	null	null	Unknown	null	null	[M-2H]2-	null	null	null	0	4296	5017	10460	4943.25	0.86849684939289606	439	691.88739	11.778	null
+SML	441	null	null	C44H71NO5	O=C(O)CNC(=O)CCCCCCC(OC(=O)CCCCC=CCC=CCC=CCC=CCC=CCC=CCC)C=CCCCCCCCC	null	w/o MS2:NAGly 18:1;O(FA 24:6)	null	null	[M-H]1-	null	null	null	2185	1814	1688	1611	1824.5	0.13948102839735155	440	692.52551	10.219	SOQOAWNEUNWMPW-UHFFFAOYSA-N
+SML	442	null	null	C44H87NO4	O=C(NC(CO)C(O)CCCCCCCCC)CC(O)CCCCCCCCCCCCCCCCCC=CCCCCCCCCCC	null	w/o MS2:Cer 12:0;2O/32:1;(3OH)	null	null	[M-H]1-	null	null	null	0	0	1275	0	318.75	2	441	692.65314	12.021	MVSRQGOHFXRXJI-UHFFFAOYSA-N
+SML	443	null	null	C77H130O17P2	O=C(OCC(OC(=O)CCCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCC)CCCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:CL 14:0_14:0_20:5_20:5	null	null	[M-H]1-	null	null	null	0	0	1010	0	252.5	2	442	693.43823	13.021	DEHCVAQDBQTLAK-UHFFFAOYSA-N
+SML	444	null	null|null	C44H89NO4|C44H89NO4	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCCCC|O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCCCC	null|null	Cer 44:0;3O|Cer 18:0;3O/26:0	null|null	null|null	[M-H]1-	null	null	null	0	22353	21241	24948	17135.5	0.67280061353525766	443	694.66882	13.778	GKRXVCWVXYHWOD-UHFFFAOYSA-N
+SML	445	null	null	C44H89NO4	O=C(NC(CO)C(O)CCCCCCCCCCCCCCCCCCCCCCCC)CC(O)CCCCCCCCCCCCCC	null	w/o MS2:Cer 27:0;2O/17:0;(3OH)	null	null	[M-H]1-	null	null	null	0	8282	8394	11758	7108.5	0.70421856103375857	444	694.66882	13.951	PGDRBMYTTYSSAT-UHFFFAOYSA-N
+SML	446	null	null|null	C43H87NO5|C43H87NO5	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCCCC|O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCCCC	null|null	Cer 43:0;4O|Cer 18:0;3O/25:0;(2OH)	null|null	null|null	[M-H]1-	null	null	null	0	7673	7301	8107	5770.25	0.66910589697634104	445	696.64954	13.521	YADUGDLSXPPFIP-UHFFFAOYSA-N
+SML	447	null	null	C39H71O8P	O=C(OCC(OC(=O)CCCCCCCC=CCC=CCCCCC)COP(=O)(O)O)CCCCCCCC=CCCCCCCCC	null	w/o MS2:PA 18:1_18:2	null	null	[M-H]1-	null	null	null	0	6523	6092	6301	4729	0.66770448108938341	446	697.47961	9.882	MVSJLGUSXDKOAR-UHFFFAOYSA-N
+SML	448	null	null	C38H70NO8P	O=C(OCC(OC(=O)CCCCCCCCC=CCC=CCC=CCCCCCCC)COP(=O)(O)OCCN)CCCCCCCC	null	w/o MS2:PE 9:0_24:3	null	null	[M-C6H10O5-H]1-	null	null	null	0	1981	1831	1936	1437	0.66809977255669628	447	698.47632	9.062	NIFZYAVGTATLNI-UHFFFAOYSA-N
+SML	449	null	null	C40H81NO4	O=C(NC(CO)C(O)CCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:Cer 17:0;2O/23:0;(2OH)	null	null	[M-H]1-	null	null	null	0	9083	8689	10023	6948.75	0.67151319798008546	448	698.6283	13.167	SOKUHZIHRNFGRH-UHFFFAOYSA-N
+SML	450	null	null|null	C77H142O17P2|C77H142O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCC	null|null	CL 68:4|CL 16:1_16:1_18:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	0	14116	13263	13833	10303	0.66755520838730831	449	699.47375	13.792	UKYJZWLLPJULLU-UHFFFAOYSA-N
+SML	451	null	null|null	C39H73O8P|C39H73O8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)O)CCCCCCCC=CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)O)CCCCCCCC=CCCCCCCCC	null|null	PA 36:2|PA 18:1_18:1	null|null	null|null	[M-H]1-	null	null	null	0	1739	1757	1726	1305.5	0.66673775629659082	450	699.4928	9.479	MHUWZNTUIIFHAS-UHFFFAOYSA-N
+SML	452	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	6943	6523	6959	5106.25	0.66783779854423453	451	699.4928	10.882	null
+SML	453	null	null|null	C77H144O17P2|C77H144O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCCCC	null|null	CL 68:3|CL 16:0_16:1_18:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	0	4970	4563	4975	3627	0.6687880520758086	452	700.48621	14	GEJZGBPRNMAZRP-UHFFFAOYSA-N
+SML	454	null	null	C38H72NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCCC	null	w/o MS2:LPE-N (FA 16:1)17:1	null	null	[M-H]1-	null	null	null	0	2713	2517	2488	1929.5	0.66867551931935798	453	700.49097	9.569	XPEVHYNIIXDDOH-UHFFFAOYSA-N
+SML	455	null	null	C38H72NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCC=CCCCCCCC)CCCCCCCC=CCCCCCC	null	w/o MS2:LPE-N (FA 17:1)16:1	null	null	[M-H]1-	null	null	null	0	2333	0	0	583.25	2	454	700.49097	9.771	STFAWAILHSMLAN-UHFFFAOYSA-N
+SML	456	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1113	1114	1255	870.5	0.67105614540319336	455	700.49097	9.16	null
+SML	457	null	null	C38H72NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCC=CCC=CCCC)CCCCCCCCCCCCCCCC	null	w/o MS2:LPE-N (FA 16:2)17:0	null	null	[M-H]1-	null	null	null	0	1062	0	0	265.5	2	456	700.49097	8.729	DONJKGCMVNDBQX-UHFFFAOYSA-N
+SML	458	null	null|null	C77H146O17P2|C77H146O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCC	null|null	CL 68:2|CL 16:0_18:0_16:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	0	2015	1856	1975	1461.5	0.66826596328336296	457	701.48987	14.229	IOPWNVGZBCAFMD-UHFFFAOYSA-N
+SML	459	null	null	null	null	null	Unknown	null	null	[M-C6H10O4-H]1-	null	null	null	0	3901	3425	3762	2772	0.67055376791640398	458	701.51361	12.424	null
+SML	460	null	null	null	null	null	Unknown	null	null	[M-C6H10O4-H]1-	null	null	null	0	2760	2728	2794	2070.5	0.66679370621772349	459	702.44659	9.056	null
+SML	461	null	null	C38H74NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCCCCCCCCCC)CCCCCCCC=CCCCCCC	null	w/o MS2:LPE-N (FA 17:0)16:1	null	null	[M-H]1-	null	null	null	0	3594	3477	3283	2588.5	0.66850540779108414	460	702.50372	9.312	XAVWAIJDERJGRP-UHFFFAOYSA-N
+SML	462	null	null|null	C38H74NO8P|C38H74NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCC	null|null	PE 33:1|PE 15:0_18:1	null|null	null|null	[M-H]1-	null	null	null	0	4666	4030	3961	3164.25	0.67416740869342884	461	702.50848	10.451	ADCNXGARWPJRBV-UHFFFAOYSA-N
+SML	463	null	null	C38H74NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCCC	null	w/o MS2:PE 16:0_17:1	null	null	[M-H2O-H]1-	null	null	null	0	1317	1280	1299	974	0.66684706915458702	462	702.50848	9.882	CBDUTJYWWDMHBN-UHFFFAOYSA-N
+SML	464	null	null	C36H68NO10P	O=C(OCC(OC(=O)CCCCCCCC=CCCCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCCCCCCCCC	null	w/o MS2:PS 16:0_14:1	null	null	[M-H2O-H]1-	null	null	null	0	1181	1184	1141	876.5	0.66704165501859891	463	704.44788	8.014	KFCGUMOYEPTFQZ-UHFFFAOYSA-N
+SML	465	null	null	C40H68NO7P	O=C(OC(COC=CCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCCN)CCCCCCCC	null	w/o MS2:PE O-26:7_9:0	null	null	[M-C6H10O4-H]1-	null	null	null	0	2806	2559	2571	1984	0.66912593552510857	464	704.46216	9.757	YXBLTHHPVZYACB-UHFFFAOYSA-N
+SML	466	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	1601	0	0	0	400.25	2	465	705.54974	13.479	null
+SML	467	null	null|null	C34H66NO8P|C34H66NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCC	null|null	PC 26:1|PC 10:0_16:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	2704	2629	2561	1973.5	0.6673231758238638	466	706.46631	7.868	DDDLUEHUXWOWFA-UHFFFAOYSA-N
+SML	468	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1655	1530	1392	1144.25	0.67324319023865842	467	707.39777	10.674	null
+SML	469	null	null|null	C34H68NO8P|C34H68NO8P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCC	null|null	PC 26:0|PC 10:0_16:0	null|null	null|null	[M+CH3COO]1-	null	null	null	0	6469	6020	6137	4656.5	0.66791652933233392	468	708.47809	8.264	VBWSYJOSSOZQOH-UHFFFAOYSA-N
+SML	470	null	null	C41H75NO8	O=C(NC(COC1OC(CO)C(O)C(O)C1O)C(O)C=CCCCCCCCCCCC)CCCCCCCC=CCC=CCCCCCC	null	w/o MS2:HexCer 16:1;2O/19:2	null	null	[M-H]1-	null	null	null	8582	7910	7464	6956	7728	0.089280088039495165	469	708.54022	10.411	PNZNFBJJBAMPBZ-UHFFFAOYSA-N
+SML	471	null	null	null	null	null	Unknown	null	null	[M-H2O-H]1-	null	null	null	0	0	0	1038	259.5	2	470	708.64545	11.229	null
+SML	472	null	null	C45H91NO4	O=C(NC(CO)C(O)CCCCCCCCCCCCCC)CC(O)CCCCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:Cer 17:0;2O/28:0;(3OH)	null	null	[M-H]1-	null	null	null	0	1180	1167	1464	952.75	0.68200811659536564	471	708.68372	13.938	CUZAOMPKLWIUQL-UHFFFAOYSA-N
+SML	473	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1191	1145	1045	845.25	0.6705548446390317	472	709.41565	11.924	null
+SML	474	null	null	C38H67D7NO8P	[C@](COP(=O)(O)OCCN)([H])(OC(CCCCCCC/C=C\CCCCCC([2H])([2H])C([2H])([2H])C([2H])([2H])[2H])=O)COC(CCCCCCCCCCCCCC)=O	null	PE 15:0_18:1(d7)	null	null	[M-H]1-	null	null	null	138050	131557	120049	113258	125728.5	0.08875367086325793	473	709.54962	10.406	ADCNXGARWPJRBV-RGLIIYCRNA-N
+SML	475	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1082	1110	0	0	548	1.1548889331761392	474	709.72668	10.417	null
+SML	476	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-4547 from Mouse_Feces_WT_N_Ctr	null	null	[M-C6H10O4-H]1-	null	null	null	1245	0	0	0	311.25	2	475	710.55493	9.708	null
+SML	477	null	null|null	C44H89NO5|C44H89NO5	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCCCCC|O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCCCCC	null|null	Cer 44:0;4O|Cer 18:0;3O/26:0;(2OH)	null|null	null|null	[M-H]1-	null	null	null	0	258050	256045	274290	197096.25	0.66795389475604872	476	710.66034	13.667	XNLFLZXNXQVPII-UHFFFAOYSA-N
+SML	478	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	6411	6178	7124	4928.25	0.67164912916243402	477	710.6651	12.319	null
+SML	479	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2042	1596	2542	1545	0.71203726306163073	478	710.79443	13.667	null
+SML	480	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1009	0	1261	567.5	1.1688443684202088	479	710.8902	13.667	null
+SML	481	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	3762	0	0	940.5	2	480	711.57538	10.417	null
+SML	482	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1028	257	2	481	712.22729	13.667	null
+SML	483	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1141	285.25	2	482	712.44781	13.667	null
+SML	484	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	1040	0	260	2	483	712.47662	13.667	null
+SML	485	null	null	C41H83NO4	O=C(NC(CO)C(O)CCCCCCCCCCCCCC)CC(O)CCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:Cer 17:0;2O/24:0;(3OH)	null	null	[M-H]1-	null	null	null	0	4310	4360	5405	3518.75	0.68192851991424475	484	712.64447	13.299	LRPHMWYAMJEKDL-UHFFFAOYSA-N
+SML	486	null	null|null	C79H146O17P2|C79H146O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCCCC	null|null	CL 70:4|CL 16:1_18:1_18:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	0	8790	8035	8360	6296.25	0.66847318724060112	485	713.49359	14.021	NSHXPPPROQLOLP-UHFFFAOYSA-N
+SML	487	null	null|null	C79H148O17P2|C79H148O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCCCC	null|null	CL 70:3|CL 18:0_16:1_18:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	0	2249	2176	2221	1661.5	0.66691228215720189	486	714.50171	14.229	OVORTFHGOOANII-UHFFFAOYSA-N
+SML	488	null	null|null	C39H74NO8P|C39H74NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCC	null|null	PE 34:2|PE 16:1_18:1	null|null	null|null	[M-H]1-	null	null	null	0	302722	290899	291208	221207.25	0.66713049513844991	487	714.50653	10.056	RAMNOXDFBNFSFC-UHFFFAOYSA-N
+SML	489	null	null	C39H74NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCC	null	w/o MS2:LPE-N (FA 18:1)16:1	null	null	[M-C6H10O4-H]1-	null	null	null	0	85235	80925	80900	61765	0.66748245805885498	488	714.50653	9.049	UKPLFLOEOAJCTL-UHFFFAOYSA-N
+SML	490	null	null	C42H73NO4	O=C(NC(CO)C(O)C(O)CCCC=CCCC=CCCC=CCCCCCCC)CCCCCCCC=CCC=CCC=CCC	null	w/o MS2:Cer 24:3;3O/18:3	null	null	[M+Na-2H]1-	null	null	null	0	1310	0	0	327.5	2	489	714.57373	10.062	RTBHVTAEGRPKAO-UHFFFAOYSA-N
+SML	491	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1464	1214	1264	985.5	0.67561597678554031	490	714.67462	10.056	null
+SML	492	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1010	0	0	252.5	2	491	716.29407	10.062	null
+SML	493	null	null|null	C39H76NO8P|C39H76NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCCCCCCCCCCC)CCCCCCCC=CCCCCCC|O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCCCCCCCCCCC)CCCCCCCC=CCCCCCC	null|null	LPE-N (FA)34:1|LPE-N (FA 18:0)16:1	null|null	null|null	[M-H]1-	null	null	null	0	64750	60072	59158	45995	0.66878998987357607	492	716.52008	9.757	CEIUQQYYUIRFLA-UHFFFAOYSA-N
+SML	494	null	null|null	C39H76NO8P|C39H76NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCCC	null|null	PE 34:1|PE 16:0_18:1	null|null	null|null	[M-H]1-	null	null	null	0	101557	91817	87860	70308.5	0.67167375963248721	493	716.52008	11.083	FHQVHHIBKUMWTI-UHFFFAOYSA-N
+SML	495	null	null|null	C38H71O10P|C38H71O10P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)CO)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)CO)CCCCCCCC=CCCCCCC	null|null	PG 32:2|PG 16:1_16:1	null|null	null|null	[M-H]1-	null	null	null	0	1956	1877	1897	1432.5	0.66707759113279819	494	717.46777	8.118	GHQNERCMPIDAAU-UHFFFAOYSA-N
+SML	496	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	2729	682.25	2	495	717.56885	14.104	null
+SML	497	null	null	C37H70NO10P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCCCCCCCCC	null	PS 31:1	null	null	[M-H]1-	null	null	null	0	1132	0	1083	553.75	1.1552654855513524	496	718.46423	8.188	OBIBEQMCMMYMIP-UHFFFAOYSA-N
+SML	498	null	null	C39H78NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCC	null	w/o MS2:LPE-N (FA 18:0)16:0	null	null	[M-H]1-	null	null	null	0	1586	0	0	396.5	2	497	718.53644	10.688	FCMWIXDLNNYYPR-UHFFFAOYSA-N
+SML	499	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-4690 from Mouse_Feces_WT_N_Ctr	null	null	[M-H]1-	null	null	null	0	2743	2575	2774	2023	0.66806584007531511	498	718.6087	13.382	null
+SML	500	null	null|null	C38H73O10P|C38H73O10P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)CO)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)CO)CCCCCCCCCCCCCCC	null|null	PG 32:1|PG 16:0_16:1	null|null	null|null	[M-H]1-	null	null	null	0	8022	7534	7866	5855.5	0.66757189905478487	499	719.48547	8.479	NOFOTAHTYLXZNV-UHFFFAOYSA-N
+SML	501	null	null	C36H68O10	O=C(OCC(OC(=O)CCCCCCC)COC1OC(CO)C(O)C(O)C1O)CCCCCCCCCCCCCCCCCC	null	w/o MS2:MGDG 19:0_8:0	null	null	[M-H2O-H]1-	null	null	null	0	1107	1046	0	538.25	1.1556270839239187	500	719.49512	8.802	MXSCXUCSDRFFLA-UHFFFAOYSA-N
+SML	502	null	null	C41H71NO9	O=C(NC(COC1OC(CO)C(O)C(O)C1O)C(O)C=CCCC=CCCCCCCCC)C(O)CCCCCCC=CCC=CCC=CCC	null	w/o MS2:HexCer 17:2;2O/18:3;O	null	null	[M-H]1-	null	null	null	1875	1006	0	0	720.25	1.2553687247874332	501	720.50262	9.688	MUDFCUCLVWCTIH-UHFFFAOYSA-N
+SML	503	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1527	0	0	0	381.75	2	502	721.60736	9.708	null
+SML	504	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	34252	19329	18438	18596	22653.75	0.34174935041251853	503	722.61157	9.703	null
+SML	505	null	null|null	C46H93NO4|C46H93NO4	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCCCC|O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCCCC	null|null	Cer 46:0;3O|Cer 20:0;3O/26:0	null|null	null|null	[M-H]1-	null	null	null	0	16924	17174	25629	14931.75	0.71962830855752435	504	722.69849	14.083	XXCJZFVZHPNILU-UHFFFAOYSA-N
+SML	506	null	null	C35H65O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCC	null	w/o MS2:PI 8:0_18:1	null	null	[M-H]1-	null	null	null	0	1594	1467	1486	1136.75	0.66847983759891938	505	723.40381	7.139	BHAYUZQYSDUXCJ-UHFFFAOYSA-N
+SML	507	null	null	C43H87NO3	O=C(NC(CO)C(O)CCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:Cer 19:0;2O/24:0	null	null	[M-H]1-	null	null	null	0	5693	5861	7660	4803.5	0.69195150466798516	506	724.67999	13.812	QKLIIVFFYPPQDC-UHFFFAOYSA-N
+SML	508	null	null|null	C35H67O13P|C35H67O13P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCC	null|null	PI 26:0|PI 10:0_16:0	null|null	null|null	[M-H]1-	null	null	null	0	32975	32292	32518	24446.25	0.66676795174601167	507	725.42017	7.514	SMDPNBCCUXNOFT-UHFFFAOYSA-N
+SML	509	null	null	C39H67O10P	O=C(OCC(OC(=O)CCCCCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCC(O)CO)CCCCCCCCCC	null	w/o MS2:PG 11:0_22:5	null	null	[M-H]1-	null	null	null	0	5515	5534	5456	4126.25	0.66671524763047219	508	725.43469	9.069	NQVDLAXGPGOYIH-UHFFFAOYSA-N
+SML	510	null	null	C41H75O8P	O=C(OCC(OC(=O)CCCCCCCCCCC=CCC=CCC=CCCCCCCC)COP(=O)(O)O)CCCCCCCCCCC	null	w/o MS2:PA 12:0_26:3	null	null	[M-H]1-	null	null	null	0	1102	0	0	275.5	2	509	725.51208	11.021	MJSULDUBZOEVIU-UHFFFAOYSA-N
+SML	511	null	null	null	null	null	Unknown	null	null	[M-2H]1-	null	null	null	1313	1140	1114	1071	1159.5	0.09160430390363701	510	725.51697	10.219	null
+SML	512	null	null	C40H74NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCC=CCC=CCCCC)CCCCCCCC=CCCCCCCCC	null	w/o MS2:LPE-N (FA 17:2)18:1	null	null	[M-H2O-H]1-	null	null	null	0	2228	2024	2065	1579.25	0.66899703449202996	511	726.50446	9.882	ABIKOWQMZBUGDQ-UHFFFAOYSA-N
+SML	513	null	null	C42H85NO4	O=C(NC(CO)C(O)CCCCCCCCCCCCCCC)CC(O)CCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:Cer 18:0;2O/24:0;(3OH)	null	null	[M-H]1-	null	null	null	0	171818	166930	211421	137542.25	0.68221879785694983	512	726.65942	13.438	LLHJTPUSWARAGT-UHFFFAOYSA-N
+SML	514	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	11055	10405	11625	8271.25	0.66938451396243137	513	726.65942	11.194	null
+SML	515	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1230	307.5	2	514	726.82892	13.438	null
+SML	516	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	5025	4837	4700	3640.5	0.6676703070833645	515	727.44904	9.757	null
+SML	517	null	null|null	C81H150O17P2|C81H150O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCCCC	null|null	CL 72:4|CL 18:1_18:1_18:1_18:1	null|null	null|null	[M-2H]2-	null	null	null	0	1816	1708	1753	1319.25	0.66751161651067648	516	727.5072	14.25	TWHQNHQPSCPQNY-UHFFFAOYSA-N
+SML	518	null	null	C41H77O8P	O=C(OCC(OC(=O)CCCCCCCCCC=CCCCCCCCC)COP(=O)(O)O)CCCCCCCC=CCCCCCCCC	null	w/o MS2:PA 18:1_20:1	null	null	[M-H]1-	null	null	null	0	1466	1375	1327	1042	0.66895804043690854	517	727.52655	12.417	OMPOTTJARNULEB-UHFFFAOYSA-N
+SML	519	null	null|null	C40H76NO8P|C40H76NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCCC	null|null	PE 35:2|PE 17:1_18:1	null|null	null|null	[M-H]1-	null	null	null	0	1565	1383	1384	1083	0.67133152214774949	518	728.52026	9.424	MLYDZMPNTAJTBN-UHFFFAOYSA-N
+SML	520	null	null	C40H76NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCC	null	w/o MS2:PE 16:1_19:1	null	null	[M-H]1-	null	null	null	0	4081	3801	3799	2920.25	0.66820814002897067	519	728.52026	9.056	WCYWDSBANAFPOJ-UHFFFAOYSA-N
+SML	521	null	null	C40H76NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCC=CCC=CCCCC)CCCCCCCCCCCCCCCCC	null	w/o MS2:LPE-N (FA 17:2)18:0	null	null	[M-C6H10O4-H]1-	null	null	null	0	1988	1878	1829	1423.75	0.66830011788564814	520	728.52026	10.847	ZQVYSWWBGDTLMB-UHFFFAOYSA-N
+SML	522	null	null	C47H71NO5	O=C(O)CNC(=O)CCCC(OC(=O)CCCCCCCC=CCC=CCC=CCC=CCC=CCC)C=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:NAGly 21:5;O(FA 24:5)	null	null	[M+Cl]1-	null	null	null	0	1243	1204	1158	901.25	0.66778012884699112	521	728.52515	10.049	KWHMJULMLZCOLR-UHFFFAOYSA-N
+SML	523	null	null|null	C38H70NO10P|C38H70NO10P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCC=CCCCCCC	null|null	PS 32:2|PS 16:1_16:1	null|null	null|null	[M-H]1-	null	null	null	0	16803	16358	16339	12375	0.66689173876438679	522	730.46124	8.076	SYAYTZJXUCQTMJ-UHFFFAOYSA-N
+SML	524	null	null	C38H70NO10P	O=C(OCC(O)COP(=O)(O)OCC(NC(=O)CCCCCCCC=CCCCCCCCC)C(=O)O)CCCCCCCC=CCCCC	null	w/o MS2:LPS-N (FA 18:1)14:1	null	null	[M-C6H10O4-H]1-	null	null	null	0	2118	0	0	529.5	2	523	730.46606	9.896	ILAQVDGCYAMQKZ-UHFFFAOYSA-N
+SML	525	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1268	1194	1037	1032	1132.75	0.1036597135366203	524	730.47577	12.688	null
+SML	526	null	null	C40H78NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCCCCCC	null	w/o MS2:PE 19:0_16:1	null	null	[M-H]1-	null	null	null	0	3456	3253	3237	2486.5	0.66787090809187122	525	730.53406	9.757	GLBMVRUCYQCKGC-UHFFFAOYSA-N
+SML	527	null	null	C40H78NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCCCCCCCCCC)CCCCCCCC=CCCCCCCCC	null	w/o MS2:LPE-N (FA 17:0)18:1	null	null	[M-H]1-	null	null	null	0	2784	2467	2374	1906.25	0.67299450774370628	526	730.53888	10.257	ALEIRPHLFLBGQK-UHFFFAOYSA-N
+SML	528	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	0	7040	6678	7836	5388.5	0.67268267831699513	527	730.64575	13.778	null
+SML	529	null	null|null	C38H72NO10P|C38H72NO10P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCCCCCCCCC	null|null	PS 32:1|PS 16:0_16:1	null|null	null|null	[M-H]1-	null	null	null	0	27467	26653	26882	20250.5	0.66688147934610587	528	732.47766	8.431	SQYNOJCBJMSMAA-UHFFFAOYSA-N
+SML	530	null	null	null	null	null	Unknown	null	null	[M-C6H10O4-H]1-	null	null	null	0	3052	2494	2615	2040.25	0.67693708682850595	529	732.49225	10.854	null
+SML	531	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-4917 from Mouse_Feces_WT_ABX_Ctr	null	null	[M+Cl]1-	null	null	null	0	2054	1954	2203	1552.75	0.66991468998922987	530	732.62354	13.528	null
+SML	532	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-4923 from Mouse_Feces_WT_N_Ctr	null	null	[M+Na-2H]1-	null	null	null	6533	1543	1603	1704	2845.75	0.86411815373034251	531	733.54291	9.682	null
+SML	533	null	null	C37H70NO11P	O=C(NC(COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)C(O)C=CCCC=CCCCCCCCC)CCCCCCCCCCCCC	null	w/o MS2:PI-Cer 17:2;2O/14:0	null	null	[M-H]1-	null	null	null	0	1121	1309	1280	927.5	0.67259454545450581	532	734.45795	8.868	ZVICWDUOHDBDPI-UHFFFAOYSA-N
+SML	534	null	null|null	C36H70NO8P|C36H70NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCC	null|null	PC 28:1|PC 12:0_16:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	18075	17624	17536	13308.75	0.66690265037953789	533	734.49689	8.326	YTBUBHOCZIYJCN-UHFFFAOYSA-N
+SML	535	null	null	C48H81NO4	O=C(NC(CO)C(O)C=CCCC=CCCC=CCCCCCCCCCCCCC)CC(O)CCCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 26:3;2O/22:5;(3OH)	null	null	[M+Cl]1-	null	null	null	0	2008	1866	2209	1520.75	0.67305765780955118	534	734.604	13.16	KZRAENPGMGXACM-UHFFFAOYSA-N
+SML	536	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1715	1571	1365	1162.75	0.67801447250330948	535	735.42719	12.194	null
+SML	537	null	null|null	C36H72NO8P|C36H72NO8P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCC	null|null	PC 28:0|PC 12:0_16:0	null|null	null|null	[M+CH3COO]1-	null	null	null	0	21326	19397	19477	15050	0.66929070158626836	536	736.50916	8.806	QQCURFHAGLMXKE-UHFFFAOYSA-N
+SML	538	null	null	C43H79NO8	O=C(NC(COC1OC(CO)C(O)C(O)C1O)C(O)C=CCCC=CCCCCCCCC)CCCCCCCCCC=CCCCCCCCC	null	w/o MS2:HexCer 17:2;2O/20:1	null	null	[M-2H]1-	null	null	null	1226	1215	1094	0	883.75	0.6700920770543175	537	736.57739	10.208	APYWYQTVGVYPOB-UHFFFAOYSA-N
+SML	539	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1417	0	0	0	354.25	2	538	736.62616	9.708	null
+SML	540	null	null	C49H87NO3	O=C(NC(CO)C(O)C=CCCCCCCCCCCCCCCCCCCCCCCCCC)CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 30:1;2O/19:5	null	null	[M-2H]1-	null	null	null	0	1263	1340	1556	1039.75	0.67725356901143907	539	736.66028	13.667	SXBNPXYHJLFZIV-UHFFFAOYSA-N
+SML	541	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	19816	18883	17114	17060	18218.25	0.074696205718235847	540	737.58215	10.214	null
+SML	542	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1861	1752	2093	1426.5	0.67407816111708985	541	737.67487	13.771	null
+SML	543	null	null|null	C46H93NO5|C46H93NO5	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCCCCC|O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCCCCC	null|null	Cer 46:0;4O|Cer 20:0;3O/26:0;(2OH)	null|null	null|null	[M-H]1-	null	null	null	0	98907	99324	151649	87470	0.72429642800865046	542	738.69507	13.979	CUUCRKRHESTOAG-UHFFFAOYSA-N
+SML	544	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	5234	5336	6494	4266	0.67999124149102907	543	738.69507	13.014	null
+SML	545	null	null	C46H93NO5	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCC	null	w/o MS2:Cer 24:0;3O/22:0;(2OH)	null	null	[M-H]1-	null	null	null	0	0	0	1245	311.25	2	544	738.69507	11.771	UNJMMFDZVCPGPG-UHFFFAOYSA-N
+SML	546	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1017	254.25	2	545	738.87573	13.979	null
+SML	547	null	null	C36H69O13P	O=C(OCC(OC(=O)CCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCCCCC	null	w/o MS2:PI 19:0_8:0	null	null	[M-H]1-	null	null	null	0	1593	1474	1518	1146.25	0.66804296254376838	546	739.43744	7.701	ICBQRMOPSYUDOX-UHFFFAOYSA-N
+SML	548	null	null	C41H77N2O7P	O=C(NC(COP(=O)(O)OCCN)C(O)C=CCCC=CCCC=CCCCCCC)CC(O)CCCCCCCC=CCCCCCCCC	null	w/o MS2:PE-Cer 19:3;2O/20:1;O	null	null	[M-H]1-	null	null	null	17533	18843	18275	18658	18327.25	0.031643050450132819	547	739.53516	8.714	KVTVQENWUIYCQW-UHFFFAOYSA-N
+SML	549	null	null	C39H68D7O10P	[H][C@](O)(CO)COP(OC[C@]([H])(OC(CCCCCCC/C=C\CCCCCC([2H])([2H])C([2H])([2H])C([2H])([2H])[2H])=O)COC(CCCCCCCCCCCCCC)=O)(=O)O	null	PG 15:0_18:1(d7)	null	null	[M-H]1-	null	null	null	258333	263915	266703	267953	264226	0.016182776681380559	548	740.54193	8.714	CAKDJPLPYOYWLK-AHOXJELVNA-N
+SML	550	null	null	C43H87NO4	O=C(NC(CO)C(O)CCCCCCCCCCCCCCCCCCCCCCC)CC(O)CCCCCCCCCCCCCC	null	w/o MS2:Cer 26:0;2O/17:0;(3OH)	null	null	[M-H]1-	null	null	null	0	1608	1610	2156	1343.5	0.69374493116126312	549	740.67883	13.597	VLMKTFBUROGRKL-UHFFFAOYSA-N
+SML	551	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1723	2087	1895	1817	1880.5	0.082205022780907119	550	740.71301	8.714	null
+SML	552	null	null|null	C41H78NO8P|C41H78NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCCCC	null|null	PE 36:2|PE 18:1_18:1	null|null	null|null	[M-H]1-	null	null	null	0	17943	16628	15580	12537.75	0.67111090547873609	551	742.53308	11.271	MWRBNPKJOOWZPW-UHFFFAOYSA-N
+SML	553	null	null|null	C41H78NO8P|C41H78NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCCCC|O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCC=CCCCCCCCC)CCCCCCCC=CCCCCCCCC	null|null	LPE-N (FA)36:2|LPE-N (FA 18:1)18:1	null|null	null|null	[M-H]1-	null	null	null	0	85757	81803	80952	62128	0.66751775299694238	552	742.53796	9.882	UQJFAJZAVYKPEN-UHFFFAOYSA-N
+SML	554	null	null	C42H85NO5	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCCC	null	Unknown	null	null	[M+CH3COO]1-	null	null	null	0	2034	2076	2048	1539.5	0.66676314105903944	553	742.65546	13.375	ZFUXWVVVWGWGPQ-UHFFFAOYSA-N
+SML	555	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1200	1290	1266	939	0.66789721311398942	554	743.35571	8.41	null
+SML	556	null	null	C41H81N2O7P	O=C(NC(COP(=O)(O)OCCN)C(O)CCCCCCCCCCCCCC)CC(O)CCCCCCCCCC=CCC=CCCCCC	null	w/o MS2:PE-Cer 17:0;2O/22:2;O	null	null	[M-H]1-	null	null	null	0	0	0	4117	1029.25	2	555	743.56635	9.896	PXZUGYRRPGWPEF-UHFFFAOYSA-N
+SML	557	null	null	C41H81N2O7P	O=C(NC(COP(=O)(O)OCCN)C(O)C=CCCC=CCCCCCCCCCCCCC)CC(O)CCCCCCCCCCCCCC	null	w/o MS2:PE-Cer 22:2;2O/17:0;O	null	null	[M-H]1-	null	null	null	0	3981	3935	3909	2956.25	0.66674271624543258	556	743.56635	8.715	LGAQPBSWPQNWBE-UHFFFAOYSA-N
+SML	558	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1913	2006	2085	1501	0.66830963329472892	557	744.43372	9.181	null
+SML	559	null	null|null	C41H80NO8P|C41H80NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCCCCC	null|null	PE 36:1|PE 18:0_18:1	null|null	null|null	[M-H]1-	null	null	null	0	54536	49164	48372	38018	0.6705459995813009	558	744.55139	10.868	JQKOHRZNEOQNJE-UHFFFAOYSA-N
+SML	560	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	8357	6811	7462	5657.5	0.67601291496055249	559	744.55139	12.681	null
+SML	561	null	null	C39H75NO8	O=C(NC(COC1OC(CO)C(O)C(O)C1O)C(O)CCCCCCCCCCCCCCCCC)CCCCCCCC=CCCC	null	w/o MS2:HexCer 20:0;2O/13:1	null	null	[M-H]1-	null	null	null	0	1962	0	0	490.5	2	560	744.5661	9.896	RWPBCETXQLBIHQ-UHFFFAOYSA-N
+SML	562	null	null|null	C40H75O10P|C40H75O10P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCC(O)CO)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCC(O)CO)CCCCCCCC=CCCCCCC	null|null	PG 34:2|PG 16:1_18:1	null|null	null|null	[M-H]1-	null	null	null	0	8261	8045	8274	6145	0.66688569694983835	561	745.4978	8.556	VCYYBLIRAQBPTM-UHFFFAOYSA-N
+SML	563	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	3148	2771	2813	2183	0.67113041679959418	562	745.50269	9.028	null
+SML	564	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4318	4078	4330	3181.5	0.66766414783076	563	745.63025	13.389	null
+SML	565	null	null	C44H81NO4	O=C(NC(CO)C(O)C(O)CCCC=CCCC=CCCC=CCCCCC)CCCCCCCCCCCC=CCCCCCCCC	null	w/o MS2:Cer 22:3;3O/22:1	null	null	[M-H]1-	null	null	null	0	0	1112	1385	624.25	1.1684215115365308	564	746.63629	12.26	SLDGKZXUPBSADB-UHFFFAOYSA-N
+SML	566	null	null	null	null	null	RIKEN N-VS1 ID-5128 from Mouse_Feces_WT_N_Ctr	null	null	[M-H2O-H]1-	null	null	null	0	64150	61871	70404	49106.25	0.67070180261413814	565	746.64117	13.667	null
+SML	567	null	null	C43H73O8P	O=C(OCC(OC(=O)CCCCCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCC)CCCCCCCC=CCC=CCCCCCC	null	w/o MS2:PEtOH 19:2_19:4	null	null	[M-H]1-	null	null	null	0	1524	1405	1569	1124.5	0.66949984456183342	566	747.50049	8.674	IDNRKVFLYPAYBE-UHFFFAOYSA-N
+SML	568	null	null|null	C40H77O10P|C40H77O10P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCC(O)CO)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCC(O)CO)CCCCCCCCCCCCCCC	null|null	PG 34:1|PG 16:0_18:1	null|null	null|null	[M-H]1-	null	null	null	0	88149	79488	78513	61537.5	0.67037132158108548	567	747.51526	9.042	PAZGBAOHGQRCBP-UHFFFAOYSA-N
+SML	569	null	null	C39H76O9	O=C(OC(COCCCCCCCCCCCCCCCC)COC1OC(CO)C(O)C(O)C1O)CCCCCCCCCCCCC	null	w/o MS2:MGDG O-16:0_14:0	null	null	[M+Cl]1-	null	null	null	1244	0	0	0	311	2	568	747.55945	9.708	SJSJZKIXRFUBPJ-UHFFFAOYSA-N
+SML	570	null	null	C39H76NO10P	O=C(OCC(O)COP(=O)(O)OCC(NC(=O)CCCCCCCCCCCCCCCCC)C(=O)O)CCCCCCCCCCCCCC	null	w/o MS2:LPS-N (FA 18:0)15:0	null	null	[M+Na-2H]1-	null	null	null	5011	4182	3837	3963	4248.25	0.12431015263826187	569	748.50775	10.219	FYRLKJAXEAIRKC-UHFFFAOYSA-N
+SML	571	null	null	C49H83NO4	O=C(NC(CO)C(O)C=CCCC=CCCCCCCCCCC)CC(O)CCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 19:2;2O/30:6;(3OH)	null	null	[M-H]1-	null	null	null	0	0	0	1366	341.5	2	570	748.62573	13.312	KBZBMHORRWGPNO-UHFFFAOYSA-N
+SML	572	null	null	C37H69O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCC	null	PI 28:1	null	null	[M-H]1-	null	null	null	0	6470	6408	6595	4868.25	0.6668580538433555	571	751.43518	7.576	YMFJLRFLJNTRQW-UHFFFAOYSA-N
+SML	573	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1207	0	0	0	301.75	2	572	751.48444	10.208	null
+SML	574	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1789	1577	1387	1502	1563.75	0.10825234280094671	573	751.59772	10.219	null
+SML	575	null	null	C40H68NO10P	O=C(OCC(O)COP(=O)(O)OCC(NC(=O)CCCCCC=CCC=CCC=CCC=CCC=CCC)C(=O)O)CCCCCCCCCCC	null	w/o MS2:LPS-N (FA 22:5)12:0	null	null	[M+Na-2H]1-	null	null	null	0	2971	3085	3097	2288.25	0.66712830197250428	574	752.44507	8.076	XZAGJAQHWVOQRA-UHFFFAOYSA-N
+SML	576	null	null	C42H75NO10	O=C(NC(COC1OC(CO)C(O)C(O)C1O)C(O)C(O)CCCCCCCCCCCCCCCC)C(O)CC=CCC=CCC=CCC=CCC	null	w/o MS2:HexCer 20:0;3O/16:4;(2OH)	null	null	[M-H]1-	null	null	null	5645	6159	5832	5931	5891.75	0.036326040184706566	575	752.53381	8.661	UCHGYJSZBDGSAE-UHFFFAOYSA-N
+SML	577	null	null	C49H87NO4	O=C(NC(CO)C(O)CCCCCCCCCC)CC(O)CCCCCCCCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 13:0;2O/36:6;(3OH)	null	null	[M-H]1-	null	null	null	0	0	0	1039	259.75	2	576	752.65698	13.458	XQAWYOXVPXKYAK-UHFFFAOYSA-N
+SML	578	null	null|null	C37H71O13P|C37H71O13P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCC	null|null	PI 28:0|PI 12:0_16:0	null|null	null|null	[M-H]1-	null	null	null	0	112925	108420	112766	83527.75	0.6671348108845907	577	753.45074	7.91	BTDQSGMJPPIABF-UHFFFAOYSA-N
+SML	579	null	null	C37H71O13P	O=C(OCC(OC(=O)CCCCCCC(OO)C=CCCCCCCO)COP(=O)(O)OCC(O)CO)CCCCCCCCCCCCCC	null	w/o MS2:PG 15:0_16:1;3O	null	null	[M-H]1-	null	null	null	0	0	1960	0	490	2	578	753.46063	8.771	KUPIPAKCXDYYNJ-UHFFFAOYSA-N
+SML	580	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	5897	5698	5689	4321	0.66703677182190213	579	753.46552	9.903	null
+SML	581	null	null	C39H67D7NO10P	C(O)(=O)[C@@]([H])(N)COP(OC[C@]([H])(OC(CCCCCCC/C=C\CCCCCC([2H])([2H])C([2H])([2H])C([2H])([2H])[2H])=O)COC(CCCCCCCCCCCCCC)=O)(=O)O	null	PS 15:0_18:1(d7)	null	null	[M-H]1-	null	null	null	90719	98005	94054	95226	94501	0.031925650638017333	580	753.53949	8.661	KVBAVKWITJZQEG-UDKXCJCZNA-N
+SML	582	null	null	C45H74N2O7	O=C(OC(C=CCC=CCC=CCC=CCC=CCC=CCC)CC(=O)NCC(=O)NC(C(=O)O)CO)CCCCCCCCCCCCCCCCC	null	w/o MS2:NAGlySer 22:6;O(FA 18:0)	null	null	[M-H]1-	null	null	null	0	2863	2807	2753	2105.75	0.66700771705241602	581	753.53949	9.014	ZBLMJZDCQXWBTM-UHFFFAOYSA-N
+SML	583	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	3299	3242	3570	2527.75	0.66906568667559962	582	753.67267	13.667	null
+SML	584	null	null	C40H70NO10P	O=C(OCC(O)COP(=O)(O)OCC(NC(=O)CCCCCCCCC=CCC=CCC=CCC=CCC)C(=O)O)CCCCCCCCCCC	null	w/o MS2:LPS-N (FA 22:4)12:0	null	null	[M+Na-2H]1-	null	null	null	0	2603	2505	2575	1920.75	0.66701190205643945	583	754.46204	8.431	JUBZNFSBYOJVLF-UHFFFAOYSA-N
+SML	585	null	null	C44H89NO4	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCCCC	null	Unknown	null	null	[M+CH3COO]1-	null	null	null	0	24312	23078	30037	19356.75	0.68481863119064423	584	754.68903	13.771	GKRXVCWVXYHWOD-UHFFFAOYSA-N
+SML	586	null	null	C44H89NO4	O=C(NC(CO)C(O)C(O)CCCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:Cer 14:0;3O/30:0	null	null	[M-H]1-	null	null	null	0	1189	1066	1835	1022.5	0.74380734256159386	585	754.68903	12.681	OZRCYLNMRQEXFI-UHFFFAOYSA-N
+SML	587	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1669	1616	1649	1233.5	0.66690202533763043	586	755.47888	9.382	null
+SML	588	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	7582	7425	7024	5507.75	0.6680300572288902	587	755.48383	10.854	null
+SML	589	null	null	C42H77O9P	O=C(OC(COCCCCCCCCCCCCCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCC(O)CO)CCCCCCCCC	null	w/o MS2:PG O-26:4_10:0	null	null	[M-H]1-	null	null	null	1928	0	0	0	482	2	588	755.52826	9.708	BGNCPAKCCWDGIO-UHFFFAOYSA-N
+SML	590	null	null	C42H80NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCCCC	null	w/o MS2:PE 18:1_19:1	null	null	[M-H]1-	null	null	null	0	4263	3971	4082	3079	0.66781145280909904	589	756.55084	9.882	VYGBMMLRWMCCRC-UHFFFAOYSA-N
+SML	591	null	null	C43H87NO5	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:Cer 17:0;3O/26:0;(2OH)	null	null	[M-H]1-	null	null	null	0	3672	3497	4605	2943.5	0.68683641753082592	590	756.66943	13.667	UGCNFULDRKJANQ-UHFFFAOYSA-N
+SML	592	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	12246	11671	13111	9257	0.66972532738063295	591	757.66309	13.778	null
+SML	593	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1171	1217	1200	897	0.66700277007863995	592	758.45453	10.806	null
+SML	594	null	null|null	C40H74NO10P|C40H74NO10P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCC=CCCCCCC	null|null	PS 34:2|PS 16:1_18:1	null|null	null|null	[M-H]1-	null	null	null	0	99834	97557	97582	73743.25	0.66682382498121429	593	758.49408	8.5	ISTSBKDAWNZURU-UHFFFAOYSA-N
+SML	595	null	null	C42H82NO8P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC=CCCCCCCCCCCCC)COP(=O)(O)OCCN)CCCCCCC	null	w/o MS2:PE 8:0_29:1	null	null	[M-H]1-	null	null	null	0	3947	3653	3590	2797.5	0.668982410254642	594	758.5683	10.861	SZRXTSSTIFMRPG-UHFFFAOYSA-N
+SML	596	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	0	4167	4263	6480	3727.5	0.725676845964773	595	758.67719	14.083	null
+SML	597	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4224	4311	4371	3226.5	0.66692899936544991	596	759.61273	14.465	null
+SML	598	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2972	2902	3202	2269	0.66905473663882165	597	759.6474	13.528	null
+SML	599	null	null|null	C40H76NO10P|C40H76NO10P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCCCCCCCCC	null|null	PS 34:1|PS 16:0_18:1	null|null	null|null	[M-H]1-	null	null	null	0	80796	79439	79211	59861.5	0.66676911407509021	598	760.50922	9.007	OIWCYIUQAVBPGV-UHFFFAOYSA-N
+SML	600	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	0	1738	1724	2209	1417.75	0.68536217737326066	599	760.65289	13.812	null
+SML	601	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2991	2904	3394	2322.25	0.67297359399901313	600	761.62439	13.16	null
+SML	602	null	null	C50H85NO4	O=C(NC(CO)C(O)C=CCCC=CCCCCCCCCC)CC(O)CCCCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 18:2;2O/32:6;(3OH)	null	null	[M+Cl]1-	null	null	null	0	35938	35295	44502	28933.75	0.6822641477393685	601	762.63617	13.438	KYVADNBDUPZARG-UHFFFAOYSA-N
+SML	603	null	null	C50H85NO4	O=C(NC(CO)C(O)C=CCCC=CCCC=CCCCCCCCCCCC)C(O)CCCCCCCCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 24:3;2O/26:5;(2OH)	null	null	[M+Cl]1-	null	null	null	0	0	0	1013	253.25	2	602	762.63617	11.229	MMWBNOMLIBYEKB-UHFFFAOYSA-N
+SML	604	null	null	C39H75NO11S	O=C(NC(COC1OC(CO)C(O)C(OS(=O)(=O)O)C1O)C(O)C=CCCCCCCC)CCCCCCCCCCCCCCCCCCCC	null	w/o MS2:SHexCer 33:1;2O	null	null	[M+Cl]1-	null	null	null	0	3756	3591	3704	2762.75	0.66713267249706898	603	764.4978	9.056	BMKYFRXAJKKRGT-UHFFFAOYSA-N
+SML	605	null	null|null	C38H76NO8P|C38H76NO8P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCC	null|null	PC 30:0|PC 12:0_18:0	null|null	null|null	[M+CH3COO]1-	null	null	null	0	6649	6132	6109	4722.5	0.66875371253586569	604	764.54248	9.59	XMMPMEPNQVLMLI-UHFFFAOYSA-N
+SML	606	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1197	1357	1944	1124.5	0.72526068369337116	605	765.70532	14.083	null
+SML	607	null	null	C39H77NO11S	O=C(NC(COC1OC(CO)C(O)C(OS(=O)(=O)O)C1O)C(O)CCCCCCCCC)CCCCCCCCCCCCCCCCCCCC	null	w/o MS2:SHexCer 33:0;2O	null	null	[M+Cl]1-	null	null	null	0	3465	3106	3139	2427.5	0.66999924682446221	606	766.51587	9.764	KARHJTWFAKLUSJ-UHFFFAOYSA-N
+SML	608	null	null	C45H69O8P	O=C(OCC(OC(=O)CCCCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)O)CCCCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:PA 21:5_21:5	null	null	[M-H]1-	null	null	null	0	1189	1168	1158	878.75	0.66682873763386152	607	767.46619	8.097	JMCMWTIKFPOXTF-UHFFFAOYSA-N
+SML	609	null	null	C39H77O12P	O=C(OC(COCCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCC	null	w/o MS2:PI O-15:0_15:0	null	null	[M+Cl]1-	null	null	null	2063	1952	1819	1753	1896.75	0.072926952147308002	608	767.51099	10.406	CUVQVRUQWCXBNV-UHFFFAOYSA-N
+SML	610	null	null	C41H72NO10P	O=C(OCC(O)COP(=O)(O)OCC(NC(=O)CCCCCCCCCC=CCC=CCC=CCC)C(=O)O)CCCCCCCC=CCCCCC	null	w/o MS2:LPS-N (FA 20:3)15:1	null	null	[M-H2O-H]1-	null	null	null	0	6142	6172	6157	4617.75	0.66667194248666839	609	768.47687	9.174	TXVNIVYVITXEJT-UHFFFAOYSA-N
+SML	611	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2146	1943	2008	1524.25	0.66897536167869698	610	770.49524	9.924	null
+SML	612	null	null	C43H82NO8P	O=C(OCC(OC(=O)CCCCCCCCCC=CCCCCCCCC)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCCCC	null	w/o MS2:PE 18:1_20:1	null	null	[M-2H]1-	null	null	null	0	8384	7655	7442	5870.25	0.67019808781244183	611	770.56506	11.014	UITCASPZWUAJBW-UHFFFAOYSA-N
+SML	613	null	null	C44H89NO5	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCCCCC	null	Unknown	null	null	[M+CH3COO]1-	null	null	null	0	61703	59682	69389	47693.5	0.67240779688523411	612	770.68475	13.667	XNLFLZXNXQVPII-UHFFFAOYSA-N
+SML	614	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2454	2650	2281	1846.25	0.67164775644899299	613	771.38812	8.903	null
+SML	615	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	12070	12584	12920	9393.5	0.66770433266926754	614	771.453	9.174	null
+SML	616	null	null	C40H72O10	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COC1OC(CO)C(O)C(O)C1O)CCCCCCCC=CCCCCC	null	w/o MS2:MGDG 15:1_16:1	null	null	[M-H]1-	null	null	null	0	12406	11879	12080	9091.25	0.66709444004688623	615	771.52783	9.049	GXHVWKRGNHTITF-UHFFFAOYSA-N
+SML	617	null	null	C43H80O11	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCC)COC1OC(C(=O)O)C(O)C(O)C1O)CCCCCCCCCCCCCCCC	null	w/o MS2:DGGA 17:0_17:0	null	null	[M-H]1-	null	null	null	0	2550	2302	0	1213	1.1577133012440275	616	771.5578	11	YFCUIHBWVBWTFO-UHFFFAOYSA-N
+SML	618	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1897	1996	2010	1475.75	0.667537222111522	617	772.4613	10.09	null
+SML	619	null	null	C87H168O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCCC)CCCCCCCC=CCCCCCCCC	null	Unknown	null	null	[M-2H]2-	null	null	null	0	11975	10317	10227	8129.75	0.67395561250846303	618	772.58112	12.424	XCSVRBAJHBHMPN-UHFFFAOYSA-N
+SML	620	null	null	C45H79NO5	O=C(NC(CO)C(O)C(O)CCCC=CCCC=CCCCCCCCCCCCCCCCC)C(O)CC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 29:2;3O/16:4;(2OH)	null	null	[M+Cl]1-	null	null	null	2260	0	0	0	565	2	619	772.60608	9.708	AKVKAQIOHRUQLS-UHFFFAOYSA-N
+SML	621	null	null	C40H74O10	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COC1OC(CO)C(O)C(O)C1O)CCCCCCCCCCCCCC	null	w/o MS2:MGDG 15:0_16:1	null	null	[M-H]1-	null	null	null	0	8866	8252	8156	6318.5	0.6685224571868168	620	773.54022	9.757	MRMCNKAWSYPPEH-UHFFFAOYSA-N
+SML	622	null	null	C44H91N2O6P	O=C(NC(COP(=O)(O)OCCN)C(O)CCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:PE-Cer 18:0;2O/24:0	null	null	[M+Cl]1-	null	null	null	0	70325	69188	76229	53935.5	0.66911788797115002	621	773.6601	13.667	AHKPUOOTAJQIFQ-UHFFFAOYSA-N
+SML	623	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	0	1468	1335	1331	1033.5	0.66950626722017936	622	774.47986	11.09	null
+SML	624	null	null|null	C39H74NO8P|C39H74NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCC=CCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCC=CCCCCC	null|null	PC 31:2|PC 15:1_16:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	2938	2805	2950	2173.25	0.66735192870618576	623	774.52484	8.722	JFSKZJFUUYVMLO-UHFFFAOYSA-N
+SML	625	null	null	C41H78NO10P	O=C(OCC(OC(=O)CCCCCC(O)C=CC(O)CCCCCCCC)COP(=O)(O)OCCN)CCCCCCCC=CCCCCCCCC	null	w/o MS2:PE 18:1_18:1;2O	null	null	[M-H]1-	null	null	null	0	4747	4783	5161	3672.75	0.66861339951558729	624	774.52985	9.049	UIWQCSWFHXADTP-UHFFFAOYSA-N
+SML	626	null	null	C43H85NO10	O=C(NC(COC1OC(CO)C(O)C(O)C1O)C(O)C(O)CCCCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCC	null	w/o MS2:HexCer 20:0;3O/17:0;(2OH)	null	null	[M-H]1-	null	null	null	1011	0	0	0	252.75	2	625	774.60486	9.708	CGHCWKIQYZWXCQ-UHFFFAOYSA-N
+SML	627	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	0	23767	23862	34617	20561.5	0.71118602034678435	626	774.66986	13.979	null
+SML	628	null	null	C52H89NO3	O=C(NC(CO)C(O)C=CCCC=CCCC=CCCCCCCCCCCC)CCCCCCCCCCCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 24:3;2O/28:5	null	null	[M+Cl]1-	null	null	null	0	1936	1884	2616	1609	0.69814243432810263	627	774.66986	13.021	MQGSCXQIWXBOEP-UHFFFAOYSA-N
+SML	629	null	null	C47H72N2O7	O=C(OC(C=CCC=CCC=CCC=CCC)CC(=O)NCC(=O)NC(C(=O)O)CO)CCCCCCCCCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:NAGlySer 16:4;O(FA 26:5)	null	null	[M+Na-2H]1-	null	null	null	8233	8148	7785	7886	8013	0.026447783320160498	628	775.52014	8.656	XSPGGGZUSGUNRD-UHFFFAOYSA-N
+SML	630	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1002	0	1083	521.25	1.1564419439553879	629	775.64026	13.312	null
+SML	631	null	null|null	C39H76NO8P|C39H76NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCC	null|null	PC 31:1|PC 16:0_15:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	9545	9155	9092	6948	0.66729002483842914	630	776.54114	9.312	UPVBGIUAKUZSSB-UHFFFAOYSA-N
+SML	632	null	null	C41H80NO10P	O=C(OCC(O)COP(=O)(O)OCC(NC(=O)CCCCCCCCCCCCCCCCCCCCCCCCC)C(=O)O)CCCCCCCC	null	w/o MS2:LPS-N (FA 26:0)9:0	null	null	[M+Hac-H]1-	null	null	null	0	4602	4245	4319	3291.5	0.66830313075433079	631	776.54114	9.757	ADSOBQLEHUSLQM-UHFFFAOYSA-N
+SML	633	null	null|null	C39H73O13P|C39H73O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC	null|null	PI 30:1|PI 16:0_14:1	null|null	null|null	[M-H]1-	null	null	null	0	11917	11824	11787	8882	0.66669510019427203	632	779.46759	7.993	OWZHSYUXZCOOOJ-UHFFFAOYSA-N
+SML	634	null	null	null	null	null	Unknown	null	null	[M-C6H10O5-H]1-	null	null	null	2018	1125	1026	1049	1304.5	0.36607440727058144	633	779.63812	9.708	null
+SML	635	null	null	C42H72NO10P	O=C(OCC(O)COP(=O)(O)OCC(NC(=O)CCCCCC=CCC=CCC=CCC=CCC=CCC)C(=O)O)CCCCCCCCCCCCC	null	w/o MS2:LPS-N (FA 22:5)14:0	null	null	[M-H]1-	null	null	null	0	7897	7956	7976	5957.25	0.66669043428656882	634	780.47607	8.514	BRSJQHLHQJVVGL-UHFFFAOYSA-N
+SML	636	null	null|null	C39H75O13P|C39H75O13P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCC	null|null	PI 30:0|PI 12:0_18:0	null|null	null|null	[M-H]1-	null	null	null	0	48597	46984	47320	35725.25	0.66695033115838243	635	781.48523	8.306	SPGUBYXSFBPPJV-UHFFFAOYSA-N
+SML	637	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1462	1272	1249	995.75	0.67352303033952099	636	781.4953	11.014	null
+SML	638	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-5702 from Mouse_Feces_WT_N_Ctr	null	null	[M-H]1-	null	null	null	0	0	0	1045	261.25	2	637	781.70123	13.979	null
+SML	639	null	null	C42H74NO10P	O=C(OCC(O)COP(=O)(O)OCC(NC(=O)CCCCCCCCC=CCC=CCC=CCCCCC)C(=O)O)CCCCCCCC=CCCCC	null	w/o MS2:LPS-N (FA 22:3)14:1	null	null	[M-H2O-H]1-	null	null	null	0	2057	2019	1899	1493.75	0.66818901014730125	638	782.49005	8.972	HVERMUZNJSLASP-UHFFFAOYSA-N
+SML	640	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	1162	0	0	0	290.5	2	639	782.6358	9.708	null
+SML	641	null	null	C46H93NO4	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:Cer 20:0;3O/26:0	null	null	[M+Hac-H]1-	null	null	null	0	10168	10345	15356	8967.25	0.71859271265440749	640	782.72119	14.083	XXCJZFVZHPNILU-UHFFFAOYSA-N
+SML	642	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2511	2163	2118	1698	0.67464180990225164	641	783.51056	12.424	null
+SML	643	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4241	4024	6357	3655.5	0.72617076162814798	642	785.69458	14.083	null
+SML	644	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	7826	6493	6194	5128.25	0.68086867396224893	643	786.39972	9.174	null
+SML	645	null	null	C42H78NO10P	O=C(OCC(O)COP(=O)(O)OCC(NC(=O)CCCCCCCCCCCCCCCCC)C(=O)O)CCCCCCCC=CCC=CCCCCC	null	w/o MS2:LPS-N (FA 18:0)18:2	null	null	[M-H]1-	null	null	null	0	1266	1152	1150	892	0.66943178361051925	644	786.5257	9.049	IBXSLWDESKOKJL-UHFFFAOYSA-N
+SML	646	null	null	C53H89NO3	O=C(NC(CO)C(O)C=CCCC=CCCC=CCCCCCCCC)CCCCCCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 21:3;2O/32:6	null	null	[M+Na-2H]1-	null	null	null	0	1637	1579	1759	1243.75	0.6693895489850159	645	786.67682	13.667	ANRHDVJWQYYMAH-UHFFFAOYSA-N
+SML	647	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	0	4230	3998	5301	3382.25	0.68745821049070455	646	786.68188	13.438	null
+SML	648	null	null	C45H76O7	O=C(OCC1OC(OC2CC3=CCC4C(CCC5(C)C(CCC45)C(C=CC(CC)C(C)C)C)C3(C)CC2)C(O)C(O)C1O)CCCCCCCCC	null	w/o MS2:ASG 29:2;O;Hex;FA 10:0	null	null	[M+Cl]1-	null	null	null	1382	1259	1109	1063	1203.25	0.12101956502319068	647	787.57404	10.219	TWGYUGUMIHDSSL-UHFFFAOYSA-N
+SML	649	null	null	C45H93N2O6P	O=C(NC(COP(=O)(O)OCCN)C(O)CCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:PE-Cer 19:0;2O/24:0	null	null	[M-H]1-	null	null	null	0	1719	1623	2140	1370.5	0.68650293557654041	648	787.67487	13.812	XWEMLIMOKKBXIZ-UHFFFAOYSA-N
+SML	650	null	null|null	C40H76NO8P|C40H76NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCC=CCCCCCC	null|null	PC 32:2|PC 16:1_16:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	146698	142477	142328	107875.75	0.6669311109303615	649	788.54236	9.049	GPWHCUUIQMGELX-UHFFFAOYSA-N
+SML	651	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1136	1054	1075	816.25	0.66802685135188211	650	788.54236	9.736	null
+SML	652	null	null	C44H91N2O7P	O=C(NC(COP(=O)(O)OCCN)C(O)CCCCCCCCC)CC(O)CCCCCCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:PE-Cer 12:0;2O/30:0;O	null	null	[M-H]1-	null	null	null	0	30488	29781	38003	24568	0.68364980505059392	651	789.65265	13.438	FSMFWSSESWWCIP-UHFFFAOYSA-N
+SML	653	null	null|null	C40H78NO8P|C40H78NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCC	null|null	PC 32:1|PC 16:0_16:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	119069	112466	111291	85706.5	0.66786220057854784	652	790.55658	9.757	QIBZFHLFHCIUOT-UHFFFAOYSA-N
+SML	654	null	null	C52H89NO4	O=C(NC(CO)C(O)C=CCCC=CCCCCCCCCC)CC(O)CCCCCCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 18:2;2O/34:6;(3OH)	null	null	[M-H]1-	null	null	null	0	0	1071	1661	683	1.2073533496350888	653	790.66766	13.74	RTWNACZEZVNATA-UHFFFAOYSA-N
+SML	655	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-5858 from Mouse_Kidney_WT_N_F1AA	null	null	[M+Hac-H]1-	null	null	null	3663	3391	3268	2914	3309	0.093918539433061846	654	791.552	10.406	null
+SML	656	null	null|null	C40H80NO8P|C40H80NO8P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCC	null|null	PC 32:0|PC 16:0_16:0	null|null	null|null	[M+CH3COO]1-	null	null	null	0	3111	2921	2732	2191	0.6703965177394029	655	792.5733	10.667	KILNVBDSWZSGLL-UHFFFAOYSA-N
+SML	657	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1096	1174	1427	924.25	0.68396792122527417	656	792.66943	13.694	null
+SML	658	null	null|null	C40H75O13P|C40H75O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCC	null|null	PI 31:1|PI 15:0_16:1	null|null	null|null	[M-H]1-	null	null	null	0	7772	7576	7408	5689	0.66717920901226146	657	793.48401	8.181	ZZXTYUKEZGDLFI-UHFFFAOYSA-N
+SML	659	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-5908 from Mouse_Kidney_WT_N_F1EPA	null	null	[M-H]1-	null	null	null	4668	5218	4883	4965	4933.5	0.046069368614645077	658	794.52686	10.411	null
+SML	660	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-5911 from Mouse_Muscle_WT_N_Ctr	null	null	[M+Cl]1-	null	null	null	0	2850	2677	2678	2051.25	0.66784431952272327	659	794.54712	10.861	null
+SML	661	null	null	null	null	null	Unknown	null	null	[M-H2O-H]1-	null	null	null	2323	2367	2062	2014	2191.5	0.081783665945235173	660	794.60278	10.214	null
+SML	662	null	null	null	null	null	Unknown	null	null	[M-C6H10O4-H]1-	null	null	null	1900	0	0	0	475	2	661	795.64636	9.708	null
+SML	663	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	5576	5339	5427	4085.5	0.66709646241608278	662	796.50812	10.069	null
+SML	664	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	42967	23387	22112	21739	27551.25	0.37389807738773218	663	796.65009	9.698	null
+SML	665	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-5977 from Mouse_AdrenalGlands_WT_N_Ctr	null	null	[M+Hac-H]1-	null	null	null	1319	1127	1002	1075	1130.75	0.1198928703870344	664	797.59857	10.214	null
+SML	666	null	null	C46H74NO8P	O=C(OCC(OC(=O)CCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCCN)CCCCC=CCC=CCC=CCC	null	w/o MS2:PE 15:3_26:6	null	null	[M+Cl]1-	null	null	null	1062	0	0	0	265.5	2	665	798.50201	8.729	NOLMXPMXHQDXLH-UHFFFAOYSA-N
+SML	667	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-5980 from Cell_HEK293_WT_N_Ctr	null	null	[M+Hac-H]1-	null	null	null	0	2650	2340	2260	1812.5	0.67309402669117513	666	798.52228	11.083	null
+SML	668	null	null	C46H93NO5	O=C(NC(CO)C(O)C(O)CCCCCCCCCCCCCCCC)C(O)CCCCCCCCCCCCCCCCCCCCCCCC	null	Unknown	null	null	[M+CH3COO]1-	null	null	null	0	13070	12937	19854	11465.25	0.72374159641230285	667	798.71521	13.979	CUUCRKRHESTOAG-UHFFFAOYSA-N
+SML	669	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-5998 from Mouse_Muscle_WT_CTX0_Ctr	null	null	[M-H]1-	null	null	null	0	6150	6555	6620	4831.25	0.66805458824001063	668	799.48212	10.09	null
+SML	670	null	null	C42H76O10	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COC1OC(CO)C(O)C(O)C1O)CCCCCCCC=CCCCCC	null	w/o MS2:MGDG 15:1_18:1	null	null	[M-H]1-	null	null	null	0	7884	7461	7537	5720.5	0.66744319990557854	669	799.55829	9.882	IJNLBISIDOVQID-UHFFFAOYSA-N
+SML	671	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4821	4542	4465	3457	0.66813291370859251	670	801.50006	11.076	null
+SML	672	null	null	C42H78O10	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COC1OC(CO)C(O)C(O)C1O)CCCCCCCCCCCCCC	null	w/o MS2:MGDG 15:0_18:1	null	null	[M-H2O-H]1-	null	null	null	0	5540	5107	5071	3929.5	0.66886898925286176	671	801.57123	10.861	UGGPEZKTYSLEBU-UHFFFAOYSA-N
+SML	673	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	21269	21243	30556	18267	0.70855085226547765	672	801.68823	13.979	null
+SML	674	null	null	C46H95N2O6P	O=C(NC(COP(=O)(O)OCCN)C(O)CCCCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:PE-Cer 14:0;2O/30:0	null	null	[M-H]1-	null	null	null	0	0	0	1193	298.25	2	673	801.6933	13.021	QXEQSULSRCDDLH-UHFFFAOYSA-N
+SML	675	null	null|null	C41H78NO8P|C41H78NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCC=CCCCCCC	null|null	PC 33:2|PC 16:1_17:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	3093	2888	2922	2225.75	0.66788380583117923	674	802.55829	9.424	AEPBKRNQLLRJTA-UHFFFAOYSA-N
+SML	676	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-6062 from Mouse_Plasma_ApoEKO_N_Ctr	null	null	[M+Hac-H]1-	null	null	null	0	3707	3553	3775	2758.75	0.66751606909839023	675	802.55829	9.882	null
+SML	677	null	null	C53H89NO4	O=C(NC(CO)C(O)C=CCCC=CCCC=CCC)CC(O)CCCCCCCCCCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 15:3;2O/38:6;(3OH)	null	null	[M-H]1-	null	null	null	0	1760	1830	1966	1389	0.66950411575249447	676	802.67535	13.667	VJHBCOKQBNJOLA-UHFFFAOYSA-N
+SML	678	null	null|null	C41H80NO8P|C41H80NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCC	null|null	PC 33:1|PC 17:0_16:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	5692	5122	4913	3931.75	0.67190432106337827	677	804.57501	10.257	DISVYZNGGMDUPX-UHFFFAOYSA-N
+SML	679	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-6109 from Mouse_Plasma_ApoEKO_N_F1DHA	null	null	[M+Hac-H]1-	null	null	null	0	2989	2891	2934	2203.5	0.66691510596970749	678	804.57501	10.861	null
+SML	680	null	null|null	C41H75O13P|C41H75O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCC=CCCCCCC	null|null	PI 32:2|PI 16:1_16:1	null|null	null|null	[M-H]1-	null	null	null	0	57174	55921	56810	42476.25	0.66678179464678722	679	805.48236	8.056	HBPXEBWVNAJRCA-UHFFFAOYSA-N
+SML	681	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1239	1262	1318	954.75	0.6675716551861488	680	807.42621	7.514	null
+SML	682	null	null|null	C41H77O13P|C41H77O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC	null|null	PI 32:1|PI 16:0_16:1	null|null	null|null	[M-H]1-	null	null	null	0	178927	193539	198628	142773.5	0.66922719897053251	681	807.49768	8.403	QAWXBJDYTIBLRK-UHFFFAOYSA-N
+SML	683	null	null	C46H81O9P	O=C(OC(COCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCC(O)CO)CCCCCCCCCCCCCCC	null	w/o MS2:PG O-24:6_16:0	null	null	[M-2H]2-	null	null	null	0	16125	15540	15556	11805.25	0.66706493032671765	682	807.55383	8.389	CIELMJQLYCQHJJ-UHFFFAOYSA-N
+SML	684	null	null	null	null	null	Unknown	null	null	[M-2H]2-	null	null	null	0	4749	4584	4620	3488.25	0.66697589266825463	683	807.67633	8.389	null
+SML	685	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2009	1928	1944	1470.25	0.66709221170757282	684	807.76825	8.389	null
+SML	686	null	null	null	null	null	Unknown	null	null	[M-2H]2-	null	null	null	0	1720	1658	1650	1257	0.66713104748483421	685	807.8653	8.389	null
+SML	687	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	1307	0	326.75	2	686	808.3147	8.375	null
+SML	688	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1335	333.75	2	687	808.41174	8.396	null
+SML	689	null	null	C40H76NO13P	O=C(OCC(OC(=O)CCCCCCC(OO)C=CCCCCCCO)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCCCCCCCCCCC	null	w/o MS2:PS 18:0_16:1;3O	null	null	[M-2H]2-	null	null	null	0	0	146490	147105	73398.75	1.1547056050342928	688	808.50372	8.396	WHYKHEIMJHUDER-UHFFFAOYSA-N
+SML	690	null	null	C48H92NO6P	O=C(NC(COP(=O)(O)O)C(O)C=CCCC=CCCC=CCCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:CerP 21:3;2O/27:0	null	null	[M-H]1-	null	null	null	0	1167	1144	1487	949.5	0.68675284498109102	689	808.66205	13.438	YOLPACJFXSPFLA-UHFFFAOYSA-N
+SML	691	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1028	1044	0	518	1.1547693904305554	690	809.16278	8.385	null
+SML	692	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1098	1313	1035	1341	1196.75	0.12785512475155067	691	809.47455	10.411	null
+SML	693	null	null	C48H75O8P	O=C(OCC(OC(=O)CCCCCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OC)CCCCCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:PMeOH 22:5_22:5	null	null	[M-H]1-	null	null	null	0	0	43461	43500	21740.25	1.1547007706259176	692	809.50525	8.396	MVSIJHBFQVEODX-UHFFFAOYSA-N
+SML	694	null	null|null	C41H79O13P|C41H79O13P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC	null|null	PI 32:0|PI 16:0_16:0	null|null	null|null	[M-H]1-	null	null	null	0	7503	6960	7064	5381.75	0.66809908948158636	693	809.51544	8.819	IBUKXRINTKQBRQ-UHFFFAOYSA-N
+SML	695	null	null	C46H85NO10	O=C(OCCCCCCCCCCCC(=O)NC(COC1OC(CO)C(O)C(O)C1O)C(O)C=CCCC=CCCC)CCCCCCCCCCCCCCC	null	w/o MS2:HexCer 24:2;3O(FA 16:0)	null	null	[M-C6H10O4-H]1-	null	null	null	2676	2584	2327	2344	2482.75	0.070191037105254289	694	810.60974	10.214	JGVOXLQQMHAXPV-UHFFFAOYSA-N
+SML	696	null	null	C41H73D7NO8P	[C@](COP(=O)([O-])OCC[N+](C)(C)C)([H])(OC(CCCCCCC/C=C\CCCCCC([2H])([2H])C([2H])([2H])C([2H])([2H])[2H])=O)COC(CCCCCCCCCCCCCC)=O	null	PC 15:0_18:1(d7)	null	null	[M+CH3COO]1-	null	null	null	43206	40241	36443	36239	39032.25	0.085469115810120191	695	811.61768	10.214	ZEWLMKXMNQOCOQ-GCHPQBSENA-N
+SML	697	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	11317	9072	8528	7229.25	0.68726001649949209	696	814.42999	10.056	null
+SML	698	null	null	C44H81O11P	O=C(OCC(OC(=O)CCCCCCCC=CCCC)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCC)CO)CCCCCCCC=CCCC	null	w/o MS2:HBMP 13:1_12:0_13:1	null	null	[M+Hac-H]1-	null	null	null	1091	0	0	0	272.75	2	697	815.5481	9.708	GJXYLQWVOUVEKP-UHFFFAOYSA-N
+SML	699	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1113	0	1007	530	1.1575836902790224	698	816.44617	11.104	null
+SML	700	null	null|null	C42H80NO8P|C42H80NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCC=CCCCCCC	null|null	PC 34:2|PC 16:1_18:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	135337	129748	128951	98509	0.66729028397526058	699	816.57452	9.882	ZRCWDIULNHKQRD-UHFFFAOYSA-N
+SML	701	null	null	C46H95N2O7P	O=C(NC(COP(=O)(O)OCCN)C(O)CCCCCCCCCCCCCCCCC)CC(O)CCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:PE-Cer 20:0;2O/24:0;O	null	null	[M-H]1-	null	null	null	0	1125	1105	1847	1019.25	0.74774688093008868	700	817.68378	13.729	IJWAYBFKHGIDKO-UHFFFAOYSA-N
+SML	702	null	null|null	C42H82NO8P|C42H82NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCC	null|null	PC 34:1|PC 18:0_16:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	101488	93834	91610	71733	0.66927067176022326	701	818.5882	10.861	QRSPNOMDLRZDPG-UHFFFAOYSA-N
+SML	703	null	null	C50H93NO5S	O=C(N(CC(O)C=CCCC=CCCCCC)CS(=O)(=O)O)CCCCCCCCCCCCCCCCCCCCCCCC=CCC=CCCCCCCC	null	w/o MS2:SL 14:2;O/36:2	null	null	[M-H2O-H]1-	null	null	null	0	0	0	1110	277.5	2	702	818.67047	13.438	NZYXLEWICDSOMY-UHFFFAOYSA-N
+SML	704	null	null	C43H65O13P	O=C(OCC(OC(=O)CC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCC=CCC=CCC=CCC=CCC	null	Unknown	null	null	[M-H]1-	null	null	null	0	1162	1016	0	544.5	1.1598776417710182	703	819.41083	8.469	QZUSAGKDZUASMP-UHFFFAOYSA-N
+SML	705	null	null	C42H77O13P	O=C(OCC(OC(=O)CCCCCCCCCCCC=CCC=CCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCC	null	w/o MS2:PI 9:0_24:2	null	null	[M-H]1-	null	null	null	0	1123	1099	1098	830	0.66681205169469282	704	819.50342	8.243	SOZWBGAUURKQAM-UHFFFAOYSA-N
+SML	706	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-6356 from Mouse_Macrophage_WT_N_F1AA	null	null	[2M-H]1-	null	null	null	0	1863	1848	0	927.75	1.1547194037971524	705	819.63715	14.469	null
+SML	707	null	null|null	C42H79O13P|C42H79O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCC	null|null	PI 33:1|PI 15:0_18:1	null|null	null|null	[M-H]1-	null	null	null	0	23349	22138	22115	16900.5	0.66753839028033879	706	821.51556	8.639	XCKYASHMOHAUQB-UHFFFAOYSA-N
+SML	708	null	null	C42H82NO12P	O=C(NC(COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)C(O)C=CCCCCCCC)CC(O)CCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:PI-Cer 12:1;2O/24:0;O	null	null	[M+Hac-H]1-	null	null	null	4628	3802	3565	3788	3945.75	0.11851045869634262	707	822.54572	8.719	MKQLMNUQAOQFDD-UHFFFAOYSA-N
+SML	709	null	null	C48H74O11	O=C(O)C1OC(OCC(OC(=O)CCCCCCCC=CCC=CCC=CCC)COC(=O)CCCCC=CCC=CCC=CCC=CCC=CCC)C(O)C(O)C1O	null	w/o MS2:DGGA 18:3_21:5	null	null	[M-H]1-	null	null	null	4119	3182	3159	3166	3406.5	0.13946793889508927	708	825.52142	8.724	RPCSMELPZLXCNC-UHFFFAOYSA-N
+SML	710	null	null	C45H81O11P	O=C(OCC(OC(=O)CCCCCCCC=CCCC)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCC)CO)CCCCCCCC=CCCC	null	w/o MS2:HBMP 13:1_13:1_13:1	null	null	[M-H]1-	null	null	null	10268	10539	10428	10024	10314.75	0.021666409145197629	709	827.55127	8.62	SBIDEDQIEBLZDJ-UHFFFAOYSA-N
+SML	711	null	null	C44H80O10	O=C(OCC(OC(=O)CCCCCCCCCCCC=CCCCCCCCC)COC1OC(CO)C(O)C(O)C1O)CCCCCCCC=CCCC	null	w/o MS2:MGDG 13:1_22:1	null	null	[M-H]1-	null	null	null	0	1059	0	0	264.75	2	710	827.58746	11.021	CQEUSPJCYJYKOC-UHFFFAOYSA-N
+SML	712	null	null	C42H72D7O13P	[C@]([H])(OC(CCCCCCC/C=C\CCCCCC([2H])([2H])C([2H])([2H])C([2H])([2H])[2H])=O)(COP(=O)(O)O[C@@H]1C(O)[C@H](O)C(O)C(O)C1O)COC(CCCCCCCCCCCCCC)=O	null	PI 15:0_18:1(d7)	null	null	[M-H]1-	null	null	null	151183	153744	154695	154323	153486.25	0.010323881380955743	711	828.55939	8.62	XCKYASHMOHAUQB-OAFUKSMZNA-N
+SML	713	null	null	C96H172O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCCCCCCCCCCCCCC)COC(=O)CCCCCCCCC=CCC=CCC=CCCCCC)CCCCCCC=CCC=CCC=CCC=CCC	null	w/o MS2:CL 17:1_20:4_28:0_22:3	null	null	[M-H2O-H]1-	null	null	null	0	1830	1719	1795	1336	0.66756816385849083	712	828.60077	13.667	DZEPHHBHBBWJDO-UHFFFAOYSA-N
+SML	714	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1032	1228	1029	1029	1079.5	0.091718481236543303	713	828.74042	8.62	null
+SML	715	null	null	C44H82O10	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCC)COC1OC(CO)C(O)C(O)C1O)CCCCCCCCCCCCCCCCC	null	w/o MS2:MGDG 18:0_17:1	null	null	[M-H2O-H]1-	null	null	null	0	1441	1192	1237	967.5	0.67600613099187701	714	829.60431	12.417	FGSZSBPRYURLDV-UHFFFAOYSA-N
+SML	716	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1139	0	0	0	284.75	2	715	830.51013	10.208	null
+SML	717	null	null	C45H88NO10P	O=C(OCC(O)COP(=O)(O)OCC(NC(=O)CCCCCCCCCCCCCCCCCCCCCCC)C(=O)O)CCCCCCCCCCCCCC	null	w/o MS2:LPS-N (FA 24:0)15:0	null	null	[M-H]1-	null	null	null	0	1279	1156	1054	872.25	0.67495677919227826	716	832.60315	11.569	HGHXXSPZXLEXHP-UHFFFAOYSA-N
+SML	718	null	null|null	C43H79O13P|C43H79O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCC=CCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCC=CCCCCCC	null|null	PI 34:2|PI 16:1_18:1	null|null	null|null	[M-H]1-	null	null	null	0	135407	131803	134807	100504.25	0.66685121526632796	717	833.51575	8.472	GXAHXPDRXNWFIX-UHFFFAOYSA-N
+SML	719	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	0	1279	1192	1154	906.25	0.66916192874422975	718	834.45483	10.069	null
+SML	720	null	null	C43H82NO12P	O=C(NC(COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)C(O)C=CCCC=CCCCCC)CC(O)CCCCCCCCCCCCCCCCCCCC	null	w/o MS2:PI-Cer 14:2;2O/23:0;O	null	null	[M-H]1-	null	null	null	0	0	0	3764	941	2	719	834.54822	8.479	NDKDONAVJJJWCA-UHFFFAOYSA-N
+SML	721	null	null	C44H85NO11S	O=C(NC(COC1OC(CO)C(O)C(OS(=O)(=O)O)C1O)C(O)C=CCCCCCCC)CCCCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:SHexCer 38:1;2O	null	null	[M-H]1-	null	null	null	0	1156	1181	1153	872.5	0.6668218744734673	720	834.58459	8.181	ZPIGOEBABJXHDY-UHFFFAOYSA-N
+SML	722	null	null	C41H73O15P	O=C(OCC(OC(=O)CCCCCC(O)CCCO)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCC=CCC=CCC=CCCCCC	null	w/o MS2:PI 22:3_10:0;2O	null	null	[M-H]1-	null	null	null	0	3193	3202	3198	2398.25	0.66666843428746358	721	835.45673	7.91	FMKUDAFKNVMJEH-UHFFFAOYSA-N
+SML	723	null	null|null	C43H81O13P|C43H81O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC	null|null	PI 34:1|PI 16:0_18:1	null|null	null|null	[M-H]1-	null	null	null	0	229675	229809	230048	172383	0.66666726737176885	722	835.53461	8.938	PDLAMJKMOKWLAJ-UHFFFAOYSA-N
+SML	724	null	null	C47H81O10P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCC(O)CO)CCCCCC	null	w/o MS2:PG 7:0_34:6	null	null	[M-H]1-	null	null	null	0	3814	3650	0	1866	1.1552578639990614	723	835.54504	8.469	FOSNJDZNIDZKMU-UHFFFAOYSA-N
+SML	725	null	null	null	null	null	Unknown	null	null	[M-2H]2-	null	null	null	0	17026	16580	16349	12488.75	0.66704623158499976	724	835.64368	8.931	null
+SML	726	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	7223	6892	7121	5309	0.667176208379333	725	835.74756	8.931	null
+SML	727	null	null	null	null	null	Unknown	null	null	[M-2H]1-	null	null	null	0	3165	3871	3827	2715.75	0.67718902848150586	726	835.90338	8.931	null
+SML	728	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2923	2937	0	1465	1.1547071290401689	727	836.09558	8.927	null
+SML	729	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	3367	3178	3271	2454	0.66740777150856545	728	836.36053	8.931	null
+SML	730	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2586	2441	2523	1887.5	0.66740816328434149	729	836.96332	8.931	null
+SML	731	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1120	1134	1208	865.5	0.66815747682179549	730	837.48315	10.812	null
+SML	732	null	null	C46H79O11P	O=C(OC(COC(=O)CCCCCCCC=CCCC)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCC)CO)CC=CCC=CCC=CCC=CCC	null	w/o MS2:HBMP 13:1_12:0_15:4	null	null	[M-3H]1-	null	null	null	1098	0	0	0	274.5	2	731	837.52997	9.708	ZMVOUIAKRQFDSM-UHFFFAOYSA-N
+SML	733	null	null|null	C43H83O13P|C43H83O13P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC	null|null	PI 34:0|PI 16:0_18:0	null|null	null|null	[M-H]1-	null	null	null	0	1438	1271	1315	1006	0.67035806091313477	732	837.54553	9.528	NEXFZIYXCPIHEF-UHFFFAOYSA-N
+SML	734	null	null	null	null	null	Unknown	null	null	[M-2H]2-	null	null	null	0	1724	0	1930	913.5	1.1583647301869424	733	837.69635	8.938	null
+SML	735	null	null	null	null	null	Unknown	null	null	[M-2H]2-	null	null	null	0	0	1550	0	387.5	2	734	837.76392	8.917	null
+SML	736	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1647	0	0	411.75	2	735	838.02917	8.938	null
+SML	737	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1458	1351	1483	1073	0.66879832751812085	736	838.42969	7.91	null
+SML	738	null	null	C98H168O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCC=CCCCCCCC)COC(=O)CCCCCC=CCC=CCC=CCC=CCC=CCC)CCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:CL 17:1_22:5_28:0_22:6	null	null	[M+Cl]1-	null	null	null	0	1358	1336	1410	1026	0.6673521852710903	737	838.58057	13.667	NGLOIXCQFCNXGK-UHFFFAOYSA-N
+SML	739	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	1043	0	260.75	2	738	839.23621	8.917	null
+SML	740	null	null	C44H73O13P	O=C(OCC(OC(=O)CCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCC	null	w/o MS2:PI 9:0_26:6	null	null	[M-2H]1-	null	null	null	1063	1372	1255	1340	1257.5	0.1103363602053011	739	839.46521	8.698	RKJPACUMYYKMET-UHFFFAOYSA-N
+SML	741	null	null	C43H72NO13P	O=C(OCC(OC(=O)CC(O)CC(O)C(O)C=CCC=CCC=CCC=CCC=CC(O)CO)COP(=O)(O)OCCN)CCCCCCCC=CCC=CCCC	null	w/o MS2:PE 16:2_22:5;4O	null	null	[M-H]1-	null	null	null	14659	18279	16570	16683	16547.75	0.089521064560733499	740	840.47009	8.698	DAWHUKSJWAVHAO-UHFFFAOYSA-N
+SML	742	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-6716 from Mouse_Feces_WT_N_Ctr	null	null	[M-H]1-	null	null	null	0	1984	1910	1996	1472.5	0.66716672749651218	741	842.61731	13.667	null
+SML	743	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	0	1197	1102	1189	872	0.66848978651507551	742	844.59497	13.438	null
+SML	744	null	null|null	C44H84NO8P|C44H84NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCC=CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCC=CCCCCCCCC	null|null	PC 36:2|PC 18:1_18:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	17682	16151	15558	12347.75	0.67059419547208088	743	844.60541	11.014	SNKAWJBJQDLSFF-UHFFFAOYSA-N
+SML	745	null	null|null	C44H86NO8P|C44H86NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCC	null|null	PC 36:1|PC 18:0_18:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	25296	21687	21543	17131.5	0.67432616046952776	744	846.62201	12.424	ATHVAWFAEPLPPQ-UHFFFAOYSA-N
+SML	746	null	null	C42H80NO10P	O=C(OC(COCCCCCCCCC=CCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCC(OO)C=CCC=CCCCO	null	w/o MS2:PC O-18:1_16:2;3O	null	null	[M-H]1-	null	null	null	0	0	0	1010	252.5	2	745	848.5625	8.208	AXYAIRHDDLQGQO-UHFFFAOYSA-N
+SML	747	null	null|null	C44H88NO8P|C44H88NO8P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCC	null|null	PC 36:0|PC 18:0_18:0	null|null	null|null	[M+CH3COO]1-	null	null	null	0	1020	0	0	255	2	746	848.63574	13.062	NRJAVPSFFCBXDT-UHFFFAOYSA-N
+SML	748	null	null|null	C44H83O13P|C44H83O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCCC	null|null	PI 35:1|PI 17:0_18:1	null|null	null|null	[M-H]1-	null	null	null	0	8100	7549	7795	5861	0.6677747327577257	747	849.54663	9.271	NPAUVQALSMSELR-UHFFFAOYSA-N
+SML	749	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-6899 from Mouse_Feces_WT_N_Ctr	null	null	[M-H2O-H]1-	null	null	null	0	4848	4645	5230	3680.75	0.66991483765317994	748	852.68616	13.667	null
+SML	750	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	1222	1870	1636	1594	1580.5	0.16961498362808053	749	853.46277	8.641	null
+SML	751	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-6925 from Mouse_Feces_WT_N_Ctr	null	null	[M-H]1-	null	null	null	0	1990	1840	2066	1474	0.66970330934085587	750	854.64935	13.785	null
+SML	752	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1033	0	0	258.25	2	751	856.46753	8.708	null
+SML	753	null	null	null	null	null	Unknown	null	null	[M-H2O-H]1-	null	null	null	0	1043	0	0	260.75	2	752	856.53589	10.875	null
+SML	754	null	null	C100H180O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCC=CCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCCCCCCCCCCCCC)CCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:CL 17:2_22:6_24:0_28:0	null	null	[M+Na-2H]1-	null	null	null	0	0	0	1031	257.75	2	753	856.63049	13.979	XYUMYGHLRJWFSQ-UHFFFAOYSA-N
+SML	755	null	null	C49H96NO8P	O=C(OCC(O)COP(=O)(O)OCCNC(=O)CCCCCCCCCCCCCCCCCCCCCCCCCCC)CCCCCCCC=CCCCCCC	null	w/o MS2:LPE-N (FA 28:0)16:1	null	null	[M-H]1-	null	null	null	0	2497	2385	2348	1807.5	0.66758719678669076	754	856.67786	13.681	WOEOOOUBHZXKJL-UHFFFAOYSA-N
+SML	756	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1600	1458	1446	1126	0.66955396749473461	755	858.41925	8.486	null
+SML	757	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-6986 from Mouse_Feces_WT_N_Ctr	null	null	[M+Na-2H]1-	null	null	null	0	1170	1106	1405	920.25	0.68114411848369449	756	858.60876	13.438	null
+SML	758	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	0	1342	1221	1199	940.5	0.67000974311501049	757	860.4364	8.965	null
+SML	759	null	null|null	C45H83O13P|C45H83O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCC=CCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCC=CCCCCCCCC	null|null	PI 36:2|PI 18:1_18:1	null|null	null|null	[M-H]1-	null	null	null	0	29056	26627	26789	20618	0.6688323492030499	758	861.54871	9.028	LALGUHSIWLNTNW-UHFFFAOYSA-N
+SML	760	null	null	C43H77O15P	O=C(OCC(OC(=O)CCCCCC(O)CCCCCO)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCC=CCC=CCC=CCCCCC	null	w/o MS2:PI 22:3_12:0;2O	null	null	[M-H]1-	null	null	null	0	1660	1710	1613	1245.75	0.66742434247173277	759	863.48511	8.306	PDZSDQCPGIBFTQ-UHFFFAOYSA-N
+SML	761	null	null|null	C45H85O13P|C45H85O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCCCC	null|null	PI 36:1|PI 18:0_18:1	null|null	null|null	[M-H]1-	null	null	null	0	213726	213269	215608	160650.75	0.66669644183654386	760	863.55902	9.694	YOBFISPJJWPPTK-UHFFFAOYSA-N
+SML	762	null	null	null	null	null	Unknown	null	null	[M-2H]2-	null	null	null	0	8814	7641	8214	6167.25	0.67117414780910423	761	863.63818	9.694	null
+SML	763	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4354	3891	4049	3073.5	0.6695922103631966	762	863.74384	9.694	null
+SML	764	null	null	null	null	null	Unknown	null	null	[M-2H]2-	null	null	null	0	1521	0	0	380.25	2	763	863.83887	9.708	null
+SML	765	null	null	null	null	null	Unknown	null	null	[M-2H]1-	null	null	null	0	1595	1395	1505	1123.75	0.67062750958325967	764	863.93921	9.694	null
+SML	766	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1001	0	0	250.25	2	765	865.01678	9.708	null
+SML	767	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1066	0	1015	520.25	1.1553938607236844	766	865.08014	9.708	null
+SML	768	null	null	C53H92NO6P	O=C(NC(COP(=O)(O)O)C(O)C=CCCC=CCCCCCCCCCCCCCCCC)CCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:CerP 25:2;2O/28:6	null	null	[M+Na-2H]1-	null	null	null	0	1042	1047	1125	803.5	0.66834229648231602	767	868.65588	13.667	CYDPWBTXSXEVOP-UHFFFAOYSA-N
+SML	769	null	null	C57H91NO5	O=C(OCCC=CCC=CCC=CCC=CCC=CCCCCC(=O)NC(CO)C(O)CCCCCCCCCCC)CCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:Cer 14:0;2O/21:5;O(FA 22:6)	null	null	[M+Hac-H]1-	null	null	null	0	2477	2464	3226	2041.75	0.68911367120770983	768	868.68237	13.438	TXZCWMSVBPHSAV-UHFFFAOYSA-N
+SML	770	null	null	C46H81NO12S	O=C(NC(COC1OC(CO)C(O)C(OS(=O)(=O)O)C1O)C(O)C=CCCCCCCC)C(O)CCCCCCCCCCCCCC=CCC=CCC=CCC=CCC	null	w/o MS2:SHexCer 40:5;3O	null	null	[M+Na-2H]1-	null	null	null	0	1718	1851	1694	1315.75	0.66872919396041453	769	870.54724	9.056	CACYFACPGIXQCW-UHFFFAOYSA-N
+SML	771	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	15425	14667	15328	11355	0.66732615994061939	770	870.64795	13.667	null
+SML	772	null	null	C102H184O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCC=CCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCCCCCCCCCCCCC)CCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:CL 17:2_22:6_26:0_28:0	null	null	[M+Cl]1-	null	null	null	0	1036	0	1279	578.75	1.1673539281570304	771	870.64795	13.979	NQEXXZCWKXVBMV-UHFFFAOYSA-N
+SML	773	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-7212 from Cell_HEK293_WT_N_Ctr	null	null	[M+Na-2H]1-	null	null	null	0	1608	1591	1559	1189.5	0.66688537258191138	772	872.55737	9.757	null
+SML	774	null	null	C46H90NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCCCCCC	null	PC 38:1	null	null	[M+CH3COO]1-	null	null	null	0	1333	1247	1253	958.25	0.66792078286862899	773	874.64954	13.111	FOYSSFIXMSIYBS-UHFFFAOYSA-N
+SML	775	null	null	C47H94NO11P	O=C(OC(COCCCCCCCCCCCCCCCCCCCCCCCC)COP(=O)(O)OCCN)CCCC(O)CCC(O)C=CCC(O)CCCCCCO	null	w/o MS2:PE O-24:0_18:1;4O	null	null	[M+Na-2H]1-	null	null	null	1142	0	0	0	285.5	2	774	878.65497	9.708	LAYRYRDCJAOZJW-UHFFFAOYSA-N
+SML	776	null	null	C52H100NO7P	O=C(OC(COC=CCCCCCCCCC=CCC=CCCCCCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:PE O-21:3_26:0	null	null	[M-H2O-H]1-	null	null	null	0	1413	1402	2164	1244.75	0.7256294962256894	775	880.7171	13.979	NNFWAHAJEARRCD-UHFFFAOYSA-N
+SML	777	null	null	null	null	null	RIKEN N-VS1 ID-7384 from Mouse_Feces_WT_ABX_Ctr	null	null	[M-H]1-	null	null	null	0	0	0	1124	281	2	776	882.68555	14.083	null
+SML	778	null	null	C103H200O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCCCCCCCCCCC)CCCCCCCC=CCCCCCCCC	null	Unknown	null	null	[M-2H]2-	null	null	null	0	1159	1088	1062	827.25	0.66850604297345362	777	884.70966	13.965	RVGAIKOQRCTJEU-UHFFFAOYSA-N
+SML	779	null	null	C52H90NO8P	O=C(OCC(OC(=O)CCCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCC	null	w/o MS2:PE 15:0_32:7	null	null	[M-H]1-	null	null	null	0	8584	8122	9874	6645	0.67593849393162853	778	886.63977	13.438	ONRFHTRBFAADQR-UHFFFAOYSA-N
+SML	780	null	null	C45H77O15P	O=C(OCC(OC(=O)CCCCCCC(O)C=CCCCCO)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCC=CCC=CCC=CCC=CCC	null	w/o MS2:PI 22:4_14:1;2O	null	null	[M-H]1-	null	null	null	0	2512	2521	2542	1893.75	0.66669970836002346	779	887.48523	8.056	SYTINXIXJYUQMR-UHFFFAOYSA-N
+SML	781	null	null	C45H79O15P	O=C(OCC(OC(=O)CCCCCCC(O)C=CCCCCO)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCC=CCC=CCC=CCCCCC	null	w/o MS2:PI 22:3_14:1;2O	null	null	[M-H2O-H]1-	null	null	null	0	6207	6045	6161	4603.25	0.6668310957223742	780	889.50409	8.389	OAZUEPXHQGPYMO-UHFFFAOYSA-N
+SML	782	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-7496 from Mouse_Muscle_WT_N_F1	null	null	[M-H]1-	null	null	null	0	1109	1104	1100	828.25	0.66668148675759764	781	890.45807	8.056	null
+SML	783	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1816	454	2	782	892.47498	8.417	null
+SML	784	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-7598 from Mouse_WAT_fads2KO_N_Ctr	null	null	[M+Na-2H]1-	null	null	null	0	1812	1788	1825	1356.25	0.66676243304033667	783	898.57703	9.882	null
+SML	785	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-7602 from Mouse_Brain_WT_N_F1AA	null	null	[M-H]1-	null	null	null	0	6301	5938	8046	5071.25	0.69091832794714603	784	898.67932	13.979	null
+SML	786	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-7623 from Mouse_Plasma_ApoEKO_N_F1EPA	null	null	[M+Na-2H]1-	null	null	null	0	1721	1615	1549	1221.25	0.66918606900240907	785	900.59229	10.861	null
+SML	787	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1074	0	0	268.5	2	786	905.4295	8.396	null
+SML	788	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	18625	17048	16388	13015.25	0.67055480253917521	787	907.42535	8.396	null
+SML	789	null	null	C52H82NO10P	O=C(OCC(OC(=O)CCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCC(N)C(=O)O)CCCCC=CCC=CCC=CCC=CCC	null	w/o MS2:PS 18:4_28:6	null	null	[M-H2O-H]1-	null	null	null	4155	3597	3606	3634	3748	0.072516104692715133	788	910.56152	8.609	MTMMVWYFZNYHTE-UHFFFAOYSA-N
+SML	790	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-7749 from Mouse_Kidney_WT_N_F1EPA	null	null	[M-H]1-	null	null	null	1688	1336	1310	1275	1402.25	0.13701732910136075	789	913.53479	8.609	null
+SML	791	null	null	C47H81O15P	O=C(OCC(OC(=O)CCCCCCCC(O)C(O)CCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:PI 20:5_18:0;2O	null	null	[M-H2O-H]1-	null	null	null	0	2714	2747	2744	2051.25	0.6667062364945473	790	915.51782	8.472	BDSOJTHESOFUEF-UHFFFAOYSA-N
+SML	792	null	null	C47H83O15P	O=C(OCC(OC(=O)CCCCC(O)C(O)C=CCC=CCC=CCC=CCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCCCC	null	w/o MS2:PI 18:0_20:4;2O	null	null	[M-H2O-H]1-	null	null	null	0	6275	6383	6514	4793	0.6669783603863354	791	917.53571	8.924	GAVWUROQERCRBQ-UHFFFAOYSA-N
+SML	793	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-7812 from Mouse_Muscle_WT_N_F1	null	null	[M-H]1-	null	null	null	0	0	0	1007	251.75	2	792	918.49371	8.479	null
+SML	794	null	null	C48H96NO9P	O=C(OCC(OC(=O)CCCCCCC(O)CCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCCCCCCCC	null	w/o MS2:PC 24:0_16:0;1O	null	null	[M-H]1-	null	null	null	0	1752	1585	2030	1341.75	0.6805566278273395	793	920.6947	13.021	XZXXHHHXEGAZEA-UHFFFAOYSA-N
+SML	795	null	null	C49H95O13P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCC	null	w/o MS2:PI 14:0_26:0	null	null	[M-C6H10O5-H]1-	null	null	null	0	1229	1164	1235	907	0.66760828286127938	794	921.64349	12.951	IGSBLBJACBODDD-UHFFFAOYSA-N
+SML	796	null	null	C55H92NO8P	O=C(OCC(OC(=O)CCCCCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCCN)CCCCCCCCCCCC=CCC=CCCCCC	null	w/o MS2:PE 22:2_28:7	null	null	[M-H]1-	null	null	null	0	2160	1936	2262	1589.5	0.6721476427712153	795	924.65112	10.833	CTUSZGBJHWEHNN-UHFFFAOYSA-N
+SML	797	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	3747	5791	4626	4366	4632.5	0.18474314219739443	796	928.48462	8.625	null
+SML	798	null	null|null	C50H98NO8P|C50H98NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCCCCCCCCCC	null|null	PC 42:1|PC 26:0_16:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	7254	6668	6666	5147	0.66883095945839255	797	930.71405	13.681	WPEFUNYPFLGMTK-UHFFFAOYSA-N
+SML	799	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4775	4491	4361	3406.75	0.66859501440851887	798	933.44	8.465	null
+SML	800	null	null	C46H79O17P	O=C(OCC(OC(=O)CCC(O)C=CCC=CCC(O)C=CC=CC=CC(O)C(O)C)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCCC	null	w/o MS2:PI 17:0_20:5;4O	null	null	[M-H2O-H]1-	null	null	null	0	2561	2255	2233	1762.25	0.67205737580758307	799	933.50037	8.924	DYNQHXSEIZFLQR-UHFFFAOYSA-N
+SML	801	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	37543	35808	35197	27137	0.6676715967903134	800	935.45551	8.924	null
+SML	802	null	null	C57H96NO7P	O=C(OC(COC=CCCCCCCCCCCCC=CCC=CCC=CCCCCCCC)COP(=O)(O)OCCN)CCCCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:PE O-28:4_24:6	null	null	[M-H]1-	null	null	null	0	6271	5036	6617	4481	0.68365082627450979	801	936.68677	12.646	LVMODWKSXOJJKJ-UHFFFAOYSA-N
+SML	803	null	null	C57H96NO7P	O=C(OC(COC=CCCCCCCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCCC=CCC=CCC=CCC=CCC	null	w/o MS2:PE O-24:6_28:4	null	null	[M-H]1-	null	null	null	0	1348	1211	1867	1106.5	0.71389525705808965	802	936.68677	12.924	DUVPVCKLRJVQBU-UHFFFAOYSA-N
+SML	804	null	null	C53H87NO9	O=C(NC(COC1OC(CO)C(O)C(O)C1O)C(O)C=CCCC=CCCC=CCCCCCCCC)C(O)CCCCCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:HexCer 21:3;2O/26:6;O	null	null	[M-H]1-	null	null	null	0	2090	1835	2122	1511.75	0.67205672245025849	803	940.64978	10.035	WWCIXFMCDKRVFG-UHFFFAOYSA-N
+SML	805	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-8039 from Cell_HeLa_WT_N_Ctr	null	null	[M-H]1-	null	null	null	0	4513	4520	4478	3377.75	0.66668885600186079	804	945.56567	9.632	null
+SML	806	null	null|null	C51H97O13P|C51H97O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCCCCCCCCCCCC	null|null	PI 42:1|PI 26:0_16:1	null|null	null|null	[M-H]1-	null	null	null	0	8191	7500	7482	5793.25	0.66909677030275194	805	947.65503	13	DNBXGSMCEWNLIO-UHFFFAOYSA-N
+SML	807	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1594	1574	1634	1200.5	0.66699039224901768	806	948.47375	7.472	null
+SML	808	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1622	1578	1721	1230.25	0.66843646155585901	807	948.54016	9.632	null
+SML	809	null	null|null	C51H99O13P|C51H99O13P	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCCCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCC	null|null	PI 42:0|PI 16:0_26:0	null|null	null|null	[M-H]1-	null	null	null	0	1389	1359	1781	1132.25	0.68795008139243718	808	949.67474	13.201	SBOQEXXNMMCJRA-UHFFFAOYSA-N
+SML	810	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	6774	6320	6591	4921.25	0.66774294756242281	809	950.48877	7.806	null
+SML	811	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1397	1417	1404	1054.5	0.66671297924673678	810	951.45276	8.924	null
+SML	812	null	null	C57H95NO10	O=C(NC(COC1OC(CO)C(O)C(O)C1O)C(O)C(O)C=CCCC=CCCC=CCCC)C(O)CCCCCCCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:HexCer 17:3;3O/34:6;(2OH)	null	null	[M-H]1-	null	null	null	0	23908	22128	26791	18206.75	0.67496720132654386	811	952.68341	12.306	AAZJNWPWDWPERE-UHFFFAOYSA-N
+SML	813	null	null|null	C52H102NO8P|C52H102NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCCCCCCCCCCCCCCCCCC	null|null	PC 44:1|PC 26:0_18:1	null|null	null|null	[M+CH3COO]1-	null	null	null	0	3306	3054	2964	2331	0.66955244692892435	812	958.7428	13.972	QYSJKJRONZHWQS-UHFFFAOYSA-N
+SML	814	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1517	1523	1554	1148.5	0.66681612592262585	813	962.52368	8.208	null
+SML	815	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1893	1164	1137	1048.5	0.74565111640872717	814	963.48816	9.653	null
+SML	816	null	null	C50H100NO10P	O=C(OC(COCCCCCCCCCCCCCCCCCCCCCCCCCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCC(OO)C=CCCCCCCO	null	w/o MS2:PC O-26:0_16:1;3O	null	null	[M-H]1-	null	null	null	0	15086	15461	22028	13143.75	0.70941258818727837	815	964.72095	13.083	SMUFVYJXKPAXEH-UHFFFAOYSA-N
+SML	817	null	null	C58H97NO10	O=C(OCCC=CCC=CCC=CCCCCCCCC(=O)NC(COC1OC(CO)C(O)C(O)C1O)C(O)C=CCCCCCCC)CCCCCCCCC=CCC=CCC=CCC=CCC	null	w/o MS2:HexCer 30:4;3O(FA 22:4)	null	null	[M-H]1-	null	null	null	0	2710	2498	3569	2194.25	0.69927145649500611	816	966.69733	12.847	LIPMUQXFLJUQHD-UHFFFAOYSA-N
+SML	818	null	null	C55H92NO7P	O=C(OC(COCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCCCCCC=CCC=CCC=CCC	null	w/o MS2:PC O-28:7_19:3	null	null	[M-H]1-	null	null	null	0	32856	30741	39255	25713	0.68136598325202413	817	968.67572	11.174	MCISRYDGFSREHQ-UHFFFAOYSA-N
+SML	819	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	2038	1703	1757	1704	1800.5	0.089047413658664809	818	970.68408	6.516	null
+SML	820	null	null	null	null	null	Unknown	null	null	[2M-H]1-	null	null	null	3311	3267	3235	3276	3272.25	0.0095517353970454681	819	971.68066	6.578	null
+SML	821	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1622	1493	1526	1160.25	0.66833263829950462	820	972.47046	7.806	null
+SML	822	null	null|null	C53H101O13P|C53H101O13P	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCCCCCCCCCCCC|O=C(OCC(OC(=O)CCCCCCCC=CCCCCCCCC)COP(=O)(O)OC1C(O)C(O)C(O)C(O)C1O)CCCCCCCCCCCCCCCCCCCCCCCCC	null|null	PI 44:1|PI 26:0_18:1	null|null	null|null	[M-H]1-	null	null	null	0	20430	18919	19391	14685	0.66805074613400994	821	975.68896	13.229	JUTWQTLXVZTTJV-UHFFFAOYSA-N
+SML	823	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	6112	5957	5843	4478	0.66712107726257064	822	976.50281	7.868	null
+SML	824	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	23744	22830	23270	17461	0.66700923947407653	823	978.51929	8.201	null
+SML	825	null	null	C59H100NO8P	O=C(OCC(OC(=O)CCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCCN)CCCCCCCCCCCCCCCCC	null	w/o MS2:PE 18:0_36:9	null	null	[3M-H]1-	null	null	null	0	73956	76870	113568	66098.5	0.72028836092707993	824	980.71228	13.035	BJBQMTKMSIXLHJ-UHFFFAOYSA-N
+SML	826	null	null	null	null	null	Unknown	null	null	[M-2H]1-	null	null	null	0	1025	0	0	256.25	2	825	992.659	6.583	null
+SML	827	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	7736	7550	7401	7659	7586.5	0.019154366471928846	826	993.66113	6.578	null
+SML	828	null	null	C57H96NO7P	O=C(OC(COCCCCCCCCCCCCC=CCC=CCC=CCC=CCC=CCC)COP(=O)([O-])OCC[N+](C)(C)C)CCCCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:PC O-28:5_21:5	null	null	[M-H]1-	null	null	null	0	2983	2529	4707	2554.75	0.76112277150295005	827	996.70459	12.694	VWIARKUJPUKMDJ-UHFFFAOYSA-N
+SML	829	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1339	1334	1288	990.25	0.66706953153797111	828	998.48639	7.868	null
+SML	830	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	0	5070	4980	5025	3768.75	0.66673794822009547	829	1000.50269	8.201	null
+SML	831	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	0	1122	1042	1054	804.5	0.66810306353557469	830	1011.41455	8.924	null
+SML	832	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1438	1343	1289	1017.5	0.66940916583412158	831	1013.40955	8.924	null
+SML	833	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	1549	1529	1498	1537	1528.25	0.014249816286852653	832	1013.72412	6.557	null
+SML	834	null	null	C61H98NO10P	O=C(OCC(OC(=O)CCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCC=CCCCCCCC	null	w/o MS2:PS 17:1_38:10	null	null	[M-H]1-	null	null	null	0	1441	1315	1661	1104.25	0.67912454050548032	833	1034.68677	12.285	NOJSFYXWMLKDDT-UHFFFAOYSA-N
+SML	835	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	0	0	1011	1214	556.25	1.1642725906419147	834	1038.67224	13.031	null
+SML	836	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1037	1035	1456	882	0.7034456823431301	835	1046.72437	13.083	null
+SML	837	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1750	1505	1884	1284.75	0.67776339345261605	836	1050.68054	11.208	null
+SML	838	null	null	C64H99O10P	O=C(OCC(OC(=O)CCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCC(O)CO)CCCCCCC=CCC=CCC=CCC=CCC	null	w/o MS2:PG 20:4_38:10	null	null	[M-H]1-	null	null	null	0	1662	1607	1609	1219.5	0.66699371558846887	837	1057.69189	13.229	YECQTHRBMXJYMN-UHFFFAOYSA-N
+SML	839	null	null	C63H102NO10P	O=C(OCC(OC(=O)CCCCCCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCC(N)C(=O)O)CCCCCCCCC=CCC=CCC=CCC	null	w/o MS2:PS 19:3_38:8	null	null	[M+Hac-H]1-	null	null	null	0	4596	4671	6351	3904.5	0.69821495578045467	838	1062.7168	13.035	SCOVOTWFDQHYPQ-UHFFFAOYSA-N
+SML	840	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1136	1179	0	578.75	1.1550988558812105	839	1065.69409	13.031	null
+SML	841	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1560	1536	1652	1187	0.66799586530381583	840	1082.50403	8.201	null
+SML	842	null	null	null	null	null	Unknown	null	null	[M-2H]1-	null	null	null	0	8211	7279	9140	6157.5	0.67798863827452649	841	1082.74634	12.958	null
+SML	843	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	7073	5976	8694	5435.75	0.6975895691535875	842	1098.74268	12.847	null
+SML	844	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1668	1483	1712	1215.75	0.67164352951416528	843	1098.74268	12.382	null
+SML	845	null	null	null	null	null	Unknown	null	null	[M-2H]1-	null	null	null	0	1303	1362	1852	1129.25	0.70137705504847403	844	1110.7749	13.208	null
+SML	846	null	null	C68H107O10P	O=C(OCC(OC(=O)CCCCCCCCCCCCCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC)COP(=O)(O)OCC(O)CO)CCCC=CCC=CCC=CCC=CCC=CCC=CCC=CCC	null	w/o MS2:PG 26:7_36:7	null	null	[M-H]1-	null	null	null	0	1833	2014	3018	1716.25	0.73258116719382382	845	1113.75281	13.354	WGGOWMLQOYZGIL-UHFFFAOYSA-N
+SML	847	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	24063	22062	25642	17941.75	0.67164786543373001	846	1114.73633	11.993	null
+SML	848	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	13645	13105	18118	11217	0.69610537651222515	847	1126.77112	13.042	null
+SML	849	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1123	280.75	2	848	1128.75012	12.75	null
+SML	850	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	13940	11696	15335	10242.75	0.68254152644212074	849	1130.73071	10.979	null
+SML	851	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1869	1750	2030	1412.25	0.67159890885487961	850	1136.71936	11.993	null
+SML	852	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	74472	71079	106225	62944	0.71252027615657187	851	1142.76636	12.972	null
+SML	853	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	4894	4840	6364	4024.5	0.68936330596080531	852	1164.74683	12.972	null
+SML	854	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1377	1264	1431	1018	0.67016139812411346	853	1196.73621	11.993	null
+SML	855	null	null	null	null	null	Unknown	null	null	[M+Cl]1-	null	null	null	0	1210	1052	1469	932.75	0.69166974596285902	854	1200.72327	12.972	null
+SML	856	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1033	258.25	2	855	1208.77368	13.042	null
+SML	857	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1064	1125	1120	827.25	0.66750417119422523	856	1213.90723	13.771	null
+SML	858	null	null	null	null	null	Unknown	null	null	[M+Hac-H]1-	null	null	null	0	3311	3306	4622	2809.75	0.70214580366106061	857	1224.76648	12.972	null
+SML	859	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1251	1141	0	598	1.1571398871467391	858	1227.74219	12.969	null
+SML	860	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	0	1080	270	2	859	1246.75049	12.979	null
+SML	861	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1166	1143	1218	881.75	0.66761542274978536	860	1263.83459	13.208	null
+SML	862	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2410	2318	2357	1771.25	0.66700641295861629	861	1281.974	14.125	null
+SML	863	null	null	C69H128O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCC	null	w/o MS2:CL 12:0_16:1_16:1_16:1	null	null	[2M-H]1-	null	null	null	0	3073	2882	2971	2231.5	0.66758321345959903	862	1289.85303	13.229	TXZMUJYZBUKSIA-UHFFFAOYSA-N
+SML	864	null	null	C69H130O17P2	O=C(OCC(OC(=O)CCCCCCCC=CCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCCC)CCCCCCCC=CCCCCC	null	w/o MS2:CL 12:0_18:0_15:1_15:1	null	null	[2M-H]1-	null	null	null	0	3234	3031	3176	2360.25	0.66764722643039731	863	1291.86694	13.375	INMFTTYZMLSSFZ-UHFFFAOYSA-N
+SML	865	null	null	C69H132O17P2	O=C(OCC(OC(=O)CCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCC)CCCCCCCC=CCCCC	null	w/o MS2:CL 12:0_14:1_17:0_17:0	null	null	[M-H]1-	null	null	null	0	1114	1026	1064	801	0.66818301960640625	864	1293.88245	13.542	RYAOTUCZQJBSIS-UHFFFAOYSA-N
+SML	866	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1090	1016	1015	780.25	0.66818461949116292	865	1311.83191	13.229	null
+SML	867	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1147	1094	1036	819.25	0.66895896268263644	866	1313.84985	13.375	null
+SML	868	null	null	C71H132O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCC)CCCCCCCC=CCC=CCCC	null	w/o MS2:CL 16:0_14:1_16:0_16:2	null	null	[M-H]1-	null	null	null	0	4037	3853	3903	2948.25	0.66718716151124591	867	1317.88391	13.396	FYJWUKAALQLOTK-UHFFFAOYSA-N
+SML	869	null	null	C71H134O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCC)CCCCCCCC=CCC=CCCC	null	w/o MS2:CL 12:0_17:0_17:0_16:2	null	null	[M-H]1-	null	null	null	0	2985	2794	2858	2159.25	0.66767943976017241	868	1319.8999	13.556	OWFDEIMFAXRJNM-UHFFFAOYSA-N
+SML	870	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1347	1356	1284	996.75	0.6674407435100711	869	1339.86255	13.396	null
+SML	871	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	1050	0	262.5	2	870	1341.8822	13.542	null
+SML	872	null	null	null	null	null	Unknown	null	null	[2M-H]1-	null	null	null	0	4703	4681	4609	3498.25	0.66676542475917877	871	1343.89673	13.417	null
+SML	873	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-8973 from Mouse_Feces_WT_N_Ctr	null	null	[M-H]1-	null	null	null	0	3223	2983	3133	2334.75	0.66801366806309415	872	1345.91284	13.562	null
+SML	874	null	null	C73H138O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCC=CCCCCCC)CCCCCCCC=CCCCCCC	null	w/o MS2:CL 16:0_16:1_16:0_16:1	null	null	[M-H]1-	null	null	null	0	1390	1387	1358	1033.75	0.66681278668016331	873	1347.93042	13.75	DQYUJSVAZUJURR-UHFFFAOYSA-N
+SML	875	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1112	1167	1076	838.75	0.66815777003334609	874	1350.03528	14.521	null
+SML	876	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1128	1270	2899	1324.25	0.90143420750308612	875	1356.75037	10.472	null
+SML	877	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1666	1498	1586	1187.5	0.66916572415931341	876	1365.87793	13.417	null
+SML	878	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1072	1084	1073	807.25	0.66670068188037679	877	1367.89709	13.562	null
+SML	879	null	null	C73H132N2O21	O=C(O)C1(OC2C(O)C(OC(CO)C2O)OC3C(O)C(O)C(OCC(NC(=O)CCCCCCCCCCCCCCCC=CCC=CCCCCCCC)C(O)C=CCCCCCCCCCCCCCCCCC)OC3CO)OC(C(O)C(O)CO)C(N=C(O)C)C(O)C1	null	w/o MS2:GM3 50:3;2O	null	null	[2M-H]1-	null	null	null	0	14730	13612	13750	10523	0.6683422882044181	878	1371.92664	13.597	WRQXVXGPRNIESD-UHFFFAOYSA-N
+SML	880	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1485	1375	1434	1073.5	0.66798016246368508	879	1372.95825	9.049	null
+SML	881	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4578	4466	4381	3356.25	0.66709988178406099	880	1373.94373	13.771	null
+SML	882	null	null	null	null	null	Unknown	null	null	[2M-H]1-	null	null	null	0	1729	1601	1637	1241.75	0.66807810841351278	881	1373.95032	9.167	null
+SML	883	null	null	C73H136N2O21	O=C(O)C1(OC2C(O)C(OC(CO)C2O)OC3C(O)C(O)C(OCC(NC(=O)CCCCCCCCCCCCCCCCCCCCCCCCCCC)C(O)C=CCCCCCCCCCCCCCCCCC)OC3CO)OC(C(O)C(O)CO)C(N=C(O)C)C(O)C1	null	w/o MS2:GM3 50:1;2O	null	null	[M-H]1-	null	null	null	0	1718	1667	1660	1261.25	0.66698164250255276	882	1375.95557	13.979	VXDVVJYELAYWTL-UHFFFAOYSA-N
+SML	884	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1137	1003	1049	797.25	0.6703036503034554	883	1376.98865	9.757	null
+SML	885	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1155	1150	2537	1210.5	0.85740683230915316	884	1378.73584	10.5	null
+SML	886	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	4763	4694	4583	3510	0.66700127965090827	885	1393.90686	13.597	null
+SML	887	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1537	1507	1496	1135	0.66684143206636604	886	1395.92651	13.771	null
+SML	888	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1984	1888	1895	1441.75	0.66735530214898375	887	1395.93994	9.174	null
+SML	889	null	null	C77H142O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCC)CCCCCCC=CCC=CCC=CCC=CCC	null	w/o MS2:CL 16:0_16:0_16:0_20:4	null	null	[2M-H]1-	null	null	null	0	18010	16759	17217	12996.5	0.66785146630794889	888	1399.9635	13.792	XIBACHFMHYFACK-UHFFFAOYSA-N
+SML	890	null	null	C75H138N2O21	O=C(O)C1(OC2C(O)C(OC(CO)C2O)OC3C(O)C(O)C(OCC(NC(=O)CCCCCCCCCCCCCCCC=CCCCCCCCCCC)C(O)C=CCCCCCCCCCCCCCCCCCCC)OC3CO)OC(C(O)C(O)CO)C(N=C(O)C)C(O)C1	null	w/o MS2:GM3 52:2;2O	null	null	[M-H]1-	null	null	null	0	6146	5508	5646	4325	0.66967185715929201	889	1401.97412	14	PBBMMXHUGCQFIC-UHFFFAOYSA-N
+SML	891	null	null	C77H146O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCC)CCCCCCCC=CCC=CCCCC	null	w/o MS2:CL 16:0_17:0_18:0_17:2	null	null	[M-H]1-	null	null	null	0	2502	2353	2315	1792.5	0.66818514104347937	890	1403.99292	14.215	XYLPQXBSURNDLO-UHFFFAOYSA-N
+SML	892	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	0	0	1133	283.25	2	891	1406.7677	11.792	null
+SML	893	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1264	1433	1343	1010	0.67016222423394178	892	1416.00085	9.153	null
+SML	894	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	6113	5881	5831	4456.25	0.6672364993326485	893	1421.94275	13.792	null
+SML	895	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	2110	1985	1906	1500.25	0.66901293957193586	894	1423.95557	14	null
+SML	896	null	null	C79H146O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCC)CCCCCCC=CCC=CCC=CCC=CCC	null	w/o MS2:CL 16:0_17:0_17:0_20:4	null	null	[2M-H]1-	null	null	null	0	9825	8867	9144	6959	0.66917129456100799	895	1427.99207	14.021	QGNJGOINLSQZEX-UHFFFAOYSA-N
+SML	897	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1389	1285	1310	996	0.66815037473156158	896	1429.02417	9.882	null
+SML	898	null	null	C79H148O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCC)CCCCCCCCCC=CCC=CCC=CCC	null	w/o MS2:CL 16:0_20:3_17:0_17:0	null	null	[2M-H]1-	null	null	null	0	2361	2231	2289	1720.25	0.66738290250279242	897	1430.00916	14.229	VVDDYHAHKSVCMZ-UHFFFAOYSA-N
+SML	899	null	null	null	null	null	Unknown	null	null	[2M-H]1-	null	null	null	0	3241	2721	2745	2176.75	0.67569803765892844	898	1430.01587	10.056	null
+SML	900	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1157	1034	0	547.75	1.1583339290406216	899	1433.05432	10.854	null
+SML	901	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1913	1689	1647	1312.25	0.67257812680710871	900	1446.04639	9.903	null
+SML	902	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	3305	3142	3198	2411.25	0.66725626239003999	901	1449.97046	14.021	null
+SML	903	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	2959	2738	2700	2099.25	0.66888237010611629	902	1452.00293	10.062	null
+SML	904	null	null	C81H150O17P2	O=C(OCC(OC(=O)CCCCCCCCCCCCCCCC)COP(=O)(O)OCC(O)COP(=O)(O)OCC(OC(=O)CCCCCCCCCCCCCCC)COC(=O)CCCCCCCCCCCCCCCC)CCCCCCCCC=CCC=CCC=CCC=CCC	null	w/o MS2:CL 16:0_17:0_17:0_22:4	null	null	[M-H]1-	null	null	null	0	1823	1688	1729	1310	0.66806091216237562	903	1456.02417	14.25	YFUUXZMUGRWCSB-UHFFFAOYSA-N
+SML	905	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	0	1164	1218	595.5	1.1552938212617212	904	1472.06836	10	null
+SML	906	null	null	null	null	null	w/o MS2:RIKEN N-VS1 ID-9128 from Mouse_AdrenalGlands_fads2KO_N_Ctr	null	null	[2M-H]1-	null	null	null	2039	2622	2326	2303	2322.5	0.10263636472730574	905	1482.09399	8.703	null
+SML	907	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1640	1689	1720	1262.25	0.66717705482105549	906	1508.00427	8.91	null
+SML	908	null	null	null	null	null	Unknown	null	null	[2M+Hac-H]1-	null	null	null	0	1646	1671	1555	1218	0.66792161616562462	907	1518.06738	9.049	null
+SML	909	null	null	null	null	null	Unknown	null	null	[2M+Hac-H]1-	null	null	null	0	1169	1092	1094	838.75	0.66803436751833956	908	1522.10193	9.757	null
+SML	910	null	null	null	null	null	Unknown	null	null	[2M+Hac-H]1-	null	null	null	0	1458	1248	1287	998.25	0.67289793731648306	909	1574.13318	9.882	null
+SML	911	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	1351	1299	1241	972.75	0.66826476380687105	910	1597.04663	8.944	null
+SML	912	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	4806	4080	3943	3207.25	0.67704155095303875	911	1616.00647	8.389	null
+SML	913	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1368	1289	1172	957.25	0.67195186143382091	912	1637.98523	8.389	null
+SML	914	null	null	null	null	null	Unknown	null	null	[M-H]1-	null	null	null	0	22879	19917	19924	15680	0.67257386775063055	913	1672.07288	8.924	null
+SML	915	null	null	null	null	null	Unknown	null	null	[M+Na-2H]1-	null	null	null	0	1565	1706	1652	1230.75	0.66833515636901852	914	1694.05127	8.924	null
+

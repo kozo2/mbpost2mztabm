@@ -1,0 +1,229 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000180__PC_PI_SM_human
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000180, MPST000180__PC_PI_SM_human.xlsx, sheet "Sheet1": Peak area of phosphatidylcholine, phosphatidylinositol and sphingomyelin detected from human faecal metabolome using LC/MS/MS MRM library for phospholipid profiling
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	1-pre
+MTD	sample[1]-custom[1]	[,,Tissue weight (mg)*, 23.9]
+MTD	sample[1]-custom[2]	[,,header_1, Technical replicate 1]
+MTD	sample[2]	2-pre
+MTD	sample[2]-custom[1]	[,,Tissue weight (mg)*, 19.5]
+MTD	sample[2]-custom[2]	[,,header_1, null]
+MTD	sample[3]	3-pre
+MTD	sample[3]-custom[1]	[,,Tissue weight (mg)*, 24]
+MTD	sample[3]-custom[2]	[,,header_1, null]
+MTD	sample[4]	4-pre
+MTD	sample[4]-custom[1]	[,,Tissue weight (mg)*, 20]
+MTD	sample[4]-custom[2]	[,,header_1, null]
+MTD	sample[5]	1-post
+MTD	sample[5]-custom[1]	[,,Tissue weight (mg)*, 20]
+MTD	sample[5]-custom[2]	[,,header_1, null]
+MTD	sample[6]	5-post
+MTD	sample[6]-custom[1]	[,,Tissue weight (mg)*, 26]
+MTD	sample[6]-custom[2]	[,,header_1, null]
+MTD	sample[7]	1-pre_2
+MTD	sample[7]-custom[1]	[,,Tissue weight (mg)*, 23.9]
+MTD	sample[7]-custom[2]	[,,header_1, Technical replicate 2]
+MTD	sample[8]	2-pre_2
+MTD	sample[8]-custom[1]	[,,Tissue weight (mg)*, 19.5]
+MTD	sample[8]-custom[2]	[,,header_1, null]
+MTD	sample[9]	3-pre_2
+MTD	sample[9]-custom[1]	[,,Tissue weight (mg)*, 24]
+MTD	sample[9]-custom[2]	[,,header_1, null]
+MTD	sample[10]	4-pre_2
+MTD	sample[10]-custom[1]	[,,Tissue weight (mg)*, 20]
+MTD	sample[10]-custom[2]	[,,header_1, null]
+MTD	sample[11]	1-post_2
+MTD	sample[11]-custom[1]	[,,Tissue weight (mg)*, 20]
+MTD	sample[11]-custom[2]	[,,header_1, null]
+MTD	sample[12]	5-post_2
+MTD	sample[12]-custom[1]	[,,Tissue weight (mg)*, 26]
+MTD	sample[12]-custom[2]	[,,header_1, null]
+MTD	sample[13]	1-pre_3
+MTD	sample[13]-custom[1]	[,,Tissue weight (mg)*, 23.9]
+MTD	sample[13]-custom[2]	[,,header_1, Technical replicate 3]
+MTD	sample[14]	2-pre_3
+MTD	sample[14]-custom[1]	[,,Tissue weight (mg)*, 19.5]
+MTD	sample[14]-custom[2]	[,,header_1, null]
+MTD	sample[15]	3-pre_3
+MTD	sample[15]-custom[1]	[,,Tissue weight (mg)*, 24]
+MTD	sample[15]-custom[2]	[,,header_1, null]
+MTD	sample[16]	4-pre_3
+MTD	sample[16]-custom[1]	[,,Tissue weight (mg)*, 20]
+MTD	sample[16]-custom[2]	[,,header_1, null]
+MTD	sample[17]	1-post_3
+MTD	sample[17]-custom[1]	[,,Tissue weight (mg)*, 20]
+MTD	sample[17]-custom[2]	[,,header_1, null]
+MTD	sample[18]	5-post_3
+MTD	sample[18]-custom[1]	[,,Tissue weight (mg)*, 26]
+MTD	sample[18]-custom[2]	[,,header_1, null]
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	ms_run[5]-location	null
+MTD	ms_run[6]-location	null
+MTD	ms_run[7]-location	null
+MTD	ms_run[8]-location	null
+MTD	ms_run[9]-location	null
+MTD	ms_run[10]-location	null
+MTD	ms_run[11]-location	null
+MTD	ms_run[12]-location	null
+MTD	ms_run[13]-location	null
+MTD	ms_run[14]-location	null
+MTD	ms_run[15]-location	null
+MTD	ms_run[16]-location	null
+MTD	ms_run[17]-location	null
+MTD	ms_run[18]-location	null
+MTD	assay[1]	1-pre
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	2-pre
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	3-pre
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	4-pre
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	1-post
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	5-post
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	1-pre_2
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	2-pre_2
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	3-pre_2
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	4-pre_2
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	1-post_2
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	5-post_2
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	1-pre_3
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	2-pre_3
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	3-pre_3
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	4-pre_3
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	1-post_3
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	5-post_3
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	LPC(14:0)	null	null	null	null	null	null	10998	null	null	21623	7048	5339	11938	null	null	32062	7707	7612	9587	null	null	33379	11251	7122	null	null
+SML	2	null	null	null	null	null	LPC(16:0)	null	null	null	null	null	null	4546790	30920	42576	4611103	3796184	4917098	5032235	31369	52648	5159505	4288380	5691119	5397498	33832	49412	5437231	4546064	5615836	3293322.222222222	0.73249892098346669
+SML	3	null	null	null	null	null	LPC(16:1)	null	null	null	null	null	null	21390	null	null	28563	23060	10394	32226	null	null	34417	25334	10980	27792	null	null	34392	24299	10579	null	null
+SML	4	null	null	null	null	null	LPC(18:0)	null	null	null	null	null	null	2459023	9589	13941	1754485	580904	1602521	3118297	13972	12249	2366099	731156	1917497	3313834	15328	16241	2318593	772037	1846225	1270110.611111111	0.9136006722441623
+SML	5	null	null	null	null	null	LPC(18:1)	null	null	null	null	null	null	222533	3430	12561	324401	106750	195711	259033	5790	14798	417601	140326	227503	277483	6646	15322	442648	150433	228756	169540.27777777778	0.84462621187775333
+SML	6	null	null	null	null	null	LPC(18:2)	null	null	null	null	null	null	63646	null	12096	100353	35626	13214	79670	null	9242	110720	38541	18479	83595	null	12432	133441	41005	16799	null	null
+SML	7	null	null	null	null	null	LPC(20:0)	null	null	null	null	null	null	10829	null	null	7949	null	9645	9751	null	null	12826	null	11342	11342	null	null	12103	null	10387	null	null
+SML	8	null	null	null	null	null	LPC(20:1)	null	null	null	null	null	null	9169	null	null	13089	null	15669	11059	null	null	17315	null	19457	10289	null	null	12926	null	18372	null	null
+SML	9	null	null	null	null	null	LPC(20:2)	null	null	null	null	null	null	1890	null	null	3145	422	4199	4819	null	null	4273	1048	7687	2515	null	null	5405	422	7418	null	null
+SML	10	null	null	null	null	null	PC(28:0-14:0/14:0)	null	null	null	null	null	null	17118	null	null	33808	16947	9125	14039	null	3723	39435	16916	15127	11245	null	7511	22450	9385	12167	null	null
+SML	11	null	null	null	null	null	PC(32:0-16:0/16:0)	null	null	null	null	null	null	531874	170471	27119	1633283	672416	1225592	631057	200984	62734	2159433	868250	1577627	721411	268014	70500	2457735	1054281	1342957	870874.33333333326	0.84399378785376078
+SML	12	null	null	null	null	null	PC(32:1-16:0/16:1)	null	null	null	null	null	null	9445	69371	null	121355	24600	34399	17500	118309	null	169669	39463	32589	28703	93117	null	168051	25298	43731	null	null
+SML	13	null	null	null	null	null	PC(34:0-16:0/18:0)	null	null	null	null	null	null	72069	108324	16311	202482	46005	124218	93494	137430	10378	321542	60771	146345	94434	116540	12233	403306	63976	79832	117205	0.87910967089910852
+SML	14	null	null	null	null	null	PC(34:1-16:0/18:1)	null	null	null	null	null	null	288133	91689	16036	1908184	445399	688958	408448	108079	24909	2633592	624180	911400	385801	85169	36357	2703146	601425	852946	711880.61111111112	1.1886761488051425
+SML	15	null	null	null	null	null	PC(34:1-16:1/18:0)	null	null	null	null	null	null	null	null	null	14842	null	null	null	null	null	17384	null	null	null	null	null	11553	null	null	null	null
+SML	16	null	null	null	null	null	PC(34:2-16:0/18:2)	null	null	null	null	null	null	64253	22027	7663	618299	218970	71829	55567	24895	10636	609512	322256	86276	103473	38348	4053	850970	279051	58418	191472	1.319067173308669
+SML	17	null	null	null	null	null	PC(34:2-16:1/18:1)	null	null	null	null	null	null	null	null	null	15829	null	null	null	null	null	20091	null	null	null	null	null	33543	null	null	null	null
+SML	18	null	null	null	null	null	PC(36:1-16:0/20:1)	null	null	null	null	null	null	4110	16096	null	36580	2331	11436	5797	25120	null	31631	6395	6832	5925	20471	null	28812	14316	12276	null	null
+SML	19	null	null	null	null	null	PC(36:1-18:0/18:1)	null	null	null	null	null	null	18323	20157	null	192138	26773	35382	20385	27727	null	296941	21189	45408	29516	40895	null	273462	18440	34938	null	null
+SML	20	null	null	null	null	null	PC(36:2-16:0/20:2)	null	null	null	null	null	null	9835	5303	null	61897	9001	11074	10623	null	null	82515	11939	18605	11087	null	null	73046	10313	11864	null	null
+SML	21	null	null	null	null	null	PC(36:2-18:0/18:2)	null	null	null	null	null	null	9230	5673	null	195628	19332	19219	19982	6395	null	206837	22114	7774	13448	null	null	199273	34825	9979	null	null
+SML	22	null	null	null	null	null	PC(36:2-18:1/18:1)	null	null	null	null	null	null	19956	27585	4340	181578	20448	22727	42877	45024	7215	221485	26687	23912	24762	42437	10037	215735	29312	29677	55321.888888888891	1.2785256862904624
+SML	23	null	null	null	null	null	PC(36:3-16:0/20:3)	null	null	null	null	null	null	12233	null	null	129966	6598	12263	11309	null	null	122598	12220	16014	12245	null	null	167686	19773	12273	null	null
+SML	24	null	null	null	null	null	PC(36:3-18:1/18:2)	null	null	null	null	null	null	null	5704	8590	37062	2770	null	16141	7593	2847	64529	15200	null	3798	11440	6650	75191	12335	null	null	null
+SML	25	null	null	null	null	null	PC(36:4-16:0/20:4)	null	null	null	null	null	null	null	null	null	156815	17194	null	13406	null	null	265070	37289	9551	13372	null	null	211315	29616	5763	null	null
+SML	26	null	null	null	null	null	PC(36:4-18:2/18:2)	null	null	null	null	null	null	15062	3002	1991	8050	3927	4007	10038	11053	8065	14018	14071	1944	17130	13089	2957	27026	5027	null	null	null
+SML	27	null	null	null	null	null	PC(36:5-16:0/20:5)	null	null	null	null	null	null	null	null	null	19890	null	null	null	null	null	21528	null	null	null	null	null	43079	null	null	null	null
+SML	28	null	null	null	null	null	PC(38:1-18:0/20:1)	null	null	null	null	null	null	null	8580	null	null	null	null	null	12446	null	null	null	null	null	10267	null	null	null	null	null	null
+SML	29	null	null	null	null	null	PC(38:2-18:0/20:2)	null	null	null	null	null	null	null	null	null	2466	null	null	null	null	null	16662	null	null	null	null	null	11375	null	null	null	null
+SML	30	null	null	null	null	null	PC(38:3-18:0/20:3)	null	null	null	null	null	null	null	null	null	19045	null	null	null	null	null	43518	null	null	null	null	null	24411	null	null	null	null
+SML	31	null	null	null	null	null	PC(38:4-18:0/20:4)	null	null	null	null	null	null	null	null	null	47710	4408	null	2244	null	null	73248	3687	null	4299	null	null	78629	null	null	null	null
+SML	32	null	null	null	null	null	PC(38:6-16:0/22:6)	null	null	null	null	null	null	null	null	8125	63036	2988	null	null	null	5068	77228	null	17322	null	null	17317	100589	15261	11142	null	null
+SML	33	null	null	null	null	null	PC(38:6-18:1/20:5)	null	null	null	null	null	null	null	null	10077	null	null	null	null	null	25904	null	null	null	null	null	15895	null	null	null	null	null
+SML	34	null	null	null	null	null	PC(44:12-22:6/22:6)	null	null	null	null	null	null	null	null	5497	null	null	null	null	null	7331	null	null	null	null	null	5523	null	null	null	null	null
+SML	35	null	null	null	null	null	LPI(16:0)	null	null	null	null	null	null	1070022	7198	1010839	606092	61266	297359	866558	7289	938252	648201	55747	280343	854377	3807	857905	656438	57991	271894	475087.66666666669	0.83431626845925921
+SML	36	null	null	null	null	null	LPI(18:0)	null	null	null	null	null	null	4868896	4830	26644	1308147	151641	674348	5012131	6051	25904	1491745	162491	748033	5212546	4031	27533	1399066	149996	745823	1223325.3333333335	1.4915556434117956
+SML	37	null	null	null	null	null	LPI(18:1)	null	null	null	null	null	null	239924	223	8320	111294	8734	21279	210016	447	9577	117372	6270	19375	202624	447	11850	109733	5598	20984	61337.055555555555	1.3404939875818815
+SML	38	null	null	null	null	null	LPI(20:0)	null	null	null	null	null	null	13720	null	null	4717	null	null	8679	null	null	3607	null	null	8819	null	null	3974	null	null	null	null
+SML	39	null	null	null	null	null	PI(30:0-14:0/16:0)	null	null	null	null	null	null	null	null	13258	null	null	null	null	null	18344	null	null	null	null	null	10938	null	null	null	null	null
+SML	40	null	null	null	null	null	PI(32:0-16:0/16:0)	null	null	null	null	null	null	122727	18755	54801	151688	26970	115326	132964	22839	55802	199737	51979	165899	104931	28769	41872	277260	36226	111590	95563.055555555562	0.74745286143263967
+SML	41	null	null	null	null	null	PI(34:0-16:0/18:0)	null	null	null	null	null	null	37818	25443	null	83987	11981	23092	52684	23793	null	116562	22870	76683	36365	5978	null	84500	15947	76259	null	null
+SML	42	null	null	null	null	null	PI(34:1-16:0/18:1)	null	null	null	null	null	null	336965	97422	661505	718587	51110	338313	263727	135895	716495	842216	77878	376315	321179	127170	629631	650115	54407	294111	371835.61111111112	0.71202027496972897
+SML	43	null	null	null	null	null	PI(34:1-16:1/18:0)	null	null	null	null	null	null	12246	null	null	48894	null	15958	5650	null	null	21645	null	15057	15035	null	null	48809	null	12175	null	null
+SML	44	null	null	null	null	null	PI(34:2-16:0/18:2)	null	null	null	null	null	null	367462	28711	200658	406105	45520	160017	378926	26383	362822	416749	55313	186722	364004	25515	270966	379013	56434	222715	219668.61111111112	0.69010345776137516
+SML	45	null	null	null	null	null	PI(34:3-16:0/18:3)	null	null	null	null	null	null	14871	9443	null	36534	8020	33538	6109	15191	4721	39687	3882	42857	14591	9276	4044	46083	9177	36244	null	null
+SML	46	null	null	null	null	null	PI(36:0-18:0/18:0)	null	null	null	null	null	null	15552	null	null	29771	4357	13703	29661	null	null	25036	3613	14796	30880	null	null	31948	10906	15636	null	null
+SML	47	null	null	null	null	null	PI(36:1-18:0/18:1)	null	null	null	null	null	null	206667	6686	23914	442833	16243	217360	202698	9556	15326	484791	21059	254991	229266	7705	20133	495074	30571	161373	158124.77777777778	1.088773991031049
+SML	48	null	null	null	null	null	PI(36:2-16:0/20:2)	null	null	null	null	null	null	8423	null	null	44900	null	27177	5627	null	null	56411	null	25278	4626	null	null	38542	null	17853	null	null
+SML	49	null	null	null	null	null	PI(36:2-18:0/18:2)	null	null	null	null	null	null	129075	null	7640	405042	18072	151722	100786	13457	7517	603014	19846	167240	129857	13212	6695	496681	21838	168522	null	null
+SML	50	null	null	null	null	null	PI(36:2-18:1/18:1)	null	null	null	null	null	null	40774	22848	43874	231422	8611	58623	66177	16101	34157	266319	3766	55490	48109	12244	33891	307243	9384	70591	73868	1.2539989598113672
+SML	51	null	null	null	null	null	PI(36:3-16:0/20:3)	null	null	null	null	null	null	19059	null	null	41968	null	26139	39210	null	null	41447	null	12762	17720	null	null	74222	null	30508	null	null
+SML	52	null	null	null	null	null	PI(36:3-18:0/18:3)	null	null	null	null	null	null	null	null	null	5604	null	null	null	null	null	3726	null	null	null	null	null	12892	null	null	null	null
+SML	53	null	null	null	null	null	PI(36:3-18:1/18:2)	null	null	null	null	null	null	16620	null	6462	51441	5523	9124	18347	null	null	63286	null	null	38385	null	null	52190	null	9998	null	null
+SML	54	null	null	null	null	null	PI(36:5-16:0/20:5)	null	null	null	null	null	null	null	null	19081	null	null	null	null	null	22341	null	null	null	null	null	25569	null	null	null	null	null
+SML	55	null	null	null	null	null	PI(38:2-18:0/20:2)	null	null	null	null	null	null	22955	null	null	65065	null	32545	27749	null	null	106288	null	31577	28805	null	null	109019	null	17197	null	null
+SML	56	null	null	null	null	null	PI(38:2-18:1/20:1)	null	null	null	null	null	null	null	null	null	3823	null	null	null	null	null	5742	null	null	null	null	null	9569	null	null	null	null
+SML	57	null	null	null	null	null	PI(38:3-18:0/20:3)	null	null	null	null	null	null	85946	null	null	298670	6065	97081	138517	null	null	352738	7074	116243	145641	null	null	400272	10107	97100	null	null
+SML	58	null	null	null	null	null	PI(38:4-18:0/20:4)	null	null	null	null	null	null	243070	null	null	914777	15979	155824	275326	null	null	1480616	27111	165787	285711	null	null	1663303	59873	175206	null	null
+SML	59	null	null	null	null	null	PI(38:4-18:1/20:3)	null	null	null	null	null	null	null	null	null	3689	null	null	null	null	null	9914	null	null	null	null	null	7465	null	null	null	null
+SML	60	null	null	null	null	null	PI(38:5-18:0/20:5)	null	null	null	null	null	null	null	null	null	11132	null	10154	null	null	null	12003	null	null	null	null	null	17443	null	null	null	null
+SML	61	null	null	null	null	null	PI(40:6-18:0/22:6)	null	null	null	null	null	null	16797	null	null	null	null	36386	13963	null	null	30740	null	20498	11173	null	null	39999	7461	26016	null	null
+SML	62	null	null	null	null	null	SM(34:1-d18:1/16:0)	null	null	null	null	null	null	171771	20368	9087	235201	223060	363871	232664	36647	10190	338237	255112	355575	213777	29526	5086	353891	345938	457795	203210.88888888888	0.74225036493428065
+SML	63	null	null	null	null	null	SM(36:1-d18:1/18:0)	null	null	null	null	null	null	97845	null	null	92316	25333	60856	121355	null	null	122950	24159	82187	121447	null	null	164787	30756	55754	null	null
+SML	64	null	null	null	null	null	SM(38:1-d18:1/20:0)	null	null	null	null	null	null	7775	null	null	9034	10550	9542	12843	null	null	44165	14835	12095	17076	null	null	42271	7778	17973	null	null
+SML	65	null	null	null	null	null	SM(40:1-d18:1/22:0)	null	null	null	null	null	null	54345	null	null	71017	46522	31165	65948	null	null	113678	53288	30609	66544	null	null	107377	67133	38968	null	null
+

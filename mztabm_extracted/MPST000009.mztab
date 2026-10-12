@@ -1,0 +1,171 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000009
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000009, MPST000009.txt
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	BY4947
+MTD	sample[2]	QA23
+MTD	sample[3]	RedStar
+MTD	sample[4]	Kyokai 7
+MTD	ms_run[1]-location	null
+MTD	ms_run[2]-location	null
+MTD	ms_run[3]-location	null
+MTD	ms_run[4]-location	null
+MTD	assay[1]	BY4947
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	QA23
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	RedStar
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	Kyokai 7
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_study_variable[1]	abundance_variation_study_variable[1]
+SML	1	null	null	null	null	null	Ala[M-57]_0	null	null	null	null	null	null	0.49992994699999999	0.50014402099999999	0.51567134100000001	0.52539361699999998	0.51028473149999998	0.024459507907226813
+SML	2	null	null	null	null	null	Ala[M-57]_1	null	null	null	null	null	null	0.48845658199999997	0.48816093399999999	0.47272134399999999	0.46283242000000002	0.47804281999999998	0.026196967601991653
+SML	3	null	null	null	null	null	Ala[M-57]_2	null	null	null	null	null	null	0.011613471	0.011695044999999999	0.011607315	0.011773963	0.0116724485	0.0067342841330488689
+SML	4	null	null	null	null	null	Ala[M-57]_3	null	null	null	null	null	null	0	0	0	0	0	null
+SML	5	null	null	null	null	null	Ala[M-85]_0	null	null	null	null	null	null	0.51513256600000001	0.52102153399999995	0.52676432100000004	0.53437361900000002	0.52432301000000003	0.015663181549549803
+SML	6	null	null	null	null	null	Ala[M-85]_1	null	null	null	null	null	null	0.47954201699999999	0.47370558699999998	0.467168688	0.45900113599999998	0.469854357	0.018784268017930934
+SML	7	null	null	null	null	null	Ala[M-85]_2	null	null	null	null	null	null	0.0053254169999999998	0.0052728790000000003	0.0060669909999999999	0.0066252450000000001	0.0058226329999999998	0.11100847827500221
+SML	8	null	null	null	null	null	Asp[302]_0	null	null	null	null	null	null	0.94545638099999996	0.96601986100000004	null	null	null	null
+SML	9	null	null	null	null	null	Asp[302]_1	null	null	null	null	null	null	0.053676840000000003	0.033980138999999999	null	null	null	null
+SML	10	null	null	null	null	null	Asp[302]_2	null	null	null	null	null	null	0.00086677900000000003	0	null	null	null	null
+SML	11	null	null	null	null	null	Asp[M-159]_0	null	null	null	null	null	null	0.48799764099999998	0.48206764800000002	0.49699214000000003	0.49312194100000001	0.49004484250000002	0.013201687615299867
+SML	12	null	null	null	null	null	Asp[M-159]_1	null	null	null	null	null	null	0.47746382399999998	0.47151289200000002	0.46156312500000002	0.45961004999999999	0.46753747275000002	0.018017042927006861
+SML	13	null	null	null	null	null	Asp[M-159]_2	null	null	null	null	null	null	0.024497458	0.036008099000000002	0.031323822000000001	0.035430957999999999	0.03181508425	0.16676043870167728
+SML	14	null	null	null	null	null	Asp[M-159]_3	null	null	null	null	null	null	0.010041077000000001	0.010411360999999999	0.010120914	0.011837050999999999	0.01060260075	0.079056701152417391
+SML	15	null	null	null	null	null	Asp[M-57]_0	null	null	null	null	null	null	0.49213488799999999	0.48794470299999998	0.49681201400000002	0.49498125799999998	0.49296821574999999	0.00783523632987718
+SML	16	null	null	null	null	null	Asp[M-57]_1	null	null	null	null	null	null	0.47839826899999999	0.47440385699999998	0.46896016499999998	0.46660550000000001	0.47209194774999996	0.011276725137009214
+SML	17	null	null	null	null	null	Asp[M-57]_2	null	null	null	null	null	null	0.028219864000000001	0.036895598000000002	0.032543464000000001	0.037026020999999999	0.03367123675	0.12440561235176356
+SML	18	null	null	null	null	null	Asp[M-57]_3	null	null	null	null	null	null	0.0012469779999999999	0.00075584199999999995	0.001684357	0.001331102	0.0012545697499999999	0.30503905429843764
+SML	19	null	null	null	null	null	Asp[M-57]_4	null	null	null	null	null	null	0	0	0	5.6100000000000002e-05	1.4025e-05	2
+SML	20	null	null	null	null	null	Asp[M-85]_0	null	null	null	null	null	null	0.49673757600000001	0.489627282	0.50361707899999997	0.50191722900000002	0.49797479150000001	0.012625708360893058
+SML	21	null	null	null	null	null	Asp[M-85]_1	null	null	null	null	null	null	0.47853990099999999	0.47882867200000001	0.46897719700000001	0.46264836100000001	0.47224853275000001	0.016661984113467056
+SML	22	null	null	null	null	null	Asp[M-85]_2	null	null	null	null	null	null	0.023613783999999999	0.030690421999999998	0.027405723999999999	0.03543441	0.029286085	0.17128047656375767
+SML	23	null	null	null	null	null	Asp[M-85]_3	null	null	null	null	null	null	0.0011087390000000001	0.000853625	0	0	0.00049059100000000007	1.1740538148558062
+SML	24	null	null	null	null	null	Glu[M-159]_0	null	null	null	null	null	null	0.28058720700000001	0.28576536200000002	0.290973284	0.29158258799999998	0.28722711025000003	0.017891885319882183
+SML	25	null	null	null	null	null	Glu[M-159]_1	null	null	null	null	null	null	0.49683158300000002	0.49350317100000002	0.49269447700000002	0.49786712700000002	0.49522408950000002	0.0050724177132320941
+SML	26	null	null	null	null	null	Glu[M-159]_2	null	null	null	null	null	null	0.21714022499999999	0.212372164	0.21107007699999999	0.20425678999999999	0.211209814	0.025184915763854291
+SML	27	null	null	null	null	null	Glu[M-159]_3	null	null	null	null	null	null	0.0054409849999999997	0.0078809050000000005	0.0046765660000000001	0.0059707609999999998	0.0059923042500000002	0.22805124928779807
+SML	28	null	null	null	null	null	Glu[M-159]_4	null	null	null	null	null	null	0	0.000478398	0.00058559599999999997	0.00032273300000000002	0.00034668174999999998	0.73576351991736422
+SML	29	null	null	null	null	null	Glu[M-85]_0	null	null	null	null	null	null	0.27064437699999999	0.27203688300000001	0.276668362	0.27425666500000001	0.27340157175000002	0.0096466079956489415
+SML	30	null	null	null	null	null	Glu[M-85]_1	null	null	null	null	null	null	0.49771935299999998	0.49982856399999998	0.503999211	0.50561376099999999	0.50179022225000003	0.0072695557576969352
+SML	31	null	null	null	null	null	Glu[M-85]_2	null	null	null	null	null	null	0.22892252699999999	0.21851369000000001	0.21246955100000001	0.21626503	0.21904269949999999	0.032153658902106912
+SML	32	null	null	null	null	null	Glu[M-85]_3	null	null	null	null	null	null	0.0027137440000000001	0.0096208630000000003	0.0061005790000000001	0.0032062169999999999	0.00541035075	0.58773825762631626
+SML	33	null	null	null	null	null	Glu[M-85]_4	null	null	null	null	null	null	0	0	0.00076229800000000001	0.00065832599999999998	0.00035515600000000003	1.1608691209631348
+SML	34	null	null	null	null	null	Gly[M-57]_0	null	null	null	null	null	null	0.97010527499999999	0.968626655	0.97852044400000004	0.97743331899999997	0.97367142325	0.0051636059766498304
+SML	35	null	null	null	null	null	Gly[M-57]_1	null	null	null	null	null	null	0.029894725	0.031373344999999997	0.021479556	0.022566681000000002	0.026328576749999999	0.19095812235223986
+SML	36	null	null	null	null	null	Gly[M-57]_2	null	null	null	null	null	null	0	0	0	0	0	null
+SML	37	null	null	null	null	null	Gly[M-85]_0	null	null	null	null	null	null	0.98597621899999999	0.98487004499999997	null	null	null	null
+SML	38	null	null	null	null	null	Gly[M-85]_1	null	null	null	null	null	null	0.014023781000000001	0.015129955	null	null	null	null
+SML	39	null	null	null	null	null	Ile[M-159]_0	null	null	null	null	null	null	0.25672056399999998	0.25425650900000002	null	0.26107581899999999	null	null
+SML	40	null	null	null	null	null	Ile[M-159]_1	null	null	null	null	null	null	0.48535092899999999	0.48629903699999999	0.26068298699999998	0.48130289999999998	0.42840896325	0.26105500848675672
+SML	41	null	null	null	null	null	Ile[M-159]_2	null	null	null	null	null	null	0.241637032	0.24066409599999999	0.48101101600000001	0.232563351	0.29896887375000003	0.40616124866385822
+SML	42	null	null	null	null	null	Ile[M-159]_3	null	null	null	null	null	null	0.015281143000000001	0.017679607999999999	0.234998284	0.019157701999999999	0.071779184249999989	1.5161005068985691
+SML	43	null	null	null	null	null	Ile[M-159]_4	null	null	null	null	null	null	0.0010103320000000001	0.001100749	0.017464975000000001	0.001299091	0.00521878675	1.5645429814219018
+SML	44	null	null	null	null	null	Ile[M-159]_5	null	null	null	null	null	null	0	0	0.001154651	0.0046011380000000003	0.0014389472500000002	1.5130938798458333
+SML	45	null	null	null	null	null	Leu[M-85]_0	null	null	null	null	null	null	0.154010641	0.15674323900000001	0.0046880869999999996	0.156716934	0.11803972525	0.64028133293400991
+SML	46	null	null	null	null	null	Leu[M-85]_1	null	null	null	null	null	null	0.40536980099999997	0.412997118	null	0.40790156399999999	null	null
+SML	47	null	null	null	null	null	Leu[M-85]_2	null	null	null	null	null	null	0.33700128400000001	0.33326909399999999	null	0.333336676	null	null
+SML	48	null	null	null	null	null	Leu[M-85]_3	null	null	null	null	null	null	0.102077578	0.094584889000000005	null	0.098213711999999995	null	null
+SML	49	null	null	null	null	null	Leu[M-85]_4	null	null	null	null	null	null	0.001540696	0.00240566	null	0.0034351899999999999	null	null
+SML	50	null	null	null	null	null	Leu[M-85]_5	null	null	null	null	null	null	0	0	null	0.00039592400000000003	null	null
+SML	51	null	null	null	null	null	Phe[302]_0	null	null	null	null	null	null	0.97544298600000001	0.97053341900000001	0.97662016900000004	0.98088297000000002	0.97586988600000002	0.00436177690448102
+SML	52	null	null	null	null	null	Phe[302]_1	null	null	null	null	null	null	0.024340662999999998	0.029466580999999999	0.022982954999999999	0.01911703	0.023976807249999999	0.17837583354520054
+SML	53	null	null	null	null	null	Phe[302]_2	null	null	null	null	null	null	0.00021635	0	0.000396876	0	0.00015330650000000001	1.2507746227416803
+SML	54	null	null	null	null	null	Phe[M-159]_0	null	null	null	null	null	null	0.20929825499999999	0.20833069300000001	null	null	null	null
+SML	55	null	null	null	null	null	Phe[M-159]_1	null	null	null	null	null	null	0.44471946299999998	0.45507113599999999	null	null	null	null
+SML	56	null	null	null	null	null	Phe[M-159]_2	null	null	null	null	null	null	0.28657242500000002	0.27771421800000001	null	null	null	null
+SML	57	null	null	null	null	null	Phe[M-159]_3	null	null	null	null	null	null	0.058231480000000002	0.057923792000000002	null	null	null	null
+SML	58	null	null	null	null	null	Phe[M-159]_4	null	null	null	null	null	null	0	0	null	null	null	null
+SML	59	null	null	null	null	null	Phe[M-159]_5	null	null	null	null	null	null	0	0	null	null	null	null
+SML	60	null	null	null	null	null	Phe[M-159]_6	null	null	null	null	null	null	0.00060756899999999997	0.00063201700000000002	null	null	null	null
+SML	61	null	null	null	null	null	Phe[M-159]_7	null	null	null	null	null	null	0.00057080800000000001	0.00032814500000000001	null	null	null	null
+SML	62	null	null	null	null	null	Phe[M-159]_8	null	null	null	null	null	null	0	0	null	null	null	null
+SML	63	null	null	null	null	null	Phe[M-57]_0	null	null	null	null	null	null	0.19673711399999999	0.20588574400000001	0.21213347699999999	0.219180391	0.2084841815	0.04571165932394957
+SML	64	null	null	null	null	null	Phe[M-57]_1	null	null	null	null	null	null	0.44486457200000001	0.45965072899999998	0.44035370600000001	0.45175611300000001	0.44915628000000002	0.018750994132109875
+SML	65	null	null	null	null	null	Phe[M-57]_2	null	null	null	null	null	null	0.28954085800000001	0.28009868799999998	0.28562727399999999	0.27370360999999999	0.28224260749999996	0.024395761663124932
+SML	66	null	null	null	null	null	Phe[M-57]_3	null	null	null	null	null	null	0.064278391000000004	0.051869106999999998	0.056880200999999998	0.050950998999999997	0.055994674500000001	0.1090526055029257
+SML	67	null	null	null	null	null	Phe[M-57]_4	null	null	null	null	null	null	0.003126195	0.001442783	0.0035613519999999998	0.003069385	0.0027999287499999997	0.33253296658517217
+SML	68	null	null	null	null	null	Phe[M-57]_5	null	null	null	null	null	null	0	0	0.001158278	0.00059524999999999997	0.00043838199999999996	1.2681685288644449
+SML	69	null	null	null	null	null	Phe[M-57]_6	null	null	null	null	null	null	0.001039676	0	0	6.0800000000000001e-05	0.00027511899999999999	1.8555965436935018
+SML	70	null	null	null	null	null	Phe[M-57]_7	null	null	null	null	null	null	0	0.0010529479999999999	0.00016270299999999999	0.000106895	0.00033063649999999999	1.4706473779156364
+SML	71	null	null	null	null	null	Phe[M-57]_8	null	null	null	null	null	null	0.00041319499999999999	0	2.05e-05	0.00047481900000000002	0.00022712850000000001	1.1087526209631118
+SML	72	null	null	null	null	null	Phe[M-57]_9	null	null	null	null	null	null	0	0	0.000102	0.00010178	5.0945000000000001e-05	1.154701884212834
+SML	73	null	null	null	null	null	Pro[M-159]_0	null	null	null	null	null	null	0.29976650100000002	0.29971116199999998	0.30248919699999999	0.30247500799999999	0.30111046699999999	0.0052605277342533509
+SML	74	null	null	null	null	null	Pro[M-159]_1	null	null	null	null	null	null	0.48172548100000001	0.48930379299999999	0.47938863999999998	0.48436386999999997	0.48369544599999997	0.0087980408596834789
+SML	75	null	null	null	null	null	Pro[M-159]_2	null	null	null	null	null	null	0.211846425	0.20403369499999999	0.21468173600000001	0.208789479	0.20983783375000001	0.021714356897846177
+SML	76	null	null	null	null	null	Pro[M-159]_3	null	null	null	null	null	null	0.0056949699999999997	0.0064611750000000004	0.002534269	0.0041460250000000002	0.00470910975	0.36961555952872105
+SML	77	null	null	null	null	null	Pro[M-159]_4	null	null	null	null	null	null	0.000966623	0.00049017500000000003	0.00090615900000000002	0.00022561700000000001	0.00064714350000000004	0.54375896180959871
+SML	78	null	null	null	null	null	Pro[M-85]_0	null	null	null	null	null	null	0.29407773799999998	0.295294469	0.29846405500000001	0.29801966600000002	0.29646398200000001	0.0071507317777938732
+SML	79	null	null	null	null	null	Pro[M-85]_1	null	null	null	null	null	null	0.488208635	0.494265493	0.48806482099999998	0.49149952800000002	0.49050961925000003	0.0060429455375024341
+SML	80	null	null	null	null	null	Pro[M-85]_2	null	null	null	null	null	null	0.207436967	0.20132291699999999	0.21009650999999999	0.20820683700000001	0.20676580775	0.018362503904808744
+SML	81	null	null	null	null	null	Pro[M-85]_3	null	null	null	null	null	null	0.010276659	0.0091171210000000006	0.002526903	0.0022739689999999998	0.0060486630000000001	0.70104434577660124
+SML	82	null	null	null	null	null	Pro[M-85]_4	null	null	null	null	null	null	0	0	0.00084771100000000002	0	0.00021192775	2
+SML	83	null	null	null	null	null	Ser[302]_0	null	null	null	null	null	null	0.96859260599999997	0.97766207199999999	0.97865569600000002	0.97945431199999999	0.97609117150000002	0.0051762732803648237
+SML	84	null	null	null	null	null	Ser[302]_1	null	null	null	null	null	null	0.031151392	0.022337928	0.020503067999999999	0.020372556999999999	0.023591236250000001	0.21700244480356917
+SML	85	null	null	null	null	null	Ser[302]_2	null	null	null	null	null	null	0.00025600200000000002	0	0.000841237	0.00017313100000000001	0.00031759250000000001	1.1493520887973692
+SML	86	null	null	null	null	null	Ser[M-159]_0	null	null	null	null	null	null	0.53319268799999997	0.53780177200000001	0.54192986399999998	0.54254696300000005	0.53886782175000003	0.0080360148210958451
+SML	87	null	null	null	null	null	Ser[M-159]_1	null	null	null	null	null	null	0.46024617000000001	0.45637798499999999	0.453181114	0.45040048199999999	0.45505143775000001	0.0093125880383930406
+SML	88	null	null	null	null	null	Ser[M-159]_2	null	null	null	null	null	null	0.0065611410000000004	0.0058202430000000001	0.0048890219999999998	0.0070525550000000003	0.0060807402500000001	0.15494933017581694
+SML	89	null	null	null	null	null	Ser[M-57]_0	null	null	null	null	null	null	0.53580717499999997	0.53623464300000001	0.53919754499999994	0.54323422799999999	0.53861839774999998	0.0063619947947019407
+SML	90	null	null	null	null	null	Ser[M-57]_1	null	null	null	null	null	null	0.45693731100000001	0.45576852400000001	0.45266157299999998	0.44602678200000001	0.45284854750000003	0.01080428604179717
+SML	91	null	null	null	null	null	Ser[M-57]_2	null	null	null	null	null	null	0.0050221019999999996	0.0079968330000000001	0.0079696469999999998	0.0096975670000000007	0.0076715372499999998	0.25319832075060045
+SML	92	null	null	null	null	null	Ser[M-57]_3	null	null	null	null	null	null	0.0022334120000000002	0	0.000171235	0.0010414230000000001	0.00086151749999999997	1.1862241255904193
+SML	93	null	null	null	null	null	Ser[M-85]_0	null	null	null	null	null	null	0.53583726499999995	0.53866386899999996	0.54232817799999999	0.54481874500000005	0.54041201424999996	0.0073301174641110783
+SML	94	null	null	null	null	null	Ser[M-85]_1	null	null	null	null	null	null	0.46367588999999998	0.45296432800000003	0.45569016400000001	0.45177472400000002	0.45602627649999999	0.011746341309758544
+SML	95	null	null	null	null	null	Ser[M-85]_2	null	null	null	null	null	null	0.00048684500000000002	0.0083718019999999994	0.0019816579999999999	0.0034065300000000001	0.0035617087499999998	0.96053099064194969
+SML	96	null	null	null	null	null	Thr[M-57]_0	null	null	null	null	null	null	0.47424244500000001	0.46820209699999998	0.48217134299999997	0.47583060999999999	0.47511162374999999	0.012082031982926794
+SML	97	null	null	null	null	null	Thr[M-57]_1	null	null	null	null	null	null	0.49576413699999999	0.49463897299999998	0.48317418699999998	0.48275448599999998	0.48908294575	0.014480470143752942
+SML	98	null	null	null	null	null	Thr[M-57]_2	null	null	null	null	null	null	0.027456926999999999	0.036746807999999999	0.034015179999999999	0.040278851999999997	0.034624441749999998	0.15661855907831748
+SML	99	null	null	null	null	null	Thr[M-57]_3	null	null	null	null	null	null	0.0025364910000000001	0	0.00063929000000000004	0.001136052	0.00107795825	0.99987585549060687
+SML	100	null	null	null	null	null	Thr[M-57]_4	null	null	null	null	null	null	0	0.00041212200000000001	0	0	0.0001030305	1.9999999999999998
+SML	101	null	null	null	null	null	Thr[M-85]_0	null	null	null	null	null	null	0.495565058	0.48595783999999997	0.50081997899999997	0.49864643199999997	0.49524732724999998	0.013240934280648127
+SML	102	null	null	null	null	null	Thr[M-85]_1	null	null	null	null	null	null	0.48822291400000001	0.47842932399999999	0.47116158400000002	0.46441277199999997	0.47555664850000001	0.021450923687845579
+SML	103	null	null	null	null	null	Thr[M-85]_2	null	null	null	null	null	null	0.016212028999999999	0.035612836000000002	0.027474320999999999	0.036445712999999998	0.02893622475	0.32481058097808729
+SML	104	null	null	null	null	null	Thr[M-85]_3	null	null	null	null	null	null	0	0	0.00054411599999999998	0.00049508199999999999	0.00025979949999999996	1.1572684777373281
+SML	105	null	null	null	null	null	Tyr[302]_0	null	null	null	null	null	null	0.97194430899999995	0.97356807400000001	0.97966791600000003	0.980296485	0.97636919600000005	0.0043344901017323212
+SML	106	null	null	null	null	null	Tyr[302]_1	null	null	null	null	null	null	0.028055691000000001	0.026431926000000001	0.020332084	0.019703515000000001	0.023630804000000002	0.17909092791334238
+SML	107	null	null	null	null	null	Tyr[302]_2	null	null	null	null	null	null	0	0	0	0	0	null
+SML	108	null	null	null	null	null	Val[M-57]_0	null	null	null	null	null	null	null	null	0.27144744100000001	null	null	null
+SML	109	null	null	null	null	null	Val[M-57]_1	null	null	null	null	null	null	null	null	0.48860022400000003	null	null	null
+SML	110	null	null	null	null	null	Val[M-57]_2	null	null	null	null	null	null	null	null	0.23124476199999999	null	null	null
+SML	111	null	null	null	null	null	Val[M-57]_3	null	null	null	null	null	null	null	null	0.0085012249999999994	null	null	null
+SML	112	null	null	null	null	null	Val[M-57]_4	null	null	null	null	null	null	null	null	0	null	null	null
+SML	113	null	null	null	null	null	Val[M-57]_5	null	null	null	null	null	null	null	null	0.000206348	null	null	null
+

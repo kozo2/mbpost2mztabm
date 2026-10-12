@@ -1,0 +1,165 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	MPST000029
+MTD	mzTab-profile	M+S
+MTD	description	MB-POST MPST000029, MPST000029.xlsx, sheet "Carnitine": Table S2. Metabolic profile data of 183 hydrophilic metabolites in each FA-treated AML12 cell conditions
+MTD	software[1]	[,, RmzTabM, 0.99.2]
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	DMSO-treated cells_1
+MTD	sample[1]-custom[1]	[,,header_1, DMSO-treated cells]
+MTD	sample[1]-custom[2]	[,,header_2, 1]
+MTD	sample[2]	DMSO-treated cells_2
+MTD	sample[2]-custom[1]	[,,header_1, DMSO-treated cells]
+MTD	sample[2]-custom[2]	[,,header_2, 2]
+MTD	sample[3]	DMSO-treated cells_3
+MTD	sample[3]-custom[1]	[,,header_1, DMSO-treated cells]
+MTD	sample[3]-custom[2]	[,,header_2, 3]
+MTD	sample[4]	FA 8:0-treated cells_1
+MTD	sample[4]-custom[1]	[,,header_1, FA 8:0-treated cells]
+MTD	sample[4]-custom[2]	[,,header_2, 1]
+MTD	sample[5]	FA 8:0-treated cells_2
+MTD	sample[5]-custom[1]	[,,header_1, FA 8:0-treated cells]
+MTD	sample[5]-custom[2]	[,,header_2, 2]
+MTD	sample[6]	FA 8:0-treated cells_3
+MTD	sample[6]-custom[1]	[,,header_1, FA 8:0-treated cells]
+MTD	sample[6]-custom[2]	[,,header_2, 3]
+MTD	sample[7]	FA 10:0-treated cells_1
+MTD	sample[7]-custom[1]	[,,header_1, FA 10:0-treated cells]
+MTD	sample[7]-custom[2]	[,,header_2, 1]
+MTD	sample[8]	FA 10:0-treated cells_2
+MTD	sample[8]-custom[1]	[,,header_1, FA 10:0-treated cells]
+MTD	sample[8]-custom[2]	[,,header_2, 2]
+MTD	sample[9]	FA 10:0-treated cells_3
+MTD	sample[9]-custom[1]	[,,header_1, FA 10:0-treated cells]
+MTD	sample[9]-custom[2]	[,,header_2, 3]
+MTD	sample[10]	FA 12:0-treated cells_1
+MTD	sample[10]-custom[1]	[,,header_1, FA 12:0-treated cells]
+MTD	sample[10]-custom[2]	[,,header_2, 1]
+MTD	sample[11]	FA 12:0-treated cells_2
+MTD	sample[11]-custom[1]	[,,header_1, FA 12:0-treated cells]
+MTD	sample[11]-custom[2]	[,,header_2, 2]
+MTD	sample[12]	FA 12:0-treated cells_3
+MTD	sample[12]-custom[1]	[,,header_1, FA 12:0-treated cells]
+MTD	sample[12]-custom[2]	[,,header_2, 3]
+MTD	sample[13]	FA 18:1-treated cells_1
+MTD	sample[13]-custom[1]	[,,header_1, FA 18:1-treated cells]
+MTD	sample[13]-custom[2]	[,,header_2, 1]
+MTD	sample[14]	FA 18:1-treated cells_2
+MTD	sample[14]-custom[1]	[,,header_1, FA 18:1-treated cells]
+MTD	sample[14]-custom[2]	[,,header_2, 2]
+MTD	sample[15]	FA 18:1-treated cells_3
+MTD	sample[15]-custom[1]	[,,header_1, FA 18:1-treated cells]
+MTD	sample[15]-custom[2]	[,,header_2, 3]
+MTD	ms_run[1]-location	null
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	null
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	null
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	null
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	null
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	null
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	null
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	null
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	null
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	null
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	null
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	null
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	null
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	null
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	null
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	DMSO-treated cells_1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	DMSO-treated cells_2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	DMSO-treated cells_3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	FA 8:0-treated cells_1
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	FA 8:0-treated cells_2
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	FA 8:0-treated cells_3
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	FA 10:0-treated cells_1
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	FA 10:0-treated cells_2
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	FA 10:0-treated cells_3
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[10]	FA 12:0-treated cells_1
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	FA 12:0-treated cells_2
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	FA 12:0-treated cells_3
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	FA 18:1-treated cells_1
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	FA 18:1-treated cells_2
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	FA 18:1-treated cells_3
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	study_variable_group[1]	[,,undefined,]
+MTD	study_variable_group[1]-description	Sample matrix column undefined
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_ref	study_variable[1]
+MTD	study_variable[1]	undefined
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable undefined, value undefined
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule_feature-quantification_unit	[PRIDE, PRIDE:0000330, Arbitrary quantification unit, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_study_variable[1]	abundance_variation_study_variable[1]	opt_global_retention_time_min
+SML	1	null	null	C19H37NO4	null	null	Acylcarnitine 10:0	null	343.27225866963	[M+H]1+	null	null	null	0.0043573623068354104	0.0041107678312411163	0.0047674193717096164	0.0038747105980419744	0.003395973601056524	0.0045955879726286572	0.21170267080977126	0.27867963338181595	0.36509342554186952	0.0015998772469833712	0.002545783447371463	0.0017569440531422129	0.0032377760797717594	0.0032620206006947041	0.0033899519430747936	0.059757993652400559	2.0118777303295809	8.35
+SML	2	null	null	C21H41NO4	null	null	Acylcarnitine 12:0	null	371.30355879791	[M+H]1+	null	null	null	0.0046586250906556553	0.0010865626385341139	0.003474146105239332	0.003190690234254237	0.0035559876953278262	0.0039321241424006134	0.0016240128603334154	0.0013525719090731604	0.002817304527892367	0.0011477664658614069	0.0010265507267082268	-0.00073476003308770303	0.00068700679856104378	0.00070967659179530494	0.0010218750618283387	0.0019700093876918222	0.7717555259543486	9.54
+SML	3	null	null	C9H17NO4	null	null	Acylcarnitine 2:0	null	203.11575802823	[M+H]1+	null	null	null	8.4270415031522585	7.5798878713223887	7.6647816082852129	8.7843372252498781	9.1698031421057546	11.328434570420566	9.1842844624498099	8.7769484761664138	9.2462849494483361	2.353484552994431	2.3884018872016211	2.4749282427001313	10.18522647760684	9.9573268680712221	10.61524974406743	7.8757614387494863	0.38122781797206445	1.43
+SML	4	null	null	C11H21NO4	null	null	Acylcarnitine 4:0	null	231.14705815651	[M+H]1+	null	null	null	1.6533032551523148	1.6883231921038915	1.7686599353692702	1.080973866257295	1.2035938033171565	1.4044375750409226	0.59691620256777056	0.57259088682346049	0.59847147636244158	0.36104521337652773	0.37004925363373542	0.39332733543360199	0.65909419252144896	0.70417121169280283	0.79803149571813481	0.92353259302471835	0.54443479454364296	4.39
+SML	5	null	null	C13H25NO4	null	null	Acylcarnitine 6:0	null	259.17835828479	[M+H]1+	null	null	null	0.025664045455973269	0.023114098498785523	0.026972688291679887	0.40119866386268099	0.60766414414703884	0.60567906715399311	0.55518296502500863	0.52596615106611022	0.53042865985725218	0.02247198475980661	0.026911126594661244	0.027055629714713259	0.035059840158071842	0.030704737235913163	0.042184018722607249	0.23241718803628639	1.1271877226424594	5.87
+SML	6	null	null	C15H29NO4	null	null	Acylcarnitine 8:0	null	287.20965841307	[M+H]1+	null	null	null	0.0053571403139716263	0.0063918694920670847	0.0044753066868011126	0.063999759770968875	0.17764877060930059	0.15680824376763186	0.18322806034720979	0.20075597603009301	0.20932039820041887	0.0054107333030408026	0.0056800014577060264	0.0054465158603074796	0.0070028236001615481	0.0069167417630771671	0.0087929751772439398	0.069815687758666659	1.2414840024870837	7.2
+SML	7	null	null	C7H15NO3	null	null	Carnitine	null	161.10519334453	[M+H]1+	null	null	null	2.0071831389582595	1.8991693942737382	2.4316602672778362	0.68207951813727585	0.51932003501303048	0.59814381428997354	0.4427029477659693	0.46780218174571431	0.44103612188174285	0.32201593949509588	0.33274165532828354	0.32571748120761485	0.70386371301943895	0.40009182022454842	0.79290161983322283	0.82442864323011633	0.83661010687088733	1.21
+

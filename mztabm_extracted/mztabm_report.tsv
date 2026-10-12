@@ -1,0 +1,216 @@
+table_id	source_file	mztab	n_assays	n_rows	unit	polarity	polarity_basis	status
+MPST000001	MPST000001.xlsx	MPST000001.mztab	15	254	nmol/mg-protein	positive+negative	adduct ions	ok
+MPST000003	MPST000003.xlsx	MPST000003.mztab	90	46			none	ok
+MPST000005	MPST000005.csv	MPST000005.mztab	60	58			none	ok
+MPST000006	MPST000006.txt	MPST000006.mztab	52	1780		positive	adduct ions	ok
+MPST000007	MPST000007.txt	MPST000007.mztab	52	1934		negative	adduct ions	ok
+MPST000008	MPST000008.csv	MPST000008.mztab	60	58			none	ok
+MPST000009	MPST000009.txt	MPST000009.mztab	4	113			none	ok
+MPST000010	MPST000010.xlsx	MPST000010.mztab	40	388		positive+negative	adduct ions	ok
+MPST000011	MPST000011.txt	MPST000011.mztab	12	441		positive+negative	adduct ions	ok
+MPST000012__Height_DDA_neg	MPST000012__Height_DDA_neg.txt	MPST000012__Height_DDA_neg.mztab	4	1128		negative	adduct ions	ok
+MPST000012__Height_DDA_pos	MPST000012__Height_DDA_pos.txt	MPST000012__Height_DDA_pos.mztab	4	1189		positive	adduct ions	ok
+MPST000012__Height_DIA_neg	MPST000012__Height_DIA_neg.txt	MPST000012__Height_DIA_neg.mztab	4	915		negative	adduct ions	ok
+MPST000012__Height_DIA_pos	MPST000012__Height_DIA_pos.txt	MPST000012__Height_DIA_pos.mztab	4	1150		positive	adduct ions	ok
+MPST000015#Nontargeted metabolomic data	MPST000015.xlsx	MPST000015__Nontargeted metabolomic data.mztab	10	1675			none	ok
+MPST000017	MPST000017.xlsx	MPST000017.mztab	6	67		positive+negative	adduct ions	ok
+MPST000018	MPST000018.xlsx	MPST000018.mztab	15	128	μM		none	ok
+MPST000019	MPST000019.xlsx	MPST000019.mztab	15	80	μM		none	ok
+MPST000022	MPST000022.xlsx	MPST000022.mztab	15	110		positive+negative	adduct ions	ok
+MPST000025	MPST000025.xlsx	MPST000025.mztab	15	56		positive+negative	adduct ions	ok
+MPST000026	MPST000026.xlsx	MPST000026.mztab	18	623	μM		none	ok
+MPST000029	MPST000029.xlsx	MPST000029.mztab	15	7		positive	adduct ions	ok
+MPST000030	MPST000030.xlsx	MPST000030.mztab	15	10		positive	adduct ions	ok
+MPST000034#Cell	MPST000034.xlsx	MPST000034__Cell.mztab	6	94			none	ok
+MPST000034#EVs	MPST000034.xlsx	MPST000034__EVs.mztab	10	63			none	ok
+MPST000035#Cell	MPST000035.xlsx	MPST000035__Cell.mztab	6	87			none	ok
+MPST000035#EVs	MPST000035.xlsx	MPST000035__EVs.mztab	10	59			none	ok
+MPST000036#lipidome	MPST000036.xlsx	MPST000036__lipidome.mztab	136	734		positive+negative	adduct ions	ok
+MPST000037	MPST000037.xlsx	MPST000037.mztab	4	85			none	ok
+MPST000038#results_anion	MPST000038.xlsx	MPST000038__results_anion.mztab	15	239	fmol/cell		none	ok
+MPST000038#results_cation	MPST000038.xlsx	MPST000038__results_cation.mztab	15	272	fmol/cell		none	ok
+MPST000039#results_anion	MPST000039.xlsx	MPST000039__results_anion.mztab	10	237	fmol/cell		none	ok
+MPST000039#results_cation	MPST000039.xlsx	MPST000039__results_cation.mztab	10	273	fmol/cell		none	ok
+MPST000040#results_anion	MPST000040.xlsx	MPST000040__results_anion.mztab	10	121	fmol/cell		none	ok
+MPST000040#results_cation	MPST000040.xlsx	MPST000040__results_cation.mztab	10	128	fmol/cell		none	ok
+MPST000041	MPST000041.xlsx	MPST000041.mztab	18	180	fmol/cell		none	ok
+MPST000042	MPST000042.xlsx	MPST000042.mztab	4	233	fmol/cell		none	ok
+MPST000044__Height_Neg	MPST000044__Height_Neg.txt	MPST000044__Height_Neg.mztab	106	1415		negative	adduct ions	ok
+MPST000044__Height_Pos	MPST000044__Height_Pos.txt	MPST000044__Height_Pos.mztab	106	12327		positive	adduct ions	ok
+MPST000046__Height_Neg	MPST000046__Height_Neg.csv	MPST000046__Height_Neg.mztab	76	5118		negative	adduct ions	ok
+MPST000046__Height_Pos	MPST000046__Height_Pos.csv	MPST000046__Height_Pos.mztab	67	2949		positive	adduct ions	ok
+MPST000047__Height_Neg	MPST000047__Height_Neg.csv	MPST000047__Height_Neg.mztab	77	2972		negative	adduct ions	ok
+MPST000047__Height_Pos	MPST000047__Height_Pos.csv	MPST000047__Height_Pos.mztab	68	3081		positive	adduct ions	ok
+MPST000048__Height_Neg	MPST000048__Height_Neg.csv	MPST000048__Height_Neg.mztab	7	992		negative	adduct ions	ok
+MPST000048__Height_Pos	MPST000048__Height_Pos.csv	MPST000048__Height_Pos.mztab	7	1173		positive	adduct ions	ok
+MPST000049__Height_Neg	MPST000049__Height_Neg.txt	MPST000049__Height_Neg.mztab	59	1877		negative	adduct ions	ok
+MPST000049__Height_Pos	MPST000049__Height_Pos.txt	MPST000049__Height_Pos.mztab	59	2426		positive	adduct ions	ok
+MPST000050__Height_Neg	MPST000050__Height_Neg.csv	MPST000050__Height_Neg.mztab	25	1668		negative	adduct ions	ok
+MPST000050__Height_Pos	MPST000050__Height_Pos.csv	MPST000050__Height_Pos.mztab	25	3567		positive	adduct ions	ok
+MPST000051__Height_Neg	MPST000051__Height_Neg.csv	MPST000051__Height_Neg.mztab	32	1210		negative	adduct ions	ok
+MPST000051__Height_Pos	MPST000051__Height_Pos.csv	MPST000051__Height_Pos.mztab	32	1759		positive	adduct ions	ok
+MPST000052#C2C12_Mitoiso	MPST000052.xlsx	MPST000052__C2C12_Mitoiso.mztab	30	269		negative	adduct ions	ok
+MPST000052#C2C12_siRNA_OA	MPST000052.xlsx	MPST000052__C2C12_siRNA_OA.mztab	33	243		negative	adduct ions	ok
+MPST000052#C2C12_siRNA(2)	MPST000052.xlsx	MPST000052__C2C12_siRNA(2).mztab	18	214		negative	adduct ions	ok
+MPST000052#C2C12_siRNA_lipidsupp	MPST000052.xlsx	MPST000052__C2C12_siRNA_lipidsupp.mztab	24	202		negative	adduct ions	ok
+MPST000052#Primary	MPST000052.xlsx	MPST000052__Primary.mztab	12	230		negative	adduct ions	ok
+MPST000052#C2C12_OA_lipidsupp	MPST000052.xlsx	MPST000052__C2C12_OA_lipidsupp.mztab	15	206		negative	adduct ions	ok
+MPST000057#Cell	MPST000057.xlsx	MPST000057__Cell.mztab	6	397			none	ok
+MPST000057#EVs	MPST000057.xlsx	MPST000057__EVs.mztab	10	397			none	ok
+MPST000058# Cell	MPST000058.xlsx	MPST000058__ Cell.mztab	6	269			none	ok
+MPST000058#EVs	MPST000058.xlsx	MPST000058__EVs.mztab	10	269			none	ok
+MPST000059#Explant	MPST000059.xlsx	MPST000059__Explant.mztab	12	129	nmol/L		none	ok
+MPST000059#Supernatant	MPST000059.xlsx	MPST000059__Supernatant.mztab	12	66	nmol/L		none	ok
+MPST000060#Explant	MPST000060.xlsx	MPST000060__Explant.mztab	12	57	nmol/L		none	ok
+MPST000060#Supernatant	MPST000060.xlsx	MPST000060__Supernatant.mztab	12	32	nmol/L		none	ok
+MPST000062#Explants	MPST000062.xlsx	MPST000062__Explants.mztab	15	551	μM		none	ok
+MPST000062#Supernatant	MPST000062.xlsx	MPST000062__Supernatant.mztab	18	551	μM		none	ok
+MPST000063	MPST000063.xlsx	MPST000063.mztab	12	132		positive+negative	adduct ions	ok
+MPST000066#Cell	MPST000066.xlsx	MPST000066__Cell.mztab	9	94			none	ok
+MPST000066#EVs	MPST000066.xlsx	MPST000066__EVs.mztab	9	58			none	ok
+MPST000067#Cell	MPST000067.xlsx	MPST000067__Cell.mztab	9	102			none	ok
+MPST000067#EVs	MPST000067.xlsx	MPST000067__EVs.mztab	9	59			none	ok
+MPST000068#Cell	MPST000068.xlsx	MPST000068__Cell.mztab	9	416			none	ok
+MPST000068#EVs	MPST000068.xlsx	MPST000068__EVs.mztab	9	416			none	ok
+MPST000069#Cell	MPST000069.xlsx	MPST000069__Cell.mztab	9	356			none	ok
+MPST000069#EVs	MPST000069.xlsx	MPST000069__EVs.mztab	9	356			none	ok
+MPST000075	MPST000075.xlsx	MPST000075.mztab	8	105	amol/cell		none	ok
+MPST000083#Peak area	MPST000083.xlsx	MPST000083__Peak area.mztab	32	128		positive+negative	adduct ions	ok
+MPST000083#Quantitative values for each lipid molecule (pmol/mg-protein)	MPST000083.xlsx	MPST000083__Quantitative values for each lipid molecule (pmol_mg-protein).mztab	32	115	pmol/mg-protein	positive+negative	adduct ions	ok
+MPST000085	MPST000085.xlsx	MPST000085.mztab	9	246	µmol per g genomic DNA		none	ok
+MPST000086	MPST000086.xlsx	MPST000086.mztab	9	200	µmol per g genomic DNA		none	ok
+MPST000089__Height_1_2025_03_11_13_16_00_pos_ver5_5	MPST000089__Height_1_2025_03_11_13_16_00_pos_ver5_5.txt	MPST000089__Height_1_2025_03_11_13_16_00_pos_ver5_5.mztab	49	12387		positive	adduct ions	ok
+MPST000089__Height_1_2025_03_11_13_30_50_neg_ver5_5	MPST000089__Height_1_2025_03_11_13_30_50_neg_ver5_5.txt	MPST000089__Height_1_2025_03_11_13_30_50_neg_ver5_5.mztab	49	11040		negative	adduct ions	ok
+MPST000097	MPST000097.csv	MPST000097.mztab	18	70			none	ok
+MPST000098	MPST000098.csv	MPST000098.mztab	18	15			none	ok
+MPST000099	MPST000099.csv	MPST000099.mztab	18	15			none	ok
+MPST000100	MPST000100.csv	MPST000100.mztab	18	70			none	ok
+MPST000101	MPST000101.csv	MPST000101.mztab	18	15			none	ok
+MPST000102	MPST000102.csv	MPST000102.mztab	18	69			none	ok
+MPST000103	MPST000103.csv	MPST000103.mztab	33	72			none	ok
+MPST000104	MPST000104.csv	MPST000104.mztab	33	70			none	ok
+MPST000106	MPST000106.xlsx	MPST000106.mztab	16	196		positive+negative	adduct ions	ok
+MPST000108	MPST000108.csv	MPST000108.mztab	135	69			none	ok
+MPST000110	MPST000110.xlsx	MPST000110.mztab	48	120	pmol/mg-DCW	positive+negative	adduct ions	ok
+MPST000111#Peak area	MPST000111.xlsx	MPST000111__Peak area.mztab	20	255		positive+negative	adduct ions	ok
+MPST000111#Relative peak area (Analyte/IS/protein amount, mg)	MPST000111.xlsx	MPST000111__Relative peak area (Analyte_IS_protein amount, mg).mztab	20	247		positive+negative	adduct ions	ok
+MPST000112#Peak area	MPST000112.xlsx	MPST000112__Peak area.mztab	20	501		positive+negative	adduct ions	ok
+MPST000112#Quantity of each lipid molecule (pmol/mg-protein)	MPST000112.xlsx	MPST000112__Quantity of each lipid molecule (pmol_mg-protein).mztab	20	484	pmol/mg-protein	positive+negative	adduct ions	ok
+MPST000113	MPST000113.xlsx	MPST000113.mztab	10	24			none	ok
+MPST000115#L2	MPST000115.xlsx	MPST000115__L2.mztab	16	143			none	ok
+MPST000115#L2_	MPST000115.xlsx	MPST000115__L2_.mztab	16	143			none	ok
+MPST000115#L3	MPST000115.xlsx	MPST000115__L3.mztab	21	105			none	ok
+MPST000115#L3_	MPST000115.xlsx	MPST000115__L3_.mztab	21	105			none	ok
+MPST000115#L4	MPST000115.xlsx	MPST000115__L4.mztab	21	116			none	ok
+MPST000115#L4_	MPST000115.xlsx	MPST000115__L4_.mztab	21	116			none	ok
+MPST000116	MPST000116.xlsx	MPST000116.mztab	52	133	nmol/g		none	ok
+MPST000117	MPST000117.xlsx	MPST000117.mztab	52	106	nmol/g		none	ok
+MPST000118	MPST000118.xlsx	MPST000118.mztab	52	1	nmol/g		none	ok
+MPST000119	MPST000119.xlsx	MPST000119.mztab	80	19		positive	adduct ions	ok
+MPST000121	MPST000121.xlsx	MPST000121.mztab	80	1306		positive+negative	adduct ions	ok
+MPST000123	MPST000123.csv	MPST000123.mztab	15	175		positive+negative	adduct ions	ok
+MPST000125	MPST000125.csv	MPST000125.mztab	352	43			none	ok
+MPST000126	MPST000126.csv	MPST000126.mztab	352	168			none	ok
+MPST000127	MPST000127.csv	MPST000127.mztab	157	151			none	ok
+MPST000128	MPST000128.csv	MPST000128.mztab	157	196			none	ok
+MPST000129	MPST000129.xlsx	MPST000129.mztab	4	6547			none	ok
+MPST000130#Sample (peak area, cell number)	MPST000130.xlsx	MPST000130__Sample (peak area, cell number).mztab	17	9		positive	adduct ions	ok
+MPST000130#Relative peak area (analyte/IS/sample amount)	MPST000130.xlsx	MPST000130__Relative peak area (analyte_IS_sample amount).mztab	15	7		positive	adduct ions	ok
+MPST000131	MPST000131.csv	MPST000131.mztab	256	150			none	ok
+MPST000132	MPST000132.csv	MPST000132.mztab	256	188			none	ok
+MPST000133	MPST000133.csv	MPST000133.mztab	445	132			none	ok
+MPST000134	MPST000134.csv	MPST000134.mztab	448	332			none	ok
+MPST000135	MPST000135.csv	MPST000135.mztab	2584	160			none	ok
+MPST000136	MPST000136.csv	MPST000136.mztab	2584	312			none	ok
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Height	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy__Height.mztab	144	191			none	ok
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Manual annotation	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy__Manual annotation.mztab	147	191			none	ok
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Normalized	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy__Normalized.mztab	144	191			none	ok
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Blank filter and rsd	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy__Blank filter and rsd.mztab	147	191			none	ok
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Blank filter and RSD Edited	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy__Blank filter and RSD Edited.mztab	147	191			none	ok
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Double check	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy__Double check.mztab	99	86			none	ok
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Sheet1	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy__Sheet1.mztab	9	6			none	ok
+MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy#Matrix PCA Non volatile	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy.xlsx	MPST000141__Data Analysis Non Volatile_QC21_20241126 - Copy__Matrix PCA Non volatile.mztab	99	123			none	ok
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#Manual annotation	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy__Manual annotation.mztab	94	155			none	ok
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#Height	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy__Height.mztab	91	154			none	ok
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#Normalized	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy__Normalized.mztab	91	154			none	ok
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#blank filter and rsd	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy__blank filter and rsd.mztab	94	154			none	ok
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#good rsd	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy__good rsd.mztab	94	154			none	ok
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#double check	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy__double check.mztab	60	106			none	ok
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#matrix PCA All	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy__matrix PCA All.mztab	60	106			none	ok
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#matrix OPLS roasted	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy__matrix OPLS roasted.mztab	12	119			none	ok
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#matrix OPLS paste	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy__matrix OPLS paste.mztab	12	119			none	ok
+MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy#Targeted quantification	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy.xlsx	MPST000141__Data Analysis_QC9_All Drying_20240707 - Copy__Targeted quantification.mztab	6	6			none	ok
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy#height	MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	MPST000141__Data analysis_QC2_lowess_20240825 - Copy__height.mztab	41	397			none	ok
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Manual annotation	MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	MPST000141__Data analysis_QC2_lowess_20240825 - Copy__Manual annotation.mztab	41	397			none	ok
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy#normalized	MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	MPST000141__Data analysis_QC2_lowess_20240825 - Copy__normalized.mztab	41	397			none	ok
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Blank Filter and RSD	MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	MPST000141__Data analysis_QC2_lowess_20240825 - Copy__Blank Filter and RSD.mztab	43	397			none	ok
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy#good rsd and blank	MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	MPST000141__Data analysis_QC2_lowess_20240825 - Copy__good rsd and blank.mztab	43	397			none	ok
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Check double	MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	MPST000141__Data analysis_QC2_lowess_20240825 - Copy__Check double.mztab	43	281			none	ok
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Matrix PCA Volatile Only	MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	MPST000141__Data analysis_QC2_lowess_20240825 - Copy__Matrix PCA Volatile Only.mztab	36	95			none	ok
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Matrix PCA Non and Volatile Dry	MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	MPST000141__Data analysis_QC2_lowess_20240825 - Copy__Matrix PCA Non and Volatile Dry.mztab	20	178			none	ok
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Matrix PCA Non and Vol Roasted	MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	MPST000141__Data analysis_QC2_lowess_20240825 - Copy__Matrix PCA Non and Vol Roasted.mztab	20	178			none	ok
+MPST000141__Data analysis_QC2_lowess_20240825 - Copy#Matrix PCA Non and Vol Liquor	MPST000141__Data analysis_QC2_lowess_20240825 - Copy.xlsx	MPST000141__Data analysis_QC2_lowess_20240825 - Copy__Matrix PCA Non and Vol Liquor.mztab	20	178			none	ok
+MPST000141__QC2_Data Analysis_20241125 - Copy#Height	MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	MPST000141__QC2_Data Analysis_20241125 - Copy__Height.mztab	58	454			none	ok
+MPST000141__QC2_Data Analysis_20241125 - Copy#Manual annotation	MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	MPST000141__QC2_Data Analysis_20241125 - Copy__Manual annotation.mztab	60	454			none	ok
+MPST000141__QC2_Data Analysis_20241125 - Copy#Normalized	MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	MPST000141__QC2_Data Analysis_20241125 - Copy__Normalized.mztab	58	454			none	ok
+MPST000141__QC2_Data Analysis_20241125 - Copy#Blank filter and RSD	MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	MPST000141__QC2_Data Analysis_20241125 - Copy__Blank filter and RSD.mztab	60	454			none	ok
+MPST000141__QC2_Data Analysis_20241125 - Copy#Blank filter and RSD edited	MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	MPST000141__QC2_Data Analysis_20241125 - Copy__Blank filter and RSD edited.mztab	60	454			none	ok
+MPST000141__QC2_Data Analysis_20241125 - Copy#Good rsd and blank	MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	MPST000141__QC2_Data Analysis_20241125 - Copy__Good rsd and blank.mztab	60	317			none	ok
+MPST000141__QC2_Data Analysis_20241125 - Copy#Check double	MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	MPST000141__QC2_Data Analysis_20241125 - Copy__Check double.mztab	54	294			none	ok
+MPST000141__QC2_Data Analysis_20241125 - Copy#Matrix PCA without unknown	MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	MPST000141__QC2_Data Analysis_20241125 - Copy__Matrix PCA without unknown.mztab	54	93			none	ok
+MPST000141__QC2_Data Analysis_20241125 - Copy# Matrix PCA with unknown	MPST000141__QC2_Data Analysis_20241125 - Copy.xlsx	MPST000141__QC2_Data Analysis_20241125 - Copy__ Matrix PCA with unknown.mztab	54	294			none	ok
+MPST000142	MPST000142.csv	MPST000142.mztab	65	3		negative	adduct ions	ok
+MPST000143	MPST000143.csv	MPST000143.mztab	46	273		negative	adduct ions	ok
+MPST000144	MPST000144.csv	MPST000144.mztab	3	213		negative	adduct ions	ok
+MPST000145	MPST000145.csv	MPST000145.mztab	26	6		negative	adduct ions	ok
+MPST000150__①ASA#result#Area	MPST000150__①ASA.xlsx	MPST000150__①ASA__result__Area.mztab	24	8			none	ok
+MPST000150__①ASA#result#Concentration (pmol)	MPST000150__①ASA.xlsx	MPST000150__①ASA__result__Concentration (pmol).mztab	24	8	pmol		none	ok
+MPST000150__②ASA+inhibitor(L-MS)#result#Area	MPST000150__②ASA+inhibitor(L-MS).xlsx	MPST000150__②ASA+inhibitor(L-MS)__result__Area.mztab	12	9			none	ok
+MPST000150__②ASA+inhibitor(L-MS)#result#Concentration (pmol)	MPST000150__②ASA+inhibitor(L-MS).xlsx	MPST000150__②ASA+inhibitor(L-MS)__result__Concentration (pmol).mztab	12	9	pmol		none	ok
+MPST000150__③ASA+inhibitor(V9302)#Result#Area	MPST000150__③ASA+inhibitor(V9302).xlsx	MPST000150__③ASA+inhibitor(V9302)__Result__Area.mztab	12	9			none	ok
+MPST000150__③ASA+inhibitor(V9302)#Result#Concentration (pmol)	MPST000150__③ASA+inhibitor(V9302).xlsx	MPST000150__③ASA+inhibitor(V9302)__Result__Concentration (pmol).mztab	12	9	pmol		none	ok
+MPST000154	MPST000154.csv	MPST000154.mztab	434	375			none	ok
+MPST000155	MPST000155.csv	MPST000155.mztab	431	132			none	ok
+MPST000160	MPST000160.csv	MPST000160.mztab	75	993		negative	adduct ions	ok
+MPST000167__Results_Chiral_AA_human	MPST000167__Results_Chiral_AA_human.xlsx	MPST000167__Results_Chiral_AA_human.mztab	7	44			none	ok
+MPST000167__Results_Chiral_AA_mouse_100-fold dilution	MPST000167__Results_Chiral_AA_mouse_100-fold dilution.xlsx	MPST000167__Results_Chiral_AA_mouse_100-fold dilution.mztab	16	44			none	ok
+MPST000167__Results_Chiral_AA_mouse_no dilution	MPST000167__Results_Chiral_AA_mouse_no dilution.xlsx	MPST000167__Results_Chiral_AA_mouse_no dilution.mztab	16	44			none	ok
+MPST000172__Results_Bile acid_human	MPST000172__Results_Bile acid_human.xlsx	MPST000172__Results_Bile acid_human.mztab	6	38			none	ok
+MPST000172__Results_Bile acid_mouse_200-fold dilution	MPST000172__Results_Bile acid_mouse_200-fold dilution.xlsx	MPST000172__Results_Bile acid_mouse_200-fold dilution.mztab	8	1			none	ok
+MPST000172__Results_Bile acid_mouse_no dilution	MPST000172__Results_Bile acid_mouse_no dilution.xlsx	MPST000172__Results_Bile acid_mouse_no dilution.mztab	16	38			none	ok
+MPST000173__Results_SCFAs_human_10-fold dilution	MPST000173__Results_SCFAs_human_10-fold dilution.xlsx	MPST000173__Results_SCFAs_human_10-fold dilution.mztab	9	1			none	ok
+MPST000173__Results_SCFAs_human_no dilution	MPST000173__Results_SCFAs_human_no dilution.xlsx	MPST000173__Results_SCFAs_human_no dilution.mztab	9	23			none	ok
+MPST000173__Results_SCFAs_mouse	MPST000173__Results_SCFAs_mouse.xlsx	MPST000173__Results_SCFAs_mouse.mztab	16	23			none	ok
+MPST000174__Results_PFPP_human	MPST000174__Results_PFPP_human.xlsx	MPST000174__Results_PFPP_human.mztab	7	99			none	ok
+MPST000174__Results_PFPP_mouse	MPST000174__Results_PFPP_mouse.xlsx	MPST000174__Results_PFPP_mouse.mztab	16	99			none	ok
+MPST000174__Results_ion-pair_human	MPST000174__Results_ion-pair_human.xlsx	MPST000174__Results_ion-pair_human.mztab	7	57			none	ok
+MPST000174__Results_ion-pair_mouse	MPST000174__Results_ion-pair_mouse.xlsx	MPST000174__Results_ion-pair_mouse.mztab	16	57			none	ok
+MPST000177__Results_GCMS_human	MPST000177__Results_GCMS_human.xlsx	MPST000177__Results_GCMS_human.mztab	6	140			none	ok
+MPST000177__Results_GCMS_mouse	MPST000177__Results_GCMS_mouse.xlsx	MPST000177__Results_GCMS_mouse.mztab	16	103			none	ok
+MPST000180__PC_PI_SM_human	MPST000180__PC_PI_SM_human.xlsx	MPST000180__PC_PI_SM_human.mztab	18	65			none	ok
+MPST000180__PG_PE_PS_human	MPST000180__PG_PE_PS_human.xlsx	MPST000180__PG_PE_PS_human.mztab	18	82			none	ok
+MPST000180__Phospholipids_mouse	MPST000180__Phospholipids_mouse.xlsx	MPST000180__Phospholipids_mouse.mztab	16	201			none	ok
+MPST000181__Lipid mediators_human	MPST000181__Lipid mediators_human.xlsx	MPST000181__Lipid mediators_human.mztab	14	112			none	ok
+MPST000181__Lipid mediators_mouse	MPST000181__Lipid mediators_mouse.xlsx	MPST000181__Lipid mediators_mouse.mztab	16	83			none	ok
+MPST000187__Height_0_20201221533_neg	MPST000187__Height_0_20201221533_neg.txt	MPST000187__Height_0_20201221533_neg.mztab	22	1419		negative	adduct ions	ok
+MPST000187__Height_0_20201221723_pos	MPST000187__Height_0_20201221723_pos.txt	MPST000187__Height_0_20201221723_pos.mztab	22	3202		positive	adduct ions	ok
+MPST000189__Height_0_20245232027_pos	MPST000189__Height_0_20245232027_pos.txt	MPST000189__Height_0_20245232027_pos.mztab	37	4062		positive	adduct ions	ok
+MPST000189__Height_0_20245232029_neg	MPST000189__Height_0_20245232029_neg.txt	MPST000189__Height_0_20245232029_neg.mztab	37	2050		negative	adduct ions	ok
+MPST000192#Fig.3	MPST000192.xlsx	MPST000192__Fig.3.mztab	18	14			none	ok
+MPST000192#Fig.4	MPST000192.xlsx	MPST000192__Fig.4.mztab	60	14			none	ok
+MPST000192#Fig.5	MPST000192.xlsx	MPST000192__Fig.5.mztab	90	14			none	ok
+MPST000192#Fig.6	MPST000192.xlsx	MPST000192__Fig.6.mztab	68	14			none	ok
+MPST000192#Fig.7	MPST000192.xlsx	MPST000192__Fig.7.mztab	51	23			none	ok
+MPST000197__Supplementary Table_Lipidomics#Molecules_Negative-ion mode	MPST000197__Supplementary Table_Lipidomics.xlsx	MPST000197__Supplementary Table_Lipidomics__Molecules_Negative-ion mode.mztab	18	387		negative	name	ok
+MPST000197__Supplementary Table_Lipidomics#Molecules_Positive ion mode	MPST000197__Supplementary Table_Lipidomics.xlsx	MPST000197__Supplementary Table_Lipidomics__Molecules_Positive ion mode.mztab	18	209		positive	name	ok
+MPST000197__Supplementary Table_Lipidomics#Lipid class level	MPST000197__Supplementary Table_Lipidomics.xlsx	MPST000197__Supplementary Table_Lipidomics__Lipid class level.mztab	18	42			none	ok
+MPST000197__Supplementary Table_Lipidomics#CoA-Car比	MPST000197__Supplementary Table_Lipidomics.xlsx	MPST000197__Supplementary Table_Lipidomics__CoA-Car比.mztab	15	67			none	ok
+MPST000197__Supplementary Table_Metabolomics#GC-MS	MPST000197__Supplementary Table_Metabolomics.xlsx	MPST000197__Supplementary Table_Metabolomics__GC-MS.mztab	17	77			none	ok
+MPST000197__Supplementary Table_Metabolomics#IC-MS	MPST000197__Supplementary Table_Metabolomics.xlsx	MPST000197__Supplementary Table_Metabolomics__IC-MS.mztab	17	30			none	ok
+MPST000213__Final_Spectra_Matrix	MPST000213__Final_Spectra_Matrix.xlsx	MPST000213__Final_Spectra_Matrix.mztab	123	3567			none	ok
+MPST000218__Quantitative_Table_Anion	MPST000218__Quantitative_Table_Anion.xlsx	MPST000218__Quantitative_Table_Anion.mztab	32	238	µM		none	ok
+MPST000218__Quantitative_Table_Cation	MPST000218__Quantitative_Table_Cation.xlsx	MPST000218__Quantitative_Table_Cation.mztab	32	274	µM		none	ok
+MPST000222__FMT_plus_bacteria_results	MPST000222__FMT_plus_bacteria_results.xlsx	MPST000222__FMT_plus_bacteria_results.mztab	14	514			none	ok
+MPST000222__Infant1_results	MPST000222__Infant1_results.xlsx	MPST000222__Infant1_results.mztab	22	515			none	ok
+MPST000222__Infant2-4_results	MPST000222__Infant2-4_results.xlsx	MPST000222__Infant2-4_results.mztab	39	514			none	ok
+MPST000222__cecum_results	MPST000222__cecum_results.xlsx	MPST000222__cecum_results.mztab	8	514			none	ok
